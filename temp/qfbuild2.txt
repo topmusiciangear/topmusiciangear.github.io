@@ -1,0 +1,13 @@
+'</span>' +
+                '<div class="qf-text">' +
+                  '<div class="qf-value">' + (f.value || '') + '</div>' +
+                  '<div class="qf-label">' + (lbl || '') + '</div>' +
+                '</div>' +
+              '</div>';
+            }).join('') +
+          '</div>';
+        }
+      }
+      var sectionVideo = s.video || (firstProduct && firstProduct.video) || null;
+      if (isFirstNew && sectionVideo) {
+        const vt = isEs && firstProduct.title_es ? firstProduct.t

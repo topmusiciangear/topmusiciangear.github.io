@@ -1,0 +1,2 @@
+﻿call at line 6447 gin-top:1px">' + label + '</div>' +   '</div>'; }  function productCard(p, lang) {   const isEs = la
+call at line 6965 onst p = products.find(pr => pr.id === pid);     return p ? productCard(p, lang) : '';   }).join('')

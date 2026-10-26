@@ -1,0 +1,16 @@
+﻿guide-section-quickfacts count: 0
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --accent: #3b82f6;
+  --accent-dark: #2563eb;
+  --accent-light: #dbeafe;
+  --accent-glow: rgba(59, 130, 246, 0.2);
+  --accent-glow-strong: rgba(59, 130, 246, 0.35);
+  --bg: #0d0d0d;
+  --bg-secondary: #141414;
+

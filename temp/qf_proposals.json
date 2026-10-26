@@ -1,0 +1,764 @@
+{
+ "1": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": [
+   "180 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "2": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Figure-8",
+  "third": [
+   "12 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "3": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "4": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "9 patterns",
+  "third": [
+   "6 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "5": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "50": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "51": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "52": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Multi-pattern",
+  "third": null
+ },
+ "91": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": [
+   "UHF",
+   "Band",
+   "wave"
+  ]
+ },
+ "92": {
+  "incomplete": true,
+  "type": null,
+  "pattern": "Cardioid"
+ },
+ "93": {
+  "incomplete": false,
+  "type": "Wireless",
+  "pattern": "Cardioid",
+  "third": [
+   "UHF",
+   "Band",
+   "wave"
+  ]
+ },
+ "95": {
+  "incomplete": true,
+  "type": null,
+  "pattern": "Cardioid"
+ },
+ "187": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "194": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "195": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "196": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "20 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "197": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "206": {
+  "incomplete": false,
+  "type": "Ribbon",
+  "pattern": "Figure-8",
+  "third": [
+   "160 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "207": {
+  "incomplete": false,
+  "type": "Ribbon",
+  "pattern": "Figure-8",
+  "third": null
+ },
+ "208": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "13 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "209": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Multi-pattern",
+  "third": [
+   "9 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "210": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Supercardioid",
+  "third": null
+ },
+ "211": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Hypercardioid",
+  "third": null
+ },
+ "212": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Supercardioid",
+  "third": [
+   "174 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "213": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": [
+   "144 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "214": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": [
+   "160 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "215": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Supercardioid",
+  "third": [
+   "23 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "226": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Supercardioid",
+  "third": [
+   "140 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "227": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "228": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Supercardioid",
+  "third": null
+ },
+ "229": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Supercardioid",
+  "third": null
+ },
+ "230": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Supercardioid",
+  "third": [
+   "147 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "231": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Hypercardioid",
+  "third": null
+ },
+ "232": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Supercardioid",
+  "third": [
+   "140 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "249": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "250": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "251": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "252": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "253": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "254": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "276": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": [
+   "148 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "277": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": [
+   "130 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "278": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": [
+   "130 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "279": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": [
+   "16-bit/48 kHz",
+   "Sample rate",
+   "sliders"
+  ]
+ },
+ "280": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Supercardioid",
+  "third": [
+   "24-bit/96 kHz",
+   "Sample rate",
+   "sliders"
+  ]
+ },
+ "281": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "284": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "286": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "287": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "289": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "290": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "291": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "292": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "24-bit/48 kHz",
+   "Sample rate",
+   "sliders"
+  ]
+ },
+ "297": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "4 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "298": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "148 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "299": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "321": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "329": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "330": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "339": {
+  "incomplete": true,
+  "type": "Condenser",
+  "pattern": null
+ },
+ "340": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "341": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "342": {
+  "incomplete": true,
+  "type": "Condenser",
+  "pattern": null
+ },
+ "343": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "344": {
+  "incomplete": true,
+  "type": "Condenser",
+  "pattern": null
+ },
+ "345": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "346": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "358": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "359": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "360": {
+  "incomplete": true,
+  "type": "Condenser",
+  "pattern": null
+ },
+ "364": {
+  "incomplete": false,
+  "type": "Ribbon",
+  "pattern": "Hypercardioid",
+  "third": [
+   "125 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "365": {
+  "incomplete": false,
+  "type": "Ribbon",
+  "pattern": "Figure-8",
+  "third": [
+   "135 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "366": {
+  "incomplete": false,
+  "type": "Ribbon",
+  "pattern": "Figure-8",
+  "third": [
+   "130 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "429": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "24-bit/48 kHz",
+   "Sample rate",
+   "sliders"
+  ]
+ },
+ "430": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "16-bit/48 kHz",
+   "Sample rate",
+   "sliders"
+  ]
+ },
+ "431": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Supercardioid",
+  "third": null
+ },
+ "432": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "433": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": [
+   "140 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "434": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "130 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "435": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "436": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": [
+   "127 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "437": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": null
+ },
+ "438": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "136 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "439": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "504": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "505": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "506": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "508": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "509": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "510": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "511": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "518": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "635": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Cardioid",
+  "third": [
+   "140 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "636": {
+  "incomplete": false,
+  "type": "Dynamic",
+  "pattern": "Supercardioid",
+  "third": null
+ },
+ "652": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "7 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "654": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "7 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "655": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "15 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "656": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Multi-pattern",
+  "third": [
+   "140 dB",
+   "Max SPL",
+   "gauge"
+  ]
+ },
+ "657": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "8 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "666": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "670": {
+  "incomplete": true,
+  "type": null,
+  "pattern": null
+ },
+ "672": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "19 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "673": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "18 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "674": {
+  "incomplete": false,
+  "type": "Condenser",
+  "pattern": "Cardioid",
+  "third": [
+   "12 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ },
+ "675": {
+  "incomplete": false,
+  "type": "Ribbon",
+  "pattern": "Figure-8",
+  "third": [
+   "23 dB-A",
+   "Self-noise",
+   "volumeHigh"
+  ]
+ }
+}

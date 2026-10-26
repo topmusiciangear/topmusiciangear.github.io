@@ -1,0 +1,2 @@
+﻿.\js\icons.js 16986 0 0 496 512' } };   function icon(name, className) {     var keys = Object.keys(
+.\scripts\download-icons.js 2828   output += 'window.icon = function(name, className) {\n';   output += '  var c 

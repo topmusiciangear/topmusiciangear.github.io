@@ -1,0 +1,5 @@
+src = open('build-guides.js', encoding='utf-8').read()
+i = src.find('flex-direction:row;align-items:center;gap:6px')
+print(repr(src[i-120:i+60]))
+print('---count---')
+print(src.count('flex-direction:row;align-items:center;gap:6px'))

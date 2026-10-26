@@ -47,11 +47,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "180+ dB",
+        "icon": "freq",
+        "value": "50 Hz–20 kHz",
         "label": {
-          "en": "Max SPL",
-          "es": "SPL máx."
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -279,11 +279,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "150+ dB",
+        "icon": "freq",
+        "value": "40 Hz–15 kHz",
         "label": {
-          "en": "Max SPL",
-          "es": "SPL máx."
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -982,11 +982,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "150+ dB",
+        "icon": "freq",
+        "value": "50 Hz–15 kHz",
         "label": {
-          "en": "Max SPL",
-          "es": "SPL máx."
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -1040,11 +1040,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "146 dB",
+        "icon": "freq",
+        "value": "30 Hz–17 kHz",
         "label": {
-          "en": "Max SPL",
-          "es": "SPL máx."
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -1098,11 +1098,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "146 dB",
+        "icon": "freq",
+        "value": "45 Hz–18 kHz",
         "label": {
-          "en": "Max SPL",
-          "es": "SPL máx."
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -4212,10 +4212,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "USB",
+        "value": "130 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -4269,7 +4269,7 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "20 dB",
+        "value": "20 dB-A",
         "label": {
           "en": "Self-noise",
           "es": "Ruido propio"
@@ -4327,11 +4327,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "USB/XLR",
+        "icon": "freq",
+        "value": "50 Hz–15 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -4833,11 +4833,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "150+ dB",
+        "icon": "freq",
+        "value": "40 Hz–18 kHz",
         "label": {
-          "en": "Max SPL",
-          "es": "SPL máx."
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -4891,11 +4891,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "146 dB",
+        "icon": "freq",
+        "value": "40 Hz–18 kHz",
         "label": {
-          "en": "Max SPL",
-          "es": "SPL máx."
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -5121,10 +5121,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "142 dB",
+        "value": "23 dB-A",
         "label": {
-          "en": "Max SPL",
-          "es": "SPL máx."
+          "en": "Self-noise",
+          "es": "Ruido propio"
         },
         "tone": "good"
       }
@@ -5315,11 +5315,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "150+ dB",
+        "icon": "freq",
+        "value": "50 Hz–16 kHz",
         "label": {
-          "en": "Max SPL",
-          "es": "SPL máx."
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -5373,11 +5373,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "150+ dB",
+        "icon": "freq",
+        "value": "40 Hz–18 kHz",
         "label": {
-          "en": "Max SPL",
-          "es": "SPL máx."
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -5431,11 +5431,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "150+ dB",
+        "icon": "freq",
+        "value": "40 Hz–18 kHz",
         "label": {
-          "en": "Max SPL",
-          "es": "SPL máx."
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -5490,7 +5490,7 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "146 dB",
+        "value": "135 dB",
         "label": {
           "en": "Max SPL",
           "es": "SPL máx."
@@ -5665,7 +5665,7 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "143 dB",
+        "value": "134 dB",
         "label": {
           "en": "Max SPL",
           "es": "SPL máx."
@@ -6297,11 +6297,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "USB",
+        "icon": "freq",
+        "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -6921,10 +6921,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "USB/XLR",
+        "value": "148 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -6980,10 +6980,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "USB/XLR",
+        "value": "130 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -7038,10 +7038,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "USB/XLR",
+        "value": "130 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -7096,11 +7096,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "USB",
+        "icon": "freq",
+        "value": "50 Hz–16 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -7155,11 +7155,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "USB",
+        "icon": "freq",
+        "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -7273,11 +7273,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "USB",
+        "icon": "freq",
+        "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -7387,11 +7387,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "USB",
+        "icon": "freq",
+        "value": "100 Hz–16 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -7446,11 +7446,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "USB",
+        "icon": "freq",
+        "value": "60 Hz–18 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -7626,11 +7626,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "USB",
+        "icon": "freq",
+        "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -8515,11 +8515,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "USB/XLR",
+        "icon": "freq",
+        "value": "50 Hz–20 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -8748,11 +8748,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "XLR",
+        "icon": "freq",
+        "value": "50 Hz–15 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -8992,10 +8992,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "130 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -9050,10 +9050,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "130 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -9106,10 +9106,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "130 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -9163,10 +9163,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "132 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -9219,10 +9219,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "129 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -9271,10 +9271,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "130 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -9329,10 +9329,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "USB/XLR",
+        "value": "120 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -9385,10 +9385,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "3.5mm",
+        "value": "132 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -9667,10 +9667,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "126 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -9719,10 +9719,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "USB/3.5mm",
+        "value": "120 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -9775,10 +9775,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "14 dB-A",
+        "value": "134 dB",
         "label": {
-          "en": "Self-noise",
-          "es": "Ruido propio"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -9900,7 +9900,7 @@
       },
       {
         "icon": "wave",
-        "value": "Figure-8",
+        "value": "Hypercardioid",
         "label": {
           "en": "Pattern",
           "es": "Patrón"
@@ -9909,7 +9909,7 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "130 dB",
+        "value": "125 dB",
         "label": {
           "en": "Max SPL",
           "es": "SPL máx."
@@ -11264,11 +11264,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "USB",
+        "icon": "freq",
+        "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11313,11 +11313,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "USB/XLR",
+        "icon": "freq",
+        "value": "20 Hz–20 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11367,11 +11367,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "XLR",
+        "icon": "freq",
+        "value": "40 Hz–19 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11416,11 +11416,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "XLR",
+        "icon": "freq",
+        "value": "50 Hz–15 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11469,10 +11469,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "USB/XLR",
+        "value": "140 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -11503,31 +11503,28 @@
     },
     "facts": [
       {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        }
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        }
+      },
+      {
         "icon": "volumeHigh",
-        "value": "-20 dB",
-        "label": {
-          "en": "Pad",
-          "es": "Pad"
-        },
-        "tone": "good"
-      },
-      {
-        "icon": "sineWave",
-        "value": "300 Hz",
-        "label": {
-          "en": "Bass cut",
-          "es": "Corte de graves"
-        },
-        "tone": "good"
-      },
-      {
-        "icon": "gauge",
-        "value": "150 dB",
+        "value": "130 dB",
         "label": {
           "en": "Max SPL",
           "es": "SPL máx."
-        },
-        "tone": "good"
+        }
       }
     ]
   },
@@ -11572,11 +11569,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "XLR",
+        "icon": "freq",
+        "value": "50 Hz–18 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11622,10 +11619,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "USB/XLR",
+        "value": "127 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -11670,11 +11667,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "XLR",
+        "icon": "freq",
+        "value": "50 Hz–16 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -11725,10 +11722,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "136 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -13387,7 +13384,7 @@
     "facts": [
       {
         "icon": "microphone",
-        "value": "Dynamic",
+        "value": "Condenser",
         "label": {
           "en": "Type",
           "es": "Tipo"
@@ -13405,10 +13402,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "USB/XLR",
+        "value": "Wireless",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Transmission",
+          "es": "Transmisión"
         },
         "tone": "good"
       }
@@ -13463,7 +13460,7 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "UHF",
+        "value": "1.9 GHz",
         "label": {
           "en": "Band",
           "es": "Banda"
@@ -13521,7 +13518,7 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "UHF",
+        "value": "1.9 GHz",
         "label": {
           "en": "Band",
           "es": "Banda"
@@ -13579,7 +13576,7 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "UHF",
+        "value": "1.9 GHz",
         "label": {
           "en": "Band",
           "es": "Banda"
@@ -15678,10 +15675,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "140 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -15731,11 +15728,11 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
-        "value": "XLR",
+        "icon": "freq",
+        "value": "50 Hz–16 kHz",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Frequency range",
+          "es": "Rango de frecuencia"
         },
         "tone": "good"
       }
@@ -16199,10 +16196,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "15 dB-A",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Self-noise",
+          "es": "Ruido propio"
         },
         "tone": "good"
       }
@@ -16253,10 +16250,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "USB/XLR",
+        "value": "140 dB",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Max SPL",
+          "es": "SPL máx."
         },
         "tone": "good"
       }
@@ -16307,7 +16304,7 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "16 dB-A",
+        "value": "8 dB-A",
         "label": {
           "en": "Self-noise",
           "es": "Ruido propio"
@@ -16626,10 +16623,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "19 dB-A",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Self-noise",
+          "es": "Ruido propio"
         },
         "tone": "good"
       }
@@ -16685,10 +16682,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "18 dB-A",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Self-noise",
+          "es": "Ruido propio"
         },
         "tone": "good"
       }
@@ -16741,10 +16738,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "12 dB-A",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Self-noise",
+          "es": "Ruido propio"
         },
         "tone": "good"
       }
@@ -16779,7 +16776,7 @@
     "facts": [
       {
         "icon": "microphone",
-        "value": "Condenser",
+        "value": "Ribbon",
         "label": {
           "en": "Type",
           "es": "Tipo"
@@ -16788,7 +16785,7 @@
       },
       {
         "icon": "wave",
-        "value": "Cardioid",
+        "value": "Figure-8",
         "label": {
           "en": "Pattern",
           "es": "Patrón"
@@ -16797,10 +16794,10 @@
       },
       {
         "icon": "volumeHigh",
-        "value": "XLR",
+        "value": "23 dB-A",
         "label": {
-          "en": "Output",
-          "es": "Salida"
+          "en": "Self-noise",
+          "es": "Ruido propio"
         },
         "tone": "good"
       }

@@ -6887,6 +6887,9 @@ function buildGuidePage(guide, lang, idx) {
             if (name === 'gauge') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M3 14 A 9 9 0 0 1 21 14"/><line x1="12" y1="14" x2="17" y2="6" stroke-width="2"/></svg>';
             }
+            if (name === 'freq') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><line x1="4" y1="14" x2="4" y2="8"/><line x1="12" y1="14" x2="12" y2="3"/><line x1="20" y1="14" x2="20" y2="6"/></svg>';
+            }
             return icon(name, 'fa-solid');
           }
           const _cardBase = 'background:#22252c;border-radius:8px;padding:4px 6px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:2px;overflow:hidden;';

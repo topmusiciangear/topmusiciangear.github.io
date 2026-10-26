@@ -1,0 +1,27 @@
+﻿=== 330 desc_es out 20 src 96 | Behringer XM8500 Ultravoice Dynamic Microphone
+SRC: El XM8500 es el famoso dinßmico que te da gran parte de un SM58 por una cuarta parte del precio: un micr¾fono vocal de bobina m¾vil cardioide con un fuerte realce de presencia que corta las mezclas en directo, filtro antipop de dos etapas integrado, suspensi¾n antigolpes y un cuerpo totalmente metßlico tipo tanque con estuche resistente a impactos y adaptador de soporte incluidos. Se conecta por XLR sin phantom a cualquier interfaz o mesa ù combÝnalo con una interfaz barata y es la forma mßs econ¾mica de conseguir una cadena vocal de sonido realmente profesional.
+OUT: El XM8500 es el famoso dinßmico que te da gran parte de un SM58 por una cuarta parte del precio.
+
+=== 372 desc_es out 20 src 64 | Genelec 8030C
+SRC: Un monitor nearfield biamplificado compacto con la caja de aluminio fundido MDE de Genelec y la guÝa de onda DCW. El woofer de 5 pulgadas y tweeter de c·pula metßlica de 3/4 de pulgada ofrecen 104 dB SPL con una respuesta de 45 Hz a 25 kHz y precisi¾n de ▒2 dB ù el estßndar de referencia para estudios profesionales en todo el mundo.
+OUT: Un monitor nearfield biamplificado compacto con la caja de aluminio fundido MDE de Genelec y la guÝa de onda DCW.
+
+=== 267 desc_es out 26 src 92 | Shure PSM300
+SRC: El Shure PSM300 es un sistema profesional de monitoreo in-ear estÚreo con un transmisor P3T de un canal, receptor de bolsillo metßlico P3RA y auriculares SE215. Transmite audio digital de 24-bit sobre un enlace RF anal¾gico s¾lido de hasta 300 ft (90 m) con respuesta de 38 Hz-15 kHz, relaci¾n se±al-ruido superior a 90 dB y <0.5% de THD gracias a Audio Reference Companding, ofrece escaneo con un solo toque y sincronizaci¾n IR para una configuraci¾n rßpida, y permite a cada intÚrprete crear su mezcla personal con MixMode o modo estÚreo real.
+OUT: El Shure PSM300 es un sistema profesional de monitoreo in-ear estÚreo con un transmisor P3T de un canal, receptor de bolsillo metßlico P3RA y auriculares SE215.
+
+=== 470 desc out 26 src 56 | ATC SCS120 Pro Active Studio Subwoofer
+python : Traceback (most recent call last):
+At line:1 char:48
++ ... iel\projects\topmusiciangear"; python temp/show_short.py 2>&1 | Out-F ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Daniel\projects\topmusiciangear\temp\show_short.py", line 8, in <module>
+    print('SRC:', t)
+  File "C:\Users\Daniel\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 246: character maps to <undefined>
+SRC: 

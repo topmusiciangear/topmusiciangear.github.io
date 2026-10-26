@@ -1,0 +1,39 @@
+﻿=== 557 desc_es 102
+  S0 6 "El Katana 50 listo para escenario."
+  S1 58 "El EX Gen 3 mantiene 50 vatios con un altavoz de 12 pulgadas"
+  S2 38 "Seis caracteres con el nuevo Pushed al borde de la rotura (c"
+  OUT: "El Katana 50 listo para escenario."
+  CUTS S1: [
+  [ 90, 1, 19, '"de escenario y a├▒ade lo "' ],
+  [ 150, 3, 30, '"ban en falta: soporte co"' ],
+  [ 187, 1, 35, '"aleras GA-FC y GA-FC EX,"' ],
+  [ 198, 1, 38, '"C y GA-FC EX, salida de "' ],
+  [ 237, 1, 45, '"para la mesa, Stereo Exp"' ],
+  [ 283, 1, 52, '"gundo Katana y Power Amp"' ]
+]
+=== 488 desc_es 79
+  S0 12 "Sistema de amplificador personal inal├ímbrico para guitarra: "
+  S1 5 "Pensado para practicar en silencio."
+  S2 38 "5 tipos de amplificador derivados de la serie Katana de esce"
+  S3 24 "Streaming Bluetooth para tocar con canciones, drivers de 50 "
+  OUT: "Sistema de amplificador personal inal├ímbrico para guitarra: auriculares over-ear con transmisor WL-T. Pensado para practicar en silencio."
+  CUTS S1: []
+=== 330 desc_es 96
+  S0 64 "El XM8500 es el famoso din├ímico que te da gran parte de un S"
+  S1 32 "Se conecta por XLR sin phantom a cualquier interfaz o mesa ÔÇö"
+  OUT: "El XM8500 es el famoso din├ímico que te da gran parte de un SM58 por una cuarta parte del precio."
+  CUTS S1: [
+  [ 51, 1, 9, '"ier interfaz o mesa ÔÇö co"' ],
+  [ 58, 2, 11, '"erfaz o mesa ÔÇö comb├¡nalo"' ],
+  [ 94, 1, 17, '"erfaz barata y es la for"' ]
+]
+=== 470 desc 56
+  S0 26 "Hand-built in England, the SCS120 Pro is a sealed reference "
+  S1 30 "No DSP and no room correction ÔÇö just fast, articulate low en"
+  OUT: "Hand-built in England, the SCS120 Pro is a sealed reference subwoofer driving a 15-inch (375 mm) SS75-375SC driver with 300W of convection-cooled MOSFET Class AB power."
+  CUTS S1: [
+  [ 6, 1, 2, '"No DSP and no room"' ],
+  [ 29, 2, 6, '"m correction ÔÇö just fast"' ],
+  [ 41, 1, 9, '" ÔÇö just fast, articulate"' ],
+  [ 134, 1, 27, '"ontrol rooms and immersi"' ]
+]

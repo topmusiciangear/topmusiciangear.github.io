@@ -1,0 +1,7555 @@
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+const { icon } = require('./js/icons.js');
+
+function normHead(s) {
+  return (s || '').toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
+}
+const STOP_TOKENS = new Set(['audio','pro','live','series','edition','mk','the','and','vs','for','your','studio','best','what','which','with','from','how','why','es','el','la','los','las','para','una','un','mejor','del','de','y','o','a','en','que','como','cuando','donde','cual','son','se','su','this','that','are','is','do','does','should','buy','get','use','system','wireless','digital','microphone','mic','interface','monitor','monitors','guitar','bass','drums','piano','synth','pedal','pedals','speaker','speakers','mixer','mixers','headphones','keyboard','keyboards','amp','amps','preamp','console','software','usb','pair']);
+function prodTokens(p) {
+  const t = normHead((p.title || '') + ' ' + (p.brand || ''));
+  return t.split(' ').filter(function (w) { return w.length > 2 && !STOP_TOKENS.has(w); });
+}
+function sectionTopicProduct(s, prods) {
+  const head = normHead((s.heading_es || '') + ' ' + (s.heading || ''));
+  let best = null, bestCount = 0;
+  prods.forEach(function (p) {
+    const toks = prodTokens(p);
+    const count = topicScore(head, toks);
+    if (count > bestCount) { best = p; bestCount = count; }
+  });
+  return bestCount > 0 ? best : (prods.length ? prods[0] : null);
+}
+
+function topicScore(head, toks) {
+  var s = 0;
+  toks.forEach(function (t) {
+    if (head.indexOf(t) > -1) s += /[0-9]/.test(t) ? 3 : 1;
+  });
+  return s;
+}
+
+var TMG_STORE_NAMES = { amazon: 'Amazon', zzounds: 'zZounds', gear4music: 'Gear4Music', andertons: 'Andertons', musicstore: 'Music Store', reverb: 'Reverb', pluginboutique: 'Plugin Boutique', hollyland: 'Hollyland', official: 'Official Store' };
+var TMG_CAT_NAMES = {
+  microphones: ['Microphones', 'Micrófonos'], strings: ['Strings', 'Cuerdas'],
+  keyboards: ['Keyboards', 'Teclados'], interfaces: ['Interfaces', 'Interfaces'],
+  monitors: ['Monitors', 'Monitores'], headphones: ['Headphones', 'Auriculares'],
+  'drum-machine': ['Drum Machines', 'Máquinas de batería'], guitars: ['Guitars', 'Guitarras'],
+  basses: ['Basses', 'Bajos'], tres: ['Cuban Tres', 'Tres Cubano'],
+  plugins: ['Plugins', 'Plugins'], accessories: ['Accessories', 'Accesorios'],
+  amps: ['Amps', 'Amplificadores'], pedals: ['Pedales', 'Pedales'],
+  live_sound: ['Live Sound', 'Sonido en vivo'], mixers: ['Mixers', 'Mezcladores'],
+  daw: ['DAW', 'DAW'], streaming: ['Streaming & Creators', 'Streaming y creadores'],
+  production: ['Top Gear', 'Top Gear']
+};
+function tmgCatCrumb(cat, isEs) {
+  var e = TMG_CAT_NAMES[cat];
+  var name = e ? (isEs ? e[1] : e[0]) : String(cat || '').replace(/_/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
+  var url = (isEs ? '/es/' : '/') + '?cat=' + encodeURIComponent(cat || '') + '#guides';
+  return { name: name, url: url };
+}
+function tmgPriceParts(priceStr) {
+  if (!priceStr) return null;
+  var num = parseFloat(String(priceStr).replace(/[,]/g, '').replace(/[^0-9.]/g, ''));
+  if (!isFinite(num)) return null;
+  return { price: num, priceCurrency: String(priceStr).indexOf('€') > -1 ? 'EUR' : String(priceStr).indexOf('£') > -1 ? 'GBP' : 'USD' };
+}
+// Multi-store offers for SEO: one Offer per store (with seller + real availability)
+// plus an AggregateOffer (low/high/count) over the largest same-currency group.
+function tmgOffers(p, fallbackUrl) {
+  var cfg = (typeof TEST_SHOP_BTN !== 'undefined' ? TEST_SHOP_BTN[p.id] : null) || {};
+  var pr = cfg.prices || {};
+  var st = getResolvedStores(p);
+  var oos = cfg.oos || [], na = cfg.na || [];
+  var isHolly = !!st.hollyland;
+  var offers = [];
+  function pushOffer(storeKey, rawUrl, priceStr) {
+    var url = storeKey === 'hollyland' ? wrapAffiliate('hollyland', rawUrl || '') : wrapAffiliate(storeKey, rawUrl || '');
+    if (!url) return;
+    var o = { "@type": "Offer", "availability": (oos.indexOf(storeKey) > -1 || na.indexOf(storeKey) > -1) ? "https://schema.org/OutOfStock" : "https://schema.org/InStock", "url": url };
+    var pp = tmgPriceParts(priceStr);
+    if (pp) { o.price = pp.price; o.priceCurrency = pp.priceCurrency; }
+    if (TMG_STORE_NAMES[storeKey]) o.seller = { "@type": "Organization", "name": TMG_STORE_NAMES[storeKey] };
+    offers.push(o);
+  }
+  if (isHolly) {
+    var holly = hollyPickEntry(cfg, hollyDefaultRegion());
+    pushOffer('hollyland', holly ? holly.u || '' : '', holly ? holly.p || '' : '');
+  } else {
+    ['amazon', 'zzounds', 'gear4music', 'andertons', 'musicstore', 'reverb', 'pluginboutique'].forEach(function(k) {
+      if (k === 'amazon' && p.category === 'plugins') return;
+      var u = (cfg.urls && cfg.urls[k]) || st[k] || '';
+      if (!u) return;
+      pushOffer(k, u, pr[k] || '');
+    });
+  }
+  // Google rejects Offers without price: only priced offers are emitted.
+  // Products with no verified price get no offers key (valid, just no snippet).
+  var priced = offers.filter(function(o) { return isFinite(o.price); });
+  if (!priced.length) return null;
+  if (priced.length >= 2) {
+    var groups = {};
+    priced.forEach(function(o) { (groups[o.priceCurrency] = groups[o.priceCurrency] || []).push(o); });
+    var gkeys = Object.keys(groups).sort(function(a, b) {
+      if (groups[b].length !== groups[a].length) return groups[b].length - groups[a].length;
+      if (a === 'USD') return -1; if (b === 'USD') return 1; return 0;
+    });
+    var g = groups[gkeys[0]];
+    var nums = g.map(function(o) { return o.price; });
+    return [{ "@type": "AggregateOffer", "offerCount": g.length, "lowPrice": Math.min.apply(null, nums), "highPrice": Math.max.apply(null, nums), "priceCurrency": gkeys[0] }].concat(priced);
+  }
+  return priced[0];
+}
+
+function criticalCss() {
+  return [
+    '@font-face{font-family:Inter;src:url(/fonts/Inter.woff2) format("woff2");font-display:swap;font-weight:400 900;font-style:normal}',
+    '*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}',
+    ':root{--accent:#3b82f6;--accent-dark:#2563eb;--accent-light:#dbeafe;--accent-glow:rgba(59,130,246,0.2);--accent-glow-strong:rgba(59,130,246,0.35);--bg:#0d0d0d;--bg-secondary:#141414;--bg-card:#1a1a1a;--bg-card-hover:#222;--surface:#1e1e1e;--surface-light:#2a2a2a;--border:#2a2a2a;--border-light:#333;--text:#f0f0f0;--text-secondary:#a0a0a0;--text-muted:#909090;--white:#fff;--shadow-sm:0 1px 3px rgba(0,0,0,.3);--shadow:0 4px 12px rgba(0,0,0,.4);--shadow-md:0 8px 24px rgba(0,0,0,.5);--shadow-lg:0 16px 40px rgba(0,0,0,.5);--shadow-xl:0 24px 60px rgba(0,0,0,.6);--radius-sm:6px;--radius:10px;--radius-lg:14px;--radius-xl:18px;--transition:opacity .25s cubic-bezier(.4,0,.2,1),transform .25s cubic-bezier(.4,0,.2,1),filter .25s cubic-bezier(.4,0,.2,1)}',
+    'html{scroll-behavior:smooth;background:#0d0d0d;margin:0!important;padding:0!important;scrollbar-width:thin;scrollbar-color:var(--accent) var(--surface)}',
+    '::-webkit-scrollbar{width:10px;height:10px}::-webkit-scrollbar-track{background:var(--surface)}::-webkit-scrollbar-thumb{background:var(--accent);border-radius:6px}::-webkit-scrollbar-thumb:hover{background:var(--accent-dark)}',
+    'body{margin:0!important;padding:0!important;font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}',
+    'a{text-decoration:none;color:inherit}',
+    'img{max-width:100%;display:block}',
+    '.skip-link{position:absolute;left:-9999px;top:0;z-index:9999;padding:8px 16px;background:var(--accent);color:#fff;font-size:14px;text-decoration:none;border-radius:0 0 6px 0}',
+    '.skip-link:focus{left:0}',
+    'header{background:#0d0d0d;border-bottom:1px solid var(--border);z-index:100;position:-webkit-sticky;position:sticky;top:0!important;margin:0!important;padding:0!important}',
+    '.header-inner{max-width:100%;margin:0;padding:0 12px;display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}',
+    '.header-left{display:flex;align-items:center;gap:24px;flex-shrink:0}',
+    '.header-right{display:flex;align-items:center;gap:6px;flex-shrink:0}',
+    '.header-social{display:flex;align-items:center;gap:2px}.header-social .header-social-link{font-size:15px;color:var(--text-secondary)}.header-social .header-social-link[title="YouTube"]{font-size:17px}.header-social .header-social-link .sb-icon{width:20px;height:20px;opacity:1;filter:brightness(0) invert(0.753)}.header-social .header-social-link .fiverr-icon{width:20px;height:20px;opacity:1;filter:brightness(0) invert(0.753)}',
+    '.logo{font-size:20px;font-weight:900;color:var(--white);text-decoration:none;display:flex;align-items:center;gap:10px;letter-spacing:-.5px;white-space:nowrap}',
+    '.logo-text{display:flex;flex-direction:column;line-height:1.2}',
+    '.logo-icon{width:36px;height:36px;background:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}',
+    '.header-tagline-bar{text-align:center;font-size:17px;font-weight:500;color:var(--text-muted);letter-spacing:.3px;padding:6px 16px}',
+    '.logo span{color:var(--accent)}',
+    'nav{display:flex;gap:4px;flex:1}',
+    '.lang-switcher{display:flex;gap:3px;flex-shrink:0;margin-left:8px}',
+    '.header-social-link{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;color:var(--text-muted);font-size:12px;text-decoration:none}.header-social-link .sb-icon{width:14px;height:14px;opacity:0.55;filter:brightness(0) invert(1);transition:opacity 0.2s,filter 0.2s}.header-social-link .fiverr-icon{width:16px;height:16px;opacity:0.55;filter:brightness(0) invert(1);transition:opacity 0.2s,filter 0.2s}',
+'.lang-btn{display:flex;align-items:center;justify-content:center;padding:5px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-size:12px;font-weight:700;font-family:inherit;cursor:pointer;transition:opacity .25s cubic-bezier(.4,0,.2,1),transform .25s cubic-bezier(.4,0,.2,1),filter .25s cubic-bezier(.4,0,.2,1)}',
+'.lang-btn:hover{border-color:var(--accent)}',
+'.lang-btn.active{background:rgba(255,255,255,0.1);border-color:var(--white);color:var(--white)}',
+'.lang-flag{display:block;border-radius:2px;flex-shrink:0}',
+    '.nav-link{display:inline-flex;align-items:center;padding:8px 14px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;background:transparent;border:none;font-family:inherit;letter-spacing:.3px}',
+    '.nav-link.active{color:var(--accent);background:rgba(59,130,246,.1)}',
+    '.nav-dd{position:relative;display:inline-flex}.nav-dd-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:6px;color:var(--text-secondary);font-size:13px;font-weight:600;cursor:pointer;transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1),opacity 0.2s;white-space:nowrap;background:transparent;border:none;font-family:inherit;letter-spacing:.3px;-webkit-tap-highlight-color:transparent}.nav-dd-btn:hover{color:var(--accent)}.nav-dd-caret{display:inline-flex;width:12px;height:12px;color:currentColor;transition:transform 0.25s cubic-bezier(0.4,0,0.2,1);flex-shrink:0}.nav-dd.open .nav-dd-caret{transform:rotate(180deg)}.nav-dd-panel{position:absolute;top:calc(100% + 8px);left:14px;transform:translateY(-6px);min-width:160px;background:rgba(30,30,30,0.95);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-md);padding:6px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity 0.2s cubic-bezier(0.4,0,0.2,1),transform 0.2s cubic-bezier(0.4,0,0.2,1),visibility 0.2s;z-index:120}.nav-dd.open .nav-dd-panel{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}.nav-dd-link{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:6px;color:var(--white);font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap;transition:background 0.15s,color 0.15s}.nav-dd-link:hover{color:var(--accent)}.nav-dd-link-icon{width:18px;height:18px;flex-shrink:0;object-fit:contain}.nav-dd-mobile{display:none}.nav-dd-mobile .nav-dd-panel{left:14px;right:auto;transform:translateY(-6px)}.nav-dd-mobile.open .nav-dd-panel{transform:translateY(0)}',
+    'body>*:not(header):not(.skip-link):not(.bg-hero):not(.crawl-guides):not(#cookie-banner):not(#toast){position:relative;z-index:2}',
+    '.bg-hero{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;background-image:url("../img/me-600.webp");background-size:cover;background-position:center;opacity:.12}',
+'.hero{position:relative;z-index:2;overflow:hidden;padding:0 32px 60px;min-height:calc(100vh - 64px);box-shadow:inset 0 0 120px 60px rgba(0,0,0,.45)}',
+'.hero-inner{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:960px;margin:0 auto;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:calc(100vh - 64px)}',
+    '.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25);color:var(--accent);padding:6px 16px;border-radius:50px;font-size:12px;font-weight:700;margin-bottom:16px;letter-spacing:.5px;text-transform:uppercase}',
+    '.hero .hero-subtitle{font-size:clamp(48px,8vw,80px);font-weight:900;line-height:1.1;color:var(--white);margin-bottom:20px;letter-spacing:-1px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center;max-width:none}',
+    '.hero .hero-subtitle span{background:linear-gradient(135deg,var(--accent),#60a5fa,#93c5fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}',
+    '.hero p{font-size:clamp(16px,2vw,19px);color:var(--text-secondary);max-width:600px;margin:0 auto 32px;line-height:1.7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center}',
+    '.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}',
+    '.btn-primary{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--accent),#60a5fa);color:#fff;padding:14px 32px;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none}',
+    '.btn-secondary{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.06);color:var(--white);padding:14px 32px;border-radius:50px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid rgba(255,255,255,.1)}',
+    '.hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;padding:8px;cursor:pointer;position:relative;z-index:102}',
+    '.hamburger span{width:22px;height:2px;background:var(--text-secondary);border-radius:2px}',
+    '.mobile-nav{display:flex;flex-direction:column;gap:4px;position:fixed;top:0;right:16px;padding-top:16px;z-index:101;opacity:0;pointer-events:none}',
+    '.mobile-nav.open{opacity:1;pointer-events:auto}',
+    '.audio-mini{flex:1;display:flex;justify-content:center}.audio-mini-inner{display:flex;align-items:center;gap:12px;white-space:nowrap}.audio-mini-label{font-size:13px;font-weight:600;color:var(--white);letter-spacing:.3px;display:block;line-height:1.45}.audio-mini-marquee{display:block}.audio-mini-marquee-item{white-space:normal}.audio-mini audio{width:260px;height:36px;border-radius:6px;filter:invert(1) hue-rotate(180deg)}.audio-mini-player{display:inline-flex;background:rgba(255,255,255,0.08);border-radius:6px;padding:2px}',
+    '.guide-faq{margin:40px 0 20px;padding-top:8px;border-top:1px solid var(--border)}.guide-faq-title{font-size:22px;font-weight:700;margin:0 0 24px;color:var(--white)}.guide-faq-list{display:flex;flex-direction:column}.guide-faq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--bg-card);margin-bottom:8px}.guide-faq-item:last-child{margin-bottom:0}.guide-faq-question{width:100%;padding:16px 20px;background:none;border:none;color:var(--text);font-size:15px;font-weight:600;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:inherit;line-height:1.4}.guide-faq-question:hover{background:var(--bg-card-hover)}.guide-faq-icon{font-size:20px;font-weight:300;color:var(--accent);flex-shrink:0;transition:transform .25s ease}.guide-faq-question.open .guide-faq-icon{transform:rotate(45deg)}.guide-faq-answer{padding:0 20px 16px;color:var(--text-secondary);font-size:14px;line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s ease}',
+    '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.verdict-label{font-size:20px;font-weight:800;color:var(--white);margin-bottom:12px}.verdict-text{font-size:15px;color:var(--text-secondary);line-height:1.8}.verdict-product-name{color:var(--accent);font-weight:700;font-size:15px;margin-bottom:8px}.product-name{color:var(--accent);font-weight:700}',
+    '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
+    '.guide-detail .guide-detail-img{width:100%;border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;border:1px solid var(--border);max-height:500px;background:#fff}.guide-detail .guide-detail-img img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-height:500px}.guide-detail .guide-detail-img.guide-detail-img--cutout{background:#5a5a5a}.guide-detail .guide-detail-img--cutout img{object-fit:contain;padding:6px;box-sizing:border-box}',
+    '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:contain;padding:8px;box-sizing:border-box}.guide-product-card .guide-product-card-img--cutout{background:#5a5a5a}.guide-product-card--cutout{background:rgba(255,255,255,.06)}.guide-product-card--cutout .guide-product-card-img img{object-fit:contain;padding:10px;box-sizing:border-box}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
+    '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.guide-section-img{width:120px;height:120px;object-fit:contain;padding:4px;box-sizing:border-box;border-radius:var(--radius-sm);background:var(--white);display:block;transition:transform .2s ease}.guide-section-img.guide-section-img--cutout{background:#5a5a5a;object-fit:contain;padding:6px;box-sizing:border-box}.guide-section-img:hover{transform:scale(1.08)}',
+    '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
+    '.guide-detail .guide-back-link:hover{text-decoration:underline}',
+
+
+    '.guide-comp-table{min-width:100%;width:auto;max-width:none;border-collapse:separate;border-spacing:0;font-size:13px}',
+    '.guide-comp-table th,.guide-comp-table td{padding:8px 10px;border:1px solid var(--border);text-align:left}',
+    '.guide-comp-table th{background:var(--surface);font-weight:700;color:var(--text);white-space:nowrap}',
+    '.guide-comp-table th:first-child,.guide-comp-table td.label{position:sticky;left:0;z-index:2;background:var(--bg);box-shadow:1px 0 0 var(--border)}',
+    '.guide-comp-table td.label{font-weight:600;color:var(--accent);white-space:nowrap;width:1%}',
+    '.guide-comp-table td.val{color:var(--text-secondary)}',
+    '.guide-comp-table th:not(:first-child),.guide-comp-table td:not(.label){min-width:var(--guide-col-min,0)}',
+    '.guide-comp-title{font-size:22px;font-weight:700;margin:8px 0 16px;text-align:center}',
+    '.guide-comp-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;min-width:0}.guide-comp-scroll::-webkit-scrollbar{display:none}.guide-comp-scroll-wrap{margin:24px 0}.guide-comp-controls{display:flex;align-items:center;gap:12px;margin:12px 0 0}.guide-comp-controls-top{margin:0 0 10px}.guide-comp-progress{flex:1;min-width:0;height:4px;background:var(--border);border-radius:99px;overflow:hidden}.guide-comp-progress-bar{height:100%;width:0;background:var(--accent);border-radius:99px;transition:width .15s ease}.guide-comp-arrow{background:none;border:none;color:#fff;cursor:pointer;font-size:22px;line-height:1;padding:6px;box-shadow:none;-webkit-tap-highlight-color:transparent;display:inline-flex;align-items:center;justify-content:center;transition:color .2s}.guide-comp-arrow:hover,.guide-comp-arrow:active{color:var(--accent)}.guide-comp-arrow svg{width:1em;height:1em;filter:drop-shadow(0 0 6px rgba(0,0,0,.6))}.guide-comp-arrow-left{margin-left:-6.7px}.guide-comp-arrow-right{margin-right:-6.7px}',
+    '@media(max-width:768px){.guide-comp-table{font-size:13px}.guide-comp-table td{padding:3px 4px}.guide-comp-table th{white-space:nowrap;padding:5px 4px}.guide-comp-table th:first-child,.guide-comp-table td.label{position:sticky!important;left:0;z-index:5;background:var(--bg)!important;box-shadow:2px 0 6px rgba(0,0,0,.5)!important}.guide-comp-title{font-size:17px;margin:4px 0 8px}.guide-comp-scroll-wrap{margin:16px 0}.guide-comp-controls{gap:12px}.guide-comp-arrow{font-size:20px}}@media(max-width:480px){.guide-comp-arrow{font-size:18px}}',
+
+    '.stats-bar{background:rgba(10,10,10,0.5);border-bottom:1px solid rgba(255,255,255,0.05);padding:28px 32px}',
+    '.stats-inner{max-width:none;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}',
+    '.stat-item{text-align:center;padding:8px;contain:layout style}',
+    '.stat-number{font-size:clamp(28px,4vw,38px);font-weight:900;background:linear-gradient(135deg,var(--accent),#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.1}',
+    '.stat-label{font-size:14px;color:var(--text-secondary);font-weight:500;margin-top:4px}',
+    '@media(max-width:768px){.header-social{display:none}.header-tagline-bar{font-size:13px;padding:2px 12px}.hamburger{display:none}.hero{padding:12px 20px 40px;min-height:50vh}.hero h1{font-size:40px;margin-bottom:2px}.hero .hero-subtitle{font-size:40px}.hero p{margin-bottom:12px}.hero-badge{margin-bottom:4px}.hero-inner{gap:4px;min-height:auto;justify-content:flex-start;padding-top:8px}.stats-bar{padding:20px 16px}.stats-inner{grid-template-columns:repeat(3,1fr);gap:8px}.stat-number{font-size:24px;line-height:1}.stat-label{font-size:11px;margin-top:0}.nav-dd-mobile{display:inline-flex}.nav-dd-mobile .nav-dd-panel{min-width:160px;background:var(--surface);backdrop-filter:none;-webkit-backdrop-filter:none;box-shadow:none}.cuban3-link{display:none}}',
+    '.audio-eq{display:flex;align-items:flex-end;gap:2px;height:20px;opacity:0.3;transition:opacity 0.3s}.playing .audio-eq{opacity:1}.audio-eq i{display:block;width:3px;height:100%;background:var(--accent);border-radius:2px;transform-origin:bottom;animation:eq .8s ease-in-out infinite}.audio-eq i:nth-child(1){transform:scaleY(0.6);animation-delay:0s}.audio-eq i:nth-child(2){transform:scaleY(1);animation-delay:.2s}.audio-eq i:nth-child(3){transform:scaleY(0.4);animation-delay:.4s}.audio-eq i:nth-child(4){transform:scaleY(0.8);animation-delay:.6s}@keyframes eq{0%,100%{transform:scaleY(0.4)}50%{transform:scaleY(1)}}.playing .audio-mini-player{box-shadow:0 0 12px rgba(59,130,246,0.3);transition:box-shadow 0.3s}.audio-mini-player{transition:box-shadow 0.3s}#cookie-banner.cookie-visible{transform:translateY(0)!important}'
+  ].join('');
+}
+
+// ===== LOAD DATA =====
+const dir = __dirname;
+
+// Load guide/product data from JSON, store meta from constants
+const guides = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'guides.json'), 'utf8').replace(/^\ufeff/, ''));
+const products = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'products.json'), 'utf8'));
+const reviews = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'reviews.json'), 'utf8').replace(/^\ufeff/, ''));
+eval(fs.readFileSync(path.join(dir, 'js', 'constants.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
+eval(fs.readFileSync(path.join(dir, 'js', 'guide-scores.js'), 'utf8').replace(/^\ufeff/, ''));
+
+// Pre-bake bold first sentence into guides.json so SPA gets bold regardless of app.js version
+guides.forEach(g => {
+  g.sections.forEach(s => {
+    if (s.content) s.content = boldFirstSentence(s.content);
+    if (s.content_es) s.content_es = boldFirstSentence(s.content_es);
+  });
+});
+
+// Single source of truth: strip Rating rows from guides.json too so the SPA can never re-render them
+// (price rows are kept: tables show estimated price ranges)
+guides.forEach(g => {
+  if (g.comparison && Array.isArray(g.comparison.rows)) {
+    g.comparison.rows = g.comparison.rows.filter(r => { var l = (r.label || '').trim().toLowerCase(); if (l === 'rating') return false; return true; });
+  }
+});
+
+// Longest product name per table computed inline at render time so each table sizes its own columns
+
+// Auto-increment cache busters from file content hash
+// Include guides.json hash so JS cache busters change when data changes (SPA cache invalidation)
+const dataVer = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'data', 'guides.json'))).digest('hex').slice(0, 6);
+const cacheVerJs = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'app.js'))).digest('hex').slice(0, 8);
+const cacheVerJsMin = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'app.min.js'))).digest('hex').slice(0, 8);
+const cacheVerConstants = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'constants.js'))).digest('hex').slice(0, 8);
+const cacheVerCss = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'css', 'style.min.css'))).digest('hex').slice(0, 8);
+const RECAPTCHA_SITE_KEY = "6Lf083QtAAAAACTzrVpmKX5_syRkkw_U1Za8K6C2";
+const today = new Date().toISOString().split('T')[0];
+const YEAR = new Date().getFullYear();
+const Y = (s) => typeof s === 'string' ? s.replace(/2026/g, String(YEAR)) : s;
+
+
+
+function trunc(s, max) {
+  if (!s || s.length <= max) return s || '';
+  var i = s.lastIndexOf(' ', max);
+  return s.substring(0, i > 0 ? i : max) + '...';
+}
+
+function ensurePbAff(url) {
+  return url && url.indexOf('a_aid=') < 0 && url.indexOf('pluginboutique.com') >= 0 ? url + (url.includes('?') ? '&' : '?') + 'a_aid=6a01e859cbe1a' : url;
+}
+
+function normalizeMusicStore(url) {
+  if (!url) return url;
+  if (url.indexOf('awin1.com') >= 0) {
+    const m = url.match(/ued=([^&]+)/);
+    if (!m) return url;
+    const inner = decodeURIComponent(m[1]);
+    const norm = normalizeMusicStoreInner(inner);
+    return url.replace(m[1], encodeURIComponent(norm));
+  }
+  return normalizeMusicStoreInner(url);
+}
+function normalizeMusicStoreInner(u) {
+  if (u.indexOf('musicstore.com/') < 0) { u = u.replace(/https?:\/\/www\.musicstore\.de\//, 'https://www.musicstore.com/'); }
+  if (u.indexOf('www.musicstore.com/') < 0) return u;
+  const withCurrency = /musicstore\.com\/[A-Za-z]{2}_[A-Za-z]{2}\/[A-Za-z]{3}\//;
+  if (withCurrency.test(u)) return u.replace(withCurrency, 'musicstore.com/en_OE/EUR/');
+  const localeOnly = /musicstore\.com\/[A-Za-z]{2}_[A-Za-z]{2}\//;
+  if (localeOnly.test(u)) return u.replace(localeOnly, 'musicstore.com/en_OE/EUR/');
+  return u;
+}
+
+function wrapAndertons(url) {
+  if (!url) return url;
+  if (url.indexOf('pxf.io') >= 0 || url.indexOf('andertonsmusiccompany.pxf.io') >= 0) return url;
+  var clean = url.replace(/([?&])(irpid|irgwc|afsrc|im_ref|sharedid)=[^&]*/g, '$1').replace(/([?&])+/g, '$1').replace(/[?&]+$/, '');
+  return 'https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=' + encodeURIComponent(clean);
+}
+
+function wrapAffiliate(storeKey, url) {
+  if (!url) return url;
+  if (storeKey === 'pluginboutique') return ensurePbAff(url);
+  if (storeKey === 'amazon' && url.indexOf('tag=topmusicg-20') < 0 && (url.indexOf('/dp/') >= 0 || url.indexOf('amazon.com') >= 0 || url.indexOf('amazon.co.uk') >= 0)) return url + (url.indexOf('?') >= 0 ? '&' : '?') + 'tag=topmusicg-20';
+  if (storeKey === 'andertons') return wrapAndertons(url);
+  if (storeKey === 'reverb' && url.indexOf('awin1.com') < 0 && url.indexOf('reverb.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent(url);
+  if (storeKey === 'musicstore' && url.indexOf('awin1.com') < 0 && url.indexOf('musicstore.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=' + encodeURIComponent(normalizeMusicStore(url));
+  if (storeKey === 'zzounds' && url.indexOf('anrdoezrs.net') < 0 && url.indexOf('zzounds.com') >= 0) return 'https://www.anrdoezrs.net/click-101857888-10439229?url=' + encodeURIComponent(url.replace('/a--925521', ''));
+  if (storeKey === 'gear4music' && url.indexOf('awin1.com') < 0 && url.indexOf('gear4music.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=' + encodeURIComponent(url);
+  if (storeKey === 'hollyland' && url.indexOf('awin1.com') < 0 && url.indexOf('hollyland.com') >= 0) return 'https://www.awin1.com/cread.php?awinmid=128051&awinaffid=2891111&ued=' + encodeURIComponent(url);
+  return url;
+}
+
+// Nombre EXACTO del producto para los buscadores de cada tienda (regla del usuario:
+// nunca acortar el nombre; que se muestre tal cual lo escribimos, exista o no en la tienda).
+// Solo se retira el sufijo de unidad ("(Pair)", "(Each)") porque las tiendas no lo indexan.
+function searchTerm(title) {
+  const t = String(title || '').trim();
+  const limpio = t.replace(/\s*\((each|pair|set|2 headsets?)\)\s*$/i, '').trim();
+  return limpio || t;
+}
+
+function shortTitle(title) {
+  const removeWords = ['Desktop','Modeling','Model','Amp','Microphone','Mic','Condenser','Dynamic',
+    'Shotgun','Supercardioid','Cardioid','Headphones','Headphone','Over-Ear','On-Ear','In-Ear',
+    'Monitor','Speaker','Studio','Active','Passive','Guitar','Bass','Electric','Acoustic',
+    'Classical','Nylon','Steel','Pedal','Effects','Multi-Effects','Keyboard','Piano','Digital',
+    'Portable','Interface','Audio','USB','Thunderbolt','Short','On-Camera','Helix','Wireless',
+    'Bluetooth','Stereo','Mono','Dual','System','Set','Kit','Bundle','Pack','Pair','Combo',
+    'Package','Parlor','All-Mahogany','Acoustic-Electric','XLR','Gaming','Streaming','Podcast',
+    'Recording','Creator','Vlogger','Filmmaker','Camera','Video','Compact','Large-Diaphragm',
+    'UHF','Lavalier','Lapel','Headset','Instrument','Drum','Reference','Nearfield','Closed-Back',
+    'Open-Back','Earbuds','Earphones','Analog','Synthesizer','Groovebox','Drum Machine','Sampler',
+    'Sequencer','Turntable','DJ','Controller','Mixer','PA','Powered','Subwoofer','Tuning',
+    'Tuner','Metronome','Power','Cable','Stand','Arm','Boom','Clamp','Windshield','Pop Filter',
+    'Shock Mount','Reflection','Isolation','Acoustic Treatment','Panels','Absorber','Diffuser',
+    'Bass Trap','Pad','Pads','Vocal','Podcasting','Broadcast','Pro'];
+  let words = title.split(' ');
+  let lastNumIdx = -1;
+  for (let i = words.length - 1; i >= 0; i--) {
+    if (/\d/.test(words[i])) { lastNumIdx = i; break; }
+  }
+  if (lastNumIdx >= 0) {
+    // Keep one trailing model word (Rack, LIVE, Pro...) so store searches
+    // don't collapse variants: "Behringer X32 Rack" must not become "Behringer X32".
+    var end = lastNumIdx + 1;
+    if (end === words.length - 1 && /^[A-Za-z]+$/.test(words[end])) end++;
+    return words.slice(0, end).join(' ');
+  }
+  let result = [];
+  for (let w of words) {
+    if (removeWords.includes(w)) break;
+    result.push(w);
+  }
+  return result.length > 0 ? result.join(' ') : words.slice(0, 3).join(' ');
+}
+
+function getResolvedStores(product) {
+  const allStoreKeys = ['pluginboutique','gear4music','amazon','reverb','andertons','musicstore','zzounds','official','macappstore'];
+  const searchUrls = {
+    pluginboutique: (t) => `https://www.pluginboutique.com/search?q=${encodeURIComponent(t)}&a_aid=6a01e859cbe1a`, gear4music: (t) => `https://www.gear4music.com/search?q=${encodeURIComponent(t)}`, amazon: (t) => `https://www.amazon.com/s?k=${encodeURIComponent(t)}&tag=topmusicg-20`, reverb: (t) => `https://reverb.com/marketplace?query=${encodeURIComponent(t)}`, andertons: (t) => `https://www.andertons.co.uk/search.php?search_query=${encodeURIComponent(t)}`, musicstore: (t) => `https://www.musicstore.com/en_OE/EUR/search?SearchText=${encodeURIComponent(t)}`, zzounds: (t) => `https://www.zzounds.com/prodsearch?form=search&q=${encodeURIComponent(t).replace(/%20/g, '+')}`
+  };
+  const s = {};
+  const isMacOnly = !!product.stores.macappstore;
+  const excluded = product.excludeStores || [];
+  allStoreKeys.forEach(key => {
+    if (excluded.includes(key)) return;
+    if (key === 'amazon' && product.category === 'plugins') return;
+    if (key === 'pluginboutique' && product.category !== 'plugins' && product.category !== 'daw') return;
+    const specificUrl = product.stores[key];
+    if (specificUrl) {
+      if (key === 'gear4music' && specificUrl === 'https://www.gear4music.com/search') {
+        s[key] = `https://www.gear4music.com/search?q=${encodeURIComponent(searchTerm(product.title))}`;
+      } else if (key === 'amazon' && (specificUrl.startsWith('https://www.amazon.com/dp/') || specificUrl.startsWith('https://www.amazon.co.uk/dp/') || specificUrl.match(/\/dp\/[A-Z0-9]+/))) {
+        s[key] = (product.amazonNotag || specificUrl.includes('tag=topmusicg-20')) ? specificUrl : specificUrl + (specificUrl.includes('?') ? '&' : '?') + 'tag=topmusicg-20';
+      } else {
+        s[key] = specificUrl;
+      }
+    } else if (!isMacOnly && key !== 'amazon' && searchUrls[key]) {
+      s[key] = searchUrls[key](searchTerm(product.title));
+    }
+  });
+  if (product.stores.hollyland) {
+    s.hollyland = wrapAffiliate('hollyland', product.stores.hollyland);
+  }
+  if (s.reverb && !s.reverb.startsWith('https://www.awin1.com/cread.php?awinmid=67144')) {
+    s.reverb = `https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=${encodeURIComponent(s.reverb)}`;
+  }
+  if (s.musicstore && !s.musicstore.startsWith('https://www.awin1.com/cread.php?awinmid=63816')) {
+    s.musicstore = `https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=${encodeURIComponent(normalizeMusicStore(s.musicstore))}`;
+  } else if (s.musicstore) {
+    s.musicstore = normalizeMusicStore(s.musicstore);
+  }
+  if (s.gear4music && !s.gear4music.startsWith('https://www.awin1.com/cread.php?awinmid=1117')) {
+    s.gear4music = `https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=${encodeURIComponent(s.gear4music)}`;
+  }
+  if (s.zzounds && !s.zzounds.startsWith('https://www.anrdoezrs.net/click-101857888-10439229')) {
+    s.zzounds = `https://www.anrdoezrs.net/click-101857888-10439229?url=${encodeURIComponent(s.zzounds.replace('/a--925521', ''))}`;
+  }
+  if (s.andertons) {
+    s.andertons = wrapAndertons(s.andertons);
+  }
+  return s;
+}
+
+function formatPrice(price) {
+  if (price >= 1000) return `$${(price / 1000).toFixed(1)}k`;
+  return `$${price}`;
+}
+
+function capitalizeUnit(u) {
+  return u ? u.charAt(0).toUpperCase() + u.slice(1) : u;
+}
+
+function stars(rating) {
+  return "★".repeat(Math.floor(rating)) + (rating % 1 >= 0.5 ? "½" : "");
+}
+
+function reviewStars(rating) {
+  var filled = Math.round(rating);
+  if (filled > 5) filled = 5;
+  if (filled < 0) filled = 0;
+  var s = "";
+  for (var i = 0; i < filled; i++) s += '<span class="guide-star">★</span>';
+  for (var j = 0; j < 5 - filled; j++) s += '<span class="guide-star-empty">★</span>';
+  return s;
+}
+
+function reviewStats(pid) {
+  const rv = reviews.filter(r => r.productId === pid);
+  if (!rv.length) return null;
+  const avg = Math.round((rv.reduce((s, r) => s + r.rating, 0) / rv.length) * 10) / 10;
+  return { ratingValue: avg, reviewCount: rv.length, reviews: rv };
+}
+
+function fixIconPath(html) {
+  return html.replace(/src="img\//g, 'src="../img/');
+}
+
+function productRatingLine(p, lang) {
+  const st = reviewStats(p.id);
+  const word = st ? (lang === 'es' ? (st.reviewCount === 1 ? 'reseña' : 'reseñas') : (st.reviewCount === 1 ? 'review' : 'reviews')) : '';
+  const ratingHtml = st ? `<span class="guide-product-card-rating">${reviewStars(st.ratingValue)} <strong class="guide-product-card-rating-num">${st.ratingValue.toFixed(1)}</strong> <span class="guide-product-card-rating-count">(${st.reviewCount} ${word})</span></span>` : '<span class="guide-product-card-rating"></span>';
+  return `<div class="guide-product-card-rating-row">${ratingHtml}</div>`;
+}
+
+let CURRENT_GUIDE_CAT = null;
+let CURRENT_GUIDE_ID = null;
+// Mapa global de fotos recortadas (fondo transparente -> WebP) generado por
+// temp/cut_all_images.py + temp/apply_cut_results.js. Clave = URL exacta del producto.
+let CUT_IMAGES = {};
+try { CUT_IMAGES = require('./data/cut-images.json'); } catch (e) { CUT_IMAGES = {}; }
+
+function cutFor(url) {
+  if (!url) return null;
+  const u = String(url).trim();
+  return CUT_IMAGES[u] || CUT_IMAGES[u.replace(/^\.\.\//, '')] || null;
+}
+
+// Devuelve la imagen recortada si existe, o la original del producto
+// INTERRUPTOR: recortes de fondo DESACTIVADOS (20/10/2026, a peticion del usuario).
+// Las guias vuelven a usar la foto original del producto sobre su fondo blanco.
+// Para reactivar: poner CUTOUTS_ENABLED = true (el resto del codigo ya esta listo).
+const CUTOUTS_ENABLED = false;
+
+function guideCutImg(p) {
+  const cut = CUTOUTS_ENABLED ? cutFor(p && p.img) : null;
+  if (cut) return { src: '../' + cut, cut: true };
+  const raw = (p && p.img) || '';
+  return { src: raw.startsWith('http') ? raw : '../' + raw, cut: false };
+}
+let CURRENT_LANG = 'en';
+
+function storeChips(p, lang) {
+  lang = lang || 'en';
+  return shopButtonsTest(p, lang);
+  return Object.entries(getResolvedStores(p)).map(([key, url]) => {
+    const iconHtml = storeIcons[key] ? '<span class="icon">' + fixIconPath(storeIcons[key]) + '</span>' : '';
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer sponsored" class="chip-store" style="background:${storeColors[key] || '#555'}">${iconHtml} ${storeNames[key] || key}</a>`;
+  }).join("");
+}
+
+const SHOP_LOGO_STYLE = {
+  gear4music: "font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px", andertons: "font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px", musicstore: "font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px", zzounds: "font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px", reverb: "font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px", hollyland: "font-family:'Poppins',Arial,sans-serif;font-weight:800;color:#fff;letter-spacing:-.3px;font-size:15px"
+};
+const SHOP_LOGO_TEXT = { gear4music: 'Gear4music', andertons: 'Andertons', musicstore: "Music Store", zzounds: 'zZounds', reverb: "Reverb", amazon: "Amazon", hollyland: 'Hollyland' };
+const SHOP_PRIMARY_FONT = "font-weight:800;color:#FFC107";
+const SHOP_ROW_FONT = "font-weight:800";
+let FLAG_UID = 0;
+function flagBadge(inner) {
+  const cid = 'flgc' + (++FLAG_UID);
+  return '<svg viewBox="0 0 24 16" width="19" height="13" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
+    '<defs><clipPath id="' + cid + '"><rect width="24" height="16" rx="3.2"/></clipPath></defs>' +
+    '<g clip-path="url(#' + cid + ')">' + inner + '</g>' +
+    '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
+    '</svg>';
+}
+function usaFlag() {
+  let s = '<rect width="24" height="16" fill="#fff"/><g fill="#B22234">';
+  [0, 2.46, 4.92, 7.38, 9.85, 12.31, 14.77].forEach(function (y) { s += '<rect y="' + y + '" width="24" height="1.23"/>'; });
+  s += '</g><rect width="10" height="8.62" fill="#3C3B6E"/><g fill="#fff">';
+  [[1.9, 1.8], [4.1, 1.8], [6.3, 1.8], [8.5, 1.8], [3, 3.1], [5.2, 3.1], [7.4, 3.1], [1.9, 4.4], [4.1, 4.4], [6.3, 4.4], [8.5, 4.4], [3, 5.7], [5.2, 5.7], [7.4, 5.7]].forEach(function (p) { s += '<circle cx="' + p[0] + '" cy="' + p[1] + '" r=".42"/>'; });
+  return flagBadge(s + '</g>');
+}
+function ukFlag() {
+  return flagBadge('<rect width="24" height="16" fill="#012169"/>' +
+    '<path d="M0,0 L24,16 M24,0 L0,16" stroke="#fff" stroke-width="3.4"/>' +
+    '<path d="M0,0 L24,16 M24,0 L0,16" stroke="#C8102E" stroke-width="1.3"/>' +
+    '<path d="M12,0 V16 M0,8 H24" stroke="#fff" stroke-width="5.6"/>' +
+    '<path d="M12,0 V16 M0,8 H24" stroke="#C8102E" stroke-width="3.4"/>');
+}
+function euFlag() {
+  var scx = 12, scy = 8, sr = 5.5, ssr = 1.35, pts = [];
+  for (var i = 0; i < 12; i++) {
+    var a = (i * 30 - 90) * Math.PI / 180;
+    var cx = scx + sr * Math.cos(a), cy = scy + sr * Math.sin(a);
+    var sp = '';
+    for (var j = 0; j < 5; j++) {
+      var ao = ((j * 72 - 90) * Math.PI / 180), ai = (((j * 72 + 36) - 90) * Math.PI / 180);
+      sp += (cx + ssr * Math.cos(ao)).toFixed(2) + ',' + (cy + ssr * Math.sin(ao)).toFixed(2) + ' ';
+      sp += (cx + ssr * 0.38 * Math.cos(ai)).toFixed(2) + ',' + (cy + ssr * 0.38 * Math.sin(ai)).toFixed(2) + ' ';
+    }
+    pts.push(sp.trim());
+  }
+  var cid = 'flgc' + (++FLAG_UID);
+  return '<svg viewBox="0 0 24 16" width="19" height="16" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px">' +
+    '<defs><clipPath id="' + cid + '"><rect width="24" height="16" rx="3.2"/></clipPath></defs>' +
+    '<g clip-path="url(#' + cid + ')">' +
+    '<rect width="24" height="16" fill="#003399"/>' +
+    pts.map(function(p) { return '<polygon points="' + p + '" fill="#FFCC00"/>'; }).join('') +
+    '</g>' +
+    '<rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/>' +
+    '</svg>';
+}
+function globeIcon() {
+  const gid = 'glg' + (++FLAG_UID);
+  const gcid = 'glc' + (++FLAG_UID);
+  return '<svg viewBox="0 0 20 20" width="19" height="19" style="display:inline-block;vertical-align:-5px;flex-shrink:0;margin-right:5px">' +
+    '<defs><linearGradient id="' + gid + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient>' +
+    '<clipPath id="' + gcid + '"><circle cx="10" cy="10" r="8.75"/></clipPath></defs>' +
+    '<circle cx="10" cy="10" r="8.75" fill="url(#' + gid + ')"/>' +
+    '<g clip-path="url(#' + gcid + ')">' +
+    '<path d="M2.6,6.4 Q4.4,4.2 6.6,5 Q8.5,5.7 8.2,7.5 Q7.8,9.4 5.7,9.4 Q2.9,9.3 2.6,6.4 Z" fill="#34d399"/>' +
+    '<path d="M11.6,3.2 Q13.8,2.6 14.9,4.4 Q15.8,6 13.9,6.9 Q12,7.7 11.2,5.9 Q10.5,4.3 11.6,3.2 Z" fill="#34d399"/>' +
+    '<path d="M11.9,11.7 Q14,10.9 15.2,12.5 Q16.3,14.2 14.6,15.5 Q12.8,16.8 11.4,15.1 Q10.2,13.5 11.9,11.7 Z" fill="#22c55e"/>' +
+    '<path d="M4.2,12.3 Q5.8,11.7 6.6,13 Q7.3,14.3 6,15.3 Q4.5,16.3 3.5,15 Q2.6,13.5 4.2,12.3 Z" fill="#22c55e"/>' +
+    '<ellipse cx="10" cy="10" rx="4.4" ry="8.75" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width=".7"/>' +
+    '<path d="M1.25,10 H18.75" stroke="#ffffff" stroke-opacity=".35" stroke-width=".7"/>' +
+    '</g>' +
+    '<circle cx="10" cy="10" r="8.75" fill="none" stroke="#ffffff" stroke-opacity=".4"/>' +
+    '<ellipse cx="7.2" cy="6.2" rx="3.2" ry="1.8" fill="#ffffff" opacity=".25"/>' +
+    '</svg>';
+}
+const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
+const TEST_SHOP_BTN = {
+  1052: {
+    prices: {
+      gear4music: "£142.00",
+      musicstore: "€119.00"
+    }
+  },
+  1051: {
+    prices: {
+      gear4music: "£221.00",
+      musicstore: "€279.00",
+      andertons: "£235.00",
+      zzounds: "$210.00",
+      amazon: "$229.99"
+    }
+  },
+  1050: {
+    prices: {
+      gear4music: "£1,533.00",
+      musicstore: "€2,090.00"
+    }
+  },
+  1049: {
+    prices: {
+      gear4music: "£100.00",
+      andertons: "£90.00",
+      amazon: "$147.00"
+    }
+  },
+  1043: {
+    prices: {
+      gear4music: "£100.00",
+      musicstore: "€109.00",
+      amazon: "$139.00"
+    }
+  },
+  1046: {
+    prices: {
+      gear4music: "£82.00",
+      andertons: "£105.00",
+      musicstore: "€87.00",
+      zzounds: "$100.00",
+      amazon: "$99.99"
+    }
+  },
+  1048: {
+    prices: {
+      gear4music: "£118.00",
+      musicstore: "€139.00",
+      zzounds: "$130.00",
+      amazon: "$129.99"
+    }
+  },
+  1042: {
+    prices: {
+      gear4music: "£81.50",
+      andertons: "£71.00",
+      musicstore: "€114.00",
+      zzounds: "$100.00",
+      amazon: "$99.99"
+    }
+  },
+  1: {
+    prices: {
+      amazon: "$439.00",
+      zzounds: "$439.00",
+      gear4music: "£387.00",
+      andertons: "£379.00",
+      musicstore: "€398.00"
+    }
+  },
+  2: {
+    prices: {
+      amazon: "$3,750.00",
+      zzounds: "$3,995.00",
+      andertons: "£3,007.00",
+      gear4music: "£2,908.40",
+      musicstore: "€2,999.00"
+    }
+  },
+  3: {
+    prices: {
+      amazon: "$212.00",
+      zzounds: "$214.00",
+      gear4music: "£184.75",
+      andertons: "£182.00",
+      musicstore: "€199.00"
+    }
+  },
+  4: {
+    prices: {
+      amazon: "$1,225.00",
+      zzounds: "$1,299.00",
+      gear4music: "£893.00",
+      andertons: "£849.00",
+      musicstore: "€990.00"
+    }
+  },
+  5: {
+    prices: {
+      amazon: "$109.00",
+      zzounds: "$109.00",
+      gear4music: "£103.75",
+      andertons: "£103.00",
+      musicstore: "€105.00"
+    }
+  },
+  6: {
+    prices: {
+      amazon: "$1,839.99",
+      zzounds: "$1,839.99",
+      gear4music: "£1,799.00",
+      musicstore: "€1,799.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  7: {
+    prices: {
+      amazon: "$4,234.33",
+      zzounds: "$2,799.00",
+      andertons: "£2,499.00",
+      gear4music: "£2,499.00",
+      musicstore: "€2,949.00"
+    }
+  },
+  8: {
+    prices: {
+      amazon: "$2,499.00",
+      gear4music: "£2,111.00",
+      andertons: "£2,299.00",
+      musicstore: "€3,212.00"
+    }
+  },
+  11: {
+    prices: {
+      amazon: "$5,999.00",
+      zzounds: "$5,999.00",
+      andertons: "£3,890.00",
+      gear4music: "£3,890.00",
+      musicstore: "€4,275.00"
+    }
+  },
+  30: {
+    prices: {
+      pluginboutique: "€553.58",
+      andertons: "£479.00",
+      gear4music: "£479.00",
+      musicstore: "€452.90"
+    },
+    pbCur: {
+      us: "$499.00",
+      uk: "£397.15"
+    },
+  },
+  32: {
+    prices: {
+      pluginboutique: "€621.13",
+      amazon: "$599.00",
+      gear4music: "£489.00",
+      musicstore: "€599.00"
+    },
+    pbCur: {
+      us: "$599.00",
+      uk: "£476.74"
+    },
+    oos: [
+      "zzounds",
+      "andertons"
+    ]
+  },
+  33: {
+    prices: {
+      amazon: "$749.99",
+      zzounds: "$899.00",
+      andertons: "£681.00",
+      gear4music: "£680.00",
+      musicstore: "€669.00"
+    }
+  },
+  39: {
+    prices: {
+      amazon: "$49.00",
+      andertons: "£45.00",
+      gear4music: "£53.50",
+      musicstore: "€49.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--ASTSWIFTSHIELD"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  42: {
+    prices: {
+      amazon: "$1,299.99",
+      zzounds: "$1,299.99",
+      andertons: "£1,039.00",
+      gear4music: "£1,039.00",
+      musicstore: "€1,099.00"
+    }
+  },
+  50: {
+    prices: {
+      amazon: "$99.00",
+      zzounds: "$109.00",
+      gear4music: "£105.00",
+      andertons: "£103.00",
+      musicstore: "€119.00"
+    }
+  },
+  51: {
+    prices: {
+      amazon: "$275.00",
+      zzounds: "$319.00",
+      gear4music: "£222.00",
+      andertons: "£231.00",
+      musicstore: "€249.00"
+    }
+  },
+  52: {
+    prices: {
+      amazon: "$449.00",
+      zzounds: "$449.00",
+      gear4music: "£575.00",
+      andertons: "£549.00",
+      musicstore: "€639.00"
+    }
+  },
+  53: {
+    prices: {
+      amazon: "$294.01",
+      zzounds: "$399.99",
+      gear4music: "£175.00",
+      andertons: "£175.00",
+      musicstore: "€255.01"
+    }
+  },
+  54: {
+    prices: {
+      amazon: "$199.95",
+      zzounds: "$199.95",
+      gear4music: "£226.00",
+      andertons: "£210.00",
+      musicstore: "€235.00"
+    }
+  },
+  55: {
+    prices: {
+      amazon: "$179.00",
+      zzounds: "$199.00",
+      gear4music: "£142.00",
+      andertons: "£149.00",
+      musicstore: "€168.00"
+    }
+  },
+  56: {
+    prices: {
+      amazon: "$169.00",
+      zzounds: "$200.00",
+      andertons: "£149.00",
+      gear4music: "£138.00",
+      musicstore: "€159.00"
+    }
+  },
+  57: {
+    prices: {
+      amazon: "$139.80",
+      andertons: "£134.00",
+      gear4music: "£134.00",
+      musicstore: "€121.43"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--AKGK371"
+    },
+    oos: ["zzounds"]
+  },
+  58: {
+    prices: {
+      amazon: "$108.99",
+      zzounds: "$108.99",
+      andertons: "£54.00",
+      gear4music: "£54.70",
+      musicstore: "€54.00"
+    }
+  },
+  59: {
+    prices: {
+      gear4music: "£82.20",
+      musicstore: "€70.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--KMS26754"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  60: {
+    prices: {
+      pluginboutique: "€29.25",
+      andertons: "£25.00"
+    },
+    pbCur: {
+      us: "$199.00",
+      uk: "£158.38"
+    },
+  },
+  61: {
+    prices: {
+      pluginboutique: "€50.41",
+      gear4music: "£41.99"
+    },
+    pbCur: {
+      us: "$50.00",
+      uk: "£39.80"
+    },
+    oos: [
+      "andertons",
+      "musicstore"
+    ]
+  },
+  62: {
+    prices: {
+      pluginboutique: "€170.40",
+      zzounds: "$199.00",
+      gear4music: "£119.00",
+      musicstore: "€169.00",
+      andertons: "£119.00"
+    },
+    pbCur: {
+      us: "$199.00",
+      uk: "£158.38"
+    },
+  },
+  63: {
+    prices: {
+      pluginboutique: "€170.40",
+      zzounds: "$199.00",
+      gear4music: "£145.00",
+      musicstore: "€169.00",
+      andertons: "£139.00"
+    },
+    pbCur: {
+      us: "$199.00",
+      uk: "£158.38"
+    },
+  },
+  65: {
+    prices: {
+      amazon: "$862.39",
+      zzounds: "$879.99",
+      andertons: "£749.00",
+      gear4music: "£739.00",
+      musicstore: "€844.00"
+    }
+  },
+  68: {
+    prices: {
+      amazon: "$204.99",
+      andertons: "£179.00",
+      gear4music: "£179.00",
+      musicstore: "€239.00",
+      zzounds: "$229.99"
+    }
+  },
+  71: {
+    prices: {
+      amazon: "$789.99",
+      zzounds: "$789.99",
+      andertons: "£749.00",
+      gear4music: "£749.00",
+      musicstore: "€859.00"
+    }
+  },
+  72: {
+    prices: {
+      amazon: "$349.99",
+      zzounds: "$350.00",
+      andertons: "£279.00",
+      gear4music: "£269.00",
+      musicstore: "€328.00"
+    }
+  },
+  73: {
+    prices: {
+      amazon: "$1,799.99",
+      zzounds: "$1,799.99",
+      andertons: "£1,629.00",
+      gear4music: "£970.00",
+      musicstore: "€1,149.00"
+    }
+  },
+  74: {
+    prices: {
+      amazon: "$749.99",
+      zzounds: "$749.99",
+      andertons: "£599.00",
+      gear4music: "£599.00",
+      musicstore: "€699.00"
+    }
+  },
+  75: {
+    prices: {
+      amazon: "$749.99",
+      zzounds: "$749.99",
+      andertons: "£649.00",
+      gear4music: "£649.00",
+      musicstore: "€729.00"
+    }
+  },
+  76: {
+    prices: {
+      amazon: "$749.99",
+      zzounds: "$749.99",
+      andertons: "£749.00",
+      gear4music: "£749.00",
+      musicstore: "€888.00"
+    }
+  },
+  91: {
+    prices: {
+      amazon: "$659.00",
+      zzounds: "$659.00",
+      andertons: "£589.00",
+      gear4music: "£595.00",
+      musicstore: "€539.00"
+    }
+  },
+  92: {
+    prices: {
+      amazon: "$849.00",
+      musicstore: "€769.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-100-G4-Wireless-Microphone-System-with-935-S-E-Band/2BBJ",
+      zzounds: "https://www.zzounds.com/a--925521/item--SENEW100G4935S"
+    },
+    oos: [
+      "andertons",
+      "zzounds"
+    ]
+  },
+93: {
+    prices: {
+      zzounds: "$1,099.00",
+      gear4music: "£755.00",
+      andertons: "£759.00",
+      musicstore: "€998.00"
+    }
+  },
+  95: {
+    prices: {
+      amazon: "$749.00",
+      zzounds: "$749.00",
+      andertons: "£518.00",
+      gear4music: "£518.00",
+      musicstore: "€675.00"
+    }
+  },
+  96: {
+    prices: {
+      amazon: "$99.00",
+      zzounds: "$99.99",
+      andertons: "£105.00",
+      gear4music: "£105.00",
+      musicstore: "€148.00"
+    }
+  },
+  97: {
+    prices: {
+      amazon: "$186.20",
+      zzounds: "$197.99",
+      andertons: "£174.99",
+      gear4music: "£166.00",
+      musicstore: "€179.00"
+    }
+  },
+  98: {
+    prices: {
+      amazon: "$103.50",
+      zzounds: "$109.99",
+      andertons: "£89.99",
+      gear4music: "£84.20",
+      musicstore: "€99.00"
+    }
+  },
+  99: {
+    prices: {
+      amazon: "$99.99",
+      zzounds: "$99.99",
+      andertons: "£99.99",
+      gear4music: "£99.00",
+      musicstore: "€169.00"
+    }
+  },
+  100: {
+    prices: {
+      amazon: "$129.00",
+      andertons: "£95.00",
+      gear4music: "£95.00",
+      musicstore: "€110.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--TCEHALLOFFAME2"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  102: {
+    prices: {
+      amazon: "$229.00",
+      andertons: "£299.00",
+      gear4music: "£239.00",
+      musicstore: "€269.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--YAMFG800"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  103: {
+    prices: {
+      amazon: "$329.99",
+      zzounds: "$379.99",
+      gear4music: "£288.00",
+      andertons: "£269.00",
+      musicstore: "€329.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-Pacifica-112V-Natural-Satin/3SL4"
+    }
+  },
+  104: {
+    prices: {
+      amazon: "$3,499.99",
+      andertons: "£3,599.00",
+      musicstore: "€3,499.00",
+      gear4music: "£3,199.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--MRTD28"
+    },
+    oos: ["zzounds"]
+  },
+  105: {
+    prices: {
+      amazon: "$549.00",
+      zzounds: "$549.00",
+      andertons: "£436.00",
+      gear4music: "£469.00",
+      musicstore: "€599.00"
+    }
+  },
+  106: {
+    prices: {
+      amazon: "$899.99",
+      zzounds: "$899.99",
+      andertons: "£845.00",
+      gear4music: "£856.00",
+      musicstore: "€999.00"
+    }
+  },
+  107: {
+    prices: {
+      amazon: "$469.00",
+      zzounds: "$469.00",
+      andertons: "£398.00",
+      gear4music: "£399.00",
+      musicstore: "€449.00"
+    }
+  },
+  108: {
+    prices: {
+      amazon: "$909.99",
+      zzounds: "$909.99",
+      gear4music: "£659.00",
+      musicstore: "€611.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  109: {
+    prices: {
+      amazon: "$1,781.01",
+      zzounds: "$1,899.00",
+      andertons: "£1,333.00",
+      gear4music: "£1,325.00",
+      musicstore: "€1,699.00"
+    }
+  },
+  110: {
+    prices: {
+      amazon: "$749.00",
+      andertons: "£599.00",
+      gear4music: "£529.00",
+      musicstore: "€599.00"
+    }
+  },
+  112: {
+    prices: {
+      amazon: "$165.00",
+      zzounds: "$179.00",
+      gear4music: "£192.25",
+      musicstore: "€299.00",
+      andertons: "£199.00"
+    }
+  },
+  113: {
+    prices: {
+      gear4music: "£594.00",
+      amazon: "$599.00",
+      andertons: "£549.00",
+      zzounds: "$599.00",
+      musicstore: "€599.00",
+      pluginboutique: "€834.90"
+    },
+    pbCur: {
+      us: "$805.00",
+      uk: "£640.70"
+    },
+  },
+  114: {
+    prices: {
+      gear4music: "£479.00",
+      amazon: "$579.99",
+      andertons: "£479.00",
+      zzounds: "$579.99",
+      musicstore: "€569.00",
+      pluginboutique: "€583.83"
+    },
+    pbCur: {
+      us: "$579.99",
+      uk: "£461.61"
+    },
+  },
+  115: {
+    prices: {
+      andertons: "£299.00",
+      gear4music: "£245.00",
+      amazon: "$399.00",
+      pluginboutique: "€289.19"
+    },
+    pbCur: {
+      us: "$299.00",
+      uk: "£237.97"
+    },
+  },
+  116: {
+    prices: {
+      amazon: "$129.00",
+      andertons: "£112.00",
+      gear4music: "£163.00",
+      musicstore: "€155.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--JBLLSR305PMKII"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  117: {
+    prices: {
+      amazon: "$249.00",
+      zzounds: "$249.00",
+      andertons: "£169.00",
+      gear4music: "£194.00",
+      musicstore: "€199.00"
+    }
+  },
+  119: {
+    prices: {
+      pluginboutique: "€168.19"
+    },
+    pbCur: {
+      us: "$166.79",
+      uk: "£132.75"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--WAVSSLNAT"
+    },
+    oos: [
+      "zzounds"
+    ],
+    na: [
+      "gear4music",
+      "musicstore"
+    ]
+  },
+  120: {
+    prices: {
+      pluginboutique: "€99.83",
+      zzounds: "$99.00",
+      gear4music: "£74.99",
+      amazon: "$119.00",
+      musicstore: "€99.00",
+      andertons: "£74.00"
+    },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
+    },
+  },
+  121: {
+    prices: {
+      pluginboutique: "€503.15",
+      andertons: "£869.00",
+      zzounds: "$999.00",
+      gear4music: "£899.00"
+    },
+    pbCur: {
+      us: "$999.00",
+      uk: "£795.10"
+    },
+    oos: [
+      "musicstore"
+    ]
+  },
+  122: {
+    prices: {
+      pluginboutique: "€1,511.50",
+      gear4music: "£1,299.00",
+      musicstore: "€1,349.00",
+      andertons: "£1,299.00"
+    },
+    pbCur: {
+      us: "$1,399.00",
+      uk: "£1,113.46"
+    },
+  },
+  123: {
+    prices: {
+      gear4music: "£1,124.00",
+      pluginboutique: "€1,259.40",
+      andertons: "£1,124.00",
+      zzounds: "$1,249.00",
+      musicstore: "€1,249.00"
+    },
+    pbCur: {
+      us: "$1,249.00",
+      uk: "£994.08"
+    },
+  },
+  124: {
+    prices: {
+      gear4music: "£729.00",
+      amazon: "$879.99",
+      zzounds: "$879.99",
+      andertons: "£919.00",
+      musicstore: "€859.00"
+    }
+  },
+  126: {
+    prices: {
+      gear4music: "£1,742.00",
+      amazon: "$1,839.99",
+      zzounds: "$1,839.99",
+      musicstore: "€1,799.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  127: {
+    prices: {
+      amazon: "$1,099.00",
+      zzounds: "$1,099.00",
+      andertons: "£799.00",
+      gear4music: "£799.00",
+      musicstore: "€868.00"
+    }
+  },
+  128: {
+    prices: {
+      amazon: "$469.99",
+      zzounds: "$469.00",
+      andertons: "£369.00",
+      gear4music: "£369.00",
+      musicstore: "€399.00"
+    }
+  },
+  129: {
+    prices: {
+      amazon: "$404.40",
+      zzounds: "$479.00",
+      andertons: "£319.00",
+      gear4music: "£358.00",
+      musicstore: "€281.00"
+    }
+  },
+  130: {
+    prices: {
+      gear4music: "£125.00",
+      amazon: "$149.99",
+      zzounds: "$149.99",
+      andertons: "£129.00",
+      musicstore: "€150.42"
+    }
+  },
+  131: {
+    prices: {
+      amazon: "$349.00",
+      zzounds: "$349.00",
+      andertons: "£239.00",
+      gear4music: "£238.00",
+      musicstore: "€284.00"
+    }
+  },
+  132: {
+    prices: {
+      andertons: "£859.00",
+      gear4music: "£829.00",
+      amazon: "$949.99",
+      musicstore: "€884.00"
+    }
+  },
+  133: {
+    prices: {
+      amazon: "$109.99",
+      zzounds: "$109.99",
+      andertons: "£109.99",
+      gear4music: "£99.10",
+      musicstore: "€104.00"
+    }
+  },
+  134: {
+    prices: {
+      amazon: "$88.00",
+      zzounds: "$119.99",
+      andertons: "£85.00",
+      gear4music: "£79.00",
+      musicstore: "€95.00"
+    }
+  },
+  135: {
+    prices: {
+      amazon: "$679.00",
+      zzounds: "$679.00",
+      andertons: "£679.00",
+      gear4music: "£679.00",
+      musicstore: "€699.00"
+    }
+  },
+  136: {
+    prices: {
+      amazon: "$108.57",
+      zzounds: "$115.99",
+      andertons: "£119.99",
+      gear4music: "£119.00",
+      musicstore: "€139.00"
+    }
+  },
+  137: {
+    prices: {
+      amazon: "$250.74",
+      zzounds: "$325.00",
+      andertons: "£225.00",
+      gear4music: "£225.50",
+      musicstore: "€279.00"
+    }
+  },
+  138: {
+    prices: {
+      amazon: "$1,398.00",
+      andertons: "£991.00",
+      gear4music: "£1,037.00",
+      musicstore: "€1,298.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/prodsearch?form=search&q=Behringer+X32+Compact"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  139: {
+    prices: {
+      gear4music: "£3,050.00",
+      amazon: "$3,999.00",
+      andertons: "£2,599.00",
+      musicstore: "€2,990.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--AAHSQ5"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  140: {
+    prices: {
+      amazon: "$749.99",
+      zzounds: "$769.99",
+      andertons: "£496.00",
+      gear4music: "£489.00",
+      musicstore: "€599.00"
+    }
+  },
+  141: {
+    prices: {
+      amazon: "$649.99",
+      andertons: "£584.00",
+      gear4music: "£584.00",
+      musicstore: "€619.00",
+      zzounds: "$699.99"
+    }
+  },
+  142: {
+    prices: {
+      amazon: "$684.39",
+      zzounds: "$699.99",
+      andertons: "£489.00",
+      gear4music: "£489.00",
+      musicstore: "€611.00"
+    }
+  },
+  143: {
+    prices: {
+      amazon: "$1,899.00",
+      zzounds: "$1,899.00",
+      andertons: "£1,469.00",
+      gear4music: "£1,594.00",
+      musicstore: "€1,679.00"
+    }
+  },
+  144: {
+    prices: {
+      gear4music: "£286.00",
+      amazon: "$299.99",
+      andertons: "£249.00",
+      zzounds: "$299.00",
+      musicstore: "€299.00"
+    }
+  },
+  145: {
+    prices: {
+      amazon: "$509.00",
+      andertons: "£315.00",
+      gear4music: "£315.00",
+      musicstore: "€369.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/prodsearch?form=search&q=Behringer+XR18"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  146: {
+    prices: {
+      amazon: "$380.00",
+      zzounds: "$379.99",
+      andertons: "£281.00",
+      gear4music: "£291.50",
+      musicstore: "€349.00"
+    }
+  },
+  147: {
+    prices: {
+      amazon: "$1,099.99",
+      zzounds: "$1,199.99",
+      andertons: "£829.00",
+      gear4music: "£819.00",
+      musicstore: "€1,059.00"
+    }
+  },
+  148: {
+    prices: {
+      gear4music: "£2,009.00",
+      amazon: "$2,499.00",
+      andertons: "£1,452.00",
+      musicstore: "€2,099.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--MIDM32RLIVE"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  149: {
+    prices: {
+      gear4music: "£504.00",
+      amazon: "$675.00",
+      zzounds: "$573.74",
+      andertons: "£504.00",
+      musicstore: "€599.00"
+    }
+  },
+  150: {
+    prices: {
+      gear4music: "£188.50",
+      amazon: "$268.00",
+      andertons: "£169.00",
+      musicstore: "€195.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--BEHX1222USB"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  151: {
+    prices: {
+      gear4music: "£407.00",
+      amazon: "$374.99",
+      musicstore: "€335.29"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--MACTHUMP215XT"
+    },
+    oos: [
+      "andertons",
+      "zzounds"
+    ]
+  },
+  152: {
+    prices: {
+      amazon: "$1,232.49",
+      zzounds: "$1,450.00",
+      andertons: "£975.00",
+      gear4music: "£975.00",
+      musicstore: "€1,299.00"
+    }
+  },
+  153: {
+    prices: {
+      amazon: "$399.00",
+      zzounds: "$399.00",
+      andertons: "£295.00",
+      gear4music: "£315.00",
+      musicstore: "€489.00"
+    }
+  },
+  154: {
+    prices: {
+      amazon: "$390.99",
+      andertons: "£394.00",
+      gear4music: "£394.00",
+      musicstore: "€366.47"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--YAMDBR12"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  155: {
+    prices: {
+      amazon: "$1,689.99",
+      zzounds: "$1,889.99",
+      gear4music: "£1,879.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  156: {
+    prices: {
+      amazon: "$1,739.99",
+      zzounds: "$1,939.99",
+      andertons: "£1,599.00",
+      musicstore: "€1,799.00",
+      gear4music: "£1,849.00"
+    }
+  },
+  157: {
+    prices: {
+      amazon: "$529.99",
+      andertons: "£399.00",
+      gear4music: "£419.00",
+      musicstore: "€488.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--SQU0303075"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  158: {
+    prices: {
+      amazon: "$351.49",
+      andertons: "£249.00",
+      gear4music: "£251.50",
+      musicstore: "€299.00",
+      zzounds: "$369.99"
+    }
+  },
+  159: {
+    prices: {
+      amazon: "$419.99",
+      zzounds: "$450.00",
+      andertons: "£399.00",
+      gear4music: "£397.00",
+      musicstore: "€439.00"
+    }
+  },
+  160: {
+    prices: {
+      amazon: "$379.99",
+      zzounds: "$379.99",
+      andertons: "£349.00",
+      gear4music: "£296.00",
+      musicstore: "€369.00"
+    }
+  },
+  161: {
+    prices: {
+      amazon: "$399.99",
+      zzounds: "$399.99",
+      andertons: "£399.00",
+      gear4music: "£399.00",
+      musicstore: "€539.00"
+    }
+  },
+  162: {
+    prices: {
+      andertons: "£749.00",
+      gear4music: "£707.00",
+      musicstore: "€756.00"
+    }
+  },
+  163: {
+    prices: {
+      amazon: "$599.00",
+      zzounds: "$599.00",
+      andertons: "£349.00",
+      gear4music: "£419.00"
+    }
+  },
+  164: {
+    prices: {
+      amazon: "$649.00",
+      zzounds: "$649.00",
+      andertons: "£599.00",
+      gear4music: "£599.00"
+    },
+    oos: [
+      "musicstore"
+    ]
+  },
+  165: {
+    prices: {
+      zzounds: "$649.00",
+
+      amazon: "$599.00",
+      musicstore: "€699.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  166: {
+    prices: {
+      andertons: "£319.00",
+      gear4music: "£349.00",
+      amazon: "$399.00",
+      musicstore: "€369.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--HOFIVB"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  167: {
+    prices: {
+      amazon: "$53.95",
+      zzounds: "$65.95",
+      gear4music: "£44.99",
+      musicstore: "€45.00",
+      andertons: "£41.00"
+    },
+    urls: {
+      andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fmogami-2534-quad-neglex-3m-xlrf-xlrm-mic-cable-neutrik-black-gold-xlr%2F"
+    }
+  },
+  170: {
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/G4M-Acoustics-Squarewave-4-Pack/5KYU"
+    },
+    oos: [
+      "gear4music",
+      "zzounds"
+    ]
+  },
+  173: {
+    prices: {
+      gear4music: "£17.99",
+      amazon: "$23.00",
+      musicstore: "€17.90"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  174: {
+    prices: {
+      amazon: "$3,599.99",
+      zzounds: "$3,599.99",
+      gear4music: "£3,699.99",
+      andertons: "£2,999.00",
+      musicstore: "€3,399.00"
+    }
+  },
+  175: {
+    prices: {
+      gear4music: "£4,337.00",
+      amazon: "$4,399.99",
+      zzounds: "$4,399.99",
+      andertons: "£3,899.00",
+      musicstore: "€4,679.00"
+    }
+  },
+  176: {
+    prices: {
+      amazon: "$3,299.00",
+      zzounds: "$3,499.00",
+      andertons: "£2,778.00",
+      gear4music: "£2,850.00",
+      musicstore: "€3,149.00"
+    }
+  },
+  177: {
+    prices: {
+      amazon: "$2,995.00",
+      gear4music: "£2,899.00"
+    },
+    oos: [
+      "andertons",
+      "musicstore"
+    ]
+  },
+  178: {
+    prices: {
+      amazon: "$1,199.00",
+      gear4music: "£1,159.00",
+      musicstore: "€1,244.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  180: {
+    prices: {
+      amazon: "$3,999.99",
+      gear4music: "£2,954.00",
+      musicstore: "€3,389.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  181: {
+    prices: {
+      amazon: "$4,199.00",
+      gear4music: "£3,120.00",
+      musicstore: "€3,585.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  182: {
+    prices: {
+      amazon: "$4,999.00",
+      zzounds: "$3,999.00",
+      andertons: "£3,821.00",
+      gear4music: "£4,255.00",
+      musicstore: "€3,640.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Apollo-x16-with-UAD-Analog-Classics/art-PCM0018211-000"
+    }
+  },
+  183: {
+    prices: {
+      amazon: "$3,199.00",
+      zzounds: "$3,199.00",
+      andertons: "£2,434.00",
+      gear4music: "£2,213.00",
+      musicstore: "€2,899.00"
+    }
+  },
+  185: {
+    prices: {
+      amazon: "$2,299.99",
+      zzounds: "$2,299.99",
+      andertons: "£2,199.00",
+      gear4music: "£2,165.00",
+      musicstore: "€2,349.00"
+    }
+  },
+  186: {
+    prices: {
+      gear4music: "£2,599.00",
+      amazon: "$2,749.00",
+      zzounds: "$2,549.00",
+      andertons: "£2,599.00",
+      musicstore: "€2,015.97"
+    }
+  },
+  187: {
+    prices: {
+      gear4music: "£2,599.00",
+      amazon: "$3,499.00",
+      zzounds: "$3,499.00",
+      andertons: "£2,566.00",
+      musicstore: "€3,079.00"
+    }
+  },
+  188: {
+    prices: {
+      amazon: "$1,699.00",
+      zzounds: "$1,699.00",
+      andertons: "£1,399.00",
+      gear4music: "£1,399.00",
+      musicstore: "€1,599.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/AKAI-Professional-MPC-Live-III/art-SYN0009363-000"
+    }
+  },
+  191: {
+    prices: {
+      gear4music: "£363.00",
+      amazon: "$479.00",
+      zzounds: "$479.00",
+      musicstore: "€379.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  192: {
+    prices: {
+      amazon: "$424.99",
+      zzounds: "$499.00",
+      andertons: "£449.00",
+      gear4music: "£449.00",
+      musicstore: "€525.00"
+    }
+  },
+  193: {
+    prices: {
+      gear4music: "£374.00",
+      amazon: "$499.99",
+      zzounds: "$499.99",
+      andertons: "£349.00",
+      musicstore: "€399.00"
+    }
+  },
+  194: {
+    prices: {
+      amazon: "$199.00",
+      zzounds: "$299.00",
+      andertons: "£272.00",
+      gear4music: "£273.50",
+      musicstore: "€309.00"
+    }
+  },
+  195: {
+    prices: {
+      amazon: "$119.99"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Elgato-WAVE3-Microphone/43BD"
+    },
+    oos: [
+      "andertons",
+      "gear4music"
+    ]
+  },
+  196: {
+    prices: {
+      amazon: "$99.00",
+      zzounds: "$119.00",
+      andertons: "£79.00",
+      gear4music: "£82.60",
+      musicstore: "€98.00"
+    }
+  },
+  197: {
+    prices: {
+      amazon: "$99.00",
+      zzounds: "$86.00",
+      andertons: "£86.00",
+      gear4music: "£61.00",
+      musicstore: "€75.00"
+    }
+  },
+  198: {
+    prices: {
+      gear4music: "£106.50",
+      amazon: "$79.00",
+      zzounds: "$109.00",
+      andertons: "£97.00",
+      musicstore: "€119.00"
+    }
+  },
+  199: {
+    prices: {
+      gear4music: "£319.00",
+      amazon: "$399.00",
+      zzounds: "$499.00",
+      andertons: "£299.00",
+      musicstore: "€389.00"
+    }
+  },
+  200: {
+    prices: {
+      amazon: "$204.99",
+      zzounds: "$219.99",
+      andertons: "£219.00",
+      gear4music: "£196.00",
+      musicstore: "€229.00"
+    }
+  },
+  201: {
+    prices: {
+      amazon: "$83.90",
+      andertons: "£58.00",
+      gear4music: "£58.00",
+      musicstore: "€66.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--TCEDITTO"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  202: {
+    prices: {
+      amazon: "$599.99",
+      zzounds: "$599.99",
+      andertons: "£499.00",
+      gear4music: "£526.00",
+      musicstore: "€599.00"
+    }
+  },
+  203: {
+    prices: {
+      amazon: "$228.50",
+      zzounds: "$229.99",
+      gear4music: "£199.00",
+      musicstore: "€259.00",
+      andertons: "£219.00"
+    }
+  },
+  204: {
+    prices: {
+      gear4music: "£284.00",
+      amazon: "$349.99",
+      zzounds: "$384.99",
+      andertons: "£309.00",
+      musicstore: "€295.00"
+    }
+  },
+  205: {
+    prices: {
+      gear4music: "£419.00",
+      amazon: "$449.00",
+      zzounds: "$499.00",
+      andertons: "£439.00",
+      musicstore: "€495.00"
+    }
+  },
+  206: {
+    prices: {
+      amazon: "$1,599.00",
+      zzounds: "$1,599.00",
+      andertons: "£1,399.00",
+      gear4music: "£1,399.00",
+      musicstore: "€1,799.00"
+    }
+  },
+  207: {
+    prices: {
+      amazon: "$1,762.00",
+      andertons: "£1,069.00",
+      gear4music: "£1,099.00",
+      musicstore: "€1,279.00"
+    }
+  },
+  208: {
+    prices: {
+      amazon: "$849.00",
+      zzounds: "$899.00",
+      andertons: "£709.00",
+      gear4music: "£709.28",
+      musicstore: "€729.00"
+    }
+  },
+  209: {
+    prices: {
+      amazon: "$1,399.00",
+      andertons: "£879.00",
+      musicstore: "€1,199.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Austrian-Audio-OC818-Studio-Set-Black/4PIK",
+      zzounds: "https://www.zzounds.com/a--925521/item--AAUOC818STUDSET"
+    },
+    oos: [
+      "zzounds",
+      "gear4music"
+    ]
+  },
+  210: {
+    prices: {
+      amazon: "$219.00",
+      zzounds: "$219.00",
+      andertons: "£149.00",
+      gear4music: "£149.50",
+      musicstore: "€149.00"
+    }
+  },
+  211: {
+    prices: {
+      gear4music: "£377.00",
+      amazon: "$399.00",
+      zzounds: "$399.00",
+      andertons: "£372.00",
+      musicstore: "€349.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--BEYM201TG"
+    }
+  },
+  212: {
+    prices: {
+      gear4music: "£196.00",
+      amazon: "$219.00",
+      zzounds: "$219.00",
+      andertons: "£193.00",
+      musicstore: "€209.00"
+    }
+  },
+  213: {
+    prices: {
+      amazon: "$199.00",
+      zzounds: "$199.00",
+      andertons: "£179.00",
+      gear4music: "£185.50",
+      musicstore: "€219.00"
+    }
+  },
+  214: {
+    prices: {
+      zzounds: "$159.00",
+      andertons: "£112.00",
+      gear4music: "£111.00",
+      musicstore: "€139.00"
+    }
+  },
+  215: {
+    prices: {
+      gear4music: "£532.00",
+      amazon: "$660.00",
+      andertons: "£405.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--DPAVO4099D"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  216: {
+    prices: {
+      gear4music: "£1,016.00",
+      amazon: "$1,699.00",
+      andertons: "£899.00",
+      musicstore: "€1,249.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--RCFNX912SMA"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  217: {
+    prices: {
+      gear4music: "£918.00",
+      amazon: "$949.00",
+      zzounds: "$949.00",
+      andertons: "£787.00",
+      musicstore: "€929.00"
+    }
+  },
+  218: {
+    prices: {
+      amazon: "$669.99",
+      zzounds: "$670.00",
+      andertons: "£463.00",
+      gear4music: "£463.00",
+      musicstore: "€586.00"
+    }
+  },
+  219: {
+    prices: {
+      gear4music: "£568.00",
+      amazon: "$696.99",
+      zzounds: "$845.00",
+      andertons: "£555.00",
+      musicstore: "€749.00"
+    }
+  },
+    222: {},
+  226: {
+    prices: {
+      amazon: "$179.00",
+      zzounds: "$179.00",
+      andertons: "£163.00",
+      musicstore: "€175.00",
+      gear4music: "£163.50"
+    }
+  },
+227: {
+    prices: {
+      gear4music: "£153.50",
+      amazon: "$199.95",
+      zzounds: "$199.95",
+      andertons: "£148.00",
+      musicstore: "€179.00"
+    }
+  },
+228: {
+    prices: {
+      gear4music: "£148.25",
+      amazon: "$214.00",
+      zzounds: "$219.00",
+      andertons: "£149.00",
+      musicstore: "€153.00"
+    }
+  },
+229: {
+    prices: {
+      gear4music: "£249.00",
+      amazon: "$249.00",
+      zzounds: "$249.00",
+      andertons: "£249.00",
+      musicstore: "€315.00"
+    }
+  },
+230: {
+    prices: {
+      gear4music: "£75.00",
+      amazon: "$131.60",
+      zzounds: "$139.00",
+      andertons: "£99.00",
+      musicstore: "€89.00"
+    }
+  },
+231: {
+    prices: {
+      amazon: "$259.00",
+      andertons: "£236.00",
+      gear4music: "£236.50",
+      musicstore: "€225.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--AUDOM7"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+232: {
+    prices: {
+      amazon: "$169.00",
+      zzounds: "$169.00",
+      andertons: "£129.00",
+      gear4music: "£139.00",
+      musicstore: "€189.00"
+    }
+  },
+  233: {
+    prices: {
+      amazon: "$2,199.99",
+      zzounds: "$2,199.99",
+      andertons: "£1,599.00",
+      gear4music: "£1,770.00",
+      musicstore: "€1,931.93"
+    }
+  },
+  234: {
+    prices: {
+      amazon: "$3,499.00",
+      zzounds: "$3,849.00",
+      andertons: "£2,549.00",
+      musicstore: "€2,898.00"
+    },
+    urls: {
+      musicstore: "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FRCF-SUB-8004-AS-18-%2Fart-PAH0014398-000"
+    },
+    oos: [
+      "gear4music"
+    ]
+  },
+  235: {
+    prices: {
+      amazon: "$999.00",
+      zzounds: "$1,099.00",
+      andertons: "£803.00",
+      gear4music: "£848.00",
+      musicstore: "€1,100.00"
+    }
+  },
+  236: {
+    prices: {
+      gear4music: "£1,139.00",
+      amazon: "$1,349.00",
+      zzounds: "$1,499.00",
+      andertons: "£1,149.00",
+      musicstore: "€1,399.00"
+    }
+  },
+  237: {
+    prices: {
+      gear4music: "£1,452.00",
+      amazon: "$1,739.99",
+      andertons: "£1,452.00",
+      musicstore: "€1,999.00"
+    }
+  },
+  238: {
+    prices: {
+      pluginboutique: "€102.85",
+      gear4music: "£74.00",
+      amazon: "$99.00",
+      musicstore: "€95.00"
+    },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  239: {
+    prices: {
+      amazon: "$438.50",
+      zzounds: "$488.00",
+      andertons: "£386.00",
+      gear4music: "£366.00",
+      musicstore: "€385.00"
+    }
+  },
+  240: {
+    prices: {
+      gear4music: "£358.00",
+      amazon: "$499.99",
+      zzounds: "$459.99",
+      musicstore: "€269.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  243: {
+    prices: {
+      amazon: "$159.99",
+      musicstore: "€199.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  244: {
+    prices: {
+      gear4music: "£239.50",
+      amazon: "$249.00",
+      zzounds: "$229.00",
+      musicstore: "€293.28"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  246: {
+    prices: {
+      amazon: "$169.99"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  247: {
+    prices: {
+      amazon: "$799.99",
+      zzounds: "$799.00",
+      andertons: "£521.00",
+      musicstore: "€649.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Mackie-DLZ-Creator-Digital-Streaming-Mixer/5NE6"
+    }
+  },
+  248: {
+    prices: {
+      amazon: "$529.00",
+      zzounds: "$595.00",
+      andertons: "£519.00",
+      gear4music: "£519.00",
+      musicstore: "€635.00"
+    }
+  },
+  249: {
+    prices: {
+      amazon: "$219.00",
+      musicstore: "€259.00"
+    }
+  },
+  250: {
+    prices: {
+      gear4music: "£261.50",
+      amazon: "$260.00",
+      zzounds: "$260.00",
+      andertons: "£258.00",
+      musicstore: "€335.29"
+    }
+  },
+  251: {
+    holly: {
+      eu: {
+        u: "https://eu.hollyland.com/de-de/products/lark-m2",
+        p: "€92.00"
+      },
+      us: {
+        u: "https://store.hollyland.com/products/lark-m2",
+        p: "$68.40"
+      },
+      uk: {
+        u: "https://uk.hollyland.com/products/lark-m2",
+        p: "£78.00"
+      }
+    },
+    prices: {
+      amazon: "$76.00"
+    },
+    na: [
+      "zzounds",
+      "reverb",
+      "gear4music",
+      "andertons",
+      "musicstore"
+    ]
+  },
+  252: {
+    prices: {
+      gear4music: "£165.00",
+      amazon: "$173.85",
+      zzounds: "$190.00",
+      andertons: "£169.00",
+      musicstore: "€199.00"
+    }
+  },
+  253: {
+    prices: {
+      amazon: "$109.99"
+    },
+    oos: [
+      "andertons",
+      "musicstore"
+    ]
+  },
+  254: {
+    prices: {
+      musicstore: "€99.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/DJI-Mic-Mini-2-2-TX-1-RX-Charging-Case-/art-REC0017234-000"
+    }
+  },
+  255: {
+    prices: {
+      amazon: "$449.99",
+      zzounds: "$519.99",
+      andertons: "£473.00",
+      gear4music: "£473.00",
+      musicstore: "€499.00"
+    }
+  },
+  256: {
+    prices: {
+      amazon: "$799.00",
+      zzounds: "$799.00",
+      andertons: "£719.00",
+      gear4music: "£719.00",
+      musicstore: "€829.00"
+    }
+  },
+  257: {
+    prices: {
+      gear4music: "£339.00",
+      amazon: "$399.00",
+      zzounds: "$399.00",
+      andertons: "£329.00",
+      musicstore: "€461.34"
+    }
+  },
+  258: {
+    prices: {
+      gear4music: "£249.99",
+      amazon: "$249.99",
+      zzounds: "$199.99",
+      andertons: "£249.00",
+      musicstore: "€269.00"
+    }
+  },
+  259: {
+    prices: {
+      gear4music: "£399.00",
+      amazon: "$499.99",
+      zzounds: "$599.99",
+      andertons: "£399.00",
+      musicstore: "€498.00"
+    }
+  },
+  262: {
+    prices: {
+      amazon: "$129.99",
+      zzounds: "$179.00",
+      andertons: "£91.00",
+      gear4music: "£94.00",
+      musicstore: "€115.00"
+    }
+  },
+  263: {
+    prices: {
+      amazon: "$299.00",
+      zzounds: "$299.00",
+      andertons: "£225.00",
+      gear4music: "£234.00",
+      musicstore: "€234.45"
+    }
+  },
+  264: {
+    prices: {
+      gear4music: "£329.99",
+      amazon: "$349.99"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  265: {
+    prices: {
+      amazon: "$149.90"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  659: {
+    prices: {
+      gear4music: "£110.25",
+      musicstore: "€158.00",
+      andertons: "£153.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/TC-Helicon-GoXLR-Mini/3R1T",
+      amazon: "https://www.amazon.com/Helicon-Online-Broadcast-Interface-Preamp/dp/B07XH41DLN",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/TC-Helicon-GoXLR-Mini/art-REC0014497-000",
+      zzounds: "https://www.zzounds.com/item--TCEGOXLRMINI",
+      andertons: "https://www.andertons.co.uk/tc-helicon-go-xlr-mini-in-white/"
+    },
+    oos: ["zzounds","andertons"]
+  },
+  661: {
+    prices: {
+      andertons: "£101.00",
+      zzounds: "$299.00",
+      musicstore: "€329.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Mackie-MainStream-Streaming-Interface/651X",
+      zzounds: "https://www.zzounds.com/item--MACMAINSTREAM",
+      andertons: "https://www.andertons.co.uk/mackie-mainstream-live-streaming-video-capture-interface/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Mackie-MainStream/art-LIG0019371-000"
+    }
+  },
+  662: {
+    prices: {
+      musicstore: "€459.00",
+      andertons: "£405.00",
+      zzounds: "$499.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-AG08-BL/art-REC0016318-000",
+      andertons: "https://www.andertons.co.uk/yamaha-ag08-bl/",
+      zzounds: "https://www.zzounds.com/item--YAMAG08"
+    }
+  },
+  663: {
+    prices: {
+      gear4music: "£371.00",
+      andertons: "£368.00",
+      zzounds: "$499.00",
+      musicstore: "€449.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Tascam-Mixcast-4-Podcast-Recording-Console/41NY",
+      andertons: "https://www.andertons.co.uk/tascam-mixcast-4-podcast-recording-console-with-built-in-recorder-usb-interface/",
+      zzounds: "https://www.zzounds.com/item--TASMIXCAST4",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Tascam-Mixcast-4/art-REC0015460-000"
+    },
+    oos: ["andertons"]
+  },
+  664: {
+    prices: {
+      gear4music: "£157.00",
+      andertons: "£157.00",
+      zzounds: "$179.00",
+      musicstore: "€172.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Zoom-Podtrak-P4Next-Podcasting-Interface/7TPP",
+      andertons: "https://www.andertons.co.uk/podtrak-p4next--next-generation-podcast-recorder/",
+      zzounds: "https://www.zzounds.com/item--ZOOZP4NEXT",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Zoom-PodTrak-P4next-4-Track-Podcast-Recorder/art-REC0017137-000"
+    },
+    oos: ["andertons"]
+  },
+   666: {
+    prices: {
+      amazon: "$169.00",
+      zzounds: "$169.00",
+      andertons: "£141.00",
+      gear4music: "£141.00",
+      musicstore: "€209.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Rode-NT-USBplus/58QD",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Rode-NT-USB-/art-REC0016237-000"
+    }
+  },
+     670: {
+    prices: {
+      amazon: "$169.00",
+      andertons: "£69.00",
+      gear4music: "£69.00",
+      musicstore: "€115.00"
+    },
+    urls: { zzounds: "https://www.zzounds.com/prodsearch?form=search&q=sE+Electronics+Neom",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/sE-Electronics-NEOM-USB-Condenser-Microphone/4OZA",
+      andertons: "https://www.andertons.co.uk/se-electronics-neom-usb-cardioid-condenser-microphone/?search_query=sE%20Electronics%20NEOM%20USB",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/sE-electronics-NEOM/art-REC0015955-000"
+     }, oos: [ "zzounds" ] },
+  266: {
+    prices: {
+      gear4music: "£1,180.00",
+      amazon: "$1,749.00",
+      zzounds: "$1,749.00",
+      andertons: "£1,180.00",
+      musicstore: "€1,398.00"
+    }
+  },
+  267: {
+    prices: {
+      amazon: "$419.99",
+      zzounds: "$989.00",
+      andertons: "£859.00",
+      gear4music: "£875.00",
+      musicstore: "€959.00"
+    }
+  },
+  268: {
+    prices: {
+      amazon: "$1,699.95"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  269: {
+    prices: {
+      amazon: "$989.00",
+      zzounds: "$999.00",
+      andertons: "£866.00",
+      gear4music: "£902.00",
+      musicstore: "€1,049.00"
+    }
+  },
+  270: {
+    prices: {
+      amazon: "$219.99"
+    },
+    oos: [
+      "andertons",
+      "musicstore"
+    ]
+  },
+  271: {
+    prices: {
+      amazon: "$499.00",
+      andertons: "£449.00",
+      gear4music: "£425.00",
+      musicstore: "€485.00",
+      zzounds: "$499.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--TAYGSMINISV2"
+    }
+  },
+  272: {
+    prices: {
+      amazon: "$879.99",
+      andertons: "£699.00",
+      gear4music: "£749.00",
+      musicstore: "€789.00"
+    }
+  },
+  273: {
+    prices: {
+      amazon: "$879.99",
+      andertons: "£699.00",
+      gear4music: "£706.00",
+      musicstore: "€799.00"
+    }
+  },
+  274: {
+    prices: {
+      gear4music: "£309.00",
+      amazon: "$239.99",
+      musicstore: "€335.29"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  275: {
+    prices: {
+      gear4music: "£349.00",
+      amazon: "$329.99",
+      musicstore: "€399.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--TRAULNY"
+    },
+    oos: [
+      "andertons",
+      "zzounds"
+    ]
+  },
+  276: {
+    prices: {
+      gear4music: "£95.00",
+      amazon: "$69.99",
+      zzounds: "$99.99",
+      musicstore: "€98.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  277: {
+    prices: {
+      amazon: "$69.99"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  278: {
+    prices: {
+      amazon: "$67.99"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  279: {
+    prices: {
+      amazon: "$54.99"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  280: { prices: { amazon: "$59.99" }, urls: { amazon: "https://www.amazon.com/dp/B0CT787NLW?tag=topmusicg-20" } },
+  281: {
+    prices: {
+      amazon: "$45.00",
+      zzounds: "$44.99",
+      gear4music: "£39.00",
+      musicstore: "€35.29"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  284: {
+    prices: {
+      amazon: "$30.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  286: {
+    prices: {
+      gear4music: "£135.50",
+      amazon: "$159.00",
+      andertons: "£129.00",
+      musicstore: "€145.00",
+      zzounds: "$159.00"
+    }
+  },
+  287: {
+    prices: {
+      amazon: "$19.99",
+      zzounds: "$19.99",
+      gear4music: "£17.00",
+      musicstore: "€15.97"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  289: {
+    prices: {
+      amazon: "$32.99"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  290: {
+    prices: {
+      musicstore: "€135.00",
+      gear4music: "£99.99",
+      amazon: "$149.00",
+      zzounds: "$109.00"
+    },
+    oos: [
+      "andertons"
+    ],
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Rode-X-XCM-50/art-REC0016293-000"
+    }
+  },
+  291: {
+    prices: {
+      amazon: "$168.00",
+      zzounds: "$169.00",
+      andertons: "£111.00",
+      musicstore: "€135.00"
+    },
+    urls: {
+      // G4M sigue en la fila pero SIN precio (agotado); la URL real se conserva para
+      // que la fila "Agotado" enlace a la ficha del producto, no a la home.
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Audio-Technica-AT2020USBX-Cardioid-Condenser-Microphone/528M",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Audio-Technica-AT2020USB-X-USB-Condenser-Mic-with-Stand-Black-/art-REC0016176-000",
+      andertons: "https://www.andertons.co.uk/audio-technica-at2020usb-x-cardioid-condenser-mic-with-headphone-amp/"
+    },
+    oos: [
+      "gear4music",
+      "zzounds"
+    ]
+  },
+  292: {
+    prices: {
+      amazon: "$103.00",
+      zzounds: "$105.00",
+      gear4music: "£84.20",
+      andertons: "£85.00",
+      musicstore: "€95.00"
+    }
+  },
+  293: {
+    prices: {
+      gear4music: "£299.00",
+      amazon: "$329.99",
+      zzounds: "$369.99",
+      andertons: "£299.00",
+      musicstore: "€320.00"
+    }
+  },
+  294: {
+    prices: {
+      gear4music: "£279.00",
+      amazon: "$279.00",
+      zzounds: "$349.00",
+      musicstore: "€377.31",
+      andertons: "£269.00"
+    }
+  },
+  295: {
+    prices: {
+      amazon: "$295.99"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  296: {
+    prices: {
+      amazon: "$699.00",
+      andertons: "£799.00"
+    }
+  },
+  297: {
+    prices: {
+      amazon: "$154.00",
+      zzounds: "$159.00",
+      andertons: "£119.99",
+      gear4music: "£119.99",
+      musicstore: "€128.00"
+    }
+  },
+  298: {
+    prices: {
+      amazon: "$159.00",
+      zzounds: "$159.00",
+      andertons: "£159.00",
+      musicstore: "€179.00",
+      gear4music: "£166.00"
+    }
+  },
+  299: {
+    prices: {
+      gear4music: "£104.99",
+      amazon: "$198.00",
+      zzounds: "$199.00",
+      andertons: "£159.00",
+      musicstore: "€143.00"
+    }
+  },
+  300: {
+    prices: {
+      andertons: "£499.00",
+      amazon: "$599.00",
+      zzounds: "$599.00",
+      musicstore: "€599.00",
+      gear4music: "£499.00"
+    }
+  },
+  301: {
+    prices: {
+      zzounds: "$599.99",
+      andertons: "£629.00",
+      gear4music: "£629.00",
+      musicstore: "€699.00",
+      amazon: "$599.99"
+    }
+  },
+  302: {
+    prices: {
+      gear4music: "£499.00",
+      amazon: "$599.99",
+      zzounds: "$299.99",
+      andertons: "£249.00",
+      musicstore: "€489.00"
+    }
+  },
+  303: {
+    prices: {
+      gear4music: "£277.00",
+      amazon: "$395.00",
+      andertons: "£288.00",
+      musicstore: "€299.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--GEN8010APM"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  304: {
+    prices: {
+      andertons: "£449.00",
+      gear4music: "£499.00",
+      amazon: "$599.00",
+      musicstore: "€649.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--KAAINUNF"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  305: {
+    prices: {
+      gear4music: "£504.42",
+      amazon: "$593.75",
+      zzounds: "$599.00",
+      andertons: "£499.00",
+      musicstore: "€469.00"
+    }
+  },
+  306: {
+    prices: {
+      gear4music: "£267.50",
+      amazon: "$289.99",
+      zzounds: "$349.99",
+      andertons: "£260.00",
+      musicstore: "€251.26"
+    }
+  },
+  307: {
+    prices: {
+      amazon: "$349.00",
+      zzounds: "$349.00",
+      andertons: "£276.99",
+      gear4music: "£259.00",
+      musicstore: "€349.00"
+    }
+  },
+  308: {
+    prices: {
+      gear4music: "£650.00",
+      amazon: "$799.99",
+      zzounds: "$799.99",
+      andertons: "£609.00",
+      musicstore: "€399.00"
+    }
+  },
+  309: {
+    prices: {
+      amazon: "$139.99"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  310: {
+    prices: {
+      amazon: "$319.99",
+      zzounds: "$319.99",
+      gear4music: "£229.00",
+      musicstore: "€269.00",
+      andertons: "£239.00"
+    }
+  },
+  311: {
+    prices: {
+      amazon: "$499.99",
+      zzounds: "$499.99",
+      gear4music: "£379.00",
+      musicstore: "€455.00",
+      andertons: "£399.00"
+    }
+  },
+  312: {
+    prices: {
+      amazon: "$949.00",
+      zzounds: "$949.00",
+      andertons: "£799.00",
+      gear4music: "£829.00",
+      musicstore: "€699.00"
+    }
+  },
+  313: {
+    prices: {
+      gear4music: "£145.00",
+      amazon: "$249.99",
+      zzounds: "$249.99",
+      andertons: "£139.00",
+      musicstore: "€179.00"
+    }
+  },
+  314: {
+    prices: {
+      gear4music: "£398.00",
+      amazon: "$419.99",
+      andertons: "£399.00",
+      musicstore: "€399.00"
+    }
+  },
+  315: {
+    prices: {
+      gear4music: "£295.00",
+      amazon: "$259.99",
+      zzounds: "$279.99",
+      andertons: "£299.00",
+      musicstore: "€329.00"
+    }
+  },
+  316: {
+    prices: {
+      amazon: "$449.99",
+      zzounds: "$449.99",
+      andertons: "£449.00",
+      musicstore: "€499.00",
+      gear4music: "£419.00"
+    }
+  },
+  317: {
+    prices: {
+      zzounds: "$1,149.00",
+      andertons: "£999.00"
+    },
+    oos: [
+      "gear4music"
+    ]
+  },
+  318: {
+    prices: {
+      gear4music: "£1,690.00",
+      amazon: "$2,199.99",
+      zzounds: "$2,199.99",
+      andertons: "£1,699.00",
+      musicstore: "€2,099.00"
+    }
+  },
+  319: {
+    prices: {
+      amazon: "$2,275.00",
+      zzounds: "$2,629.00",
+      andertons: "£2,699.00",
+      musicstore: "€2,499.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/ESP-E-II-Eclipse-Tobacco-Sunburst/273H",
+      andertons: "https://www.andertons.co.uk/esp-e-ii-eclipse-db-gransp-granite-sparkle/"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  321: {
+    prices: {
+      gear4music: "£511.00",
+      amazon: "$549.00",
+      zzounds: "$549.00",
+      andertons: "£508.00",
+      musicstore: "€522.00"
+    }
+  },
+  323: {
+    prices: {
+      amazon: "$99.00",
+      zzounds: "$99.99",
+      andertons: "£91.00",
+      gear4music: "£91.30",
+      musicstore: "€99.00"
+    }
+  },
+  324: {
+    prices: {
+      amazon: "$129.99",
+      zzounds: "$129.99",
+      andertons: "£99.00",
+      gear4music: "£102.00",
+      musicstore: "€99.00"
+    }
+  },
+  325: {
+    prices: {
+      gear4music: "£380.00",
+      amazon: "$549.00",
+      zzounds: "$549.00",
+      musicstore: "€503.36",
+      andertons: "£379.00"
+    }
+  },
+  326: {
+    prices: {
+      gear4music: "£399.00",
+      andertons: "£399.00",
+      zzounds: "$599.00"
+    }
+  },
+   328: {
+    prices: {
+      gear4music: "£139.99",
+      amazon: "$219.00",
+      zzounds: "$219.00",
+      andertons: "£152.00",
+      musicstore: "€199.16"
+    }
+  },
+  329: {
+    prices: {
+      amazon: "$199.00",
+      zzounds: "$218.00",
+      andertons: "£164.00",
+      gear4music: "£164.00"
+    },
+    oos: [
+      "musicstore"
+    ]
+  },
+  330: {
+    prices: {
+      gear4music: "£16.80",
+      amazon: "$20.99",
+      andertons: "£16.00",
+      musicstore: "€22.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--BEHXM8500"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  331: {
+    prices: {
+      andertons: "£3,579.00",
+      musicstore: "€3,669.00"
+    }
+  },
+  332: {
+    prices: {
+      gear4music: "£540.00",
+      amazon: "$599.00",
+      zzounds: "$599.00",
+      andertons: "£525.00",
+      musicstore: "€472.44"
+    }
+  },
+  333: {
+    prices: {
+      gear4music: "£246.00",
+      amazon: "$459.99",
+      zzounds: "$460.00",
+      andertons: "£246.00",
+      musicstore: "€359.00"
+    }
+  },
+  334: {
+    prices: {
+      gear4music: "£1,708.00",
+      amazon: "$3,299.99",
+      zzounds: "$3,299.99",
+      andertons: "£1,499.00",
+      musicstore: "€2,499.00"
+    }
+  },
+  335: {
+    prices: {
+      amazon: "$999.99",
+      zzounds: "$744.95"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Korg-Soundlink-MW1608-Hybrid-Mixer/38AJ"
+    },
+    oos: [
+      "musicstore",
+      "andertons",
+      "gear4music"
+    ]
+  },
+  337: {
+    prices: {
+      gear4music: "£1,565.79",
+      amazon: "$1,999.00",
+      zzounds: "$1,999.00",
+      andertons: "£1,565.00",
+      musicstore: "€1,489.00"
+    }
+  },
+  338: {
+    prices: {
+      andertons: "£1,019.00",
+      musicstore: "€587.39"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Genelec-7050C-Subwoofer/8M",
+      zzounds: "https://www.zzounds.com/a--925521/item--GEN7050CPM"
+    },
+    oos: [
+      "gear4music",
+      "zzounds"
+    ]
+  },
+  339: {
+    prices: {
+      gear4music: "£739.00",
+      amazon: "$999.00",
+      zzounds: "$999.00",
+      andertons: "£739.00",
+      musicstore: "€839.34"
+    }
+  },
+  340: {
+    prices: {
+      amazon: "$485.00",
+      zzounds: "$485.00",
+      andertons: "£472.00",
+      gear4music: "£491.00",
+      musicstore: "€478.15"
+    }
+  },
+  341: {
+    prices: {
+      amazon: "$559.00",
+      zzounds: "$641.52",
+      gear4music: "£564.00",
+      musicstore: "€574.79"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  342: {
+    prices: {
+      amazon: "$329.95",
+      zzounds: "$349.00",
+      andertons: "£222.00",
+      gear4music: "£223.50",
+      musicstore: "€221.85"
+    }
+  },
+  343: {
+    prices: {
+      amazon: "$269.00",
+      zzounds: "$269.00",
+      musicstore: "€293.28"
+    },
+    oos: [
+      "andertons",
+      "gear4music"
+    ]
+  },
+  344: {
+    prices: {
+      amazon: "$399.00"
+    },
+    na: [
+      "zzounds",
+      "reverb",
+      "gear4music",
+      "andertons",
+      "musicstore"
+    ]
+  },
+  345: {
+    prices: {
+      gear4music: "£191.50",
+      amazon: "$239.40",
+      zzounds: "$239.40",
+      andertons: "£219.00",
+      musicstore: "€239.00"
+    }
+  },
+  346: {
+    prices: {
+      gear4music: "£173.75",
+      amazon: "$187.51",
+      zzounds: "$219.00",
+      musicstore: "€298.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  347: {
+    prices: {
+      gear4music: "£180.82",
+      zzounds: "$249.99",
+      andertons: "£175.00",
+      amazon: "$199.99",
+      musicstore: "€235.00"
+    }
+  },
+  348: {
+    prices: {
+      gear4music: "£482.39",
+      zzounds: "$478.00",
+      andertons: "£433.00",
+      amazon: "$479.99"
+    }
+  },
+  349: {
+    prices: {
+      amazon: "$1,090.00",
+      zzounds: "$1,249.00",
+      andertons: "£899.00",
+      gear4music: "£881.00",
+      musicstore: "€949.00"
+    }
+  },
+  350: {
+    prices: {
+      zzounds: "$228.99",
+      amazon: "$228.99"
+    },
+    oos: [
+      "musicstore",
+      "andertons"
+    ]
+  },
+  352: {
+    prices: {
+      gear4music: "£179.00",
+      amazon: "$189.00",
+      zzounds: "$249.99",
+      andertons: "£189.00",
+      musicstore: "€158.80"
+    }
+  },
+  353: {
+    prices: {
+      gear4music: "£499.00",
+      amazon: "$529.99",
+      musicstore: "€539.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  354: {
+    prices: {
+      gear4music: "£499.00",
+      andertons: "£379.00",
+      amazon: "$599.00",
+      musicstore: "€419.33"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--PAUSEP20F"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  355: {
+    prices: {
+      gear4music: "£339.00",
+      musicstore: "€335.29"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B009WU5SV0?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/a--925521/item--EPIEE00"
+    },
+    oos: [
+      "amazon",
+      "zzounds",
+      "andertons"
+    ]
+  },
+  356: {
+    prices: {
+      gear4music: "£189.00",
+      amazon: "$199.99",
+      musicstore: "€219.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  357: {
+    prices: {
+      gear4music: "£515.00",
+      amazon: "$599.99",
+      andertons: "£485.00",
+      musicstore: "€604.20"
+    }
+  },
+  358: {
+    prices: {
+      amazon: "$189.00",
+      zzounds: "$189.00",
+      musicstore: "€124.37"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  359: {
+    prices: {
+      gear4music: "£87.70",
+      amazon: "$94.99",
+      musicstore: "€82.35"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  360: {
+    prices: {
+      amazon: "$1,499.00",
+      zzounds: "$1,499.00",
+      musicstore: "€1,368.90"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  361: {
+    prices: {
+      gear4music: "£886.00",
+      amazon: "$999.00",
+      zzounds: "$999.99",
+      andertons: "£829.00",
+      musicstore: "€755.46"
+    }
+  },
+  362: {
+    prices: {
+      amazon: "$649.00",
+      zzounds: "$649.00",
+      andertons: "£479.00",
+      gear4music: "£479.00",
+      musicstore: "€599.00"
+    }
+  },
+  363: {
+    prices: {
+      amazon: "$279.99",
+      zzounds: "$279.99",
+      gear4music: "£222.00",
+      andertons: "£209.00",
+      musicstore: "€269.00"
+    }
+  },
+  364: {
+    prices: {
+      amazon: "$507.99",
+      zzounds: "$1,049.99",
+      andertons: "£799.00",
+      gear4music: "£788.00",
+      musicstore: "€798.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-M160-Double-Ribbon-Microphone/92T"
+    }
+  },
+  365: {
+    prices: {
+      amazon: "$477.73",
+      zzounds: "$519.00",
+      andertons: "£323.00",
+      gear4music: "£466.00",
+      musicstore: "€436.13"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/sE-Electronics-VR2-Voodoo-Active-Ribbon-Mic/DRQ",
+      zzounds: "https://www.zzounds.com/item--SEEVR2"
+    }
+  },
+  366: {
+    prices: {
+      amazon: "$99.95",
+      zzounds: "$99.95"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--MXLR144HE"
+    },
+    oos: [
+      "zzounds",
+      "andertons"
+    ]
+  },
+  370: {
+    prices: {
+      amazon: "$384.99",
+      zzounds: "$384.99",
+      andertons: "£319.00",
+      gear4music: "£315.00",
+      musicstore: "€349.00"
+    },
+    urls: {
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FRoland-GOKEYS-3-Music-Creation-Keyboard-Midnight-Blue%2F6AB8",
+      zzounds: "https://www.zzounds.com/item--ROLGOKEYS3"
+    }
+  },
+  371: {
+    prices: {
+      amazon: "$199.99",
+      zzounds: "$239.99",
+      andertons: "£118.00",
+      gear4music: "£125.00",
+      musicstore: "€159.00"
+    }
+  },
+  372: {
+    prices: {
+      amazon: "$795.00",
+      andertons: "£517.00",
+      gear4music: "£540.00",
+      musicstore: "€453.78"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--GEN8030CP"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  374: {
+    prices: {
+      pluginboutique: "€99.83"
+    },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
+    },
+    urls: {
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9819-ShaperBox-3-Bundle",
+      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
+    },
+    na: [
+      "andertons",
+      "gear4music",
+      "musicstore"
+    ]
+  },
+  375: {
+    prices: {
+      pluginboutique: "€99.83",
+      gear4music: "£22.00",
+      musicstore: "€91.00",
+      amazon: "$99.00"
+    },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/XLN-Audio-RC-20-Retro-Color/3NGQ",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/44-Saturation/3016-RC-20-Retro-Color",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/XLN-Audio-RC-20-Retro-Color/art-PCM0018798-000",
+      amazon: "https://www.amazon.com/XLN-Audio-RC-20-Retro-Color/dp/B08JSYBDY1"
+    }
+  },
+  376: {
+    prices: {
+      pluginboutique: "€10.08"
+    },
+    pbCur: {
+      us: "$12.00",
+      uk: "£9.55"
+    },
+    urls: {
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/3952-HalfTime",
+      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
+    },
+    na: [
+      "andertons",
+      "gear4music",
+      "musicstore"
+    ]
+  },
+  377: {
+    prices: {
+      pluginboutique: "€120.00",
+      gear4music: "£111.00",
+      andertons: "£99.00",
+      musicstore: "€129.00",
+      amazon: "$129.00"
+    },
+    pbCur: {
+      us: "$129.00",
+      uk: "£102.67"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Baby-Audio-Transit-2/6RY2",
+      andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fbaby-audio-transit-2-motion-effects-plugin%2F",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/13431-Transit-2",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Baby-Audio-Transit-2-License-Code/art-PCM0018531-000",
+      amazon: "https://www.amazon.com/Baby-Audio-Transit-2-Plugin/dp/B0DCJ5LPZL"
+    }
+  },
+  378: {
+    prices: {
+      pluginboutique: "€99.83",
+      andertons: "£82.80",
+      gear4music: "£82.80"
+    },
+    pbCur: {
+      us: "$89.00",
+      uk: "£70.84"
+    },
+  },
+  379: {
+    prices: {
+      pluginboutique: "€42.35"
+    },
+    pbCur: {
+      us: "$175.00",
+      uk: "£139.28"
+    },
+  },
+  380: {
+    prices: {
+      pluginboutique: "€120.99"
+    },
+    pbCur: {
+      us: "$129.99",
+      uk: "£103.46"
+    },
+    urls: {
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7627-Infiltrator-2",
+      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
+    },
+    na: [
+      "andertons",
+      "gear4music",
+      "musicstore"
+    ]
+  },
+  381: {
+    prices: {
+      pluginboutique: "€331.75",
+      gear4music: "£252.00",
+      andertons: "£252.00",
+      musicstore: "€309.00",
+      amazon: "$299"
+    },
+    pbCur: {
+      us: "$299.00",
+      uk: "£237.97"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/iZotope-Neutron-5-Advanced/6U5K",
+      andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fizotope-neutron-5-standard--esd%2F",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/13502-Neutron-5",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/iZotope-Neutron-5-License-Code/art-PCM0018250-000",
+      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
+    }
+  },
+  382: {
+    prices: {
+      pluginboutique: "€99.83",
+      amazon: "$99.00"
+    },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
+    },
+    urls: {
+      pluginboutique: "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/14563-Scaler-3",
+      amazon: "https://www.amazon.com/Plugin-Boutique-Scaler-3-Software/dp/B0FKK2H83D"
+    },
+    na: [
+      "andertons",
+      "gear4music",
+      "musicstore"
+    ]
+  },
+  383: {
+    prices: {
+      pluginboutique: "€130.08",
+      gear4music: "£119.00",
+      musicstore: "€99.00",
+      amazon: "$129.00"
+    },
+    pbCur: {
+      us: "$129.00",
+      uk: "£102.67"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Sonible-SmartEQ-4/65LT",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/16-EQ/11784-smart-EQ-4",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Sonible-smart-EQ-4-License-Code/art-PCM0017947-000",
+      amazon: "https://www.amazon.com/Sonible-smartEQ-4/dp/B0CVHRCRW2"
+    },
+    na: [
+      "andertons"
+    ]
+  },
+  384: {
+    prices: {
+      pluginboutique: "€130.08",
+      gear4music: "£119.00",
+      musicstore: "€99.00",
+      amazon: "$129.00"
+    },
+    pbCur: {
+      us: "$129.00",
+      uk: "£102.67"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Sonible-SmartLimit/4M4S",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/9-Limiter/8476-smart-limit",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Sonible-Smart-limit-License-Code/art-PCM0017210-000",
+      amazon: "https://www.amazon.com/Sonible-smartlimit-Plugin/dp/B0C8J4WJF1"
+    },
+    na: [
+      "andertons"
+    ]
+  },
+  385: {
+    prices: {
+      pluginboutique: "€70.54"
+    },
+    pbCur: {
+      us: "$80.00",
+      uk: "£63.67"
+    },
+  },
+  386: {
+    prices: {
+      pluginboutique: "€109.90",
+      gear4music: "£95.00",
+      andertons: "£95.00",
+      musicstore: "€99.00",
+      amazon: "$99.00"
+    },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/iZotope-Trash/6AAU",
+      andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fizotope-trash-creative-distortion-plugin%2F",
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/30-Distortion/11987-Trash",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/iZotope-Trash-License-Code/art-PCM0018334-000",
+      amazon: "https://www.amazon.com/iZotope-Trash-Distortion-Plugin/dp/B0DF84C84J"
+    }
+  },
+  387: {
+    prices: {
+      pluginboutique: "€79.65",
+      amazon: "$79.00"
+    },
+    pbCur: {
+      us: "$79.00",
+      uk: "£62.88"
+    },
+    urls: {
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8036-Lifeline-Expanse",
+      amazon: "https://www.amazon.com/Excite-Audio-Lifeline-Expanse-Plugin/dp/B0DKF74MVH"
+    },
+    na: [
+      "andertons",
+      "gear4music",
+      "musicstore"
+    ]
+  },
+  389: {
+    prices: {
+      gear4music: "£82.00",
+      pluginboutique: "€99.83",
+      musicstore: "€95.00"
+    },
+    pbCur: {
+      us: "$49.00",
+      uk: "£39.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
+    }
+  },
+  390: {
+    prices: {
+      gear4music: "£37.00",
+      pluginboutique: "€51.43",
+      zzounds: "$99.00",
+      andertons: "£37.00"
+    },
+    pbCur: {
+      us: "$49.00",
+      uk: "£39.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/item--ARACHORUSJUN6?siid=351840",
+      andertons: "https://www.andertons.co.uk/arturia-chorus-jun-6/"
+    }
+  },
+  392: {
+    prices: {
+      pluginboutique: "€89.75",
+      zzounds: "$99.00",
+      gear4music: "£74.99",
+      musicstore: "€89.00"
+    },
+    pbCur: {
+      us: "$99.00",
+      uk: "£78.79"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--DSXREPEATER",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Slate-Digital-Repeater-Delay/41TU",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/D16-Group-Repeater-License-Code/art-PCM0015075-000"
+    }
+  },
+  394: {
+    prices: {
+      pluginboutique: "€79.65"
+    },
+    pbCur: {
+      us: "$79.00",
+      uk: "£62.88"
+    },
+  },
+  395: {
+    prices: {
+      amazon: "$467.46",
+      zzounds: "$499.99",
+      gear4music: "£449.00",
+      andertons: "£419.00",
+      musicstore: "€529.00"
+    }
+  },
+  396: {
+    prices: {
+      amazon: "$419.00",
+      gear4music: "£266.00",
+      andertons: "£266.00",
+      musicstore: "€298.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--BEHXTOUCH"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  397: {
+    prices: {
+      amazon: "$699.99",
+      zzounds: "$699.99",
+      gear4music: "£496.00",
+      andertons: "£496.00",
+      musicstore: "€639.00"
+    }
+  },
+  398: {
+    prices: {
+      zzounds: "$1,495.00",
+      musicstore: "€1,349.00",
+      amazon: "$1,295",
+      andertons: "£1,549.00"
+    }
+  },
+  399: {
+    prices: {
+      musicstore: "€318.49"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B071XHN18K?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/a--925521/item--ICNPLATFORMMPLUS"
+    },
+    oos: [
+      "amazon",
+      "zzounds"
+    ]
+  },
+  400: {
+    prices: {
+      amazon: "$1,299.99",
+      zzounds: "$1,399.99",
+      musicstore: "€1,032.77"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  401: {
+    prices: {
+      amazon: "$899.00",
+      gear4music: "£770.00",
+      andertons: "£849.00",
+      musicstore: "€899.00",
+      zzounds: "$999.00"
+    }
+  },
+  402: { prices: { amazon: "$1,999.00", gear4music: "£1,348.00", andertons: "£1,234.00", musicstore: "€1,555.00" }, urls: { zzounds: "https://www.zzounds.com/item--BEHX32" }, oos: [ "zzounds" ] },
+  403: { prices: { gear4music: "£2,969.00", amazon: "$2,499", andertons: "£2,659.00", musicstore: "€2,977.00" }, urls: { zzounds: "https://www.zzounds.com/a--925521/item--MIDM32LIVE" }, oos: [ "zzounds" ] },
+  406: {
+    prices: {
+      zzounds: "$1,599.00",
+      gear4music: "£1,510.00",
+      amazon: "$1,599.99",
+      andertons: "£1,510.00",
+      musicstore: "€1,789.00"
+    }
+  },
+  408: {
+    prices: {
+      zzounds: "$1,399.99",
+      amazon: "$1,399.99",
+      gear4music: "£1,036.00",
+      musicstore: "€1,365.46"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  410: {
+    prices: {
+      amazon: "$1,499.00",
+      zzounds: "$999.00",
+      gear4music: "£730.00",
+      andertons: "£749.00",
+      musicstore: "€869.00"
+    }
+  },
+  411: { prices: { amazon: "$1,799.99", zzounds: "$1,799.99", andertons: "£1,399.00", gear4music: "£1,447.00", musicstore: "€1,699.00" } },
+  658: {
+    prices: {
+      zzounds: "$999.00",
+      andertons: "£799.00",
+      musicstore: "€899.00",
+      gear4music: "£728.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Bose-T8S-ToneMatch-Digital-Mixer/2ADL",
+      amazon: "https://www.amazon.com/BOSE-785491-0110-Bose-T8S-toneMatch/dp/B07CG81TLC",
+      zzounds: "https://www.zzounds.com/item--BOET8STONEMATCH",
+      andertons: "https://www.andertons.co.uk/bose-t8s-tonematch/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Bose-T8S-ToneMatch-Mixer/art-PAH0019778-000"
+    }
+  },
+  412: {
+    prices: {
+      gear4music: "£2,399.00",
+      andertons: "£2,159.00",
+      musicstore: "€1,899.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--PRSSTUDIOLIVE32S",
+      musicstore: "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FPresonus-StudioLive-32S%2Fart-REC0014236-000"
+    }
+  },
+  413: {
+    prices: {
+      amazon: "$1,689.99",
+      musicstore: "€1,427.73",
+      andertons: "£1,399.00"
+    }
+  },
+  414: {
+    prices: {
+      zzounds: "$5,999.00",
+      gear4music: "£3,799.00",
+      musicstore: "€4,499.00",
+      andertons: "£3,799.00"
+    },
+    urls: {
+      andertons: "https://www.andertons.co.uk/allen-heath-sq-6-digital-mixer-2/?search_query=Allen%20%26%20Heath%20SQ-6"
+    }
+  },
+  418: {
+    prices: {
+      amazon: "$2,999.00",
+      zzounds: "$3,099.00",
+      andertons: "£3,449.00",
+      musicstore: "€4,498.00"
+    }
+  },
+  419: {
+    prices: {
+      amazon: "$99.00",
+      gear4music: "£75.00",
+      musicstore: "€89.00",
+      zzounds: "$99.95",
+      andertons: "£75.00"
+    }
+  },
+  420: {
+    prices: {
+      amazon: "$99.00",
+      gear4music: "£92.00",
+      musicstore: "€111.00",
+      zzounds: "$109.00",
+      andertons: "£90.00"
+    }
+  },
+  421: {
+    prices: {
+      amazon: "$249.00",
+      zzounds: "$329.00",
+      andertons: "£169.00",
+      gear4music: "£169.00",
+      musicstore: "€215.00"
+    }
+  },
+  422: { urls: { zzounds: "https://www.zzounds.com/item--SENHD600" },
+    prices: {
+      amazon: "$279.00",
+      gear4music: "£149.00",
+      musicstore: "€304.00"
+     }, oos: [ "zzounds" ] },
+  423: {
+    prices: {
+      zzounds: "$379.00",
+      amazon: "$379.00",
+      andertons: "£279.00",
+      gear4music: "£305.00",
+      musicstore: "€349.00"
+    }
+  },
+  424: {
+    prices: {
+      zzounds: "$699.00",
+      amazon: "$599.00",
+      andertons: "£525.00",
+      gear4music: "£559.00",
+      musicstore: "€545.00"
+    }
+  },
+
+  610: { prices: { andertons: "£177.00", gear4music: "£178.00", zzounds: "$249.00" }, urls: { amazon: "https://www.amazon.com/dp/B0B11K62XF?tag=topmusicg-20", gear4music: "https://www.gear4music.com/Recording-and-Computers/Roland-Aira-Compact-T-8-Beat-Machine/4TXY", zzounds: "https://www.zzounds.com/item--ROLT8?siid=318855" } },
+  612: {
+    prices: {
+      gear4music: "£920.00", zzounds: "$1,149.00",
+      andertons: "£799.00",
+      musicstore: "€997.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B09YPSR8N5?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/item--ELKSYNTAKT?siid=318234"
+    }
+  },
+  613: {
+    prices: {
+      gear4music: "£1,649.00",
+      musicstore: "€1,965.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B0CFVZNN89?tag=topmusicg-20"
+    }
+  },
+  614: {
+    prices: {
+      andertons: "£222.00",
+      zzounds: "$299.00",
+      gear4music: "£246.00",
+      musicstore: "€259.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B07FPYBVHP?tag=topmusicg-20"
+    }
+  },
+  609: {
+    prices: {
+      amazon: "$59.00",
+      gear4music: "£48.00",
+      musicstore: "€59.00",
+      zzounds: "$59.00",
+      andertons: "£48.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/a--925521/item--AUTATHM20X"
+    }
+  },
+  608: {
+    prices: {
+      gear4music: "£241.00",
+      andertons: "£253.00",
+      zzounds: "$329.00",
+      musicstore: "€299.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B00SC80YLM?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/a--925521/item--AUTATHM70X",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Audio-Technica-ATH-M70X/art-REC0011133-000"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  606: {
+    prices: {
+      amazon: "$186.78",
+      andertons: "£145.00",
+      gear4music: "£148.50",
+      musicstore: "€175.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-300-PRO/art-REC0013894-000"
+    }
+  },
+  605: {
+    prices: {
+      amazon: "$549.00",
+      zzounds: "$599.00",
+      andertons: "£434.00",
+      gear4music: "£434.04",
+      musicstore: "€479.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-NDH-20/art-REC0014175-000"
+    }
+  },
+  604: {
+    prices: {
+      zzounds: "$99.00",
+      andertons: "£58.00",
+      gear4music: "£58.00",
+      musicstore: "€75.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B0001ARCFA?tag=topmusicg-20"
+    }
+  },
+  602: {
+    prices: {
+      amazon: "$279.99",
+      zzounds: "$280.00",
+      andertons: "£219.00",
+      gear4music: "£239.50",
+      musicstore: "€239.00"
+    }
+  },
+  603: {
+    prices: {
+      amazon: "$599.99",
+      zzounds: "$649.99",
+      andertons: "£475.00",
+      gear4music: "£557.00",
+      musicstore: "€499.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/beyerdynamic-DT-1990-PRO-MKII/art-REC0016806-000"
+    }
+  },
+  426: {
+    prices: {
+      amazon: "$149.00",
+      gear4music: "£99.00"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  427: {
+    prices: {
+      amazon: "$99.00",
+      gear4music: "£87.40",
+      musicstore: "€99.00",
+      zzounds: "$99.00"
+    }
+  },
+  428: {
+    prices: {
+      amazon: "$37.49",
+      zzounds: "$50.00"
+    }
+  },
+  429: {
+    urls: {
+      zzounds: "https://www.zzounds.com/item--BLUYETINANO",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Blue-Yeti-Nano-USB-Mic-Black/3U2R"
+    },
+    oos: [
+      "zzounds",
+      "gear4music",
+      "andertons"
+    ]
+  },
+  430: {
+    prices: {
+      amazon: "$39.99",
+      gear4music: "£35.00",
+      musicstore: "€31.93"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  431: {
+    prices: {
+      amazon: "$90.88",
+      zzounds: "$105.00",
+      gear4music: "£79.00",
+      andertons: "£75.00",
+      musicstore: "€98.00"
+    }
+  },
+  432: {
+    prices: {
+      amazon: "$99.99"
+    }
+  },
+  433: {
+    prices: {
+      amazon: "$143.39",
+      zzounds: "$149.99",
+      andertons: "£199.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/us/en/Recording-and-Computers/OFFLINE-Samson-Q9U-USB-XLR-Dynamic-Broadcast-Microphone/3JKA"
+    },
+    oos: [
+      "gear4music"
+    ]
+  },
+  434: {
+    prices: {
+      amazon: "$79.99",
+      gear4music: "£95.00",
+      musicstore: "€105.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--AKGP120"
+    },
+    oos: [
+      "andertons",
+      "zzounds"
+    ]
+  },
+  435: {
+    prices: {
+      amazon: "$39.90",
+      gear4music: "£25.70",
+      andertons: "£26.00",
+      musicstore: "€46.00"
+    }
+  },
+  436: {
+    prices: {
+      amazon: "$49.99"
+    },
+    oos: [
+      "reverb",
+      "gear4music",
+      "andertons",
+      "musicstore"
+    ]
+  },
+  437: {
+    prices: {
+      amazon: "$37.99"
+    }
+  },
+  438: {
+    prices: {
+      amazon: "$52.13",
+      zzounds: "$79.99",
+      gear4music: "£50.00",
+      andertons: "£62.00",
+      musicstore: "€77.00"
+    }
+  },
+  439: {
+    prices: {
+      amazon: "$35.99"
+    }
+  },
+  440: {
+    prices: {
+      amazon: "$2,299.99",
+      zzounds: "$2,299.99",
+      gear4music: "£1,899.00",
+      musicstore: "€1,847.90",
+      andertons: "£1,999.00"
+    }
+  },
+  441: {
+    prices: {
+      amazon: "$849.99",
+      zzounds: "$849.99",
+      gear4music: "£812.00",
+      musicstore: "€899.00",
+      andertons: "£799.00"
+    }
+  },
+  442: {
+    prices: {
+      amazon: "$849.99",
+      zzounds: "$849.99",
+      gear4music: "£804.00",
+      musicstore: "€899.00",
+      andertons: "£799.00"
+    }
+  },
+  443: {
+    prices: {
+      amazon: "$83.50",
+      zzounds: "$83.50",
+      gear4music: "£75.00",
+      musicstore: "€66.00",
+      andertons: "£69.99"
+    }
+  },
+  444: {
+    prices: {
+      amazon: "$849.99",
+      zzounds: "$849.99",
+      gear4music: "£699.00",
+      musicstore: "€671.43",
+      andertons: "£799.00"
+    }
+  },
+  445: {
+    prices: {
+      amazon: "$259.99",
+      zzounds: "$259.99",
+      gear4music: "£256.00",
+      musicstore: "€259.00",
+      andertons: "£260.00"
+    }
+  },
+  446: {
+    prices: {
+      amazon: "$399.00",
+      zzounds: "$399.00",
+      gear4music: "£349.00",
+      musicstore: "€399.00"
+    }
+  },
+  447: {
+    prices: {
+      amazon: "$269.95",
+      gear4music: "£259.00",
+      musicstore: "€299.00",
+      andertons: "£259.00",
+      zzounds: "$269.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--TECBSDRV2?siid=189179"
+    }
+  },
+  448: {
+    prices: {
+      amazon: "$209.99",
+      zzounds: "$209.99",
+      gear4music: "£206.00",
+      musicstore: "€198.00",
+      andertons: "£198.00"
+    }
+  },
+  449: { urls: { zzounds: "https://www.zzounds.com/item--WLRCANVAS" },
+    prices: {
+      amazon: "$149.99",
+      musicstore: "€133.60",
+      andertons: "£139.00",
+     zzounds: "$149.99" }
+  },
+  450: {
+    prices: {
+      amazon: "$79.00",
+      zzounds: "$79.00"
+    }
+  },
+  451: {
+    prices: {
+      amazon: "$229.00",
+      gear4music: "£249.00",
+      musicstore: "€249.00",
+      andertons: "£199.00",
+      zzounds: "$229.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--LRBPARADI"
+    }
+  },
+  452: {
+    prices: {
+      zzounds: "$4,599.99",
+      amazon: "$4,399.00",
+      gear4music: "£4,749.00",
+      andertons: "£4,599.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Martin-D-28-Modern-Deluxe/2WVL"
+    },
+    oos: [
+      "gear4music"
+    ]
+  },
+  453: {
+    prices: {
+      andertons: "£6,799.00",
+      musicstore: "€6,599.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B079V26HMV?tag=topmusicg-20"
+    },
+    oos: ["amazon"]
+  },
+  454: {
+    prices: {
+      zzounds: "$5,999.00",
+      gear4music: "£4,499.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B0D777R4L2?tag=topmusicg-20",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-Builders-Edition-914ce-Sinker-Redwood-Top-Honduran-Rosewood-Back-and-Sides/7M78"
+    },
+    oos: [
+      "amazon",
+      "gear4music"
+    ]
+  },
+  455: {
+    prices: {
+      zzounds: "$8,999.00",
+      gear4music: "£7,499.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B0BD48TMYK?tag=topmusicg-20"
+    },
+    oos: [
+      "amazon"
+    ]
+  },
+  456: {
+    prices: {
+      zzounds: "$4,999.00",
+      gear4music: "£4,599.00",
+      andertons: "£4,199.00",
+      musicstore: "€4,444.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B001R2ITEE?tag=topmusicg-20",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Gibson-1942-Banner-J-45-Vintage-Sunburst/39E5"
+    },
+    oos: [
+      "amazon",
+      "gear4music"
+    ]
+  },
+  457: {
+    prices: {
+      zzounds: "$5,799.00",
+      gear4music: "£4,499.00",
+      andertons: "£5,699.00",
+      musicstore: "€4,798.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B0CTKDGRHP?tag=topmusicg-20"
+    },
+    oos: [
+      "amazon"
+    ]
+  },
+  458: {
+    prices: {
+      amazon: "$199.99"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Epiphone-Les-Paul-Special-Satin-E1-Les-Paul-Special-VE-Ebony/1LQB"
+    },
+    oos: [
+      "gear4music"
+    ]
+  },
+  459: {
+    prices: {
+      zzounds: "$239.99",
+      amazon: "$149.99",
+      gear4music: "£125.50",
+      musicstore: "€129.00",
+      andertons: "£129.00"
+    }
+  },
+  460: {
+    prices: {
+      zzounds: "$249.99",
+      gear4music: "£197.00",
+      andertons: "£209.00",
+      musicstore: "€249.00"
+    },
+    oos: [
+      "amazon"
+    ]
+  },
+  461: {
+    prices: {
+      amazon: "$169.00",
+      gear4music: "£155.00"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  462: {
+    prices: {
+      gear4music: "£159.00",
+      amazon: "$249.99",
+      zzounds: "$249.99",
+      andertons: "£159.00",
+      musicstore: "€189.00"
+    }
+  },
+  463: {
+    prices: {
+      gear4music: "£199.00",
+      andertons: "£209.00",
+      musicstore: "€211.00",
+      zzounds: "$269.99"
+    }
+  },
+  464: {
+    prices: {
+      gear4music: "£409.00",
+      andertons: "£399.00",
+      zzounds: "$599.99",
+      amazon: "$539.99",
+      musicstore: "€479.00"
+    }
+  },
+  465: {
+    prices: {
+      gear4music: "£119.00",
+      amazon: "$219.00"
+    }
+  },
+  466: {
+    prices: {
+      gear4music: "£179.00"
+    }
+  },
+  467: {
+    prices: {
+      gear4music: "£635.00",
+      andertons: "£659.00",
+      musicstore: "€669.00",
+      zzounds: "$629.00",
+      amazon: "$599.99"
+    }
+  },
+  468: {
+    prices: {
+      andertons: "£3,399.00",
+      musicstore: "€3,869.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B0FSGYBWZQ?tag=topmusicg-20",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-KH-810-II/art-REC0017051-000",
+      andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fneumann-kh-810-ii-10-active-subwoofer%2F",
+      zzounds: "https://www.zzounds.com/item--NEMKH810II"
+    },
+    na: [
+      "gear4music"
+    ]
+  },
+  470: {},
+  472: {
+    prices: {
+      pluginboutique: "€120.00",
+      gear4music: "£109.00",
+      andertons: "£109.00",
+      musicstore: "€129.00"
+    },
+    pbCur: {
+      us: "$129.00",
+      uk: "£102.67"
+    },
+  },
+  473: {
+    prices: {
+      pluginboutique: "€42.35"
+    },
+    pbCur: {
+      us: "$125.00",
+      uk: "£99.49"
+    },
+  },
+  474: {
+    prices: {
+      pluginboutique: "€70.54"
+    },
+    pbCur: {
+      us: "$80.00",
+      uk: "£63.67"
+    },
+  },
+  475: {
+    prices: {
+      amazon: "$349.00",
+      zzounds: "$349.00",
+      andertons: "£264.00",
+      musicstore: "€319.00"
+    },
+    oos: ["gear4music"]
+  },
+  476: {
+    prices: {
+      amazon: "$929.00",
+      andertons: "£449.00",
+      musicstore: "€699.00"
+    },
+    oos: ["gear4music", "zzounds"]
+  },
+  477: {
+    prices: {
+      amazon: "$1,399.00",
+      zzounds: "$1,399.00",
+      gear4music: "£1,099.00",
+      andertons: "£1,058.00",
+      musicstore: "€1,299.00"
+    }
+  },
+  478: {
+    prices: {
+      amazon: "$1,399.99",
+      zzounds: "$1,499.00",
+      gear4music: "£1,510.00",
+      andertons: "£1,399.00",
+      musicstore: "€1,459.00"
+    }
+  },
+  479: {
+    prices: {
+      zzounds: "$2,999.00",
+      andertons: "£2,199.00",
+      musicstore: "€2,590.00"
+    }
+  },
+  480: {
+    prices: {
+      gear4music: "£2,910.00",
+      andertons: "£2,599.00",
+      musicstore: "€2,829.00"
+    },
+    urls: {
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FGenelec-7370A-Smart-Active-Monitoring-Subwoofer-Dark-Grey%2F1MYN"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  481: {},
+  482: {
+    prices: {
+      amazon: "$2,999.00",
+      andertons: "£1,829.00",
+      musicstore: "€2,179.00",
+      gear4music: "£1,859.00"
+    }
+  },
+  484: {
+    prices: {
+      amazon: "$399.00",
+      gear4music: "£259.00",
+      andertons: "£269.00",
+      zzounds: "$399.00"
+    }
+  },
+  485: {
+    prices: {
+      gear4music: "£999.00",
+      andertons: "£1,099.00",
+      amazon: "$1,099.99"
+    }
+  },
+  486: {
+    prices: {
+      zzounds: "$499.00",
+      amazon: "$525.00",
+      andertons: "£422.00",
+      gear4music: "£458.00",
+      musicstore: "€444.00"
+    }
+  },
+  487: {
+    prices: {
+      amazon: "$585.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--SOUSIG12MTK"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  488: {
+    prices: {
+      zzounds: "$349.99",
+      amazon: "$318.99",
+      andertons: "£319.00",
+      gear4music: "£285.50",
+      musicstore: "€379.00"
+    }
+  },
+  489: {
+    prices: {
+      zzounds: "$199.00",
+      amazon: "$199.00",
+      andertons: "£199.99",
+      musicstore: "€179.00",
+      gear4music: "£149.00"
+    }
+  },
+  490: {
+    prices: {
+      zzounds: "$269.99",
+      andertons: "£319.00",
+      gear4music: "£319.00",
+      musicstore: "€349.00"
+    }
+  },
+  491: {
+    prices: {
+      zzounds: "$249.00",
+      amazon: "$249.00",
+      andertons: "£179.00",
+      gear4music: "£165.00",
+      musicstore: "€199.00"
+    }
+  },
+  492: {
+    prices: {
+      zzounds: "$449.99",
+      amazon: "$328.98",
+      andertons: "£349.00",
+      gear4music: "£349.00",
+      musicstore: "€399.00"
+    }
+  },
+  493: {
+    prices: {
+      zzounds: "$569.00",
+      amazon: "$439.20",
+      andertons: "£459.00",
+      gear4music: "£463.00",
+      musicstore: "€549.00"
+    }
+  },
+  494: {
+    prices: {
+      zzounds: "$529.99",
+      andertons: "£368.00",
+      gear4music: "£374.00",
+      musicstore: "€429.00"
+    }
+  },
+  495: {
+    prices: {
+      zzounds: "$949.00",
+      amazon: "$849.00",
+      gear4music: "£659.00",
+      musicstore: "€819.00"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  496: {
+    prices: {
+      zzounds: "$1,099.00",
+      amazon: "$1,099.00",
+      andertons: "£1,049.00",
+      musicstore: "€1,199.00"
+    },
+    oos: [
+      "gear4music"
+    ]
+  },
+  497: {
+    prices: {
+      zzounds: "$415.00",
+      amazon: "$399.00",
+      gear4music: "£335.50",
+      musicstore: "€365.00"
+    }
+  },
+  499: {
+    prices: {
+      zzounds: "$267.00",
+      gear4music: "£354.00",
+      musicstore: "€389.00"
+    }
+  },
+  500: {
+    prices: {
+      zzounds: "$466.95",
+      gear4music: "£418.00",
+      musicstore: "€469.00"
+    }
+  },
+  501: {
+    prices: {
+      gear4music: "£379.00",
+      andertons: "£379.00",
+      musicstore: "€399.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--TURTFX122MAN"
+    }
+  },
+  502: {
+    prices: {
+      zzounds: "$779.99",
+      amazon: "$749.99",
+      gear4music: "£749.00",
+      musicstore: "€789.00"
+    }
+  },
+  503: {
+    prices: {
+      gear4music: "£439.00",
+      amazon: "$599.99",
+      zzounds: "$599.99",
+      andertons: "£439.00",
+      musicstore: "€499.00"
+    }
+  },
+  504: {
+    holly: {
+      eu: {
+        u: "https://eu.hollyland.com/de-de/products/lark-max",
+        p: "€143.00"
+      },
+      us: {
+        u: "https://store.hollyland.com/products/lark-max",
+        p: "$139.00"
+      }
+    },
+    na: [
+      "zzounds",
+      "reverb",
+      "gear4music",
+      "andertons",
+      "musicstore",
+      "amazon"
+    ]
+  },
+  505: {
+    holly: {
+      eu: {
+        u: "https://eu.hollyland.com/de-de/products/lark-a2",
+        p: "€44.99"
+      },
+      us: {
+        u: "https://store.hollyland.com/products/lark-a2",
+        p: "$44.99"
+      },
+      uk: {
+        u: "https://uk.hollyland.com/products/lark-a2",
+        p: "£46.30"
+      }
+    },
+    na: [
+      "zzounds",
+      "reverb",
+      "gear4music",
+      "andertons",
+      "musicstore",
+      "amazon"
+    ]
+  },
+  506: {
+    holly: {
+      eu: {
+        u: "https://eu.hollyland.com/de-de/products/lark-max-2?variant=51364345807115",
+        p: "€212.00"
+      },
+      us: {
+        u: "https://store.hollyland.com/products/lark-max-2?variant=46839711826179",
+        p: "$269.00"
+      },
+      uk: {
+        u: "https://uk.hollyland.com/products/lark-max-2?variant=48696453267684",
+        p: "£180.20"
+      }
+    },
+    prices: {
+      amazon: "$249.00"
+    },
+    na: [
+      "zzounds",
+      "reverb",
+      "gear4music",
+      "andertons",
+      "musicstore"
+    ]
+  },
+  508: {
+    holly: {
+      eu: {
+        u: "https://eu.hollyland.com/de-de/products/melo-p1",
+        p: "€369.00"
+      },
+      us: {
+        u: "https://store.hollyland.com/products/melo-p1",
+        p: "$249.00"
+      },
+      uk: {
+        u: "https://uk.hollyland.com/products/melo-p1",
+        p: "£301.00"
+      }
+    },
+    prices: {
+      amazon: "$249.00"
+    },
+    na: [
+      "zzounds",
+      "reverb",
+      "gear4music",
+      "andertons",
+      "musicstore"
+    ]
+  },
+  509: {
+    holly: {
+      eu: {
+        u: "https://eu.hollyland.com/de-de/products/solidcom-c1?variant=45698861072651",
+        p: "€364.00"
+      },
+      us: {
+        u: "https://store.hollyland.com/products/solidcom-c1?variant=42779547435267",
+        p: "$399.00"
+      },
+      uk: {
+        u: "https://uk.hollyland.com/products/solidcom-c1?variant=49084502081764",
+        p: "£309.40"
+      }
+    },
+    prices: {
+      amazon: "$399.00"
+    },
+    na: [
+      "zzounds",
+      "reverb",
+      "gear4music",
+      "andertons",
+      "musicstore"
+    ]
+  },
+  510: {
+    holly: {
+      eu: {
+        u: "https://eu.hollyland.com/de-de/products/solidcom-c1-pro?variant=45698811003147",
+        p: "€589.00"
+      },
+      us: {
+        u: "https://store.hollyland.com/products/solidcom-c1-pro?variant=43796065779971",
+        p: "$649.00"
+      },
+      uk: {
+        u: "https://uk.hollyland.com/products/solidcom-c1-pro?variant=49084560507108",
+        p: "£539.00"
+      }
+    },
+    prices: {
+      amazon: "$649.00"
+    },
+    na: [
+      "zzounds",
+      "reverb",
+      "gear4music",
+      "andertons",
+      "musicstore"
+    ]
+  },
+  511: {
+    holly: {
+      eu: {
+        u: "https://eu.hollyland.com/de-de/products/solidcom-se-pro?variant=51170563358987",
+        p: "€342.00"
+      },
+      us: {
+        u: "https://store.hollyland.com/products/solidcom-se-pro?variant=46564892803331",
+        p: "$369.00"
+      },
+      uk: {
+        u: "https://uk.hollyland.com/products/solidcom-se-pro?variant=48696449302756",
+        p: "£290.70"
+      }
+    },
+    prices: {
+      amazon: "$369.00"
+    },
+    na: [
+      "zzounds",
+      "reverb",
+      "gear4music",
+      "andertons",
+      "musicstore"
+    ]
+  },
+  512: {
+    prices: {
+      amazon: "$1,995.00",
+      zzounds: "$1,995.00",
+      gear4music: "£1,525.00",
+      andertons: "£1,525.00",
+      musicstore: "€1,799.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Neumann-MT48-Premium-Audio-Interface/5E3S",
+      amazon: "https://www.amazon.com/dp/B0BTGVGCJN?tag=topmusicg-20",
+      andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2FNeumann-MT-48-Audio-Interface-Universal-PSU-inc-USB-Connection%2F",
+      zzounds: "https://www.zzounds.com/item--NEMMT48",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-Neumann-MT-48-U/art-PCM0017584-000"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  513: {
+    prices: {
+      amazon: "$3,299.00",
+      zzounds: "$3,399.00",
+      gear4music: "£2,899.00",
+      andertons: "£2,899.00",
+      musicstore: "€3,399.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Apollo-x8p-Gen-2-Essentialsand-Edition/6P0K",
+      andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fapollo-x8p-gen-2-ess%2F",
+      amazon: "https://www.amazon.com/dp/B0DC13HNN3?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/item--UADAPX8PG2E",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Apollo-x8p-Gen2-Studio-/art-PCM0018210-000"
+    },
+    oos: []
+  },
+   515: {
+    prices: {
+      amazon: "$3,499.99",
+      zzounds: "$3,499.99",
+      gear4music: "£2,454.00",
+      andertons: "£2,200.00",
+      musicstore: "€3,239.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Audient-ORIA-Interface-and-Immersive-Monitor-Controller-for-Dolby-Atmos/66Y3",
+      andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Faudient-oria-usb-interface%2F",
+      amazon: "https://www.amazon.com/dp/B0CTW4MD53?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/item--ADIORIA",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Audient-ORIA/art-PCM0017953-000"
+    },
+    oos: []
+  },
+   518: {
+    prices: {
+      amazon: "$129.99"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Blue-Yeti-USB-Microphone-Slate/3U30"
+    }
+  },
+  527: {
+    prices: {
+      pluginboutique: "€89.00",
+      andertons: "£76.00",
+      musicstore: "€99.00",
+      gear4music: "£76.00",
+      zzounds: "$99.00"
+    },
+    pbCur: {
+      us: "$108.90",
+      uk: "£86.67"
+    },
+    urls: {
+      andertons: "https://www.andertons.co.uk/baby-audio-spaced-out-reverb-plugin/?search_query=Baby%20Audio%20Spaced%20Out",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Baby-Audio-Spaced-Out-License-Code/art-PCM0018528-000",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Baby-Audio-Spaced-Out/46NE",
+      zzounds: "https://www.zzounds.com/item--BBYSPACEDOUT?siid=307771"
+    }
+  },
+  528: {
+    prices: {
+      andertons: "£899.00",
+      musicstore: "€1,159.00",
+      amazon: "$1299.99",
+      zzounds: "$1,300.00",
+      gear4music: "£899.00"
+    }
+  },
+  529: {
+    prices: {
+      andertons: "£579.00",
+      gear4music: "£699.00",
+      zzounds: "$899.00"
+    }
+  },
+  530: {
+    prices: {
+      gear4music: "£419.00",
+      musicstore: "€444.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--TRAULB"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  531: {
+    prices: {
+      gear4music: "£399.00",
+      zzounds: "$499.00",
+      amazon: "$499.00",
+      musicstore: "€429.00"
+    }
+  },
+  532: {
+    prices: {
+      amazon: "$369.00",
+      gear4music: "£289.00"
+    }
+  },
+  533: {
+    prices: {
+      gear4music: "£679.00",
+      andertons: "£679.00",
+      musicstore: "€759.00",
+      zzounds: "$849.99"
+    }
+  },
+  534: {
+    urls: {
+      amazon: "https://www.amazon.com/Gretsch-G2220-Junior-Bass-Short-Scale/dp/B09NYLL9QK",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Gretsch-G2220-Junior-Jet-Bass-II-Bass-Guitar-Black/QIO",
+      zzounds: "https://www.zzounds.com/item--GRE2514620",
+      musicstore: "https://www.musicstore.com/en_OT/EUR/Gretsch-G2220-Junior-Jet-II-Bass-Guita-r-Black-/art-BAS0005818-000"
+    },
+    oos: [
+      "gear4music",
+      "amazon",
+      "zzounds",
+      "musicstore"
+    ]
+  },
+  535: {
+    prices: {
+      amazon: "$219.99",
+      andertons: "£179.00",
+      gear4music: "£179.00",
+      musicstore: "€209.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--JAC2915555"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+    536: {
+    prices: {
+      gear4music: "£170.00",
+      andertons: "£159.00",
+      zzounds: "$260.00",
+      musicstore: "€199.00"
+    }
+  },
+  537: {
+    prices: {
+      gear4music: "£190.00",
+      andertons: "£209.00",
+      zzounds: "$220.00",
+      musicstore: "€229.00"
+    }
+  },
+  538: {
+    prices: {
+      gear4music: "£309.00",
+      musicstore: "€349.00",
+      zzounds: "$299.00",
+      andertons: "£289.00"
+    }
+  },
+  539: {
+    prices: {
+      andertons: "£449.00",
+      zzounds: "$400.00",
+      musicstore: "€489.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Sterling-SUB-Ray5-Bass-RW-Walnut-Satin/VF1"
+    },
+    oos: [
+      "gear4music"
+    ]
+  },
+  540: {
+    prices: {
+      gear4music: "£416.00",
+      andertons: "£429.00",
+      musicstore: "€499.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--YAMTRBX305"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  541: {
+    prices: {
+      zzounds: "$399.99",
+      andertons: "£279.00",
+      gear4music: "£279.00",
+      musicstore: "€329.00"
+    }
+  },
+  542: {
+    prices: {
+      andertons: "£669.00",
+      gear4music: "£669.00",
+      zzounds: "$699.00",
+      amazon: "$699.00"
+    }
+  },
+  543: {
+    prices: {
+      gear4music: "£759.00",
+      amazon: "$659.99",
+      musicstore: "€799.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--YAMBB435"
+    },
+    oos: [
+      "zzounds"
+    ]
+  },
+  544: {
+    prices: {
+      andertons: "£629.00",
+      gear4music: "£629.00",
+      musicstore: "€749.00",
+      zzounds: "$750.00",
+      amazon: "$749.99"
+    }
+  },
+  545: {
+    prices: {
+      gear4music: "£439.00",
+      zzounds: "$560.00",
+      musicstore: "€529.00"
+    }
+  },
+  546: {
+    prices: {
+      musicstore: "€1,899.00",
+      andertons: "£1,599.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Jazz-Bass-V-RW-Olympic-White/3J06",
+      zzounds: "https://www.zzounds.com/item--FEN0193992"
+    },
+    oos: [
+      "gear4music",
+      "zzounds"
+    ]
+  },
+  547: {
+    prices: {
+      andertons: "£2,299.00",
+      zzounds: "$2519.99",
+      musicstore: "€2,479.00",
+      gear4music: "£2,351.00"
+    }
+  },
+  548: {
+    prices: {
+      gear4music: "£1044.00",
+      zzounds: "$1,400.00",
+      andertons: "£1,149.00"
+    }
+  },
+  549: {
+    prices: {
+      andertons: "£2049.00",
+      musicstore: "€2,440.00"
+    }
+  },
+  550: {
+    prices: {
+      gear4music: "£142.00",
+      andertons: "£179.00",
+      musicstore: "€179.00",
+      amazon: "$229.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B01ET9GCGS?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/item--BEHUMC1820"
+    }
+  },
+  551: {
+    prices: {
+      zzounds: "$199.00",
+      amazon: "$199.00",
+      gear4music: "£115.00",
+      andertons: "£114.00",
+      musicstore: "€139.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B09HL4GZF9?tag=topmusicg-20",
+      musicstore: "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FArturia-MiniFuse-2-Black%2Fart-PCM0017077-000"
+    }
+  },
+  
+  552: {
+    prices: {
+      zzounds: "$450.00",
+      andertons: "£379.00",
+      gear4music: "£347.00",
+      musicstore: "€399.00"
+    }
+  },
+  553: {
+    prices: {
+      gear4music: "£189.00",
+      andertons: "£189.00",
+      musicstore: "€215.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B07K2JLS56?tag=topmusicg-20",
+      andertons: "https://www.andertons.co.uk/fender-classic-design-cn60s-nylon-strung-classical-guitar-in-natural-w-walnut-fingerboard/?search_query=Fender%20CN-60S",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-CN-60S-Natural-/art-GIT0049159-000"
+    }
+  },
+554: {
+    prices: {
+      gear4music: "£209.00",
+      amazon: "$349.00",
+      zzounds: "$349.00",
+      musicstore: "€299.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Takamine-GC1-Classical-Guitar-Natural/1FSN",
+      amazon: "https://www.amazon.com/dp/B00EOADUTU?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/item--TAKGC1?siid=178306",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Takamine-GC1N/art-GIT0063165-001"
+    }
+  },
+  556: {
+    prices: {
+      zzounds: "$629.00",
+      gear4music: "£519.00",
+      andertons: "£539.00",
+      musicstore: "€599.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--AMPRB115",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ampeg-Rocket-Bass-115/3T6U",
+      andertons: "https://www.andertons.co.uk/ampeg-rocket-rb-115-200w-bass-combo/?search_query=Ampeg%20Rocket%20Bass%20RB-115",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Ampeg-RB-115-Rocket-Bass-Amplifier/art-BAS0011676-000"
+    }
+  },
+  557: {
+    prices: {
+      gear4music: "£324.50",
+      andertons: "£359.00",
+      musicstore: "€419.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--BOSKTN50EXV3",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Boss-Katana-50-EX-Gen-3-1x12-Combo/6E9C",
+      andertons: "https://www.andertons.co.uk/boss-katana-50-ex-gen-3-50w-guitar-amp-combo/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Boss-Katana-50-EX-Gen-3-Combo/art-GIT0061743-000",
+      amazon: "https://www.amazon.com/Katana-50-50-watt-12-inch-Combo-Amplifier/dp/B0D1ZCK91X"
+    }
+  },
+  558: {
+    prices: {
+      andertons: "£1,169.00",
+      gear4music: "£1,169.00",
+      musicstore: "€1,285.00"
+    }
+  },
+  559: {
+    prices: {
+      amazon: "$979.00",
+      andertons: "£666.00",
+      gear4music: "£666.00",
+      musicstore: "€790.00"
+    },
+    oos: [
+      "zzounds"
+    ],
+    urls: {
+      zzounds: "https://www.zzounds.com/item--BEHX32RACK"
+    }
+  },
+  560: {
+    prices: {
+      amazon: "$1,299.00",
+      andertons: "£580.00",
+      gear4music: "£749.00",
+      musicstore: "€799.00"
+    },
+    oos: [
+      "zzounds"
+    ],
+    urls: {
+      zzounds: "https://www.zzounds.com/item--MIAM32C"
+    }
+  },
+  561: {
+    prices: {
+      amazon: "$999.99",
+      zzounds: "$999.99",
+      andertons: "£730.00",
+      gear4music: "£736.00",
+      musicstore: "€808.00"
+    }
+  },
+  564: {
+    prices: {
+      andertons: "£1,199.00",
+      gear4music: "£1,199.00",
+      musicstore: "€1,489.00",
+      zzounds: "$1,299.00"
+    }
+  },
+  563: {
+    prices: {
+      andertons: "£1,999.00",
+      zzounds: "$2,799.00",
+      musicstore: "€2,499.00"
+    }
+  },
+  565: { prices: { amazon: "$1,319.99", zzounds: "$1,319.99", gear4music: "£799.00", andertons: "£839.00", musicstore: "€989.00" } },
+  567: { prices: { amazon: "$1,749.99", zzounds: "$1,749.99", gear4music: "£1,175.00", andertons: "£1,175.00", musicstore: "€1,399.00" } },
+  570: { prices: { amazon: "$3,299.99", gear4music: "£1,469.00", andertons: "£1,513.00", musicstore: "€1,799.00" }, na: ["zzounds"] },
+  571: { prices: { zzounds: "$729.99", gear4music: "€505.00", andertons: "£399.00", musicstore: "€499.00" } },
+  572: { prices: { amazon: "$499.99", andertons: "£399.00", gear4music: "£355.00", musicstore: "€419.00" }, oos: ["zzounds"] },
+  573: { prices: { amazon: "$1,299.99", zzounds: "$1,299.99", andertons: "£899.00", gear4music: "£899.00", musicstore: "€1,049.00" }, urls: { gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-YDP-146-Digital-Piano-Black/86R5" } },
+  577: { prices: { zzounds: "$799.99", gear4music: "£445.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Zoom-G11-Multi-Effects-Processor/54OK" } },
+  578: { prices: { zzounds: "$659.99", gear4music: "£635.00", andertons: "£649.00", musicstore: "€777.00" } },
+  579: { prices: { zzounds: "$1,799.00", andertons: "£1,449.00", musicstore: "€1,585.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Neural-DSP-Quad-Cortex/61MZ" } },
+  580: { prices: { musicstore: "€599.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Mooer-GE300-Multi-Effects-Pedal/2UHQ" }, oos: ["gear4music"] },
+  581: { prices: { zzounds: "$168.45", gear4music: "£159.00", andertons: "£180.00" } },
+  582: { prices: { zzounds: "$199.97", gear4music: "£189.00", andertons: "£189.00", musicstore: "€215.00" } },
+  583: { prices: { zzounds: "$199.00", gear4music: "£175.00", andertons: "£174.00", musicstore: "€259.00" } },
+  584: { prices: { zzounds: "$99.99", gear4music: "£109.00", andertons: "£109.00", musicstore: "€109.00" } },
+  585: { prices: { zzounds: "$186.99", gear4music: "£157.00", andertons: "£169.00", musicstore: "€169.00" } },
+  586: { prices: { zzounds: "$351.99", gear4music: "£273.00", andertons: "£299.00", musicstore: "€299.00" } },
+  587: { prices: { gear4music: "£150.00", andertons: "£150.00", musicstore: "€239.00" }, urls: { zzounds: "https://www.zzounds.com/item--TCEDITTOX4LOOPER" }, oos: ["zzounds"] },
+  588: { prices: { zzounds: "$181.40", gear4music: "£149.00", andertons: "£150.00", musicstore: "€158.00" } },
+  590: { prices: { zzounds: "$159.99", gear4music: "£159.00", musicstore: "€199.00", andertons: "£160.00" } },
+  591: { prices: { zzounds: "$449.00", gear4music: "£429.00", andertons: "£429.00", musicstore: "€469.00" } },
+  592: { prices: { gear4music: "£668.00", andertons: "£619.00", musicstore: "€799.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Meris-LVX-Modular-Delay-System-Pedal/4V7F" } },
+  593: { prices: { gear4music: "£384.00" }, urls: { zzounds: "https://www.zzounds.com/item--EVTTIMEFACTOR" }, oos: ["zzounds"] },
+  594: { prices: { zzounds: "$299.99", andertons: "£319.00" } },
+  595: { prices: { zzounds: "$199.00", andertons: "£209.00" } },
+  596: { prices: { zzounds: "$399.00", gear4music: "£293.00", andertons: "£319.00", musicstore: "€369.00" } },
+  597: { prices: { zzounds: "$160.00", gear4music: "£159.00", andertons: "£160.00", musicstore: "€199.00" } },
+  598: { prices: { zzounds: "$349.00", gear4music: "£299.00", andertons: "£379.00", musicstore: "€349.00" } },
+  599: { prices: { zzounds: "$320.99", gear4music: "£243.00", andertons: "£259.00", musicstore: "€289.00" } },
+  600: { prices: { gear4music: "£199.00" }, urls: { zzounds: "https://www.zzounds.com/item--EHXSNCO03E" }, oos: ["zzounds"] },
+  601: { prices: { zzounds: "$659.99", gear4music: "£461.00", andertons: "£499.00", musicstore: "€499.00" } },
+  615: { prices: { andertons: "\u00a3289.00", gear4music: "\u00a3289.00", zzounds: "$329.00", musicstore: "\u20ac349.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Teenage-Engineering-EP-133-128-MB-KO-II/7TH8", zzounds: "https://www.zzounds.com/item--TEEEP133KOII?siid=345972", musicstore: "https://www.musicstore.com/en_OE/EUR/Teenage-Engineering-EP-133-K-O-II-128MB/art-SYN0009460-000" } },
+  616: { prices: { andertons: "\u00a3849.00", gear4music: "\u00a3849.00", zzounds: "$999.00", musicstore: "\u20ac979.00" }, urls: { gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Akai-Professional-MPC-Key-37-Gen-2/81LK", zzounds: "https://www.zzounds.com/item--AKAMPCKEY37G2?siid=392057", musicstore: "https://www.musicstore.com/en_OE/EUR/AKAI-Professional-MPC-Key-37-G2/art-SYN0009522-000" } },
+
+  617: { prices: { andertons: "\u00a3177.00", gear4music: "\u00a3179.00", zzounds: "$269.00", musicstore: "\u20ac199.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Roland-Aira-Compact-P-6-Creative-Sampler/6MDZ", zzounds: "https://www.zzounds.com/item--ROLP6?siid=360113", musicstore: "https://www.musicstore.com/en_OE/EUR/Roland-P-6-Creative-Sampler/art-SYN0009091-000" } },
+  618: { prices: { andertons: "\u00a3342.00", gear4music: "\u00a3360.00", zzounds: "$430.00", musicstore: "\u20ac375.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Novation-Circuit-Rhythm/3V5S", zzounds: "https://www.zzounds.com/item--NOVCIRCUITRHYTHM?siid=298357", musicstore: "https://www.musicstore.com/en_OE/EUR/Novation-Circuit-Rhythm/art-SYN0007908-000" } },
+  619: { prices: { andertons: "\u00a32,172.00", gear4music: "\u00a32,180.00", zzounds: "$2,899.00", musicstore: "\u20ac2,499.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Akai-Professional-MPC-XL-Standalone-Sampler-and-Sequencer/7OPO", zzounds: "https://www.zzounds.com/item--AKAMPCXL?siid=383057", musicstore: "https://www.musicstore.com/en_OE/EUR/AKAI-Professional-MPC-XL/art-SYN0009438-000" } },
+  620: { prices: { andertons: "\u00a3749.00", gear4music: "\u00a3899.00", zzounds: "$999.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Native-Instruments-Maschineand/3JKB", zzounds: "https://www.zzounds.com/item--NINMASCHINEPLUS?siid=286031", musicstore: "https://www.musicstore.com/en_OE/EUR/Native-Instruments-Maschine-/art-SYN0007645-000" } },
+  621: { prices: { gear4music: "\u00a3445.00", zzounds: "$299.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Yamaha-SEQTRAK-Black/66QJ", zzounds: "https://www.zzounds.com/item--YAMSEQTRAK?siid=347183", musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-SEQTRAK-ORANGE/art-SYN0008890-000" } },
+  622: { prices: { andertons: "\u00a3249.00", gear4music: "\u00a3249.00", zzounds: "$306.00", musicstore: "\u20ac299.00" }, urls: { gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Elektron-ModelSamples-Six-Track-Sample-Player/2UHB", zzounds: "https://www.zzounds.com/item--ELKMODELSAMPLES?siid=254275", musicstore: "https://www.musicstore.com/en_OE/EUR/Elektron-Model-Samples/art-SYN0006852-000" } },
+  623: { prices: { amazon: "$239.00", andertons: "\u00a3229.00", musicstore: "\u20ac319.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Sonicware-LIVEN-LoFi-12/5AR3", musicstore: "https://www.musicstore.com/en_OE/EUR/Sonicware-LIVEN-Lofi-12/art-SYN0008472-000", andertons: "https://www.andertons.co.uk/sonicware-liven-lofi-12-sampling-groovebox/" } },
+  624: { prices: { andertons: "\u00a3119.00", gear4music: "\u00a3119.00", zzounds: "$124.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Korg-Volca-Sample-2-Digital-Sample-Sequencer/3JY6", zzounds: "https://www.zzounds.com/item--KORVOLCASAMPLE2?siid=284757" } },
+  625: { prices: { andertons: "\u00a3659.00", zzounds: "$799.00" }, urls: { zzounds: "https://www.zzounds.com/item--PLYTRACKERMINI?siid=335703", gear4music: "https://www.gear4music.com/Recording-and-Computers/Polyend-Tracker-Mini-Portable-Audio-Workstation/5K7D" } },
+  626: { prices: { andertons: "\u00a3866.00", gear4music: "\u00a3866.00", zzounds: "$1,099.00", musicstore: "\u20ac1,069.00" }, urls: { andertons: "https://www.andertons.co.uk/electrovoice-everse-12-potable-speaker/", zzounds: "https://www.zzounds.com/item--ELEEVERSE12US?siid=346531", musicstore: "https://www.musicstore.com/en_OE/EUR/Electro-Voice-EVERSE-12/art-PAH0023691-000" } },
+  627: { prices: { andertons: "\u00a3549.00", gear4music: "\u00a3569.00", zzounds: "$499.00", musicstore: "\u20ac619.00" }, urls: { andertons: "https://www.andertons.co.uk/fender-mustang-gtx100-modelling-combo-amp/", zzounds: "https://www.zzounds.com/item--FEN2310700?siid=275184", musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-Mustang-GTX100/art-GIT0052219-000" } },
+  628: { prices: { andertons: "\u00a3928.00", gear4music: "\u00a3928.00", musicstore: "\u20ac989.00" } },
+  629: { prices: { andertons: "\u00a31,079.00", gear4music: "\u00a31,079.00", zzounds: "$1,199.00", musicstore: "\u20ac1,219.00" }, urls: { andertons: "https://www.andertons.co.uk/fender-tone-master-deluxe-reverb-1x12-guitar-amp-combo/", zzounds: "https://www.zzounds.com/item--FEN2274100?siid=264387", musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-Tone-Master-Deluxe-Reverb/art-GIT0050563-000" } },
+  630: { prices: { andertons: "\u00a3575.00", gear4music: "\u00a3579.00", zzounds: "$799.00" }, urls: { andertons: "https://www.andertons.co.uk/alto-professional-ts18s-x-subwoofer/?search_query=Alto%20Professional%20TS18S", zzounds: "https://www.zzounds.com/item--APATS18SXUS?siid=339921" } },
+  631: { prices: { andertons: "\u00a3833.00", gear4music: "\u00a3825.00", zzounds: "$1,099.00", musicstore: "\u20ac1,099.00" }, urls: { musicstore: "https://www.musicstore.com/en_OE/EUR/JBL-EON-718S/art-PAH0022714-000", andertons: "https://www.andertons.co.uk/jbl-eon718s-18-15kw-subwoofer-with-3-channel-mixer-dsp-bluetooth/", zzounds: "https://www.zzounds.com/item--JBLEON718S?siid=308811" } },
+  632: {
+    prices: {
+      andertons: "£145.00",
+      gear4music: "£150.00",
+      zzounds: "$200.00",
+      musicstore: "€165.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS5-Active-Studio-Monitor/QSS",
+      zzounds: "https://www.zzounds.com/a--925521/item--YAMHS5",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-HS-5-5-/art-REC0010557-000"
+    }
+  },
+  633: {
+    prices: { amazon: "$199.00",
+      gear4music: "£141.00",
+      zzounds: "$199.00",
+      musicstore: "€195.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP5-G5-Studio-Monitor-Single/674P",
+      zzounds: "https://www.zzounds.com/item--KRKRP5G5NA?siid=343049",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/KRK-Rokit-RP5-G5/art-REC0016599-000"
+    }
+  },
+
+  634: {
+    prices: {
+      zzounds: "$219.00",
+      andertons: "£149.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--SENE906",
+      amazon: "https://www.amazon.com/dp/B000AQHJQ2?tag=topmusicg-20",
+      andertons: "https://www.andertons.co.uk/sennheiser-e906-dynamic-instrument-mic",
+      reverb: "https://reverb.com/p/sennheiser-e906"
+    }
+  },
+  635: {
+    prices: {
+      zzounds: "$105.00",
+      amazon: "$94.63",
+      gear4music: "£95.30",
+      andertons: "£91.00",
+      musicstore: "€115.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--AUDI5",
+      amazon: "https://www.amazon.com/dp/B0002IHNA0?tag=topmusicg-20",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Audix-I5-All-Purpose-Dynamic-Instrument-Microphone-VLM-Type-B/OIL",
+      andertons: "https://www.andertons.co.uk/audix-i5-dynamic-mic",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Audix-i-5/art-PAH0006797-000",
+      reverb: "https://reverb.com/p/audix-i5"
+    }
+  },
+  636: {
+    prices: {
+      zzounds: "$159.00",
+      gear4music: "£153.00",
+      andertons: "£151.00",
+      musicstore: "€149.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--SHUBETA57A",
+      amazon: "https://www.amazon.com/dp/B0002BACAK?tag=topmusicg-20",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-Beta-57A-Dynamic-Microphone/1UV",
+      andertons: "https://www.andertons.co.uk/shure-beta-57a-dynamic-instrument-microphone",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Shure-Beta-57-A-dynamic-Microphone/art-PAH0000168-000",
+      reverb: "https://reverb.com/p/shure-beta-57a"
+    }
+  },
+
+  637: {
+    prices: {
+      zzounds: "$2,899.00",
+      gear4music: "£2,333.00",
+      andertons: "£2,299.00",
+      musicstore: "€2,888.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--ROLRD2000EX",
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Roland-RD-2000-EX-Digital-Stage-Piano/6KU9",
+      andertons: "https://www.andertons.co.uk/roland-rd2000-ex-stage-piano/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Roland-RD-2000-EX/art-KEY0006021-000",
+      reverb: "https://reverb.com/p/roland-rd-2000ex-88-key-digital-stage-piano"
+    }
+  },
+  638: {
+    prices: {
+      andertons: "£2,441.00",
+      musicstore: "€2,799.00",
+      zzounds: "$3,199.99",
+      gear4music: "£2,398.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--YAMYC88",
+      amazon: "https://www.amazon.com/dp/B08RNKDLMN?tag=topmusicg-20",
+      andertons: "https://www.andertons.co.uk/yamaha-yc88-88-key-drawbar-organ-stage-keyboard",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-YC88/art-KEY0005386-000",
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-YC88-Digital-Stage-Keyboard-with-Drawbars/3Q2G"
+    }
+  },
+    639: {
+    prices: {
+      amazon: "$4,699.99",
+      zzounds: "$4,499.99",
+      gear4music: "£4,290.00",
+      andertons: "£4,290.00"
+    },
+    na: ["musicstore"],
+    urls: {
+      zzounds: "https://www.zzounds.com/item--YAMMONTAGEM8X",
+      amazon: "https://www.amazon.com/dp/B0CFBC7MNY?tag=topmusicg-20",
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-Montage-M8X-Synthesizer/7H6C",
+      andertons: "https://www.andertons.co.uk/yamaha-montage-m8x-synthesizer/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-Montage-M8x/art-SYN0008831-000",
+      reverb: "https://reverb.com/p/yamaha-montage-m8x-88-key-synthesizer"
+    }
+  },
+  640: {
+    prices: {
+      zzounds: "$4,629.99",
+      gear4music: "£3,802.00",
+      andertons: "£3,736.00",
+      musicstore: "€3,869.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--ROLFANTOM8EX",
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Roland-Fantom-8-EX-88-Key-Synthesizer-Keyboard/6DQZ",
+      andertons: "https://www.andertons.co.uk/roland-fantom-8-ex-88-key-flagship-synthesizer/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Roland-FANTOM-8-EX/art-SYN0008964-000",
+      reverb: "https://reverb.com/p/roland-fantom-8-ex-88-key-workstation-keyboard"
+    }
+  },
+  641: {
+    prices: {
+      zzounds: "$3,299.00",
+      gear4music: "£1,899.00",
+      andertons: "£1,929.00",
+      musicstore: "€2,219.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--NORELECTRO7D61",
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Nord-Electro-7-61-Key-Semi-Weighted-Keyboard/7T19",
+      andertons: "https://www.andertons.co.uk/nord-electro-7-61-stage-piano/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Clavia-Nord-Electro-7-61/art-KEY0006274-000"
+    }
+  },
+  642: {
+    prices: {
+      zzounds: "$1,999.99",
+      gear4music: "£1,749.00",
+      andertons: "£1,749.00",
+      musicstore: "€2,299.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--KORGRANDSTAGEX",
+      amazon: "https://www.amazon.com/dp/B0DKN7FL2J?tag=topmusicg-20",
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Korg-Grandstage-X/6707",
+      andertons: "https://www.andertons.co.uk/Korg-Grandstage-X-Stage-Piano",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Korg-Grandstage-X-inkl-Wooden-stand/art-KEY0005938-000",
+      reverb: "https://reverb.com/p/korg-grandstage-x-88-key-digital-piano"
+    }
+  },
+  643: {
+    prices: {
+      zzounds: "$1,599.00",
+      gear4music: "£1,399.00",
+      andertons: "£1,159.00",
+      musicstore: "€1,369.00"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--ARAASTROLAB",
+      amazon: "https://www.amazon.com/dp/B0CVBHTGVR?tag=topmusicg-20",
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Arturia-Astrolab-61-Note-Stage-Keyboard-Silver/82CQ",
+      andertons: "https://www.andertons.co.uk/arturia-astrolab-61-key-synth",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Arturia-AstroLab-61/art-SYN0008965-000"
+    }
+  },
+  644: {
+    prices: {
+      andertons: "£1,188.00",
+      gear4music: "£1,188.00",
+      musicstore: "€1,399.00",
+      zzounds: "$1,499.99"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--YAMCK88",
+      amazon: "https://www.amazon.com/dp/B0BTQ3HXRS?tag=topmusicg-20",
+      gear4music: "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-CK88-Stage-Keyboard/5HLE",
+      andertons: "https://www.andertons.co.uk/yamaha-ck88-88-key-ghs-graded-hammer-standard-keyboard/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-CK88/art-KEY0005768-000"
+    }
+  },
+  645: {
+    prices: {
+      gear4music: "£277.00",
+      andertons: "£275.00",
+      musicstore: "€304.00",
+      zzounds: "$429.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Focal-Alpha-65-Evo-Active-Studio-Monitor/3T37",
+      andertons: "https://www.andertons.co.uk/focal-alpha-65-evo-active-studio-monitor-each/",
+      amazon: "https://www.amazon.com/Focal-Professional-Alpha-Studio-Monitors/dp/B0989ZV9BH",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Focal-Alpha-65-Evo/art-REC0015459-000",
+      zzounds: "https://www.zzounds.com/item--FOLALPHA65EVO"
+    },
+    oos: [
+      "andertons"
+    ]
+  },
+  646: {
+    prices: {
+      musicstore: "€169.00",
+      zzounds: "$156.00",
+      andertons: "£132.00",
+      gear4music: "£149.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/IsoAcoustics-ISO-200-Isolation-Stands-Monitors/dp/B07D7K4Q54",
+      zzounds: "https://www.zzounds.com/item--ISOISO200",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/IsoAcoustics-ISO-200/art-REC0013752-000",
+      andertons: "https://www.andertons.co.uk/isoacoustics-200-stands-pair-black/",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/IsoAcoustics-ISO-200-Stands-Pair/2I7W"
+    }
+  },
+  648: {
+    prices: {
+      amazon: "$79.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B00N4Q25R8?tag=topmusicg-20"
+    },
+    na: ["musicstore","gear4music","zzounds","andertons","reverb"]
+  },
+  647: {
+    prices: {
+      musicstore: "€285.00",
+      zzounds: "$249.00",
+      gear4music: "£199.00",
+      andertons: "£219.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/SONARWORKS-SoundID-Reference-Speakers-Headphones-Mic/art-PCM0016890-000",
+      zzounds: "https://www.zzounds.com/item--SNWSOUNDIDSPHP",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Sonarworks-SoundID-Reference-Speaker-and-Headphone/6RQC",
+      andertons: "https://www.andertons.co.uk/sonarworks-soundid-reference-for-speakers--headphones-esd/"
+    }
+  },
+  649: {
+    prices: {
+      musicstore: "€315.00",
+      gear4music: "£249.00",
+      andertons: "£309.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Genelec-GLM-Set/art-REC0012270-000",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Genelec-GLM-3-Genelec-Loudspeaker-Manager-User-Kit/226N",
+      andertons: "https://www.andertons.co.uk/genelec-glm-3-loudspeaker-manager-user-kit/"
+    },
+    na: ["zzounds","reverb","amazon"]
+  },
+  650: {
+    prices: {
+      amazon: "$39.99"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Auralex-MoPad-XL-Speaker-Pad-Set/art-REC0011572-000",
+      amazon: "https://www.amazon.com/dp/B00266HBSU?tag=topmusicg-20"
+    },
+    oos: ["musicstore"],
+    na: ["gear4music","andertons","reverb","zzounds"]
+  },
+  651: {
+    prices: {
+      zzounds: "$399.15",
+      amazon: "$599.99"
+    },
+    urls: {
+      zzounds: "https://www.zzounds.com/item--ULTMS100B",
+      amazon: "https://www.amazon.com/Ultimate-Support-MS-100B-Professional-Adjustable/dp/B005OWHATS"
+    },
+    na: ["musicstore","gear4music","andertons","reverb"]
+  },
+  652: {
+    prices: {
+      gear4music: "£215.00",
+      musicstore: "€264.00",
+      zzounds: "$249.00",
+      andertons: "£205.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Lewitt-LCT-440-PURE-Condenser-Microphone/1ZJI",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-440-Pure/art-REC0013117-000",
+      zzounds: "https://www.zzounds.com/item--LEWLCT440PURE",
+      andertons: "https://www.andertons.co.uk/lewitt-lct-440-pure-large-diaphragm-condenser-microphone/"
+    }
+  },
+  654: {
+    prices: {
+      gear4music: "£976.00",
+      zzounds: "$1,295.00",
+      andertons: "£966.00",
+      musicstore: "€1,039.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Neumann-TLM-103-Condenser-Microphone-Nickel/22FD",
+      zzounds: "https://www.zzounds.com/item--NEUTLM103",
+      andertons: "https://www.andertons.co.uk/neumann-tlm103-studio-condenser-mic/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-TLM103-ni-Condenser-Microphone/art-REC0000317-000"
+    }
+  },
+  655: {
+    prices: {
+      gear4music: "£1,020.00",
+      andertons: "£949.00",
+      zzounds: "$1,299.00",
+      musicstore: "€1,149.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Warm-Audio-WA-8000-Condenser-Microphone/436V",
+      andertons: "https://www.andertons.co.uk/warm-audio-wa-8000-large-diaphragm-condenser-microphone/",
+      zzounds: "https://www.zzounds.com/item--WAUWA8000",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Warm-Audio-WA-8000/art-REC0015721-000"
+    }
+  },
+  656: {
+    prices: {
+      gear4music: "£1,283.00",
+      andertons: "£1,226.00",
+      zzounds: "$1,499.00",
+      musicstore: "€1,489.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Sphere-DLX-Modeling-Microphone/5B0C",
+      amazon: "https://www.amazon.com/Universal-Audio-Sphere-Modeling-Microphone/dp/B0C35LC2JZ",
+      zzounds: "https://www.zzounds.com/item--UADSPHEREDLX",
+      andertons: "https://www.andertons.co.uk/universal-audio-sphere-dlx-modelling-microphone",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Sphere-DLX-Modeling-Microphone/art-REC0016277-000"
+    }
+  },
+  657: {
+    prices: {
+      gear4music: "£177.00",
+      andertons: "£143.00",
+      zzounds: "$299.00",
+      musicstore: "€259.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/sE-Electronics-SE2200-Large-Diaphragm-Condenser-Microphone/2CYA",
+      amazon: "https://www.amazon.com/SE-ELECTRONICS-Diaphragm-Condenser-Shockmount/dp/B077HZJJSJ",
+      andertons: "https://www.andertons.co.uk/se-electronics-se2200a-microphone",
+      zzounds: "https://www.zzounds.com/item--SEESE2200",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/sE-electronics-sE2200/art-REC0013378-000"
+    }
+  },
+
+  671: {
+    prices: {
+      gear4music: "£144.00",
+      amazon: "$199.00",
+      andertons: "£144.00",
+      musicstore: "€169.00"
+    },
+    oos: [
+      "zzounds"
+    ],
+    urls: {
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-FLOW-8-8-Channel-Digital-Mixer/3N67",
+      amazon: "https://www.amazon.com/dp/B08NDBQM5W?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/item--BEHFLOW8",
+      andertons: "https://www.andertons.co.uk/behringer-flow-8-8-input-digital-mixer-with-bluetooth-audio-app-contro/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Behringer-Flow-8/art-PAH0022110-000"
+    }
+  },
+  672: {
+    prices: {
+      zzounds: "$99.00",
+      musicstore: "€129.00",
+      gear4music: "£82.00",
+      andertons: "£82.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B072F5J32C?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/item--LEWLCT240PRO",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-240-Pro-Black-/art-REC0013523-000",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Lewitt-LCT-240-PRO-Large-Diaphragm-Condenser-Microphone-Black/24PS",
+      andertons: "https://www.andertons.co.uk/lewitt-lct-240-pro-bk-ea-condenser-microphone-fet-sound/?search_query=Lewitt%20LCT%20240%20PRO"
+    }
+  },
+  673: {
+    prices: {
+      gear4music: "£198.25",
+      musicstore: "€299.00",
+      andertons: "£199.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Aston-Microphones-Origin-Cardioid-Condenser-Microphone/1F3F",
+      amazon: "https://www.amazon.com/dp/B019RVU0C0?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/item--ASTORIGIN",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Aston-Microphones-Origin-Black-Bundle/art-REC0014747-000",
+      andertons: "https://www.andertons.co.uk/aston-origin-cardioid-condenser-microphone/"
+    }
+  },
+  676: {
+    prices: {
+      gear4music: "£2,199.00",
+      zzounds: "$3,499.00",
+      andertons: "£2,199.00",
+      musicstore: "€2,489.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Audient-Horizon-8P-Thunderbolt-3-Audio-Interface/8EJC",
+      zzounds: "https://www.zzounds.com/item--ADIHORIZON8P?siid=398233",
+      andertons: "https://www.andertons.co.uk/audient-horizon-8p-audio-interface/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Audient-Horizon-8P/art-PCM0019045-000"
+    }
+  },
+  681: {
+    prices: {
+      gear4music: "£369.00",
+      andertons: "£379.00",
+      musicstore: "€399.00"
+    },
+    urls: {
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FYamaha-BB-234-4-String-Bass-Guitar-Black%2F21QT",
+      zzounds: "https://www.zzounds.com/item--YAMBB234",
+      andertons: "https://www.andertons.co.uk/yamaha-bb234-bass-guitar-in-black/",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-BB234-Black/art-BAS0009147-000"
+    }
+  },
+  682: {
+    prices: {
+      gear4music: "£219.00",
+      zzounds: "$249.00",
+      andertons: "£229.00",
+      musicstore: "€239.00",
+      amazon: "$249.00"
+    },
+    urls: {
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FIbanez-TMB30-Talman-Bass-Black%2F297J",
+      zzounds: "https://www.zzounds.com/item--IBATMB30?siid=227612",
+      andertons: "https://www.andertons.co.uk/ibanez-tmb30-bk-30-short-scale-bass-in-black/?search_query=Ibanez%20TMB30%20Talman",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Ibanez-Standard-TMB30-BK-Black/art-BAS0008306-000",
+      amazon: "https://www.amazon.com/Ibanez-TMB30-Talman-Standard-Black/dp/B01BLLE250"
+    }
+  },
+  683: {
+    prices: {
+    },
+    urls: {
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2Fus%2Fen%2FGuitar-and-Bass%2FGandL-Tribute-L-2000-Electric-Bass-Black-Gloss%2F1YLG",
+      zzounds: "https://www.zzounds.com/item--GLGTL2000",
+      musicstore: "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FG-L-Tribute-L-2000-Premium-MN-BB-Blueburst%2Fart-BAS0002876-000"
+    },
+    oos: [ "andertons" ]
+  },
+  680: {
+    prices: {
+      gear4music: "£170.00",
+      zzounds: "$259.00",
+      andertons: "£159.00",
+      musicstore: "€199.00"
+    },
+    urls: {
+      gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FSquier-Sonic-Bronco-Bass-Black%2F5E5O",
+      zzounds: "https://www.zzounds.com/item--SQU0373800?siid=334385",
+      andertons: "https://www.andertons.co.uk/squier-sonic-bronco-bass-guitar-black/?im_ref=RXMUIbRfWxyZTGWz-ZyhoTUcUkr1igXv5Sfr3I0&sharedid=&irpid=7292297&irgwc=1&afsrc=1",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Squier-Sonic-Bronco-Bass-IL-Black/art-BAS0012451-000?utm_source=awin&sv1=affiliate&sv_campaign_id=2891111&awc=63816_1792002030_39c2c8c452e5613efa90f53100a9b635&ProgramUUID=_FwKAQMErFkAAAGNPHB7dnnu"
+    }
+  },
+  679: {
+    prices: {
+      zzounds: "$399.00",
+      andertons: "£279.00",
+      musicstore: "€399.00"
+    },
+    urls: {
+      amazon: "https://www.amazon.com/dp/B07MWZ9FMR?tag=topmusicg-20",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/IK-Multimedia-AXE-IO/2SMV",
+      zzounds: "https://www.zzounds.com/item--IKMAXEIO?siid=253067",
+      andertons: "https://www.andertons.co.uk/ik-multimedia-axe-i-o-usb-audio-interface-w-advanced-guitar-tone-shaping/?search_query=IK%20Multimedia%20AXE%20IO",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/IK-Multimedia-AXE-I-O-AmpliTube-5-Max/art-PCM0016881-000"
+    }
+  },
+  678: {
+    prices: {
+      musicstore: "€749.00",
+      gear4music: "£587.00",
+      andertons: "£587.00",
+      zzounds: "$699.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-URX44V-Black/art-PCM0018734-000",
+      gear4music: "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-URX44V-USB-Streaming-Mixer-with-HDMI-Black/7QPI",
+      andertons: "https://www.andertons.co.uk/yamaha-urx44v-b-premium-audio-interface-with-video-thru/",
+      zzounds: "https://www.zzounds.com/item--YAMURX44V?siid=383385"
+    }
+  },
+  677: {
+    prices: {
+      zzounds: "$2,995.00",
+      andertons: "£2,039.00",
+      musicstore: "€2,399.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Antelope-Audio-Orion-Studio-Synergy-Core/33P8",
+      zzounds: "https://www.zzounds.com/item--ANEORNSTDSYNCORE?siid=268656",
+      andertons: "https://www.andertons.co.uk/antelope-audio-orion-studio-synergy-core/?search_query=Antelope%20Orion%20Studio%20Synergy%20Core",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/ANTELOPE-Orion-Studio-Synergy-Core/art-PCM0015924-000"
+    }
+  },
+  675: {
+    prices: {
+      zzounds: "$249.00",
+      gear4music: "£149.00",
+      musicstore: "€229.00",
+      andertons: "£149.00"
+    },
+    urls: {
+      musicstore: "https://www.musicstore.com/en_OE/EUR/sE-electronics-X1R-Ribbon-Microphone-/art-REC0009426-000",
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/sE-Electronics-sE-X1R-Ribbon-Microphone/I6K",
+      zzounds: "https://www.zzounds.com/item--SEEX1R?siid=133957",
+      andertons: "https://www.andertons.co.uk/se-electronics-se-x1-r-ribbon-mic/"
+    }
+  },
+  674: {
+    prices: {
+      zzounds: "$799.00",
+      gear4music: "£599.00",
+      musicstore: "€589.00",
+      andertons: "£598.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Neumann-TLM-102-Condenser-Microphone-Black/C56",
+      amazon: "https://www.amazon.com/dp/B003HGLPC6?tag=topmusicg-20",
+      zzounds: "https://www.zzounds.com/item--NEUTLM102",
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Neumann-TLM-102-Studio-Microphone-Nickel/art-REC0007197-000",
+      andertons: "https://www.andertons.co.uk/neumann-tlm102-studio-condenser-mic-in-nickel-finish/"
+    }
+  },
+  13: {prices:{amazon:"$299.00",zzounds:"$299.00",andertons:"£215.00",gear4music:"£215.00",musicstore:"€249.00"}},
+  14: {prices:{amazon:"$839.95",zzounds:"$849.00",gear4music:"£699.00",musicstore:"€849.00"}},
+  15: {prices:{amazon:"$199.00",zzounds:"$224.99",gear4music:"£189.00",andertons:"£185.00",musicstore:"€172.00"}},
+  16: {prices:{amazon:"$999.00",zzounds:"$999.00",gear4music:"£849.00",andertons:"£849.00",musicstore:"€945.00"}},
+  17: {prices:{amazon:"$999.00",zzounds:"$999.00",gear4music:"£715.00",andertons:"£715.00",musicstore:"€889.00"}},
+  18: {prices:{amazon:"$249.99",zzounds:"$299.99",gear4music:"£230.00",andertons:"£227.00",musicstore:"€295.00"}},
+  19: {prices:{amazon:"$398.99",zzounds:"$398.99",gear4music:"£263.00",andertons:"£254.00",musicstore:"€289.00"}},
+  20: {prices:{amazon:"$269.00",zzounds:"$269.00",gear4music:"£199.25",musicstore:"€266.00"}},
+  21: {prices:{amazon:"$899.99",zzounds:"$939.00",andertons:"£600.00",gear4music:"£600.00",musicstore:"€649.00"}},
+  22: {prices:{amazon:"$1,175.00",andertons:"£959.00",gear4music:"£812.00",musicstore:"€949.00"}},
+  23: {prices:{amazon:"$199.99",andertons:"£129.00",gear4music:"£129.00",musicstore:"€149.00",zzounds:"$199.99"}},
+  24: {prices:{amazon:"£339.00",andertons:"£295.00",gear4music:"£298.00",musicstore:"€359.00"},urls:{zzounds:"https://www.zzounds.com/prodsearch?form=search&q=Sennheiser+HD+490+Pro"},oos:["zzounds"]},
+  1053: {prices:{amazon:"$499.00",andertons:"£351.00",gear4music:"£351.00",musicstore:"€432.00",zzounds:"$499.00"},urls:{zzounds:"https://www.zzounds.com/item--SENHD490PROPLUS?siid=346774",gear4music:"https://www.gear4music.com/Recording-and-Computers/Sennheiser-HD-490-Pro-Plus-Open-Back-Headphones/62YL"},oos:[]},
+  1054: {prices:{andertons:"£540.00",gear4music:"£568.00",musicstore:"€699.00",zzounds:"$899.00"}},
+  25: {prices:{amazon:"$169.00",zzounds:"$159.00",gear4music:"£148.00",andertons:"£133.00",musicstore:"€149.00"}},
+  26: {
+    prices: { amazon: "$113.00", gear4music: "£85.00", musicstore: "€89.00" },
+    oos: ["zzounds"]
+  },
+  29: {prices:{pluginboutique:"€906.50",andertons:"£639.00",zzounds:"$1,069.00",gear4music:"£639.00",musicstore:"€899.00"},pbCur:{us:"$1,069.00",uk:"£789.00"}},
+  684: {prices:{amazon:"$149.99",gear4music:"£115.00",andertons:"£105.00",zzounds:"$149.99",musicstore:"€138.00"}},
+
+1001: {prices:{pluginboutique:"€200.65",gear4music:"£100.00",andertons:"£163.00",zzounds:"$199.00",musicstore:"€199.00"},pbCur:{us:"$199.00",uk:"£179.00"}},
+
+1002: {prices:{pluginboutique:"€182.01",gear4music:"£125.00",andertons:"£128.00",zzounds:"$179.00",musicstore:"€159.00"},pbCur:{us:"$179.00",uk:"£166.00"}},
+
+1003: {prices:{pluginboutique:"€184.48",andertons:"£199.00"},pbCur:{us:"$199.00",uk:"£158.95"}},
+
+
+1004: {prices:{pluginboutique:"€226.88"},pbCur:{us:"$249.00",uk:"£199.00"}},
+
+1005: {prices:{pluginboutique:"€114.95",gear4music:"£67.00",andertons:"£125.00",zzounds:"$189.00"},pbCur:{us:"$94.00",uk:"£99.95"}},
+
+1006: {prices:{pluginboutique:"€200.65",gear4music:"£168.00",zzounds:"$199.00",musicstore:"€189.00"},pbCur:{us:"$199.00",uk:"£179.00"}},
+1007: {prices:{pluginboutique:"€99.83"},pbCur:{us:"$99.00",uk:"£99.00"}},
+1008: {prices:{pluginboutique:"€120.00"},pbCur:{us:"$128.00",uk:"£99.00"}},
+
+1009: {prices:{pluginboutique:"€20.06"},pbCur:{us:"$19.90",uk:"£18.00"}},
+1010: {prices:{pluginboutique:"€89.75",gear4music:"£65.00"},pbCur:{us:"$89.00",uk:"£75.00"}},
+
+1011: {prices:{pluginboutique:"€49.40",gear4music:"£39.00"},pbCur:{us:"$55.00",uk:"£42.00"}},
+
+1012: {prices:{pluginboutique:"€83.70",gear4music:"£65.00"},pbCur:{us:"$79.00",uk:"£71.00"}},
+1013: {prices:{pluginboutique:"€89.75"},pbCur:{us:"$89.00",uk:"£74.95"}},
+
+1014: {prices:{pluginboutique:"€301.50",gear4music:"£269.50",musicstore:"€295.00"},pbCur:{us:"$299.00",uk:"£269.00"}},
+
+1015: {prices:{pluginboutique:"€704.83",gear4music:"£547.00",zzounds:"$699.00",andertons:"£547.00",musicstore:"€629.00"},pbCur:{us:"$699.00",uk:"£699.00"}},
+1016: {prices:{pluginboutique:"€99.83",gear4music:"£88.00"},pbCur:{us:"$99.00",uk:"£88.00"}},
+
+1017: {prices:{pluginboutique:"€150.25"},pbCur:{us:"$139.00",uk:"£129.00"}},
+1018: {prices:{pluginboutique:"€150.25",gear4music:"£104.00",andertons:"£104.00",zzounds:"$149.00"},pbCur:{us:"$149.00",uk:"£134.00"}},
+
+1019: {prices:{pluginboutique:"€240.79",musicstore:"€229.00",andertons:"£189.00",zzounds:"$299.00"},pbCur:{us:"$199.00",uk:"£188.00"}},
+
+1020: {prices:{pluginboutique:"€131.08"},pbCur:{us:"$129.99",uk:"£112.00"}},
+
+1021: {prices:{pluginboutique:"€49.40",gear4music:"£73.00",zzounds:"$79.00",andertons:"£70.00",musicstore:"€77.00"},pbCur:{us:"$49.00",uk:"£44.00"}},
+
+
+1022: {prices:{pluginboutique:"€64.53"},pbCur:{us:"$69.99",uk:"£49.96"}},
+1023: {prices:{pluginboutique:"€59.50"},pbCur:{us:"$59.00",uk:"£50.00"}},
+
+1025: {prices:{pluginboutique:"€442.65",gear4music:"£389.00",andertons:"£389.00",musicstore:"€429.00"},pbCur:{us:"$399.00",uk:"£389.00"}},
+1027: {prices:{pluginboutique:"€130.08"},pbCur:{us:"$129.00",uk:"£109.00"}},
+1028: {prices:{pluginboutique:"€99.83",gear4music:"£83.00"},pbCur:{us:"$99.00",uk:"£79.00"}},
+
+1030: {prices:{pluginboutique:"€310.97",gear4music:"£249.00"},pbCur:{us:"$269.00",uk:"£255.60"}},
+1041: {prices:{pluginboutique:"€331.75",gear4music:"£295.00",andertons:"£289.00",musicstore:"€319.00"},pbCur:{us:"$299.00",uk:"£280.00"}},
+
+1040: {prices:{pluginboutique:"€72.00",gear4music:"£125.00"},pbCur:{us:"$74.50",uk:"£65.40"}},
+1032: {prices:{pluginboutique:"€99.83",zzounds:"$99.00",gear4music:"£74.99",amazon:"$119.00",musicstore:"€99.00",andertons:"£74.00"},pbCur:{us:"$99.00",uk:"£85.00"}},
+
+1034: {prices:{pluginboutique:"€442.65",gear4music:"£379.00",andertons:"£319.00",zzounds:"$519.00",musicstore:"€439.00"},pbCur:{us:"$519.00",uk:"£389.00"}},
+
+1035: {prices:{pluginboutique:"€216.59",gear4music:"£155.00"},pbCur:{us:"$199.00",uk:"£190.80"}},
+
+1036: {prices:{pluginboutique:"€144.60",gear4music:"£250.00"},pbCur:{us:"$149.50",uk:"£119.40"}},
+
+1038: {prices:{pluginboutique:"€146.20",gear4music:"£149.00",musicstore:"€194.00"},pbCur:{us:"$149.00",uk:"£124.80"}},
+
+1039: {prices:{pluginboutique:"€271.04",gear4music:"£215.00"},pbCur:{us:"$249.00",uk:"£238.80"}},
+
+  };function hollyDefaultRegion() {
+  var isUsa = false;
+  try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
+  return isUsa ? 'us' : 'eu';
+}
+function hollyPickEntry(cfg, r) {
+  if (!cfg || !cfg.holly) return null;
+  return cfg.holly[r] || cfg.holly.eu || cfg.holly.us || cfg.holly.uk || null;
+}
+// Plain-text amount (no label, no markup): strips decimals and re-applies the
+// thousands separator. Used for data-* attributes and for the geo-swap.
+function fmtPricePlain(raw) {
+  if (!raw) return '';
+  var s = String(raw);
+  var m = s.match(/^([$\u00a3\u20ac])\s*([\d,]+)(?:\.(\d+))?\s*$/);
+  if (!m) return s;
+  var whole = parseInt(String(m[2]).replace(/,/g, ''), 10);
+  if (!isFinite(whole)) return s;
+  return m[1] + String(whole).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+
+// Formats a store price for display: strips decimals (truncates) and renders
+// the "Approx." label in the "Check price" typography (12px, semibold, italic)
+// followed by the plain amount.
+// Label color depends on the surface: #a8a8a8 on the dark store rows, and
+// #ffffff on the blue primary button where gray would not be readable.
+// Always re-applies the thousands separator so values above 999 keep the
+// comma (AGENTS rule). The plain amount is kept in data-price so the
+// geo-swap script can move prices between the primary button and the rows
+// without parsing HTML.
+function fmtPrice(raw, lang, primary) {
+  if (!raw) return '';
+  var s = String(raw);
+  var m = s.match(/^([$\u00a3\u20ac])\s*([\d,]+)(?:\.(\d+))?\s*$/);
+  if (!m) return s;
+  var whole = parseInt(String(m[2]).replace(/,/g, ''), 10);
+  if (!isFinite(whole)) return s;
+  var out = String(whole).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  var label = lang === 'es' ? 'Aprox.' : 'Approx.';
+  var color = primary ? '#ffffff' : '#a8a8a8';
+  return '<span class=\'shop-price\' data-price=\'' + m[1] + out + '\'>' +
+    '<span style=\'font-size:12px;font-weight:600;color:' + color + ';font-style:italic\'>' + label + '</span> ' +
+    m[1] + out + '</span>';
+}
+
+function shopButtonsTest(p, lang) {
+  const cfg = TEST_SHOP_BTN[p.id] || {};
+  const prices = cfg.prices || {};
+  const stores = getResolvedStores(p);
+  const isDaw = p.category === 'daw';
+  const isLogic = isDaw && !!stores.official;
+  const isHolly = !!stores.hollyland;
+  const hollyRegion = hollyDefaultRegion();
+  const hollyPick = hollyPickEntry(cfg, hollyRegion);
+  const dawHasAmazon = isDaw && !isLogic && prices.amazon;
+  const t = (es, en) => lang === 'es' ? es : en;
+  const starSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#FFC107" style="flex-shrink:0"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L374 150.2 308.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>';
+  const cartSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>';
+  const chevSvg = '<svg viewBox="0 0 512 512" width="1.1em" height="1.1em" fill="currentColor" style="flex-shrink:0;transition:transform .3s ease;margin-top:2px"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>';
+  const order = isLogic ? [] : (dawHasAmazon ? ['amazon', 'reverb', 'zzounds', 'gear4music', 'andertons', 'musicstore'] : isDaw ? ['zzounds', 'reverb', 'andertons', 'musicstore'] : ['amazon', 'reverb', 'zzounds', 'gear4music', 'andertons', 'musicstore']);
+  const naList = cfg.na || [];
+  const oosList = cfg.oos || [];
+  const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
+  const revUrl = stores.reverb || ('https://www.awin1.com/cread.php?awinmid=67144&awinaffid=2891111&ued=' + encodeURIComponent('https://reverb.com/marketplace?query=' + encodeURIComponent(searchTerm(p.title))));
+  const storeSearch = {
+    zzounds: () => 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title)).replace(/%20/g, '+'),
+    amazon: () => 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title)).replace(/%20/g, '+') + '&tag=topmusicg-20',
+    reverb: () => revUrl,
+    gear4music: () => 'https://www.gear4music.com/search?q=' + encodeURIComponent(searchTerm(p.title)),
+    andertons: () => 'https://www.andertons.co.uk/search.php?search_query=' + encodeURIComponent(searchTerm(p.title)),
+    musicstore: () => 'https://www.musicstore.com/en_OE/EUR/search?SearchText=' + encodeURIComponent(searchTerm(p.title))
+  };
+  const isPlugins = p.category === 'plugins';
+  const storeHome = {
+    zzounds: () => 'https://www.zzounds.com/a--925521/',
+    amazon: () => 'https://www.amazon.com/?tag=topmusicg-20',
+    reverb: () => 'https://reverb.com/',
+    gear4music: () => 'https://www.gear4music.com/',
+    andertons: () => 'https://www.andertons.co.uk/',
+    musicstore: () => 'https://www.musicstore.com/en_OE/EUR'
+  };
+  const rowUrl = k => { var u = (k === 'amazon' && isPlugins) ? 'https://www.amazon.com/?tag=topmusicg-20' : ((cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k])); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
+  var isUsa = false;
+  try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
+  const hasAmazon = !isLogic && !isPlugins && !isHolly;
+  const primaryStoreKey = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
+  // Precio del boton primario. Amazon no tiene precio propio en casi ningun
+  // producto (Amazon solo aporta el enlace con tag), asi que antes se
+  // sustituia por "Check price" y se descartaba el precio que si existe en
+  // otra tienda. Ahora: si hay precio de Amazon se usa; si no, se cae al
+  // primer precio disponible. El geo-swap del navegador sigue cambiando
+  // tienda e importe por zona.
+  const _ownPrice = (k) => (cfg.prices && cfg.prices[k]) || prices[k] || '';
+  const _order = [primaryStoreKey, isLogic ? 'official' : isPlugins ? 'pluginboutique' : null,
+                  isUsa ? 'zzounds' : null, 'gear4music', 'musicstore', 'andertons',
+                  dawHasAmazon ? 'amazon' : null, 'zzounds'].filter(Boolean);
+  let _precio = '';
+  for (const k of _order) { if (!_precio && _ownPrice(k)) _precio = _ownPrice(k); }
+  // REGLA FIJA: Amazon nunca muestra precio en el boton primario, solo
+  // "Check price" / "Verificar precio". El precio de Amazon sigue en
+  // TEST_SHOP_BTN (lo usan los totales), pero no se pinta.
+  if (primaryStoreKey === 'amazon') _precio = '';
+  const pPrice = isHolly
+    ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
+    : (_precio ? fmtPrice(_precio, lang, true) : t('Verificar precio', 'Check Price'));
+  const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
+  const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
+  var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(searchTerm(p.title)) + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
+  var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
+  if (!pUrl) return '';
+  var hollyAttrs = '';
+  if (isHolly) {
+    ['eu', 'us', 'uk'].forEach(function(r) {
+      var he = hollyPickEntry(cfg, r);
+      if (he) {
+        hollyAttrs += ' data-hu-' + r + '="' + wrapAffiliate('hollyland', he.u || '') + '" data-hu-' + r + '-p="' + fmtPricePlain(he.p || '') + '"';
+      }
+    });
+  }
+  var pbAttrs = '';
+  if (primaryStoreKey === 'pluginboutique' && cfg.pbCur) {
+    pbAttrs = ' data-pb-eu-p="' + fmtPricePlain(prices.pluginboutique || '') + '"';
+    if (cfg.pbCur.us) pbAttrs += ' data-pb-us-p="' + fmtPricePlain(cfg.pbCur.us) + '"';
+    if (cfg.pbCur.uk) pbAttrs += ' data-pb-uk-p="' + fmtPricePlain(cfg.pbCur.uk) + '"';
+  }
+  const primaryBtn =
+    '<a data-store="' + (primaryStoreKey) + '" href="' + pUrl + '"' + hollyAttrs + pbAttrs + ' target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
+    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
+    'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
+    'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
+    'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
+    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at')) + (isLogic ? '' : isHolly ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.hollyland + '</span>' : dawHasAmazon ? '<span style=\'' + SHOP_PRIMARY_FONT + '\'>Amazon</span>' : isDaw ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'' + SHOP_PRIMARY_FONT + '\'>PluginBoutique</span>' : (primaryStoreKey === 'zzounds' ? '<span style=' + SHOP_PRIMARY_FONT + '>zZounds</span>' : primaryStoreKey === 'gear4music' ? '<span style=' + SHOP_PRIMARY_FONT + '>' + SHOP_LOGO_TEXT.gear4music + '</span>' : primaryStoreKey === 'amazon' ? '<span style=' + SHOP_PRIMARY_FONT + '>Amazon</span>' : primaryStoreKey === 'pluginboutique' ? '<span style=' + SHOP_PRIMARY_FONT + '>PluginBoutique</span>' : primaryStoreKey === 'official' ? '<span style=' + SHOP_PRIMARY_FONT + '>Official Store</span>' : primaryStoreKey === 'hollyland' ? '<span style=' + SHOP_PRIMARY_FONT + '>Hollyland</span>' : '<span style="' + SHOP_PRIMARY_FONT + '">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>')) + (pPrice ? '<span>- ' + pPrice + '</span>' : '') + '</span></a>';
+  const rows = order.filter(k => k !== primaryStoreKey).map(k => {
+    const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
+    const st = SHOP_ROW_FONT;
+    const storeNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'], amazon: ['(Env\u00edo Prime)', '(Prime Delivery)'] };
+    const storeNote = '';
+    const ds = ' data-store="' + k + '"';
+    if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
+      const naUrl = rowUrl(k);
+      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + ((k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : '') + '</a>';
+    }
+    if (oosList.indexOf(k) > -1 || (k !== 'reverb' && !prices[k] && stores[k])) {
+      const _oosPr = (cfg.prices && cfg.prices[k]) ? cfg.prices[k] : '';
+      const oosPrice = (k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : ((_oosPr) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + fmtPrice(_oosPr, lang) + '</span></span>' : '';
+      return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + oosPrice + '</a>';
+    }
+    // Amazon no tiene precio propio en casi ningun producto (solo aporta el
+    // enlace con tag). Antes se mostraba "Verificar precio" y se perdia el
+    // precio que si existe en otra tienda: ahora se cae al primer precio
+    // disponible, igual que en el boton primario.
+    // REGLA FIJA: Amazon nunca muestra precio en la fila, solo
+    // "Check price" / "Verificar precio" (ni el suyo ni el de otra tienda).
+    const _rowPrice = (k) => {
+      if (k === 'amazon') return '';
+      if (prices[k]) return prices[k];
+      return '';
+    };
+    const _pr = _rowPrice(k);
+    const pr = (!_pr) ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (_pr ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + fmtPrice(_pr, lang) + '</span></span>' : '');
+    return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
+      'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
+      'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + pr + '</a>';
+  }).join('');
+  // Fila final del desplegable: escribir reseña. Se declara fuera del .map() de
+  // rows para que quede SIEMPRE después de todas las tiendas.
+  const reviewRow = '<button type="button" class="shop-btn-review" onclick="openReviewModal(' + p.id + ')" ' +
+    'style="width:100%;box-sizing:border-box;flex:none;display:flex;align-items:center;justify-content:center;gap:8px;padding:8px 16px;min-height:40px;' +
+    'border-radius:12px;background:#262626;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;' +
+    'border:none;cursor:pointer;transition:background .2s ease;margin-top:2px" ' +
+    'onmouseover="this.style.background=\'#34383d\'" onmouseout="this.style.background=\'#262626\'">' +
+    starSvg + '<span style="white-space:nowrap">' + t('Escribe una reseña', 'Write a review') + '</span></button>';
+  const rowCount = order.filter(k => k !== primaryStoreKey).length;
+  const moreBtn =
+    '<button type="button" class="shop-btn-more" ' +
+    'onclick="var l=this.nextElementSibling;var open=l.style.maxHeight&&l.style.maxHeight!==\'0px\';if(open){l.style.overflow=\'hidden\';l.style.maxHeight=\'0px\';}else{l.style.maxHeight=l.scrollHeight+\'px\';setTimeout(function(){l.style.overflow=\'visible\';},330);}var s=this.querySelectorAll(\'svg\')[1];if(s)s.style.transform=open?\'\':\'rotate(180deg)\';" ' +
+    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
+    'background:#333333;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;transition:background .2s ease,transform .18s ease" ' +
+    'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
+    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + t('Comparar en ' + rowCount + ' tiendas más', 'Compare ' + rowCount + ' more stores') + chevSvg + '</span></span>' + '</button>' +
+    '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + reviewRow + '</div>';
+  return isLogic ? primaryBtn + reviewRow : primaryBtn + moreBtn;
+}
+
+
+// La nota depende de la GUIA: un mismo producto puede ser el flagship en una
+// comparativa y una alternativa de relegada en otra. La nota por guia (en
+// GUIDE_SCORES, generada desde temp/score_overrides.js) manda; si la guia no
+// tiene nota propia para ese producto se usa la global de products.json.
+function guideScore(p, guideId) {
+  if (guideId && GUIDE_SCORES && GUIDE_SCORES[guideId]) {
+    var g = GUIDE_SCORES[guideId];
+    var unitLabel = p.unit === 'each' ? (CURRENT_LANG === 'es' ? ' (Unidad)' : ' (Each)') : p.unit === 'pair' ? (CURRENT_LANG === 'es' ? ' (Par)' : ' (Pair)') : p.unit === 'headset' ? (CURRENT_LANG === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
+    var base = (CURRENT_LANG === 'es' && p.title_es ? p.title_es : p.title);
+    var full = base + unitLabel;
+    var s = g[full];
+    if (s === undefined) s = g[base];
+    if (s === undefined && unitLabel) s = g[full.replace(/ \(.*\)$/, '')];
+    if (s === undefined) {
+      var nk = base.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      s = g['#' + nk];
+    }
+    if (s !== undefined && s !== null) return s;
+  }
+  return p.score;
+}
+
+function scoreBadge(p, lang) {
+  var gs = guideScore(p, CURRENT_GUIDE_ID);
+  if (gs === undefined || gs === null) return '';
+  var score = Number(gs).toFixed(1);
+  var pct = (Number(gs) - 5) / 5 * 100;
+  if (pct < 0) pct = 0;
+  if (pct > 100) pct = 100;
+  var isEs = lang === 'es';
+  var label = isEs ? 'Nota' : 'Score';
+  var aria = isEs
+    ? 'Nuestra nota: ' + score + ' sobre 10 (escala de 5 a 10)'
+    : 'Our score: ' + score + ' out of 10 (scale 5 to 10)';
+  return '<div style="position:absolute;top:12px;left:12px;z-index:3;width:var(--badge-size);height:var(--badge-size);border-radius:50%;background:rgba(10,20,44,.88);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.25);box-shadow:0 4px 14px rgba(0,20,60,.35);display:flex;align-items:center;justify-content:center;" role="img" aria-label="' + aria + '">' +
+    '<svg width="100%" height="100%" viewBox="0 0 100 100" style="position:absolute;top:0;left:0;transform:rotate(-90deg);" aria-hidden="true">' +
+      '<circle cx="50" cy="50" r="41" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="6" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>' +
+      '<circle cx="50" cy="50" r="41" fill="none" stroke="#40A4FF" stroke-width="6" stroke-linecap="round" pathLength="100" stroke-dasharray="' + pct + ' 100" stroke-dashoffset="0" style="transition:stroke-dashoffset 600ms ease-out;"/>' +
+    '</svg>' +
+    '<div style="position:relative;z-index:1;text-align:center;line-height:1.05;">' +
+      '<div style="color:#fff;font-weight:800;font-size:calc(var(--badge-size)*0.34);letter-spacing:-.01em;">' + score + '</div>' +
+      '<div style="color:#fff;font-weight:800;font-size:calc(var(--badge-size)*0.11);letter-spacing:.12em;text-transform:uppercase;margin-top:.06em;">' + label + '</div>' +
+    '</div>' +
+  '</div>';
+}
+
+// Card text: keep the full description when it is reasonably short, otherwise
+// show the leading complete sentences only (never a cut mid-word or mid-number).
+// The full text stays untouched in data/products.json.
+const CARD_DESC_LIMIT = 420;
+function cardDesc(text) {
+  const t = String(text || '').replace(/\s+/g, ' ').trim();
+  if (t.length <= CARD_DESC_LIMIT) return t;
+  const parts = t.split(/(?<=[.!?])\s+(?=[A-Z\u00C0-\u00DE\u00BF\u00A1"'0-9(])/);
+  let out = '';
+  for (let i = 0; i < parts.length; i++) {
+    const cand = (out ? out + ' ' : '') + parts[i];
+    if (cand.length > CARD_DESC_LIMIT) break;
+    out = cand;
+  }
+  out = out.trim();
+  if (!out) {
+    const cut = t.slice(0, CARD_DESC_LIMIT);
+    out = cut.slice(0, cut.lastIndexOf(' '));
+  }
+  out = out.replace(/[\s,;:\-\u2014]+$/, '');
+  if (!/[.!?]["')\]]?$/.test(out)) out += '.';
+  return out;
+}
+
+function productCard(p, lang) {
+  const unitLabel = p.unit === 'each' ? (lang === 'es' ? ' (Unidad)' : ' (Each)') : p.unit === 'pair' ? (lang === 'es' ? ' (Par)' : ' (Pair)') : p.unit === 'headset' ? (lang === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
+  const rawTitle = (lang === 'es' && p.title_es ? p.title_es : p.title);
+  const title = rawTitle.replace(/\s*\((each|pair|unidad|par|cada uno|cada una)\)\s*$/i, function (m, u) {
+    var map = { each: 'Each', pair: 'Pair', unidad: 'Unidad', par: 'Par' };
+    return ' (' + (map[u.toLowerCase()] || 'Unidad') + ')';
+  }) + unitLabel;
+  const desc = cardDesc(lang === 'es' && p.desc_es ? p.desc_es : p.desc);
+  const stores = storeChips(p, lang);
+  const gi = guideCutImg(p);
+  const imgSrc = gi.src;
+  const cutout = gi.cut;
+  return `<div class="guide-product-card${cutout ? ' guide-product-card--cutout' : ''}">
+    <div class="guide-product-card-img${cutout ? ' guide-product-card-img--cutout' : ''}"><img src="${imgSrc}" alt="${title}" loading="lazy" class="lb-img" style="cursor:zoom-in">${scoreBadge(p, lang)}</div>    <div class="guide-product-card-body">
+      <div class="guide-product-card-title-row">
+        <h3 class="guide-product-card-title">${title}</h3>
+        ${productRatingLine(p, lang)}
+      </div>
+            <div class="guide-product-card-desc-wrap"><div class="guide-product-card-desc">${desc}</div></div>
+      <div class="guide-product-card-stores">${stores}</div>
+    </div>
+  </div>`;
+}
+
+function jsonLdScript(data) {
+  return `<script type="application/ld+json">\n${JSON.stringify(data, null, 2)}\n</script>`;
+}
+
+function guideDates(guide, idx) {
+  var pub = guide.datePublished;
+  if (!pub) {
+    var base = new Date('2026-01-15');
+    base.setDate(base.getDate() + idx * 3);
+    pub = base.toISOString().split('T')[0];
+  }
+  if (pub > today) pub = today;
+  var mod = guide.dateModified || today;
+  if (mod > today) mod = today;
+  return { published: pub, modified: mod };
+}
+
+function stripHtml(s) {
+  return s ? s.replace(/<[^>]*>/g, '') : '';
+}
+function guideDesc(guide, introFallback, isEs) {
+  var d = isEs ? (guide.description_es || trunc(stripHtml(introFallback), 155)) : (guide.description || trunc(stripHtml(introFallback), 155));
+  return Y(d);
+}
+
+function esText(esVal, enVal) {
+  return esVal && esVal.length > enVal.length * 0.1 ? esVal : enVal;
+}
+
+var faqBase = {
+  microphones: [
+    { q: "What is the best microphone for recording vocals?", q_es: "¿Cuál es el mejor micrófono para grabar voces?", a: "The Shure SM7B is the industry standard for professional vocal recording, used on countless hit records. For home studios on a budget, the Rode NT1-A delivers studio-quality condenser sound at $269, while the Shure SM57 at $99 is the best starting point for any home recordist.", a_es: "El Shure SM7B es el estándar de la industria para grabación vocal profesional. Para estudios caseros con presupuesto limitado, el Rode NT1-A ofrece sonido de calidad de estudio por $269, mientras que el Shure SM57 a $99 es el mejor punto de partida." },
+    { q: "What microphone is best for home recording?", q_es: "¿Qué micrófono es mejor para grabación casera?", a: "For home recording, start with the Shure SM57 ($99) for instruments and the Audio-Technica AT2020 ($99) for vocals. The Focusrite Scarlett 2i2 bundle with the Rode NT1-A is an excellent all-in-one starter package that covers both microphone and audio interface needs.", a_es: "Para grabación casera, comienza con el Shure SM57 ($99) para instrumentos y el Audio-Technica AT2020 ($99) para voces. El pack Focusrite Scarlett 2i2 con Rode NT1-A es un excelente paquete completo." },
+    { q: "Do I need a condenser or dynamic microphone?", q_es: "¿Necesito un micrófono de condensador o dinámico?", a: "Condenser mics like the Rode NT1-A capture more detail and high frequencies, making them ideal for studio vocals and acoustic instruments. Dynamic mics like the Shure SM7B and SM57 are more rugged, reject background noise better, and work great for loud sources like guitar amps and live vocals.", a_es: "Los micrófonos de condensador como el Rode NT1-A capturan más detalle y son ideales para voces de estudio. Los dinámicos como el Shure SM7B son más resistentes y funcionan mejor para fuentes ruidosas como amplificadores de guitarra." },
+    { q: "How much should I spend on a good microphone?", q_es: "¿Cuánto debería gastar en un buen micrófono?", a: "A good starter microphone costs $99-$200. The sweet spot for home studio quality is $200-$400, where you find options like the Rode NT1-A ($269) and Shure SM7B ($399). Professional mics like the Neumann U 87 Ai cost upwards of $3,000 but are rarely necessary for home recording.", a_es: "Un buen micrófono inicial cuesta entre $99 y $200. El punto óptimo para calidad de estudio casero es $200-$400, donde encuentras opciones como el Rode NT1-A ($269) y Shure SM7B ($399)." },
+    { q: "What is the best microphone under $200?", q_es: "¿Cuál es el mejor micrófono por menos de $200?", a: "The Shure SM57 ($99) is the best under-$200 microphone for its versatility, durability, and legendary status. The Audio-Technica AT2020 ($99) is the best budget condenser for vocals. The Rode NT-USB ($169) is the top choice for USB plug-and-play simplicity.", a_es: "El Shure SM57 ($99) es el mejor micrófono por menos de $200 por su versatilidad y durabilidad legendaria. El Audio-Technica AT2020 ($99) es el mejor condensador económico para voces." } ],
+  interfaces: [
+    { q: "What is the best audio interface for home recording?", q_es: "¿Cuál es la mejor interfaz de audio para grabación casera?", a: "The Focusrite Scarlett 2i2 4th Gen ($199) is the best all-around audio interface for home recording, offering pro-grade preamps, low latency, and easy setup. The Universal Audio Volt 2 ($189) is excellent if you want vintage tube preamp emulation. Both are reliable choices for beginners and experienced producers alike.", a_es: "La Focusrite Scarlett 2i2 4ta Gen ($199) es la mejor interfaz de audio para grabación casera, con prevas de grado profesional y baja latencia. La Universal Audio Volt 2 ($189) es excelente si buscas emulación de previo vintage." },
+    { q: "How many inputs do I need on an audio interface?", q_es: "¿Cuántas entradas necesito en una interfaz de audio?", a: "For a solo musician recording one instrument at a time, 2 inputs is sufficient. If you record vocals and guitar simultaneously, or want to record in stereo, 2-4 inputs work well. Bands recording live should look for 8+ inputs. The Focusrite Scarlett 2i2 covers most home studio needs.", a_es: "Para un músico grabando un instrumento a la vez, 2 entradas son suficientes. Si grabas voz y guitarra simultáneamente, 2-4 entradas funcionan bien. Bandas grabando en vivo necesitan 8+ entradas." },
+    { q: "Is USB or Thunderbolt better for audio interfaces?", q_es: "¿Es mejor USB o Thunderbolt para interfaces de audio?", a: "Thunderbolt offers lower latency and higher bandwidth, making it ideal for professional studios with large sessions. USB (especially USB-C) is perfectly adequate for home studios, with latency low enough for real-time monitoring. The RME Babyface Pro FS uses USB and rivals Thunderbolt performance.", a_es: "Thunderbolt ofrece menor latencia y mayor ancho de banda, ideal para estudios profesionales. USB (especialmente USB-C) es perfectamente adecuado para estudios caseros. El RME Babyface Pro FS usa USB con rendimiento comparable a Thunderbolt." },
+    { q: "What is the best budget audio interface?", q_es: "¿Cuál es la mejor interfaz de audio económica?", a: "The Focusrite Scarlett Solo ($139) and Universal Audio Volt 1 ($169) are the best budget audio interfaces. Both offer excellent preamp quality, reliable drivers, and come with useful software bundles including DAWs and plugins. The Scarlett series is the most popular choice worldwide.", a_es: "La Focusrite Scarlett Solo ($139) y Universal Audio Volt 1 ($169) son las mejores interfaces económicas. Ambas ofrecen excelente calidad de previo y vienen con paquetes de software útiles." },
+    { q: "Do I need a high-end audio interface as a beginner?", q_es: "¿Necesito una interfaz de audio de alta gama como principiante?", a: "No. A Focusrite Scarlett 2i2 ($199) or Universal Audio Volt 2 ($189) provides more than enough quality for beginners. High-end interfaces like the RME Babyface Pro FS or Antelope Audio interfaces are designed for professional environments where every dB of dynamic range matters.", a_es: "No. Una Focusrite Scarlett 2i2 ($199) o Universal Audio Volt 2 ($189) ofrecen más que suficiente calidad para principiantes. Las interfaces de alta gama son para entornos profesionales." } ],
+  monitors: [
+    { q: "What are the best studio monitors for home recording?", q_es: "¿Cuáles son los mejores monitores de estudio para grabación casera?", a: "The Yamaha HS8 ($698/pair) are the industry standard for mixing — brutally honest and revealing. The KRK Rokit 7 G5 ($498/pair) offers great value with built-in DSP room correction. For smaller rooms, the Yamaha HS5 or KRK Rokit 5 G5 are excellent choices that won't overwhelm your space.", a_es: "Los Yamaha HS8 ($698/par) son el estándar de la industria para mezcla — brutalmente honestos y reveladores. Los KRK Rokit 7 G5 ($498/par) ofrecen gran valor con corrección de sala DSP incorporada. Para habitaciones pequeñas, los Yamaha HS5 o KRK Rokit 5 G5 son excelentes opciones que no abrumarán tu espacio." },
+    { q: "Do I need a subwoofer for studio monitors?", q_es: "¿Necesito un subwoofer para monitores de estudio?", a: "A subwoofer is not essential for most home studios. It becomes important when mixing genres that rely on sub-bass frequencies like EDM, hip-hop, or film scoring. The Yamaha HS8S subwoofer pairs well with HS series monitors. In small rooms, a sub can create more problems than it solves due to room modes.", a_es: "Un subwoofer no es esencial para la mayoría de estudios caseros. Se vuelve importante para géneros que dependen de frecuencias sub-graves como EDM o hip-hop. En habitaciones pequeñas puede crear más problemas de los que resuelve." },
+    { q: "What size studio monitors should I get?", q_es: "¿De qué tamaño deberían ser mis monitores de estudio?", a: "For small rooms under 150 sq ft, 5-inch monitors like the Yamaha HS5 are ideal. Medium rooms up to 250 sq ft work well with 6.5-7 inch monitors like the KRK Rokit 7 G5. Larger rooms benefit from 8-inch monitors like the Yamaha HS8. The key is matching monitor size to room size.", a_es: "Para habitaciones pequeñas, monitores de 5 pulgadas como los Yamaha HS5 son ideales. Habitaciones medianas funcionan bien con 6.5-7 pulgadas. Habitaciones grandes se benefician de monitores de 8 pulgadas." },
+    { q: "How should I position my studio monitors?", q_es: "¿Cómo debería posicionar mis monitores de estudio?", a: "Position monitors at ear level forming an equilateral triangle with your listening position. Keep them at least 8 inches from walls to reduce bass buildup. Angle them toward your ears (toe-in). Use monitor isolation pads to decouple them from your desk. The tweeters should be at ear height when seated.", a_es: "Coloca los monitores a la altura del oído formando un triángulo equilátero con tu posición de escucha. Mantenlos al menos a 20 cm de las paredes. Usa pads de aislamiento para desacoplarlos del escritorio." },
+    { q: "Are expensive studio monitors worth it?", q_es: "¿Valen la pena los monitores de estudio caros?", a: "Expensive monitors like the Genelec 8040B or Adam A7V offer more accurate frequency response, better stereo imaging, and higher SPL before distortion. For critical mixing and mastering work, they're worth the investment. For home studio enthusiasts, quality monitors in the $300-$700 range like Yamaha HS or KRK Rokit series provide excellent value.", a_es: "Los monitores caros ofrecen una respuesta de frecuencia más precisa y mejor imagen estéreo. Para mezcla crítica, valen la inversión. Para entusiastas, monitores de $300-$700 como Yamaha HS o KRK Rokit ofrecen excelente valor." } ],
+  headphones: [
+    { q: "What are the best studio headphones for mixing?", q_es: "¿Cuáles son los mejores auriculares de estudio para mezclar?", a: "The beyerdynamic DT 900 Pro X are the best open-back headphones for mixing, offering excellent soundstage and natural frequency response. The Sennheiser HD 490 Pro Plus is another top choice. For closed-back options, the beyerdynamic DT 770 Pro is the industry standard for tracking and mixing.", a_es: "Los beyerdynamic DT 900 Pro X son los mejores auriculares abiertos para mezclar. Los Sennheiser HD 490 Pro Plus son otra excelente opción. Para auriculares cerrados, los DT 770 Pro son el estándar de la industria." },
+    { q: "Open-back vs closed-back headphones for studio?", q_es: "¿Auriculares abiertos vs cerrados para estudio?", a: "Open-back headphones like the beyerdynamic DT 900 Pro X provide a wider soundstage and more natural sound, making them better for critical mixing. Closed-back headphones like the DT 770 Pro isolate sound, making them ideal for tracking vocals and instruments to prevent bleed into the microphone.", a_es: "Los auriculares abiertos como los DT 900 Pro X ofrecen un escenario sonoro más amplio, ideales para mezcla. Los cerrados como los DT 770 Pro aíslan el sonido, perfectos para grabación." },
+    { q: "Can I mix with headphones instead of monitors?", q_es: "¿Puedo mezclar con auriculares en vez de monitores?", a: "Yes, but with caveats. Headphones can cause ear fatigue faster and don't translate bass frequencies as accurately as monitors. However, with open-back headphones and reference tracks, you can achieve professional results. The beyerdynamic DT 900 Pro X is excellent for headphone mixing.", a_es: "Sí, pero con precaución. Los auriculares causan fatiga auditiva más rápido y no traducen los graves con tanta precisión. Con auriculares abiertos y pistas de referencia, puedes lograr resultados profesionales." },
+    { q: "What is the best budget headphones for music production?", q_es: "¿Cuáles son los mejores auriculares económicos para producción musical?", a: "The Audio-Technica ATH-M50X ($169) is the best budget headphone for music production, offering a balanced frequency response and good detail. The Sony MDR-7506 ($99) is another excellent budget option that's been an industry standard for decades.", a_es: "Los Audio-Technica ATH-M50X ($169) son los mejores auriculares económicos para producción musical. Los Sony MDR-7506 ($99) son otra excelente opción que ha sido estándar de la industria por décadas." },
+    { q: "Do I need a headphone amplifier for studio headphones?", q_es: "¿Necesito un amplificador de auriculares para auriculares de estudio?", a: "High-impedance headphones like the beyerdynamic DT 770 Pro 250 Ohm benefit significantly from a dedicated headphone amplifier. Lower impedance models like the DT 770 Pro 80 Ohm or Audio-Technica ATH-M50X work well directly from most audio interfaces. If your headphones sound quiet or weak, a headphone amp will help.", a_es: "Los auriculares de alta impedancia como los DT 770 Pro 250 Ohm se benefician de un amplificador dedicado. Los modelos de menor impedancia funcionan bien directamente desde la mayoría de interfaces de audio." } ],
+  plugins: [
+    { q: "What are the essential mixing plugins for beginners?", q_es: "¿Cuáles son los plugins de mezcla esenciales para principiantes?", a: "Start with an EQ (FabFilter Pro-Q 3), a compressor (FabFilter Pro-C 2), a reverb (Valhalla Room), a limiter (FabFilter Pro-L 2), and a pitch correction tool (Celemony Melodyne 5). These five plugins cover 90% of mixing needs. The FabFilter Total Bundle is worth the investment if you can afford it.", a_es: "Comienza con un EQ (FabFilter Pro-Q 3), un compresor (FabFilter Pro-C 2), una reverberación (Valhalla Room), un limitador (FabFilter Pro-L 2) y afinación (Celemony Melodyne 5). Estos cinco plugins cubren el 90% de las necesidades de mezcla. El FabFilter Total Bundle vale la inversión si puedes permitírtelo." },
+    { q: "Are expensive plugins better than free ones?", q_es: "¿Son los plugins caros mejores que los gratuitos?", a: "Not necessarily. Many free plugins like those from ValhallaDSP, TDR, and Analog Obsession are excellent. However, paid plugins like FabFilter offer better workflow, more intuitive interfaces, and premium sound quality. The best approach is to start with free plugins and upgrade only when you hit their limitations.", a_es: "No necesariamente. Muchos plugins gratuitos de ValhallaDSP, TDR y Analog Obsession son excelentes. Los plugins de pago como FabFilter ofrecen mejor flujo de trabajo. Empieza con gratuitos y actualiza solo cuando llegues a sus limitaciones." },
+    { q: "What is the best EQ plugin for mixing?", q_es: "¿Cuál es el mejor plugin de EQ para mezclar?", a: "FabFilter Pro-Q 3 is widely considered the best EQ plugin for mixing. Its dynamic EQ mode, intuitive interface, and natural sound make it indispensable. Other excellent options include the iZotope Ozone EQ for mastering, and SSL Native Channel Strip for that classic analog console sound.", a_es: "FabFilter Pro-Q 3 es considerado el mejor plugin de EQ para mezclar. Su modo EQ dinámico, interfaz intuitiva y sonido natural lo hacen indispensable. Otras opciones excelentes incluyen iZotope Ozone EQ y SSL Native Channel Strip." },
+    { q: "Do I need analog modeling plugins?", q_es: "¿Necesito plugins de modelado analógico?", a: "Analog modeling plugins add warmth, character, and color that can make digital mixes sound more musical. While not essential, plugins like the Universal Audio UAD series, SSL Native, and Waves CLA series can help achieve a more polished, professional sound. They're especially useful for adding harmonics and saturation.", a_es: "Los plugins de modelado analógico añaden calidez y carácter a las mezclas digitales. Aunque no son esenciales, plugins como Universal Audio UAD y SSL Native pueden ayudar a lograr un sonido más profesional." },
+    { q: "What plugins do professional mixers use?", q_es: "¿Qué plugins usan los mezcladores profesionales?", a: "Professional mixers commonly use FabFilter Total Bundle (EQ, compression, limiting), iZotope Ozone and RX suites (mastering, repair), Celemony Melodyne (pitch correction), ValhallaDSP (reverb), Soundtoys (effects), and Universal Audio UAD (analog modeling). Many also rely on Waves and Plugin Alliance for specific tools.", a_es: "Los mezcladores profesionales usan FabFilter Total Bundle, iZotope Ozone y RX, Celemony Melodyne, ValhallaDSP, Soundtoys y Universal Audio UAD. Muchos también confían en Waves y Plugin Alliance." } ],
+  accessories: [
+    { q: "What studio accessories do I actually need?", q_es: "¿Qué accesorios de estudio realmente necesito?", a: "Essential studio accessories include a quality microphone stand (K&M), XLR cables (Mogami or Monster), pop filter, monitor isolation pads, and a sturdy desk or stand for your gear. A MIDI controller like the Arturia KeyLab Essential also helps enormously with music production workflow.", a_es: "Los accesorios esenciales incluyen un soporte de micrófono de calidad, cables XLR, filtro antipop, pads de aislamiento para monitores y un controlador MIDI como el Arturia KeyLab Essential." },
+    { q: "Are expensive XLR cables worth it?", q_es: "¿Valen la pena los cables XLR caros?", a: "For most home studios, mid-range XLR cables from companies like Mogami, Monster, or Pro Co provide excellent value. Spending $20-30 per cable ensures reliable performance and noise rejection. Ultra-expensive cables offer diminishing returns — the difference between a $30 cable and a $100 cable is negligible for most applications.", a_es: "Para la mayoría de estudios caseros, cables de gama media de Mogami o Monster ofrecen excelente valor. Gastar $20-30 por cable asegura rendimiento confiable. Los cables ultra caros ofrecen rendimientos decrecientes." },
+    { q: "What is the best mic stand for studio recording?", q_es: "¿Cuál es el mejor soporte de micrófono para grabación?", a: "K&M microphone stands are widely considered the best for studio recording due to their German engineering, durability, and stability. The K&M 210/9 boom stand is a classic choice. For budget options, On-Stage Stands offers decent quality at half the price.", a_es: "Los soportes K&M son considerados los mejores para grabación por su durabilidad y estabilidad. El K&M 210/9 es un clásico. Para opciones económicas, On-Stage Stands ofrece calidad decente a mitad de precio." },
+    { q: "Do I need monitor stands for my studio?", q_es: "¿Necesito soportes de monitor para mi estudio?", a: "Monitor stands significantly improve sound quality by decoupling speakers from surfaces and positioning them at the correct height and angle. If your monitors sit on your desk, isolation pads are a budget-friendly alternative. For the best results, dedicated floor stands with sand-filled columns are ideal.", a_es: "Los soportes de monitor mejoran significativamente la calidad del sonido al desacoplar los altavoces. Si tus monitores están en el escritorio, los pads de aislamiento son una alternativa económica." },
+    { q: "What is the best MIDI controller for beginners?", q_es: "¿Cuál es el mejor controlador MIDI para principiantes?", a: "The Arturia KeyLab Essential 49 Mk3 is the best MIDI controller for beginners, offering great keybed feel, excellent software integration, and useful controls. The Akai MPK Mini MK3 is a compact, affordable choice for smaller spaces. Both come with software bundles that include DAWs and virtual instruments.", a_es: "El Arturia KeyLab Essential 49 Mk3 es el mejor controlador MIDI para principiantes. El Akai MPK Mini MK3 es una opción compacta y económica. Ambos incluyen paquetes de software con DAWs e instrumentos virtuales." } ],
+  basses: [
+    { q: "What is the best budget bass that sounds expensive?", q_es: "¿Cuál es el mejor bajo barato que suena a caro?", a: "The Squier Classic Vibe '60s Jazz Bass ($450) is widely considered the best budget bass that sounds like a much more expensive instrument. It delivers 90% of the tone of a vintage Fender Jazz Bass at a fraction of the cost. The Sire Marcus Miller V3 ($350) is another top contender with its active EQ and premium build quality.", a_es: "El Squier Classic Vibe '60s Jazz Bass ($450) es ampliamente considerado el mejor bajo barato que suena como uno mucho más caro. Ofrece el 90% del tono de un Fender Jazz Bass vintage a una fracción del costo." },
+    { q: "Which bass guitar is best for rock music on a budget?", q_es: "¿Qué bajo es mejor para rock con presupuesto ajustado?", a: "The Squier Affinity PJ Bass ($280) is the best budget bass for rock, with a punchy split-coil pickup and a P-bass look that suits the style. If you want the iconic reverse-body shape instead, the Epiphone Thunderbird '64 ($849) is the modern revival, with a 9-ply neck-through build and dual ProBucker 760 humbuckers — but it sits well above budget level.", a_es: "El Squier Affinity PJ Bass ($280) es el mejor bajo económico para rock, con su pastilla split-coil y el aspecto de una P-bass que encaja con el estilo. Si prefieres la icónica silueta de cuerpo inverso, el Epiphone Thunderbird '64 ($849) es la resurrección moderna, con construcción neck-through de 9 capas y dos humbuckers ProBucker 760, pero queda muy por encima del presupuesto." },
+    { q: "How much should I spend on a first bass guitar?", q_es: "¿Cuánto debería gastar en mi primer bajo?", a: "A budget of $250-$450 is the sweet spot for a quality beginner bass. The Squier Affinity PJ ($280) and Ibanez SR300E ($350) are excellent starters. Avoid basses under $200 as they often have playability issues. The Sterling Ray4 ($350) offers the best value for players interested in funk and slap styles.", a_es: "Un presupuesto de $250-$450 es el punto óptimo para un bajo de principiante de calidad. El Squier Affinity PJ ($280) y el Ibanez SR300E ($350) son excelentes para empezar. Evita bajos de menos de $200." },
+    { q: "Should I get a 4-string or 5-string bass as a beginner?", q_es: "¿Debería comprar un bajo de 4 o 5 cuerdas como principiante?", a: "Start with a 4-string bass. It's easier to learn on, strings are cheaper, and most music is written for 4-string bass. The Squier Classic Vibe '60s Jazz Bass ($450) is an excellent 4-string choice. Upgrade to a 5-string like the Sterling Ray5 once you need that low B string for modern genres.", a_es: "Empieza con un bajo de 4 cuerdas. Es más fácil aprender, las cuerdas son más baratas y la mayoría de la música está escrita para 4 cuerdas. El Squier Classic Vibe '60s Jazz Bass ($450) es una excelente opción." },
+    { q: "What is the difference between active and passive bass pickups?", q_es: "¿Cuál es la diferencia entre pastillas activas y pasivas?", a: "Active pickups use a battery-powered preamp for higher output and more tonal control via EQ. They're great for modern styles like metal and slap. Passive pickups have a warmer, more natural tone and don't need batteries. The Yamaha TRBX304 has an active EQ while the Squier Classic Vibe uses vintage-style passive pickups.", a_es: "Las pastillas activas usan un previo alimentado por batería para mayor salida y control de tono. Son ideales para estilos modernos. Las pasivas tienen un tono más cálido y natural. El Yamaha TRBX304 tiene EQ activo mientras el Squier Classic Vibe usa pastillas pasivas estilo vintage." } ],
+  guitars: [
+    { q: "What is the best electric guitar for home recording?", q_es: "¿Cuál es la mejor guitarra eléctrica para grabación casera?", a: "The Fender American Professional II Stratocaster is the most versatile studio guitar, offering pristine cleans, punchy mids, and a comfortable neck. For budget-conscious players, the Squire Classic Vibe series delivers exceptional value. The Les Paul Standard is unmatched for thick, sustained rock tones.", a_es: "La Fender American Professional II Stratocaster es la guitarra de estudio más versátil, ofreciendo limpias prístinas y medios potentes. Para presupuestos ajustados, la serie Squier Classic Vibe ofrece valor excepcional. La Les Paul Standard es insuperable para tonos rock gruesos y sostenidos." },
+    { q: "Acoustic vs electric guitar for beginners?", q_es: "¿Guitarra acústica vs eléctrica para principiantes?", a: "Electric guitars are easier on the fingers, have thinner strings and lower action, making them more comfortable for beginners. Acoustic guitars build finger strength faster but can be uncomfortable at first. For home recording, an electric guitar with an audio interface offers the most versatility.", a_es: "Las guitarras eléctricas son más cómodas para los dedos, tienen cuerdas más finas y una acción más baja. Las acústicas desarrollan la fuerza de los dedos más rápido pero pueden ser incómodas al principio. Para grabación casera, una guitarra eléctrica con interfaz de audio ofrece la mayor versatilidad." },
+    { q: "How much should I spend on a first guitar?", q_es: "¿Cuánto debería gastar en mi primera guitarra?", a: "A budget of $200-$500 is the sweet spot for a quality beginner guitar. The Yamaha Pacifica 112V ($349) and Squier Affinity Stratocaster ($299) are excellent starters that won't hold you back. Avoid guitars under $150 as they often have playability issues that frustrate beginners.", a_es: "Un presupuesto de $200-$500 es el punto óptimo para una guitarra de principiante de calidad. La Yamaha Pacifica 112V ($349) y Squier Affinity Stratocaster ($299) son excelentes opciones que no te limitarán. Evita guitarras de menos de $150, ya que suelen tener problemas de tocabilidad." },
+    { q: "What guitar amp should a beginner buy?", q_es: "¿Qué amplificador de guitarra debería comprar un principiante?", a: "A modeling amp like the Boss Katana 50 ($259) is the best choice for beginners, offering dozens of effects and amp models in one affordable package. For practice, the Fender Mustang LT25 ($149) is excellent. Tube amps like the Marshall DSL40CR ($999) are for intermediate to advanced players.", a_es: "Un amplificador de modelado como el Boss Katana 50 ($259) es la mejor opción para principiantes, ofreciendo docenas de efectos y modelos de amplificador en un paquete asequible. Para práctica, el Fender Mustang LT25 ($149) es excelente." },
+    { q: "What is the best guitar for recording and live performance?", q_es: "¿Cuál es la mejor guitarra para grabación y directo?", a: "The Fender American Professional II Stratocaster excels in both studio and stage. Its versatile pickups cover everything from clean funk to overdriven rock. The HSS configuration provides humbucking power for high-gain tones while retaining single-coil clarity for cleans.", a_es: "La Fender American Professional II Stratocaster destaca tanto en estudio como en escenario. Sus pastillas versátiles cubren desde funk limpio hasta rock saturado. La configuración HSS proporciona potencia humbucking para tonos de alta ganancia manteniendo la claridad single-coil para limpios." } ],
+  live_sound: [
+    { q: "What is the best powered PA speaker for live performances?", q_es: "¿Cuál es el mejor altavoz PA activo para presentaciones en vivo?", a: "The QSC K12.2 is the industry standard for live sound, offering 2000W of Class D power, a 12-inch woofer, and a 1.4-inch compression driver. The Electro-Voice ZLX-12P is an excellent budget-friendly alternative at half the price.", a_es: "El QSC K12.2 es el estándar de la industria para sonido en vivo, ofreciendo 2000W de potencia Clase D, un woofer de 12 pulgadas y un driver de compresión de 1.4 pulgadas. El Electro-Voice ZLX-12P es una excelente alternativa económica a la mitad del precio." },
+    { q: "How many watts do I need for a PA speaker?", q_es: "¿Cuántos vatios necesito para un altavoz PA?", a: "For small to medium venues (up to 300 people), 1000-2000W peak powered speakers like the QSC K12.2 or EV ZLX-12P are sufficient. For larger venues, look for 2000W+ systems with subwoofers. SPL rating matters more than wattage.", a_es: "Para lugares pequeños y medianos (hasta 300 personas), los altavoces activos de 1000-2000W pico como el QSC K12.2 o EV ZLX-12P son suficientes. Para lugares más grandes, busca sistemas de 2000W+ con subwoofers. La clasificación SPL importa más que el vataje." },
+    { q: "Do I need a subwoofer with my PA speakers?", q_es: "¿Necesito un subwoofer con mis altavoces PA?", a: "For live music with bass guitars and kick drums, a subwoofer is essential for full-range sound. For spoken word events, 12-inch or 15-inch tops alone may suffice. The QSC KS112 or EV ELX200-12S pair well with the K12.2 and ZLX-12P respectively.", a_es: "Para música en vivo con bajos y bombos, un subwoofer es esencial para sonido de rango completo. Para eventos de voz, los tops de 12 o 15 pulgadas pueden ser suficientes. El QSC KS112 o EV ELX200-12S combinan bien con el K12.2 y ZLX-12P respectivamente." },
+    { q: "What is the difference between active and passive PA speakers?", q_es: "¿Cuál es la diferencia entre altavoces PA activos y pasivos?", a: "Active speakers like the QSC K12.2 have built-in amplifiers and DSP, making them easier to set up — just plug in a microphone or mixer. Passive speakers require an external amplifier and crossover but offer more customization and easier serviceability.", a_es: "Los altavoces activos como el QSC K12.2 tienen amplificadores y DSP incorporados, facilitando la configuración — solo conecta un micrófono o mezclador. Los pasivos requieren un amplificador externo y crossover pero ofrecen más personalización." },
+    { q: "How do I choose between a 12-inch and 15-inch PA speaker?", q_es: "¿Cómo elijo entre un altavoz PA de 12 y 15 pulgadas?", a: "12-inch speakers like the QSC K12.2 offer a good balance of portability and low-end response, ideal for most venues. 15-inch speakers provide more bass but are heavier. For full-range sound without a sub, 15-inch is better. With a subwoofer, 12-inch tops are preferred.", a_es: "Los altavoces de 12 pulgadas como el QSC K12.2 ofrecen buen equilibrio entre portabilidad y respuesta de graves, ideales para la mayoría de lugares. Los de 15 pulgadas proporcionan más graves pero pesan más. Para sonido de rango completo sin sub, 15 pulgadas es mejor. Con subwoofer, los tops de 12 pulgadas son preferidos." } ],
+  production: [
+    { q: "What equipment do I need for making beats?", q_es: "¿Qué equipo necesito para hacer beats?", a: "Start with a DAW (Ableton Live, FL Studio), a MIDI controller like the Akai MPC or Arturia KeyLab, studio headphones like the beyerdynamic DT 770 Pro, and a good audio interface like the Focusrite Scarlett 2i2.", a_es: "Comienza con un DAW (Ableton Live, FL Studio), un controlador MIDI como Akai MPC o Arturia KeyLab, auriculares de estudio como los beyerdynamic DT 770 Pro, y una buena interfaz de audio como la Focusrite Scarlett 2i2." },
+    { q: "What is the best DAW for beat-making?", q_es: "¿Cuál es el mejor DAW para hacer beats?", a: "Ableton Live is the most popular choice for beat-making due to its intuitive workflow, powerful MIDI editing, and session view. FL Studio is another top choice with its step sequencer and pattern-based approach. Both are excellent for electronic music production.", a_es: "Ableton Live es la opción más popular para hacer beats por su flujo de trabajo intuitivo, potente edición MIDI y vista de sesión. FL Studio es otra excelente opción con su secuenciador de pasos y enfoque basado en patrones. Ambos son excelentes para producción de música electrónica." },
+    { q: "Do I need a drum machine or can I use software?", q_es: "¿Necesito una caja de ritmos o puedo usar software?", a: "Software drum machines and samplers in your DAW can produce professional results. However, hardware drum machines like the Roland TR-8S or Akai MPC One offer tactile control and can inspire creativity. Many producers use both.", a_es: "Las cajas de ritmos y samplers de software en tu DAW pueden producir resultados profesionales. Sin embargo, las cajas de ritmos hardware como Roland TR-8S o Akai MPC One ofrecen control táctil y pueden inspirar creatividad. Muchos productores usan ambos." } ],
+  amps: [
+    { q: "What is the best guitar amp for beginners?", q_es: "¿Cuál es el mejor amplificador de guitarra para principiantes?", a: "The Boss Katana 50 ($259) is the best modeling amp for beginners, offering dozens of effects and amp models in one affordable package. The Fender Mustang LT25 ($149) is excellent for practice. Tube amps like the Marshall DSL40CR ($999) are for intermediate to advanced players.", a_es: "El Boss Katana 50 ($259) es el mejor amplificador de modelado para principiantes. El Fender Mustang LT25 ($149) es excelente para práctica. Los amplificadores a válvulas como el Marshall DSL40CR ($999) son para niveles intermedios y avanzados." },
+    { q: "Modeling vs tube amp — which is better?", q_es: "¿Amplificador de modelado vs válvulas — cuál es mejor?", a: "Modeling amps like the Boss Katana offer versatility with many amp models and effects built-in, perfect for home practice and recording. Tube amps like the Marshall DSL40CR provide dynamic response and natural compression that many guitarists prefer for live performance and studio recording.", a_es: "Los amplificadores de modelado como el Boss Katana ofrecen versatilidad con muchos modelos de amplificador y efectos incorporados. Los amplificadores a válvulas como el Marshall DSL40CR ofrecen respuesta dinámica que muchos guitarristas prefieren para directo." },
+    { q: "How many watts do I need for a guitar amp?", q_es: "¿Cuántos vatios necesito para un amplificador de guitarra?", a: "For home practice, 5-20 watts is sufficient. For rehearsals with a band, 20-50 watts. For live performances without PA support, 50-100 watts. Modeling amps like the Katana have power attenuation, letting you get great tone at any volume level.", a_es: "Para práctica en casa, 5-20 vatios son suficientes. Para ensayos con banda, 20-50 vatios. Para presentaciones en vivo sin apoyo de PA, 50-100 vatios. Los amplificadores de modelado como el Katana tienen atenuación de potencia." } ],
+  pedals: [
+    { q: "What guitar pedals should every guitarist have?", q_es: "¿Qué pedales de guitarra debería tener todo guitarrista?", a: "Essential guitar pedals include a tuner, overdrive/distortion (like the Ibanez Tube Screamer), delay (like the Boss DD-8), reverb, and a volume or wah pedal. A multi-effects pedal like the Line 6 HX Stomp can replace many individual pedals.", a_es: "Los pedales esenciales incluyen afinador, overdrive/distorsión (como Ibanez Tube Screamer), delay (como Boss DD-8), reverb y un pedal de volumen o wah. Un pedal multiefectos como el Line 6 HX Stomp puede reemplazar muchos pedales individuales." },
+    { q: "Are expensive guitar pedals worth it?", q_es: "¿Valen la pena los pedales de guitarra caros?", a: "Expensive pedals from brands like Strymon, Chase Bliss, and Eventide offer superior build quality, more features, and better sound quality. However, budget pedals from brands like Boss, MXR, and TC Electronic offer excellent value and are used by many professionals.", a_es: "Los pedales caros de marcas como Strymon, Chase Bliss y Eventide ofrecen calidad de construcción superior. Sin embargo, los pedales económicos de Boss, MXR y TC Electronic ofrecen excelente valor." },
+    { q: "Should I buy individual pedals or a multi-effects unit?", q_es: "¿Debería comprar pedales individuales o un multiefectos?", a: "Individual pedals allow you to customize your tone and mix and match brands. Multi-effects units like the Line 6 HX Stomp or Boss GT-1000 offer convenience, presets, and cost-effectiveness. Many players start with a multi-effects unit and add individual pedals later.", a_es: "Los pedales individuales permiten personalizar tu sonido y combinar marcas. Los multiefectos como Line 6 HX Stomp o Boss GT-1000 ofrecen conveniencia y rentabilidad. Muchos músicos empiezan con un multiefectos y añaden pedales individuales después." } ],
+  daw: [
+    { q: "What is the best DAW for music production?", q_es: "¿Cuál es el mejor DAW para producción musical?", a: "Ableton Live is the best for electronic music and beat-making, Pro Tools is the industry standard for recording and mixing, Logic Pro is excellent for songwriting on Mac, and Cubase offers powerful MIDI and scoring features. The best DAW depends on your workflow and genre.", a_es: "Ableton Live es ideal para música electrónica, Pro Tools es el estándar de la industria para grabación, Logic Pro es excelente para composición en Mac, y Cubase ofrece potentes funciones MIDI. El mejor DAW depende de tu flujo de trabajo." },
+    { q: "Do I need an expensive DAW as a beginner?", q_es: "¿Necesito un DAW caro como principiante?", a: "No. GarageBand (Mac), BandLab (web), and Cakewalk (Windows) are free and capable. Ableton Live Intro, FL Studio Fruity Edition, and Logic Pro (Mac) offer professional features at reasonable prices. Start with a free option and upgrade when you need more features.", a_es: "No. GarageBand (Mac), BandLab (web) y Cakewalk (Windows) son gratuitos y capaces. Ableton Live Intro, FL Studio Fruity Edition y Logic Pro (Mac) ofrecen funciones profesionales a precios razonables. Empieza con una opción gratuita." },
+    { q: "What is the difference between Ableton Live and Pro Tools?", q_es: "¿Cuál es la diferencia entre Ableton Live y Pro Tools?", a: "Ableton Live is designed for electronic music production with its session view, warping, and MIDI workflow. Pro Tools is optimized for recording, editing, and mixing audio with industry-standard editing tools and automation. Many professionals use both for different stages of production.", a_es: "Ableton Live está diseñado para producción de música electrónica. Pro Tools está optimizado para grabación, edición y mezcla de audio. Muchos profesionales usan ambos para diferentes etapas de producción." } ],
+  keyboards: [
+    { q: "What is the best MIDI keyboard for music production?", q_es: "¿Cuál es el mejor teclado MIDI para producción musical?", a: "The Arturia KeyLab Essential 49 Mk3 offers the best value with great keybed feel, DAW integration, and included software. The Novation Launchkey 49 is excellent for Ableton users. For portability, the Akai MPK Mini MK3 is a compact powerhouse.", a_es: "El Arturia KeyLab Essential 49 Mk3 ofrece el mejor valor con buen tacto de teclas e integración DAW. El Novation Launchkey 49 es excelente para usuarios de Ableton. Para portabilidad, el Akai MPK Mini MK3 es un compacto potente." },
+    { q: "How many keys do I need on a MIDI keyboard?", q_es: "¿Cuántas teclas necesito en un teclado MIDI?", a: "25 keys is sufficient for basslines, leads, and chord stabs. 49 keys is the sweet spot for most producers, allowing two-handed playing. 61 or 88 keys are best for pianists and those who want to play complex arrangements. Consider your desk space and portability needs.", a_es: "25 teclas son suficientes para líneas de bajo y leads. 49 teclas es el punto óptimo para la mayoría de productores. 61 u 88 teclas son mejores para pianistas. Considera tu espacio y portabilidad." },
+    { q: "Weighted vs semi-weighted keys — which is better?", q_es: "¿Teclas contrapesadas vs semi-pesadas — cuál es mejor?", a: "Weighted keys simulate the feel of an acoustic piano and are best for pianists. Semi-weighted keys offer a balance between synth-action and weighted, suitable for most production styles. Synth-action (unweighted) keys are lighter and better for fast leads and synth playing.", a_es: "Las teclas contrapesadas simulan un piano acústico. Las semi-pesadas ofrecen equilibrio entre acción de sintetizador y contrapesadas. Las teclas de acción de sintetizador son más ligeras." } ],
+  'drum-machine': [
+    { q: "What is the best drum machine for music production?", q_es: "¿Cuál es la mejor caja de ritmos para producción musical?", a: "The Roland TR-8S is the best all-around drum machine with authentic 808/909 sounds, sample import, and hands-on control. The Akai MPC One is a powerful groovebox that combines drum sampling, sequencing, and production in one unit. The Korg Volca Beats is a great budget entry point.", a_es: "La Roland TR-8S es la mejor caja de ritmos versátil con sonidos auténticos 808/909. La Akai MPC One es una groovebox potente. La Korg Volca Beats es un gran punto de entrada económico." },
+    { q: "Drum machine vs drum software — which should I choose?", q_es: "¿Caja de ritmos vs software de batería — cuál elegir?", a: "Software like Battery, EZDrummer, or Superior Drummer offers unlimited sounds and deep editing. Hardware drum machines like the Roland TR-8S provide tactile control and are more inspiring for live performance and beat-making. Many producers combine both approaches.", a_es: "El software como Battery o Superior Drummer ofrece sonidos ilimitados. Las cajas de ritmos hardware como Roland TR-8S proporcionan control táctil. Muchos productores combinan ambos enfoques." },
+    { q: "Can I use a drum machine without a computer?", q_es: "¿Puedo usar una caja de ritmos sin computadora?", a: "Yes. Hardware drum machines like the Roland TR-8S, Akai MPC One, and Elektron Digitakt are standalone devices that don't require a computer. They have built-in sounds, sequencers, and effects. You can record their output directly into an audio interface or mixer.", a_es: "Sí. Las cajas de ritmos hardware como Roland TR-8S y Akai MPC One son dispositivos independientes que no requieren computadora. Tienen sonidos, secuenciadores y efectos incorporados." } ],
+  streaming: [
+    { q: "What is the best microphone for streaming?", q_es: "¿Cuál es el mejor micrófono para streaming?", a: "The Shure SM7B is the industry standard for streaming and podcasting vocals, with the Electro-Voice RE20 as the classic broadcast alternative. For USB simplicity, the Shure MV7+ ($299) and Elgato Wave:3 ($150) plug straight into your PC with zero setup, while the Rode NT1 5th Generation ($269) adds studio-grade condenser detail.", a_es: "El Shure SM7B es el estándar de la industria para voces de streaming y podcast, con el Electro-Voice RE20 como la alternativa clásica de broadcast. Para simplicidad USB, el Shure MV7+ ($299) y el Elgato Wave:3 ($150) se conectan directo a tu PC sin configuración, mientras el Rode NT1 5th Generation ($269) añade detalle de condensador de estudio." },
+    { q: "USB vs XLR microphone for streaming — which is better?", q_es: "¿Micrófono USB vs XLR para streaming — cuál es mejor?", a: "USB mics like the Elgato Wave:3 or Shure MV7+ are plug-and-play and perfect for beginners. XLR mics like the Shure SM7B or Electro-Voice RE20 require an audio interface but sound better and allow gain control, plus room to upgrade with a Cloudlifter. The MV7+ and NT1 5th Gen do both, giving you USB today and XLR later.", a_es: "Los micros USB como el Elgato Wave:3 o Shure MV7+ son plug-and-play y perfectos para empezar. Los micros XLR como el Shure SM7B o Electro-Voice RE20 requieren una interfaz de audio pero suenan mejor y permiten controlar la ganancia, con margen para mejorar con un Cloudlifter. El MV7+ y el NT1 5th Gen ofrecen ambos: USB hoy y XLR mañana." },
+    { q: "Do I need an audio interface for streaming?", q_es: "¿Necesito una interfaz de audio para streaming?", a: "Only if you use an XLR microphone. A 2-input interface like the Focusrite Scarlett 2i2 4th Gen ($199) covers a single streamer with room to grow, and models like the SSL 2+ ($299) add high headroom and MIDI. For a solo USB setup, no interface is needed at all.", a_es: "Solo si usas un micrófono XLR. Una interfaz de 2 entradas como la Focusrite Scarlett 2i2 4th Gen ($199) cubre a un streamer con margen de crecimiento, y modelos como el SSL 2+ ($299) añaden alto margen y MIDI. Para un setup USB individual, no necesitas interfaz." },
+    { q: "How do I stop microphone background noise when streaming?", q_es: "¿Cómo evito el ruido de fondo del micrófono al hacer streaming?", a: "Use a dynamic microphone like the Shure SM7B or MV7+, which rejects off-axis sound much better than condensers. Set a sensible gain level so you're not boosting room noise, position the mic close (2-6 inches), and apply a noise gate in your streaming software. USB mics like the Wave:3 include built-in clipguard and software filters.", a_es: "Usa un micrófono dinámico como el Shure SM7B o MV7+, que rechazan el sonido fuera de eje mucho mejor que los condensadores. Ajusta una ganancia sensata para no amplificar el ruido de la sala, coloca el micro cerca (5-15 cm) y aplica una puerta de ruido en tu software. Los micros USB como el Wave:3 incluyen clipguard y filtros por software." },
+    { q: "What do I need for a two-host podcast setup?", q_es: "¿Qué necesito para un podcast con dos presentadores?", a: "For two mics, the simplest solution is a dual-XLR interface or mixer like the Elgato Wave XLR Pro ($350) handling two microphones, or two USB mics into a laptop. The Rode Streamer X and BEACN Mix Create also route multiple audio sources. The Elgato Stream Deck+ ($160) makes mute and scene switching one press.", a_es: "Para dos micros, la solución más simple es una interfaz o mezcladora de doble XLR como el Elgato Wave XLR Pro ($350) gestionando dos micrófonos, o dos micros USB a un portátil. El Rode Streamer X y el BEACN Mix Create también enrutan múltiples fuentes de audio. El Elgato Stream Deck+ ($160) hace que silenciar o cambiar de escena sea un solo toque." } ]
+};
+
+function boldFirstSentence(html) {
+  let t = html.trim();
+  if (/^(<p>\s*)?<strong/i.test(t)) return html;
+  let prefix = '', suffix = '';
+  const pOpen = t.match(/^(<p[^>]*>)/i);
+  if (pOpen) {
+    prefix = pOpen[1];
+    t = t.slice(pOpen[1].length);
+    const pClose = t.match(/(<\/p>)$/i);
+    if (pClose) { suffix = pClose[1]; t = t.slice(0, -pClose[1].length); }
+  }
+  t = t.replace(/^((?:[^.]|\.(?=\d))*?\.(?=\s|$))/, '<strong>$1</strong>');
+  return prefix + t + suffix;
+}
+
+const YEAR_TAG = String(new Date().getFullYear());
+
+function normImg(path) {
+  return path && path.startsWith('../') ? path.substring(3) : path;
+}
+
+function fmtReviewDate(iso, es) {
+  var d = new Date(String(iso).replace(/-/g, '/') + ' 00:00:00');
+  if (isNaN(d)) return String(iso);
+  var en = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var esmo = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+  var mo = es ? esmo : en;
+  return es ? (d.getDate() + ' ' + mo[d.getMonth()] + ' ' + d.getFullYear()) : (mo[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear());
+}
+
+function fmtMonthYear(iso, es) {
+  var d = new Date(String(iso).replace(/-/g, '/') + ' 00:00:00');
+  if (isNaN(d)) return String(iso);
+  var esmo = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+  var enmo = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  var mo = es ? esmo : enmo;
+  return mo[d.getMonth()] + ' ' + d.getFullYear();
+}
+
+function userReviewsSection(guide, isEs) {
+  var pids = [...new Set(guide.sections.flatMap(s => s.products))];
+  if (!pids.length) return '';
+  var rv = [];
+  pids.forEach(function(pid) {
+    var p = products.find(pr => pr.id === pid);
+    var name = p ? (isEs && p.title_es ? p.title_es : p.title) : ('#' + pid);
+    reviews.filter(r => r.productId === pid).forEach(function(r) {
+      rv.push({ productName: name, author: r.author, rating: r.rating, text: r.text, text_es: r.text_es, text_en: r.text_en, date: r.date });
+    });
+  });
+  rv = rv.filter(function(r) { return isEs ? !!r.text_es : (!!r.text_en || !!r.text); });
+  rv.sort(function(a, b) { return String(b.date).localeCompare(String(a.date)); });
+  var sum = rv.reduce(function(s, r) { return s + r.rating; }, 0);
+  var avg = rv.length ? Math.round((sum / rv.length) * 10) / 10 : 0;
+  var reviewWord = rv.length === 1 ? (isEs ? 'reseña' : 'review') : (isEs ? 'reseñas' : 'reviews');
+  var empty = rv.length === 0;
+  var title = isEs ? 'Reseñas' : 'Reviews';
+  var head = '<div class="guide-reviews-head' + (empty ? ' is-empty' : '') + '">' +
+    '<h2 class="guide-reviews-title">' + title + '</h2>' +
+    '<div class="guide-reviews-count">(' + rv.length + ' ' + reviewWord + ')</div>' +
+  '</div>';
+  if (empty) {
+    return '<div class="guide-reviews" id="reviews">' + head + '</div>';
+  }
+  var limit = 3;
+  var hiddenExtra = rv.length > limit ? rv.slice(limit) : [];
+  var itemAuthor = function(r) { return isEs && String(r.author).toLowerCase() === 'anonymous' ? 'Anónimo' : r.author; };
+  var items = rv.slice(0, limit).map(function(r) {
+    var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
+    return '<div class="guide-review-item">' +
+      '<div class="guide-review-item-head"><span class="guide-review-author">' + itemAuthor(r) + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date, isEs) + '</span></div>' +
+      '<div class="guide-review-stars">' + reviewStars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
+      '<p class="guide-review-text">' + txt + '</p>' +
+    '</div>';
+  }).join('');
+  var hiddenItems = hiddenExtra.map(function(r) {
+    var txt = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
+    return '<div class="guide-review-item" style="display:none" data-extra>' +
+      '<div class="guide-review-item-head"><span class="guide-review-author">' + itemAuthor(r) + '</span><span class="guide-review-product">' + r.productName + '</span><span class="guide-review-date">' + fmtReviewDate(r.date, isEs) + '</span></div>' +
+      '<div class="guide-review-stars">' + reviewStars(r.rating) + ' <span class="guide-review-stars-num">' + r.rating.toFixed(1) + '</span></div>' +
+      '<p class="guide-review-text">' + txt + '</p>' +
+    '</div>';
+  }).join('');
+  var moreBtn = hiddenExtra.length ? '<button type="button" class="guide-reviews-more" onclick="var l=this.parentElement.querySelectorAll(\'.guide-review-item[data-extra]\');l.forEach(function(e){e.style.display=\'block\'});this.style.display=\'none\'">' + (isEs ? ('Ver ' + hiddenExtra.length + ' más reseñas') : ('See ' + hiddenExtra.length + ' more reviews')) + '</button>' : '';
+  return '<div class="guide-reviews" id="reviews">' + head +
+    '<div class="guide-reviews-list">' + items + hiddenItems + moreBtn + '</div>' +
+  '</div>';
+}
+
+function guideCompProgress() {
+  return '<div class="guide-comp-progress"><div class="guide-comp-progress-bar"></div></div>';
+}
+
+function guideCompLeftArrow(isEs) {
+  return '<button type="button" class="guide-comp-arrow guide-comp-arrow-left" onclick="var s=this.closest(\'.guide-comp-wrap\').querySelector(\'.guide-comp-scroll\');s.scrollBy({left:-Math.max(240,s.clientWidth*0.7),behavior:\'smooth\'})" aria-label="' + (isEs ? 'Desplazar a la izquierda' : 'Scroll left') + '">' + icon('chevron-left', 'fa-solid') + '</button>';
+}
+function guideCompRightArrow(isEs) {
+  return '<button type="button" class="guide-comp-arrow guide-comp-arrow-right" onclick="var s=this.closest(\'.guide-comp-wrap\').querySelector(\'.guide-comp-scroll\');s.scrollBy({left:Math.max(240,s.clientWidth*0.7),behavior:\'smooth\'})" aria-label="' + (isEs ? 'Desplazar a la derecha' : 'Scroll right') + '">' + icon('chevron-right', 'fa-solid') + '</button>';
+}
+function guideCompControls(isEs, extra) {
+  var cls = 'guide-comp-controls' + (extra ? ' ' + extra : '');
+  return '<div class="' + cls + '">' + guideCompLeftArrow(isEs) + guideCompProgress() + guideCompRightArrow(isEs) + '</div>';
+}
+
+function navDropdown(isEs) {
+  return `<div class="nav-dd">
+    <button type="button" class="nav-dd-btn" aria-haspopup="true" aria-expanded="false" onclick="toggleNavDropdown(this)">${isEs ? 'Nuevos lanzamientos' : 'New Releases'}<svg class="nav-dd-caret" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></button>
+    <div class="nav-dd-panel" role="menu">
+      <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=1117&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.gear4music.com%2FNew-Releases" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/gear4music-icon.png" alt="" class="nav-dd-link-icon">Gear4Music</a>
+      <a class="nav-dd-link" href="https://andertonsmusiccompany.pxf.io/Gb3Q7k" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/andertons-icon.png" alt="" class="nav-dd-link-icon">Andertons</a>
+      <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=63816&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FNew-Products%2Fcat-NEWPRODUCTS" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/musicstore-icon.png" alt="" class="nav-dd-link-icon">Music Store</a>
+      <a class="nav-dd-link" href="https://www.anrdoezrs.net/click-101857888-10439229?url=https%3A%2F%2Fwww.zzounds.com%2Flp%2Fnew-products%2F219" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/zzounds-icon.png" alt="" class="nav-dd-link-icon">zZounds</a>
+      <a class="nav-dd-link" href="https://www.pluginboutique.com/?a_aid=6a01e859cbe1a" target="_blank" rel="noopener noreferrer sponsored"><img src="../img/pluginboutique-icon.png" alt="" class="nav-dd-link-icon">Plugin Boutique</a>
+      <a class="nav-dd-link" href="https://www.amazon.com/gp/new-releases/musical-instruments?tag=topmusicg-20" target="_blank" rel="noopener noreferrer sponsored"><svg data-fa="amazon" class="nav-dd-link-icon" style="font-size:18px;color:#ff9900" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"/></svg>Amazon</a>
+      <a class="nav-dd-link" href="https://www.awin1.com/cread.php?awinmid=67144&amp;awinaffid=2891111&amp;ued=https%3A%2F%2Freverb.com%2Fcollection%2Fnew-gear-releases-1" target="_blank" rel="noopener noreferrer sponsored"><span class="nav-dd-link-icon" style="font-weight:900;font-size:13px;line-height:1;display:inline-flex;align-items:center;justify-content:center;background:#d6562b;color:#fff;border-radius:3px;">R</span>Reverb</a>
+    </div>
+  </div>`;
+}
+
+// Helper: get product names from guide's featuredProducts (+ verdictProsCons fallback)
+function getGuideProductNames(guide, isEs) {
+  var names = [];
+  if (guide.featuredProducts && guide.featuredProducts.length) {
+    guide.featuredProducts.forEach(function(pid) {
+      var p = products.find(function(pr) { return pr.id === pid; });
+      if (p) names.push(isEs && p.title_es ? p.title_es : p.title);
+    });
+  }
+  if (guide.verdictProsCons && guide.verdictProsCons.length) {
+    guide.verdictProsCons.forEach(function(v) {
+      var n = isEs && v.name_es ? v.name_es : v.name;
+      if (n && names.indexOf(n) === -1) names.push(n);
+    });
+  }
+  return names;
+}
+
+// Helper: generate variations of a product name for flexible matching
+function generateNameVariations(name) {
+  var variations = [name];
+  // Common patterns: remove brand prefix, remove suffixes, etc.
+  // "Martin D-28 Dreadnought" -> also match "Martin D-28", "D-28"
+  // "Taylor PS14ce Presentation Series" -> also match "PS14ce", "Taylor PS14ce"
+  // "Gibson Custom Shop 1942 Banner J-45" -> also match "Gibson 1942 Banner J-45", "1942 Banner J-45", "J-45"
+  // "Gibson SJ-200" -> also match "SJ-200"
+  
+  // Remove common brand prefixes
+  var brands = ['Martin ', 'Taylor ', 'Gibson ', 'Gibson Custom Shop ', 'Fender ', 'Yamaha ', 'Epiphone ', 'Takamine ', 'Guild ', 'Seagull ', 'Larrivee ', 'Collings ', 'Santa Cruz ', 'Bourgeois ', 'Huss & Dalton '];
+  brands.forEach(function(brand) {
+    if (name.startsWith(brand)) {
+      variations.push(name.slice(brand.length)); // "D-28 Dreadnought"
+      // Also try just the model
+      var model = name.slice(brand.length).split(' ')[0]; // "D-28"
+      if (model.length > 2) variations.push(model);
+    }
+  });
+  
+  // Remove common suffixes
+  var suffixes = [' Dreadnought', ' Presentation Series', ' Builder\'s Edition', ' Vintage Sunburst', ' Standard', ' Custom', ' Deluxe', ' Modern Deluxe', ' Custom Shop', ' Next Generation'];
+  suffixes.forEach(function(suffix) {
+    if (name.endsWith(suffix)) {
+      variations.push(name.slice(0, -suffix.length)); // "Martin D-28", "Taylor PS14ce"
+    }
+  });
+  
+  // Handle possessive forms: "Taylor's 914ce" -> "Taylor 914ce"
+  variations.forEach(function(v) {
+    variations.push(v.replace(/^([A-Z][a-z]+)'s /, '$1 '));
+  });
+  
+  // Remove duplicates
+  return [...new Set(variations)].filter(function(v) { return v.length > 2; });
+}
+
+// Helper: wrap product names in text with blue span
+function highlightProductNames(text, productNames) {
+  if (!text || !productNames || !productNames.length) return text;
+  // Los nombres que ya vienen marcados (veredicto/conclusión) se protegen para
+  // que las variaciones cortas no creen spans anidados dentro de ellos.
+  var saved = [];
+  var work = text.replace(/<span class="product-name">[\s\S]*?<\/span>/g, function(m) {
+    saved.push(m);
+    return '\u0000' + (saved.length - 1) + '\u0000';
+  });
+  var variations = [];
+  productNames.forEach(function(name) {
+    generateNameVariations(name).forEach(function(v) {
+      if (v && v.length > 2 && variations.indexOf(v) === -1) variations.push(v);
+    });
+  });
+  variations.sort(function(a, b) { return b.length - a.length; });
+  if (!variations.length) return text;
+  // Una sola pasada con las variantes ordenadas de más larga a más corta:
+  // evita que "D-28" se marque dentro de "Martin D-28 Dreadnought".
+  var pattern = new RegExp(variations.map(function(v) {
+    return v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }).join('|'), 'g');
+  work = work.replace(pattern, '<span class="product-name">$&</span>');
+  return work.replace(/\u0000(\d+)\u0000/g, function(_, i) { return saved[+i]; });
+}
+
+function buildGuidePage(guide, lang, idx) {
+  CURRENT_GUIDE_CAT = guide.category;
+  CURRENT_GUIDE_ID = guide.id;
+  CURRENT_LANG = lang;
+  const isEs = lang === 'es';
+  const isVs = /-vs-/i.test(guide.id);
+  const title = Y((isEs ? guide.titleTag_es : guide.titleTag) || (isEs && guide.title_es ? guide.title_es : guide.title));
+  // El año NO se añade al título: Google corta los <title> a los ~60 caracteres
+  // (unos 580px) y el sufijo automático empujaba al límite (o lo pasaba) en casi
+  // todas las páginas. El año vive en el schema y en la firma de autor.
+  const titleTag = title;
+  const intro = esText(isEs && guide.intro_es, guide.intro);
+  const introTableMatch = intro.match(/<table[\s\S]*?<\/table>/);
+  const introTable = introTableMatch ? '<div class="guide-comp-wrap"><div class="guide-comp-controls guide-comp-controls-top">' + guideCompLeftArrow(false) + guideCompProgress() + guideCompRightArrow(false) + '</div><div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll">' + introTableMatch[0] + '</div></div></div>' : '';
+  const introWithoutTable = intro.replace(/<table[\s\S]*?<\/table>/, '').trim();
+  const conclusion = esText(isEs && guide.conclusion_es, guide.conclusion);
+  const verdict = esText(isEs && guide.verdict_es, guide.verdict);
+  const productNames = getGuideProductNames(guide, isEs);
+  const verdictHighlighted = highlightProductNames(verdict, productNames);
+  const conclusionHighlighted = highlightProductNames(conclusion, productNames);
+  const image = guide.image || '../img/og-image.png';
+  const fullImage = guide.image && guide.image.startsWith('http') ? guide.image : 'https://topmusiciangear.com/' + (normImg(guide.image) || 'img/og-image.png');
+  const heroCut = CUTOUTS_ENABLED ? cutFor(guide.image) : null;
+  const filename = isEs ? `${guide.id}_es.html` : `${guide.id}.html`;
+  const canonical = `https://topmusiciangear.com/guides/${isEs ? guide.id + '_es' : guide.id}.html`;
+  const alternateEn = `https://topmusiciangear.com/guides/${guide.id}.html`;
+  const alternateEs = `https://topmusiciangear.com/guides/${guide.id}_es.html`;
+
+  const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
+  allProductIds.sort((a, b) => {
+    const pa = products.find(pr => pr.id === a);
+    const pb = products.find(pr => pr.id === b);
+    const sa = pa ? (guideScore(pa, guide.id) || 0) : 0;
+    const sb = pb ? (guideScore(pb, guide.id) || 0) : 0;
+    return sb - sa;
+  });
+
+  const renderedProducts = new Set();
+  // Photo ownership: each product's photo belongs to its dedicated section —
+  // the single-product section whose heading names it (first wins on ties).
+  // Generic overviews never steal the photo from the dedicated one.
+  const photoOwner = {};
+  (function() {
+    var byPid = {};
+    guide.sections.forEach(function(s, si) {
+      if (s.skipMedia) return;
+      var prods = s.products || [];
+      if (prods.length !== 1) return;
+      var pid = prods[0];
+      var head = normHead(((s.heading_es || '') + ' ' + (s.heading || '')));
+      var pr = null;
+      try { pr = products.find(function(x) { return x.id === pid; }); } catch (e) { pr = null; }
+      var score = 0;
+      if (pr) {
+        var toks = prodTokens(pr);
+        score = topicScore(head, toks);
+      }
+      (byPid[pid] = byPid[pid] || []).push({ si: si, score: score });
+    });
+    Object.keys(byPid).forEach(function(pid) {
+      var c = byPid[pid].sort(function(a, b) { return (b.score - a.score) || (a.si - b.si); });
+      photoOwner[pid] = c[0].si;
+    });
+  })();
+  const sectionsHtml = guide.sections.map((s, si) => {
+    const h = isEs && (s.heading_es || s.h_es || '') ? (s.heading_es || s.h_es || '') : (s.heading || s.h || '');
+    const c = esText(isEs && s.content_es, s.content);
+    const boldedC = boldFirstSentence(c);
+    const sectionProducts = s.products ? s.products.map(pid => products.find(pr => pr.id === pid)).filter(Boolean) : [];
+    let sectionChips = '', productImgs = '', splitSide = false;
+    if (!s.skipMedia && s.splitProducts && sectionProducts.length > 1) {
+      const blocks = sectionProducts.map(p => {
+        if (renderedProducts.has(p.id)) return '';
+        if ((p.id in photoOwner) && photoOwner[p.id] !== si) return '';
+        renderedProducts.add(p.id);
+        const t = isEs && p.title_es ? p.title_es : p.title;
+        var prodVideo = p.video || null;
+        var prodVideoHtml = '';
+        if (prodVideo) {
+          prodVideoHtml = '<div class="guide-video-thumb lb-video" data-yt="' + prodVideo + '" role="button" aria-label="Play video" tabindex="0">' +
+            '<img src="https://i.ytimg.com/vi/' + prodVideo + '/maxresdefault.jpg" alt="' + t + '" class="guide-video-poster" loading="lazy" onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/' + prodVideo + '/hqdefault.jpg\'">' +
+            '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.6)" stroke="#fff" stroke-width="1.3"/><path d="M9.5 7.2v9.6l8.2-4.8z" fill="#fff"/></svg></span>' +
+          '</div>';
+        } else {
+          prodVideoHtml = '<div class="guide-video-thumb guide-video-placeholder" aria-hidden="true"></div>';
+        }
+        const gi = guideCutImg(p);
+        return '<div class="guide-section-prod">' +
+          '<div class="guide-section-prod-name">' + t + '</div>' +
+          '<div class="guide-section-prod-imgs"><img src="' + gi.src + '" alt="' + t + '" class="guide-section-img lb-img' + (gi.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' + prodVideoHtml + '</div>' +
+          '<div class="guide-section-buy">' + storeChips(p, isEs ? 'es' : 'en') + '</div>' +
+        '</div>';
+      }).filter(Boolean).join('');
+      productImgs = blocks ? '<div class="guide-section-prods">' + blocks + '</div>' : '';
+      splitSide = !!s.sideProducts && !!blocks;
+    } else if (!s.skipMedia) {
+      const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
+      const ownedElsewhere = firstProduct && (firstProduct.id in photoOwner) && photoOwner[firstProduct.id] !== si;
+      const isFirstNew = firstProduct && !renderedProducts.has(firstProduct.id) && !ownedElsewhere;
+      if (isFirstNew) {
+        renderedProducts.add(firstProduct.id);
+        sectionChips = '<div class="guide-section-buy">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>';
+      }
+      var sectionVideo = s.video || (firstProduct && firstProduct.video) || null;
+      if (isFirstNew && sectionVideo) {
+        const vt = isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title;
+        const gifp = guideCutImg(firstProduct);
+        const psrc = gifp.src;
+        productImgs = '<div class="guide-section-imgs">' +
+          '<img src="' + psrc + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img' + (gifp.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' +
+          '<div class="guide-video-thumb lb-video" data-yt="' + sectionVideo + '" role="button" aria-label="Play video" tabindex="0">' +
+            '<img src="https://i.ytimg.com/vi/' + sectionVideo + '/maxresdefault.jpg" alt="' + vt + '" class="guide-video-poster" loading="lazy" onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/' + sectionVideo + '/hqdefault.jpg\'">' +
+            '<span class="guide-video-play"><svg viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.6)" stroke="#fff" stroke-width="1.3"/><path d="M9.5 7.2v9.6l8.2-4.8z" fill="#fff"/></svg></span>' +
+          '</div>' +
+        '</div>';
+      } else if (isFirstNew) {
+        const gis = guideCutImg(firstProduct);
+        productImgs = '<div class="guide-section-imgs">' +
+          '<img src="' + gis.src + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img' + (gis.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' +
+          '<div class="guide-video-thumb guide-video-placeholder" aria-hidden="true"></div>' +
+        '</div>';
+      }
+    }
+    const mediaBuy = (productImgs && sectionChips)
+      ? '<div class="guide-section-mediabuy">' + productImgs + sectionChips + '</div>'
+      : productImgs + sectionChips;
+    const bodyHtml = boldedC + mediaBuy;
+    return `<div class="guide-section${splitSide ? ' guide-section-wide' : ''}">
+      <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>
+      <div class="guide-section-content">${bodyHtml}</div>
+    </div>`;
+  }).join('');
+
+  const productCards = allProductIds.map(pid => {
+    const p = products.find(pr => pr.id === pid);
+    return p ? productCard(p, lang) : '';
+  }).join('');
+
+  const tocHtml = '';
+
+  const authorBoxHtml = `<div class="guide-author-box">
+    <div class="guide-author-box-body">
+      <span class="guide-author-box-name">${isEs ? 'Por Daniel Carnago · ' + fmtMonthYear(guideDates(guide, idx).modified, true) : 'By Daniel Carnago · ' + fmtMonthYear(guideDates(guide, idx).modified, false)}</span>
+      <p class="guide-author-box-bio">${isEs ? 'Músico de directo y de sesión con más de 20 años sobre los escenarios de todo el mundo. Una gran cantidad de los equipos que recomiendo los he usado yo mismo, en giras, estudios profesionales o en mi propio estudio.' : 'Touring and session musician with 20+ years on stages around the world. A great deal of the gear I recommend here I have used myself, on tours, in professional studios, or in my own studio.'}</p>
+    </div>
+  </div>`;
+
+  var dPub = guideDates(guide, idx).published, dMod = guideDates(guide, idx).modified;
+  var d = guideDesc(guide, intro, isEs).replace(/"/g, '&quot;');
+  var escapedTitleTag = titleTag.replace(/"/g, '&quot;');
+  var escapedTitle = title.replace(/"/g, '&quot;');
+  var ogMeta = `  <meta property="og:type" content="article">
+  <meta property="og:title" content="${escapedTitleTag} | TopMusicianGear">
+  <meta property="og:description" content="${d}">
+  <meta property="og:url" content="${canonical}">
+  <meta property="og:image" content="${fullImage}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="TopMusicianGear">
+  <meta property="og:locale" content="${isEs ? 'es_ES' : 'en_US'}">
+  <meta property="og:locale:alternate" content="${isEs ? 'en_US' : 'es_ES'}">
+  <meta property="article:published_time" content="${dPub}">
+  <meta property="article:modified_time" content="${dMod}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${escapedTitle}">
+  <meta name="twitter:description" content="${d}">
+  <meta name="twitter:image" content="${fullImage}">
+  <meta name="twitter:site" content="@Cuban3Beats">
+  <meta name="twitter:creator" content="@Cuban3Beats">`;
+
+  // JSON-LD
+  const ldArticle = {
+    "@context": "https://schema.org", "@type": "Article",
+    "headline": title,
+    "description": guideDesc(guide, intro, isEs),
+    "author": { "@type": "Person", "name": "Daniel Carnago", "givenName": "Daniel", "familyName": "Carnago", "alternateName": "Cuban3Beats", "jobTitle": "Professional Musician & Audio Engineer", "url": "https://topmusiciangear.com/about.html", "sameAs": ["https://www.youtube.com/@Cuban3Beats","https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX","https://www.tiktok.com/@cuban3beats","https://www.facebook.com/Cuban3Beats/","https://www.instagram.com/cuban3beats","https://x.com/Cuban3Beats"], "knowsAbout": ["Audio Engineering","Music Production","Live Sound","Studio Recording","Music Gear"] },
+    "publisher": { "@type": "Organization", "name": "TopMusicianGear", "url": "https://topmusiciangear.com", "logo": { "@type": "ImageObject", "url": "https://topmusiciangear.com/img/favicon.png" } },
+    "image": { "@type": "ImageObject", "url": fullImage, "width": 1200, "height": 630 },
+    "thumbnailUrl": fullImage,
+    "datePublished": guideDates(guide, idx).published, "dateModified": guideDates(guide, idx).modified,
+    "mainEntityOfPage": { "@type": "WebPage", "@id": canonical },
+    "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".guide-detail-intro", ".verdict-label"] },
+    "about": { "@type": "Thing", "name": guide.aboutName || "Music Gear" },
+    "inLanguage": lang
+  };
+
+  const items = [];
+  const productSchemas = [];
+  // Google marca como invalido el Product sin offers, review ni aggregateRating:
+  // solo entran en el JSON-LD los que tengan al menos uno de los tres.
+  const qualifiedIds = allProductIds.filter(function(pid) {
+    const pp = products.find(function(pr) { return pr.id === pid; });
+    if (!pp) return false;
+    if (tmgOffers(pp, 'https://topmusiciangear.com/guides/' + guide.id + '.html')) return true;
+    if (reviewStats(pid)) return true;
+    if (reviews.some(function(r) { return r.productId === pid; })) return true;
+    return false;
+  });
+  qualifiedIds.forEach((pid, idx) => {
+    const p = products.find(pr => pr.id === pid);
+    if (p) {
+      const generatedSku = "TMG-" + (p.category || "gear").toUpperCase() + "-" + String(p.id).padStart(3, "0");
+      const title = isEs && p.title_es ? p.title_es : p.title;
+      var pc = null;
+      if (guide.verdictProsCons) {
+        pc = guide.verdictProsCons.find(function(v) { return (isEs && v.name_es ? v.name_es : v.name) === title; });
+      }
+      var pn = pc ? (isEs && pc.pros_es ? pc.pros_es : pc.pros) : undefined;
+      var cn = pc ? (isEs && pc.cons_es ? pc.cons_es : pc.cons) : undefined;
+      var agg = (function(){ var st = reviewStats(p.id); return st ? { "@type": "AggregateRating", "ratingValue": st.ratingValue, "reviewCount": st.reviewCount, "bestRating": 5, "worstRating": 1 } : null; })();
+      var reviewEnts = reviews.filter(function(r) { return r.productId === p.id; }).map(function(r) {
+        var rvBody = isEs ? (r.text_es || r.text) : (r.text_en || r.text);
+        return { "@type": "Review", "author": { "@type": "Person", "name": r.author }, "datePublished": r.date, "reviewBody": rvBody, "reviewRating": { "@type": "Rating", "ratingValue": r.rating, "bestRating": 5 } };
+      });
+      var listItem = {
+        "@type": "ListItem", "position": idx + 1,
+        "item": {
+          "@type": "Product",
+          "name": title,
+          "brand": { "@type": "Brand", "name": p.brand || "" },
+          "mpn": p.mpn || generatedSku,
+          "sku": generatedSku,
+          "description": trunc(isEs && p.desc_es ? p.desc_es : p.desc, 155),
+          "image": (p.img||"").startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
+          "positiveNotes": pn,
+          "negativeNotes": cn
+        }
+      };
+      var _off = tmgOffers(p, 'https://topmusiciangear.com/guides/' + guide.id + '.html');
+      if (_off) listItem.item.offers = _off;
+      if (agg) listItem.item.aggregateRating = agg;
+      if (reviewEnts.length) listItem.item.review = reviewEnts;
+      items.push(listItem);
+      var pSchema = {
+        "@type": "Product",
+        "name": title,
+        "brand": { "@type": "Brand", "name": p.brand || "" },
+        "image": (p.img||"").startsWith('http') ? p.img : `https://topmusiciangear.com/${p.img}`,
+        "positiveNotes": pn,
+        "negativeNotes": cn
+      };
+      var _off2 = tmgOffers(p, 'https://topmusiciangear.com/guides/' + guide.id + '.html');
+      if (_off2) pSchema.offers = _off2;
+      if (agg) pSchema.aggregateRating = agg;
+      if (reviewEnts.length) pSchema.review = reviewEnts;
+      productSchemas.push(pSchema);
+    }
+  });
+
+  function guideFaqs(guide) {
+    if (guide.faq && guide.faq.length) return guide.faq;
+    if (guide.featuredSnippet && guide.featuredSnippet.faq_q1_en) {
+      return [1,2,3,4,5,6,7,8].map(function(i) {
+        return { q: guide.featuredSnippet['faq_q' + i + '_en'], q_es: guide.featuredSnippet['faq_q' + i + '_es'], a: guide.featuredSnippet['faq_a' + i + '_en'], a_es: guide.featuredSnippet['faq_a' + i + '_es'] };
+      }).filter(function(f) { return f.q; });
+    }
+    if (guide.faq_q1) {
+      return [1,2,3,4,5,6,7,8].map(function(i) {
+        return { q: guide['faq_q' + i], q_es: guide['faq_q' + i + '_es'], a: guide['faq_a' + i], a_es: guide['faq_a' + i + '_es'] };
+      }).filter(function(f) { return f.q; });
+    }
+    return faqBase[guide.category] || faqBase.interfaces;
+  }
+  function genFaq(g, es) {
+    var faqs = guideFaqs(g);
+    return { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(function(f) {
+      return { "@type": "Question", "name": es && f.q_es ? f.q_es : f.q, "acceptedAnswer": { "@type": "Answer", "text": es && f.a_es ? f.a_es : f.a } };
+    })};
+  }
+  return ko`<!DOCTYPE html>
+<html lang="${lang}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d0d0d">
+  <link rel="preload" as="font" href="/fonts/Inter.woff2" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Quicksand:wght@700&family=Poppins:ital,wght@1,800&family=Open+Sans+Condensed:wght@700&family=Kaushan+Script&display=block">
+  <style>@media(hover:hover){.shop-btn-primary:hover{transform:scale(1.05)}.shop-btn-more:hover{transform:scale(1.05)}.shop-more-list a:hover{transform:scale(1.05);background:#34383d;box-shadow:0 4px 16px rgba(0,0,0,.5)}.shop-more-list .shop-wm{transition:color .18s ease}.shop-more-list a:hover .shop-wm{color:#FFB300}}</style>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>${titleTag}</title>
+  <meta name="description" content="${guideDesc(guide, intro, isEs).replace(/"/g, '&quot;')}">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="${canonical}">
+  <link rel="alternate" hreflang="x-default" href="${alternateEn}">
+  <link rel="alternate" hreflang="en" href="${alternateEn}">
+  <link rel="alternate" hreflang="es" href="${alternateEs}">
+${ogMeta}
+  <style>${criticalCss()}</style><script>/*tmgLangScrollEarly*/(function(){try{var y=parseInt(sessionStorage.getItem('tmgLangScroll')||'-1',10);if(y>=0){document.documentElement.style.visibility='hidden';history.scrollRestoration='manual';}}catch(e){}})();</script>
+  <link rel="preload" as="style" href="/css/style.min.css?v=${cacheVerCss}" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/style.min.css?v=${cacheVerCss}"></noscript>
+  <style id="hf-overrides">
+.mobile-social{padding:48px 16px 0!important}
+main:has(.mobile-social)+footer{padding-top:48px!important}
+footer{padding-top:64px!important}
+@media(max-width:768px){.mobile-social{padding:36px 16px 0!important}.audio-mini-mobile{padding-bottom:12px!important}html,body{touch-action:manipulation!important}.nav-dd-mobile{display:none!important}}
+.guide-back-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;width:100%;box-sizing:border-box}
+.guide-search-wrap{flex:0 0 auto;min-width:120px;max-width:200px;margin-left:auto;position:relative}
+.guide-search-input{width:100%;padding:6px 10px 6px 28px;font-size:13px;color:var(--text);background:var(--bg-card);border:1px solid var(--border);border-radius:20px;outline:none;font-family:inherit;box-sizing:border-box}
+.guide-search-input:focus{border-color:var(--accent)}
+.guide-search-icon{position:absolute;left:8px;top:50%;transform:translateY(-50%);color:var(--text-muted);pointer-events:none}
+.guide-search-hit{background:var(--accent);color:#fff;border-radius:2px;padding:0 2px;outline:2px solid #fff}
+.guide-search-hit--active{background:var(--accent);outline:2px solid #fff}
+.header-right{position:relative!important}
+header{position:sticky!important;top:0!important;transform:none!important}
+.top-search-actions{display:flex;gap:6px;margin-top:6px;justify-content:flex-end}
+.top-search-btn{background:none;border:1px solid var(--border);color:#fff;cursor:pointer;padding:4px 8px;font-size:14px;border-radius:4px;line-height:1}
+.top-search-btn:hover{color:var(--accent);border-color:var(--accent)}
+.top-search-toggle{background:none!important;border:none!important;color:#fff!important;cursor:pointer;padding:4px 6px;font-size:22px;line-height:1}.top-search-toggle:hover{color:var(--accent)}.top-search-drop{position:fixed;top:70px;right:16px;margin-top:0;background:var(--bg-card);border:1px solid var(--accent);border-radius:8px;padding:8px;min-width:260px;box-shadow:0 8px 24px rgba(0,0,0,.4);z-index:9999}.top-search-drop[hidden]{display:none}.top-search-input-wrap{position:relative}.top-search-input{width:100%;padding:8px 12px 8px 34px;font-size:13px;color:var(--text);background:var(--bg-secondary);border:none!important;border-radius:6px;outline:none!important;box-shadow:none;box-sizing:border-box}.top-search-go{position:absolute;left:8px;top:50%;transform:translateY(-50%);background:none;border:none;color:#fff!important;cursor:pointer;padding:2px 4px;font-size:14px;line-height:1}.top-search-go:hover{color:var(--accent)}.top-search-input::placeholder{color:#fff;opacity:1}.top-search-results{max-height:300px;overflow-y:auto;margin-top:0}.top-search-item{display:block;padding:8px 10px;font-size:13px;color:var(--text);text-decoration:none;border-radius:4px}.top-search-item:hover{background:var(--bg-card-hover);color:var(--accent)}
+  </style>
+  <link rel="icon" type="image/svg+xml" sizes="48x48" href="/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png?v=2">
+  <link rel="apple-touch-icon" href="/img/favicon.png?v=2">
+  ${jsonLdScript(ldArticle)}
+  ${items.length ? jsonLdScript({ "@context": "https://schema.org", "@type": "ItemList", "itemListElement": items }) : ''}
+  ${productSchemas.length ? jsonLdScript({ "@context": "https://schema.org", "@graph": productSchemas }) : ''}
+  ${jsonLdScript({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://topmusiciangear.com/" },
+    { "@type": "ListItem", "position": 2, "name": tmgCatCrumb(guide.category, isEs).name, "item": "https://topmusiciangear.com" + tmgCatCrumb(guide.category, isEs).url },
+    { "@type": "ListItem", "position": 3, "name": title, "item": canonical } ]})}
+  ${jsonLdScript(genFaq(guide, isEs))}
+  ${guide.steps && guide.steps.length ? jsonLdScript({ "@context": "https://schema.org", "@type": "HowTo", "name": title, "description": guideDesc(guide, intro, isEs), "step": guide.steps.map(function(s, i) { return { "@type": "HowToStep", "position": i + 1, "name": isEs && s.name_es ? s.name_es : s.name, "text": isEs && s.text_es ? s.text_es : s.text, "url": s.url || canonical }; }) }) : ''}
+  ${jsonLdScript({ "@context": "https://schema.org", "@type": "Person", "name": "Daniel Carnago", "givenName": "Daniel", "familyName": "Carnago", "alternateName": "Cuban3Beats", "jobTitle": "Professional Musician & Audio Engineer", "description": "Touring musician with 20+ years of experience on world stages including Glastonbury, Broadway, and Abbey Road.", "url": "https://topmusiciangear.com/about.html", "sameAs": ["https://www.youtube.com/@Cuban3Beats","https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX","https://www.tiktok.com/@cuban3beats","https://www.facebook.com/Cuban3Beats/","https://www.instagram.com/cuban3beats","https://x.com/Cuban3Beats"], "knowsAbout": ["Audio Engineering","Music Production","Live Sound","Studio Recording","Music Gear"] })}
+<script>(function(){try{var a=localStorage.getItem('tmg_v');var u='https://api.github.com/repos/topmusiciangear/topmusiciangear.github.io/contents/version.txt?ref=main&v='+Date.now();function gv(){return fetch(u,{headers:{Accept:'application/vnd.github.v3.raw'}}).then(function(r){if(r.ok)return r;return fetch('/version.txt?t='+Date.now())})}gv().then(function(r){return r.text()}).then(function(b){b=b.trim();if(a===b)return;localStorage.setItem('tmg_v',b)})}catch(e){}})();</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{'analytics_storage':'denied','ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','functionality_storage':'granted','security_storage':'granted'});gtag('js',new Date());gtag('config','G-0752B4SE9L',{anonymize_ip:true})</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0752B4SE9L"></script>
+</head>
+<body style="margin:0;padding:0;">
+  <a href="#mainContent" class="skip-link">${isEs ? 'Saltar al contenido principal' : 'Skip to main content'}</a>
+  <div class="bg-hero"></div>
+
+  <header style="margin-top:0;padding-top:0;">
+    <div class="header-inner">
+      <div class="header-left">
+        <a href="${isEs ? '/es/' : '/'}" class="logo">
+          <span class="logo-icon"><img src="/img/favicon.png?v=2" alt="TMG" style="width:36px;height:36px;border-radius:8px"></span>
+          <div class="logo-text">
+            <span>Top</span>MusicianGear
+          </div>
+        </a>
+        <nav aria-label="${isEs ? 'Navegación principal' : 'Main navigation'}">
+          <a href="${isEs ? '/es/#guides' : '/#guides'}" class="nav-link">${isEs ? 'Guías' : 'Guides'}</a>
+          <a href="${isEs ? '/deals_es.html' : '/deals.html'}" class="nav-link">${isEs ? 'Ofertas' : 'Deals'}</a>
+          ${navDropdown(isEs)}
+        </nav>
+      </div>
+            <div class="header-badge"><div class="hero-badge"><svg data-fa="circle-check" class="icon fa-solid fa-circle-check" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> <span>${isEs ? 'Con la confianza de músicos de todo el mundo' : 'Trusted by musicians worldwide'}</span></div></div>
+      <div class="header-right">
+                <div class="nav-dd nav-dd-mobile">
+          ${navDropdown(isEs)}
+        </div>
+        <button type="button" id="topSearchToggle" class="top-search-toggle" aria-label="Search" title="Search"><svg viewBox="0 0 512 512" width="16" height="16" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></button>
+        <div id="topSearchDrop" class="top-search-drop" hidden>
+          <div class="top-search-input-wrap">
+            <input type="search" id="topSearchInput" class="top-search-input" placeholder="${isEs ? 'Buscar...' : 'Search...'}" autocomplete="off">
+            <button type="button" id="topSearchGo" class="top-search-go" aria-label="${isEs ? 'Buscar' : 'Search'}"><svg viewBox="0 0 512 512" width="14" height="14" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></button>
+          </div>
+          <div id="topSearchResults" class="top-search-results"></div>
+        </div>
+        <div class="lang-switcher">
+          <button class="lang-btn ${isEs ? '' : 'active'}" title="English" onclick="try{sessionStorage.setItem('tmgLangScroll',String(window.scrollY))}catch(e){};location.href='${isEs ? `/guides/${guide.id}.html` : '#'}'"><img class="lang-flag" src="../img/flag-en.svg" alt="EN" width="20" height="15"></button>
+          <button class="lang-btn ${isEs ? 'active' : ''}" title="Español" onclick="try{sessionStorage.setItem('tmgLangScroll',String(window.scrollY))}catch(e){};location.href='${isEs ? '#' : `/guides/${guide.id}_es.html`}'"><img class="lang-flag" src="../img/flag-es.svg" alt="ES" width="20" height="15"></button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="${isEs ? 'Menú' : 'Menu'}" onclick="document.getElementById('mobileNav').classList.toggle('open')">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a class="nav-link" href="${isEs ? '/es/#guides' : '/#guides'}">${isEs ? 'Guías' : 'Guides'}</a>
+    ${navDropdown(isEs)}
+  </div>
+
+  <main id="mainContent">
+
+    <div class="guide-detail">
+      <nav class="guide-breadcrumb" aria-label="Breadcrumb">
+        <a href="${isEs ? '/es/' : '/'}">Home</a> / <a href="${tmgCatCrumb(guide.category, isEs).url}">${tmgCatCrumb(guide.category, isEs).name}</a> / <span>${title}</span>
+      </nav>
+      <div class="guide-back-row">
+        <a href="${isEs ? '/es/' : '/'}?cat=${guide.category}#guides" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
+      </div>
+      <div class="guide-detail-header">
+        <h1 class="guide-detail-title">${title}</h1>
+      </div>
+      <div class="guide-detail-img${heroCut ? ' guide-detail-img--cutout' : ''}"><img src="${heroCut ? '../' + heroCut : fullImage}" alt="${title}" class="lb-img" style="cursor:zoom-in"></div>
+      <div class="guide-detail-intro"><p>${introWithoutTable}</p></div>
+      ${authorBoxHtml}
+      ${introTable}
+      ${guide.verdict ? `<div class="guide-verdict">
+        <div class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</div>
+        <div class="verdict-text">${verdictHighlighted}</div>
+        ${guide.verdictProsCons ? (function(){ return '<div class="guide-verdict-grid">' + guide.verdictProsCons.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div>'+(guide.verdictSideBySide ? '<div class="verdict-pros-cons">' : '')+'<div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div>'+(guide.verdictSideBySide ? '</div>' : '')+'</div>' }).join('') + '</div>'; })() : ''}
+      </div>` : ''}
+      ${guide.comparison ? (function(){ var comp = guide.comparison; var oldSchema = Array.isArray(comp.headers); var headers = oldSchema ? comp.headers : []; var valKeys = oldSchema ? ['val','val2','val3','val4','val5'] : ['val1','val2','val3','val4','val5']; if(!oldSchema){ var fs = guide.featuredSnippet || {}; if(fs.name1_en && fs.name2_en){ headers = [isEs ? (fs.name1_es || fs.name1_en) : fs.name1_en, isEs ? (fs.name2_es || fs.name2_en) : fs.name2_en]; } else if((guide.verdictProsCons||[]).length === 2){ headers = guide.verdictProsCons.map(function(p){ return isEs && p.name_es ? p.name_es : p.name; }); } } if(headers && headers.length > 0){ valKeys = valKeys.slice(0, headers.length); } var colMin = 0; headers.forEach(function(h){ if(String(h).length>colMin) colMin=String(h).length; }); colMin += 2; var thHtml = headers.map(function(h,i){ var hn = h; if(oldSchema && isEs && comp['header'+(i+1)+'_es']) hn = comp['header'+(i+1)+'_es']; return '<th>'+hn+'</th>'; }).join(''); var trs = comp.rows.filter(function(r){ var l=(r.label||'').trim().toLowerCase(); if(l==='rating') return false; return true; }).map(function(r){ var tds = '<td class="label">'+(isEs?r.label_es:r.label)+'</td>'; valKeys.forEach(function(k){ var esK = k+'_es'; var v = isEs && r[esK] ? r[esK] : r[k]; tds += '<td class="val">'+(v||'')+'</td>'; }); return '<tr>'+tds+'</tr>'; }).join(''); return '<div class="guide-comp-wrap"><h2 class="guide-comp-title">'+(isEs?'¿Cómo se Comparan?':'How Do They Compare?')+'</h2>'+guideCompControls(isEs,'guide-comp-controls-top')+'<div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll"><table class="guide-comp-table" style="--guide-col-min:'+colMin+'ch"><thead><tr><th></th>'+thHtml+'</tr></thead><tbody>'+trs+'</tbody></table></div>'+guideCompControls(isEs)+'</div></div>'; })() : ''}
+      ${guide.productTable && guide.productTable.columns && guide.productTable.columns.length > 0 && guide.productTable.rows && guide.productTable.rows.length > 0 ? (function(){
+        var rows = guide.productTable.rows || [];
+        if (!rows.length) return '';
+        var colMin = 0;
+        var headers = guide.productTable.columns.map(function(col){
+          var t = isEs && col.title_es ? col.title_es : col.title;
+          if (t && t.length > colMin) colMin = t.length;
+          return '<th>' + t + '</th>';
+        }).join('');
+        colMin += 2;
+        var body = rows.map(function(r){
+          return '<tr><td class="label">' + (isEs && r.label_es ? r.label_es : r.label) + '</td>' + r.values.map(function(v){
+            return '<td class="val">' + (isEs && v.value_es ? v.value_es : v.value) + '</td>';
+          }).join('') + '</tr>';
+        }).join('');
+        return '<div class="guide-comp-wrap"><h2 class="guide-comp-title">' + (isEs && guide.productTable.title_es ? guide.productTable.title_es : (guide.productTable.title || (isEs ? 'Comparativa de productos' : 'Product Comparison'))) + '</h2>' + guideCompControls(isEs, 'guide-comp-controls-top') + '<div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll"><table class="guide-comp-table" style="--guide-col-min:' + colMin + 'ch"><thead><tr><th></th>' + headers + '</tr></thead><tbody>' + body + '</tbody></table></div>' + guideCompControls(isEs) + '</div></div>';
+      })() : ''}
+      <div class="guide-detail-sections">${sectionsHtml}</div>
+      <div class="guide-product-card-currency-note note-collapsible">
+        <div class="note-header"><span class="note-icon">ℹ️</span><span>${isEs ? 'Bueno saber' : 'Good to Know'}</span></div>
+        <div class="note-row note-lead"><span class="note-icon">💵</span><span>${isEs ? 'Como Asociado de Amazon, gano por las compras que califican. También gano comisiones por las otras tiendas que aparecen aquí, sin coste adicional para ti.' : 'As an Amazon Associate I earn from qualifying purchases. I also earn commissions from the other stores listed, at no extra cost to you.'}</span></div>
+        <div class="note-more">
+        <div class="note-row"><span class="note-icon">💲</span><span>${isEs ? 'Los precios pueden variar según tu geolocalización; el total final se confirma en tu moneda local al pagar.' : 'Prices may vary depending on your location; your final total is confirmed in your local currency at checkout.'}</span></div>
+        <div class="note-row"><span class="note-icon">📦</span><span>${isEs ? 'Cada tienda aplica su propia política de envío: algunas envían gratis, otras cobran envío y otras ofrecen envío gratuito a partir de un mínimo de compra. zZounds solo envía a EE.&nbsp;UU., sus territorios y Canadá.' : 'Each store applies its own shipping policy: some ship for free, others charge a fee, and others offer free shipping above a minimum order. zZounds only ships within the U.S., its territories, and Canada.'}</span></div>
+        <div class="note-row"><span class="note-icon">🌍</span><span>${isEs ? 'Si un producto no está disponible, puede deberse a restricciones regionales. Según tu ubicación, una tienda puede mostrar el artículo como agotado, no venderlo en tu país o redirigirte a un producto similar al que buscas — ese comportamiento lo decide la propia tienda, no nosotros. Si ocurre, revisa las otras tiendas que mostramos, cada una con su propio inventario. Algunas, como Reverb y Music Store, te permiten cambiar tu región desde su sitio para ver precios y disponibilidad en tu país.' : 'If a product shows as unavailable, it may be due to regional restrictions. Depending on your location, a store may show the item as out of stock, may not sell it in your country, or may redirect you to a similar product on their site — this is decided by the store itself, not by us. If that happens, check the other stores we list, each with its own inventory. Some stores, like Reverb and Music Store, let you switch your region on their site to see prices and availability in your country.'}</span></div>
+        </div>
+        <button type="button" class="note-toggle" aria-expanded="false" data-open="${isEs ? 'Ver más detalles' : 'More details'}" data-close="${isEs ? 'Ver menos' : 'Show less'}"><span class="note-toggle-text">${isEs ? 'Ver más detalles' : 'More details'}</span><span class="note-toggle-arrow" aria-hidden="true">▼</span></button>
+      </div>
+      <script>(function(){var b=document.querySelector('.guide-product-card-currency-note .note-toggle');if(!b)return;var box=b.parentNode,ar=b.querySelector('.note-toggle-arrow'),tx=b.querySelector('.note-toggle-text');b.addEventListener('click',function(){var open=box.classList.toggle('is-open');b.setAttribute('aria-expanded',open?'true':'false');ar.textContent=open?'▲':'▼';tx.textContent=open?b.getAttribute('data-close'):b.getAttribute('data-open')})})();</script>
+      ${(function(){ var faqs = guideFaqs(guide); if (!faqs || !faqs.length) return ''; return '<div class="guide-faq"><h2 class="guide-faq-title">' + (isEs ? 'Preguntas frecuentes' : 'Frequently Asked Questions') + '</h2><div class="guide-faq-list">' + faqs.map(function(f){ return '<div class="guide-faq-item"><button class="guide-faq-question" onclick="var a=this.nextElementSibling;if(a.dataset.open){a.style.maxHeight=\'0px\';a.dataset.open=\'\';this.classList.remove(\'open\');setTimeout(function(){if(!a.dataset.open){a.style.display=\'none\'}},300)}else{this.classList.add(\'open\');a.style.display=\'block\';void a.offsetHeight;a.style.maxHeight=a.firstElementChild.scrollHeight+\'px\';a.dataset.open=\'1\'}">' + (isEs && f.q_es ? f.q_es : f.q) + '<span class="guide-faq-icon">+</span></button><div class="guide-faq-answer" style="display:none;max-height:0;overflow:hidden"><div class="guide-faq-answer-inner">' + (isEs && f.a_es ? f.a_es : f.a) + '</div></div></div>'; }).join('') + '</div></div>'; })()}
+      ${conclusion ? `<div class="guide-conclusion"><h2 class="guide-conclusion-title">${isEs && guide.conclusion_title_es ? guide.conclusion_title_es : (guide.conclusion_title || (isEs ? 'Conclusión' : 'Conclusion'))}</h2><div class="guide-conclusion-content">${conclusionHighlighted.replace(/<strong>/g, '<strong style="color:var(--accent)">')}</div></div>` : ''}
+
+      ${productCards ? `<div class="guide-products-grid"><h2 class="guide-products-title">${isEs ? '¿Qué productos hay en esta guía?' : 'What Products Are in This Guide?'}</h2><div class="guide-products-cards">${productCards}</div></div>` : ''}
+      ${userReviewsSection(guide, isEs)}
+      <script>setTimeout(function(){document.querySelectorAll('.guide-comp-wrap').forEach(function(w){var s=w.querySelector('.guide-comp-scroll');if(!s)return;if(s.scrollWidth<=s.clientWidth+1){w.querySelectorAll('.guide-comp-controls').forEach(function(c){c.style.display='none'})}});document.querySelectorAll('.guide-comp-scroll').forEach(function(s){function upd(){var w=s.closest('.guide-comp-wrap');if(!w)return;var max=s.scrollWidth-s.clientWidth;var pct=max>0?(s.scrollLeft/max*100):0;w.querySelectorAll('.guide-comp-progress-bar').forEach(function(b){b.style.width=pct+'%'})}s.addEventListener('scroll',upd);upd()})},100)</script>
+      <script>(function(){var d=document,h=d.documentElement,sb=h.style.scrollBehavior,EV=['touchstart','wheel','mousedown','keydown'],raf=0,n=0,done=false;function getY(){try{return parseInt(sessionStorage.getItem('tmgLangScroll')||'-1',10)}catch(e){return -1}}function end(){if(done)return;done=true;if(raf)cancelAnimationFrame(raf);EV.forEach(function(e){window.removeEventListener(e,input,{passive:true})});h.style.visibility='';h.style.scrollBehavior=sb;try{sessionStorage.removeItem('tmgLangScroll')}catch(e){}}function input(){end()}function step(){if(done)return;var yy=getY();if(yy<0){end();return;}window.scrollTo(0,yy);n++;if(n>48){end();return;}raf=requestAnimationFrame(step)}if(getY()<0){h.style.scrollBehavior=sb;return;}EV.forEach(function(e){window.addEventListener(e,input,{passive:true})});step();setTimeout(end,1500);})();</script>
+      <div class="guide-related">
+        <h2 class="guide-related-title">${isEs ? 'Guías Relacionadas' : 'Related Guides'}</h2>
+        <div class="guide-related-list">
+          ${(function(){ var r; if (guide.relatedGuides) { r = guide.relatedGuides.map(function(id) { return guides.find(function(g) { return g.id === id; }); }).filter(Boolean); } if (!r || !r.length) { r = guides.filter(function(g) { return g.id !== guide.id && g.category === guide.category; }); if (!r.length) r = guides.filter(function(g) { return g.id !== guide.id; }); } return r.slice(0, 6).map(function(g) { var gt = isEs && g.title_es ? g.title_es : g.title; return '<a href="/guides/' + g.id + (isEs ? '_es' : '') + '.html" class="guide-link-btn">' + gt + '</a>'; }).join(''); })()}
+        </div>
+      </div>
+      <div class="guide-back-row">
+        <a href="${isEs ? '/es/' : '/?cat=' + guide.category + '#guides'}" class="guide-back-btn">${icon('arrow-left', 'fa-solid')} ${isEs ? 'Volver a Guías' : 'Back to Guides'}</a>
+      </div>
+    </div>
+
+
+
+        <div class="mobile-social" id="mobileSocial">
+      <a href="https://www.youtube.com/@Cuban3Beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="YouTube">${icon('youtube', 'fa-brands')}</a>
+      <a href="https://open.spotify.com/artist/3HMtcts1AYCzkI4pBQKRzX" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Spotify">${icon('spotify', 'fa-brands')}</a>
+      <a href="https://www.tiktok.com/@cuban3beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="TikTok">${icon('tiktok', 'fa-brands')}</a>
+      <a href="https://www.facebook.com/Cuban3Beats/" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Facebook">${icon('facebook-f', 'fa-brands')}</a>
+      <a href="https://www.instagram.com/cuban3beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Instagram">${icon('instagram', 'fa-brands')}</a>
+      <a href="https://x.com/Cuban3Beats" target="_blank" rel="noopener noreferrer" class="header-social-link" title="X">${icon('x-twitter', 'fa-brands')}</a>
+      <a href="https://soundbetter.com/profiles/721440-daniel-carnago" target="_blank" rel="noopener noreferrer" class="header-social-link" title="SoundBetter"><img src="https://d2p6ecj15pyavq.cloudfront.net/assets/SoundBetterBadge-c84cb3e75c4267f5bee41f7f617a81d9.svg" alt="SoundBetter" class="sb-icon"></a>
+      <a href="https://t.me/topmusiciangear" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Telegram">${icon('telegram', 'fa-brands')}</a>
+      <a href="https://www.fiverr.com/s/yvzbmLz" target="_blank" rel="noopener noreferrer" class="header-social-link" title="Fiverr"><img src="../img/fiverr-icon.svg?v=3" alt="Fiverr" class="fiverr-icon"></a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-bottom">
+      <p>${isEs ? '<strong>TopMusicianGear</strong> participa en programas de afiliados incluyendo Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, Music Store y Hollyland. Como afiliado, ganamos comisiones por compras realizadas sin costo adicional para ti. <a href="/es/affiliate-disclosure.html" id="disclosureLink">M\u00e1s info</a>' : '<strong>TopMusicianGear</strong> is a participant in affiliate programs including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, Music Store, and Hollyland. As an affiliate, we earn from qualifying purchases at no additional cost to you. <a href="/affiliate-disclosure.html" id="disclosureLink">More info</a>'}</p>
+      <p>&copy; 2026 TopMusicianGear. ${isEs ? 'Todos los derechos reservados.' : 'All rights reserved.'} ${isEs ? 'Hecho por un m\u00fasico, para m\u00fasicos.' : 'Built by a musician, for musicians.'}</p>
+    </div>
+  </footer>
+
+
+
+  <!-- Affiliate Disclosure Modal -->
+  <div id="affiliate-modal" style="display:none;position:fixed!important;inset:0!important;z-index:2147483647!important;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.8);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)">
+    <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:32px;max-width:600px;width:100%;max-height:80vh;overflow-y:auto;position:relative;color:var(--text)">
+      <button onclick="hideAffiliateDisclosure()" style="position:absolute;top:16px;right:16px;background:none;border:none;color:var(--text);font-size:24px;cursor:pointer;line-height:1;padding:4px 8px;opacity:.5">&times;</button>
+      <h3 style="font-size:20px;font-weight:700;margin:0 0 16px;padding-right:30px">${isEs ? 'Divulgación de Afiliados' : 'Affiliate Disclosure'}</h3>
+      <p style="font-size:14px;line-height:1.7;color:var(--text-secondary)">${isEs ? 'TopMusicianGear participa en programas de marketing de afiliados diseñados para proporcionar un medio para que los sitios ganen tarifas publicitarias mediante publicidad y enlaces a minoristas asociados, incluidos Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, y Music Store. Cuando haces clic en un enlace de producto en este sitio y realizas una compra, podemos ganar una pequeña comisión sin costo adicional para ti. Esto ayuda a mantener el sitio y nos permite seguir creando reseñas y recomendaciones honestas. Todas las opiniones expresadas en este sitio son nuestras. Solo recomendamos productos en los que creemos genuinamente y que hemos usado personalmente o investigado a fondo.' : 'TopMusicianGear is a participant in affiliate marketing programs designed to provide a means for sites to earn advertising fees by advertising and linking to partner retailers including Plugin Boutique, Gear4Music, Amazon, Reverb, Andertons, zZounds, and Music Store. When you click on a product link on this site and make a purchase, we may earn a small commission at no additional cost to you. This helps support the site and allows us to continue creating honest reviews and recommendations. All opinions expressed on this site are our own. We only recommend products we genuinely believe in and have personally used or thoroughly researched.'}</p>
+      <button onclick="hideAffiliateDisclosure()" style="margin-top:20px;padding:10px 28px;border:none;border-radius:8px;cursor:pointer;font-weight:600;font-size:14px;background:var(--accent);color:#fff">${isEs ? 'Entendido' : 'Got it'}</button>
+    </div>
+  </div>
+
+  <!-- Cookie Consent Banner -->
+<div id="cookie-banner" style="position:fixed!important;bottom:0!important;left:0!important;right:0!important;background:#1a1a2e;color:#f0f0f0;padding:12px 18px;z-index:2147483647!important;flex-wrap:wrap;align-items:center;gap:8px;border-top:2px solid #3b82f6;font-size:12px;line-height:1.5;box-shadow:0 -4px 20px rgba(0,0,0,.5);font-family:sans-serif;transform:translateY(100%);transition:transform .3s ease">
+  <p style="margin:0;flex:1;min-width:180px;font-size:11px"><span class="cookie-lang-en">We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalise content, and analyse website traffic. For these reasons, we may share your site usage data with our social media and analytics partners. By clicking <strong>Accept</strong>, you agree to our website&#39;s cookie use as described in our <a href="/cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Cookie Policy</a>. You can change your cookie settings at any time by clicking <strong>Preferences</strong>.</span><span class="cookie-lang-es">Usamos cookies esenciales para que nuestro sitio funcione. Con tu consentimiento, tambi&eacute;n podemos usar cookies no esenciales para mejorar la experiencia, personalizar contenido y analizar el tr&aacute;fico. Por estas razones, podemos compartir tus datos de uso con nuestros socios de an&aacute;lisis. Al hacer clic en <strong>Aceptar</strong>, aceptas el uso de cookies como se describe en nuestra <a href="/cookie-policy.html" style="color:#60a5fa;text-decoration:underline">Pol&iacute;tica de Cookies</a>. Puedes cambiar tu configuraci&oacute;n en cualquier momento haciendo clic en <strong>Preferencias</strong>.</span></p>
+  <div style="display:flex;gap:6px;flex-shrink:0;flex-wrap:wrap">
+    <button id="cb-prefs" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#444;color:#f0f0f0"><span class="cookie-lang-en">Preferences</span><span class="cookie-lang-es">Preferencias</span></button>
+    <button id="cb-accept" style="padding:8px 18px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:12px;white-space:nowrap;background:#2563eb;color:#fff"><span class="cookie-lang-en">Accept</span><span class="cookie-lang-es">Aceptar</span></button>
+  </div>
+</div>
+
+<!-- Cookie Preferences Modal -->
+<div id="cookie-modal" style="display:none;position:fixed!important;inset:0!important;z-index:2147483647!important;background:rgba(0,0,0,.85);align-items:center;justify-content:center;font-family:'Inter',sans-serif;transform:none!important">
+  <div style="background:#1e1e2e;border:1px solid #333;border-radius:12px;padding:28px;max-width:500px;width:90%;max-height:80vh;overflow-y:auto;color:#f0f0f0;position:relative">
+    <button id="cm-close" style="position:absolute;top:16px;right:16px;background:none;border:none;color:#aaa;font-size:20px;cursor:pointer;line-height:1;padding:4px 8px">&times;</button>
+    <h3 style="font-size:18px;font-weight:700;margin:0 0 16px;color:#fff;padding-right:30px"><span class="cookie-lang-en">Cookie Preferences</span><span class="cookie-lang-es">Preferencias de Cookies</span></h3>
+    <p style="font-size:13px;color:#aaa;margin-bottom:16px;line-height:1.6"><span class="cookie-lang-en">We use different types of cookies to optimise your experience. Click on the categories below to learn more about their purposes. You may choose which types of cookies to allow and can change your preferences at any time. Remember that disabling cookies may affect your experience. You can learn more by visiting our <a href="/cookie-policy.html" style="color:#60a5fa">Cookie Policy</a>.</span><span class="cookie-lang-es">Usamos diferentes tipos de cookies para optimizar tu experiencia. Haz clic en las categor&iacute;as para conocer sus prop&oacute;sitos. Puedes elegir qu&eacute; tipos de cookies permitir y cambiar tus preferencias en cualquier momento. Recuerda que deshabilitar cookies puede afectar tu experiencia. Puedes obtener m&aacute;s informaci&oacute;n visitando nuestra <a href="/cookie-policy.html" style="color:#60a5fa">Pol&iacute;tica de Cookies</a>.</span></p>
+    <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <input type="checkbox" checked disabled style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <div style="flex:1">
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Essential</span><span class="cookie-lang-es">Esenciales</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies are necessary for the core functionality of our website and some of its features, such as access to secure areas.</span><span class="cookie-lang-es">Estas cookies son necesarias para la funcionalidad principal de nuestro sitio web y algunas de sus caracter&iacute;sticas, como el acceso a &aacute;reas seguras.</span></p>
+        </div>
+      </div>
+    </div>
+    <div style="padding:14px 0;border-bottom:1px solid #2a2a3e">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <input type="checkbox" id="cm-analytics" checked aria-label="Enable analytics cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <div style="flex:1">
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Analytics</span><span class="cookie-lang-es">Anal&iacute;ticas</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies collect information that can help us understand how our websites are being used. This information can also be used to measure effectiveness in our marketing campaigns or to curate a personalised site experience for you.</span><span class="cookie-lang-es">Estas cookies recopilan informaci&oacute;n que nos ayuda a entender c&oacute;mo se utilizan nuestros sitios web. Tambi&eacute;n pueden usarse para medir la efectividad de nuestras campa&ntilde;as o para ofrecer una experiencia personalizada.</span></p>
+        </div>
+      </div>
+    </div>
+    
+    <div style="padding:14px 0">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <input type="checkbox" id="cm-affiliate" checked aria-label="Enable affiliate tracking cookies" style="margin-top:2px;accent-color:#3b82f6;width:18px;height:18px;flex-shrink:0">
+        <div style="flex:1">
+          <strong style="font-size:14px;color:#fff"><span class="cookie-lang-en">Affiliate Tracking</span><span class="cookie-lang-es">Seguimiento de Afiliados</span></strong>
+          <p style="font-size:12px;color:#aaa;margin:3px 0 0"><span class="cookie-lang-en">These cookies track referrals to partner retailers so we may earn commissions on qualifying purchases.</span><span class="cookie-lang-es">Estas cookies rastrean referencias a tiendas asociadas para que podamos ganar comisiones en compras.</span></p>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;margin-top:20px;justify-content:space-between;flex-wrap:wrap">
+      <button id="cm-decline" style="padding:10px 22px;border:1px solid #555;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:transparent;color:#f0f0f0;white-space:nowrap"><span class="cookie-lang-en">Decline All</span><span class="cookie-lang-es">Rechazar Todas</span></button>
+      <button id="cm-allow" style="padding:10px 22px;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:13px;background:#3b82f6;color:#fff;white-space:nowrap"><span class="cookie-lang-en">Allow All</span><span class="cookie-lang-es">Permitir Todas</span></button>
+    </div>
+  </div>
+</div>
+
+  <script defer src="/js/translations.js?v=8"></script>
+  <script defer src="/js/constants.js?v=${cacheVerConstants}"></script>
+  <script defer src="/js/app.js?v=${cacheVerJs}${dataVer}"></script>
+<script>(function(){var b=document.getElementById('cookie-banner');if(!b)return;var m=document.getElementById('cookie-modal');var c=null;var Y=31536000000;if(window.location.search.indexOf('reset-cookies')>-1)try{localStorage.removeItem('cookiePrefs')}catch(e){}try{c=JSON.parse(localStorage.getItem('cookiePrefs')||'null')}catch(e){}if(c&&c._ts&&Date.now()-c._ts>Y)c=null;var h=document.documentElement;var pg=h.getAttribute('lang');if(pg==='en'||pg==='es'){h.classList.add('lang-'+pg);document.querySelectorAll('.cookie-lang-en').forEach(function(e){e.style.removeProperty('display')});document.querySelectorAll('.cookie-lang-es').forEach(function(e){e.style.removeProperty('display')});if(pg==='es'){document.querySelectorAll('.cookie-lang-en').forEach(function(e){e.style.setProperty('display','none','important')})}else{document.querySelectorAll('.cookie-lang-es').forEach(function(e){e.style.setProperty('display','none','important')})}}if(!c){b.classList.add('cookie-visible')}else{b.classList.remove('cookie-visible');gtag('consent','update',{'analytics_storage':c.analytics?'granted':'denied'});if(c.affiliate)loadAffiliate()}function loadAffiliate(){if(!document.getElementById('impact-script')){var s=document.createElement('script');s.src='https://utt.impactcdn.com/P-A7292297-bda5-4465-a26a-2017d1cc16b51.js';s.id='impact-script';s.async=true;document.body.appendChild(s);window.impactStat=function(){}}}
+window.cookieAccept=function(){try{var p={essential:true,analytics:true,affiliate:true,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'granted'});if(b)b.style.display='none';if(m)m.style.display='none';if(p.affiliate)loadAffiliate()}
+window.cookieDecline=function(){try{var p={essential:true,analytics:false,affiliate:false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':'denied'});if(b)b.style.display='none';if(m)m.style.display='none'}
+window.cookiePrefs=function(){if(m)m.style.display='flex';try{var s=JSON.parse(localStorage.getItem('cookiePrefs')||'null')||{essential:true,analytics:true,affiliate:true};var ca=document.getElementById('cm-analytics');if(ca)ca.checked=s.analytics;var ca3=document.getElementById('cm-affiliate');if(ca3)ca3.checked=s.affiliate}catch(e){}}
+window.cookieSave=function(){try{var p={essential:true,analytics:document.getElementById('cm-analytics')?.checked??false,affiliate:document.getElementById('cm-affiliate')?.checked??false,_ts:Date.now()};localStorage.setItem('cookiePrefs',JSON.stringify(p))}catch(e){}gtag('consent','update',{'analytics_storage':p.analytics?'granted':'denied'});if(b)b.style.display='none';if(m)m.style.display='none';if(p.affiliate)loadAffiliate()};document.getElementById('cb-accept')?.addEventListener('click',window.cookieAccept);document.getElementById('cb-prefs')?.addEventListener('click',window.cookiePrefs);document.getElementById('cm-close')?.addEventListener('click',function(){if(m)m.style.display='none'});document.getElementById('cm-decline')?.addEventListener('click',window.cookieDecline);document.getElementById('cm-allow')?.addEventListener('click',window.cookieAccept);})();
+window.showAffiliateDisclosure=function(){var d=document.getElementById('affiliate-modal');if(d)d.style.display='flex'};
+window.hideAffiliateDisclosure=function(){var d=document.getElementById('affiliate-modal');if(d)d.style.display='none'};
+</script>
+<script>
+(function(){
+  var wraps=document.querySelectorAll('.guide-table-wrap');
+  if(!wraps.length)return;
+  var L='<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>';
+  var R='<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/></svg>';
+  wraps.forEach(function(w){
+    if(w.querySelector('.cat-carousel-arrow'))return;
+    var bl=document.createElement('button');bl.className='cat-carousel-arrow cat-carousel-arrow-left';bl.innerHTML=L;bl.setAttribute('aria-label','Scroll left');
+    var br=document.createElement('button');br.className='cat-carousel-arrow cat-carousel-arrow-right';br.innerHTML=R;br.setAttribute('aria-label','Scroll right');
+    w.appendChild(bl);w.appendChild(br);
+    function upd(){
+      var s=w.scrollLeft,mx=w.scrollWidth-w.clientWidth;
+      w.classList.toggle('is-scrollable',mx>10);
+      bl.classList.toggle('is-hidden',s<10);
+      br.classList.toggle('is-hidden',s>=mx-10);
+    }
+    bl.onclick=function(){w.scrollBy({left:-120,behavior:'smooth'})};
+    br.onclick=function(){w.scrollBy({left:120,behavior:'smooth'})};
+    w.addEventListener('scroll',upd);
+    upd();
+    new ResizeObserver(upd).observe(w);
+  });
+})();
+</script>
+<script>
+(function(){
+  var gText={zzounds:'zZounds',gear4music:'Gear4music',musicstore:'Music Store',andertons:'Andertons',reverb:'Reverb',amazon:'Amazon'};
+  var gPrimFont="font-weight:800;color:#FFC107";var gRowFont="font-weight:800";
+  var gStyle={zzounds:"font-family:'Poppins',Arial,sans-serif;font-weight:800;font-style:italic;color:#fff;letter-spacing:-.5px;font-size:15px",gear4music:"font-family:'Quicksand','Segoe UI',sans-serif;font-weight:700;color:#fff;letter-spacing:-.3px;font-size:15px",andertons:"font-family:'Yellowtail',cursive;font-weight:400;color:#fff;font-size:19px",musicstore:"font-family:'Open Sans Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;color:#fff;font-size:18px;letter-spacing:.5px",reverb:"font-family:'Kaushan Script',cursive;font-weight:400;color:#fff;font-size:17px"};
+  function flagRect(inner){
+    return '<svg viewBox="0 0 24 16" width="19" height="13" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px"><defs><clipPath id="flgcGeo"><rect width="24" height="16" rx="3.2"/></clipPath></defs><g clip-path="url(#flgcGeo)">'+inner+'</g><rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/></svg>';
+  }
+  function gFlag(k){
+    if(k==='zzounds'){
+      var s='<rect width="24" height="16" fill="#fff"/><g fill="#B22234">';
+      [0,2.46,4.92,7.38,9.85,12.31,14.77].forEach(function(y){s+='<rect y="'+y+'" width="24" height="1.23"/>';});
+      s+='</g><rect width="10" height="8.62" fill="#3C3B6E"/><g fill="#fff">';
+      [[1.9,1.8],[4.1,1.8],[6.3,1.8],[8.5,1.8],[3,3.1],[5.2,3.1],[7.4,3.1],[1.9,4.4],[4.1,4.4],[6.3,4.4],[8.5,4.4],[3,5.7],[5.2,5.7],[7.4,5.7]].forEach(function(p){s+='<circle cx="'+p[0]+'" cy="'+p[1]+'" r=".42"/>';});
+      return flagRect(s+'</g>');
+    }
+    if(k==='gear4music'||k==='andertons'){
+      return flagRect('<rect width="24" height="16" fill="#012169"/><path d="M0,0 L24,16 M24,0 L0,16" stroke="#fff" stroke-width="3.4"/><path d="M0,0 L24,16 M24,0 L0,16" stroke="#C8102E" stroke-width="1.3"/><path d="M12,0 V16 M0,8 H24" stroke="#fff" stroke-width="5.6"/><path d="M12,0 V16 M0,8 H24" stroke="#C8102E" stroke-width="3.4"/>');
+    }
+    if(k==='musicstore'){
+      var scx=12,scy=8,sr=5.5,ssr=1.35,pts=[],i,a,cx,cy,j,ao,ai,sp;
+      for(i=0;i<12;i++){a=(i*30-90)*Math.PI/180;cx=scx+sr*Math.cos(a);cy=scy+sr*Math.sin(a);sp='';for(j=0;j<5;j++){ao=((j*72-90)*Math.PI/180);ai=(((j*72+36)-90)*Math.PI/180);sp+=(cx+ssr*Math.cos(ao)).toFixed(2)+','+(cy+ssr*Math.sin(ao)).toFixed(2)+' ';sp+=(cx+ssr*0.38*Math.cos(ai)).toFixed(2)+','+(cy+ssr*0.38*Math.sin(ai)).toFixed(2)+' ';}pts.push(sp.trim());}
+      return '<svg viewBox="0 0 24 16" width="19" height="16" style="display:inline-block;vertical-align:-2px;flex-shrink:0;margin-right:5px"><defs><clipPath id="flgcGeo2"><rect width="24" height="16" rx="3.2"/></clipPath></defs><g clip-path="url(#flgcGeo2)"><rect width="24" height="16" fill="#003399"/>'+pts.map(function(p){return '<polygon points="'+p+'" fill="#FFCC00"/>';}).join('')+'</g><rect x=".5" y=".5" width="23" height="15" rx="2.7" fill="none" stroke="#ffffff" stroke-opacity=".35"/></svg>';
+    }
+    return '<svg viewBox="0 0 20 20" width="19" height="19" style="display:inline-block;vertical-align:-5px;flex-shrink:0;margin-right:5px"><defs><linearGradient id="glgGeo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#67c6f8"/><stop offset="1" stop-color="#2563eb"/></linearGradient><clipPath id="glcGeo"><circle cx="10" cy="10" r="8.75"/></clipPath></defs><circle cx="10" cy="10" r="8.75" fill="url(#glgGeo)"/><g clip-path="url(#glcGeo)"><path d="M2.6,6.4 Q4.4,4.2 6.6,5 Q8.5,5.7 8.2,7.5 Q7.8,9.4 5.7,9.4 Q2.9,9.3 2.6,6.4 Z" fill="#34d399"/><path d="M11.6,3.2 Q13.8,2.6 14.9,4.4 Q15.8,6 13.9,6.9 Q12,7.7 11.2,5.9 Q10.5,4.3 11.6,3.2 Z" fill="#34d399"/><path d="M11.9,11.7 Q14,10.9 15.2,12.5 Q16.3,14.2 14.6,15.5 Q12.8,16.8 11.4,15.1 Q10.2,13.5 11.9,11.7 Z" fill="#22c55e"/><path d="M4.2,12.3 Q5.8,11.7 6.6,13 Q7.3,14.3 6,15.3 Q4.5,16.3 3.5,15 Q2.6,13.5 4.2,12.3 Z" fill="#22c55e"/><ellipse cx="10" cy="10" rx="4.4" ry="8.75" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width=".7"/><path d="M1.25,10 H18.75" stroke="#ffffff" stroke-opacity=".35" stroke-width=".7"/></g><circle cx="10" cy="10" r="8.75" fill="none" stroke="#ffffff" stroke-opacity=".4"/></svg>';
+  }
+  function tmgIsEsDoc(){return (document.documentElement.lang||'en').indexOf('es')===0;}
+  function tmgPriceHtml(plain,primary){
+    if(!plain)return '';
+    var lab=tmgIsEsDoc()?'Aprox.':'Approx.';
+    var col=primary?'#ffffff':'#a8a8a8';
+    return '<span class="shop-price" data-price="'+plain+'"><span style="font-size:12px;font-weight:600;color:'+col+';font-style:italic">'+lab+'</span> '+plain+'</span>';
+  }
+  function doSwap(T){
+    document.querySelectorAll('.guide-product-card-stores, .guide-section-buy').forEach(function(c){
+    var pb=c.querySelector('.shop-btn-primary');
+    if(!pb)return;
+    var curStore=pb.getAttribute('data-store')||'';
+    if(curStore==='pluginboutique'){
+      var pbReg=(T==='musicstore')?'eu':(T==='gear4music')?'uk':'us';
+      var pbP=pb.getAttribute('data-pb-'+pbReg+'-p');
+      if(pbP){
+        var pbPE=pb.querySelector('.shop-price');
+        if(pbPE)pbPE.outerHTML=tmgPriceHtml(pbP,true);
+        else pb.innerHTML=pb.innerHTML.replace(/- [\u00a3$\u20ac][0-9.,]+/,'- '+tmgPriceHtml(pbP,true));
+      }
+      return;
+    }
+    if(curStore==='hollyland'){
+      var hr=(T==='musicstore')?'eu':(T==='gear4music')?'uk':'us';
+      var hu=pb.getAttribute('data-hu-'+hr);
+      if(hu){
+        pb.setAttribute('href',hu);
+        var hp=pb.getAttribute('data-hu-'+hr+'-p');
+        if(hp){
+          var hpEl=pb.querySelector('.shop-price');
+          if(hpEl)hpEl.outerHTML=tmgPriceHtml(hp,true);
+          else pb.innerHTML=pb.innerHTML.replace(/- [£$€][0-9.,]+/,'- '+tmgPriceHtml(hp,true));
+        }
+      }
+      return;
+    }
+    if(curStore===T)return;
+    var tmgCheckLabel=tmgIsEsDoc()?'Verificar precio':'Check Price';
+    var zRow=c.querySelector('[data-store="'+T+'"]');
+    if(!zRow)return;
+    if(!zRow.getAttribute('href'))return;
+    var ml=c.querySelector('.shop-more-list');
+    var zUrl=zRow.getAttribute('href');var zAff=zRow.getAttribute('data-aff');
+    var zAffAttr=zAff?' data-aff="'+zAff+'"':'';
+    var zPriceEl=zRow.querySelector('.shop-price');
+    var zPlain=zPriceEl?zPriceEl.getAttribute('data-price'):'';
+    var zPriceHtml=(T==='amazon')?'<span style="margin-left:auto;font-weight:700;color:#fff">'+tmgCheckLabel+'</span>':(zPlain?tmgPriceHtml(zPlain,true):'');
+    var aUrl=pb.getAttribute('href');var aAff=pb.getAttribute('data-aff');
+    var aAffAttr=aAff?' data-aff="'+aAff+'"':'';
+    var newPrimary='<a href="'+zUrl+'"'+zAffAttr+' target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\\'brightness(1.05)\\'" onmouseout="this.style.filter=\\'\\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">'+(tmgIsEsDoc()?'Comprar en':'Buy at')+'<span style="'+gPrimFont+'">'+(gText[T]||T)+'</span>'+(zPriceHtml?' - '+zPriceHtml:'')+'</span></span></a>';
+    zRow.style.display='none';
+    pb.insertAdjacentHTML('beforebegin',newPrimary);
+    pb.remove();
+    if(ml&&!ml.querySelector('[data-store="'+curStore+'"]')){
+      var dispEl=pb.querySelector('.shop-price');
+      var dispPlain=dispEl?dispEl.getAttribute('data-price'):'';
+      var dispPriceSpan = curStore==='amazon' ? '<span style="margin-left:auto;font-weight:700;color:#fff">'+tmgCheckLabel+'</span>' : (dispPlain ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">'+tmgPriceHtml(dispPlain)+'</span></span>' : '');
+      var dispNotes={zzounds:['(Planes de pago f\u00e1ciles)','(Easy Payment Plans)'],reverb:['(Mercado nuevo y usado)','(New & Used Market)'],gear4music:['(Env\u00edos r\u00e1pidos UK)','(Fast UK Delivery)'],andertons:['(Soporte experto)','(Expert Support)'],musicstore:['(Garant\u00eda de 3 a\u00f1os)','(3-Year Warranty)'],amazon:['(Env\u00edo Prime)','(Prime Delivery)']};
+      var isEs=tmgIsEsDoc();
+      var dispNote='';
+      var dispRow='<a data-store="'+curStore+'" href="'+aUrl+'"'+aAffAttr+' target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="display:flex;align-items:center">'+gFlag(curStore)+'<span style="white-space:nowrap;flex-shrink:0;'+gRowFont+'" class="shop-wm">'+(gText[curStore]||curStore)+'</span></span>'+dispNote+dispPriceSpan+'</a>';
+      
+       var orderArr=['amazon','reverb','zzounds','gear4music','andertons','musicstore'];
+       var curIdx=orderArr.indexOf(curStore);
+       var insertBefore=null;
+       for(var oi=curIdx+1;oi<orderArr.length;oi++){var c=ml.querySelector('[data-store="'+orderArr[oi]+'"]');if(c){insertBefore=c;break;}}
+       var tmpD=document.createElement('div');tmpD.innerHTML=dispRow;var dNode=tmpD.firstChild;
+       if(insertBefore)ml.insertBefore(dNode,insertBefore);else ml.appendChild(dNode);
+    }
+  });
+  }
+  function quickTarget(){
+    var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
+    var isUSTZ=/^America[\/](New_York|Chicago|Denver|Los_Angeles|Anchorage|Phoenix|Indiana|Detroit|Boise|Menominee|Kentucky|North_Dakota|Pangnirtung|Rankin_Inlet|Resolute|Yellowknife|Whitehorse|Dawson|Vancouver|Edmonton|Regina|Swift_Current|Winnipeg|Thunder_Bay|Nipigon|IQaluit|Moncton|St_Johns|Halifax|Glace_Bay|Blanc_Sablon|Atikokan|Goose_Bay|Nassau|Fortaleza|Bahia_Banderas|Curacao|Guadeloupe|Martinique|St_Barthelemy|St_Kitts|St_Lucia|St_Thomas|St_Vincent|Aruba|Turks_and_Caicos|Cayman|Bermuda|Puerto_Rico|Virgin)\\b/.test(tz);
+    if(isUSTZ)return 'zzounds';
+    if(/^Europe[/]London([/]|$)/.test(tz))return 'gear4music';
+    return null;
+  }
+  function applyNow(T){
+    if(T==='none')T='amazon';
+    if(!T)return;
+    doSwap(T);
+  }
+  var quick=quickTarget();
+  if(quick)applyNow(quick);
+  function geoZone(c){
+    var MS={'AT':1,'BE':1,'BA':1,'BG':1,'HR':1,'CZ':1,'DK':1,'EE':1,'FI':1,'FR':1,'DE':1,'GR':1,'HU':1,'IE':1,'IT':1,'LV':1,'LT':1,'LU':1,'NL':1,'NO':1,'PL':1,'PT':1,'RO':1,'RU':1,'RS':1,'SI':1,'ZA':1,'ES':1,'SE':1,'CH':1,'TR':1};
+    c=(c||'').toUpperCase();
+    return c==='US' ? 'zzounds' : c==='GB' ? 'gear4music' : MS[c] ? 'musicstore' : 'none';
+  }
+  var gres=false;
+  function gApply(c){
+    if(!c||gres)return;
+    c=(c||'').toUpperCase();
+    if(c==='XX')return;
+    gres=true;
+    applyNow(geoZone(c));
+  }
+  function gTrace(){
+    if(gres)return;
+    var t=new XMLHttpRequest();
+    t.open('GET','https://1.1.1.1/cdn-cgi/trace',true);
+    t.timeout=4000;
+    t.onload=function(){
+      try{var m=/(?:^|\\n)loc=(\\S+)/.exec(t.responseText);if(m&&m[1]){gApply(m[1]);return;}}catch(e){}
+      gTz();
+    };
+    t.onerror=t.ontimeout=function(){gTz();};
+    t.send();
+  }
+  var y=new XMLHttpRequest();
+  y.open('GET','https://ipinfo.io/json',true);
+  y.timeout=4000;
+  y.onload=function(){
+    try{var r=JSON.parse(y.responseText);if(r&&r.country){gApply(r.country);return;}}catch(e){}
+    gSecond();
+  };
+  y.onerror=y.ontimeout=function(){gSecond();};
+  function gTz(){
+    if(typeof gres!=='undefined'&&gres)return;
+    var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
+    if(/^Europe\\//.test(tz)){try{gres=true;}catch(e){}applyNow('musicstore');}
+  }
+  y.send();
+  function gSecond(){
+    if(gres)return;
+    var q=new XMLHttpRequest();
+    q.open('GET','https://ipapi.co/json/',true);
+    q.timeout=4000;
+    q.onload=function(){
+      try{var r2=JSON.parse(q.responseText);if(r2&&r2.country_code){gApply(r2.country_code);return;}}catch(e){}
+      gTrace();
+    };
+    q.onerror=q.ontimeout=function(){gTrace();};
+    q.send();
+  }
+})();
+</script>
+</body>
+</html>`;
+}
+
+function ko(strings, ...values) {
+  return strings.reduce((acc, s, i) => acc + s + (values[i] || ''), '');
+}
+
+// ===== GENERATE =====
+const outDir = path.join(dir, 'guides');
+if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
+
+var onlyIds = process.env.ONLY_GUIDES ? process.env.ONLY_GUIDES.split(',') : null;
+guides.forEach((guide, idx) => {
+  if (onlyIds && onlyIds.indexOf(guide.id) === -1) return;
+  ['en', 'es'].forEach(lang => {
+    const html = buildGuidePage(guide, lang, idx);
+    const filename = lang === 'es' ? `${guide.id}_es.html` : `${guide.id}.html`;
+    fs.writeFileSync(path.join(outDir, filename), html, 'utf8');
+    console.log(`Generated: guides/${filename}`);
+  });
+});
+
+// ===== GENERATE SITEMAP =====
+function buildSitemap() {
+  const site = 'https://topmusiciangear.com';
+  const staticPages = [
+    { loc: '/', priority: '1.0', changefreq: 'weekly' },
+    { loc: '/about.html', priority: '0.7', changefreq: 'monthly' },
+    { loc: '/contact.html', priority: '0.5', changefreq: 'monthly' },
+    { loc: '/affiliate-disclosure.html', priority: '0.4', changefreq: 'monthly' },
+    { loc: '/cookie-policy.html', priority: '0.4', changefreq: 'monthly' },
+    { loc: '/terms.html', priority: '0.4', changefreq: 'monthly' },
+    { loc: '/privacy-policy.html', priority: '0.4', changefreq: 'monthly' },
+    { loc: '/404.html', priority: '0.1', changefreq: 'monthly' } ];
+  var urls = staticPages.map(p => `<url><lastmod>${today}</lastmod><loc>${site}${p.loc}</loc><changefreq>${p.changefreq}</changefreq><priority>${p.priority}</priority></url>`);
+  guides.forEach((guide, idx) => {
+    var d = guideDates(guide, idx).modified;
+    ['', '_es'].forEach(sfx => {
+      urls.push(`<url><lastmod>${d}</lastmod><loc>${site}/guides/${guide.id}${sfx}.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>`);
+    });
+  });
+  var xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls.join('\n') + '\n</urlset>';
+  fs.writeFileSync(path.join(dir, 'sitemap.xml'), xml, 'utf8');
+  console.log('Generated: sitemap.xml (' + (urls.length) + ' URLs)');
+}
+buildSitemap();
+
+// ===== UPDATE CACHE BUSTERS & INJECT CRAWLABLE GUIDE LINKS INTO INDEX.HTML =====
+(function updateIndexHtml() {
+  var indexFile = path.join(dir, 'index.html');
+  var html = fs.readFileSync(indexFile, 'utf8');
+  // Update CSS cache buster
+  html = html.replace(/(css\/style\.min\.css\?v=)[a-zA-Z0-9]+/g, '$1' + cacheVerCss);
+  // Update JS cache buster (min.js first to avoid partial match by app.js regex)
+  // Append dataVer so JS cache busters change when guides.json data changes
+  var jsVer = cacheVerJsMin + dataVer;
+  html = html.replace(/(js\/app\.min\.js\?v=)[a-zA-Z0-9]+/g, '$1' + jsVer);
+  html = html.replace(/(js\/app\.js\?v=)[a-zA-Z0-9]+/g, '$1' + cacheVerJs + dataVer);
+  // Sync inline version check: record latest version in localStorage for diagnostics
+  // WITHOUT reloading the page (the old location.replace() caused NO_FCP in Lighthouse
+  // by navigating away before first paint under throttled network).
+  var verCheck = "<script>(function(){try{var a=localStorage.getItem('tmg_v');var u='https://api.github.com/repos/topmusiciangear/topmusiciangear.github.io/contents/version.txt?ref=main&v='+Date.now();function gv(){return fetch(u,{headers:{Accept:'application/vnd.github.v3.raw'}}).then(function(r){if(r.ok)return r;return fetch('/version.txt?t='+Date.now())})}gv().then(function(r){return r.text()}).then(function(b){b=b.trim();if(a===b)return;localStorage.setItem('tmg_v',b)})}catch(e){}})();</script>";
+  html = html.replace(/<script>\(function\(\)\{try\{var a=localStorage\.getItem\('tmg_v'\)[\s\S]*?<\/script>/, verCheck);
+  // Fallback: if pattern above did not match, replace the version literal only
+  html = html.replace(/var v="[a-zA-Z0-9]+"/, 'var v="' + jsVer + '"');
+  // Always write index.html (cache busters may have changed)
+  // The old .crawl-guides block injected ~5MB of ~50k hidden hreflang links into
+  // the homepage, which the browser had to parse before first paint (Lighthouse
+  // NO_FCP / slow home). All guide URLs are already fully indexed by
+  // sitemap.xml (built above) and listed in robots.txt, so discovery is
+  // preserved without the hidden-text block (which Google also discourages).
+  var marker = '<!-- CRAWLABLE_GUIDE_LINKS -->';
+  if (html.indexOf(marker) !== -1) {
+    // Remove the entire hidden crawl-guides div + marker from the homepage.
+    html = html.replace(/<div class="crawl-guides">[\s\S]*?<\/div>/, '');
+    html = html.replace(/<!--\s*CRAWLABLE_GUIDE_LINKS\s*-->/g, '');
+    // Drop the now-unused crawl-guides CSS rule if present.
+    html = html.replace(/\.crawl-guides\{[^}]*\}\s*/g, '');
+  }
+  fs.writeFileSync(indexFile, html, 'utf8');
+  // Sync version.txt with the JS cache buster hash
+  try { fs.writeFileSync(path.join(dir, 'version.txt'), jsVer, 'utf8'); console.log('Updated: version.txt (' + jsVer + ')'); } catch(e) { console.log('Warning: could not update version.txt (' + e.message + ')'); }
+})();
+
+// ===== GENERATE IMAGE SITEMAP =====
+// Include self-hosted images from guides, products, and the img/ folder
+function buildImageSitemap() {
+  const site = 'https://topmusiciangear.com';
+  var imgUrls = [];
+  var seen = new Set();
+  var imgDir = path.join(dir, 'img');
+  // All .webp files in img/ folder
+  try {
+    var files = fs.readdirSync(imgDir);
+    files.filter(function(f) { return f.endsWith('.webp'); }).forEach(function(f) {
+      var imgPath = site + '/img/' + f;
+      if (!seen.has(imgPath)) { seen.add(imgPath); imgUrls.push(imgPath); }
+    });
+  } catch(e) {}
+  // guide images that are self-hosted (not already in img/)
+  guides.forEach(g => {
+    if (g.image && !g.image.startsWith('http')) {
+      var imgPath = site + '/' + normImg(g.image);
+      if (!seen.has(imgPath)) { seen.add(imgPath); imgUrls.push(imgPath); }
+    }
+  });
+  // product images that are self-hosted
+  products.forEach(p => {
+    if (p.img && !(p.img||"").startsWith('http')) {
+      var imgPath = site + '/' + normImg(p.img);
+      if (!seen.has(imgPath)) { seen.add(imgPath); imgUrls.push(imgPath); }
+    }
+  });
+  var xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  imgUrls.forEach(u => { xml += '\n  <url><loc>' + u + '</loc><lastmod>' + today + '</lastmod></url>'; });
+  xml += '\n</urlset>';
+  fs.writeFileSync(path.join(dir, 'sitemap-images.xml'), xml, 'utf8');
+  console.log('Generated: sitemap-images.xml (' + imgUrls.length + ' images)');
+}
+buildImageSitemap();
+
+// Write back pre-bolded data/guides.json for SPA consumption
+// GUARD: never persist stringified-guide corruption (e.g. whole JSON dumped into
+// intro/intro_es/conclusion/verdict). Fail loudly instead of deploying broken pages.
+guides.forEach(g => {
+  ['intro', 'intro_es', 'conclusion', 'conclusion_es', 'verdict', 'verdict_es', 'description', 'description_es'].forEach(f => {
+    var v = g[f];
+    if (typeof v === 'string' && v.indexOf('{"id":') > -1) throw new Error('CORRUPT ' + g.id + '.' + f + ': contains stringified guide JSON. Restore from git history, do not deploy.');
+  });
+});
+fs.writeFileSync(path.join(dir, 'data', 'guides.json'), JSON.stringify(guides, null, 2), 'utf8');
+console.log('Updated: data/guides.json with pre-bolded content');
+
+console.log(`\nDone! Generated ${guides.length * 2} guide pages.`);

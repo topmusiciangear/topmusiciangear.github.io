@@ -1,0 +1,20 @@
+﻿ ? (CURRENT_LANG === 'es' ? ' (Unidad)' : ' (Each)') : p.unit === 'pair' ? (CURRENT_LANG === 'es' ? ' (Par)' : ' (Pair)') : p.unit === 'headset' ? (CURRENT_LANG === 'es' ? ' (2 auriculares)' : ' (2 headsets)') : '';
+    var base = (CURRENT_LANG === 'es' && p.title_es ? p.title_es : p.title);
+    var full = base + unitLabel;
+    var s = g[full];
+    if (s === undefined) s = g[base];
+    if (s === undefined && unitLabel) s = g[full.replace(/ \(.*\)$/, '')];
+    if (s === undefined) {
+      var nk = base.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      s = g['#' + nk];
+    }
+    if (s !== undefined && s !== null) return s;
+  }
+  return p.score;
+}
+
+function scoreBadge(p, lang) {
+  var gs = guideScore(p, CURRENT_GUIDE_ID);
+  if (gs === undefined || gs === null) return '';
+  var score = Number(gs).toFixed(1);
+  var pct = (Number(gs) - 5) / 5 * 100

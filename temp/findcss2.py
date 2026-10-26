@@ -1,0 +1,6 @@
+src = open('build-guides.js', encoding='utf-8').read()
+i = src.find('@media(min-width:901px){.qf-card{padding:6px 8px')
+print(repr(src[i:i+160]))
+print('---')
+i2 = src.find('.qf-bestfor{padding:3px 6px;gap:0}')
+print(repr(src[i2:i2+80]))

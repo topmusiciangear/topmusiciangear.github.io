@@ -1,0 +1,104 @@
+﻿=== LINE 2007 ===
+    box-shadow: 2px 0 6px rgba(0,0,0,.5) !important;
+  }
+}
+.guide-section-imgs {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.guide-section-img {
+  width: 120px;
+
+=== LINE 2013 ===
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.guide-section-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  padding: 4px;
+  box-sizing: border-box;
+  border-radius: var(--radius-sm);
+  background: var(--white);
+
+=== LINE 2025 ===
+  transition: transform .2s ease;
+}
+
+.guide-section-img:hover {
+  transform: scale(1.08);
+}
+
+.guide-video-thumb {
+  position: relative;
+  width: 120px;
+  height: 120px;
+
+=== LINE 2143 ===
+  box-sizing: border-box;
+}
+
+.guide-section-img.guide-section-img--cutout {
+  background: #5a5a5a;
+  object-fit: contain;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.guide-detail .guide-detail-img.guide-detail-img--cutout {
+
+=== LINE 2514 ===
+  margin-top: 16px;
+  align-items: flex-start;
+}
+.guide-section-mediabuy > .guide-section-imgs {
+  margin-top: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.guide-section-mediabuy > .guide-section-buy {
+  margin-top: 0;
+  flex: 0 0 340px;
+
+=== LINE 2545 ===
+.guide-section-mediabuy .shop-btn-more {
+  white-space: nowrap;
+}
+.guide-section-mediabuy .guide-section-img,
+.guide-section-mediabuy .guide-video-thumb {
+  width: 160px;
+  height: 160px;
+}
+@media (max-width: 640px) {
+  .guide-section-mediabuy {
+    flex-direction: column;
+
+=== LINE 2559 ===
+    width: 100%;
+    max-width: none;
+  }
+  .guide-section-mediabuy > .guide-section-imgs {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .guide-section-mediabuy .guide-section-img,
+  .guide-section-mediabuy .guide-video-thumb {
+    flex: 1 1 0;
+    min-width: 0;
+
+=== LINE 2563 ===
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .guide-section-mediabuy .guide-section-img,
+  .guide-section-mediabuy .guide-video-thumb {
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+

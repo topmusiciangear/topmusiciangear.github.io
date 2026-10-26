@@ -1,0 +1,10 @@
+const fs=require('fs');
+const B='C:/Users/Daniel/projects/topmusiciangear/';
+const p=JSON.parse(fs.readFileSync(B+'data/products.json','utf8'));
+const maxEn=Math.max(...p.map(x=>(x.desc||'').length));
+const maxEs=Math.max(...p.map(x=>(x.desc_es||'').length));
+console.log('max EN desc length:', maxEn);
+console.log('max ES desc length:', maxEs);
+const long=p.filter(x=>(x.desc||'').length>200);
+console.log('descs >200 chars:', long.length);
+for(const pr of long.slice(0,10)) console.log(pr.id, pr.desc.length, pr.title);

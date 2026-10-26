@@ -1,0 +1,122 @@
+﻿=== guide-section-mediabuy
+guide-section-mediabuy {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  align-items: flex-start;
+}
+.guide-section-mediabuy > .guide-section-imgs {
+  margin-top: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.guide-section-mediabuy > .guide-section-buy {
+  margin-top: 0;
+  flex: 0 0 340px;
+  width: 340px;
+  max-width: 100%;
+  min-width: 0;
+  align-content: flex-start;
+}
+@media (min-width:901px) {
+  .
+
+=== guide-section-imgs
+guide-section-imgs {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.guide-section-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  padding: 4px;
+  box-sizing: border-box;
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  display: block;
+  transition: transform .2s ease;
+}
+
+.guide-section-img:hover {
+  transform: scale(1.08);
+}
+
+.guide-video-th
+
+=== guide-section-img
+guide-section-imgs {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.guide-section-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  padding: 4px;
+  box-sizing: border-box;
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  display: block;
+  transition: transform .2s ease;
+}
+
+.guide-section-img:hover {
+  transform: scale(1.08);
+}
+
+.guide-video-th
+
+=== guide-section-buy
+guide-section-buy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+  align-items: center;
+}
+.guide-section-buy .chip-store {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Media (foto/video) + botones de compra lado a lado */
+.guide-section-mediabuy {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  align-items: flex-start;
+}
+.guide-section-mediabuy > .guide-section-imgs {
+ 
+
+=== guide-section-wide
+guide-section-wide {
+  grid-column: 1 / -1;
+}
+
+/* Guide Verdict */
+.guide-verdict {
+  display: block;
+  background: rgba(59,130,246,.08);
+  border: 1px solid rgba(59,130,246,.2);
+  border-radius: var(--radius);
+  padding: 14px 22px;
+  margin-bottom: 40px;
+}
+
+.verdict-label {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 12px;
+}
+
+.verdict-text {
+  font-size: 15px;
+ 
+

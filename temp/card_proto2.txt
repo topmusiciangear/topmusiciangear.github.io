@@ -1,0 +1,58 @@
+﻿=== 256 desc 69 -> 48
+The MPC One G2 is the newest standalone MPC: an 8-core processor with four times the power of the previous generation, a 7-inch touchscreen, 16 velocity-sensitive RGB pads, USB-C with 24x24 audio, and MPC3 OS with up to 16 stereo audio tracks and 32 plugin instruments per project.
+=== 256 desc_es 79 -> 36
+El MPC One G2 es el MPC independiente m├ís nuevo: un procesador de 8 n├║cleos con cuatro veces la potencia de la generaci├│n anterior, pantalla t├íctil de 7 pulgadas, 16 pads RGB sensibles a la velocidad.
+=== 456 desc 60 -> 44
+A warhorse reborn in Bozeman. The Historic 1942 Banner J-45 recreates the fabled wartime acoustic with a thermally aged Adirondack red spruce top and hide glue construction for that warm, wooly, deeply romantic pre-war tone that made the J-45 a studio and stage staple.
+=== 456 desc_es 73 -> 53
+Un todoterreno renacido en Bozeman. La Historic 1942 Banner J-45 recrea la c├®lebre ac├║stica de la guerra con tapa de abeto rojo Adirondack termotratado y ensamblado con cola de hueso para lograr ese tono c├ílido, aterciopelado y profundamente rom├íntico de preguerra que convirti├│ a la J-45 en un cl├ísico de estudio y escenario.
+=== 577 desc 45 -> 45
+ZoomÔÇÖs flagship floor multi-effects: 5-inch color touchscreen with drag-and-drop chaining of amp plus up to nine effects, 22 cab emulations with 70 built-in IRs plus 130 user slots, 240 patches, 5-minute stereo looper, 68 rhythm patterns, dual send/return loops, 5-pin MIDI and USB audio interface.
+=== 577 desc_es 59 -> 46
+El multiefectos insignia de Zoom: pantalla t├íctil a color de 5 pulgadas con encadenado por arrastre de ampli m├ís hasta nueve efectos, 22 emulaciones de pantalla con 70 IR integrados m├ís 130 ranuras de usuario, 240 patches, looper est├®reo de cinco minutos, 68 patrones de ritmo.
+=== 332 desc 40 -> 40
+The all-in-one hybrid workstation: a 10-channel analog mixer with 8 Ultra-HDDA mic preamps, one-knob compressor and sweepable 3-band EQ on every channel, plus a built-in SD multitrack recorder, 12-in/10-out USB-C audio interface, HUI/MCU DAW control, Bluetooth 5.0 and podcasting mix-minus.
+=== 332 desc_es 51 -> 51
+La estaci├│n de trabajo h├¡brida todo en uno: mezclador anal├│gico de 10 canales con 8 preamplificadores Ultra-HDDA, compresor de un knob y EQ de 3 bandas barrido medio en cada canal, m├ís grabador multipista SD integrado, interfaz USB-C de 12 entradas/10 salidas, control DAW HUI/MCU, Bluetooth 5.0 y mix-minus para podcast.
+=== 1052 desc 48 -> 48
+Alesis ELEVATE 4 studio monitors, sold as a pair. Elliptical tweeter waveguide for a wide sweet spot, dedicated subwoofer output, dense MDF cabinet, 4-inch woofer and 1-inch silk dome tweeter, 50 W RMS (25 W per channel, Class AB), 68 Hz-20 kHz, front headphone jack and bass-boost switch.
+=== 1052 desc_es 59 -> 46
+Monitores de estudio Alesis ELEVATE 4, vendidos por pares. Gu├¡a de ondas el├¡ptica para un punto dulce amplio, salida dedicada para subwoofer, gabinete de MDF denso, woofer de 4 pulgadas y tweeter de seda de 1 pulgada, 50 W RMS (25 W por canal, Clase AB).
+=== 561 desc 47 -> 47
+A 20-input stagebox mixer with no screen to babysit. 16 mic preamps (8 XLR + 8 combi), 96kHz FPGA processing under 0.7 ms, Gain Assistant, Feedback Assistant and FX Assist, 4 multi-FX engines, 24x24 USB plus 24x24 SD recording, dual-band Wi-Fi and Bluetooth playback at 2.6 kg.
+=== 561 desc_es 66 -> 44
+Mezclador stagebox de 20 entradas sin pantalla que cuidar. 16 previos de micro (8 XLR + 8 combo), procesado FPGA a 96kHz bajo 0,7 ms, Gain Assistant, Feedback Assistant y FX Assist, 4 motores multi-FX, interfaz USB 24x24, grabaci├│n en SD a 48kHz (m├íx.
+=== 508 desc 73 -> 36
+The Hollyland MELO P1 is an all-in-one wireless record-and-mix studio: a 1-inch large-diaphragm condenser with AI noise cancelling feeds a 55g Dual-DSP smart mixer that blends up to four sources in real time with 32-bit processing.
+=== 508 desc_es 89 -> 47
+El Hollyland MELO P1 es un estudio inal├ímbrico todo-en-uno de grabaci├│n y mezcla: un condensador de diafragma grande de 1 pulgada con cancelaci├│n de ruido por IA alimenta una mezcladora inteligente Dual-DSP de 55g que combina hasta cuatro fuentes en tiempo real con procesamiento de 32 bits.
+
+BUCKETS {
+  '<15': 12,
+  '15-24': 268,
+  '25-31': 237,
+  '32-37': 170,
+  '38-46': 399,
+  '47-54': 132,
+  '55+': 0
+}
+outliers 517
+12 1038 desc NUGEN Audio ISL 2st | cal transparency with inter-sample peak detection.
+13 166 desc_es Hofner Ignition Violin Bass (Beatle Bass) |  Cuerpo hueco, incre├¡blemente ligero, tono c├ílido.
+13 512 desc Neumann MT 48 (U) Premium Audio Interface | amps to 78dB, touchscreen, DSP EQ+dynamics+reverb.
+14 26 desc Sony MDR-7506 | ibly reliable. Trusted by professionals worldwide.
+14 166 desc Hofner Ignition Violin Bass (Beatle Bass) | low body, incredibly lightweight, warm woody tone.
+14 429 desc Blue Yeti Nano USB Condenser Microphone | 24-bit audio, and no-latency headphone monitoring.
+14 431 desc sE Electronics V7 Dynamic Microphone | metal construction, and gold-plated XLR connector.
+14 512 desc_es Neumann MT 48 (U) Premium Audio Interface | sta 78dB, pantalla t├íctil, DSP EQ+din├ímica+reverb.
+14 617 desc Roland Aira Compact P-6 | , rechargeable battery, and Roland master effects.
+14 1010 desc Audiomodern Playbeat 4 | velocity control, and one-click pattern variation.
+14 1030 desc Zynaptiq Unveil | ustics from recordings made in problematic spaces.
+14 1039 desc Synchro Arts RePitch 2 Standard + VocAlign 7 Pro Bundle | industry-standard timing alignment in one package.
+...long tail...
+31 657 desc sE Electronics sE2200 | dB pads and 80/160 Hz filters. Real analog weight.
+31 673 desc Aston Microphones Origin | with built-in pop filter; needs 48V phantom power.
+31 676 desc_es Audient Horizon 8P | o a 0,99ms. DB25, ADAT, doble monitor; solo macOS.
+31 679 desc IK Multimedia AXE I/O | 24-bit/192kHz, AmpliTube 5 SE + TONEX SE included.
+31 1042 desc PreSonus Eris 3.5 2nd Gen | ith plus or minus 6 dB trims at 100 Hz and 10 kHz.
+31 1049 desc_es Behringer Truth 3.5 BT | gu├¡a de ondas avanzada y ajustes a 70 Hz y 12 kHz.

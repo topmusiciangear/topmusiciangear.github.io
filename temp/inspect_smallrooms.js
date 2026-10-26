@@ -1,0 +1,13 @@
+const fs=require('fs');
+const g=JSON.parse(fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/data/guides.json','utf8'));
+const gu=g.find(x=>x.id==='best-monitors-for-small-rooms');
+console.log('id:', gu.id);
+console.log('title:', gu.title);
+console.log('title_es:', gu.title_es);
+console.log('featuredProducts:', JSON.stringify(gu.featuredProducts));
+console.log('sections count:', gu.sections.length);
+console.log('sections headings:', gu.sections.map(s=>s.heading).join(' | '));
+console.log('productTable columns titles:', gu.productTable.columns.map(c=>c.title).join(' | '));
+console.log('verdictProsCons names:', gu.verdictProsCons.map(v=>v.name).join(' | '));
+console.log('featuredSnippet title_en:', gu.featuredSnippet.title_en);
+console.log('faq count:', Object.keys(gu.featuredSnippet).filter(k=>k.startsWith('faq_q')).length);

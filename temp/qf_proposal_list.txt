@@ -1,0 +1,105 @@
+1 Shure SM7B :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('180+ dB', 'Max SPL')] -> Dynamic / Cardioid / ('180 dB', 'Max SPL', 'gauge')
+2 Neumann U 87 Ai :: ours=[('Condenser', 'Type'), ('3 patterns', 'Pattern'), ('12 dB-A', 'Self-noise')] -> Condenser / Figure-8 / ('12 dB-A', 'Self-noise', 'volumeHigh')
+[NO TABLE] 3 Rode NT1 5th Generation :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('4 dB-A', 'Self-noise')] type=None pat=None
+4 AKG C414 XLII :: ours=[('Condenser', 'Type'), ('9 patterns', 'Pattern'), ('6 dB-A', 'Self-noise')] -> Condenser / 9 patterns / ('6 dB-A', 'Self-noise', 'volumeHigh')
+5 Shure SM57 :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('150+ dB', 'Max SPL')] -> Dynamic / Cardioid / None
+50 Shure SM58 :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('150+ dB', 'Max SPL')] -> Dynamic / Cardioid / None
+51 Sennheiser MD 421 Kompakt :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('146 dB', 'Max SPL')] -> Dynamic / Cardioid / None
+52 Electro-Voice RE20 :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('146 dB', 'Max SPL')] -> Dynamic / Multi-pattern / None
+91 Shure BLX288/PG58 :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('Wireless', 'System')] -> Dynamic / Cardioid / ('UHF', 'Band', 'wave')
+[NO TABLE] 92 Sennheiser EW 100 G4-935 :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('Wireless', 'System')] type=None pat=Cardioid
+93 Sennheiser EW-D Dual Wireless System :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('Digital', 'System')] -> Wireless / Cardioid / ('UHF', 'Band', 'wave')
+[NO TABLE] 95 Sennheiser EW-D 835-S :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('Digital', 'System')] type=None pat=Cardioid
+[NO TABLE] 187 Lewitt LCT1040 Ultimate Microphone System :: ours=[('Condenser', 'Type'), ('Multi-pattern', 'Pattern'), ('10 dB-A', 'Self-noise')] type=None pat=None
+[NO TABLE] 194 Shure MV7+ :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('USB/XLR', 'Output')] type=None pat=None
+[NO TABLE] 195 Elgato Wave:3 :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] type=None pat=None
+196 Audio-Technica AT2020 Studio Condenser Microphone :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('20 dB', 'Self-noise')] -> Condenser / Cardioid / ('20 dB-A', 'Self-noise', 'volumeHigh')
+197 Rode PodMic :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('USB/XLR', 'Output')] -> Dynamic / Cardioid / None
+206 Royer R-121 :: ours=[('Ribbon', 'Type'), ('Figure-8', 'Pattern'), ('135 dB', 'Max SPL')] -> Ribbon / Figure-8 / ('160 dB', 'Max SPL', 'gauge')
+207 Coles 4038 :: ours=[('Ribbon', 'Type'), ('Figure-8', 'Pattern'), ('125 dB', 'Max SPL')] -> Ribbon / Figure-8 / None
+208 Neumann KM 184 :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('13 dB-A', 'Self-noise')] -> Condenser / Cardioid / ('13 dB-A', 'Self-noise', 'volumeHigh')
+209 Austrian Audio OC818 :: ours=[('Condenser', 'Type'), ('Multi-pattern', 'Pattern'), ('9 dB-A', 'Self-noise')] -> Condenser / Multi-pattern / ('9 dB-A', 'Self-noise', 'volumeHigh')
+210 Sennheiser e 906 :: ours=[('Dynamic', 'Type'), ('Supercardioid', 'Pattern'), ('150+ dB', 'Max SPL')] -> Dynamic / Supercardioid / None
+211 Beyerdynamic M 201 TG :: ours=[('Dynamic', 'Type'), ('Hypercardioid', 'Pattern'), ('146 dB', 'Max SPL')] -> Dynamic / Hypercardioid / None
+212 Shure Beta 52A :: ours=[('Dynamic', 'Type'), ('Supercardioid', 'Pattern'), ('174 dB', 'Max SPL')] -> Dynamic / Supercardioid / ('174 dB', 'Max SPL', 'gauge')
+213 Audix D6 :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('144 dB', 'Max SPL')] -> Dynamic / Cardioid / ('144 dB', 'Max SPL', 'gauge')
+214 Sennheiser e 604 :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('160 dB', 'Max SPL')] -> Dynamic / Cardioid / ('160 dB', 'Max SPL', 'gauge')
+215 DPA 4099 CORE :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('142 dB', 'Max SPL')] -> Condenser / Supercardioid / ('23 dB-A', 'Self-noise', 'volumeHigh')
+226 Shure Beta 58A :: ours=[('Dynamic', 'Type'), ('Supercardioid', 'Pattern'), ('150+ dB', 'Max SPL')] -> Dynamic / Supercardioid / ('140 dB', 'Max SPL', 'gauge')
+227 Sennheiser e935 :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('150+ dB', 'Max SPL')] -> Dynamic / Cardioid / None
+228 Sennheiser e945 :: ours=[('Dynamic', 'Type'), ('Supercardioid', 'Pattern'), ('150+ dB', 'Max SPL')] -> Dynamic / Supercardioid / None
+229 Telefunken M80 :: ours=[('Dynamic', 'Type'), ('Supercardioid', 'Pattern'), ('146 dB', 'Max SPL')] -> Dynamic / Supercardioid / None
+230 AKG D5 :: ours=[('Dynamic', 'Type'), ('Supercardioid', 'Pattern'), ('147 dB', 'Max SPL')] -> Dynamic / Supercardioid / ('147 dB', 'Max SPL', 'gauge')
+231 Audix OM7 :: ours=[('Dynamic', 'Type'), ('Hypercardioid', 'Pattern'), ('144 dB', 'Max SPL')] -> Dynamic / Hypercardioid / None
+232 Electro-Voice ND86 :: ours=[('Dynamic', 'Type'), ('Supercardioid', 'Pattern'), ('143 dB', 'Max SPL')] -> Dynamic / Supercardioid / ('140 dB', 'Max SPL', 'gauge')
+[NO TABLE] 249 DJI Mic 3 (2TX + 1RX + Charging Case) :: ours=[('Wireless', 'Type'), ('Omni', 'Pattern'), ('2.4 GHz', 'Band')] type=None pat=None
+[NO TABLE] 250 Rode Wireless PRO :: ours=[('Wireless', 'Type'), ('Omni', 'Pattern'), ('2.4 GHz', 'Band')] type=None pat=None
+[NO TABLE] 251 Hollyland Lark M2 :: ours=[('Wireless', 'Type'), ('Omni', 'Pattern'), ('2.4 GHz', 'Band')] type=None pat=None
+[NO TABLE] 252 Rode PodMic USB :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('USB/XLR', 'Output')] type=None pat=None
+[NO TABLE] 253 HyperX QuadCast 2 :: ours=[('Condenser', 'Type'), ('4 patterns', 'Pattern'), ('USB', 'Output')] type=None pat=None
+[NO TABLE] 254 DJI Mic Mini 2 (2TX + 1RX + Charging Case) :: ours=[('Wireless', 'Type'), ('Omni', 'Pattern'), ('2.4 GHz', 'Band')] type=None pat=None
+276 Samson Q2U USB/XLR Microphone :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('USB/XLR', 'Output')] -> Dynamic / Cardioid / ('148 dB', 'Max SPL', 'gauge')
+277 Maono PD200X Dynamic Microphone :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('USB/XLR', 'Output')] -> Dynamic / Cardioid / ('130 dB', 'Max SPL', 'gauge')
+278 FIFINE AmpliTank K688 Dynamic USB/XLR Microphone :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('USB/XLR', 'Output')] -> Dynamic / Cardioid / ('130 dB', 'Max SPL', 'gauge')
+279 FIFINE AmpliGame AM8 Dynamic USB Microphone :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] -> Dynamic / Cardioid / ('16-bit/48 kHz', 'Sample rate', 'sliders')
+280 Razer Seiren V3 Mini :: ours=[('Condenser', 'Type'), ('Supercardioid', 'Pattern'), ('USB', 'Output')] -> Condenser / Supercardioid / ('24-bit/96 kHz', 'Sample rate', 'sliders')
+[NO TABLE] 281 HyperX SoloCast 2 :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] type=None pat=None
+284 Maono PM461 USB Microphone :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] -> Condenser / Cardioid / None
+[NO TABLE] 286 Audio-Technica AT2040USB :: ours=[('Dynamic', 'Type'), ('Hypercardioid', 'Pattern'), ('USB', 'Output')] type=None pat=None
+287 TONOR TC-777 USB Microphone :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] -> Condenser / Cardioid / None
+289 FIFINE AmpliGame A6V USB Gaming Microphone :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] -> Condenser / Cardioid / None
+[NO TABLE] 290 Rode XCM-50 Compact USB Condenser Microphone :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] type=None pat=None
+[NO TABLE] 291 Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] type=None pat=None
+292 Rode NT-USB Mini Studio Condenser Microphone :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] -> Condenser / Cardioid / ('24-bit/48 kHz', 'Sample rate', 'sliders')
+297 Rode NT1 Signature Series :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('4 dB-A', 'Self-noise')] -> Condenser / Cardioid / ('4 dB-A', 'Self-noise', 'volumeHigh')
+298 Audio-Technica AT2035 :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('12 dB-A', 'Self-noise')] -> Condenser / Cardioid / ('148 dB', 'Max SPL', 'gauge')
+[NO TABLE] 299 Sennheiser Profile Streaming Set :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] type=None pat=None
+321 Shure SM7dB :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('USB/XLR', 'Output')] -> Dynamic / Cardioid / None
+[NO TABLE] 329 Rode Procaster :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('XLR', 'Output')] type=None pat=None
+330 Behringer XM8500 Ultravoice Dynamic Microphone :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('XLR', 'Output')] -> Dynamic / Cardioid / None
+[NO TABLE] 339 Sennheiser MKH 416 Shotgun Microphone :: ours=[('Shotgun', 'Type'), ('Lobar', 'Pattern'), ('XLR', 'Output')] type=Condenser pat=None
+[NO TABLE] 340 Rode NTG5 Shotgun Microphone Kit :: ours=[('Shotgun', 'Type'), ('Supercardioid', 'Pattern'), ('XLR', 'Output')] type=None pat=None
+[NO TABLE] 341 Rode NTG3 Shotgun Microphone :: ours=[('Shotgun', 'Type'), ('Supercardioid', 'Pattern'), ('XLR', 'Output')] type=None pat=None
+[NO TABLE] 342 Sennheiser MKE 600 Shotgun Microphone :: ours=[('Shotgun', 'Type'), ('Lobar', 'Pattern'), ('XLR', 'Output')] type=Condenser pat=None
+[NO TABLE] 343 Audio-Technica AT897 Shotgun Microphone :: ours=[('Shotgun', 'Type'), ('Lobar', 'Pattern'), ('XLR', 'Output')] type=None pat=None
+[NO TABLE] 344 Deity S-Mic 3 Shotgun Microphone :: ours=[('Shotgun', 'Type'), ('Supercardioid', 'Pattern'), ('XLR', 'Output')] type=Condenser pat=None
+[NO TABLE] 345 Rode VideoMic NTG On-Camera Shotgun :: ours=[('Shotgun', 'Type'), ('Supercardioid', 'Pattern'), ('USB/XLR', 'Output')] type=None pat=None
+[NO TABLE] 346 Sennheiser MKE 400 Compact Shotgun :: ours=[('Shotgun', 'Type'), ('Supercardioid', 'Pattern'), ('3.5mm', 'Output')] type=None pat=None
+[NO TABLE] 358 Audio-Technica AT875R Short Shotgun Microphone :: ours=[('Shotgun', 'Type'), ('Lobar', 'Pattern'), ('XLR', 'Output')] type=None pat=None
+[NO TABLE] 359 Rode VideoMic GO II Helix On-Camera Shotgun :: ours=[('Shotgun', 'Type'), ('Supercardioid', 'Pattern'), ('USB/3.5mm', 'Output')] type=None pat=None
+[NO TABLE] 360 Sennheiser MKH 50-P48 Supercardioid Microphone :: ours=[('Condenser', 'Type'), ('Supercardioid', 'Pattern'), ('14 dB-A', 'Self-noise')] type=Condenser pat=None
+364 Beyerdynamic M 160 :: ours=[('Ribbon', 'Type'), ('Figure-8', 'Pattern'), ('130 dB', 'Max SPL')] -> Ribbon / Hypercardioid / ('125 dB', 'Max SPL', 'gauge')
+365 sE Electronics Voodoo VR2 :: ours=[('Ribbon', 'Type'), ('Figure-8', 'Pattern'), ('135 dB', 'Max SPL')] -> Ribbon / Figure-8 / ('135 dB', 'Max SPL', 'gauge')
+366 MXL R144 :: ours=[('Ribbon', 'Type'), ('Figure-8', 'Pattern'), ('130 dB', 'Max SPL')] -> Ribbon / Figure-8 / ('130 dB', 'Max SPL', 'gauge')
+429 Blue Yeti Nano USB Condenser Microphone :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] -> Condenser / Cardioid / ('24-bit/48 kHz', 'Sample rate', 'sliders')
+430 FIFINE T669 USB Microphone Kit :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB/XLR', 'Output')] -> Condenser / Cardioid / ('16-bit/48 kHz', 'Sample rate', 'sliders')
+431 sE Electronics V7 Dynamic Microphone :: ours=[('Dynamic', 'Type'), ('Supercardioid', 'Pattern'), ('XLR', 'Output')] -> Dynamic / Supercardioid / None
+432 Elgato Wave DX Dynamic XLR Microphone :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('XLR', 'Output')] -> Dynamic / Cardioid / None
+433 Samson Q9U XLR/USB Dynamic Broadcast Microphone :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('USB/XLR', 'Output')] -> Dynamic / Cardioid / ('140 dB', 'Max SPL', 'gauge')
+434 AKG P120 Medium-Diaphragm Condenser Microphone :: ours=[('-20 dB', 'Pad'), ('300 Hz', 'Bass cut'), ('150 dB', 'Max SPL')] -> Condenser / Cardioid / ('130 dB', 'Max SPL', 'gauge')
+435 Behringer B 906 Dynamic Microphone :: ours=[('Dynamic', 'Type'), ('Supercardioid', 'Pattern'), ('XLR', 'Output')] -> Dynamic / Cardioid / None
+436 MAONO PD100 Gen2 USB/XLR Dynamic Microphone :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('USB/XLR', 'Output')] -> Dynamic / Cardioid / ('127 dB', 'Max SPL', 'gauge')
+437 FIFINE K669D XLR Dynamic Microphone :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('XLR', 'Output')] -> Dynamic / Cardioid / None
+438 Samson C01 Studio Condenser Microphone :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('XLR', 'Output')] -> Condenser / Cardioid / ('136 dB', 'Max SPL', 'gauge')
+[NO TABLE] 439 HyperX SoloCast :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] type=None pat=None
+[NO TABLE] 504 Hollyland Lark Max :: ours=[('Wireless', 'Type'), ('Omni', 'Pattern'), ('2.4 GHz', 'Band')] type=None pat=None
+[NO TABLE] 505 Hollyland LARK A2 :: ours=[('Wireless', 'Type'), ('Omni', 'Pattern'), ('2.4 GHz', 'Band')] type=None pat=None
+[NO TABLE] 506 Hollyland LARK MAX 2 Combo (2-Person) :: ours=[('Wireless', 'Type'), ('Omni', 'Pattern'), ('2.4 GHz', 'Band')] type=None pat=None
+[NO TABLE] 508 Hollyland MELO P1 :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('USB/XLR', 'Output')] type=None pat=None
+[NO TABLE] 509 Hollyland SOLIDCOM C1 :: ours=[('Wireless', 'Type'), ('Cardioid', 'Pattern'), ('UHF', 'Band')] type=None pat=None
+[NO TABLE] 510 Hollyland SOLIDCOM C1 Pro :: ours=[('Wireless', 'Type'), ('Cardioid', 'Pattern'), ('UHF', 'Band')] type=None pat=None
+[NO TABLE] 511 Hollyland SOLIDCOM SE PRO :: ours=[('Wireless', 'Type'), ('Cardioid', 'Pattern'), ('UHF', 'Band')] type=None pat=None
+[NO TABLE] 518 Blue Yeti USB Microphone :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] type=None pat=None
+635 Audix i5 :: ours=[('Dynamic', 'Type'), ('Cardioid', 'Pattern'), ('XLR', 'Output')] -> Dynamic / Cardioid / ('140 dB', 'Max SPL', 'gauge')
+636 Shure Beta 57A :: ours=[('Dynamic', 'Type'), ('Supercardioid', 'Pattern'), ('XLR', 'Output')] -> Dynamic / Supercardioid / None
+652 Lewitt LCT 440 PURE :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('7 dB-A', 'Self-noise')] -> Condenser / Cardioid / ('7 dB-A', 'Self-noise', 'volumeHigh')
+654 Neumann TLM 103 :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('7 dB-A', 'Self-noise')] -> Condenser / Cardioid / ('7 dB-A', 'Self-noise', 'volumeHigh')
+655 Warm Audio WA-8000 :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('XLR', 'Output')] -> Condenser / Cardioid / ('15 dB-A', 'Self-noise', 'volumeHigh')
+656 Universal Audio Sphere DLX :: ours=[('Condenser', 'Type'), ('Multi-pattern', 'Pattern'), ('USB/XLR', 'Output')] -> Condenser / Multi-pattern / ('140 dB', 'Max SPL', 'gauge')
+657 sE Electronics sE2200 :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('16 dB-A', 'Self-noise')] -> Condenser / Cardioid / ('8 dB-A', 'Self-noise', 'volumeHigh')
+[NO TABLE] 666 Rode NT-USB+ :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] type=None pat=None
+[NO TABLE] 670 sE Electronics NEOM USB :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('USB', 'Output')] type=None pat=None
+672 Lewitt LCT 240 PRO :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('XLR', 'Output')] -> Condenser / Cardioid / ('19 dB-A', 'Self-noise', 'volumeHigh')
+673 Aston Microphones Origin :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('XLR', 'Output')] -> Condenser / Cardioid / ('18 dB-A', 'Self-noise', 'volumeHigh')
+674 Neumann TLM 102 :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('XLR', 'Output')] -> Condenser / Cardioid / ('12 dB-A', 'Self-noise', 'volumeHigh')
+675 sE Electronics X1 R :: ours=[('Condenser', 'Type'), ('Cardioid', 'Pattern'), ('XLR', 'Output')] -> Ribbon / Figure-8 / ('23 dB-A', 'Self-noise', 'volumeHigh')

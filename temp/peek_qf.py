@@ -1,0 +1,7 @@
+s = open('guides/best-mic-for-podcasting.html', encoding='utf-8').read()
+i = s.rfind('guide-section-quickfacts">')
+print(s[i:i + 1300].replace('><', '>\n<'))
+print('\n\n===== ES =====')
+e = open('guides/best-mic-for-podcasting_es.html', encoding='utf-8').read()
+j = e.rfind('guide-section-quickfacts">')
+print(e[j:j + 1300].replace('><', '>\n<'))

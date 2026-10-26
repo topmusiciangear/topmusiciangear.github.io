@@ -1,0 +1,13 @@
+﻿block len 4660
+        if (firstProduct.bestFor && firstProduct.facts && firstProduct.facts.length) {
+          const _bf = (isEs ? firstProduct.bestFor.es : firstProduct.bestFor.en) || '';
+          const _bfl = is
+...
+t, isEs ? 'es' : 'en') +
+          '</div>' +
+          quickFactsHtml +
+          '<div class="guide-video-thumb guide-video-placeholder" aria-hidden="true"></div>' +
+        '</div>';
+      }
+    }
+

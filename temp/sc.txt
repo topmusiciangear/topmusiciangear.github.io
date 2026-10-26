@@ -1,0 +1,8 @@
+﻿python : <string>:3: SyntaxWarning: invalid escape sequence '\>'
+At line:1 char:48
++ cd "C:\Users\Daniel\projects\topmusiciangear"; python -c "
++                                                ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (<string>:3: Syn...e sequence '\>':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+

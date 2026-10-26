@@ -1,0 +1,5 @@
+﻿found at 277443
+" = firstProduct && (firstProduct.id in photoOwner) && photoOwner[firstProduct.id] !== si;\n      const isFirstNew = firstProduct && !renderedProducts.has(firstProduct.id) && !ownedElsewhere;\n      var quickFactsHtml = '';\n      if (isFirstNew) {\n        renderedProducts.add(firstProduct.id);\n        "
+---
+mediaBuy at 281398
+'const mediaBuy = (productImgs && sectionChips)\n      ? \'<div class="guide-section-mediabuy">\' + productImgs + sectionChi'

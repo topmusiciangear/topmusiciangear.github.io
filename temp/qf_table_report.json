@@ -1,0 +1,3756 @@
+[
+ {
+  "id": 1,
+  "title": "Shure SM7B",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "50 Hz–20 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic",
+    "Dynamic (moving coil), passive"
+   ],
+   "output": [
+    "XLR"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "N/A (passive analog capsule, no hiss)",
+    "N/A (passive dynamic)",
+    "N/A (passive)"
+   ],
+   "spl": [
+    "Not officially rated (~180 dB est.)",
+    "Not published",
+    "Virtually infinite (passive dynamic)"
+   ],
+   "impedance": [
+    "150 Ω"
+   ],
+   "diaphragm": [
+    "Large-diaphragm dynamic (size not disclosed)"
+   ]
+  },
+  "bestFor": "Broadcast, podcast & vocals"
+ },
+ {
+  "id": 2,
+  "title": "Neumann U 87 Ai",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "3 patterns",
+    "Pattern"
+   ],
+   [
+    "12 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser, Multi-pattern"
+   ],
+   "pattern": [
+    "Cardioid, Omni, Figure-8"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "12 dBA"
+   ],
+   "spl": [
+    "117 dB cardioid (127 dB with -10 dB pad)"
+   ]
+  },
+  "bestFor": "Studio vocals & instruments"
+ },
+ {
+  "id": 3,
+  "title": "Rode NT1 5th Generation",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "4 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser (1-inch LDC), XLR + USB-C"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "4 dBA"
+   ],
+   "spl": [
+    "142 dB SPL"
+   ],
+   "impedance": [
+    "100 Ω"
+   ],
+   "diaphragm": [
+    "HF6 1-inch gold-sputtered condenser"
+   ]
+  },
+  "bestFor": "Home studio vocals"
+ },
+ {
+  "id": 4,
+  "title": "AKG C414 XLII",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "9 patterns",
+    "Pattern"
+   ],
+   [
+    "6 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser",
+    "Condenser, Multi-pattern (9)"
+   ],
+   "pattern": [
+    "9 patterns",
+    "9 patterns: Omni, Wide Cardioid, Cardioid, Hypercardioid, Figure-8 + 4 intermediates"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "6 dBA"
+   ],
+   "spl": [
+    "140 dB",
+    "140 dB (0 dB pad)"
+   ]
+  },
+  "bestFor": "Studio vocals & instruments"
+ },
+ {
+  "id": 5,
+  "title": "Shure SM57",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "40 Hz–15 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic",
+    "Dynamic (moving coil), passive"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "40 Hz – 15 kHz"
+   ],
+   "selfnoise": [
+    "N/A (passive dynamic)"
+   ],
+   "spl": [
+    "Not published"
+   ],
+   "impedance": [
+    "150 Ω rated (310 Ω actual)"
+   ],
+   "diaphragm": [
+    "Unidyne III dynamic element (~0.6 in / 15 mm)"
+   ]
+  },
+  "bestFor": "Instruments, amps & snare"
+ },
+ {
+  "id": 50,
+  "title": "Shure SM58",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "50 Hz–15 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic",
+    "Dynamic (moving coil), passive"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 15 kHz"
+   ],
+   "selfnoise": [
+    "N/A (passive analog capsule, no hiss)"
+   ],
+   "spl": [
+    "Not published",
+    "~160 dB SPL (physical capsule limit)"
+   ],
+   "impedance": [
+    "150 Ω rated (300 Ω actual)"
+   ],
+   "diaphragm": [
+    "Unidyne III dynamic element (~0.6 in / 15 mm)"
+   ]
+  },
+  "bestFor": "Live vocals"
+ },
+ {
+  "id": 51,
+  "title": "Sennheiser MD 421 Kompakt",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "30 Hz–17 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (moving coil)"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "30 Hz – 17 kHz"
+   ],
+   "selfnoise": [
+    "N/A (dynamic)"
+   ],
+   "spl": [
+    ">160 dB (commonly cited; not official)"
+   ],
+   "impedance": [
+    "250 Ω (min. load 1 kΩ)"
+   ],
+   "diaphragm": [
+    "Moving-coil dynamic, inner bass tube"
+   ]
+  },
+  "bestFor": "Instruments, toms & broadcast"
+ },
+ {
+  "id": 52,
+  "title": "Electro-Voice RE20",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "45 Hz–18 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (Variable-D)"
+   ],
+   "pattern": [
+    "Cardioid (Variable-D)"
+   ],
+   "freq": [
+    "45 Hz – 18 kHz"
+   ],
+   "selfnoise": [
+    "N/A (dynamic)"
+   ],
+   "spl": [
+    "Not published (rated immune to overloading)"
+   ],
+   "impedance": [
+    "150 Ω"
+   ],
+   "diaphragm": [
+    "Variable-D dynamic element"
+   ]
+  },
+  "bestFor": "Broadcast & vocals"
+ },
+ {
+  "id": 54,
+  "title": "MOTU M2",
+  "ours": [
+   [
+    "Colour LCD",
+    "Live meters"
+   ],
+   [
+    "60 dB",
+    "Preamp gain"
+   ],
+   [
+    "2-in / 2-out",
+    "Channels"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Audio interface",
+    "Desktop USB-C"
+   ],
+   "output": [
+    "USB-C (USB 2.0)"
+   ]
+  },
+  "bestFor": "Beginners"
+ },
+ {
+  "id": 91,
+  "title": "Shure BLX288/PG58",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "Wireless",
+    "System"
+   ]
+  ],
+  "table": {
+   "freq": [
+    "50 Hz – 15 kHz"
+   ]
+  },
+  "bestFor": "Live vocals (2 mics)"
+ },
+ {
+  "id": 92,
+  "title": "Sennheiser EW 100 G4-935",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "Wireless",
+    "System"
+   ]
+  ],
+  "table": {
+   "freq": [
+    "80 Hz – 18 kHz"
+   ]
+  },
+  "bestFor": "Live vocals (wireless)"
+ },
+ {
+  "id": 93,
+  "title": "Sennheiser EW-D Dual Wireless System",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "Digital",
+    "System"
+   ]
+  ],
+  "table": {
+   "type": [
+    "digital wireless system"
+   ],
+   "pattern": [
+    "Cardioid (MMD 835)"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz",
+    "20 Hz – 20 kHz (-3 dB)"
+   ],
+   "impedance": [
+    "XLR receiver output"
+   ],
+   "diaphragm": [
+    "MMD 835 dynamic (handheld) + ME 2 lavalier"
+   ]
+  },
+  "bestFor": "Dual-channel wireless"
+ },
+ {
+  "id": 95,
+  "title": "Sennheiser EW-D 835-S",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "Digital",
+    "System"
+   ]
+  ],
+  "table": {
+   "freq": [
+    "40 Hz – 20 kHz (system)"
+   ]
+  },
+  "bestFor": "Live vocals (wireless)"
+ },
+ {
+  "id": 187,
+  "title": "Lewitt LCT1040 Ultimate Microphone System",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Multi-pattern",
+    "Pattern"
+   ],
+   [
+    "10 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {},
+  "bestFor": "Studio vocals & instruments"
+ },
+ {
+  "id": 194,
+  "title": "Shure MV7+",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "USB/XLR",
+    "Output"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (moving coil), USB-C + XLR",
+    "Dynamic hybrid, USB-C + XLR"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 16 kHz",
+    "50Hz–16kHz"
+   ],
+   "selfnoise": [
+    "N/A (XLR) / DSP-processed (USB)",
+    "N/A (dynamic)"
+   ],
+   "spl": [
+    "128 dB (USB output)",
+    "128 dB (USB)"
+   ],
+   "impedance": [
+    "350 Ω",
+    "350 Ω (XLR)"
+   ],
+   "diaphragm": [
+    "Dynamic broadcast capsule",
+    "Dynamic moving-coil (size not disclosed)"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 195,
+  "title": "Elgato Wave:3",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "130 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "70 Hz – 20 kHz",
+    "70Hz–20kHz"
+   ],
+   "type": [
+    "Condenser (electret), USB"
+   ],
+   "selfnoise": [
+    "Not published"
+   ],
+   "spl": [
+    "130 dB SPL"
+   ],
+   "impedance": [
+    "N/A (USB)"
+   ],
+   "diaphragm": [
+    "16 mm condenser (integrated JFET)"
+   ]
+  },
+  "bestFor": "Streaming & podcasting"
+ },
+ {
+  "id": 196,
+  "title": "Audio-Technica AT2020 Studio Condenser Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "20 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser",
+    "Condenser (XLR)",
+    "Condenser, Cardioid"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz",
+    "20Hz–20kHz"
+   ],
+   "selfnoise": [
+    "20 dB",
+    "20 dB SPL"
+   ],
+   "spl": [
+    "144 dB"
+   ]
+  },
+  "bestFor": "Vocals & acoustic guitar"
+ },
+ {
+  "id": 197,
+  "title": "Rode PodMic",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "50 Hz–15 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic",
+    "Dynamic, passive"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 15 kHz"
+   ],
+   "selfnoise": [
+    "N/A (passive analog capsule, no hiss)"
+   ],
+   "spl": [
+    ">140 dB SPL",
+    "Not published"
+   ],
+   "impedance": [
+    "320 Ω"
+   ],
+   "diaphragm": [
+    "Dynamic capsule, internal pop filter & shock mount"
+   ]
+  },
+  "bestFor": "Podcast & broadcast"
+ },
+ {
+  "id": 206,
+  "title": "Royer R-121",
+  "ours": [
+   [
+    "Ribbon",
+    "Type"
+   ],
+   [
+    "Figure-8",
+    "Pattern"
+   ],
+   [
+    "135 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Passive ribbon",
+    "Ribbon (figure-8)"
+   ],
+   "pattern": [
+    "Figure-8"
+   ],
+   "freq": [
+    "30 Hz – 15 kHz",
+    "30 Hz – 15 kHz (±3 dB)"
+   ],
+   "selfnoise": [
+    "N/A (passive ribbon)"
+   ],
+   "spl": [
+    "135 dB",
+    ">160 dB @ 1 kHz (>135 dB @ 20 Hz)"
+   ],
+   "impedance": [
+    "300 Ω (load > 1500 Ω)"
+   ],
+   "diaphragm": [
+    "2.5-micron pure aluminum ribbon, neodymium magnets"
+   ]
+  },
+  "bestFor": "Guitar amps & brass"
+ },
+ {
+  "id": 207,
+  "title": "Coles 4038",
+  "ours": [
+   [
+    "Ribbon",
+    "Type"
+   ],
+   [
+    "Figure-8",
+    "Pattern"
+   ],
+   [
+    "125 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Passive ribbon",
+    "Ribbon (figure-8)"
+   ],
+   "pattern": [
+    "Figure-8"
+   ],
+   "freq": [
+    "30 Hz – 15 kHz"
+   ],
+   "selfnoise": [
+    "N/A (passive ribbon)"
+   ],
+   "spl": [
+    "125 dB (with pad)",
+    "Not published (<1% THD @ 125 dB SPL)"
+   ],
+   "impedance": [
+    "300 Ω"
+   ],
+   "diaphragm": [
+    "Low-mass damped ribbon"
+   ]
+  },
+  "bestFor": "Drum overheads & strings"
+ },
+ {
+  "id": 208,
+  "title": "Neumann KM 184",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "13 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser (SDC, transformerless FET)"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "13 dBA"
+   ],
+   "spl": [
+    "138 dB (0.5% THD)"
+   ],
+   "impedance": [
+    "50 Ω"
+   ],
+   "diaphragm": [
+    "KK 84 crossed-slit (SDC)"
+   ]
+  },
+  "bestFor": "Acoustic instruments & overheads"
+ },
+ {
+  "id": 209,
+  "title": "Austrian Audio OC818",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Multi-pattern",
+    "Pattern"
+   ],
+   [
+    "9 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser (LDC, CKR12 ceramic capsule)"
+   ],
+   "pattern": [
+    "Switchable (incl. dual output)"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "9 dB SPL(A)"
+   ],
+   "spl": [
+    "148 dB SPL (158 dB with pad)"
+   ],
+   "impedance": [
+    "275 Ω"
+   ],
+   "diaphragm": [
+    "CKR12 ceramic capsule (CK12-based)"
+   ]
+  },
+  "bestFor": "Studio vocals & instruments"
+ },
+ {
+  "id": 210,
+  "title": "Sennheiser e 906",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "40 Hz–18 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (moving coil)"
+   ],
+   "pattern": [
+    "Supercardioid"
+   ],
+   "freq": [
+    "40 Hz – 18 kHz"
+   ],
+   "selfnoise": [
+    "N/A (dynamic)"
+   ],
+   "spl": [
+    ">159 dB (commonly cited; not official)"
+   ],
+   "impedance": [
+    "350 Ω (min. load 1 kΩ)"
+   ],
+   "diaphragm": [
+    "Dynamic, thin diaphragm (fast transients)"
+   ]
+  },
+  "bestFor": "Guitar amps & snare"
+ },
+ {
+  "id": 211,
+  "title": "Beyerdynamic M 201 TG",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Hypercardioid",
+    "Pattern"
+   ],
+   [
+    "40 Hz–18 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (moving coil), passive",
+    "Dynamic (moving coil, Hostaphan)"
+   ],
+   "pattern": [
+    "Hypercardioid"
+   ],
+   "freq": [
+    "40 Hz – 18 kHz"
+   ],
+   "selfnoise": [
+    "N/A (dynamic)",
+    "N/A (passive dynamic)"
+   ],
+   "spl": [
+    "Not officially published (~140 dB commonly cited)",
+    "Not published"
+   ],
+   "impedance": [
+    "200 Ω (load ≥ 1 kΩ)",
+    "200 Ω (min. load 1 kΩ)"
+   ],
+   "diaphragm": [
+    "Hostaphan diaphragm dynamic",
+    "Moving-coil, hostaphan diaphragm"
+   ]
+  },
+  "bestFor": "Snare, toms & broadcast"
+ },
+ {
+  "id": 212,
+  "title": "Shure Beta 52A",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "174 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (neodymium), passive"
+   ],
+   "pattern": [
+    "Supercardioid (modified)"
+   ],
+   "freq": [
+    "20 Hz – 10 kHz"
+   ],
+   "selfnoise": [
+    "N/A (passive dynamic)"
+   ],
+   "spl": [
+    "174 dB @ 1 kHz (1% THD, 1 kΩ load)"
+   ],
+   "impedance": [
+    "150 Ω rated (45 Ω actual)"
+   ],
+   "diaphragm": [
+    "Neodymium dynamic element (size not disclosed)"
+   ]
+  },
+  "bestFor": "Kick drum & bass amps"
+ },
+ {
+  "id": 213,
+  "title": "Audix D6",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "144 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (VLM Type E)"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "30 Hz – 15 kHz"
+   ],
+   "selfnoise": [
+    "N/A (dynamic)"
+   ],
+   "spl": [
+    "≥144 dB"
+   ],
+   "impedance": [
+    "280 Ω"
+   ],
+   "diaphragm": [
+    "VLM Type E dynamic element"
+   ]
+  },
+  "bestFor": "Kick drum"
+ },
+ {
+  "id": 214,
+  "title": "Sennheiser e 604",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "160 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (moving coil), clip-on"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "40 Hz – 18 kHz"
+   ],
+   "selfnoise": [
+    "N/A (dynamic)"
+   ],
+   "spl": [
+    ">160 dB (official)"
+   ],
+   "impedance": [
+    "350 Ω (min. load 1 kΩ)"
+   ],
+   "diaphragm": [
+    "Moving-coil, lightweight coil, glass-fibre body"
+   ]
+  },
+  "bestFor": "Toms & snare"
+ },
+ {
+  "id": 215,
+  "title": "DPA 4099 CORE",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "23 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser (miniature, pre-polarized)"
+   ],
+   "pattern": [
+    "Supercardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz (80 Hz – 15 kHz ±2 dB useful)"
+   ],
+   "selfnoise": [
+    "23 dB(A) (Loud); 28 dB(A) (Extreme)"
+   ],
+   "spl": [
+    "142 dB (Loud); 152 dB (Extreme)"
+   ],
+   "impedance": [
+    "30-40 Ω (100 Ω vía DAD adapter)"
+   ],
+   "diaphragm": [
+    "5.4 mm pre-polarized condenser"
+   ]
+  },
+  "bestFor": "Instruments (clip-on)"
+ },
+ {
+  "id": 226,
+  "title": "Shure Beta 58A",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "50 Hz–16 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic",
+    "Dynamic (neodymium), passive"
+   ],
+   "pattern": [
+    "Supercardioid"
+   ],
+   "freq": [
+    "50 Hz – 16 kHz",
+    "50 Hz–16 kHz"
+   ],
+   "selfnoise": [
+    "N/A (dynamic)"
+   ],
+   "spl": [
+    ">140 dB",
+    "Not published"
+   ],
+   "impedance": [
+    "150 Ω",
+    "150 Ω rated (290 Ω actual)"
+   ],
+   "diaphragm": [
+    "Dynamic capsule",
+    "Neodymium dynamic element (size not disclosed)"
+   ]
+  },
+  "bestFor": "Live vocals"
+ },
+ {
+  "id": 227,
+  "title": "Sennheiser e935",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "40 Hz–18 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic",
+    "Dynamic (moving coil)"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "40 Hz – 18 kHz"
+   ],
+   "spl": [
+    "Not published"
+   ],
+   "impedance": [
+    "350 Ω (min. load 1 kΩ)"
+   ],
+   "diaphragm": [
+    "Dynamic, sealed air chamber, hum-compensating coil"
+   ]
+  },
+  "bestFor": "Live vocals"
+ },
+ {
+  "id": 228,
+  "title": "Sennheiser e945",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "40 Hz–18 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic",
+    "Dynamic (moving coil)"
+   ],
+   "pattern": [
+    "Supercardioid"
+   ],
+   "freq": [
+    "40 Hz – 18 kHz"
+   ],
+   "spl": [
+    "Not published"
+   ],
+   "impedance": [
+    "350 Ω (min. load 1 kΩ)"
+   ],
+   "diaphragm": [
+    "Dynamic, shock-mounted, neodymium/boron magnet"
+   ]
+  },
+  "bestFor": "Live vocals"
+ },
+ {
+  "id": 229,
+  "title": "Telefunken M80",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "135 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (25 mm moving coil)"
+   ],
+   "pattern": [
+    "Supercardioid"
+   ],
+   "freq": [
+    "50 Hz – 18 kHz (±3 dB)"
+   ],
+   "impedance": [
+    "325 Ω"
+   ],
+   "diaphragm": [
+    "25 mm moving-coil dynamic"
+   ]
+  },
+  "bestFor": "Live vocals & snare"
+ },
+ {
+  "id": 230,
+  "title": "AKG D5",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "147 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic",
+    "Dynamic (Varimotion)"
+   ],
+   "pattern": [
+    "Supercardioid"
+   ],
+   "freq": [
+    "70 Hz – 20 kHz"
+   ],
+   "spl": [
+    "147 dB"
+   ],
+   "impedance": [
+    "600 Ω (rec. load ≥ 2 kΩ)"
+   ],
+   "diaphragm": [
+    "Laminated Varimotion diaphragm"
+   ]
+  },
+  "bestFor": "Live vocals"
+ },
+ {
+  "id": 231,
+  "title": "Audix OM7",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Hypercardioid",
+    "Pattern"
+   ],
+   [
+    "144 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (VLM Type C)"
+   ],
+   "pattern": [
+    "Hypercardioid"
+   ],
+   "freq": [
+    "48 Hz – 19 kHz"
+   ],
+   "impedance": [
+    "50 Ω"
+   ],
+   "diaphragm": [
+    "VLM Type C dynamic element"
+   ]
+  },
+  "bestFor": "Live vocals"
+ },
+ {
+  "id": 232,
+  "title": "Electro-Voice ND86",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "134 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic",
+    "Dynamic (neodymium)"
+   ],
+   "pattern": [
+    "Supercardioid"
+   ],
+   "freq": [
+    "Close 30 Hz – 17 kHz",
+    "Close 30 Hz – 17 kHz; far 70 Hz – 17 kHz"
+   ],
+   "spl": [
+    ">140 dB"
+   ],
+   "impedance": [
+    "350 Ω"
+   ],
+   "diaphragm": [
+    "Neodymium dynamic element"
+   ]
+  },
+  "bestFor": "Live vocals"
+ },
+ {
+  "id": 249,
+  "title": "DJI Mic 3 (2TX + 1RX + Charging Case)",
+  "ours": [
+   [
+    "Wireless",
+    "Type"
+   ],
+   [
+    "Omni",
+    "Pattern"
+   ],
+   [
+    "2.4 GHz",
+    "Band"
+   ]
+  ],
+  "table": {},
+  "bestFor": "Content creators"
+ },
+ {
+  "id": 250,
+  "title": "Rode Wireless PRO",
+  "ours": [
+   [
+    "Wireless",
+    "Type"
+   ],
+   [
+    "Omni",
+    "Pattern"
+   ],
+   [
+    "2.4 GHz",
+    "Band"
+   ]
+  ],
+  "table": {},
+  "bestFor": "Content creators"
+ },
+ {
+  "id": 251,
+  "title": "Hollyland Lark M2",
+  "ours": [
+   [
+    "Wireless",
+    "Type"
+   ],
+   [
+    "Omni",
+    "Pattern"
+   ],
+   [
+    "2.4 GHz",
+    "Band"
+   ]
+  ],
+  "table": {},
+  "bestFor": "Content creators"
+ },
+ {
+  "id": 252,
+  "title": "Rode PodMic USB",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "USB/XLR",
+    "Output"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (moving coil), cardioid, USB-C + XLR",
+    "Dynamic hybrid, USB-C + XLR"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "Analogue 26 dBA / Digital 19 dBA",
+    "N/A (XLR) / 19 dBA (USB-C)"
+   ],
+   "spl": [
+    "148 dB SPL",
+    "148 dB SPL (USB) / >140 dB (XLR)"
+   ],
+   "impedance": [
+    "460 Ω (XLR)"
+   ],
+   "diaphragm": [
+    "Dynamic broadcast capsule",
+    "Moving-coil dynamic capsule"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 253,
+  "title": "HyperX QuadCast 2",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "4 patterns",
+    "Pattern"
+   ],
+   [
+    "20 Hz–20 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "pattern": [
+    "Cardioid/Omni/Bi/Stereo"
+   ],
+   "freq": [
+    "20Hz–20kHz"
+   ]
+  },
+  "bestFor": "Streaming & gaming"
+ },
+ {
+  "id": 254,
+  "title": "DJI Mic Mini 2 (2TX + 1RX + Charging Case)",
+  "ours": [
+   [
+    "Wireless",
+    "Type"
+   ],
+   [
+    "Omni",
+    "Pattern"
+   ],
+   [
+    "2.4 GHz",
+    "Band"
+   ]
+  ],
+  "table": {},
+  "bestFor": "Content creators"
+ },
+ {
+  "id": 276,
+  "title": "Samson Q2U USB/XLR Microphone",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "148 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic",
+    "Dynamic (moving coil), cardioid, USB-C + XLR"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 15 kHz",
+    "50Hz–15kHz"
+   ],
+   "spl": [
+    "148 dB",
+    "148 dB SPL"
+   ],
+   "selfnoise": [
+    "Not published"
+   ],
+   "impedance": [
+    "Not published"
+   ],
+   "diaphragm": [
+    "End-address dynamic capsule"
+   ]
+  },
+  "bestFor": "Podcast & beginners"
+ },
+ {
+  "id": 277,
+  "title": "Maono PD200X Dynamic Microphone",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "130 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "40 Hz – 16 kHz"
+   ],
+   "spl": [
+    ">130 dB"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 278,
+  "title": "FIFINE AmpliTank K688 Dynamic USB/XLR Microphone",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "130 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 16 kHz",
+    "50 Hz–16 kHz"
+   ],
+   "spl": [
+    "130 dB"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 279,
+  "title": "FIFINE AmpliGame AM8 Dynamic USB Microphone",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "50 Hz–16 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 16 kHz",
+    "50Hz–16kHz"
+   ]
+  },
+  "bestFor": "Gaming & streaming"
+ },
+ {
+  "id": 280,
+  "title": "Razer Seiren V3 Mini",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "20 Hz–20 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Supercardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz",
+    "Not published"
+   ]
+  },
+  "bestFor": "Streaming"
+ },
+ {
+  "id": 281,
+  "title": "HyperX SoloCast 2",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "USB",
+    "Output"
+   ]
+  ],
+  "table": {},
+  "bestFor": "Streaming"
+ },
+ {
+  "id": 284,
+  "title": "Maono PM461 USB Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "20 Hz–20 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz",
+    "20Hz–20kHz"
+   ]
+  },
+  "bestFor": "Podcasting"
+ },
+ {
+  "id": 286,
+  "title": "Audio-Technica AT2040USB",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Hypercardioid",
+    "Pattern"
+   ],
+   [
+    "USB",
+    "Output"
+   ]
+  ],
+  "table": {
+   "pattern": [
+    "Hypercardioid"
+   ],
+   "freq": [
+    "80 Hz – 16 kHz",
+    "80Hz–16kHz"
+   ],
+   "type": [
+    "Dynamic (moving coil), USB-C"
+   ],
+   "selfnoise": [
+    "N/A (dynamic)"
+   ],
+   "spl": [
+    "Not published"
+   ],
+   "impedance": [
+    "N/A (USB)"
+   ],
+   "diaphragm": [
+    "Dynamic moving-coil (size not disclosed)"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 287,
+  "title": "TONOR TC-777 USB Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "100 Hz–16 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "100 Hz – 16 kHz",
+    "100Hz–16kHz"
+   ]
+  },
+  "bestFor": "Beginners & podcast"
+ },
+ {
+  "id": 289,
+  "title": "FIFINE AmpliGame A6V USB Gaming Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "60 Hz–18 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "60 Hz – 18 kHz"
+   ]
+  },
+  "bestFor": "Gaming"
+ },
+ {
+  "id": 290,
+  "title": "Rode XCM-50 Compact USB Condenser Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "USB",
+    "Output"
+   ]
+  ],
+  "table": {
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "Not published"
+   ]
+  },
+  "bestFor": "Streaming"
+ },
+ {
+  "id": 291,
+  "title": "Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "USB",
+    "Output"
+   ]
+  ],
+  "table": {
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz",
+    "20Hz–20kHz"
+   ],
+   "type": [
+    "Condenser (fixed-charge backplate), cardioid, USB-C"
+   ],
+   "selfnoise": [
+    "Not published"
+   ],
+   "spl": [
+    "Not published"
+   ],
+   "impedance": [
+    "Not published"
+   ],
+   "diaphragm": [
+    "Permanently polarized condenser"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 292,
+  "title": "Rode NT-USB Mini Studio Condenser Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "20 Hz–20 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz",
+    "20Hz–20kHz"
+   ]
+  },
+  "bestFor": "Podcast"
+ },
+ {
+  "id": 297,
+  "title": "Rode NT1 Signature Series",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "4 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser",
+    "Condenser (1-inch LDC), XLR",
+    "Condenser, Cardioid"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "4 dBA"
+   ],
+   "spl": [
+    "142 dB",
+    "142 dB SPL"
+   ],
+   "impedance": [
+    "100 Ω"
+   ],
+   "diaphragm": [
+    "HF6 1-inch true condenser"
+   ]
+  },
+  "bestFor": "Home studio vocals"
+ },
+ {
+  "id": 298,
+  "title": "Audio-Technica AT2035",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "12 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "spl": [
+    "148 dB (158 dB w/ pad)"
+   ]
+  },
+  "bestFor": "Home studio"
+ },
+ {
+  "id": 299,
+  "title": "Sennheiser Profile Streaming Set",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "USB",
+    "Output"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser (pre-polarized), USB"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "34 dB(A) SPL (min gain)"
+   ],
+   "spl": [
+    "125 dB SPL (min gain)"
+   ],
+   "impedance": [
+    "N/A (USB)"
+   ],
+   "diaphragm": [
+    "Cardioid condenser capsule (size not published)"
+   ]
+  },
+  "bestFor": "Streaming"
+ },
+ {
+  "id": 321,
+  "title": "Shure SM7dB",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "50 Hz–20 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (with built-in preamp)"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 20 kHz"
+   ],
+   "spl": [
+    "Not published"
+   ],
+   "selfnoise": [
+    "Not published"
+   ]
+  },
+  "bestFor": "Podcast & broadcast"
+ },
+ {
+  "id": 329,
+  "title": "Rode Procaster",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "XLR",
+    "Output"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (large diaphragm), passive"
+   ],
+   "pattern": [
+    "Cardioid (tight)"
+   ],
+   "freq": [
+    "75 Hz – 18 kHz"
+   ],
+   "selfnoise": [
+    "N/A (passive analog capsule, no hiss)"
+   ],
+   "spl": [
+    ">140 dB SPL"
+   ],
+   "impedance": [
+    "320 Ω"
+   ],
+   "diaphragm": [
+    "Neodymium large diaphragm, internal shock mount"
+   ]
+  },
+  "bestFor": "Broadcast & podcast"
+ },
+ {
+  "id": 330,
+  "title": "Behringer XM8500 Ultravoice Dynamic Microphone",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "50 Hz–15 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic",
+    "Dynamic, passive"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 15 kHz"
+   ],
+   "selfnoise": [
+    "N/A (passive analog capsule, no hiss)"
+   ],
+   "spl": [
+    "Not published",
+    "~150 dB SPL"
+   ],
+   "impedance": [
+    "150 Ω"
+   ],
+   "diaphragm": [
+    "Dynamic vocal capsule"
+   ]
+  },
+  "bestFor": "Live & budget"
+ },
+ {
+  "id": 339,
+  "title": "Sennheiser MKH 416 Shotgun Microphone",
+  "ours": [
+   [
+    "Shotgun",
+    "Type"
+   ],
+   [
+    "Lobar",
+    "Pattern"
+   ],
+   [
+    "130 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Boom, RF-condenser"
+   ],
+   "selfnoise": [
+    "13 dBA"
+   ],
+   "spl": [
+    "130 dB"
+   ],
+   "output": [
+    "XLR"
+   ],
+   "freq": [
+    "40 Hz-20 kHz"
+   ]
+  },
+  "bestFor": "Film, TV & voiceover"
+ },
+ {
+  "id": 340,
+  "title": "Rode NTG5 Shotgun Microphone Kit",
+  "ours": [
+   [
+    "Shotgun",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "130 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Boom, RF-bias"
+   ],
+   "selfnoise": [
+    "10 dBA"
+   ],
+   "spl": [
+    "130 dB SPL"
+   ],
+   "output": [
+    "XLR (3-pin, balanced, P48)"
+   ],
+   "freq": [
+    "20 Hz-20 kHz"
+   ]
+  },
+  "bestFor": "Film & TV"
+ },
+ {
+  "id": 341,
+  "title": "Rode NTG3 Shotgun Microphone",
+  "ours": [
+   [
+    "Shotgun",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "130 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Boom, RF-bias"
+   ],
+   "selfnoise": [
+    "13 dBA"
+   ],
+   "spl": [
+    "130 dB"
+   ],
+   "output": [
+    "XLR"
+   ],
+   "freq": [
+    "40 Hz-20 kHz"
+   ]
+  },
+  "bestFor": "Film & TV"
+ },
+ {
+  "id": 342,
+  "title": "Sennheiser MKE 600 Shotgun Microphone",
+  "ours": [
+   [
+    "Shotgun",
+    "Type"
+   ],
+   [
+    "Lobar",
+    "Pattern"
+   ],
+   [
+    "132 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Boom, condenser"
+   ],
+   "selfnoise": [
+    "15 dBA"
+   ],
+   "spl": [
+    "132 dB"
+   ],
+   "output": [
+    "XLR"
+   ],
+   "freq": [
+    "40 Hz-20 kHz"
+   ]
+  },
+  "bestFor": "Film, TV & outdoor"
+ },
+ {
+  "id": 343,
+  "title": "Audio-Technica AT897 Shotgun Microphone",
+  "ours": [
+   [
+    "Shotgun",
+    "Type"
+   ],
+   [
+    "Lobar",
+    "Pattern"
+   ],
+   [
+    "129 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Boom, line+gradient"
+   ],
+   "selfnoise": [
+    "~17 dBA"
+   ],
+   "spl": [
+    "129 dB"
+   ],
+   "output": [
+    "XLR (integral)"
+   ],
+   "freq": [
+    "20 Hz-20 kHz"
+   ]
+  },
+  "bestFor": "On-camera & film"
+ },
+ {
+  "id": 344,
+  "title": "Deity S-Mic 3 Shotgun Microphone",
+  "ours": [
+   [
+    "Shotgun",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "130 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Boom, condenser"
+   ],
+   "selfnoise": [
+    "12 dBA"
+   ],
+   "spl": [
+    "130 dB"
+   ],
+   "output": [
+    "XLR"
+   ],
+   "freq": [
+    "50 Hz-20 kHz"
+   ]
+  },
+  "bestFor": "Film & TV"
+ },
+ {
+  "id": 345,
+  "title": "Rode VideoMic NTG On-Camera Shotgun",
+  "ours": [
+   [
+    "Shotgun",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "120 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "On-camera shotgun"
+   ],
+   "selfnoise": [
+    "15 dBA"
+   ],
+   "spl": [
+    "120 dB"
+   ],
+   "output": [
+    "3.5 mm + USB-C"
+   ],
+   "freq": [
+    "20 Hz-20 kHz"
+   ]
+  },
+  "bestFor": "On-camera & vlog"
+ },
+ {
+  "id": 346,
+  "title": "Sennheiser MKE 400 Compact Shotgun",
+  "ours": [
+   [
+    "Shotgun",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "132 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "On-camera shotgun"
+   ],
+   "selfnoise": [
+    "20 dBA"
+   ],
+   "spl": [
+    "132 dB"
+   ],
+   "output": [
+    "3.5 mm TRS/TRRS"
+   ],
+   "freq": [
+    "50 Hz-20 kHz"
+   ]
+  },
+  "bestFor": "On-camera & vlog"
+ },
+ {
+  "id": 358,
+  "title": "Audio-Technica AT875R Short Shotgun Microphone",
+  "ours": [
+   [
+    "Shotgun",
+    "Type"
+   ],
+   [
+    "Lobar",
+    "Pattern"
+   ],
+   [
+    "126 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Boom, line+gradient"
+   ],
+   "selfnoise": [
+    "~20 dBA"
+   ],
+   "spl": [
+    "126 dB"
+   ],
+   "output": [
+    "XLR (integral)"
+   ],
+   "freq": [
+    "90 Hz-20 kHz"
+   ]
+  },
+  "bestFor": "On-camera & film"
+ },
+ {
+  "id": 359,
+  "title": "Rode VideoMic GO II Helix On-Camera Shotgun",
+  "ours": [
+   [
+    "Shotgun",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "120 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "On-camera shotgun"
+   ],
+   "selfnoise": [
+    "Not specified"
+   ],
+   "spl": [
+    "120 dB"
+   ],
+   "output": [
+    "3.5 mm + USB-C"
+   ],
+   "freq": [
+    "20 Hz-20 kHz"
+   ]
+  },
+  "bestFor": "On-camera & vlog"
+ },
+ {
+  "id": 360,
+  "title": "Sennheiser MKH 50-P48 Supercardioid Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "134 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Supercardioid, RF-condenser"
+   ],
+   "selfnoise": [
+    "12 dBA"
+   ],
+   "spl": [
+    "134 dB (142 w/ pad)"
+   ],
+   "output": [
+    "XLR"
+   ],
+   "freq": [
+    "40 Hz-20 kHz"
+   ]
+  },
+  "bestFor": "Film & TV dialogue"
+ },
+ {
+  "id": 364,
+  "title": "Beyerdynamic M 160",
+  "ours": [
+   [
+    "Ribbon",
+    "Type"
+   ],
+   [
+    "Hypercardioid",
+    "Pattern"
+   ],
+   [
+    "125 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Passive ribbon (double ribbon)"
+   ],
+   "pattern": [
+    "Hypercardioid"
+   ],
+   "freq": [
+    "40 Hz – 18 kHz"
+   ],
+   "spl": [
+    "125 dB"
+   ]
+  },
+  "bestFor": "Guitar amps & brass"
+ },
+ {
+  "id": 365,
+  "title": "sE Electronics Voodoo VR2",
+  "ours": [
+   [
+    "Ribbon",
+    "Type"
+   ],
+   [
+    "Figure-8",
+    "Pattern"
+   ],
+   [
+    "135 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Active ribbon (48V required)"
+   ],
+   "pattern": [
+    "Figure-8"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "spl": [
+    "135 dB"
+   ]
+  },
+  "bestFor": "Guitar amps & vocals"
+ },
+ {
+  "id": 366,
+  "title": "MXL R144",
+  "ours": [
+   [
+    "Ribbon",
+    "Type"
+   ],
+   [
+    "Figure-8",
+    "Pattern"
+   ],
+   [
+    "130 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Passive ribbon"
+   ],
+   "pattern": [
+    "Figure-8"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "spl": [
+    "130 dB"
+   ]
+  },
+  "bestFor": "Guitar amps & vocals"
+ },
+ {
+  "id": 429,
+  "title": "Blue Yeti Nano USB Condenser Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "20 Hz–20 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid/Omni"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 430,
+  "title": "FIFINE T669 USB Microphone Kit",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "20 Hz–20 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 431,
+  "title": "sE Electronics V7 Dynamic Microphone",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "40 Hz–19 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic"
+   ],
+   "pattern": [
+    "Supercardioid"
+   ],
+   "freq": [
+    "40 Hz – 19 kHz"
+   ],
+   "spl": [
+    "Not published"
+   ]
+  },
+  "bestFor": "Live vocals"
+ },
+ {
+  "id": 432,
+  "title": "Elgato Wave DX Dynamic XLR Microphone",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "50 Hz–15 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 15 kHz"
+   ],
+   "spl": [
+    "Not published"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 433,
+  "title": "Samson Q9U XLR/USB Dynamic Broadcast Microphone",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "140 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 20 kHz"
+   ],
+   "spl": [
+    ">140 dB"
+   ]
+  },
+  "bestFor": "Podcast & broadcast"
+ },
+ {
+  "id": 434,
+  "title": "AKG P120 Medium-Diaphragm Condenser Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "130 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "spl": [
+    "130 dB (150 dB w/ pad)"
+   ]
+  },
+  "bestFor": "Loud sources"
+ },
+ {
+  "id": 435,
+  "title": "Behringer B 906 Dynamic Microphone",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "50 Hz–18 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 18 kHz"
+   ],
+   "spl": [
+    "Not published"
+   ]
+  },
+  "bestFor": "Guitar amps"
+ },
+ {
+  "id": 436,
+  "title": "MAONO PD100 Gen2 USB/XLR Dynamic Microphone",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "127 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 14 kHz"
+   ],
+   "spl": [
+    "127 dB"
+   ]
+  },
+  "bestFor": "Podcast"
+ },
+ {
+  "id": 437,
+  "title": "FIFINE K669D XLR Dynamic Microphone",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "50 Hz–16 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 16 kHz"
+   ],
+   "spl": [
+    "Not published"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 438,
+  "title": "Samson C01 Studio Condenser Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "136 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "40 Hz – 18 kHz"
+   ],
+   "spl": [
+    "136 dB"
+   ]
+  },
+  "bestFor": "Home studio"
+ },
+ {
+  "id": 439,
+  "title": "HyperX SoloCast",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "USB",
+    "Output"
+   ]
+  ],
+  "table": {},
+  "bestFor": "Streaming & podcasting"
+ },
+ {
+  "id": 504,
+  "title": "Hollyland Lark Max",
+  "ours": [
+   [
+    "Wireless",
+    "Type"
+   ],
+   [
+    "Omni",
+    "Pattern"
+   ],
+   [
+    "2.4 GHz",
+    "Band"
+   ]
+  ],
+  "table": {},
+  "bestFor": "Wireless lav & interview"
+ },
+ {
+  "id": 505,
+  "title": "Hollyland LARK A2",
+  "ours": [
+   [
+    "Wireless",
+    "Type"
+   ],
+   [
+    "Omni",
+    "Pattern"
+   ],
+   [
+    "2.4 GHz",
+    "Band"
+   ]
+  ],
+  "table": {},
+  "bestFor": "Wireless lav & interview"
+ },
+ {
+  "id": 506,
+  "title": "Hollyland LARK MAX 2 Combo (2-Person)",
+  "ours": [
+   [
+    "Wireless",
+    "Type"
+   ],
+   [
+    "Omni",
+    "Pattern"
+   ],
+   [
+    "2.4 GHz",
+    "Band"
+   ]
+  ],
+  "table": {},
+  "bestFor": "2-person wireless"
+ },
+ {
+  "id": 508,
+  "title": "Hollyland MELO P1",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "Wireless",
+    "Transmission"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Wireless system (1-inch condenser mic)"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz (condenser)"
+   ],
+   "selfnoise": [
+    "16 dBA"
+   ],
+   "spl": [
+    "132 dB (condenser)"
+   ],
+   "impedance": [
+    "2.4 GHz digital wireless"
+   ],
+   "diaphragm": [
+    "1-inch LDC condenser, wireless to 55 g mini-mixer"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 509,
+  "title": "Hollyland SOLIDCOM C1",
+  "ours": [
+   [
+    "Wireless",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "1.9 GHz",
+    "Band"
+   ]
+  ],
+  "table": {},
+  "bestFor": "Wireless intercom"
+ },
+ {
+  "id": 510,
+  "title": "Hollyland SOLIDCOM C1 Pro",
+  "ours": [
+   [
+    "Wireless",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "1.9 GHz",
+    "Band"
+   ]
+  ],
+  "table": {
+   "selfnoise": [
+    "Active environmental noise cancelling"
+   ]
+  },
+  "bestFor": "Wireless intercom"
+ },
+ {
+  "id": 511,
+  "title": "Hollyland SOLIDCOM SE PRO",
+  "ours": [
+   [
+    "Wireless",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "1.9 GHz",
+    "Band"
+   ]
+  ],
+  "table": {
+   "selfnoise": [
+    "Environmental noise cancelling"
+   ]
+  },
+  "bestFor": "Wireless intercom"
+ },
+ {
+  "id": 518,
+  "title": "Blue Yeti USB Microphone",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "USB",
+    "Output"
+   ]
+  ],
+  "table": {
+   "pattern": [
+    "Cardioid/Omni/Bi/Stereo"
+   ],
+   "freq": [
+    "20Hz–20kHz"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 570,
+  "title": "Yamaha Clavinova CLP-835",
+  "ours": [
+   [
+    "GrandTouch-S",
+    "Key action"
+   ],
+   [
+    "256 notes",
+    "Polyphony"
+   ],
+   [
+    "57 kg",
+    "Weight"
+   ]
+  ],
+  "table": {},
+  "bestFor": "Serious practice"
+ },
+ {
+  "id": 635,
+  "title": "Audix i5",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "140 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (moving coil), passive"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "50 Hz – 16 kHz"
+   ],
+   "selfnoise": [
+    "N/A (passive dynamic)"
+   ],
+   "spl": [
+    ">140 dB"
+   ],
+   "impedance": [
+    "280 Ω"
+   ],
+   "diaphragm": [
+    "VLM Type B dynamic capsule"
+   ]
+  },
+  "bestFor": "Snare & guitar amps"
+ },
+ {
+  "id": 636,
+  "title": "Shure Beta 57A",
+  "ours": [
+   [
+    "Dynamic",
+    "Type"
+   ],
+   [
+    "Supercardioid",
+    "Pattern"
+   ],
+   [
+    "50 Hz–16 kHz",
+    "Frequency range"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Dynamic (moving coil), passive"
+   ],
+   "pattern": [
+    "Supercardioid"
+   ],
+   "freq": [
+    "50 Hz – 16 kHz"
+   ],
+   "selfnoise": [
+    "N/A (passive dynamic)"
+   ],
+   "spl": [
+    "Not published"
+   ],
+   "impedance": [
+    "150 Ω rated (290 Ω actual)"
+   ],
+   "diaphragm": [
+    "Dynamic element, neodymium magnet"
+   ]
+  },
+  "bestFor": "Instruments & amps"
+ },
+ {
+  "id": 652,
+  "title": "Lewitt LCT 440 PURE",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "7 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser",
+    "Condenser, Cardioid"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "7 dBA"
+   ],
+   "spl": [
+    "140 dB"
+   ]
+  },
+  "bestFor": "Studio vocals"
+ },
+ {
+  "id": 654,
+  "title": "Neumann TLM 103",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "7 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser, Cardioid"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "7 dBA"
+   ],
+   "spl": [
+    "138 dB"
+   ]
+  },
+  "bestFor": "Studio vocals"
+ },
+ {
+  "id": 655,
+  "title": "Warm Audio WA-8000",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "15 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Tube condenser, cardioid + omni"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "15 dB(A) cardioid, 17 dB(A) omni"
+   ],
+   "spl": [
+    "131 dB cardioid, 134 dB omni"
+   ]
+  },
+  "bestFor": "Studio vocals"
+ },
+ {
+  "id": 656,
+  "title": "Universal Audio Sphere DLX",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Multi-pattern",
+    "Pattern"
+   ],
+   [
+    "140 dB",
+    "Max SPL"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Modeling condenser"
+   ],
+   "pattern": [
+    "Variable (38 models)"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "Not published"
+   ],
+   "spl": [
+    "140 dB (w/ pad)"
+   ]
+  },
+  "bestFor": "Studio vocals & modeling"
+ },
+ {
+  "id": 657,
+  "title": "sE Electronics sE2200",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "8 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser, Cardioid"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "8 dBA"
+   ],
+   "spl": [
+    "125/135/145 dB (pads)"
+   ]
+  },
+  "bestFor": "Studio vocals"
+ },
+ {
+  "id": 666,
+  "title": "Rode NT-USB+",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "USB",
+    "Output"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser, cardioid, USB-C"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "14 dBA (A-weighted)"
+   ],
+   "spl": [
+    "118 dB SPL"
+   ],
+   "impedance": [
+    "Not published"
+   ],
+   "diaphragm": [
+    "0.5\" (12.7 mm) condenser"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 670,
+  "title": "sE Electronics NEOM USB",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "USB",
+    "Output"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser, cardioid, USB-C"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "selfnoise": [
+    "24 dBA"
+   ],
+   "spl": [
+    "120 dB"
+   ],
+   "impedance": [
+    "Not published"
+   ],
+   "diaphragm": [
+    "16 mm back-electret condenser"
+   ]
+  },
+  "bestFor": "Podcast & streaming"
+ },
+ {
+  "id": 672,
+  "title": "Lewitt LCT 240 PRO",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "19 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "spl": [
+    "142 dB"
+   ],
+   "selfnoise": [
+    "19 dBA"
+   ]
+  },
+  "bestFor": "Home studio vocals"
+ },
+ {
+  "id": 673,
+  "title": "Aston Microphones Origin",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "18 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "spl": [
+    "127 dB"
+   ],
+   "selfnoise": [
+    "18 dBA"
+   ]
+  },
+  "bestFor": "Studio vocals"
+ },
+ {
+  "id": 674,
+  "title": "Neumann TLM 102",
+  "ours": [
+   [
+    "Condenser",
+    "Type"
+   ],
+   [
+    "Cardioid",
+    "Pattern"
+   ],
+   [
+    "12 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Condenser"
+   ],
+   "pattern": [
+    "Cardioid"
+   ],
+   "freq": [
+    "20 Hz – 20 kHz"
+   ],
+   "spl": [
+    "144 dB"
+   ],
+   "selfnoise": [
+    "12 dBA"
+   ]
+  },
+  "bestFor": "Studio vocals"
+ },
+ {
+  "id": 675,
+  "title": "sE Electronics X1 R",
+  "ours": [
+   [
+    "Ribbon",
+    "Type"
+   ],
+   [
+    "Figure-8",
+    "Pattern"
+   ],
+   [
+    "23 dB-A",
+    "Self-noise"
+   ]
+  ],
+  "table": {
+   "type": [
+    "Ribbon"
+   ],
+   "pattern": [
+    "Figure-8"
+   ],
+   "freq": [
+    "20 Hz – 16 kHz"
+   ],
+   "spl": [
+    "135 dB"
+   ],
+   "selfnoise": [
+    "23 dB"
+   ]
+  },
+  "bestFor": "Home studio"
+ }
+]

@@ -1,0 +1,18 @@
+﻿mgs + sectionChips + '</div>'
+      : productImgs + sectionChips;
+    const bodyHtml = boldedC + mediaBuy;
+    return `<div class="guide-section${splitSide ? ' guide-section-wide' : ''}">
+      <h2 class="guide-section-heading" id="sec-${si + 1}">${h}</h2>
+      <div class="guide-section-content">${bodyHtml}</div>
+    </div>`;
+  }).join('');
+
+  const productCards = allProductIds.map(pid => {
+    const p = products.find(pr => pr.id === pid);
+    return p ? productCard(p, lang) : '';
+  }).join('');
+
+  const tocHtml = '';
+
+  const authorBoxHtml = `<div class="guide-author-box">
+    <div class="gu

@@ -1,0 +1,5 @@
+s=open('guides/martin-d28-vs-taylor-314.html',encoding='utf-8').read()
+i=s.find('<style>')
+j=s.find('</style>',i)
+open('temp/martin_style.txt','w',encoding='utf-8').write(s[i:j+8])
+print('ok')

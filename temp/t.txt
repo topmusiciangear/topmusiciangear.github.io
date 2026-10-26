@@ -1,0 +1,9 @@
+ splitSide = !!s.sideProducts && !!blocks;
+    } else if (!s.skipMedia) {
+      const firstProduct = sectionProducts.length ? sectionTopicProduct(s, sectionProducts) : null;
+      const ownedElsewhere = firstProduct && (firstProduct.id in photoOwner) && photoOwner[firstProduct.id] !== si;
+      const isFirstNew = firstProduct && !renderedProducts.has(firstProduct.id) && !ownedElsewhere;
+      var quickFactsHtml = '';
+      if (isFirstNew) {
+        renderedProducts.add(firstProduct.id);
+        

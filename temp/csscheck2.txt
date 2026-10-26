@@ -1,0 +1,29 @@
+﻿@media (max-width: 640px) {
+  .guide-section-mediabuy {
+    flex-direction: column;
+  }
+  .guide-section-mediabuy > .guide-section-buy {
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: none;
+  }
+  .guide-section-mediabuy > .guide-section-imgs {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .guide-section-mediabuy .guide-section-img,
+  .guide-section-mediabuy .guide-video-thumb {
+    flex: none;
+    min-width: 0;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.guide-section-prods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-t
+---has flex:none---
+False

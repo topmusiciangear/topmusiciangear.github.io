@@ -1,0 +1,31 @@
+ = firstProduct && (firstProduct.id in photoOwner) && photoOwner[firstProduct.id] !== si;
+      const isFirstNew = firstProduct && !renderedProducts.has(firstProduct.id) && !ownedElsewhere;
+      var quickFactsHtml = '';
+      if (isFirstNew) {
+        renderedProducts.add(firstProduct.id);
+        sectionChips = '<div class="guide-section-buy">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>';
+        if (firstProduct.bestFor && firstProduct.facts && firstProduct.facts.length) {
+          const _bf = (isEs ? firstProduct.bestFor.es : firstProduct.bestFor.en) || '';
+          const _bfl = isEs ? 'Ideal para' : 'Best for';
+          function _qfIcon(name, color) {
+            if (name === 'sineWave') {
+              return '<svg viewBox="0 0 24 16" width="16" height="16" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M1 8 C 4 2, 7 2, 10 8 S 16 14, 19 8 S 22 2, 23 8"/></svg>';
+            }
+            if (name === 'gauge') {
+              return '<svg viewBox="0 0 24 16" width="16" height="16" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M3 14 A 9 9 0 0 1 21 14"/><line x1="12" y1="14" x2="17" y2="6" stroke-width="2"/></svg>';
+            }
+            return icon(name, 'fa-solid');
+          }
+          const _cardBase = 'background:#22252c;border-radius:8px;padding:4px 6px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:2px;overflow:hidden;';
+          quickFactsHtml = '<div class="guide-section-quickfacts">' +
+            '<div class="qf-card qf-bestfor">' +
+              '<div class="qf-label">' + _bfl + '</div>' +
+              '<div class="qf-value">' + _bf + '</div>' +
+            '</div>' +
+            firstProduct.facts.map(function (f) {
+              const lbl = isEs ? (f.label && f.label.es) : (f.label && f.label.en);
+              const col = f.tone === 'tradeoff' ? '#f5a524' : '#4ade80';
+              return '<div class="qf-card qf-fact">' +
+                '<span class="qf-icon" style="color:' + col + '">' + _qfIcon(f.icon, col) + '</span>' +
+                '<div class="qf-text">' +
+                  '<div class="qf-value">' + (

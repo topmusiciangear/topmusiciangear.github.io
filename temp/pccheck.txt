@@ -1,0 +1,2 @@
+﻿function productCard(p, lang) {
+  const unitLabel = p.unit === 'each' ? (lang === 'es' ? ' (Unidad)' : ' (Each)') : p.unit === 'pair' ? (lang === 'es' ? ' (Par)' : ' (Pair)') : p.unit === 'headset' ? 

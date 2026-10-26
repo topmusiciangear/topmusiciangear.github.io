@@ -1,0 +1,7 @@
+guide-section-imgs">' +
+          '<div style="position:relative;display:inline-block">' +
+            '<img src="' + psrc + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img' + (gifp.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' +
+            scoreBadge(firstProduct, isEs ? 'es' : 'en') +
+          '</div>' +
+          quickFactsHtml +
+          '<div class="guide-video-thumb lb-video" data-yt="

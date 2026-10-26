@@ -1,0 +1,62 @@
+﻿2509:   display: flex;
+2510:   gap: 16px;
+2511:   margin-top: 16px;
+2512:   align-items: flex-start;
+2513: }
+2514: .guide-section-mediabuy > .guide-section-imgs {
+2515:   margin-top: 0;
+2516:   flex: 1 1 auto;
+2517:   min-width: 0;
+2518: }
+2519: .guide-section-mediabuy > .guide-section-buy {
+2520:   margin-top: 0;
+2521:   flex: 0 0 340px;
+2522:   width: 340px;
+2523:   max-width: 100%;
+2524:   min-width: 0;
+2525:   align-content: flex-start;
+2526: }
+2527: @media (min-width:901px) {
+2528:   .guide-section-mediabuy > .guide-section-buy:has(.shop-btn-primary) {
+2529:     flex: 0 1 420px;
+2530:     width: 420px;
+2531:     max-width: 100%;
+2532:     min-width: 0;
+2533:   }
+2534: }
+2535: .shop-btn-primary,
+2536: .shop-btn-more {
+2537:   white-space: nowrap;
+2538:   overflow: hidden;
+2539:   text-overflow: ellipsis;
+2540: }
+2541: .guide-section-mediabuy .shop-btn-primary,
+2542: .guide-section-mediabuy .shop-btn-more {
+2543:   white-space: nowrap;
+2544: }
+2545: .guide-section-mediabuy .guide-section-img,
+2546: .guide-section-mediabuy .guide-video-thumb {
+2547:   width: 160px;
+2548:   height: 160px;
+2549: }
+2550: @media (max-width: 640px) {
+2551:   .guide-section-mediabuy {
+2552:     flex-direction: column;
+2553:   }
+2554:   .guide-section-mediabuy > .guide-section-buy {
+2555:     flex: 1 1 auto;
+2556:     width: 100%;
+2557:     max-width: none;
+2558:   }
+2559:   .guide-section-mediabuy > .guide-section-imgs {
+2560:     width: 100%;
+2561:     justify-content: flex-start;
+2562:   }
+2563:   .guide-section-mediabuy .guide-section-img,
+2564:   .guide-section-mediabuy .guide-video-thumb {
+2565:     flex: 1 1 0;
+2566:     min-width: 0;
+2567:     width: auto;
+2568:     height: auto;
+2569:     aspect-ratio: 1 / 1;
+2570:   }

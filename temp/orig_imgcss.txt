@@ -1,0 +1,6 @@
+﻿.guide-section-mediabuy .guide-section-img,
+.guide-section-mediabuy .guide-video-thumb {
+  width: 160px;
+  height: 160px;
+}
+@media (max-widt

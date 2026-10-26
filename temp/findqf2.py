@@ -1,0 +1,8 @@
+src = open('build-guides.js', encoding='utf-8').read()
+i = src.find('quickFactsHtml =')
+print('found at', i)
+print(repr(src[i-200:i+100]))
+print('---')
+j = src.find('const mediaBuy = (productImgs && sectionChips)', i)
+print('mediaBuy at', j)
+print(repr(src[j:j+120]))
