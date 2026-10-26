@@ -9137,7 +9137,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Film, TV & outdoor",
+      "es": "Cine, TV y exterior"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Shotgun",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Lobar",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 343,
@@ -9160,7 +9193,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "On-camera & film",
+      "es": "On-camera y cine"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Shotgun",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Lobar",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 344,
@@ -9179,7 +9245,40 @@
       "official": "https://deitymic.com/products/s-mic-3/",
       "amazon": "https://www.amazon.com/Deity-Microphones-Supercardioid-Shotgun-Microphone/dp/B0DG9TVLYM"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Film & TV",
+      "es": "Cine y TV"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Shotgun",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 345,
@@ -9204,7 +9303,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "On-camera & vlog",
+      "es": "On-camera y vlog"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Shotgun",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 346,
@@ -9227,7 +9359,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "On-camera & vlog",
+      "es": "On-camera y vlog"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Shotgun",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "3.5mm",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 347,
@@ -9476,7 +9641,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "On-camera & film",
+      "es": "On-camera y cine"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Shotgun",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Lobar",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 359,
@@ -9495,7 +9693,40 @@
       "amazon": "https://www.amazon.com/dp/B0D6X93C58",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FRode-VideoMic-GO-II%2F4KTG"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "On-camera & vlog",
+      "es": "On-camera y vlog"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Shotgun",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/3.5mm",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 360,
@@ -9518,7 +9749,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Film & TV dialogue",
+      "es": "Diálogo cine y TV"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "14 dB-A",
+        "label": {
+          "en": "Self-noise",
+          "es": "Ruido propio"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 361,
@@ -9619,7 +9883,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Guitar amps & brass",
+      "es": "Amplis y metales"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Ribbon",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Figure-8",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "130 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 365,
@@ -9640,7 +9937,40 @@
       "andertons": "https://www.andertons.co.uk/se-electronics-vr2-voodoo-active-ribbon-mic"
     },
     "image": "img/products/cad4d1910f.webp",
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Guitar amps & vocals",
+      "es": "Amplis y voz"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Ribbon",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Figure-8",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "135 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 366,
@@ -9665,7 +9995,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Guitar amps & vocals",
+      "es": "Amplis y voz"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Ribbon",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Figure-8",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "130 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 370,
@@ -10876,7 +11239,40 @@
     "excludeStores": [
       "musicstore"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 430,
@@ -10892,7 +11288,40 @@
     "stores": {
       "amazon": "https://www.amazon.com/dp/B07Y1C6GDS"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 431,
@@ -10913,7 +11342,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/sE-electronics-V7/art-PAH0018588-000",
       "reverb": "https://www.reverb.com/marketplace?query=sE+Electronics+V7"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Live vocals",
+      "es": "Voz en directo"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 432,
@@ -10929,7 +11391,40 @@
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0B8GRCXB6"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 433,
@@ -10948,7 +11443,40 @@
       "zzounds": "https://www.zzounds.com/item--SAMSAQ9U",
       "andertons": "https://www.andertons.co.uk/samson-q9u-xlr-usb-dynamic-broadcast-microphone/"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Podcast & broadcast",
+      "es": "Podcast y radio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 434,
@@ -11019,7 +11547,40 @@
       "andertons": "https://www.andertons.co.uk/behringer-b-906-dynamic-microphone/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Behringer-B-906/art-PAH0022244-000"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Guitar amps",
+      "es": "Amplis de guitarra"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 436,
@@ -11035,7 +11596,40 @@
     "stores": {
       "amazon": "https://www.amazon.com/dp/B07Q2W2YT9"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Podcast",
+      "es": "Podcast"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 437,
@@ -11051,7 +11645,40 @@
     "stores": {
       "amazon": "https://www.amazon.com/dp/B0BZP61K18"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 438,
@@ -11072,7 +11699,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Samson-C01/art-REC0004572-000",
       "reverb": "https://www.reverb.com/marketplace?query=Samson+C01"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Home studio",
+      "es": "Home studio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 439,
