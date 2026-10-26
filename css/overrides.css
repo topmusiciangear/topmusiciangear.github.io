@@ -151,6 +151,10 @@
 
 /* Desktop: enlarge photo and quickfacts card to use available space */
 @media (min-width: 901px) {
+  .guide-section-imgs {
+    gap: 4px !important;
+    margin-top: 0 !important;
+  }
   .guide-section-quickfacts {
     flex: 0 0 180px !important;
     width: 180px !important;
