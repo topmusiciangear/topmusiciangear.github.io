@@ -3648,4 +3648,19 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 @media (min-width: 769px) {
   .lang-btn { padding: 5px 7px; }
   .lang-flag { width: 18px; height: 13.5px; }
+  
+  /* Desktop product card spacing / hover containment */
+  .guide-product-card {
+    gap: 12px;
+  }
+  .guide-product-card-body {
+    padding: 20px;
+    gap: 10px;
+  }
+  .guide-product-card:hover {
+    transform: none;
+  }
+  .guide-product-card-img img {
+    transition: none;
+  }
 }
