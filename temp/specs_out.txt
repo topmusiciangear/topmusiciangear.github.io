@@ -1,377 +1,513 @@
-PID 19 | Yamaha HS8
-   bestFor: Flat reference mixing || Reference mixing in untreated rooms; rear port needs 30–50 cm from wall
-   ptype     : 2-way powered
-   standout  : 8-inch woofer, 120 W bi-amp, Room Control/High Trim (no mid EQ)
-   power     : 120W (75W + 45W)
-   maxspl    : 110 dB | N/A
-   driver    : 8"
-   freq      : 38 Hz – 30 kHz (-10 dB)
-PID 20 | KRK Rokit 7 G5
-   bestFor: Punchy rock & hip-hop mixing
-   ptype     : 2-way powered
-   power     : 145W RMS (97W LF + 48W HF)
-   maxspl    : 110 dB
-   driver    : 7" Kevlar
-   freq      : 45 Hz – 36 kHz (±3 dB)
-PID 21 | Adam Audio A7V
-   bestFor: Detailed pro nearfield mixing
-   ptype     : 2-way powered
-   power     : 130W peak
-   maxspl    : 105 dB
-   driver    : 7" MLM
-   freq      : 44 Hz – 41 kHz
-PID 22 | Genelec 8040B
-PID 116 | JBL 305P MkII
-   bestFor: Compact nearfield mixing || Industry-standard translation (Requires >40cm from untreated walls)
-   ptype     : 2-way powered
-   power     : 82W (41W + 41W)
-   maxspl    : 108 dB
-   driver    : 5"
-   freq      : 49 Hz – 20 kHz (±3 dB)
-PID 117 | Kali Audio LP-6 V2
-   bestFor: Accurate budget monitoring || Best Budget Choice for Untreated Rooms (Front Port)
-   ptype     : 2-way powered
-   power     : 80W (40W + 40W)
-   maxspl    : 115 dB
-   driver    : 6.5"
-   freq      : 47 Hz – 21 kHz (±3 dB)
-PID 180 | ADAM Audio S3H
-PID 181 | Focal Trio11 Be
-PID 191 | KRK S10.4
-   bestFor: Rock & hip-hop bass extension
-   weight    : 35 lb (15.88 kg)
-   ptype     : Powered subwoofer
-   power     : 160W Class-D
-   maxspl    : 117.2 dB (peak)
-   driver    : 10"
-   freq      : 30 Hz – 110 Hz (±3 dB)
-PID 192 | Yamaha HS8S
-   bestFor: Flat reference sub bass
-   weight    : 27.6 lb (12.5 kg)
-   ptype     : Powered subwoofer
-   power     : 150W
-   maxspl    : Not specified
-   driver    : 8"
-   freq      : 22 Hz – 160 Hz
-PID 193 | Adam T10S
-   bestFor: Home studio low-end extension
-   weight    : 27 lb (12.2 kg)
-   ptype     : Powered subwoofer
-   power     : 130W Class-D
-   maxspl    : 104 dB (at 1m)
-   driver    : 10"
-   freq      : 28 Hz – 120 Hz
-PID 199 | Kali Audio IN-8 V2
-   bestFor: Detailed mixing in project studios
-   ptype     : 3-way powered || Triamplificado de 3 vías | 3-way powered
-   power     : 140W (60W + 40W + 40W)
-   maxspl    : 117 dB
-   driver    : 8"
-   freq      : 45 Hz – 21 kHz (±3 dB)
-PID 222 | ATC SCM25A Pro Mk2
-PID 300 | Kali Audio WS-6.2
-   bestFor: Small-studio mixing with deeper bass
-   weight    : 31 lb (14 kg)
-   ptype     : Powered subwoofer (side-firing woofers)
-   power     : 400W Class-D (1000W peak)
-   maxspl    : 120 dB (peak at 1m)
-   driver    : 2 x 6.5"
-   freq      : 27 Hz – 200 Hz (-10 dB)
-PID 301 | IK Multimedia iLoud Sub
-   bestFor: Ultra-compact desktop sub bass
-   weight    : 15.6 lb (7.1 kg)
-   ptype     : Powered subwoofer (down-firing)
-   power     : 160W RMS (200W peak)
-   maxspl    : 106 dB (peak at 40 Hz)
-   driver    : 6.5" + 2 passive radiators
-   freq      : 25 Hz – 150 Hz (-6 dB)
-PID 302 | IK Multimedia iLoud Micro Monitor Pro
-   bestFor: Best for Untreated Desks via Auto-Calibration
-   ptype     : 2-way powered (pair)
-   power     : 50W RMS per speaker (30W LF + 20W HF)
-   maxspl    : 94 dB continuous / 107.3 dB peak
-   driver    : 3" composite cellulose fiber
-   freq      : 42 Hz – 22 kHz (-10 dB)
-PID 303 | Genelec 8010A
-   bestFor: Ultra-compact reference monitoring || Reference-grade nearfield mixing (Rear port - needs space)
-   ptype     : 2-way powered || Biamplificado de 2 vías | 2-way powered
-   power     : 50W (25W + 25W)
-   maxspl    : 96 dB
-   driver    : 3"
-   freq      : 74 Hz – 20 kHz (±2.5 dB) | 67 Hz – 25 kHz (-6 dB)
-PID 304 | Kali Audio IN-UNF
-   bestFor: Compact desktop stereo pair
-   ptype     : 3-piece system (sub + 2 satellites)
-   power     : 100W (sub) + 2 x 20W (satellites) Class D
-   maxspl    : 103 dB
-   driver    : 5.25" subwoofer + 2 x 3.5" satellite woofers
-   freq      : 54 Hz – 21 kHz (±3 dB)
-PID 305 | Neumann KH 80 DSP
-   bestFor: DSP-corrected precision monitoring || Best Premium Choice for Untreated Rooms
-   ptype     : 2-way powered | 2-way powered with DSP
-   power     : 140W (90W + 50W)
-   maxspl    : 108.8 dB
-   driver    : 4" (100 mm) | 4"
-   freq      : 57 Hz – 21 kHz (±3 dB)
-PID 306 | ADAM Audio D3V
-   bestFor: Best Portless Desktop Choice for Bare Walls
-   ptype     : 2-way powered (pair)
-   power     : 240W peak (pair)
-   maxspl    : 96 dB
-   driver    : 3.5" aluminum
-   freq      : 45 Hz – 23.2 kHz (-6 dB)
-PID 307 | Kali Audio LP-UNF
-   bestFor: Wall-adjacent nearfield mixing || Best Ultra-Nearfield for Untreated Desktops || Compact desktop stereo pair
-   ptype     : 2-way powered | 2-way powered (pair) | 2-way pair powered
-   power     : 80W Class D | 160W Class-D (pair) | 160W (2 x 40W + 2 x 40W)
-   maxspl    : 108 dB | 103 dB
-   driver    : 4.5" | 4.5" long-excursion
-   freq      : 40 Hz – 35 kHz | 39 Hz – 25 kHz (-10 dB) | 54 Hz – 21 kHz (±3 dB)
-PID 308 | IK Multimedia iLoud MTM MKII
-   bestFor: Best Low-End Accuracy without Acoustic Treatment
-   ptype     : 2-way/3-speaker with DSP
-   power     : 200W RMS (pair)
-   maxspl    : 112.5 dB
-   driver    : 2 × 3.5"
-   freq      : 36 Hz – 32 kHz (-10 dB)
-PID 331 | Genelec 8351B SAM 3-Way Coaxial Studio Monitor
-   bestFor: Critical mixing for pro studios
-   ptype     : 3-way coaxial powered
-   power     : 550W (250W + 150W + 150W)
-   maxspl    : 113 dB
-   driver    : Dual 8.6 x 4 in obround
-   freq      : 38 Hz – 20 kHz (±1.5 dB)
-PID 337 | Neumann KH 750 DSP 10" Powered Studio Subwoofer
-PID 338 | Genelec 7050C Studio Subwoofer
-PID 371 | ADAM Audio T5V
-   bestFor: Affordable ribbon tweeter (Rear port - needs space)
-   ptype     : 2-way powered
-   power     : 70W Class-D (50W + 20W)
-   maxspl    : 106 dB
-   driver    : 5" polypropylene
-   freq      : 45 Hz – 25 kHz
-PID 372 | Genelec 8030C
-   bestFor: Professional reference monitoring (Best with built-in dip switches engaged)
-   ptype     : 2-way powered
-   power     : 100W Class-D (50W + 50W)
-   maxspl    : 104 dB
-   driver    : 5" (130 mm)
-   freq      : 47 Hz – 25 kHz (-6 dB)
-PID 468 | Neumann KH 810 II 10" Powered Studio Subwoofer
-PID 470 | ATC SCS120 Pro Active Studio Subwoofer
-PID 479 | Focal Sub12 13" Professional Studio Subwoofer
-PID 480 | Genelec 7370A SAM 12" Smart Active Studio Subwoofer
-PID 481 | Barefoot Sound MicroSub45 Dual-Force 8" Active Studio Subwoofer (Pair)
-PID 632 | Yamaha HS5
-   bestFor: Industry-standard mix translation (Rear port - needs space)
-   ptype     : 2-way bi-amped
-   power     : 70W (45W LF + 25W HF)
-   maxspl    : 102 dB
-   driver    : 5" cone
-   freq      : 54 Hz – 30 kHz (-10 dB)
-PID 633 | KRK Rokit 5 G5
-   bestFor: Best Budget DSP Controls for Untreated Spaces
-   ptype     : 2-way bi-amped, DSP
-   power     : 55W RMS (35W LF + 20W HF)
-   maxspl    : 104 dB
-   driver    : 5" Kevlar
-   freq      : 54 Hz – 30 kHz (±3 dB)
-PID 645 | Focal Alpha 65 Evo
-   bestFor: Desk against the wall; front-ported, no bass buildup near walls
-   standout  : 6.5-inch Slatefiber woofer, front laminar vent, 55 W + 30 W Class D
-PID 684 | PreSonus Eris Studio 5
-   bestFor: Best Budget Wide Sweet Spot (Front Ported)
-   ptype     : 2-way bi-amped, Class AB
-   power     : 80W (45W LF + 35W HF)
-   maxspl    : 102 dB peak @ 1 m
-   driver    : 5.25" woven composite
-   freq      : 48 Hz – 20 kHz
-PID 1042 | PreSonus Eris 3.5 2nd Gen
-   power     : 50 W (2×25 W bi-amp)
-   maxspl    : 98 dB (Peak, @ 1 m)
-   driver    : 3.5" woven composite
-   bassext   : 80 Hz - 20 kHz
-PID 1043 | M-Audio BX4
-   power     : 50 W (2×25 W bi-amp)
-   maxspl    : 100 dB (Peak, @ 1 m)
-   driver    : 4.5" Black Kevlar
-   bassext   : 69 Hz - 22 kHz
-PID 1046 | Mackie CR3.5
-   power     : 50 W (2×25 W bi-amp)
-   maxspl    : 94 dB (Peak, @ 1 m)
-   driver    : 3.5" woven
-   bassext   : 70 Hz - 20 kHz (-3 dB) / 60 Hz at -10 dB
-PID 1048 | Mackie CR4.5
-   power     : 50 W (2×25 W bi-amp)
-   maxspl    : 96 dB (Peak, @ 1 m)
-   driver    : 4.5" woven
-   bassext   : 65 Hz - 20 kHz (-3 dB) / 55 Hz at -10 dB
-PID 1049 | Behringer Truth 3.5 BT
-   power     : 64 W (2x32 W, Class D)
-   maxspl    : 101 dB (Peak, @ 1 m)
-   driver    : 3.5" glass fibre
-   bassext   : 70 Hz - 20 kHz (±3 dB)
-PID 1052 | Alesis ELEVATE 4
-   power     : 50 W (2x25 W, Class AB)
-   maxspl    : Not published
-   driver    : 4" woofer
-   bassext   : 68 Hz - 20 kHz
-PID 1054 | Focal Shape 65
-   bestFor: Focal Shape 65 nearfield mixing
-   ptype     : 2-way active
-   power     : 105W (80W LF + 25W HF) Class AB
-   maxspl    : 108 dB
-   driver    : 6.5" Flax cone
-   freq      : 40 Hz - 35 kHz
+PID 96 | Ibanez TS9 Tube Screamer
+   bestFor: Classic mid-boosted overdrive || Blues solos and rock rhythm playing
+   ptype     : Overdrive
+   standout  : Icons of the TS808 circuit
+   power     : 9V battery/DC
+   bypass    : Buffered (FET electronic switching) | Buffered
+   current   : 8 mA
+   controls  : Drive, Tone, Level
+   size      : Compact (74 x 129 x 60 mm)
+PID 97 | Boss DD-8 Digital Delay
+   bestFor: Versatile digital delay & looper || Live looping and ambient playing
+   ptype     : digital delay
+   standout  : 11 delay modes + 40s looper
+   power     : 100 mA
+   dsp       : —
+   bypass    : Buffered bypass | Buffered
+   current   : 65 mA
+   controls  : Mode, Time, Feedback, E.Level
+   size      : Compact (73 x 129 x 59 mm)
+PID 98 | Boss TU-3 Chromatic Tuner
+   bestFor: Stage-tough chromatic tuning
+   ptype     : Chromatic tuner
+   standout  : Bright LED display, power out
+   power     : 9V battery/DC
+   bypass    : Buffered
+   current   : 40 mA
+   controls  : Strobe/standard switch
+   size      : Compact (73 x 129 x 59 mm)
+PID 99 | Dunlop GCB95 Crybaby Wah
+   bestFor: Funk and rock live expression
+   ptype     : Wah
+   standout  : Industry-standard wah, rugged build
+   power     : 9V battery
+   bypass    : Hardwire
+   current   : 1 mA
+   controls  : Foot pedal, switch
+   size      : Large (112 x 271 x 91 mm)
+PID 100 | TC Electronic Hall of Fame 2
+   bestFor: Endless reverb sounds in one pedal || Ambient and worship live playing
+   ptype     : digital reverb
+   standout  : Toneprint, 11 reverb types
+   power     : 9V DC
+   dsp       : —
+   bypass    : True bypass
+   current   : 150 mA
+   controls  : Decay, Tone, Level, FX
+   size      : Compact (72 x 131 x 54 mm)
+PID 133 | Boss BD-2 Blues Driver
+   bestFor: Rich, dynamic blues drive
+   ptype     : Overdrive
+   standout  : Cleans up with guitar volume for dynamic rhythm-to-lead control
+   power     : 20 mA
+   bypass    : Buffered bypass
+   current   : 8 mA
+   controls  : Level, Tone, Drive
+   size      : Compact (73 x 129 x 59 mm)
+PID 134 | ProCo RAT 2
+   bestFor: Gritty, distorted rock tone
+   ptype     : Distortion
+   standout  : LM308 chip, legendary RAT tone
+   power     : 9V battery/DC
+   bypass    : True bypass
+   current   : 2 mA
+   controls  : Distortion, Filter, Volume
+   size      : Compact (69 x 114 x 57 mm)
+PID 135 | Strymon BigSky MX
+   bestFor: Massive, lush reverbs || Studio-grade ambient reverb
+   ptype     : Multi-algorithm reverb | digital reverb
+   standout  : 300 presets, 12 algorithms | 12 reverbs, dual engine, 300 presets
+   power     : 9V DC (center negative) | 9V DC (adapter required)
+   dsp       : ARM tri-core 800 MHz, 32-bit float
+   bypass    : True bypass | True / Buffered selectable
+   current   : 500 mA
+   controls  : Encoders, mini-display | 9 knobs + OLED + 3 footswitches
+   size      : Wide (172 x 127 x 48 mm) | Large (172 x 127 x 48 mm)
+PID 136 | MXR Phase 95
+   bestFor: Live rock textures on small boards
+   ptype     : Phaser
+   standout  : Script/Block 45 & 90 modes
+   power     : 9V battery/DC
+   bypass    : True Bypass | True bypass
+   current   : 4 mA
+   controls  : Speed, 45/90/Phase 95 switch
+   size      : Mini (50 x 94 x 57 mm)
+PID 200 | Boss RC-5 Loop Station
+   bestFor: Long loops for live performers || Compact looper for practice and live
+   ptype     : Loop station | Looper / Loop Station
+   standout  : 13 hours loop, 57 drum patterns | 13 h stereo, 99 memories, 57 rhythms, MIDI I/O
+   power     : 9V DC | 9V DC (battery or PSA adaptor)
+   dsp       : 32-bit floating point, 44.1 kHz
+   bypass    : True bypass | —
+   current   : 100 mA | 170 mA
+   controls  : Loop time, rhythm, drum sounds | Single pedal + volume/menu dial, colour LCD
+   size      : Compact (73 x 129 x 59 mm) | 73 x 129 x 56 mm
+PID 201 | TC Electronic Ditto Looper
+   bestFor: One-knob simplicity for looping
+   ptype     : Looper
+   standout  : 5 minutes loop time
+   power     : 9V battery/DC
+   bypass    : True bypass
+   current   : 8 mA
+   controls  : Single switch
+   size      : Mini (51 x 93 x 51 mm)
+PID 202 | Line 6 Helix HX Stomp
+   bestFor: Full rigs for gigging guitarists || Pro amp modeling in a pedal
+   ptype     : Multi-effects / modeler
+   standout  : Helix amp models, 300+ FX
+   power     : DC 9V (1A)
+   battery   : No
+   bypass    : Analog / DSP (trails)
+   current   : 1000 mA
+   controls  : LCD + knobs, 3 touch footswitches
+   models    : 300+ Helix amps, cabs, effects
+   blocks    : 8
+   expression: External support
+   usb       : Yes
+   looper    : 60 seconds
+   size      : Compact (196 x 142 x 70 mm)
+PID 203 | Boss GX-1
+   bestFor: First modeler for beginners || Budget multi-fx for beginners
+   ptype     : Multi-effects
+   standout  : 100+ effects, phrase loop
+   power     : 4x AA / USB / AC
+   battery   : 7 hours on 4x AA
+   bypass    : True bypass
+   current   : 250 mA
+   controls  : Switches + knobs + expression
+   models    : 108 effects, 198 patches, COSM amps
+   blocks    : Full chain (amp + effects)
+   expression: Built-in
+   usb       : Yes
+   looper    : 32 seconds
+   size      : 307 x 149 x 56 mm
+PID 204 | Boss ME-90
+   bestFor: Hands-on tones for live guitarists
+   ptype     : Multi-effects
+   standout  : 97 effects, hands-on control
+   power     : 4x AA / adapter
+   bypass    : Buffered
+   current   : 190 mA
+   controls  : 8 footswitches + expression, knobs
+   size      : 443 x 220 x 67 mm
+PID 205 | HeadRush Flex Prime
+   bestFor: Hands-on tweaking for live players || Compact tones for gigging players
+   ptype     : Multi-effects / modeler
+   standout  : 300+ FX, 7-core DSP
+   power     : DC 12V (3A)
+   battery   : No
+   bypass    : True bypass
+   current   : 3000 mA
+   controls  : Touchscreen, 4 FS + expression
+   models    : 52 amps, 15 cabs, 300 IRs, 74+ effects
+   blocks    : Full chain with rigs
+   expression: Built-in
+   usb       : Yes
+   looper    : Yes
+   size      : 295 x 150 x 70 mm
+PID 258 | IK Multimedia TONEX ONE+
+   bestFor: Capture realism with wireless + MIDI in a mini pedal
+   battery   : 1x 9V battery
+   models    : 420+ Premium Tone Models, 60,000+ on ToneNET
+   blocks    : 1 amp-in-a-box (2 modes, 20 vía MIDI)
+   expression: None
+   usb       : Yes (USB-C)
+   looper    : No
+PID 259 | Line 6 POD Go
+   bestFor: Portable HX sound for gigs
+   battery   : No
+   models    : 200+ HX amps, cabs and effects
+   blocks    : Full chain with snapshots
+   expression: Built-in
+   usb       : Yes
+   looper    : Yes (40 s mono / 20 s stereo)
+PID 443 | Electro-Harmonix Nano Small Stone
+   bestFor: Psychedelic rock live textures
+   ptype     : Phaser
+   standout  : Analog 4-stage phaser
+   power     : 9V battery/DC
+   bypass    : True bypass
+   current   : 5 mA
+   controls  : Rate, Depth, Feedback
+   size      : Compact (70 x 120 x 60 mm)
+PID 577 | Zoom G11
+   bestFor: Full rig tones for gigging
+   ptype     : Multi-FX / Amp Modeler
+   standout  : 200+ amps/FX, 5" touchscreen, looper
+   power     : 9V DC (adapter included)
+   bypass    : Buffered / True Bypass selectable
+   current   : 500 mA
+   controls  : 5 footswitches + expression + touchscreen
+   size      : 495 x 253 x 64 mm
+PID 578 | Boss GT-1000CORE
+   bestFor: Pro floor unit, GT engine
+   ptype     : Multi-FX / Amp Modeler
+   standout  : AIRD modeling, 32-bit/96kHz, 2 expr
+   power     : 9V DC (adapter included)
+   bypass    : Buffered / True Bypass selectable
+   current   : 1000 mA
+   controls  : 7 footswitches + 2 expression + knobs
+   size      : 337 x 176 x 63 mm
+PID 579 | Neural DSP Quad Cortex
+   bestFor: Pro capture/modeling, plugin integration
+   ptype     : Amp Modeler / Capture System
+   standout  : Neural Capture, plugin ecosystem, WiFi
+   power     : 12V DC (adapter included)
+   bypass    : Buffered / True Bypass selectable
+   current   : 3000 mA
+   controls  : 11 footswitches + rotary + 7" touchscreen
+   size      : 290 x 190 x 49 mm
+PID 580 | Mooer GE300
+   bestFor: First multi-FX for beginners
+   ptype     : Multi-FX / Amp Modeler
+   standout  : 108 amps + 164 FX, 5" display, IR loader
+   power     : 9V DC (adapter included)
+   bypass    : Buffered / True Bypass selectable
+   current   : 600 mA
+   controls  : 5 footswitches + expression + touchscreen
+   size      : 295 x 165 x 55 mm
+PID 581 | Fulltone OCD v2
+   bestFor: Transparent low-gain, touch-sensitive
+   ptype     : Overdrive
+   standout  : Mosfet clipping, amp-like feel
+   power     : 9V DC / Battery
+   bypass    : True / Enhanced switchable
+   current   : 8 mA
+   controls  : Volume, Drive, Tone
+   size      : 112 x 60 x 50 mm
+PID 582 | Wampler Tumnus Deluxe
+   bestFor: Boosted leads for live rock
+   ptype     : Overdrive
+   standout  : 3-band EQ + buffer switch
+   power     : 9V DC
+   bypass    : Buffered / True Bypass switchable
+   current   : 70 mA
+   controls  : Volume, Gain, Treble, Mid, Bass, Buffer
+   size      : 114 x 64 x 38 mm
+PID 583 | JHS Morning Glory V4
+   bestFor: Transparent drive for blues gigs
+   ptype     : Overdrive
+   standout  : JFET input, transparent boost
+   power     : 9V DC
+   bypass    : True Bypass
+   current   : 43 mA
+   controls  : Volume, Drive, Tone
+   size      : 122 x 66 x 41 mm
+PID 584 | MXR M104 Distortion+
+   bestFor: Vintage grit for rock gigs
+   ptype     : Distortion
+   standout  : Germanium-style clipping, simple
+   power     : 9V DC / Battery
+   bypass    : True Bypass
+   current   : 2.5 mA
+   controls  : Output, Distortion
+   size      : 108 x 57 x 32 mm
+PID 585 | Boss BD-2W Blues Driver Waza Craft
+   bestFor: Dynamic blues drive for gigging
+   ptype     : Overdrive
+   standout  : Standard/Custom modes, premium parts
+   power     : 9V DC / Battery
+   bypass    : Buffered
+   current   : 18 mA
+   controls  : Level, Tone, Drive, Mode switch
+   size      : 73 x 129 x 59 mm
+PID 586 | Boss RC-500 Loop Station
+   bestFor: Pro multi-track looping
+   ptype     : Multi-track Looper
+   standout  : 2 tracks, 13 hrs, MIDI, FX
+   power     : 4x AA (adapter optional)
+   bypass    : Buffered
+   current   : 240 mA
+   controls  : 3 footswitches + knobs + display
+   size      : 170 x 138 x 60 mm
+PID 587 | TC Electronic Ditto X4 Looper
+   bestFor: Stereo loops for live layering
+   ptype     : Stereo Looper
+   standout  : 2 tracks, 5 mins, MIDI, stereo
+   power     : 9V DC
+   bypass    : True Bypass
+   current   : 100 mA
+   controls  : 4 footswitches + knobs
+   size      : 235 x 145 x 57 mm
+PID 588 | Electro-Harmonix 720 Stereo Looper
+   bestFor: Stereo looping for live guitarists
+   ptype     : Stereo Looper
+   standout  : 12 mins stereo, undo/redo, half-speed
+   power     : 9V DC (adapter included)
+   bypass    : True Bypass
+   current   : 75 mA
+   controls  : 2 footswitches + knobs + display
+   size      : 102 x 121 x 57 mm
+PID 590 | MXR M303 Clone Looper
+   bestFor: Multitrack loops for solo gigs
+   ptype     : Multi-track Looper
+   standout  : 4 tracks, 3 hrs, touchscreen, FX
+   power     : 9V DC (adapter included)
+   bypass    : Buffered
+   current   : 500 mA
+   controls  : Touchscreen + 1 footswitch
+   size      : 210 x 150 x 45 mm
+PID 591 | Strymon TimeLine
+   bestFor: Ambient delays for live and studio
+   ptype     : Delay
+   standout  : 12 delay machines, 200 presets, MIDI
+   power     : 9V DC (300 mA)
+   dsp       : SHARC DSP
+   bypass    : Buffered / True Bypass selectable
+   current   : 300 mA
+   controls  : Knobs + 3 footswitches + display
+   size      : 171 x 127 x 47 mm
+PID 592 | Meris LVX
+   bestFor: Modular reverb/delay workstation
+   ptype     : Modular delay workstation
+   standout  : Structures: combine reverb+delay
+   power     : 9V DC (300 mA)
+   dsp       : ARM, 32-bit float
+   bypass    : Buffered / True Bypass selectable
+   current   : 300 mA
+   controls  : Knobs + 3 footswitches + display
+   size      : 184 x 114 x 51 mm
+PID 593 | Eventide TimeFactor
+   bestFor: Experimental delay, collecting sounds
+   ptype     : Delay / Looper (discontinued)
+   standout  : Habit: records everything, scan/loop
+   power     : 9V DC (150 mA)
+   dsp       : —
+   bypass    : Buffered
+   current   : 150 mA
+   controls  : 6 knobs + 2 footswitches
+   size      : 73 x 124 x 58 mm
+PID 594 | Source Audio Nemesis
+   bestFor: Rhythmic delays for gigging
+   ptype     : Delay
+   standout  : 10 delay types, looper, MIDI
+   power     : 9V DC (400 mA)
+   dsp       : —
+   bypass    : Buffered
+   current   : 400 mA
+   controls  : 10 knobs + 3 footswitches + display
+   size      : 190 x 122 x 54 mm
+PID 595 | Keeley Caverns V2
+   bestFor: Stereo ambience for studio mixing
+   ptype     : Delay
+   standout  : 26 delay engines, full MIDI, 128 presets, Neuro app
+   power     : 9V DC (200 mA)
+   dsp       : —
+   bypass    : Buffered / True Bypass selectable
+   current   : 200 mA
+   controls  : 4 knobs + 2 footswitches
+   size      : 114 x 114 x 51 mm
+PID 596 | Universal Audio Del-Verb
+   bestFor: Mid-range delay+reverb combo
+   ptype     : Delay + reverb combo
+   standout  : Magnetic tape delay + Spring/Mod/Shimmer
+   power     : 9V DC
+   dsp       : UAFX dual-engine
+   bypass    : True bypass / Trails
+   current   : 75 mA
+   controls  : Blend x2, Decay, Rate, Time, Repeats, Warmth
+   size      : 94 x 119 x 50 mm
+PID 597 | MXR M169 Carbon Copy
+   bestFor: Studio-grade hybrid ambience
+   ptype     : Analog delay (BBD)
+   standout  : 100% analog BBD, 600 ms + modulation
+   power     : 9V DC (optional battery)
+   dsp       : Analog path (no DSP)
+   bypass    : True bypass
+   current   : 26 mA
+   controls  : Mix, Regen, Delay, Mod switch
+   size      : 70 x 121 x 33 mm
+PID 598 | Universal Audio Golden Reverberator
+   bestFor: Warm analog slapback
+   ptype     : Reverb (Spring/Plate/Hall)
+   standout  : Spring 65, Plate 140, Hall 224
+   power     : 9V DC (400 mA)
+   dsp       : UAFX dual-engine
+   bypass    : Buffered (trails)
+   current   : 400 mA
+   controls  : Knobs, tap tempo, UAFX app
+   size      : 92 x 141 x 65 mm
+PID 599 | Boss RV-200
+   bestFor: Classic spring/plate/hall verbs
+   ptype     : Reverb (Spring/Plate/Hall)
+   standout  : Spring/plate/hall + A/B/C memories
+   power     : 9V DC (400 mA)
+   dsp       : —
+   bypass    : Buffered
+   current   : 400 mA
+   controls  : Knobs + A/B/C switch
+   size      : 92 x 141 x 65 mm
+PID 600 | Electro-Harmonix 1440 Stereo Looper
+   bestFor: Stereo looping, 20 memories
+   ptype     : Stereo Looper
+   standout  : 24 mins, 20 loops, MIDI sync
+   power     : 9V DC (adapter included)
+   bypass    : Buffered
+   current   : 150 mA
+   controls  : Footswitches + knobs
+   size      : 121 x 105 x 57 mm
+PID 601 | Boss RC-600 Loop Station
+   bestFor: Simple looping for live beginners
+   ptype     : Mono Looper
+   standout  : 6 mins, undo/redo, tiny footprint
+   power     : 9V DC
+   bypass    : True Bypass
+   current   : 50 mA
+   controls  : 1 footswitch + 1 knob
+   size      : 73 x 111 x 50 mm
 
 === NO TABLE DATA ===
-  22 | Genelec 8040B
-  180 | ADAM Audio S3H
-  181 | Focal Trio11 Be
-  222 | ATC SCM25A Pro Mk2
-  337 | Neumann KH 750 DSP 10" Powered Studio Subwoofer
-  338 | Genelec 7050C Studio Subwoofer
-  468 | Neumann KH 810 II 10" Powered Studio Subwoofer
-  470 | ATC SCS120 Pro Active Studio Subwoofer
-  479 | Focal Sub12 13" Professional Studio Subwoofer
-  480 | Genelec 7370A SAM 12" Smart Active Studio Subwoofer
-  481 | Barefoot Sound MicroSub45 Dual-Force 8" Active Studio Subwoofer (Pair)
 
 === UNMATCHED COLUMNS ===
-  active-vs-passive-pa :: JBL EON712 Active PA Speaker
   active-vs-passive-pa :: EV ELX200-15P Active PA Speaker
-  active-vs-passive-pa :: JBL JRX215 Passive Speaker
-  active-vs-passive-pa :: Mackie SRT215 Active PA Speaker
-  active-vs-passive-pa :: Yamaha CBR12 Passive Speaker
   active-vs-passive-pa :: EV ELX200-12 Passive Speaker
   active-vs-passive-pa :: EV ZLX-12P-G2 Active PA Speaker
-  active-vs-passive-pa :: Yamaha DBR12 Active PA Speaker
-  beginner-bass-guitars :: Yamaha TRBX304
-  beginner-bass-guitars :: Yamaha BB234
-  beginner-guitar :: Yamaha FG800 Acoustic
-  beginner-guitar :: Yamaha Pacifica 112V
-  beginner-guitar :: Yamaha C40 Classical (Nylon) Guitar
-  best-32-channel-digital-mixers :: Behringer X32
-  best-32-channel-digital-mixers :: Yamaha TF3
-  best-32-channel-digital-mixers :: PreSonus StudioLive SE 32R
-  best-32-channel-digital-mixers :: PreSonus StudioLive 32S
-  best-32-channel-digital-mixers :: Mackie DL32SE
-  best-32-channel-digital-mixers :: PreSonus StudioLive 32SC
-  best-5-string-basses :: Yamaha TRBX305 Bass
-  best-5-string-basses :: Yamaha BB435 Bass
-  best-acoustic-guitars-for-beginners :: Yamaha FG800 Acoustic
-  best-acoustic-guitars-for-beginners :: Yamaha FS800
-  best-acoustic-guitars-for-beginners :: Yamaha FGX800C
-  best-amp-modelers :: IK Multimedia TONEX ONE+
-  best-analog-mixers :: Yamaha MG10XU
-  best-analog-mixers :: Mackie ProFX12v3
-  best-bass-practice-amps :: Yamaha THR30II
-  best-bass-under-700 :: Yamaha TRBX304
-  best-bass-under-700 :: Yamaha BB434
-  best-beginner-electric-guitar :: Yamaha Pacifica 112V
-  best-beginner-electric-guitar :: Yamaha Revstar Element RSE20
+  beginner-bass-guitars :: Ibanez GSR200 GIO
+  beginner-bass-guitars :: Ibanez SR300E
+  beginner-bass-guitars :: Ibanez TMB30 Talman
+  best-5-string-basses :: Ibanez GSR205B Gio Bass
+  best-5-string-basses :: Ibanez SR505A Bass
+  best-5-string-basses :: Ibanez EHB1005MS Headless Bass
+  best-acoustic-guitars-for-beginners :: Ibanez AW54 Artwood
+  best-audio-repair-plugins :: Baby Audio Baby Audio Smooth Operator Pro
+  best-bass-amps :: Boss Katana-110 Bass
+  best-bass-home-office :: Ibanez EHB1000 Headless Bass
+  best-bass-home-office :: Ibanez GSRM20 Mikro Bass
+  best-bass-practice-amps :: Boss WAZA-AIR Bass
+  best-bass-under-700 :: Ibanez SR300E
+  best-beginner-electric-guitar :: Ibanez Gio GRG121DX
+  best-compact-mixers :: SE 24R
   best-condenser-mics :: Audio-Technica AT2020
-  best-condenser-mics :: Neumann TLM 103
-  best-condenser-mics :: Neumann U 87 Ai
-  best-digital-mixers :: Behringer X Air XR18
-  best-digital-mixers :: Behringer X32 Compact
-  best-digital-mixers :: PreSonus StudioLive 32SC
-  best-digital-mixers :: Yamaha DM3S
-  best-digital-mixers :: Behringer WING Compact
-  best-digital-pianos :: Yamaha P-225
-  best-digital-pianos :: Yamaha YDP-146
-  best-digital-pianos :: Yamaha YDP-166
-  best-digital-pianos :: Yamaha CLP-835
-  best-electric-guitar :: Yamaha Pacifica 112V
-  best-electric-guitars-2026 :: Yamaha Pacifica 112V
-  best-guitar-home-office :: Yamaha SLG200S
-  best-guitar-home-office :: Yamaha SLG200N
+  best-condenser-mics :: sE Electronics sE2200
+  best-condenser-mics :: Universal Audio Sphere DLX
+  best-daw-for-beginners :: FL Studio Producer Edition
+  best-electric-guitar :: Ibanez AZ2402 Prestige
   best-guitar-plugins :: IK Multimedia AmpliTube 5
+  best-guitar-plugins :: Universal Audio UAD Sound City Studios
   best-headphones :: Audio-Technica ATH-M50x
   best-headphones :: Audio-Technica ATH-M20x
   best-headphones :: Audio-Technica ATH-R70xa
-  best-headphones :: Neumann NDH 30
-  best-headphones-for-mixing :: Neumann NDH 30
   best-headphones-for-mixing :: Audio-Technica ATH-M50x
-  best-instrument-mics :: Neumann KM 184
+  best-instrument-mics :: Electro-Voice RE20
+  best-interface :: Universal Audio Apollo Twin X Gen 2
+  best-interface :: Universal Audio Volt 2
+  best-interface :: Universal Audio Volt 276
   best-interface :: IK Multimedia AXE I/O
-  best-keyboard :: Yamaha P-225
   best-keyboard :: M-Audio Hammer 88
-  best-live-sound-mixers :: Behringer X32 Compact
-  best-live-sound-mixers :: Yamaha MG16XU
-  best-live-sound-mixers :: Behringer X Air XR18
-  best-live-sound-mixers :: Yamaha DM3S
-  best-live-subwoofers :: JBL PRX918XLF
-  best-live-subwoofers :: Yamaha DXS18XLF
-  best-live-subwoofers :: JBL EON718S
-  best-looper-pedals :: TC Electronic Ditto Looper
-  best-looper-pedals :: TC Electronic Ditto X4 Looper
-  best-mic-for-podcasting :: Behringer XM8500 Ultravoice
+  best-live-subwoofers :: Electro-Voice ELX200-18SP
+  best-microphone :: sE Electronics X1 R
   best-microphone :: Audio-Technica AT2020
-  best-microphone :: Neumann TLM 102
   best-pa-speakers :: EV ZLX-12P-G2 Active PA Speaker
-  best-pa-speakers :: Yamaha DXR12mkII Active PA Speaker
-  best-pa-speakers :: Mackie Thump215XT
   best-pa-speakers :: EV ELX200-15P Active PA Speaker
-  best-pa-speakers :: JBL PRX915
+  best-parlor-guitars :: SE P20e
   best-parlor-guitars :: L-00 Studio
-  best-practice-amps :: Yamaha THR10II
-  best-reverb-delay :: TC Electronic Hall of Fame 2
+  best-plugins :: Universal Audio UAD Ultimate 14
+  best-practice-amps :: Boss Katana 50 Gen 3
+  best-practice-amps :: Boss Waza-Air
+  best-ribbon-mics :: sE Electronics Voodoo VR2
   best-shotgun-mics :: S-Mic 3
   best-shotgun-mics :: Audio-Technica AT897
-  best-stage-keyboards :: Yamaha YC88
-  best-stage-keyboards :: Yamaha Montage M8x
-  best-stage-keyboards :: Yamaha CK88
   best-synth-vsts :: u-he Diva
-  best-synthesizers :: Yamaha Montage M8x
-  best-synthesizers :: Behringer DeepMind 12
-  budget-bass-like-expensive :: Yamaha TRBX304
-  budget-bass-like-expensive :: Yamaha BB434
+  budget-bass-like-expensive :: Ibanez SR300E
   budget-bass-like-expensive :: G&L Tribute L-2000
   budget-headphones :: Audio-Technica ATH-M40x
   budget-headphones :: Audio-Technica ATH-R30x
-  budget-interfaces :: Behringer U-Phoria UMC1820
-  budget-mics :: Behringer B 906
-  budget-mics :: Behringer XM8500 Ultravoice
+  budget-interfaces :: Universal Audio Volt 2
+  budget-interfaces :: Universal Audio Volt 276
+  budget-mics :: sE Electronics V7
   budget-mics :: Audio-Technica AT2020
   budget-mics :: Audio-Technica AT2035
-  budget-pa-systems :: Mackie Thump215XT
+  budget-mics :: Electro-Voice ND86
+  budget-monitors ::  IN-8 V2
   budget-pa-systems :: EV ZLX-12P-G2 Active PA Speaker
-  budget-pa-systems :: Yamaha DBR12 Active PA Speaker
-  budget-pa-systems :: JBL EON712 Active PA Speaker
-  compact-rhythm-devices :: Yamaha SEQTRAK
-  guitar-bass-amps :: Yamaha THR30II Wireless Desktop Amp
-  guitar-pedals :: TC Electronic Hall of Fame 2
+  budget-usb-mics :: Blue Yeti Nano
+  channel-strip-plugins :: Universal Audio 1176 Classic Limiter Collection
+  channel-strip-plugins :: Universal Audio UAD Ultimate 14
+  daw-guide :: FL Studio Producer Edition
+  fx-plugins :: Eventide Blackhole
+  fx-plugins :: Baby Audio Transit 2
+  fx-plugins :: Baby Audio Spaced Out
+  guitar-bass-amps :: Boss Katana-50 EX Gen 3
   live-sound-pa :: EV ZLX-12P-G2 Active PA Speaker
-  live-sound-pa :: JBL EON712 Active PA Speaker
-  live-sound-pa :: JBL PRX ONE Active PA Column
-  live-sound-pa :: Yamaha DXR12mkII Active PA Speaker
-  live-sound-pa :: Yamaha Stagepas 1K MKII Active PA Mixer
+  live-sound-pa :: LD Systems ICOA 12 A BT Active PA Speaker
+  live-sound-pa :: Electro-Voice EVERSE 12 Active PA Speaker
   mics-for-creators :: Audio-Technica AT2020USB-X
   mics-for-creators :: Audio-Technica AT2020
   mics-for-creators :: Audio-Technica AT2040USB
-  midi-controllers :: PreSonus FaderPort 8
-  midi-controllers :: Behringer X-Touch
-  midi-controllers :: Mackie MCU Pro
+  mics-for-creators :: Blue Yeti USB Microphone
+  mixing-plugins :: Universal Audio 1176 Classic Limiter Collection
+  mixing-plugins :: Baby Audio Smooth Operator Pro
   monitor-setup :: K&M 26722 Monitor Stands
-  monitor-setup :: Genelec GLM Kit
+  nx912-vs-pxm12mp :: Electro-Voice PXM-12MP
   open-headphones :: Audio-Technica ATH-R70xa
-  open-headphones :: Neumann NDH 30
-  premium-interfaces :: Neumann MT 48 (U)
-  stage-wedges :: Yamaha DHR12M
+  portable-interfaces :: Universal Audio Volt 2
+  portable-interfaces :: Universal Audio Volt 276
+  premium-interfaces :: Universal Audio Apollo x8p Gen 2
+  stage-mics :: Electro-Voice ND86
+  stage-wedges :: Electro-Voice PXM-12MP
+  stage-wedges :: LD Systems MON 12 A G3
   stream-controllers :: TC Helicon GoXLR Mini
-  stream-controllers :: Mackie MainStream
   stream-controllers :: RØDE RØDECaster Pro II
-  stream-controllers :: Mackie DLZ Creator
-  stream-controllers :: Yamaha AG08
-  stream-controllers :: Behringer FLOW 8
-  streaming-interfaces :: Yamaha URX44V
+  streaming-interfaces :: Universal Audio Volt 276
+  streaming-interfaces :: Zoom PodTrak P4next
   studio-furniture :: K&M 210/2 Mic Stand
   studio-furniture :: K&M 26722 Monitor Stands (Each)
-  tracking-headphones :: Focal Listen Professional
+  studio-subwoofers :: IK Multimedia iLoud Sub
   tracking-headphones :: Audio-Technica ATH-M50x
   tracking-headphones :: Audio-Technica ATH-M40x
-  tracking-headphones :: Neumann NDH 20
   tracking-headphones :: Audio-Technica ATH-M70x
   usb-mics :: Audio-Technica AT2040USB
+  usb-mics :: sE Electronics NEOM USB
   usb-mics :: Audio-Technica AT2020USB-X
+  vocal-plugins :: Baby Audio Smooth Operator Pro
+  best-studio-monitors-under-150 :: M-Audio BX4

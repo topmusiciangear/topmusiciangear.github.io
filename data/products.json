@@ -2407,7 +2407,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Classic mid-hump overdrive",
+      "es": "Overdrive clásico con medios"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Overdrive",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "8 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 97,
@@ -2432,7 +2465,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Compact delay powerhouse",
+      "es": "Delay compacto todoterreno"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Digital delay",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "65 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 98,
@@ -2457,7 +2523,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Stage-standard tuning",
+      "es": "Afinación de escenario"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Chromatic tuner",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "40 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 99,
@@ -2482,7 +2581,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "The original wah sweep",
+      "es": "El wah original"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Wah",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Hardwire",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "1 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 100,
@@ -2507,7 +2639,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Mash-pedal reverb",
+      "es": "Reverb con pedal Mash"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Digital reverb",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "150 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 102,
@@ -3863,7 +4028,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Amp-like blues breakup",
+      "es": "Rotura tipo ampli para blues"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Overdrive",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "8 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 134,
@@ -3888,7 +4086,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Hard-clipping distortion",
+      "es": "Distorsión clásica"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Distortion",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "2 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 135,
@@ -3914,7 +4145,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Studio-grade reverbs",
+      "es": "Reverbs de estudio"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Multi-algorithm reverb",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True / buffered selectable",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "500 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 136,
@@ -3939,7 +4203,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Two phasers, one box",
+      "es": "Dos phasers en uno"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Phaser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "4 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 137,
@@ -5942,7 +6239,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Loops with drum machine",
+      "es": "Loops con caja de ritmos"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Loop station",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "170 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 201,
@@ -5967,7 +6297,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "One-knob looping",
+      "es": "Looper de un solo mando"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Looper",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "8 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 202,
@@ -5992,7 +6355,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Pedalboard amp modeling",
+      "es": "Modelado en la pedalera"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Multi-effects / modeler",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "300+ Helix amps, cabs",
+        "label": {
+          "en": "Models",
+          "es": "Modelos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "No",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 203,
@@ -6017,7 +6413,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Budget amp modeling",
+      "es": "Modelado económico"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Multi-effects",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "108 effects",
+        "label": {
+          "en": "Models",
+          "es": "Modelos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "7 hours on 4x AA",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 204,
@@ -6042,7 +6471,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Knob-driven multi-effects",
+      "es": "Multiefectos de perillas"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Multi-effects",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "190 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 205,
@@ -6067,7 +6529,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Touchscreen amp capture",
+      "es": "Captura con pantalla táctil"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Multi-effects / modeler",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "52 amps, 15 cabs",
+        "label": {
+          "en": "Models",
+          "es": "Modelos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "No",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 206,
@@ -8345,7 +8840,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Tone capture on a board",
+      "es": "Captura de tono en pedal"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Amp modeler / capture",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "420+ tone models",
+        "label": {
+          "en": "Models",
+          "es": "Modelos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "1x 9V battery",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 259,
@@ -8370,7 +8898,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Simple Helix tones",
+      "es": "Tono Helix simplificado"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Multi-effects / modeler",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "200+ HX amps",
+        "label": {
+          "en": "Models",
+          "es": "Modelos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "No",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 262,
@@ -16094,7 +16655,40 @@
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-Small-Stone-Analog-Phase-Shifter/8WV",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FElectro-Harmonix-Small-Stone-Nano-Chassis%2Fart-GIT0009646-000"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Subtle analog phasing",
+      "es": "Phasing analógico sutil"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Phaser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "5 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 444,
@@ -19998,7 +20592,40 @@
       "zzounds": "https://www.zzounds.com/item--ZOMZG11",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Zoom-G11-Multi-Effects-Processor/54OK"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Built-in expression pedal",
+      "es": "Con pedal de expresión"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Multi-FX / amp modeler",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered / true bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "500 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 578,
@@ -20016,7 +20643,40 @@
       "andertons": "https://www.andertons.co.uk/boss-gt-1000core-guitar-effects-processor-pedal/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Boss-GT-1000CORE/art-GIT0054641-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Flagship tone, small box",
+      "es": "Tono tope, formato compacto"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Multi-FX / amp modeler",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered / true bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "1000 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 579,
@@ -20034,7 +20694,40 @@
       "andertons": "https://www.andertons.co.uk/neural-dsp-quad-cortex-digital-effects-processor-and-amp-modeller/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Neural-DSP-Quad-Cortex/art-GIT0060299-000"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Capture + full rig",
+      "es": "Captura y rig completo"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Amp modeler / capture",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered / true bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "3000 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 580,
@@ -20050,7 +20743,40 @@
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Mooer-GE300-Multi-Effects-Pedal/2UHQ",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Mooer-Audio-GE300/art-GIT0050316-000"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Budget modeling workstation",
+      "es": "Modelado económico completo"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Multi-FX / amp modeler",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered / true bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "600 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 581,
@@ -20067,7 +20793,40 @@
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fulltone-OCD-V2-Overdrive/68VP",
       "andertons": "https://www.andertons.co.uk/fulltone-usa-ocd-v2-overdrive-pedal/?search_query=Fulltone%20OCD%20v2"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Amp-in-a-box crunch",
+      "es": "Crunch tipo ampli"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Overdrive",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True / enhanced switchable",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "8 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 582,
@@ -20085,7 +20844,40 @@
       "andertons": "https://www.andertons.co.uk/wampler-tumnus-deluxe-guitar-pedal/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Wampler-Tumnus-Deluxe-V2/art-GIT0051731-000"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Transparent Klon-style boost",
+      "es": "Boost estilo Klon"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Overdrive",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered / true bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "70 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 583,
@@ -20103,7 +20895,40 @@
       "andertons": "https://www.andertons.co.uk/jhs-pedals-morning-glory-overdrive-v4/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/JHS-Pedals-Morning-Glory-Overdrive/art-GIT0036556-000"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Low-gain transparent drive",
+      "es": "Drive transparente"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Overdrive",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "43 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 584,
@@ -20121,7 +20946,40 @@
       "andertons": "https://www.andertons.co.uk/mxr-m104-distortion-plus-pedal/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/MXR-M-104-Distortion-/art-ACC0000415-000"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Op-amp hard distortion",
+      "es": "Distorsión op-amp"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Distortion",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "2.5 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 585,
@@ -20139,7 +20997,40 @@
       "andertons": "https://www.andertons.co.uk/boss-bd-2w-blues-driver-guitar-effects-pedal/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Boss-BD-2w-Blues-Driver-Waza-Craft-Special-Edition/art-GIT0032558-000"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Boutique Blues Driver",
+      "es": "Blues Driver de gama alta"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Overdrive",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "18 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 586,
@@ -20157,7 +21048,40 @@
       "andertons": "https://www.andertons.co.uk/boss-rc-500-loop-station-pedal/?search_query=Boss%20RC-500",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Boss-RC-500-Loop-Station/art-GIT0054643-000"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Two-track phrase looping",
+      "es": "Loops de dos pistas"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Multi-track looper",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "240 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 587,
@@ -20175,7 +21099,40 @@
       "andertons": "https://www.andertons.co.uk/tc-electronic-ditto-x4-looper/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/TC-Electronic-Ditto-X4-Looper/art-GIT0037748-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Stereo sync looping",
+      "es": "Looping estéreo sincronizado"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Stereo looper",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "100 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 588,
@@ -20193,7 +21150,40 @@
       "andertons": "https://www.andertons.co.uk/electro-harmonix-720-stereo-looper-pedal/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Electro-Harmonix-720-Stereo-Looper/art-GIT0037434-000"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Simple stereo looping",
+      "es": "Looping estéreo sencillo"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Stereo looper",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "75 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 590,
@@ -20211,7 +21201,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/MXR-M303-Clone-Looper/art-GIT0051390-000",
       "andertons": "https://www.andertons.co.uk/mxr-m303-clone-looper-pedal/?search_query=MXR%20M303%20Clone%20Looper"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Simple MXR looping",
+      "es": "Looping sencillo de MXR"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Multi-track looper",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "500 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 591,
@@ -20229,7 +21252,40 @@
       "andertons": "https://www.andertons.co.uk/strymon-timeline-delay-pedal/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Strymon-TimeLine/art-GIT0022461-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "12 delay machines",
+      "es": "12 máquinas de delay"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Delay",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered / true bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "300 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 592,
@@ -20246,7 +21302,40 @@
       "andertons": "https://www.andertons.co.uk/meris-lvx-modular-delay-system-pedal/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Meris-LVX/art-GIT0058964-000"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Modular delay sandbox",
+      "es": "Laboratorio de delay modular"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Modular delay workstation",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered / true bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "300 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 593,
@@ -20263,7 +21352,40 @@
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Eventide-Time-Factor-Twin-Delay-Pedal/FA4",
       "official": "https://store.eventideaudio.com/products/timefactor"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Dual delay, studio FX",
+      "es": "Delay doble de estudio"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Delay / looper",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "150 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 594,
@@ -20279,7 +21401,40 @@
       "zzounds": "https://www.zzounds.com/item--SORNEMESISADT",
       "andertons": "https://www.andertons.co.uk/source-audio-nemesis-delay-adt-pedal/?search_query=Source%20Audio%20Nemesis"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "14 delay engines",
+      "es": "14 motores de delay"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Delay",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "400 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 595,
@@ -20295,7 +21450,40 @@
       "zzounds": "https://www.zzounds.com/item--KEECAVERNSV2",
       "andertons": "https://www.andertons.co.uk/keeley-caverns-delay-reverb-v2/"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Delay and spring reverb",
+      "es": "Delay y reverb de muelle"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Delay",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered / true bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "200 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 596,
@@ -20313,7 +21501,40 @@
       "andertons": "https://www.andertons.co.uk/universal-audio-uafx-del-verb-ambience-companion-pedal/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Del-Verb-Ambience-Companion/art-GIT0060302-000"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Tape delay + reverb",
+      "es": "Delay de cinta + reverb"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Delay + reverb combo",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass / trails",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "75 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 597,
@@ -20331,7 +21552,40 @@
       "andertons": "https://www.andertons.co.uk/mxr-m169-carbon-copy-analog-delay-pedal/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/MXR-M169-Carbon-Copy-Analog-Delay/art-GIT0012901-000"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Analog BBD warmth",
+      "es": "Calidez analógica BBD"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Analog delay (BBD)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "26 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 598,
@@ -20349,7 +21603,40 @@
       "andertons": "https://www.andertons.co.uk/universal-audio-golden-reverberator-pedal/?search_query=Universal%20Audio%20Golden%20Reverberator",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Golden-Reverberator/art-GIT0056042-000"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Spring, plate, hall verbs",
+      "es": "Reverbs spring, plate y hall"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Reverb (Spring/Plate/Hall)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered (trails)",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "400 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 599,
@@ -20367,7 +21654,40 @@
       "andertons": "https://www.andertons.co.uk/boss-rv-200-reverb-pedal/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Boss-RV-200-Reverb/art-GIT0061054-000"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Compact Boss reverb",
+      "es": "Reverb Boss compacto"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Reverb (Spring/Plate/Hall)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "400 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 600,
@@ -20383,7 +21703,40 @@
       "zzounds": "https://www.zzounds.com/item--EHXSNCO03E",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-1440-Stereo-Looper/5XK9"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Long stereo loops",
+      "es": "Loops estéreo largos"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Stereo looper",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Buffered",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "150 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 601,
@@ -20401,7 +21754,40 @@
       "andertons": "https://www.andertons.co.uk/boss-rc-600-loop-station/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Boss-RC-600-Loop-Station/art-GIT0057517-000"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Six-track live looping",
+      "es": "Looping de seis pistas"
+    },
+    "facts": [
+      {
+        "icon": "wave",
+        "value": "Mono looper",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "True bypass",
+        "label": {
+          "en": "Bypass",
+          "es": "Bypass"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "50 mA",
+        "label": {
+          "en": "Current draw",
+          "es": "Consumo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 602,

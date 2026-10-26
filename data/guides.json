@@ -1150,7 +1150,7 @@
         },
         {
           "label": "Top Wood",
-          "label_es": "Madera de la Tapa",
+          "label_es": "Madera de la tapa",
           "values": [
             {
               "value": "Solid Sitka spruce",
@@ -1184,7 +1184,7 @@
         },
         {
           "label": "Back & Sides",
-          "label_es": "Fondo y Aros",
+          "label_es": "Fondo y aros",
           "values": [
             {
               "value": "East Indian rosewood",
@@ -1218,7 +1218,7 @@
         },
         {
           "label": "Body Shape",
-          "label_es": "Forma del Cuerpo",
+          "label_es": "Forma del cuerpo",
           "values": [
             {
               "value": "Dreadnought",
@@ -1286,7 +1286,7 @@
         },
         {
           "label": "Fretboard & Frets",
-          "label_es": "Diapasón y Trastes",
+          "label_es": "Diapasón y trastes",
           "values": [
             {
               "value": "Ebony, 20 frets",
@@ -1354,7 +1354,7 @@
         },
         {
           "label": "Pickup / Electronics",
-          "label_es": "Pastilla / Electrónica",
+          "label_es": "Pastilla / electrónica",
           "values": [
             {
               "value": "None (acoustic)",
@@ -3908,7 +3908,7 @@
       "faq_q1_en": "I want to record guitar with amp sims in real time and also have rock-solid drivers for live shows — which interface covers both?",
       "faq_a1_en": "Buy the Apollo Twin X Gen 2 if you want to track through UAD plugins — Unison previo emulations and real-time DSP give you Neve and API tones with near-zero latency. Buy the RME Babyface Pro FS if you want the most stable, transparent, portable interface with TotalMix routing and legendary driver reliability. The Apollo is the creative choice; the RME is the dependable one.",
       "faq_q2_en": "What is the difference between the Apollo Twin X Gen 2 and the RME Babyface Pro FS?",
-      "faq_a2_en": "The Apollo Twin X Gen 2 is a 2-in/6-out interface with Unison previos, a hi-Z instrument input and onboard UAD DSP that runs plugins in real time during tracking. The RME Babyface Pro FS is a 4-in/4-out bus-powered unit with total up to 24 channels vía ADAT, the class-leading SteadyClock FS jitter suppression and TotalMix FX routing. Apollo gives you plugin processing; RME gives you I/O flexibility and rock-solid drivers.",
+      "faq_a2_en": "The Apollo Twin X Gen 2 is a 2-in/6-out interface with Unison previos, a hi-Z instrument input and onboard UAD DSP that runs plugins in real time during tracking. The RME Babyface Pro FS is a 4-in/4-out bus-powered unit with total up to 24 channels via ADAT, the class-leading SteadyClock FS jitter suppression and TotalMix FX routing. Apollo gives you plugin processing; RME gives you I/O flexibility and rock-solid drivers.",
       "specs": [
         {
           "label_es": "Preamplificadores",
@@ -7451,7 +7451,7 @@
         },
         {
           "label": "Active/Passive",
-          "label_es": "Activo/Pasivo",
+          "label_es": "Activo/pasivo",
           "values": [
             {
               "value": "Active (Phat II EQ)",
@@ -8413,7 +8413,7 @@
         },
         {
           "label": "Body Wood",
-          "label_es": "Madera del Cuerpo",
+          "label_es": "Madera del cuerpo",
           "values": [
             {
               "value": "Solid spruce / nato",
@@ -8505,7 +8505,7 @@
         },
         {
           "label": "Frets & Fretboard",
-          "label_es": "Trastes y Diapasón",
+          "label_es": "Trastes y diapasón",
           "values": [
             {
               "value": "20, rosewood",
@@ -8597,7 +8597,7 @@
         },
         {
           "label": "Scale Length",
-          "label_es": "Longitud de Escala",
+          "label_es": "Longitud de escala",
           "values": [
             {
               "value": "25.6 in (650 mm)",
@@ -9029,7 +9029,7 @@
     "description_es": "Mi elección: Allen & Heath SQ-6+. Ficha técnica, precios y veredicto.",
     "image": "img/products/3728f02dfc.webp",
     "badge": "topPicks",
-    "intro": "Digital mixers in the 24 to 32 channel range cover most live sound situations — from small worship bands to full stage setups. We analyzed the standout models to find the best combination of preamp quality, bus routing, effects, recording capability, and value. <strong>A note on channel counts:</strong> we rank mixers by architecture and ability to cover 24- to 32-channel events. Rack-mount or subcompact models (like the PreSonus 32SC or the SQ-6+) save rear-panel space with fewer local connections, but still handle up to 32 or 48 channels vía digital network expanders.",
+    "intro": "Digital mixers in the 24 to 32 channel range cover most live sound situations — from small worship bands to full stage setups. We analyzed the standout models to find the best combination of preamp quality, bus routing, effects, recording capability, and value. <strong>A note on channel counts:</strong> we rank mixers by architecture and ability to cover 24- to 32-channel events. Rack-mount or subcompact models (like the PreSonus 32SC or the SQ-6+) save rear-panel space with fewer local connections, but still handle up to 32 or 48 channels via digital network expanders.",
     "intro_es": "Las mezcladoras digitales de 24 a 32 canales cubren la mayoría de situaciones de sonido en vivo, desde grupos de alabanza pequeños hasta montajes completos de escenario. Analizamos los modelos más destacados para encontrar la mejor combinación de previos, encaminamiento de buses, efectos, grabación y relación calidad-precio. <strong>Una nota sobre los canales:</strong> en esta guía clasificamos las mezcladoras por su arquitectura y por su capacidad para sonorizar eventos que requieren de 24 a 32 canales. Ten en cuenta que los modelos en rack o subcompactos (como la PreSonus 32SC) ahorran espacio con menos conexiones locales en el panel trasero, pero rinden hasta 32 o 48 canales con expansores digitales por red.",
     "sections": [
       {
@@ -9054,7 +9054,7 @@
       {
         "heading": "The Value King: Behringer X32",
         "heading_es": "La mejor relación calidad-precio: Behringer X32",
-        "content": "<p><strong>The Behringer X32 changed the digital mixer market when it launched, and it remains the best value proposition in 32-channel mixing.</strong> You get 32 MIDAS-designed programmable preamps, 25 motorized faders and 32-channel USB for full-band mixing., 25 motorized faders, a 7-inch color TFT display, and a 32-channel USB audio interface — features that were reserved for consoles costing three or four times as much just a decade ago.</p><p><strong>The MIDAS preamps are the real story.</strong> Behringer partnered with MIDAS, one of the most respected names in live sound console design, to create preamps that deliver clean, detailed audio with enough gain for even low-output dynamic microphones. The X32 also includes Klark Teknik'superMAC networking technology on its AES50 ports, supporting up to 48 additional inputs and outputs vía digital stage boxes.</p><p><strong>Firmware 2.0 expanded the X32's capabilities dramatically.</strong> The update added True Physical Modelling of classic audio processors, a 100-band Real Time Analyzer, enhanced scene management, and Acoustic Integration with Turbosound iQ speakers vía Cat5 connection. With over 100 scenes stored onboard and 8 true-stereo FX engines, the X32 punches well above its price point.</p><p><strong>The learning curve is real but manageable.</strong> The X32's interface is deep, and new users should expect to spend time with YouTube tutorials before their first gig. However, once you understand the workflow, it becomes second nature. The large community of X32 users means help is always available online.</p>",
+        "content": "<p><strong>The Behringer X32 changed the digital mixer market when it launched, and it remains the best value proposition in 32-channel mixing.</strong> You get 32 MIDAS-designed programmable preamps, 25 motorized faders and 32-channel USB for full-band mixing., 25 motorized faders, a 7-inch color TFT display, and a 32-channel USB audio interface — features that were reserved for consoles costing three or four times as much just a decade ago.</p><p><strong>The MIDAS preamps are the real story.</strong> Behringer partnered with MIDAS, one of the most respected names in live sound console design, to create preamps that deliver clean, detailed audio with enough gain for even low-output dynamic microphones. The X32 also includes Klark Teknik'superMAC networking technology on its AES50 ports, supporting up to 48 additional inputs and outputs via digital stage boxes.</p><p><strong>Firmware 2.0 expanded the X32's capabilities dramatically.</strong> The update added True Physical Modelling of classic audio processors, a 100-band Real Time Analyzer, enhanced scene management, and Acoustic Integration with Turbosound iQ speakers via Cat5 connection. With over 100 scenes stored onboard and 8 true-stereo FX engines, the X32 punches well above its price point.</p><p><strong>The learning curve is real but manageable.</strong> The X32's interface is deep, and new users should expect to spend time with YouTube tutorials before their first gig. However, once you understand the workflow, it becomes second nature. The large community of X32 users means help is always available online.</p>",
         "content_es": "<p><strong>La Behringer X32 cambió el mercado de mezcladoras digitales cuando se lanzó, y sigue siendo la mejor propuesta de valor en mezcla de 32 canales.</strong> Por aproximadamente $1.999, obtienes 32 previos programables diseñados por MIDAS, 25 faders motorizados, una pantalla TFT a color de 7 pulgadas y una interfaz de audio USB de 32 canales — funciones que estaban reservadas para consolas que costaban tres o cuatro veces más hace apenas una década.</p><p><strong>La verdadera clave son los previos MIDAS.</strong> Behringer se asoció con MIDAS, uno de los nombres más respetados en el diseño de consolas de sonido en vivo, para crear previos que entregan audio limpio y detallado con suficiente ganancia incluso para micrófonos dinámicos de baja salida. La X32 también incluye la tecnología SuperMAC de Klark Teknik en sus puertos AES50, soportando hasta 48 entradas y salidas adicionales con stage boxes digitales.</p><p><strong>El firmware 2.0 amplió muchísimo las capacidades de la X32.</strong> La actualización agregó True Physical Modelling de procesadores de audio clásicos, un analizador de tiempo real de 100 bandas, gestión mejorada de escenas e integración acústica con altavoces Turbosound iQ por conexión Cat5. Con más de 100 escenas almacenadas y 8 motores FX estéreo verdaderos, la X32 da mucho más de lo que su precio sugiere.</p><p><strong>La curva de aprendizaje es real pero manejable.</strong> La interfaz de la X32 es profunda, y los nuevos usuarios deben contar con dedicar tiempo a tutoriales de YouTube antes de su primer concierto. Pero, una vez que entiendes el flujo de trabajo, todo se vuelve natural. La gran comunidad de usuarios de X32 significa que siempre hay ayuda disponible en línea.</p>",
         "products": [
           402
@@ -9070,7 +9070,7 @@
       {
         "heading": "Premium Sound: Midas M32 LIVE",
         "heading_es": "Sonido premium: Midas M32 LIVE",
-        "content": "<p><strong>The Midas M32 LIVE is what happens when you take the X32 platform and elevate every component to audiophile grade.</strong> At $3,999, you get the same fundamental architecture but with genuine Midas PRO microphone preamps. The same ones used in the well-regarded XL4 and Heritage 3000 consoles that defined live sound for artists from Bon Jovi to Coldplay.</p><p><strong>The build quality is immediately apparent.</strong> Carbon fiber, aluminum, and high-impact steel construction make the M32 LIVE significantly lighter than comparable consoles while being more durable. The 25 Midas PRO motorized faders are rated for 1 million life cycles — three times more than competing consoles. This a mixer built to survive many gigs.</p><p><strong>Dual SD/SDHC recording is a standout feature.</strong> The pre-installed DN32-LIVE expansion module provides 32-channel bidirectional audio I/O vía USB 2.0 for both live performance and studio recording. The dual SD slots allow fully independent recording and playback of up to 32 channels of uncompressed WAV files — up to 3 hours of 32-channel PCM recording in one session. You can capture live shows without a computer.</p><p><strong>The 192 kHz ADC and DAC converters deliver state-of-the-art conversion.</strong> Combined with the 40-bit floating-point processing, the M32 LIVE provides sonic performance that rivals digital consoles costing $10,000 or more. If sound quality is your absolute priority and budget allows, the M32 LIVE is the choice.</p>",
+        "content": "<p><strong>The Midas M32 LIVE is what happens when you take the X32 platform and elevate every component to audiophile grade.</strong> At $3,999, you get the same fundamental architecture but with genuine Midas PRO microphone preamps. The same ones used in the well-regarded XL4 and Heritage 3000 consoles that defined live sound for artists from Bon Jovi to Coldplay.</p><p><strong>The build quality is immediately apparent.</strong> Carbon fiber, aluminum, and high-impact steel construction make the M32 LIVE significantly lighter than comparable consoles while being more durable. The 25 Midas PRO motorized faders are rated for 1 million life cycles — three times more than competing consoles. This a mixer built to survive many gigs.</p><p><strong>Dual SD/SDHC recording is a standout feature.</strong> The pre-installed DN32-LIVE expansion module provides 32-channel bidirectional audio I/O via USB 2.0 for both live performance and studio recording. The dual SD slots allow fully independent recording and playback of up to 32 channels of uncompressed WAV files — up to 3 hours of 32-channel PCM recording in one session. You can capture live shows without a computer.</p><p><strong>The 192 kHz ADC and DAC converters deliver state-of-the-art conversion.</strong> Combined with the 40-bit floating-point processing, the M32 LIVE provides sonic performance that rivals digital consoles costing $10,000 or more. If sound quality is your absolute priority and budget allows, the M32 LIVE is the choice.</p>",
         "content_es": "<p><strong>La Midas M32 LIVE es lo que sucede cuando tomas la plataforma X32 y elevas cada componente a nivel audiófilo.</strong> Por $3.999, obtienes la misma arquitectura fundamental pero con previos Midas PRO genuinos — los mismos que se usaron en las legendarias consolas XL4 y Heritage 3000 que definieron el sonido en vivo para artistas desde Bon Jovi hasta Coldplay.</p><p><strong>La calidad de construcción es inmediatamente evidente.</strong> La construcción de fibra de carbono, aluminio y acero de alto impacto hace que la M32 LIVE sea significativamente más ligera que consolas comparables mientras es más duradera. Los 25 faders motorizados Midas PRO aguantan 1 millón de ciclos de vida — tres veces más que consolas competidoras. Esta es una mezcladora construida para sobrevivir muchos conciertos.</p><p><strong>La grabación dual SD/SDHC es una característica destacada.</strong> El módulo de expansión DN32-LIVE preinstalado proporciona E/S de audio bidireccional de 32 canales por USB 2.0 para actuaciones en vivo y grabación en estudio. Los slots duales SD permiten grabación y reproducción completamente independientes de hasta 32 canales de archivos WAV sin compresión — hasta 3 horas de grabación PCM de 32 canales en una sesión. Puedes capturar shows en vivo sin un ordenador.</p><p><strong>Los convertidores ADC y DAC de 192 kHz entregan conversión avanzada.</strong> Combinados con el procesamiento de punto flotante de 40 bits, la M32 LIVE proporciona rendimiento sonoro que rivaliza con consolas digitales que cuestan $10.000 o más. Si la calidad de sonido es tu prioridad absoluta y el presupuesto lo permite, la M32 LIVE es la opción clara.</p>",
         "products": [
           403
@@ -9150,7 +9150,7 @@
       {
         "heading": "One-to-One Control Without Compromise: PreSonus StudioLive 32S",
         "heading_es": "Control uno a uno sin concesiones: PreSonus StudioLive 32S",
-        "content": "<p><strong>The PreSonus StudioLive 32S gives every channel its own fader: 33 touch-sensitive motorized faders driving 40 mixing channels with 32 recallable XMAX-R preamps.</strong> Dual-core FLEX DSP runs 286 processors, 26 mix buses and Fat Channel vintage EQ/compression on every input, with 16 FlexMixes configurable as aux, subgroup or matrix plus 24 DCAs. 64x64 USB audio — the most on any mixer here — records alongside onboard SD multitrack with true Virtual Soundcheck, and AVB/Milan networking expands vía NSB stage boxes and EarMix monitors (Dante with the AVB-D16). Check current store stock for recording bundles with SD card and protective cover.</p><p><strong>Why one-to-one matters:</strong> no layers to get lost in during a live show — every input stays under your fingers. The 7-inch touchscreen, scribble strips and Studio One/Capture bundle (plus perpetual Fender Studio Pro license) make it the most complete recording package in this guide. At 16.9 kg it is no lightweight, and 48 kHz max (no 96 kHz) is the measurable gap against 96 kHz rivals.</p>",
+        "content": "<p><strong>The PreSonus StudioLive 32S gives every channel its own fader: 33 touch-sensitive motorized faders driving 40 mixing channels with 32 recallable XMAX-R preamps.</strong> Dual-core FLEX DSP runs 286 processors, 26 mix buses and Fat Channel vintage EQ/compression on every input, with 16 FlexMixes configurable as aux, subgroup or matrix plus 24 DCAs. 64x64 USB audio — the most on any mixer here — records alongside onboard SD multitrack with true Virtual Soundcheck, and AVB/Milan networking expands via NSB stage boxes and EarMix monitors (Dante with the AVB-D16). Check current store stock for recording bundles with SD card and protective cover.</p><p><strong>Why one-to-one matters:</strong> no layers to get lost in during a live show — every input stays under your fingers. The 7-inch touchscreen, scribble strips and Studio One/Capture bundle (plus perpetual Fender Studio Pro license) make it the most complete recording package in this guide. At 16.9 kg it is no lightweight, and 48 kHz max (no 96 kHz) is the measurable gap against 96 kHz rivals.</p>",
         "content_es": "<p><strong>La PreSonus StudioLive 32S da a cada canal su propio fader: 33 faders motorizados táctiles para 40 canales de mezcla con 32 previos XMAX-R recallables.</strong> El DSP FLEX de doble núcleo corre 286 procesadores, 26 buses de mezcla y Fat Channel con EQ vintage/compresión en cada entrada, con 16 FlexMixes configurables como aux, subgrupo o matriz más 24 DCAs. USB 64x64 — lo máximo de esta guía — graba junto al multitrack SD a bordo con Virtual Soundcheck real, y la red AVB/Milan expande vía stage boxes NSB y monitores EarMix (Dante con AVB-D16). $2.499 de calle, £2.159 en Andertons, £2.399 en G4M.</p><p><strong>Por qué importa el uno a uno:</strong> sin capas donde perderse en directo — cada entrada queda bajo tus dedos. La pantalla táctil de 7 pulgadas, los scribble strips y la suite Studio One/Capture (más licencia perpetua Fender Studio Pro) la hacen el paquete de grabación más completo de esta guía. Con 16,9 kg no es ligera, y 48 kHz máximo (sin 96 kHz) es la concesión honesta frente a rivales de 96 kHz.</p>",
         "products": [
           412
@@ -9166,7 +9166,7 @@
       {
         "heading": "Rack-Mount Simplicity: Mackie DL32SE",
         "heading_es": "Simplicidad de rack: Mackie DL32SE",
-        "content": "<p><strong>The Mackie DL32SE strips digital mixing down to its essentials: great preamps, powerful DSP, wireless control, and a price that won't break the bank.</strong> At $1,399, it's the most affordable 32-channel option in this roundup, making it ideal for bands, small venues, and mobile engineers who need reliable mixing without the complexity of a full-size console.</p><p><strong>32 Onyx+ preamps deliver clean, detailed sound.</strong> With 16 dedicated XLR inputs and 16 XLR/TRS combo jacks (including 2 Hi-Z inputs for direct guitar and bass connection), the DL32SE handles everything from acoustic ensembles to full bands. Each preamp offers up to +60 dB of gain while maintaining excellent headroom and low noise.</p><p><strong>Wireless mixing vía Master Fader SE app is the headline feature.</strong> Connect up to 20 devices simultaneously — performers can adjust their own monitor mixes while the engineer controls the main mix from anywhere in the venue. Access Limiting ensures musicians can only touch their assigned parameters, preventing accidental changes to the main mix. It's a workflow that eliminates the need for a dedicated monitor engineer at many shows.</p><p><strong>The 4U rack-mount form factor is road-ready.</strong> Steel construction with large rubber corners, an integrated handle, and a lightweight 9.6 lb chassis make the DL32SE easy to transport and install. The 32x32 USB interface supports multitrack recording for virtual soundchecks and post-production, while the four stereo FX processors deliver studio-quality reverbs, delays, and modulation effects.</p>",
+        "content": "<p><strong>The Mackie DL32SE strips digital mixing down to its essentials: great preamps, powerful DSP, wireless control, and a price that won't break the bank.</strong> At $1,399, it's the most affordable 32-channel option in this roundup, making it ideal for bands, small venues, and mobile engineers who need reliable mixing without the complexity of a full-size console.</p><p><strong>32 Onyx+ preamps deliver clean, detailed sound.</strong> With 16 dedicated XLR inputs and 16 XLR/TRS combo jacks (including 2 Hi-Z inputs for direct guitar and bass connection), the DL32SE handles everything from acoustic ensembles to full bands. Each preamp offers up to +60 dB of gain while maintaining excellent headroom and low noise.</p><p><strong>Wireless mixing via Master Fader SE app is the headline feature.</strong> Connect up to 20 devices simultaneously — performers can adjust their own monitor mixes while the engineer controls the main mix from anywhere in the venue. Access Limiting ensures musicians can only touch their assigned parameters, preventing accidental changes to the main mix. It's a workflow that eliminates the need for a dedicated monitor engineer at many shows.</p><p><strong>The 4U rack-mount form factor is road-ready.</strong> Steel construction with large rubber corners, an integrated handle, and a lightweight 9.6 lb chassis make the DL32SE easy to transport and install. The 32x32 USB interface supports multitrack recording for virtual soundchecks and post-production, while the four stereo FX processors deliver studio-quality reverbs, delays, and modulation effects.</p>",
         "content_es": "<p><strong>La Mackie DL32SE simplifica la mezcla digital a sus esenciales: buenos previos, DSP potente, control inalámbrico y un precio que no te arruinará.</strong> Por $1.399, es la opción de 32 canales más asequible de esta comparativa, haciéndola ideal para bandas, recintos pequeños e ingenieros móviles que necesitan mezcla fiable sin la complejidad de una consola de tamaño completo.</p><p><strong>32 previos Onyx+ entregan sonido limpio y detallado.</strong> Con 16 entradas XLR dedicadas y 16 jack combo XLR/TRS (incluyendo 2 entradas Hi-Z para conexión directa de guitarra y bajo), la DL32SE maneja todo desde conjuntos acústicos hasta bandas completas. Cada previo ofrece hasta +60 dB de ganancia mientras mantiene excelente margen y bajo ruido.</p><p><strong>La mezcla inalámbrica vía la app Master Fader SE es la característica principal.</strong> Conecta hasta 20 dispositivos simultáneamente — los músicos pueden ajustar sus propias mezclas de monitor mientras el ingeniero controla la mezcla principal desde cualquier lugar del recinto. Access Limiting asegura que los músicos solo toquen sus parámetros asignados, previniendo cambios accidentales a la mezcla principal. Este flujo de trabajo elimina la necesidad de un ingeniero de monitores dedicado en muchos shows.</p><p><strong>El formato de rack de 4U está pensado para la carretera.</strong> Construcción de acero con esquinas de goma grandes, mango integrado y chasis ligero de 4,4 kg (9,6 lb) hacen que la DL32SE sea fácil de transportar e instalar. La interfaz USB 32x32 soporta grabación multitrack para virtual soundchecks y post-producción, mientras que los cuatro procesadores FX estéreo entregan efectos de reverberación, delay y modulación de calidad de estudio.</p>",
         "products": [
           408
@@ -9209,7 +9209,7 @@
     "faq_a2_es": "El Allen & Heath SQ-6+ tiene la latencia más baja con 0,7 ms gracias a su motor de procesamiento FPGA a 96 kHz. La mayoría de las otras mezcladoras en este rango operan a 48 kHz con alrededor de 0,8-1 ms de latencia.",
     "faq_q3": "Can I use a 24-channel mixer as a recording interface?",
     "faq_q3_es": "¿Puedo usar una mezcladora de 24 canales como interfaz de grabación?",
-    "faq_a3": "Yes. The Yamaha TF3 records 34x34 channels vía USB to a DAW. The SQ-6+ records 32 tracks vía SQ-Drive to a USB hard drive. The Ui24R records 24 tracks vía USB and also has dual SD card recording.",
+    "faq_a3": "Yes. The Yamaha TF3 records 34x34 channels via USB to a DAW. The SQ-6+ records 32 tracks via SQ-Drive to a USB hard drive. The Ui24R records 24 tracks via USB and also has dual SD card recording.",
     "faq_a3_es": "Sí. El Yamaha TF3 graba 34x34 canales vía USB en un DAW. El SQ-6+ graba 32 pistas vía SQ-Drive a un disco duro USB. El Ui24R graba 24 pistas vía USB y también tiene grabación dual en tarjeta SD.",
     "faq_q4": "What is the cheapest 32-channel digital mixer?",
     "faq_q4_es": "¿Cuál es la mezcladora digital de 32 canales más barata?",
@@ -9286,7 +9286,7 @@
               "value_es": "Mezcla inalámbrica en rack"
             },
             {
-              "value": "Churches & schools vía TouchFlow",
+              "value": "Churches & schools via TouchFlow",
               "value_es": "Iglesias y escuelas vía TouchFlow"
             },
             {
@@ -9435,7 +9435,7 @@
         },
         {
           "label": "Multitrack Recording",
-          "label_es": "Grabación Multipista",
+          "label_es": "Grabación multipista",
           "values": [
             {
               "value": "USB 32-track",
@@ -9477,7 +9477,7 @@
         },
         {
           "label": "Physical Faders",
-          "label_es": "Faders Físicos",
+          "label_es": "Faders físicos",
           "values": [
             {
               "value": "16 motorized",
@@ -9561,7 +9561,7 @@
         },
         {
           "label": "Local Outputs",
-          "label_es": "Salidas Locales",
+          "label_es": "Salidas locales",
           "values": [
             {
               "value": "16 XLR + 6 TRS",
@@ -9603,7 +9603,7 @@
         },
         {
           "label": "Built-in Screen",
-          "label_es": "Pantalla Integrada",
+          "label_es": "Pantalla integrada",
           "values": [
             {
               "value": "7\" TFT",
@@ -9645,7 +9645,7 @@
         },
         {
           "label": "Network Protocol",
-          "label_es": "Protocolo de Red",
+          "label_es": "Protocolo de red",
           "values": [
             {
               "value": "AES50",
@@ -9672,7 +9672,7 @@
               "value_es": "Dante (opciónal)"
             },
             {
-              "value": "AVB (Dante vía card)",
+              "value": "AVB (Dante via card)",
               "value_es": "AVB (Dante vía tarjeta)"
             },
             {
@@ -9804,7 +9804,7 @@
           "Efectos Lexicon y procesamiento dbx integrados"
         ],
         "cons": [
-          "No motorized faders — all control is vía tablet or computer",
+          "No motorized faders — all control is via tablet or computer",
           "No physical mixing surface at all",
           "Built-in Wi-Fi can struggle with many devices",
           "Soundcraft app less polished than competitors",
@@ -9886,7 +9886,7 @@
           "32 recallable XMAX-R preamps with 64x64 USB, the most I/O here",
           "Fat Channel vintage EQ/compression on every input plus FLEX FX",
           "SD multitrack with true Virtual Soundcheck, no computer needed",
-          "AVB/Milan ecosystem: NSB boxes, EarMix, Dante vía AVB-D16"
+          "AVB/Milan ecosystem: NSB boxes, EarMix, Dante via AVB-D16"
         ],
         "cons": [
           "48 kHz maximum — no 96 kHz option",
@@ -10865,7 +10865,7 @@
               "value_es": "Activo/pasivo (EMG)"
             }
           ],
-          "label_es": "Activo / Pasivo"
+          "label_es": "Activo / pasivo"
         },
         {
           "label": "Bridge",
@@ -11634,7 +11634,7 @@
         },
         {
           "label": "Back & Sides",
-          "label_es": "Fondo y Aros",
+          "label_es": "Fondo y aros",
           "values": [
             {
               "value": "Mahogany",
@@ -11668,7 +11668,7 @@
         },
         {
           "label": "Body Shape",
-          "label_es": "Forma del Cuerpo",
+          "label_es": "Forma del cuerpo",
           "values": [
             {
               "value": "Dreadnought",
@@ -11702,7 +11702,7 @@
         },
         {
           "label": "Scale Length",
-          "label_es": "Longitud de Escala",
+          "label_es": "Longitud de escala",
           "values": [
             {
               "value": "25.5 in (648 mm)",
@@ -12032,7 +12032,7 @@
       {
         "heading": "Is the IK Multimedia TONEX ONE+ the Best Budget Amp Modeler?",
         "heading_es": "¿Es el IK Multimedia TONEX ONE+ el mejor modelador de amplificador económico?",
-        "content": "<p><strong>The TONEX ONE+ is the upgraded TONEX ONE with the same pocket-sized footprint — now with Bluetooth wireless editing and full MIDI control.</strong> It loads hyper-realistic AI Machine Modeled captures of real tube amps and pedals, runs on a single 9V battery, and doubles as a USB-C audio interface for direct recording. The TONEX Control app (iOS/Android) lets you edit, browse and load tones straight from your phone with no computer, and full MIDI vía mini TRS and USB gives you external control over all 20 presets on stage. Users rate it 4.2/5 across over 550 reviews.</p><p><strong>This still the cheapest gateway into premium amp modeling — now with modern connectivity.</strong> It includes the Signature+ Collection of 100 premium Tone Models (20 preloaded) plus TONEX SE, and gives you access to 60,000+ Tone Models shared by the ToneNET community, many of them free, so your pedal can sound like a Friedman, a Marshall plexi or a boutique combo minutes after unboxing. The improved noise gate keeps high-gain captures tight, and the same deck-of-cards footprint fits any pedalboard or gig bag pocket.</p><p><strong>The catch is still scope.</strong> It is amp-in-a-box, not a full multi-fx: no built-in delay/reverb chain, and while MIDI gives you access to all 20 presets, the single onboard footswitch still toggles just one preset or an A/B pair. If you want a complete rig in one pedal, the GX-1 or Flex Prime is more practical. But if your tone quest is about that one perfect amp sound, nothing here touches it at the price.</p>",
+        "content": "<p><strong>The TONEX ONE+ is the upgraded TONEX ONE with the same pocket-sized footprint — now with Bluetooth wireless editing and full MIDI control.</strong> It loads hyper-realistic AI Machine Modeled captures of real tube amps and pedals, runs on a single 9V battery, and doubles as a USB-C audio interface for direct recording. The TONEX Control app (iOS/Android) lets you edit, browse and load tones straight from your phone with no computer, and full MIDI via mini TRS and USB gives you external control over all 20 presets on stage. Users rate it 4.2/5 across over 550 reviews.</p><p><strong>This still the cheapest gateway into premium amp modeling — now with modern connectivity.</strong> It includes the Signature+ Collection of 100 premium Tone Models (20 preloaded) plus TONEX SE, and gives you access to 60,000+ Tone Models shared by the ToneNET community, many of them free, so your pedal can sound like a Friedman, a Marshall plexi or a boutique combo minutes after unboxing. The improved noise gate keeps high-gain captures tight, and the same deck-of-cards footprint fits any pedalboard or gig bag pocket.</p><p><strong>The catch is still scope.</strong> It is amp-in-a-box, not a full multi-fx: no built-in delay/reverb chain, and while MIDI gives you access to all 20 presets, the single onboard footswitch still toggles just one preset or an A/B pair. If you want a complete rig in one pedal, the GX-1 or Flex Prime is more practical. But if your tone quest is about that one perfect amp sound, nothing here touches it at the price.</p>",
         "content_es": "<p><strong>El TONEX ONE+ es la versión mejorada del TONEX ONE con el mismo tamaño de bolsillo — ahora con edición inalámbrica Bluetooth y control MIDI completo. </strong> Carga captures hiperrealistas AI Machine Modeled de amplificadores y pedales de válvulas reales, funciona con una sola pila de 9V y actúa como interfaz de audio USB-C para grabar directo. La app TONEX Control (iOS/Android) permite editar, navegar y cargar tonos directamente desde el móvil sin ordenador, y el MIDI completo por mini TRS y USB da control externo sobre los 20 presets en el escenario. Los usuarios lo valoran con 4.2/5 en más de 550 reseñas.</p><p><strong>Sigue siendo la puerta de entrada más económica al modelado premium — ahora con conectividad moderna.</strong> Incluye la Signature+ Collection de 100 Tone Models premium (20 precargados) además de TONEX SE, y da acceso a más de 60.000 Tone Models compartidos por la comunidad ToneNET, muchos gratuitos, así que tu pedal puede sonar como un Friedman, un Marshall plexi o un combo boutique minutos después de abrir la caja. El gate de ruido mejorado mantiene ajustados los captures de alta ganancia, y el mismo formato de baraja cabe en cualquier pedalera o bolsillo de la funda.</p><p><strong>La contra sigue siendo el alcance.</strong> Es un amplificador-en-caja, no un multi-fx completo: sin cadena de delay/reverb integrada, y aunque el MIDI te da acceso a los 20 presets, el único footswitch integrado sigue alternando un solo preset o un par A/B. Si necesitas un sistema completo en un solo pedal, el GX-1 o el Flex Prime son más prácticos. Pero si tu búsqueda de tono es ese sonido perfecto de amplificador, nada aquí lo iguala a ese precio.</p>",
         "products": [
           258
@@ -12161,7 +12161,7 @@
       "faq_q3_en": "What is the difference between an amp modeler and a multi-effects pedal?",
       "faq_a3_en": "An amp modeler focuses on realistic amp and cab simulations — the TONEX ONE+ is an amp in a box. A multi-effects pedal like the GX-1 or Flex Prime combines amp models with dozens of effects, a looper and full rig control in one unit. Most modern floor units are both, so the real question is how many effects you need in the chain.",
       "faq_q4_en": "Do I need an amp modeler if I already have a tube amp?",
-      "faq_a4_en": "Not necessarily. But a modeler adds versatility: silent practice through headphones, direct-to-desk recording vía USB, consistent stage tone without mic'ing a cab, and dozens of amp sounds you do not own. Many players keep their tube amp and add a modeler for rehearsals, late-night practice and fly dates.",
+      "faq_a4_en": "Not necessarily. But a modeler adds versatility: silent practice through headphones, direct-to-desk recording via USB, consistent stage tone without mic'ing a cab, and dozens of amp sounds you do not own. Many players keep their tube amp and add a modeler for rehearsals, late-night practice and fly dates.",
       "faq_q1_es": "¿Cuál es el mejor modelador de amplificador para guitarra?",
       "faq_a1_es": "El Line 6 HX Stomp es el mejor en general con más de 300 modelos de amplificador, cab y efectos Helix, 6 bloques simultáneos y valoración 4.7/5. Por relación calidad-precio, el Boss GX-1 es el modelador económico más vendido. Por realismo de captures económico, el IK Multimedia TONEX ONE+ carga captures de amplificadores reales con edición inalámbrica.",
       "faq_q2_es": "¿Pueden los modeladores de amplificador reemplazar un amplificador de válvulas real?",
@@ -12277,7 +12277,7 @@
         },
         {
           "label": "Simultaneous Blocks",
-          "label_es": "Bloques Simultáneos",
+          "label_es": "Bloques simultáneos",
           "values": [
             {
               "value": "8",
@@ -12296,14 +12296,14 @@
               "value_es": "Cadena completa con snapshots"
             },
             {
-              "value": "1 amp-in-a-box (2 modes, 20 vía MIDI)",
+              "value": "1 amp-in-a-box (2 modes, 20 via MIDI)",
               "value_es": "1 amplificador-en-caja (2 modos, 20 vía MIDI)"
             }
           ]
         },
         {
           "label": "Expression Pedal",
-          "label_es": "Pedal de Expresión",
+          "label_es": "Pedal de expresión",
           "values": [
             {
               "value": "External support",
@@ -12453,7 +12453,7 @@
         ],
         "cons": [
           "AIRD modeling sounds less realistic than capture-based or flagship modelers",
-          "No touchscreen — menu navigation vía knobs",
+          "No touchscreen — menu navigation via knobs",
           "Tone depth trails the HX Stomp for critical ears",
           "Plastic chassis flexes under heavy stomping"
         ],
@@ -12525,7 +12525,7 @@
         "name_es": "IK Multimedia TONEX ONE+",
         "pros": [
           "Capture-based realism of real tube amps in a pocket-sized pedal",
-          "Bluetooth wireless editing and full MIDI control vía TRS and USB",
+          "Bluetooth wireless editing and full MIDI control via TRS and USB",
           "USB-C audio interface for direct recording",
           "Access to 60,000+ shared Tone Models on ToneNET"
         ],
@@ -12913,7 +12913,7 @@
         },
         {
           "label": "Aux Sends",
-          "label_es": "Envíos Aux",
+          "label_es": "Envíos aux",
           "values": [
             {
               "value": "1 AUX (FX) send",
@@ -12939,7 +12939,7 @@
         },
         {
           "label": "Built-in FX",
-          "label_es": "FX Integrados",
+          "label_es": "FX integrados",
           "values": [
             {
               "value": "SPX digital FX",
@@ -14571,7 +14571,7 @@
       {
         "heading": "Jackson JS1X Minion: Micro-Scale Value at 28.6 Inches",
         "heading_es": "Jackson JS1X Minion: Valor micro-escala en 28,6 pulgadas",
-        "content": "<strong>If you are a guitarist who needs bass lines fast without relearning your hands, this micro-scale gets you there.</strong> At 28.6 inches with a passive PJ pairing in a poplar Concert body, you get neck-depth for verses and bridge definition for choruses vía dual volumes plus master tone. The one-piece maple speed neck with amaranth board, 22 jumbo frets and sharkfin inlays feels built for quick position shifts from six-string muscle memory. Cutting demos with micro-scales next to full 34s gets the parts done in one take because stretches and string spacing feel approachable. The most affordable seat at this desk, made for riff writers; check that micro tension suits aggressive picking.",
+        "content": "<strong>If you are a guitarist who needs bass lines fast without relearning your hands, this micro-scale gets you there.</strong> At 28.6 inches with a passive PJ pairing in a poplar Concert body, you get neck-depth for verses and bridge definition for choruses via dual volumes plus master tone. The one-piece maple speed neck with amaranth board, 22 jumbo frets and sharkfin inlays feels built for quick position shifts from six-string muscle memory. Cutting demos with micro-scales next to full 34s gets the parts done in one take because stretches and string spacing feel approachable. The most affordable seat at this desk, made for riff writers; check that micro tension suits aggressive picking.",
         "content_es": "<strong>Si eres guitarrista y necesitas líneas de bajo rápidas sin reeducar las manos, esta microescala te lleva allí.</strong> Con 28,6 pulgadas y un PJ pasivo en cuerpo Concert de álamo, tienes profundidad de mástil para estrofas y definición de puente para estribillos mediante dos volúmenes más tono master. El mástil speed de arce de una pieza con diapasón de amaranto, 22 trastes jumbo e incrustaciones de aleta de tiburón está hecho para cambios veloces desde la memoria del guitarrista. Grabar maquetas con microescalas junto a 34 pulgadas saca las partes a la primera porque los estiramientos y el espaciado resultan amables. El asiento más asequible de esta mesa, hecho para compositores de riffs; comprueba que la tensión micro encaje con una púa agresiva.",
         "products": [
           535
@@ -15066,7 +15066,7 @@
               "value_es": "Arce GSRM4, jatoba/pino, 22 medium"
             }
           ],
-          "label_es": "Mástil y Diapasón"
+          "label_es": "Mástil y diapasón"
         },
         {
           "label": "Pickups",
@@ -16639,7 +16639,7 @@
         },
         {
           "label": "Active/Passive",
-          "label_es": "Activo/Pasivo",
+          "label_es": "Activo/pasivo",
           "values": [
             {
               "value": "Active",
@@ -16677,7 +16677,7 @@
         },
         {
           "label": "Scale Length",
-          "label_es": "Longitud de Escala",
+          "label_es": "Longitud de escala",
           "values": [
             {
               "value": "34 in (864 mm)",
@@ -17443,7 +17443,7 @@
         },
         {
           "label": "Body Wood",
-          "label_es": "Madera del Cuerpo",
+          "label_es": "Madera del cuerpo",
           "values": [
             {
               "value": "Alder",
@@ -17535,7 +17535,7 @@
         },
         {
           "label": "Frets & Fretboard",
-          "label_es": "Trastes y Diapasón",
+          "label_es": "Trastes y diapasón",
           "values": [
             {
               "value": "22 medium, rosewood",
@@ -17627,7 +17627,7 @@
         },
         {
           "label": "Scale Length",
-          "label_es": "Longitud de Escala",
+          "label_es": "Longitud de escala",
           "values": [
             {
               "value": "25.5 in (648 mm)",
@@ -18700,7 +18700,7 @@
         },
         {
           "label": "Buses / Mixes",
-          "label_es": "Buses / Mezclas",
+          "label_es": "Buses / mezclas",
           "values": [
             {
               "value": "16 mix + 6 matrix",
@@ -18795,7 +18795,7 @@
         "cons": [
           "48kHz-only processing with no high-res path",
           "Official remote app feels dated next to newer rivals",
-          "No motorized faders — all mixing vía app, editor or MIDI",
+          "No motorized faders — all mixing via app, editor or MIDI",
           "3U chassis plus tablet and router per gig"
         ],
         "cons_es": [
@@ -20357,7 +20357,7 @@
         },
         {
           "label": "Free Trial",
-          "label_es": "Prueba Gratis",
+          "label_es": "Prueba gratis",
           "values": [
             {
               "value": "90 days",
@@ -20387,7 +20387,7 @@
         },
         {
           "label": "System Requirements",
-          "label_es": "Requisitos del Sistema",
+          "label_es": "Requisitos del sistema",
           "values": [
             {
               "value": "4 GB RAM, multi-core",
@@ -20417,7 +20417,7 @@
         },
         {
           "label": "Standout Feature",
-          "label_es": "Característica Destacada",
+          "label_es": "Característica destacada",
           "values": [
             {
               "value": "Session View, Max for Live",
@@ -21265,7 +21265,7 @@
         },
         {
           "label": "Aux Sends",
-          "label_es": "Envíos Aux",
+          "label_es": "Envíos aux",
           "values": [
             {
               "value": "6 aux buses",
@@ -21315,7 +21315,7 @@
         },
         {
           "label": "Built-in FX",
-          "label_es": "FX Integrados",
+          "label_es": "FX integrados",
           "values": [
             {
               "value": "4 FX engines",
@@ -21613,7 +21613,7 @@
           "16 award-winning Midas PRO preamps in a compact rack-mount form factor",
           "Dual SD multitrack recording — no computer needed",
           "40-bit floating-point processing and 192 kHz conversion for clean audio",
-          "AES50 networking for up to 96-channel expansion vía stage boxes"
+          "AES50 networking for up to 96-channel expansion via stage boxes"
         ],
         "pros_es": [
           "16 previos Midas PRO ganadores de premios en formato rack compacto",
@@ -21652,7 +21652,7 @@
           "Efectos Lexicon y procesamiento dbx integrados"
         ],
         "cons": [
-          "No motorized faders — all control is vía tablet or computer",
+          "No motorized faders — all control is via tablet or computer",
           "No physical mixing surface at all",
           "Built-in Wi-Fi can struggle with many devices",
           "Soundcraft app less polished than competitors",
@@ -21682,7 +21682,7 @@
           "Red AVB integrada para ecosistema expandible con stage boxes NSB y EarMix 16M"
         ],
         "cons": [
-          "No motorized faders — all mixing is vía software",
+          "No motorized faders — all mixing is via software",
           "AVB networking requires compatible hardware ecosystem",
           "Less brand recognition in live sound than Behringer or Midas",
           "Complex feature set may overwhelm beginners",
@@ -22950,7 +22950,7 @@
         },
         {
           "label": "Sound Engine",
-          "label_es": "Motor de Sonido",
+          "label_es": "Motor de sonido",
           "values": [
             {
               "value": "ACB 808/909/606 + TB-303",
@@ -23026,7 +23026,7 @@
         },
         {
           "label": "Sample Storage",
-          "label_es": "Almacenamiento de Samples",
+          "label_es": "Almacenamiento de samples",
           "values": [
             {
               "value": "— (patterns only)",
@@ -23342,7 +23342,7 @@
           "Touchscreen can feel cramped in big projects if you're used to a large computer monitor",
           "4 GB of RAM sets the technical ceiling for projects with massive loaded sample counts",
           "No built-in battery for working outdoors portably",
-          "Pro Stems separation and Super Warp cost extra vía the Pro Pack"
+          "Pro Stems separation and Super Warp cost extra via the Pro Pack"
         ],
         "pros_es": [
           "El mítico flujo de pads que inventó el hip-hop, ahora optimizado con el cuatro veces más potencia de procesamiento",
@@ -24076,7 +24076,7 @@
         },
         {
           "label": "Body Wood",
-          "label_es": "Madera del Cuerpo",
+          "label_es": "Madera del cuerpo",
           "values": [
             {
               "value": "Alder",
@@ -24224,7 +24224,7 @@
         },
         {
           "label": "Frets & Fretboard",
-          "label_es": "Trastes y Diapasón",
+          "label_es": "Trastes y diapasón",
           "values": [
             {
               "value": "22, maple or rosewood",
@@ -24372,7 +24372,7 @@
         },
         {
           "label": "Scale Length",
-          "label_es": "Longitud de Escala",
+          "label_es": "Longitud de escala",
           "values": [
             {
               "value": "25.5 in (648 mm)",
@@ -24446,7 +24446,7 @@
         },
         {
           "label": "Tremolo / Bridge",
-          "label_es": "Trémolo / Puente",
+          "label_es": "Trémolo / puente",
           "values": [
             {
               "value": "2-point tremolo",
@@ -24747,7 +24747,7 @@
         "cons": [
           "It's a premium investment",
           "The AZ Oval C neck is thin — not for every hand",
-          "HH layout gets single-coil tones only vía power-tap, not true single-coils",
+          "HH layout gets single-coil tones only via power-tap, not true single-coils",
           "Premium price overlaps with the Am Pro II"
         ],
         "cons_es": [
@@ -25516,7 +25516,7 @@
         },
         {
           "label": "Body Wood",
-          "label_es": "Madera del Cuerpo",
+          "label_es": "Madera del cuerpo",
           "values": [
             {
               "value": "Poplar",
@@ -25584,7 +25584,7 @@
         },
         {
           "label": "Frets & Fretboard",
-          "label_es": "Trastes y Diapasón",
+          "label_es": "Trastes y diapasón",
           "values": [
             {
               "value": "21, maple",
@@ -25652,7 +25652,7 @@
         },
         {
           "label": "Scale Length",
-          "label_es": "Longitud de Escala",
+          "label_es": "Longitud de escala",
           "values": [
             {
               "value": "25.5 in (648 mm)",
@@ -25686,7 +25686,7 @@
         },
         {
           "label": "Tremolo / Bridge",
-          "label_es": "Trémolo / Puente",
+          "label_es": "Trémolo / puente",
           "values": [
             {
               "value": "Vintage-style tremolo",
@@ -26031,7 +26031,7 @@
         "cons": [
           "It's a premium investment",
           "The AZ Oval C neck is thin — not for every hand",
-          "HH layout gets single-coil tones only vía power-tap, not true single-coils",
+          "HH layout gets single-coil tones only via power-tap, not true single-coils",
           "Premium price overlaps with the Am Pro II"
         ],
         "cons_es": [
@@ -26203,7 +26203,7 @@
       {
         "heading": "Is the Taylor GS Mini-e Koa the Best Compact Acoustic for Small Spaces?",
         "heading_es": "¿Es el Taylor GS Mini-e Koa la mejor acústica compacta para espacios pequeños?",
-        "content": "<strong>Sometimes you want a real acoustic sound without a full-size guitar taking up your office. </strong>The Taylor GS Mini-e Koa is a compact electro-acoustic with a solid koa top that delivers rich, shimmering tone far beyond its size. The 23-1/2 inch scale length and GS Mini body make it comfortable to play at your desk, and the built-in ES-B electronics let you plug into amp or mixer vía 1/4-inch output. The layered koa body is climate-resilient, so you don't worry about humidity changes in your home office. It comes with a padded gig bag for when you want to take it to a jam session or travel. For home office musicians who want authentic acoustic tone in a compact package, this is the best compact acoustic you can buy.",
+        "content": "<strong>Sometimes you want a real acoustic sound without a full-size guitar taking up your office. </strong>The Taylor GS Mini-e Koa is a compact electro-acoustic with a solid koa top that delivers rich, shimmering tone far beyond its size. The 23-1/2 inch scale length and GS Mini body make it comfortable to play at your desk, and the built-in ES-B electronics let you plug into amp or mixer via 1/4-inch output. The layered koa body is climate-resilient, so you don't worry about humidity changes in your home office. It comes with a padded gig bag for when you want to take it to a jam session or travel. For home office musicians who want authentic acoustic tone in a compact package, this is the best compact acoustic you can buy.",
         "content_es": "<strong>A veces quieres un sonido acústico real sin una guitarra de tamaño completo ocupando tu oficina. </strong>El Taylor GS Mini-e Koa es una electro-acústica compacta con tapa sólida de koa que ofrece un tono rico y brillante mucho más allá de su tamaño. La escala de 23-1/2 pulgadas y el cuerpo GS Mini la hacen cómoda para tocar en tu escritorio, y la electrónica ES-B integrada te permite conectar a un amplificador o mesa de mezclas por la salida de 1/4 de pulgada. El cuerpo de koa laminada resiste bien el clima, así que no te preocupas por los cambios de humedad en tu oficina. Viene con una funda acolchada para cuando quieras llevarla a una sesión de jam o de viaje. Para músicos que trabajan desde casa y quieren sonido acústico auténtico en un paquete compacto, esta es la la mejor opción acústica compacta que puedes comprar.",
         "products": [
           401
@@ -26503,7 +26503,7 @@
         },
         {
           "label": "Top / Back & Sides",
-          "label_es": "Tapa / Fondo y Aros",
+          "label_es": "Tapa / fondo y aros",
           "values": [
             {
               "value": "Mahogany body, 5-piece maple-mahogany neck",
@@ -26541,7 +26541,7 @@
         },
         {
           "label": "Neck & Fretboard",
-          "label_es": "Mástil y Diapasón",
+          "label_es": "Mástil y diapasón",
           "values": [
             {
               "value": "5-piece maple-mahogany, HPL fretboard",
@@ -26579,7 +26579,7 @@
         },
         {
           "label": "Scale Length",
-          "label_es": "Longitud de Escala",
+          "label_es": "Longitud de escala",
           "values": [
             {
               "value": "24.75 in (628 mm)",
@@ -26769,7 +26769,7 @@
         },
         {
           "label": "Headphone Output",
-          "label_es": "Salida de Auriculares",
+          "label_es": "Salida de auriculares",
           "values": [
             {
               "value": "Yes, 3.5 mm built-in",
@@ -26845,7 +26845,7 @@
         },
         {
           "label": "Battery & Power",
-          "label_es": "Batería y Alimentación",
+          "label_es": "Batería y alimentación",
           "values": [
             {
               "value": "9V with low-battery alert",
@@ -27102,7 +27102,7 @@
           "FreeBoost 3.0 turns the body into a speaker — no amp needed",
           "34 effects, 100+ backing tracks, tuner, and metronome built in",
           "ME 4 fixes include adjustable truss rod and Plek-leveled frets",
-          "Weatherproof carbon unibody with cloud sync vía Wi-Fi and Bluetooth"
+          "Weatherproof carbon unibody with cloud sync via Wi-Fi and Bluetooth"
         ],
         "pros_es": [
           "La pantalla táctil de 3,5 pulgadas ejecuta efectos, looper, grabaciones y entrenamiento en la propia guitarra",
@@ -27130,7 +27130,7 @@
         "pros": [
           "Solid koa top delivers rich, shimmering tone far beyond its size",
           "23-1/2 inch scale and compact body are comfortable at a desk",
-          "ES-B electronics let you plug into an amp or mixer vía 1/4-inch output",
+          "ES-B electronics let you plug into an amp or mixer via 1/4-inch output",
           "Layered koa body resists humidity swings in a home office",
           "The best compact acoustic for authentic tone"
         ],
@@ -27739,7 +27739,7 @@
       {
         "heading": "Is the Akai MPC Sample the Best Portable Sampler?",
         "heading_es": "¿Es el Akai MPC Sample el mejor sampler portátil?",
-        "content": "<p><strong>The MPC Sample is the best-selling hardware sampler right now, 700+ bought in the last month and a 4.8/5 rating across 366 reviews.</strong> It wraps the classic MPC60 workflow in a battery-powered, phone-sized format: 16 responsive MPC pads, a 2.4-inch color display, a built-in mic and speaker, over 100 factory kits and four FX processors with 60 effect types.</p><p><strong>For its price, nothing here is easier to start on.</strong> The pads feel like the big MPCs, Instant Sample Chop Mode turns any audio into playable chops in seconds, and the rechargeable battery runs about 5 hours, so you can sketch ideas on the train and finish them in the studio. You can sample straight from a phone or tablet over USB-C, and even record the built-in speaker into the built-in mic for that instant lo-fi character.</p><p><strong>The limits are honest.</strong> It only stores 8GB internally (expandable vía microSD), there is no touchscreen and no song-mode arranger, and more the SP-404MKII brings the well-regarded SP effects engine. But if the MPC pad feel at the lowest price is what you want, this is the one to buy.</p>",
+        "content": "<p><strong>The MPC Sample is the best-selling hardware sampler right now, 700+ bought in the last month and a 4.8/5 rating across 366 reviews.</strong> It wraps the classic MPC60 workflow in a battery-powered, phone-sized format: 16 responsive MPC pads, a 2.4-inch color display, a built-in mic and speaker, over 100 factory kits and four FX processors with 60 effect types.</p><p><strong>For its price, nothing here is easier to start on.</strong> The pads feel like the big MPCs, Instant Sample Chop Mode turns any audio into playable chops in seconds, and the rechargeable battery runs about 5 hours, so you can sketch ideas on the train and finish them in the studio. You can sample straight from a phone or tablet over USB-C, and even record the built-in speaker into the built-in mic for that instant lo-fi character.</p><p><strong>The limits are honest.</strong> It only stores 8GB internally (expandable via microSD), there is no touchscreen and no song-mode arranger, and more the SP-404MKII brings the well-regarded SP effects engine. But if the MPC pad feel at the lowest price is what you want, this is the one to buy.</p>",
         "content_es": "<p><strong>El MPC Sample es el sampler de hardware más vendido por debajo de en este momento, con más de 700 comprados el mes pasado y valoración 4,8/5 en 366 reseñas.</strong> Envuelve el clásico flujo MPC60 en un formato con batería y tamaño de teléfono: 16 pads MPC con gran respuesta, pantalla color de 2,4 pulgadas, micrófono y altavoz integrados, más de 100 kits de fábrica y cuatro procesadores FX con 60 tipos de efecto.</p><p><strong>Por su precio, nada aquí es más fácil de empezar.</strong> Los pads se sienten como los MPC grandes, el Instant Sample Chop Mode convierte cualquier audio en cortes reproducibles en segundos, y la batería recargable dura unas 5 horas — así que puedes esbozar ideas en el tren y terminarlas en el estudio. Puedes samplear directo desde un teléfono o tablet por USB-C, e incluso grabar el altavoz integrado en el micrófono integrado para ese carácter lo-fi instantáneo.</p><p><strong>Los límites son honestos.</strong> Solo almacena 8 GB internos (expandible por microSD), no tiene pantalla táctil ni arreglador de modo canción, y por ese precio el SP-404MKII trae el legendario motor de efectos SP. Pero si lo que quieres es el tacto de pads MPC al precio más bajo, este es el que vale la pena considerar.</p>",
         "products": [
           257
@@ -27884,7 +27884,7 @@
       "faq_q2_en": "How much sample time do I get on these hardware samplers?",
       "faq_a2_en": "Plenty for real beat-making. The MPC One G2 holds 64GB internally, the MPC Sample gives you 8GB internal (expandable by microSD), The SP-404MKII takes SD cards in any size you want, while the Digitakt II relies on its 20 GB of internal +Drive storage (no card slot). None of them will run out of room for the sample packs, chops and field recordings most producers actually use.",
       "faq_q3_en": "Do hardware samplers need a computer?",
-      "faq_a3_en": "No. All four samplers here work fully standalone: they record, chop, sequence and play back audio without a laptop. The MPC Sample, SP-404MKII and MPC One G2 also connect vía USB-C when you want to transfer files or use them as audio interfaces, but none of them require a computer to make music.",
+      "faq_a3_en": "No. All four samplers here work fully standalone: they record, chop, sequence and play back audio without a laptop. The MPC Sample, SP-404MKII and MPC One G2 also connect via USB-C when you want to transfer files or use them as audio interfaces, but none of them require a computer to make music.",
       "faq_q1_es": "¿Cuál es el mejor sampler de hardware para beat makers?",
       "faq_a1_es": "El Roland SP-404MKII es el mejor en general por el legendario sonido SP, 37 efectos estilo DJ, micrófono y altavoz integrados, y una valoración 4.8/5 en miles de reseñas. Por relación calidad-precio y portabilidad, el Akai MPC Sample te da los icónicos pads MPC al precio más bajo.",
       "faq_q2_es": "¿Cuánto tiempo de sample tengo en estos samplers de hardware?",
@@ -28962,7 +28962,7 @@
         },
         {
           "label": "Driver Size",
-          "label_es": "Tamaño del Driver",
+          "label_es": "Tamaño del driver",
           "values": [
             {
               "value": "45mm",
@@ -30007,7 +30007,7 @@
         },
         {
           "label": "Driver Size",
-          "label_es": "Tamaño del Driver",
+          "label_es": "Tamaño del driver",
           "values": [
             {
               "value": "90 mm planar",
@@ -31826,7 +31826,7 @@
         },
         {
           "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
+          "label_es": "Patrón polar",
           "values": [
             {
               "value": "Cardioid",
@@ -32012,7 +32012,7 @@
         },
         {
           "label": "Self-Noise",
-          "label_es": "Ruido Propio",
+          "label_es": "Ruido propio",
           "values": [
             {
               "value": "N/A (passive dynamic)",
@@ -32179,7 +32179,7 @@
               "value_es": "300 Ω"
             },
             {
-              "value": "30-40 Ω (100 Ω vía DAD adapter)",
+              "value": "30-40 Ω (100 Ω via DAD adapter)",
               "value_es": "30-40 Ω (100 Ω vía adaptador DAD)"
             },
             {
@@ -32198,7 +32198,7 @@
         },
         {
           "label": "Signal-to-Noise Ratio",
-          "label_es": "Relación Señal-Ruido",
+          "label_es": "Relación señal-ruido",
           "values": [
             {
               "value": "Not published",
@@ -32384,7 +32384,7 @@
         },
         {
           "label": "Capsule / Diaphragm",
-          "label_es": "Cápsula / Diafragma",
+          "label_es": "Cápsula / diafragma",
           "values": [
             {
               "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
@@ -32446,7 +32446,7 @@
         },
         {
           "label": "Pad & High-Pass Filter",
-          "label_es": "Pad y Filtro Paso Alto",
+          "label_es": "Pad y filtro paso alto",
           "values": [
             {
               "value": "None",
@@ -32508,7 +32508,7 @@
         },
         {
           "label": "Phantom Power",
-          "label_es": "Alimentación Phantom",
+          "label_es": "Alimentación phantom",
           "values": [
             {
               "value": "None required",
@@ -32551,7 +32551,7 @@
               "value_es": "No requiere"
             },
             {
-              "value": "48 V vía adapter (5-50 V)",
+              "value": "48 V via adapter (5-50 V)",
               "value_es": "48 V vía adaptador (5-50 V)"
             },
             {
@@ -32869,7 +32869,7 @@
         "pros": [
           "Multi-pattern large-diaphragm condenser with switchable polar patterns",
           "Dual outputs let you shape the response later in the mix",
-          "Wireless control vía the PolarPilot app",
+          "Wireless control via the PolarPilot app",
           "Handcrafted in Vienna with the CKR12 ceramic capsule"
         ],
         "pros_es": [
@@ -33645,7 +33645,7 @@
         },
         {
           "label": "Bit Depth",
-          "label_es": "Profundidad de Bits",
+          "label_es": "Profundidad de bits",
           "values": [
             {
               "value": "24-bit",
@@ -34258,7 +34258,7 @@
       "faq_q1_en": "How many keys do I need on a MIDI controller or keyboard?",
       "faq_a1_en": "25 keys for portability and simple melodies, 49-61 keys for two-handed playing and most production tasks, and 88 keys for full piano range and weighted hammer action. For DAW production, 49-61 keys covers 90% of use cases. For piano practice, you need 88 weighted keys.",
       "faq_q2_en": "Do I need an audio interface to use a keyboard or digital piano?",
-      "faq_a2_en": "For recording, yes — unless your keyboard has built-in audio over USB. Many modern digital pianos and workstations can record direct vía USB to your DAW with no interface, which is great for quiet setups. For MIDI controllers, you just need a USB cable to the computer. If your keyboard only has analog outputs, you will need an interface to get it into your DAW cleanly.",
+      "faq_a2_en": "For recording, yes — unless your keyboard has built-in audio over USB. Many modern digital pianos and workstations can record direct via USB to your DAW with no interface, which is great for quiet setups. For MIDI controllers, you just need a USB cable to the computer. If your keyboard only has analog outputs, you will need an interface to get it into your DAW cleanly.",
       "faq_q1_es": "¿Cuántas teclas necesito en un controlador MIDI o teclado?",
       "faq_a1_es": "25 teclas para portabilidad y melodías simples, 49-61 teclas para tocar con ambas manos y la mayoría de tareas de producción, y 88 teclas para rango completo de piano y acción de martillo ponderada. Para producción en DAW, 49-61 teclas cubre el 90% de los casos de uso. Para práctica de piano, necesitas 88 teclas ponderadas.",
       "faq_q2_es": "¿Necesito una interfaz de audio para usar un teclado o piano digital?",
@@ -34808,7 +34808,7 @@
         ],
         "cons": [
           "DAW-focused — not a standalone instrument without a computer",
-          "No physical pitch/mod wheels (handled vía encoders and modes)",
+          "No physical pitch/mod wheels (handled via encoders and modes)",
           "Semi-weighted keybed, so not a real piano feel",
           "Pads feel stiff for subtle finger drumming"
         ],
@@ -35550,7 +35550,7 @@
         },
         {
           "label": "Aux Sends",
-          "label_es": "Envíos Aux",
+          "label_es": "Envíos aux",
           "values": [
             {
               "value": "2 aux sends",
@@ -35596,7 +35596,7 @@
         },
         {
           "label": "Built-in FX",
-          "label_es": "FX Integrados",
+          "label_es": "FX integrados",
           "values": [
             {
               "value": "Yes (reverb, delay, chorus)",
@@ -35734,7 +35734,7 @@
         },
         {
           "label": "Faders / Control",
-          "label_es": "Faders / Control",
+          "label_es": "Faders / control",
           "values": [
             {
               "value": "Analog faders (non-motorized)",
@@ -35952,7 +35952,7 @@
           "No tablet control or app mixing",
           "6.8 kg rack format needs stage space",
           "2-track USB only, no multitrack",
-          "FX editing vía small screen"
+          "FX editing via small screen"
         ],
         "pros_es": [
           "16 canales con previos D-PRE y compresores 1-knob",
@@ -36278,7 +36278,7 @@
       "key1_es": "1200W Class-D, 132 dB, app QuickSmartDSP",
       "key2_en": "3600W Class-D, 136 dB, cardioid + DEEP",
       "key2_es": "3600W Class-D, 136 dB, cardioide + DEEP",
-      "key3_en": "2000W peak, 134 dB, 6-band EQ vía Bluetooth",
+      "key3_en": "2000W peak, 134 dB, 6-band EQ via Bluetooth",
       "key3_es": "2000W pico, 134 dB, EQ de 6 bandas por Bluetooth",
       "best1_en": "most working live bands",
       "best1_es": "la mayoría de bandas en directo",
@@ -36411,7 +36411,7 @@
         "name": "JBL PRX918XLF",
         "name_es": "JBL PRX918XLF",
         "pros": [
-          "6-band parametric EQ and delay vía Bluetooth app",
+          "6-band parametric EQ and delay via Bluetooth app",
           "134 dB with quiet fanless operation",
           "Seven-year warranty for long-term confidence",
           "Familiar PRX900 sound engineers already know"
@@ -36762,7 +36762,7 @@
         },
         {
           "label": "Cardioid Mode",
-          "label_es": "Modo Cardioide",
+          "label_es": "Modo cardioide",
           "values": [
             {
               "value": "Yes (2 units)",
@@ -36796,7 +36796,7 @@
         },
         {
           "label": "DSP & Control",
-          "label_es": "DSP y Control",
+          "label_es": "DSP y control",
           "values": [
             {
               "value": "DEEP mode, scenes, crossover, delay",
@@ -36811,7 +36811,7 @@
               "value_es": "QuickSmartDSP + app (6 unidades)"
             },
             {
-              "value": "6-band EQ, lowpass, delay vía BLE app",
+              "value": "6-band EQ, lowpass, delay via BLE app",
               "value_es": "EQ de 6 bandas, lowpass, delay vía app BLE"
             },
             {
@@ -37063,7 +37063,7 @@
       {
         "heading": "24 Minutes, 20 Loops, One Box: EHX 1440",
         "heading_es": "24 minutos, 20 loops, una caja: EHX 1440",
-        "content": "<strong>Twenty-four minutes across twenty loops in a compact box: the 1440 is EHX stereo looping grown up.</strong> Unlimited overdubs, reverse and octave FX, 1-Shot playback and MIDI sync cover writing and stage, with USB backup vía the Loop Manager app and included adapter. Players who outgrew the 720 and want memories live here. The trade-off: single-track limits and no built-in rhythms.",
+        "content": "<strong>Twenty-four minutes across twenty loops in a compact box: the 1440 is EHX stereo looping grown up.</strong> Unlimited overdubs, reverse and octave FX, 1-Shot playback and MIDI sync cover writing and stage, with USB backup via the Loop Manager app and included adapter. Players who outgrew the 720 and want memories live here. The trade-off: single-track limits and no built-in rhythms.",
         "content_es": "<strong>Veinticuatro minutos en veinte loops y caja compacta: el 1440 es el looping estéreo EHX crecido.</strong> Overdubs ilimitados, FX reverse y octava, playback 1-Shot y MIDI sync cubren composición y directo, con backup USB vía app Loop Manager y adaptador incluido. Aquí viven quienes superaron el 720 y quieren memorias. A cambio: límite de una pista y sin ritmos integrados.",
         "products": [
           600
@@ -37422,7 +37422,7 @@
         },
         {
           "label": "Current Draw",
-          "label_es": "Consumo de Corriente",
+          "label_es": "Consumo de corriente",
           "values": [
             {
               "value": "100 mA",
@@ -37498,7 +37498,7 @@
         },
         {
           "label": "Standout Feature",
-          "label_es": "Característica Destacada",
+          "label_es": "Característica destacada",
           "values": [
             {
               "value": "13 hours loop, 57 drum patterns",
@@ -38129,7 +38129,7 @@
         },
         {
           "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
+          "label_es": "Patrón polar",
           "values": [
             {
               "value": "Cardioid",
@@ -38231,7 +38231,7 @@
         },
         {
           "label": "Self-Noise",
-          "label_es": "Ruido Propio",
+          "label_es": "Ruido propio",
           "values": [
             {
               "value": "N/A (passive dynamic)",
@@ -38333,7 +38333,7 @@
         },
         {
           "label": "Signal-to-Noise Ratio",
-          "label_es": "Relación Señal-Ruido",
+          "label_es": "Relación señal-ruido",
           "values": [
             {
               "value": "Not published",
@@ -38435,7 +38435,7 @@
         },
         {
           "label": "Capsule / Diaphragm",
-          "label_es": "Cápsula / Diafragma",
+          "label_es": "Cápsula / diafragma",
           "values": [
             {
               "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
@@ -38469,7 +38469,7 @@
         },
         {
           "label": "Pad & High-Pass Filter",
-          "label_es": "Pad y Filtro Paso Alto",
+          "label_es": "Pad y filtro paso alto",
           "values": [
             {
               "value": "None",
@@ -38503,7 +38503,7 @@
         },
         {
           "label": "Phantom Power",
-          "label_es": "Alimentación Phantom",
+          "label_es": "Alimentación phantom",
           "values": [
             {
               "value": "None required",
@@ -39262,7 +39262,7 @@
         },
         {
           "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
+          "label_es": "Patrón polar",
           "values": [
             {
               "value": "Cardioid",
@@ -39400,7 +39400,7 @@
         },
         {
           "label": "Self-Noise",
-          "label_es": "Ruido Propio",
+          "label_es": "Ruido propio",
           "values": [
             {
               "value": "N/A (passive analog capsule, no hiss)",
@@ -39538,7 +39538,7 @@
         },
         {
           "label": "Signal-to-Noise Ratio",
-          "label_es": "Relación Señal-Ruido",
+          "label_es": "Relación señal-ruido",
           "values": [
             {
               "value": "N/A (set by your interface/preamp)",
@@ -39676,7 +39676,7 @@
         },
         {
           "label": "Capsule / Diaphragm",
-          "label_es": "Cápsula / Diafragma",
+          "label_es": "Cápsula / diafragma",
           "values": [
             {
               "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
@@ -39722,7 +39722,7 @@
         },
         {
           "label": "Pad & High-Pass Filter",
-          "label_es": "Pad y Filtro Paso Alto",
+          "label_es": "Pad y filtro paso alto",
           "values": [
             {
               "value": "None",
@@ -39768,7 +39768,7 @@
         },
         {
           "label": "Phantom Power",
-          "label_es": "Alimentación Phantom",
+          "label_es": "Alimentación phantom",
           "values": [
             {
               "value": "None required",
@@ -40702,7 +40702,7 @@
         },
         {
           "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
+          "label_es": "Patrón polar",
           "values": [
             {
               "value": "Figure-8",
@@ -42319,11 +42319,11 @@
               "value_es": "Biamplificado de 2 vías"
             },
             {
-              "value": "3-way powered || Triamplificado de 3 vías",
+              "value": "3-way powered",
               "value_es": "Triamplificado de 3 vías"
             },
             {
-              "value": "2-way powered || Biamplificado de 2 vías",
+              "value": "2-way powered",
               "value_es": "Biamplificado de 2 vías"
             },
             {
@@ -43949,7 +43949,7 @@
         },
         {
           "label": "Reflex Port",
-          "label_es": "Puerto Réflex",
+          "label_es": "Puerto réflex",
           "values": [
             {
               "value": "Front",
@@ -44374,7 +44374,7 @@
       }
     ],
     "datePublished": "2026-08-18",
-    "titleTag": "Best Studio Monitors for Small & Untreated Rooms (Pros & Cons)"
+    "titleTag": "Best Monitors for Small & Untreated Rooms (Pros & Cons)"
   },
   {
     "id": "best-multi-effects-pedals",
@@ -44862,7 +44862,7 @@
         },
         {
           "label": "Current Draw",
-          "label_es": "Consumo de Corriente",
+          "label_es": "Consumo de corriente",
           "values": [
             {
               "value": "1000 mA",
@@ -44938,7 +44938,7 @@
         },
         {
           "label": "Standout Feature",
-          "label_es": "Característica Destacada",
+          "label_es": "Característica destacada",
           "values": [
             {
               "value": "Helix amp models, 300+ FX",
@@ -45734,7 +45734,7 @@
         },
         {
           "label": "Current Draw",
-          "label_es": "Consumo de Corriente",
+          "label_es": "Consumo de corriente",
           "values": [
             {
               "value": "8 mA",
@@ -45818,7 +45818,7 @@
         },
         {
           "label": "Standout Feature",
-          "label_es": "Característica Destacada",
+          "label_es": "Característica destacada",
           "values": [
             {
               "value": "Icons of the TS808 circuit",
@@ -47290,7 +47290,7 @@
         },
         {
           "label": "Case/Bag",
-          "label_es": "Estuche/Funda",
+          "label_es": "Estuche/funda",
           "values": [
             {
               "value": "None",
@@ -48682,7 +48682,7 @@
         },
         {
           "label": "Copy Protection",
-          "label_es": "Protección de Copia",
+          "label_es": "Protección de copia",
           "values": [
             {
               "value": "License file",
@@ -48766,7 +48766,7 @@
         },
         {
           "label": "Standout Feature",
-          "label_es": "Característica Destacada",
+          "label_es": "Característica destacada",
           "values": [
             {
               "value": "Pro-Q 4 + Pro-C 3 + Pro-MB + Pro-R",
@@ -49436,7 +49436,7 @@
               "value_es": "15 guitarra + 3 bajo + 3 acústica"
             },
             {
-              "value": "Amp models vía app",
+              "value": "Amp models via app",
               "value_es": "Modelos por app"
             },
             {
@@ -49530,7 +49530,7 @@
               "value_es": "FX por app + looper"
             },
             {
-              "value": "Spatial + 50 FX vía app",
+              "value": "Spatial + 50 FX via app",
               "value_es": "Espacial + 50 FX por app"
             }
           ]
@@ -49587,7 +49587,7 @@
           "The 8-inch speaker limits bass and headroom versus the Katana's 12-inch",
           "25W won't keep up with a loud band: it is for home use",
           "No recording output or effects loop for home-recording setups",
-          "No app or Bluetooth editing — the Katana 50 offers much deeper control vía its companion app"
+          "No app or Bluetooth editing — the Katana 50 offers much deeper control via its companion app"
         ],
         "cons_es": [
           "El altavoz de 8 pulgadas limita graves y headroom frente al de 12 pulgadas del Katana",
@@ -49614,7 +49614,7 @@
         "cons": [
           "It suits players who need extra clean headroom for pedals and jam sessions with friends",
           "25.5 lb — heavier to move than the 13 lb Champion",
-          "Effects are edited vía app/software, not with direct knobs",
+          "Effects are edited via app/software, not with direct knobs",
           "In apartments 50W is still too much without using the 0.5W mode"
         ],
         "cons_es": [
@@ -49714,7 +49714,7 @@
         "pros": [
           "Total silence with amp-in-room gyro sound",
           "No cables at all — wireless transmitter included",
-          "5 Katana amps plus 50 FX vía Tone Studio app",
+          "5 Katana amps plus 50 FX via Tone Studio app",
           "5-hour battery with Bluetooth streaming onboard"
         ],
         "cons": [
@@ -50170,10 +50170,6 @@
               "value_es": "Looper compacto para práctica y directo"
             },
             {
-              "value": "Experimental delay, collecting sounds",
-              "value_es": "Delay experimental, coleccionar sonidos"
-            },
-            {
               "value": "Rhythmic delays for gigging",
               "value_es": "Delays rítmicos para el escenario"
             },
@@ -50196,6 +50192,10 @@
             {
               "value": "Classic spring/plate/hall verbs",
               "value_es": "Reverbs clásicas spring/plate/hall"
+            },
+            {
+              "value": "Twelve verbs, 127 memories",
+              "value_es": "Doce reverbs, 127 memorias"
             }
           ]
         },
@@ -50244,12 +50244,12 @@
               "value_es": "Combo delay+reverb"
             },
             {
-              "value": "Delay + reverb combo",
-              "value_es": "Combo delay+reverb"
-            },
-            {
               "value": "Analog delay (BBD)",
               "value_es": "Delay analógico (BBD)"
+            },
+            {
+              "value": "Reverb (Spring/Plate/Hall)",
+              "value_es": "Reverb (Spring/Plate/Hall)"
             },
             {
               "value": "Reverb (Spring/Plate/Hall)",
@@ -50302,16 +50302,16 @@
               "value_es": "Blend x2, Decay, Rate, Time, Repeats, Warmth"
             },
             {
-              "value": "Knobs, tap tempo, UAFX app",
-              "value_es": "Perillas, tap tempo, app UAFX"
-            },
-            {
               "value": "Mix, Regen, Delay, Mod switch",
               "value_es": "Mix, Regen, Delay, Mod switch"
             },
             {
-              "value": "Knobs + A/B/C switch + UAFX app",
-              "value_es": "Perillas + switch A/B/C + app UAFX"
+              "value": "Knobs, tap tempo, UAFX app",
+              "value_es": "Perillas, tap tempo, app UAFX"
+            },
+            {
+              "value": "Knobs + A/B/C switch",
+              "value_es": "Perillas + switch A/B/C"
             }
           ]
         },
@@ -50360,16 +50360,16 @@
               "value_es": "True bypass / Trails"
             },
             {
-              "value": "Buffered (trails)",
-              "value_es": "Buffered (trails)"
-            },
-            {
               "value": "True bypass",
               "value_es": "True bypass"
             },
             {
-              "value": "True / buffered (app)",
-              "value_es": "True / buffered (app)"
+              "value": "Buffered (trails)",
+              "value_es": "Buffered (trails)"
+            },
+            {
+              "value": "Buffered",
+              "value_es": "Buffered"
             }
           ]
         },
@@ -50418,12 +50418,12 @@
               "value_es": "9V DC"
             },
             {
-              "value": "9V DC (400 mA)",
-              "value_es": "9V DC (400 mA)"
-            },
-            {
               "value": "9V DC (optional battery)",
               "value_es": "9V DC (optional battery)"
+            },
+            {
+              "value": "9V DC (400 mA)",
+              "value_es": "9V DC (400 mA)"
             },
             {
               "value": "9V DC (400 mA)",
@@ -50433,7 +50433,7 @@
         },
         {
           "label": "Current Draw",
-          "label_es": "Consumo de Corriente",
+          "label_es": "Consumo de corriente",
           "values": [
             {
               "value": "65 mA",
@@ -50476,12 +50476,12 @@
               "value_es": "75 mA"
             },
             {
-              "value": "400 mA",
-              "value_es": "400 mA"
-            },
-            {
               "value": "26 mA",
               "value_es": "26 mA"
+            },
+            {
+              "value": "400 mA",
+              "value_es": "400 mA"
             },
             {
               "value": "400 mA",
@@ -50491,7 +50491,7 @@
         },
         {
           "label": "DSP / Processing",
-          "label_es": "DSP / Procesamiento",
+          "label_es": "DSP / procesamiento",
           "values": [
             {
               "value": "—",
@@ -50530,10 +50530,6 @@
               "value_es": "—"
             },
             {
-              "value": "—",
-              "value_es": "—"
-            },
-            {
               "value": "UAFX dual-engine",
               "value_es": "UAFX dual-engine"
             },
@@ -50544,6 +50540,10 @@
             {
               "value": "UAFX dual-engine",
               "value_es": "UAFX dual-engine"
+            },
+            {
+              "value": "—",
+              "value_es": "—"
             }
           ]
         },
@@ -50592,12 +50592,12 @@
               "value_es": "94 x 119 x 50 mm"
             },
             {
-              "value": "92 x 141 x 65 mm",
-              "value_es": "92 x 141 x 65 mm"
-            },
-            {
               "value": "70 x 121 x 33 mm",
               "value_es": "70 x 121 x 33 mm"
+            },
+            {
+              "value": "92 x 141 x 65 mm",
+              "value_es": "92 x 141 x 65 mm"
             },
             {
               "value": "92 x 141 x 65 mm",
@@ -50607,7 +50607,7 @@
         },
         {
           "label": "Standout Feature",
-          "label_es": "Característica Destacada",
+          "label_es": "Característica destacada",
           "values": [
             {
               "value": "11 delay modes + 40s looper",
@@ -50634,24 +50634,20 @@
               "value_es": "13 h estéreo, 99 memorias, 57 ritmos, MIDI I/O"
             },
             {
-              "value": "Habit: records everything, scan/loop",
-              "value_es": "Habit: graba todo, escanear/loop"
-            },
-            {
               "value": "10 delay types, looper, MIDI",
               "value_es": "10 tipos delay, looper, MIDI"
             },
             {
-              "value": "26 delay engines, full MIDI, 128 presets, Neuro app",
-              "value_es": "26 motores delay, MIDI total, 128 presets, app Neuro"
+              "value": "26 delay engines, MIDI, 128 presets, Neuro app",
+              "value_es": "26 motores delay, MIDI, 128 presets, app Neuro"
             },
             {
               "value": "Magnetic tape delay + Spring/Mod/Shimmer",
               "value_es": "Delay magnético + Spring/Mod/Shimmer"
             },
             {
-              "value": "Starlight + Golden engines, dual stereo",
-              "value_es": "Motores Starlight + Golden, estéreo dual"
+              "value": "Three reverbs, three classic delays",
+              "value_es": "Tres reverbs y tres delays clásicos"
             },
             {
               "value": "100% analog BBD, 600 ms + modulation",
@@ -50660,6 +50656,10 @@
             {
               "value": "Spring 65, Plate 140, Hall 224",
               "value_es": "Spring 65, Plate 140, Hall 224"
+            },
+            {
+              "value": "Spring/plate/hall + A/B/C memories",
+              "value_es": "Spring/plate/hall + memorias A/B/C"
             }
           ]
         }
@@ -50923,7 +50923,7 @@
         "pros": [
           "Starlight tape/Memory Man plus Golden spring/plate/hall in one box",
           "Dual stereo engines you can combine",
-          "Tap tempo plus downloadable voicings vía app",
+          "Tap tempo plus downloadable voicings via app",
           "Analog dry-through with silent switching"
         ],
         "cons": [
@@ -51281,7 +51281,7 @@
         },
         {
           "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
+          "label_es": "Patrón polar",
           "values": [
             {
               "value": "Figure-8",
@@ -52250,7 +52250,7 @@
               "value_es": "USB-C, MIDI entrada/salida/thru, sync salida"
             },
             {
-              "value": "2x USB-A, USB-B, 2x MIDI in, 4x MIDI out, 16x CV/Gate vía 8x TRS",
+              "value": "2x USB-A, USB-B, 2x MIDI in, 4x MIDI out, 16x CV/Gate via 8x TRS",
               "value_es": "2x USB-A, USB-B, 2x MIDI entrada, 4x MIDI salida, 16x CV/Gate mediante 8x TRS"
             }
           ]
@@ -52349,7 +52349,7 @@
         ],
         "cons": [
           "No touchscreen, encoders and buttons only",
-          "Overbridge vía USB provides individual track outputs directly to the computer in digital format, so the physical output limitation can be bypassed with the official software",
+          "Overbridge via USB provides individual track outputs directly to the computer in digital format, so the physical output limitation can be bypassed with the official software",
           "Steep learning curve for Elektron newcomers",
           "Overbridge stutters on crowded USB hubs"
         ],
@@ -52377,7 +52377,7 @@
         ],
         "cons": [
           "Heavy 2.2 kg chassis, no pocket box",
-          "6 physical line outputs (3 stereo pairs) inherited from the Live II, plus up to 24 independent audio channels vía USB-C",
+          "6 physical line outputs (3 stereo pairs) inherited from the Live II, plus up to 24 independent audio channels via USB-C",
           "Premium price for the portable privilege",
           "Built-in speaker rattles on sub-bass notes"
         ],
@@ -55525,7 +55525,7 @@
         },
         {
           "label": "Sound Engine",
-          "label_es": "Motor de Sonido",
+          "label_es": "Motor de sonido",
           "values": [
             {
               "value": "2 osc analog + digital FX",
@@ -57095,7 +57095,7 @@
         "specs": {}
       },
       {
-        "content": "<p><strong>The EW-D Dual delivers 134 dB of input dynamic range. The highest of any wireless system — eliminating sensitivity adjustments entirely.</strong> The 1.9 ms latency is the lowest in its class. The Smart Assist App vía Bluetooth gives you full control from anywhere in the venue. The dual system includes both a handheld SKM-S with MMD 835 capsule and a bodypack SK with ME 2 lavalier.</p>",
+        "content": "<p><strong>The EW-D Dual delivers 134 dB of input dynamic range. The highest of any wireless system — eliminating sensitivity adjustments entirely.</strong> The 1.9 ms latency is the lowest in its class. The Smart Assist App via Bluetooth gives you full control from anywhere in the venue. The dual system includes both a handheld SKM-S with MMD 835 capsule and a bodypack SK with ME 2 lavalier.</p>",
         "heading_es": "Sennheiser EW-D Dual: precisión digital con control por app",
         "products": [
           93,
@@ -57103,7 +57103,7 @@
         ],
         "heading": "Sennheiser EW-D Dual: digital Precision with App Control",
         "content_es": "<p><strong>El EW-D Dual ofrece 134 dB de rango dinámico de entrada — el más alto de cualquier sistema inalámbrico — eliminando por completo los ajustes de sensibilidad.</strong> La latencia de 1,9 ms es la más baja en su clase. La app Smart Assist por Bluetooth te da control total desde cualquier lugar del recinto. El sistema dual incluye tanto un transmisor de mano SKM-S con cápsula MMD 835 como una petaca SK con micro de solapa ME 2.</p>",
-        "text": "<p><strong>The Sennheiser EW-D Dual is a fully digital wireless system with 134 dB of input dynamic range, 24-bit audio, and Bluetooth Smart Assist control vía a phone app.</strong> It includes an EW-D EM rackmount receiver, an EW-D SKM-S handheld transmitter with MMD 835 cardioid capsule, and an EW-D SK bodypack transmitter with ME 2 omnidirectional lavalier. One system, two transmitters, two different use cases: handheld for vocals and bodypack for hands-free speaking or instrument mounting.</p><p>The 134 dB dynamic range is the highest of any wireless system on the market. That means you never need to adjust sensitivity, whether the source is a whisper or a scream. Latency is just 1.9 milliseconds, which is low enough for in-ear monitoring without perceptible delay. The EW-D uses equidistant frequency spacing at 600 kHz intervals, eliminating intermodulation interference that plagues analog systems. You get up to 2,240 selectable frequencies across 56 MHz of bandwidth, supporting up to 90 simultaneous channels.</p><p>The Smart Assist App connects vía Bluetooth and handles frequency scanning, syncing, and monitoring from your phone. The metal-body transmitters run on two AA batteries for up to 8 hours, or up to 12 hours with the optional BA 70 rechargeable pack. The rack receiver is 1U, lightweight, and includes Intelligent Antenna Diversity for stable RF performance. This is the system you choose when reliability and audio quality are non-negotiable.</p>",
+        "text": "<p><strong>The Sennheiser EW-D Dual is a fully digital wireless system with 134 dB of input dynamic range, 24-bit audio, and Bluetooth Smart Assist control via a phone app.</strong> It includes an EW-D EM rackmount receiver, an EW-D SKM-S handheld transmitter with MMD 835 cardioid capsule, and an EW-D SK bodypack transmitter with ME 2 omnidirectional lavalier. One system, two transmitters, two different use cases: handheld for vocals and bodypack for hands-free speaking or instrument mounting.</p><p>The 134 dB dynamic range is the highest of any wireless system on the market. That means you never need to adjust sensitivity, whether the source is a whisper or a scream. Latency is just 1.9 milliseconds, which is low enough for in-ear monitoring without perceptible delay. The EW-D uses equidistant frequency spacing at 600 kHz intervals, eliminating intermodulation interference that plagues analog systems. You get up to 2,240 selectable frequencies across 56 MHz of bandwidth, supporting up to 90 simultaneous channels.</p><p>The Smart Assist App connects via Bluetooth and handles frequency scanning, syncing, and monitoring from your phone. The metal-body transmitters run on two AA batteries for up to 8 hours, or up to 12 hours with the optional BA 70 rechargeable pack. The rack receiver is 1U, lightweight, and includes Intelligent Antenna Diversity for stable RF performance. This is the system you choose when reliability and audio quality are non-negotiable.</p>",
         "text_es": "<p><strong>El Sennheiser EW-D Dual es un sistema inalámbrico completamente digital con 134 dB de rango dinámico de entrada, audio de 24 bits y control Bluetooth Smart Assist desde una app.</strong> Incluye un receptor de rack EW-D EM, un transmisor de mano EW-D SKM-S con cápsula MMD 835 cardioide y un transmisor de cuerpo EW-D SK con lavalier ME 2 omnidireccional. Un sistema, dos transmisores, dos casos de uso: handheld para voces y bodypack para habla sin manos o montaje de instrumento.</p><p>El rango dinámico de 134 dB es el más alto de cualquier sistema inalámbrico en el mercado. Eso significa que nunca necesitas ajustar la sensibilidad, da igual si la fuente es un susurro o un grito. La latencia es de sólo 1.9 milisegundos, suficientemente baja para monitoreo con in-ear sin retraso perceptible. El EW-D usa espaciado equidistante de frecuencias a 600 kHz, eliminando la interferencia por intermodulación que afecta a los sistemas analógicos. Obtienes hasta 2,240 frecuencias seleccionables en 56 MHz de ancho de banda, soportando hasta 90 canales simultáneos.</p><p>La app Smart Assist se conecta por Bluetooth y maneja escaneo de frecuencias, sincronización y monitoreo desde tu teléfono. Los transmisores con carcasa metálica funcionan con dos pilas AA por hasta 8 horas, o hasta 12 horas con el pack recargable BA 70 opcional. El receptor de rack es de 1U, ligero e incluye Diversidad Inteligente de Antena para rendimiento RF estable. Este es el sistema que eliges cuando la confiabilidad y la calidad de audio no son negociables.</p>",
         "verdict": "",
         "verdict_es": "",
@@ -58281,7 +58281,7 @@
         },
         {
           "label": "Body Wood",
-          "label_es": "Madera del Cuerpo",
+          "label_es": "Madera del cuerpo",
           "values": [
             {
               "value": "Alder",
@@ -58389,7 +58389,7 @@
         },
         {
           "label": "Frets & Fretboard",
-          "label_es": "Trastes y Diapasón",
+          "label_es": "Trastes y diapasón",
           "values": [
             {
               "value": "20, maple",
@@ -58497,7 +58497,7 @@
         },
         {
           "label": "Active/Passive",
-          "label_es": "Activo/Pasivo",
+          "label_es": "Activo/pasivo",
           "values": [
             {
               "value": "Passive",
@@ -58551,7 +58551,7 @@
         },
         {
           "label": "Scale Length",
-          "label_es": "Longitud de Escala",
+          "label_es": "Longitud de escala",
           "values": [
             {
               "value": "34 in (864 mm)",
@@ -59473,7 +59473,7 @@
         },
         {
           "label": "Driver Size",
-          "label_es": "Tamaño del Driver",
+          "label_es": "Tamaño del driver",
           "values": [
             {
               "value": "38mm",
@@ -60500,7 +60500,7 @@
         },
         {
           "label": "Bit Depth",
-          "label_es": "Profundidad de Bits",
+          "label_es": "Profundidad de bits",
           "values": [
             {
               "value": "24-bit",
@@ -61478,7 +61478,7 @@
       "faq_q2_en": "Is the Audio-Technica AT2020 better than cheaper condenser mics?",
       "faq_a2_en": "For clean vocals and acoustics, yes. The AT2020 uses a 16mm low-mass diaphragm — the same design class as studio condensers costing several times more — so it captures clean, detailed audio with a smooth, uncoloured response. It needs phantom power from your interface, but no other budget condenser offers this level of clarity at the price. If your budget is strict and your room is untreated, a dynamic like the Rode PodMic is more forgiving, but for detail and air, the AT2020 is the best condenser you can buy.",
       "faq_q3_en": "Is the Rode PodMic good for podcasting?",
-      "faq_a3_en": "Yes, it's one of the best budget podcasting mics you can buy. The PodMic is a dynamic microphone with a tight cardioid pattern that rejects background noise in untreated rooms, plus an internal pop filter and shock mounting for clean broadcast-style voice. It connects vía XLR to any interface or recorder and needs no phantom power.",
+      "faq_a3_en": "Yes, it's one of the best budget podcasting mics you can buy. The PodMic is a dynamic microphone with a tight cardioid pattern that rejects background noise in untreated rooms, plus an internal pop filter and shock mounting for clean broadcast-style voice. It connects via XLR to any interface or recorder and needs no phantom power.",
       "faq_q4_en": "Do I need an audio interface for the mics in this guide?",
       "faq_a4_en": "Yes for pure XLR mics — you need an audio interface or mixer with XLR inputs, and 48V phantom power for the condensers. The dynamics (SM57, SM58, PodMic, XM8500) work without phantom power, while the condensers (AT2020, NT1 Signature, AT2035) require it. The two hybrids skip that rule: the Samson Q2U and Fifine K688 connect straight to your computer over USB, no interface needed, and switch to XLR when you're ready to upgrade. If you want more plug-and-play options, check our Best Budget USB Microphones guide.",
       "faq_q1_es": "¿Es el Shure SM57 el mejor micrófono económico?",
@@ -61932,7 +61932,7 @@
         },
         {
           "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
+          "label_es": "Patrón polar",
           "values": [
             {
               "value": "Supercardioid",
@@ -62391,7 +62391,7 @@
           "Professional broadcast dynamic with solid all-metal build"
         ],
         "cons": [
-          "USB audio tops out at 16-bit/48kHz — sounds better vía XLR",
+          "USB audio tops out at 16-bit/48kHz — sounds better via XLR",
           "Heavier than some competing broadcast dynamics",
           "Mid-presence boost can sound harsh on naturally bright voices",
           "Plastic connectors feel less durable than metal alternatives"
@@ -62587,7 +62587,7 @@
           "Ships with tripod, clip, windscreen, USB cable, and XLR cable"
         ],
         "cons": [
-          "USB path tops out at 16-bit/48kHz — sounds better vía XLR",
+          "USB path tops out at 16-bit/48kHz — sounds better via XLR",
           "No pad or high-pass filter on board",
           "Not as detailed on vocals as a condenser like the AT2020",
           "Plastic tripod stand is less stable than a proper mic stand"
@@ -63601,7 +63601,7 @@
         "cons": [
           "Large 8-inch driver needs more space than small nearfields",
           "Premium price among Kali’s own line",
-          "No auto-calibration — all room tuning is manual vía rear switches",
+          "No auto-calibration — all room tuning is manual via rear switches",
           "The 8-inch woofer excites small-room modes, so placement matters"
         ],
         "pros_es": [
@@ -63630,7 +63630,7 @@
           "Small drivers limit output — will not fill a room",
           "Bluetooth is convenient, not for critical mixing",
           "No XLR inputs — RCA, TRS and USB-C only",
-          "The second speaker tethers vía cable — the stereo pair is not fully wireless"
+          "The second speaker tethers via cable — the stereo pair is not fully wireless"
         ],
         "pros_es": [
           "Par compacto con puerto frontal que funciona pegado a paredes y pantallas",
@@ -64656,7 +64656,7 @@
       "faq_q2_en": "Should I get a dynamic or condenser USB microphone ?",
       "faq_a2_en": "It depends on your room. In a noisy or echoey room, a dynamic USB mic like the Samson Q2U, Maono PD200X or FIFINE AM8 sounds cleaner because the capsule rejects background sound. In a quiet, treated room, a condenser like the HyperX SoloCast 2 or Rode NT-USB Mini captures more detail and air in your voice. If your desk is in a normal living space, start with a dynamic.",
       "faq_q3_en": "Is the HyperX SoloCast 2 good for streaming?",
-      "faq_a3_en": "Yes. The SoloCast 2 is a cardioid condenser tuned for voice with a tap-to-mute light that turns red when muted, and it works plug-and-play on PC, Mac, PS5 and PS4 vía USB-C. The main limitation is that it has no headphone jack, so you monitor through your computer or interface.",
+      "faq_a3_en": "Yes. The SoloCast 2 is a cardioid condenser tuned for voice with a tap-to-mute light that turns red when muted, and it works plug-and-play on PC, Mac, PS5 and PS4 via USB-C. The main limitation is that it has no headphone jack, so you monitor through your computer or interface.",
       "faq_q4_en": "Is the Razer Seiren V3 Mini worth it?",
       "faq_a4_en": "Yes — if you want a tiny, good-looking USB condenser with modern streaming controls. The 14mm supercardioid capsule rejects room noise well for its size, it's plug-and-play USB-C with no drivers, and the tap-to-mute sensor with LED indicator adds instant, silent muting. Just note there's no headphone jack for monitoring, and deeper gain and mix controls live in Razer Synapse.",
       "faq_q5_en": "Do budget USB mics need an audio interface?",
@@ -65014,7 +65014,7 @@
         },
         {
           "label": "Bit Depth / Sample Rate",
-          "label_es": "Bits / Frecuencia de muestreo",
+          "label_es": "Bits / frecuencia de muestreo",
           "values": [
             {
               "value": "16-bit/48kHz",
@@ -66178,7 +66178,7 @@
         },
         {
           "label": "Copy Protection",
-          "label_es": "Protección de Copia",
+          "label_es": "Protección de copia",
           "values": [
             {
               "value": "Waves License Center",
@@ -66238,7 +66238,7 @@
         },
         {
           "label": "Standout Feature",
-          "label_es": "Característica Destacada",
+          "label_es": "Característica destacada",
           "values": [
             {
               "value": "SSL G-series 4K style comp",
@@ -67782,7 +67782,7 @@
         },
         {
           "label": "Free Trial",
-          "label_es": "Prueba Gratis",
+          "label_es": "Prueba gratis",
           "values": [
             {
               "value": "90 days",
@@ -67812,7 +67812,7 @@
         },
         {
           "label": "System Requirements",
-          "label_es": "Requisitos del Sistema",
+          "label_es": "Requisitos del sistema",
           "values": [
             {
               "value": "8 GB RAM, multi-core CPU",
@@ -67842,7 +67842,7 @@
         },
         {
           "label": "Standout Feature",
-          "label_es": "Característica Destacada",
+          "label_es": "Característica destacada",
           "values": [
             {
               "value": "Session View, Max for Live",
@@ -68363,7 +68363,7 @@
         },
         {
           "label": "Key Features",
-          "label_es": "Características Clave",
+          "label_es": "Características clave",
           "values": [
             {
               "value": "-15dB pad, polarity reverse, merge, 80Hz high-pass",
@@ -68833,7 +68833,7 @@
         {
           "label_es": "Almacenamiento",
           "label_en": "Storage",
-          "val1": "20GB+ vía Overbridge",
+          "val1": "20GB+ via Overbridge",
           "val2": "SD Card (sample import)"
         },
         {
@@ -68940,7 +68940,7 @@
         {
           "label": "Storage",
           "label_es": "Almacenamiento",
-          "val1": "20GB+ vía Overbridge",
+          "val1": "20GB+ via Overbridge",
           "val2": "SD Card (sample import)",
           "val1_es": "20GB+ vía Overbridge",
           "val2_es": "SD Card (sample import)"
@@ -68987,7 +68987,7 @@
           "Deep sampling engine that also runs FM synthesis — a wider sound-design range than a pure drum machine",
           "64-step sequencer with parameter locks",
           "16 tracks — 8 audio tracks that run stereo or mono — for dense, layered beats",
-          "20GB+ storage vía Overbridge plus 16-channel USB audio to your computer",
+          "20GB+ storage via Overbridge plus 16-channel USB audio to your computer",
           "Powerful sound design — parameter locks, master FX and sidechain in one box"
         ],
         "pros_es": [
@@ -69911,7 +69911,7 @@
     "description_es": "Mi elección: Sennheiser ew IEM G4-TWIN-E. Ficha técnica, precios y veredicto.",
     "featuredSnippet": {
       "title_en": "Sennheiser ew IEM G4-TWIN-E vs Shure PSM300: Best Wireless In-Ear Monitor System",
-      "text_en": "The Sennheiser ew IEM G4-TWIN-E is a full wireless twin set: two EK IEM G4 bodypacks, two IE 4 earphones and a stereo transmitter with 42 MHz of bandwidth and up to 16 compatible channels. The Shure PSM300 is a single-performer system with 24-bit audio, a 300 ft analog RF link and one-touch scan-and-sync that scales vía extra packs or the Twinpack.",
+      "text_en": "The Sennheiser ew IEM G4-TWIN-E is a full wireless twin set: two EK IEM G4 bodypacks, two IE 4 earphones and a stereo transmitter with 42 MHz of bandwidth and up to 16 compatible channels. The Shure PSM300 is a single-performer system with 24-bit audio, a 300 ft analog RF link and one-touch scan-and-sync that scales via extra packs or the Twinpack.",
       "name1_en": "Sennheiser ew IEM G4-TWIN-E",
       "name2_en": "Shure PSM300",
       "price1": "1649",
@@ -70728,7 +70728,7 @@
         },
         {
           "label": "Body Wood",
-          "label_es": "Madera del Cuerpo",
+          "label_es": "Madera del cuerpo",
           "values": [
             {
               "value": "Alder",
@@ -70796,7 +70796,7 @@
         },
         {
           "label": "Frets & Fretboard",
-          "label_es": "Trastes y Diapasón",
+          "label_es": "Trastes y diapasón",
           "values": [
             {
               "value": "20, maple or rosewood, rolled edges",
@@ -70864,7 +70864,7 @@
         },
         {
           "label": "Active/Passive",
-          "label_es": "Activo/Pasivo",
+          "label_es": "Activo/pasivo",
           "values": [
             {
               "value": "Passive",
@@ -70898,7 +70898,7 @@
         },
         {
           "label": "Scale Length",
-          "label_es": "Longitud de Escala",
+          "label_es": "Longitud de escala",
           "values": [
             {
               "value": "34 in (864 mm)",
@@ -71606,7 +71606,7 @@
         },
         {
           "label": "Body Wood",
-          "label_es": "Madera del Cuerpo",
+          "label_es": "Madera del cuerpo",
           "values": [
             {
               "value": "Alder",
@@ -71682,7 +71682,7 @@
         },
         {
           "label": "Frets & Fretboard",
-          "label_es": "Trastes y Diapasón",
+          "label_es": "Trastes y diapasón",
           "values": [
             {
               "value": "22, maple/rosewood",
@@ -71758,7 +71758,7 @@
         },
         {
           "label": "Scale Length",
-          "label_es": "Longitud de Escala",
+          "label_es": "Longitud de escala",
           "values": [
             {
               "value": "25.5 in (648 mm)",
@@ -73660,7 +73660,7 @@
       {
         "heading": "Yamaha THR30II Wireless: The Desktop Amp That Does It All",
         "heading_es": "Yamaha THR30II Wireless: El ampli de escritorio que lo hace todo",
-        "content": "<strong>Bedroom tone should still feel like an amp — this one adds real power, line outputs, and wireless freedom.</strong> The Yamaha THR30II Wireless is the flagship desktop amp: 30 watts of true stereo (15W + 15W) through two 3.5-inch full-range speakers with enhanced low end, so bass practice gets real low-end weight. Three bass amp models (Classic, Boutique, Modern) switchable vía a physical Mode knob — no app needed. Dedicated stereo 1/4\" L/R line outputs run to an interface or mixer for recording and stage, USB doubles as audio interface with Cubase included. Built-in wireless receiver works with the optional Line 6 G10T transmitter for cable-free playing. Bluetooth streams music, THR Remote app shapes tones, headphone output delivers full amp tone in total silence. Compared with the THR10II, the 30II Wireless sits in another league for serious writers. Made for home players, writers, and recordists who want pro features at desk volume. Check wireless transmitter availability, USB workflow, and line output needs before buying.",
+        "content": "<strong>Bedroom tone should still feel like an amp — this one adds real power, line outputs, and wireless freedom.</strong> The Yamaha THR30II Wireless is the flagship desktop amp: 30 watts of true stereo (15W + 15W) through two 3.5-inch full-range speakers with enhanced low end, so bass practice gets real low-end weight. Three bass amp models (Classic, Boutique, Modern) switchable via a physical Mode knob — no app needed. Dedicated stereo 1/4\" L/R line outputs run to an interface or mixer for recording and stage, USB doubles as audio interface with Cubase included. Built-in wireless receiver works with the optional Line 6 G10T transmitter for cable-free playing. Bluetooth streams music, THR Remote app shapes tones, headphone output delivers full amp tone in total silence. Compared with the THR10II, the 30II Wireless sits in another league for serious writers. Made for home players, writers, and recordists who want pro features at desk volume. Check wireless transmitter availability, USB workflow, and line output needs before buying.",
         "content_es": "<strong>El tono de dormitorio debería sentirse como un ampli — este añade potencia real, salidas de línea y libertad inalámbrica.</strong> El Yamaha THR30II Wireless es el ampli de escritorio insignia: 30 vatios de verdadero estéreo (15 W + 15 W) a través de dos altavoces de rango completo de 3,5 pulgadas con graves mejorados, para que el bajo tenga verdadero peso de graves. Tres modelos de amplificador de bajo (Classic, Boutique, Modern) conmutables por un interruptor físico Mode — sin app. Salidas de línea L/R estéreo de 1/4\" dedicadas van a interfaz o mesa para grabar y directo, USB funciona como interfaz de audio con Cubase incluido. Receptor inalámbrico integrado compatible con el transmisor opcional Line 6 G10T para tocar sin cables. Bluetooth reproduce música, app THR Remote da forma al tono, salida de auriculares entrega tono de amplificador completo en silencio total. Frente al THR10II, el 30II Wireless juega en otra liga para compositores serios. Pensado para guitarristas caseros, compositores y quienes graban en casa y quieren prestaciones pro a volumen de escritorio. Revisa disponibilidad del transmisor inalámbrico, flujo USB y necesidades de salida de línea antes de comprar.",
         "products": [
           503
@@ -74090,7 +74090,7 @@
               "value_es": "3 modelos bajo (Classic/Boutique/Modern) + 15 guitarra + 3 acústica"
             },
             {
-              "value": "App-driven presets vía ToneCloud",
+              "value": "App-driven presets via ToneCloud",
               "value_es": "Presets por app vía ToneCloud"
             },
             {
@@ -74259,7 +74259,7 @@
         },
         {
           "label": "Weight / Power Source",
-          "label_es": "Peso / Alimentación",
+          "label_es": "Peso / alimentación",
           "values": [
             {
               "value": "31 lb (14 kg), mains powered",
@@ -75183,7 +75183,7 @@
         },
         {
           "label": "Current Draw",
-          "label_es": "Consumo de Corriente",
+          "label_es": "Consumo de corriente",
           "values": [
             {
               "value": "8 mA",
@@ -75259,7 +75259,7 @@
         },
         {
           "label": "Standout Feature",
-          "label_es": "Característica Destacada",
+          "label_es": "Característica destacada",
           "values": [
             {
               "value": "Icons of the TS808 circuit",
@@ -75344,7 +75344,7 @@
           "La entrada de tap tempo sincroniza con un footswitch externo"
         ],
         "cons": [
-          "Single preset at a time vía the panel",
+          "Single preset at a time via the panel",
           "40-second looper is short for full-song looping",
           "It is more than a basic delay in price",
           "At 65 mA it draws more than basic delays, so a crowded board wants a proper power supply",
@@ -75424,7 +75424,7 @@
         "pros": [
           "Ten reverb types from Room to Church",
           "MASH pressure-sensitive footswitch for real-time expression",
-          "TonePrint app loads signature sounds vía pickups or USB",
+          "TonePrint app loads signature sounds via pickups or USB",
           "True bypass with stereo inputs and outputs"
         ],
         "pros_es": [
@@ -76191,7 +76191,7 @@
         "name": "KRK Rokit 7 G5",
         "name_es": "KRK Rokit 7 G5",
         "pros": [
-          "Built-in DSP-driven graphic EQ with 25 bands vía KRK App gives precise room correction without external hardware, compensating for room modes with surgical precision",
+          "Built-in DSP-driven graphic EQ with 25 bands via KRK App gives precise room correction without external hardware, compensating for room modes with surgical precision",
           "Kevlar-reinforced aramid fiber woofer is extremely rigid yet lightweight, providing fast transient response and low distortion even at high SPL",
           "Waveguide tweeter design improves horizontal dispersion creating a wider sweet spot that accommodates multiple listening positions without tonal shifts",
           "Front-firing bass port allows near-wall placement without boomy bass buildup typical of rear-ported monitors",
@@ -77639,7 +77639,7 @@
       "rating1": 4.6,
       "rating2": 4.7,
       "faq_q1_en": "For a beginner upgrading from a practice amp wanting great tones at bedroom volume — is the Katana enough or do tubes justify all-tube weight and maintenance for gig power and valve feel?",
-      "faq_a1_en": "Buy the Katana 50 Gen 3 for versatility and value: five amp characters, 15 onboard effects (60+ vía Tone Studio), power attenuation and USB recording make it the best home and practice amp. Buy the DSL40CR if you need genuine all-tube Marshall tone with the classic crunch and a real valve feel for gigs and sessions. The Katana is the smart modern all-purpose amp; the DSL is the authentic tube amp.",
+      "faq_a1_en": "Buy the Katana 50 Gen 3 for versatility and value: five amp characters, 15 onboard effects (60+ via Tone Studio), power attenuation and USB recording make it the best home and practice amp. Buy the DSL40CR if you need genuine all-tube Marshall tone with the classic crunch and a real valve feel for gigs and sessions. The Katana is the smart modern all-purpose amp; the DSL is the authentic tube amp.",
       "faq_q2_en": "What is the difference between the Katana 50 Gen 3 and the DSL40CR?",
       "faq_a2_en": "The Katana 50 Gen 3 is a digital modeling amp with five amp types, 55 effects, a 0.5W/25W/50W power selector for silent-to-room levels and direct USB recording — light, quiet and full-featured. The DSL40CR is an all-tube 40W combo with Classic Gain and Ultra Gain channels, reverb and a 12-inch Celestion speaker, delivering the dynamic, amp-like feel that modeling cannot fully copy. The Katana is features and price; the DSL is tube character and stage power.",
       "specs": [
@@ -77691,7 +77691,7 @@
       "faq_q4_en": "Is the Marshall DSL40CR worth more than the Katana 50?",
       "faq_a4_en": "Only if you need true tube tone and gig power. The DSL40CR is an all-tube 40-watt amp with the classic Marshall crunch and a proper valve-driven feel that the Katana 50 cannot fully replicate — it is a real gig and studio amp. The Katana is a digital modeling amp that sounds remarkably good, is light, quiet at home and has 55 effects built in, making it the better value for practice and recording. Buy the Marshall for genuine tube character; buy the Katana for versatility and price.",
       "faq_q5_en": "Which amp has better built-in effects without needing pedals?",
-      "faq_a5_en": "The Boss Katana 50 Gen 3 has 6 built-in effects categories (booster, mod, FX, delay, reverb, and EQ) with 3 variations each, accessible vía the panel or Tone Studio software. The Marshall DSL40CR has only reverb built-in — everything else requires external pedals. For all-in-one convenience, Katana wins.",
+      "faq_a5_en": "The Boss Katana 50 Gen 3 has 6 built-in effects categories (booster, mod, FX, delay, reverb, and EQ) with 3 variations each, accessible via the panel or Tone Studio software. The Marshall DSL40CR has only reverb built-in — everything else requires external pedals. For all-in-one convenience, Katana wins.",
       "faq_q3_es": "¿Qué amplificador suena bien a volumen de dormitorio?",
       "faq_a3_es": "El Katana 50 Gen 3 es claramente mejor a volumen de dormitorio. Su control de potencia baja a 0,5W o 25W, así que consigues buen tono sin sacudir la casa, y tiene salida de auriculares/grabación. El DSL40CR es un ampli de válvulas de 40W que necesita que le subas el volumen para sonar de verdad — a bajo volumen es más silencioso pero le falta ese brillo de válvulas empujadas. Para tocar en apartamento y de noche, el Katana; para conciertos, el DSL.",
       "faq_q4_es": "¿Merece la pena el Marshall DSL40CR más que el Katana 50?",
@@ -77779,7 +77779,7 @@
         "name_es": "Boss Katana 50 Gen 3",
         "pros": [
           "Five amp voicings in one unit clean crunch lead brown acoustic cover more genres than DSL tube voicings",
-          "Built-in effects over 60 Boss effects loaded vía Tone Studio with no external pedals needed",
+          "Built-in effects over 60 Boss effects loaded via Tone Studio with no external pedals needed",
           "Power control 50W / 25W / 0.5W modes allows bedroom practice at usable volumes without power soak attenuator",
           "USB recording direct to DAW with cabinet simulation no microphone needed captures full tone",
           "Tone Studio editor provides deep EQ gate compression and delay parameters with software interface"
@@ -77973,7 +77973,7 @@
       "faq_q1_en": "Which subwoofer is better for a small treated control room?",
       "faq_a1_en": "Both excel in small rooms, but the KH 750 DSP edges ahead if you calibrate: MA 1 measures and corrects level, delay and phase across the whole system automatically. The 7050C suits engineers who prefer a fixed 85 Hz crossover and DIP-switch setup with no app or measurement mic.",
       "faq_q2_en": "What is the main difference between the KH 750 DSP and the 7050C?",
-      "faq_a2_en": "Philosophy. The Neumann is DSP-driven: sealed cabinet, 16 Hz extension, four bass-management routing modes and networked control vía the Neumann.Control app. The Genelec is analogue: LSE spiral reflex cabinet, 24 Hz extension, fixed crossovers and rear DIP switches.",
+      "faq_a2_en": "Philosophy. The Neumann is DSP-driven: sealed cabinet, 16 Hz extension, four bass-management routing modes and networked control via the Neumann.Control app. The Genelec is analogue: LSE spiral reflex cabinet, 24 Hz extension, fixed crossovers and rear DIP switches.",
       "faq_q3_en": "Can I use either subwoofer with non-matching monitor brands?",
       "faq_a3_en": "Yes. Both accept any line-level signal: the 7050C's analogue bass management works with any stereo or 5.1 rig, while the KH 750 DSP also accepts AES3/S-PDIF digitally — though its full MA 1 calibration only optimises complete Neumann systems.",
       "specs": [
@@ -80605,7 +80605,7 @@
         {
           "label": "MIDI",
           "label_es": "MIDI",
-          "val1": "vía optional BT-DUAL",
+          "val1": "via optional BT-DUAL",
           "val2": "MIDI In/Out included",
           "val1_es": "Vía BT-DUAL opcional",
           "val2_es": "MIDI entrada/salida incluido"
@@ -81334,7 +81334,7 @@
         },
         {
           "label": "Mic Type",
-          "label_es": "Tipo de Micrófono",
+          "label_es": "Tipo de micrófono",
           "values": [
             {
               "value": "Dynamic cardioid",
@@ -81614,7 +81614,7 @@
         },
         {
           "label": "Bit Depth / Sample Rate",
-          "label_es": "Bits / Frecuencia de muestreo",
+          "label_es": "Bits / frecuencia de muestreo",
           "values": [
             {
               "value": "24-bit/48kHz",
@@ -82307,7 +82307,7 @@
       {
         "heading": "Is the Avid S1 the Best Controller for Pro Tools Users?",
         "heading_es": "¿Es el Avid S1 el mejor controlador para usuarios de Pro Tools?",
-        "content": "<strong>If Pro Tools is your DAW, the Avid S1 is the deepest integration you can get. </strong>Eight motorized faders with EUCON protocol deliver features no MCU controller can match: VCA spill, layouts, advanced automation, and the free Avid Control app on iPad gives you a touchscreen companion. Named Product of the Year by Sound on Sound, the S1 works with Pro Tools, Logic, Cubase, and Nuendo vía Ethernet. It's expandable to four units for 32 faders. The catch: it needs a wired Ethernet connection and a tablet for the full experience. But for Pro Tools power users, nothing else comes close.",
+        "content": "<strong>If Pro Tools is your DAW, the Avid S1 is the deepest integration you can get. </strong>Eight motorized faders with EUCON protocol deliver features no MCU controller can match: VCA spill, layouts, advanced automation, and the free Avid Control app on iPad gives you a touchscreen companion. Named Product of the Year by Sound on Sound, the S1 works with Pro Tools, Logic, Cubase, and Nuendo via Ethernet. It's expandable to four units for 32 faders. The catch: it needs a wired Ethernet connection and a tablet for the full experience. But for Pro Tools power users, nothing else comes close.",
         "content_es": "<strong>Si Pro Tools es el DAW, el Avid S1 es la integración más profunda que puedes obtener. </strong>Ocho faders motorizados con protocolo EUCON ofrecen funciones que ningún controlador MCU puede igualar: VCA spill, layouts, automatización avanzada y la app gratuita Avid Control en el iPad te da una pantalla táctil complementaria. Fue nombrado Producto del Año por Sound on Sound, y funciona con Pro Tools, Logic, Cubase y Nuendo vía Ethernet. Es ampliable a cuatro unidades para 32 faders. Pero necesita una conexión Ethernet cableada y una tableta para la experiencia completa. Para usuarios avanzados de Pro Tools, nada se compara.",
         "products": [
           398
@@ -82560,7 +82560,7 @@
         },
         {
           "label": "Key Features",
-          "label_es": "Características Clave",
+          "label_es": "Características clave",
           "values": [
             {
               "value": "SSL build quality, LED meters",
@@ -82662,7 +82662,7 @@
         },
         {
           "label": "Assignable Buttons",
-          "label_es": "Botones Asignables",
+          "label_es": "Botones asignables",
           "values": [
             {
               "value": "43",
@@ -82681,7 +82681,7 @@
               "value_es": "46"
             },
             {
-              "value": "Multiple (vía app)",
+              "value": "Multiple (via app)",
               "value_es": "Múltiples (vía app)"
             },
             {
@@ -83503,7 +83503,7 @@
         },
         {
           "label": "Copy Protection",
-          "label_es": "Protección de Copia",
+          "label_es": "Protección de copia",
           "values": [
             {
               "value": "iLok",
@@ -83579,7 +83579,7 @@
         },
         {
           "label": "Standout Feature",
-          "label_es": "Característica Destacada",
+          "label_es": "Característica destacada",
           "values": [
             {
               "value": "Ozone Assistant, Tonal Balance, 8 modules",
@@ -84638,7 +84638,7 @@
         "specs": {}
       },
       {
-        "content": "<p><strong>The Montage M8x features Yamaha's flagship AN-X and FM-X engines — the AN-X delivers authentic analog-style subtractive synthesis while the FM-X provides powerful 8-operator FM synthesis.</strong> The 88-key weighted keyboard uses Yamaha's GrandTouch action. Motion Control lets you create dynamic, evolving sounds by assigning multiple parameters to a single control. The 7-inch touchscreen provides intuitive access to every feature. Seamless DAW integration vía USB, MIDI, and the new Montage Connect software. It's the ultimate synth workstation for producers and performers.</p>",
+        "content": "<p><strong>The Montage M8x features Yamaha's flagship AN-X and FM-X engines — the AN-X delivers authentic analog-style subtractive synthesis while the FM-X provides powerful 8-operator FM synthesis.</strong> The 88-key weighted keyboard uses Yamaha's GrandTouch action. Motion Control lets you create dynamic, evolving sounds by assigning multiple parameters to a single control. The 7-inch touchscreen provides intuitive access to every feature. Seamless DAW integration via USB, MIDI, and the new Montage Connect software. It's the ultimate synth workstation for producers and performers.</p>",
         "heading_es": "¿Es el Yamaha Montage M8x el mejor sintetizador workstation?",
         "products": [
           639
@@ -85258,7 +85258,7 @@
         },
         {
           "label": "HF Driver",
-          "label_es": "Driver de Agudos",
+          "label_es": "Driver de agudos",
           "values": [
             {
               "value": "1.75\" coaxial compression driver",
@@ -85328,7 +85328,7 @@
         },
         {
           "label": "Monitor Angle",
-          "label_es": "Ángulo de Monitor",
+          "label_es": "Ángulo de monitor",
           "values": [
             {
               "value": "55°",
@@ -85486,7 +85486,7 @@
       {
         "heading": "Loud From a Laptop: Is the DT 900 Pro X the Home-Studio Sweet Spot?",
         "heading_es": "Alto desde un portátil: ¿es el DT 900 Pro X el punto óptimo del home studio?",
-        "content": "<strong>This is the DT 990 Pro, modernized for how people actually work.</strong> The 48-ohm STELLAR.45 drivers deliver full studio level from a laptop, tablet or basic interface — no dedicated amp required — while keeping the wide open stage beyerdynamic is known for. Unlike the classic DT 990 Pro, the cable detaches vía locking mini-XLR, and two cables (3 m and 1.8 m) come included. Velour pads and a memory-foam band keep 345 g comfortable for hours, and nearly every part is replaceable. Tuning is flatter and calmer than the old DT 990, so mixes translate without the treble guesswork. Made for home studios that want one honest open-back that works with everything they own.",
+        "content": "<strong>This is the DT 990 Pro, modernized for how people actually work.</strong> The 48-ohm STELLAR.45 drivers deliver full studio level from a laptop, tablet or basic interface — no dedicated amp required — while keeping the wide open stage beyerdynamic is known for. Unlike the classic DT 990 Pro, the cable detaches via locking mini-XLR, and two cables (3 m and 1.8 m) come included. Velour pads and a memory-foam band keep 345 g comfortable for hours, and nearly every part is replaceable. Tuning is flatter and calmer than the old DT 990, so mixes translate without the treble guesswork. Made for home studios that want one honest open-back that works with everything they own.",
         "content_es": "<strong>Este es el DT 990 Pro, actualizado a los flujos de trabajo actuales.</strong> Los drivers STELLAR.45 de 48 ohmios rinden al máximo en estudio desde un portátil, una tablet o una interfaz básica — sin amplificador dedicado — manteniendo el escenario abierto y amplio por el que Beyerdynamic es conocida. A diferencia del clásico DT 990 Pro, el cable se desmonta con mini-XLR con bloqueo, y vienen incluidos dos cables (3 m y 1,8 m). Las almohadillas de velour y la diadema con espuma con memoria hacen cómodos sus 345 g durante horas, y casi todas las piezas son reemplazables. La afinación es más plana y calmada que la del viejo DT 990, así las mezclas se trasladan sin tener que adivinar los agudos. Hechos para estudios caseros que quieren un abierto honesto que funcione con todo lo que tienen.",
         "products": [
           602
@@ -85731,7 +85731,7 @@
         },
         {
           "label": "Driver Size",
-          "label_es": "Tamaño del Driver",
+          "label_es": "Tamaño del driver",
           "values": [
             {
               "value": "38mm",
@@ -86676,7 +86676,7 @@
           "Lighter GHC action lacks the escapement click and graded resistance that builds conservatory-grade finger independence",
           "192-note polyphony drops notes on dense Romantic repertoire with half-pedaling — FP-30X's 256 notes handles it cleanly",
           "2×7 W speakers sound thin past moderate volume — no low-end authority for room-filling practice",
-          "Only 24 onboard voices (321 vía app) — limits immediate inspiration without phone in hand",
+          "Only 24 onboard voices (321 via app) — limits immediate inspiration without phone in hand",
           "No Bluetooth MIDI — can't drive GarageBand/DAW wirelessly, only audio streaming"
         ],
         "cons_es": [
@@ -87453,7 +87453,7 @@
       "faq_q4_es": "¿Una interfaz portátil puede funcionar con batería?",
       "faq_a4_es": "Ninguna funciona con baterías internas, pero las tres son alimentadas por USB, que es el punto clave: toman toda su energía de tu portátil, así que no necesitas adaptador de corriente. La RME Babyface Pro FS, Scarlett 2i2 4ª Gen y SSL 2+ MKII funcionan todas desde el puerto USB de un portátil, lo que las hace realmente portátiles para grabar en exteriores.",
       "faq_q5_en": "Is a 2-input portable interface enough for mobile recording?",
-      "faq_a5_en": "For most mobile recording — vocals plus one instrument, or stereo field recording — yes, 2 inputs is enough. The Scarlett 2i2, Babyface, and SSL 2+ all handle a single vocal mic plus an instrument input, and the Babyface expands to more channels vía ADAT if you later add a rack. If you routinely record full bands on location, you will want a bigger interface instead.",
+      "faq_a5_en": "For most mobile recording — vocals plus one instrument, or stereo field recording — yes, 2 inputs is enough. The Scarlett 2i2, Babyface, and SSL 2+ all handle a single vocal mic plus an instrument input, and the Babyface expands to more channels via ADAT if you later add a rack. If you routinely record full bands on location, you will want a bigger interface instead.",
       "faq_q5_es": "¿Una interfaz portátil de 2 entradas es suficiente para grabación móvil?",
       "faq_a5_es": "Para la mayoría de grabación móvil — voz más un instrumento, o grabación de campo estéreo — sí, 2 entradas bastan. La Scarlett 2i2, Babyface y SSL 2+ manejan un micrófono vocal más una entrada de instrumento, y la Babyface se expande a más canales vía ADAT si luego añades un rack. Si grabas bandas completas en exteriores con regularidad, necesitarás una interfaz más grande.",
       "faq_q6_en": "Which portable interface has the best previos?",
@@ -87616,7 +87616,7 @@
         },
         {
           "label": "Inputs / Outputs",
-          "label_es": "Entradas / Salidas",
+          "label_es": "Entradas / salidas",
           "values": [
             {
               "value": "4-in / 4-out (12 total)",
@@ -87711,7 +87711,7 @@
               "value_es": "192 kHz"
             },
             {
-              "value": "192 kHz (44.1/48 kHz vía OTG)",
+              "value": "192 kHz (44.1/48 kHz via OTG)",
               "value_es": "192 kHz (44.1/48 kHz vía OTG)"
             },
             {
@@ -88089,7 +88089,7 @@
         "cons": [
           "No loopback (the M4 adds it)",
           "No built-in compression for hot sources",
-          "Bus-powered only vía USB-C (no extra power option)",
+          "Bus-powered only via USB-C (no extra power option)",
           "2-in limit pushes you to the M4 for more inputs"
         ],
         "cons_es": [
@@ -89079,7 +89079,7 @@
         },
         {
           "label": "Conversion / Clock",
-          "label_es": "Conversión / Reloj",
+          "label_es": "Conversión / reloj",
           "values": [
             {
               "value": "A/D 136 dBA, 192 kHz, Merging tech",
@@ -89109,7 +89109,7 @@
         },
         {
           "label": "Preamp Character",
-          "label_es": "Carácter de Previo",
+          "label_es": "Carácter de previo",
           "values": [
             {
               "value": "2× Neumann clean to 78 dB",
@@ -89139,7 +89139,7 @@
         },
         {
           "label": "Monitoring / Extras",
-          "label_es": "Monitorización / Extras",
+          "label_es": "Monitorización / extras",
           "values": [
             {
               "value": "Touchscreen monitor controller + DSP reverb",
@@ -89989,7 +89989,7 @@
         {
           "label_en": "Storage",
           "label_es": "Almacenamiento",
-          "val1": "1 GB (vía CFast)",
+          "val1": "1 GB (via CFast)",
           "val2": "128 GB internal + expandable"
         },
         {
@@ -90910,7 +90910,7 @@
         "heading": "The Contenders",
         "heading_es": "Los contendientes",
         "skipMedia": true,
-        "content": "<strong>Your interface touches every recording you make — at the professional level, conversion quality and driver stability are paramount.</strong> The Universal Audio Apollo x16 Gen 2 delivers 167dB dynamic range conversion with HEXA Core UAD DSP processing. The Unison preamps and real-time UAD plugin processing let you track through vintage compressors and EQs with near-zero latency. The RME Fireface UFX III is the gold standard for rock-solid driver stability — 188 channels over USB 3.0 and ASIO drivers trusted by studios worldwide, 135dB D/A conversion, SteadyClock FS jitter suppression, and TotalMix FX routing. It also records standalone to USB vía DURec. Apollo for UAD DSP workflow; RME for rock-solid reliability and routing flexibility.",
+        "content": "<strong>Your interface touches every recording you make — at the professional level, conversion quality and driver stability are paramount.</strong> The Universal Audio Apollo x16 Gen 2 delivers 167dB dynamic range conversion with HEXA Core UAD DSP processing. The Unison preamps and real-time UAD plugin processing let you track through vintage compressors and EQs with near-zero latency. The RME Fireface UFX III is the gold standard for rock-solid driver stability — 188 channels over USB 3.0 and ASIO drivers trusted by studios worldwide, 135dB D/A conversion, SteadyClock FS jitter suppression, and TotalMix FX routing. It also records standalone to USB via DURec. Apollo for UAD DSP workflow; RME for rock-solid reliability and routing flexibility.",
         "content_es": "<strong>La interfaz afecta cada grabación — en entorno profesional, la calidad de conversión y la estabilidad de drivers son primordiales.</strong> La Universal Audio Apollo x16 Gen 2 ofrece conversión de 167 dB de rango dinámico con procesamiento HEXA Core UAD DSP. Los previos Unison y el procesamiento de plugins UAD en tiempo real te permiten grabar con compresores y EQs vintage con latencia casi nula. La RME Fireface UFX III es la referencia para estabilidad de drivers — 188 canales sobre USB 3.0 y drivers ASIO de confianza en estudios de todo el mundo, conversión D/A de 135 dB, supresión de jitter SteadyClock FS y enrutamiento TotalMix FX. También graba independientemente a USB con DURec. Apollo para proceso UAD DSP; RME para fiabilidad a prueba de todo y flexibilidad de encaminamiento.",
         "products": [
           182,
@@ -91071,7 +91071,7 @@
         "name_es": "RME Fireface UFX III",
         "pros": [
           "Legendary driver stability — RME is known for drivers that stay stable across all platforms through OS updates",
-          "188-channel I/O vía USB 3.0 with MADI expansion — massive routing capability",
+          "188-channel I/O via USB 3.0 with MADI expansion — massive routing capability",
           "TotalMix FX provides 48-channel digital mixing with onboard DSP effects",
           "DURec allows standalone recording directly to USB storage",
           "SteadyClock FS jitter suppression for clean clocking"
@@ -91258,7 +91258,7 @@
       {
         "heading": "Allen & Heath SQ-5",
         "heading_es": "Allen & Heath SQ-5",
-        "content": "<strong>Premium compact digital mixer with touring-grade audio quality.</strong> 48 input channels (32 local + 16 vía SLink), 8 stereo FX engines with RackExtra FX suite including reverbs, delays, modulation, and dynamics. 7-inch capacitive touchscreen with intuitive gesture control, 8 soft keys, and 8 assignable knobs. SLink port for expandable I/O (up to 48 inputs vía dSnake or DX expanders). 12 XLR outputs, 4 stereo FX returns, and a 12x8 USB audio interface. Allen & Heath's 96kHz FPGA mixing architecture delivers exceptionally low latency and clean audio quality. The SQ-5 is the choice of touring professionals who refuse to compromise on sound.",
+        "content": "<strong>Premium compact digital mixer with touring-grade audio quality.</strong> 48 input channels (32 local + 16 via SLink), 8 stereo FX engines with RackExtra FX suite including reverbs, delays, modulation, and dynamics. 7-inch capacitive touchscreen with intuitive gesture control, 8 soft keys, and 8 assignable knobs. SLink port for expandable I/O (up to 48 inputs via dSnake or DX expanders). 12 XLR outputs, 4 stereo FX returns, and a 12x8 USB audio interface. Allen & Heath's 96kHz FPGA mixing architecture delivers exceptionally low latency and clean audio quality. The SQ-5 is the choice of touring professionals who refuse to compromise on sound.",
         "content_es": "<strong>Mezclador digital compacto premium con calidad de audio de gira.</strong> 48 canales de entrada (32 locales + 16 vía SLink), 8 motores FX estéreo con suite RackExtra FX que incluye reverbs, delays, modulación y dinámica. Pantalla táctil capacitiva de 7 pulgadas con control gestual intuitivo, 8 teclas suaves y 8 ruedas asignables. Puerto SLink para I/O expandible (hasta 48 entradas vía dSnake o DX expanders). 12 salidas XLR, 4 retornos FX estéreo e interfaz de audio USB 12x8. La arquitectura de mezcla FPGA de 96 kHz de Allen & Heath ofrece latencia excepcionalmente baja y calidad de audio prístina. El SQ-5 es la elección de los profesionales de gira que se niegan a comprometer el sonido.",
         "products": [
           139
@@ -91274,7 +91274,7 @@
       {
         "heading": "Behringer X32 Compact",
         "heading_es": "Behringer X32 Compact",
-        "content": "<strong>The world's most popular digital mixer — outstanding value.</strong> 40 input channels (32 local + 8 aux/returns), 8 stereo FX engines with high-quality effects including reverbs, delays, and modulation. 17 motorized 100mm faders in 4 layers (68 channels of control), 5-inch color screen with intuitive navigation. 16 XLR outputs, 6 aux sends, and 32x32 USB audio interface. The X32 Compact features the same processing engine as the full-size X32 in a smaller footprint. Deep iPad/Android control vía X32 app, scene automation, and extensive routing capabilities. The X32 Compact is the mixer that changed the industry — making professional digital mixing accessible to every venue, church, and band.",
+        "content": "<strong>The world's most popular digital mixer — outstanding value.</strong> 40 input channels (32 local + 8 aux/returns), 8 stereo FX engines with high-quality effects including reverbs, delays, and modulation. 17 motorized 100mm faders in 4 layers (68 channels of control), 5-inch color screen with intuitive navigation. 16 XLR outputs, 6 aux sends, and 32x32 USB audio interface. The X32 Compact features the same processing engine as the full-size X32 in a smaller footprint. Deep iPad/Android control via X32 app, scene automation, and extensive routing capabilities. The X32 Compact is the mixer that changed the industry — making professional digital mixing accessible to every venue, church, and band.",
         "content_es": "<strong>El mezclador digital más popular del mundo — valor inmejorable.</strong> 40 canales de entrada (32 locales + 8 aux/retornos), 8 motores FX estéreo con efectos de alta calidad incluyendo reverbs, delays y modulación. 17 faders motorizados de 100 mm en 4 capas (68 canales de control), pantalla color de 5 pulgadas con navegación intuitiva. 16 salidas XLR, 6 envíos aux e interfaz de audio USB 32x32. El X32 Compact cuenta con el mismo motor de procesamiento que el X32 de tamaño completo en una huella más pequeña. Control iPad/Android profundo a través de la app X32, automatización de escenas y capacidades de encaminamiento extensas. El X32 Compact es el mezclador que cambió la industria — haciendo que la mezcla digital profesional sea accesible para cada recinto, iglesia y banda.",
         "products": [
           138
@@ -91404,7 +91404,7 @@
           "A 96kHz FPGA architecture that captures detail the X32's 48kHz converters miss",
           "A touring-grade chassis that survives repeated load-ins and tear-downs",
           "Intuitive 7-inch capacitive touchscreen interface",
-          "Expandable I/O vía SLink for future growth",
+          "Expandable I/O via SLink for future growth",
           "Allen & Heath preamps carry the same pedigree as the company's touring consoles"
         ],
         "pros_es": [
@@ -91638,7 +91638,7 @@
       {
         "heading": "Lewitt LCT 1040 Ultimate Microphone System",
         "heading_es": "Lewitt LCT 1040: el sistema de micrófono definitivo",
-        "content": "<strong>An innovative dual-circuit microphone that combines the best of tube and FET technology.</strong> The LCT 1040 features a gold-sputtered 1-inch condenser capsule powered by a premium E88CC/6DJ8 tube from JJ Electronics, seamlessly blending between four all-analog tube modes (Clear, Warm, Dark, Saturated) and a extended high-frequency clarity FET circuit. Five polar patterns are selectable vía remote control, with ultra-low self-noise of just 10 dB(A). The included comprehensive system — shock mount, magnetic pop filter, remote control, and mil-spec transport case — makes it the most complete premium microphone package available. It delivers performance that rivals microphones costing three times as much.",
+        "content": "<strong>An innovative dual-circuit microphone that combines the best of tube and FET technology.</strong> The LCT 1040 features a gold-sputtered 1-inch condenser capsule powered by a premium E88CC/6DJ8 tube from JJ Electronics, seamlessly blending between four all-analog tube modes (Clear, Warm, Dark, Saturated) and a extended high-frequency clarity FET circuit. Five polar patterns are selectable via remote control, with ultra-low self-noise of just 10 dB(A). The included comprehensive system — shock mount, magnetic pop filter, remote control, and mil-spec transport case — makes it the most complete premium microphone package available. It delivers performance that rivals microphones costing three times as much.",
         "content_es": "<strong>Un micrófono de doble circuito innovador que combina lo mejor de la tecnología de tubo y FET.</strong> El LCT 1040 cuenta con una cápsula de condensador de 1 pulgada bañada en oro alimentada por un tubo premium E88CC/6DJ8 de JJ Electronics, fusionando perfectamente cuatro modos de tubo analógicos (Clear, Warm, Dark, Saturated) con un circuito FET cristalino. Cinco patrones polares seleccionables con control remoto, con un ruido propio ultrabajo de solo 10 dB(A). El completo sistema incluido — soporte elástico, filtro pop magnético, control remoto y estuche de transporte militar — lo convierte en el paquete de micrófono premium más completo disponible. Ofrece un rendimiento que rivaliza con micrófonos que cuestan el triple.",
         "products": [
           187
@@ -91772,7 +91772,7 @@
           "Revolutionary dual-circuit design — tube warmth and FET clarity in one microphone",
           "Four all-analog tube modes (Clear, Warm, Dark, Saturated) for endless tonal options",
           "Seamless blend between tube and FET circuits for unique hybrid tones",
-          "Five polar patterns with tube and solid-state voicings vía remote control",
+          "Five polar patterns with tube and solid-state voicings via remote control",
           "Complete premium package: shock mount, pop filter, remote, mil-spec case included"
         ],
         "pros_es": [
@@ -91989,7 +91989,7 @@
       {
         "heading": "Midas M32R LIVE",
         "heading_es": "Midas M32R LIVE",
-        "content": "<strong>Legendary live sound console with Midas PRO preamps.</strong> 40 input channels, 17 motorized 100mm faders, 16 Midas PRO microphone preamplifiers with well-regarded sound quality. 8 stereo FX engines with high-quality effects, 8 XLR outputs, 16 mix buses, and 32x32 USB recording. The M32R LIVE features the same industry-renowned processing as the full M32 in a compact frame. 8 DCA groups, 6 mute groups, and deep scene automation. Network vía AES50 for expandable I/O. The M32R LIVE is the choice of professional sound engineers worldwide who demand the Midas sound and workflow.",
+        "content": "<strong>Legendary live sound console with Midas PRO preamps.</strong> 40 input channels, 17 motorized 100mm faders, 16 Midas PRO microphone preamplifiers with well-regarded sound quality. 8 stereo FX engines with high-quality effects, 8 XLR outputs, 16 mix buses, and 32x32 USB recording. The M32R LIVE features the same industry-renowned processing as the full M32 in a compact frame. 8 DCA groups, 6 mute groups, and deep scene automation. Network via AES50 for expandable I/O. The M32R LIVE is the choice of professional sound engineers worldwide who demand the Midas sound and workflow.",
         "content_es": "<strong>Consola de sonido en vivo legendaria con previos Midas PRO.</strong> 40 canales de entrada, 17 faders motorizados de 100 mm, 16 previos de micrófono Midas PRO con calidad de sonido legendaria. 8 motores FX estéreo con efectos de alta calidad, 8 salidas XLR, 16 buses de mezcla y grabación USB 32x32. El M32R LIVE cuenta con el mismo procesamiento de renombre industrial que el M32 completo en un marco compacto. 8 grupos DCA, 6 grupos mute y automatización de escenas profunda. Red vía AES50 para I/O expandible. El M32R LIVE es la elección de ingenieros de sonido profesionales en todo el mundo que exigen el sonido y proceso de Midas.",
         "products": [
           148
@@ -92137,7 +92137,7 @@
         ],
         "cons": [
           "Only 18 inputs — limited for larger productions",
-          "No motorized faders — all control vía touchscreen",
+          "No motorized faders — all control via touchscreen",
           "No expandable I/O — no AES50 or stage boxes, so the 18 inputs are the hard ceiling",
           "Only 4 stereo FX engines, half the M32R's 8, so reverb-heavy sets run out of slots fast",
           "Limited routing and bus structure compared to M32R"
@@ -92158,7 +92158,7 @@
           "40 channels handle any live production",
           "17 motorized faders for extensive hands-on control",
           "Midas PRO preamps with 192 kHz converters and 1-million-cycle faders",
-          "Expandable vía AES50 for larger systems"
+          "Expandable via AES50 for larger systems"
         ],
         "pros_es": [
           "Legendarios previos Midas PRO con carácter cálido y musical",
@@ -94072,7 +94072,7 @@
       {
         "heading": "Drivers, Latency, and Longevity — Why RME Commands a Premium?",
         "heading_es": "Drivers, latencia y longevidad — ¿por qué RME tiene un precio premium?",
-        "content": "<p><strong>The price difference between these interfaces comes down to three things: driver maturity, low-latency performance, and long-term support.</strong> RME's driver team releases updates that keep the Babyface compatible with new operating systems for 10+ years — the FireFace 800 from 2004 still works on Windows 11. MOTU's drivers are excellent for the price but don't match RME's sub-3ms RTL at 48kHz buffer sizes. Both are solid on Windows vía ASIO; RME's implementation is the reference implementation. For tracking live musicians who need real-time monitoring through plugins, RME's TotalMix FX with near-zero latency DSP routing is a genuine professional advantage. For solo recording and mixing where you monitor through your DAW, the MOTU M2's latency is perfectly adequate.</p>",
+        "content": "<p><strong>The price difference between these interfaces comes down to three things: driver maturity, low-latency performance, and long-term support.</strong> RME's driver team releases updates that keep the Babyface compatible with new operating systems for 10+ years — the FireFace 800 from 2004 still works on Windows 11. MOTU's drivers are excellent for the price but don't match RME's sub-3ms RTL at 48kHz buffer sizes. Both are solid on Windows via ASIO; RME's implementation is the reference implementation. For tracking live musicians who need real-time monitoring through plugins, RME's TotalMix FX with near-zero latency DSP routing is a genuine professional advantage. For solo recording and mixing where you monitor through your DAW, the MOTU M2's latency is perfectly adequate.</p>",
         "content_es": "<p><strong>La diferencia entre estas interfaces se reduce a tres cosas: madurez de drivers, rendimiento de baja latencia y soporte a largo plazo.</strong> El equipo de drivers de RME lanza actualizaciones que mantienen la Babyface compatible con nuevos sistemas operativos durante más de 10 años — la Fireface 800 de 2004 todavía funciona en Windows 11. Los drivers de MOTU son excelentes para el precio pero no igualan el RTL de menos de 3 ms de RME a 48 kHz. Ambos funcionan de forma sólida en Windows con ASIO; la implementación de RME es sencillamente el referente de la industria. Para grabar músicos en vivo que necesitan monitoreo en tiempo real a través de plugins, el TotalMix FX de RME con enrutamiento DSP de latencia casi nula es una ventaja profesional genuina. Para grabación en solitario y mezcla donde monitoreas a través del DAW, la latencia de la MOTU M2 es perfectamente adecuada.</p>",
         "products": [],
         "verdict": "",
@@ -94144,7 +94144,7 @@
       "faq_q1_en": "I am a working engineer who never wants a driver to fail mid-session — is the RME worth 4x the MOTU for that peace of mind?",
       "faq_a1_en": "Buy the MOTU M2 for the best value — ESS Sabre32 Ultra conversion, real-time LCD metering and hardware loopback at a budget price. Buy the RME Babyface Pro FS if you need professional-grade driver stability, TotalMix FX routing and near-zero latency for years of studio work. The M2 is the smart budget buy; the Babyface is a lifetime pro investment.",
       "faq_q2_en": "What is the difference between the RME Babyface Pro FS and the MOTU M2?",
-      "faq_a2_en": "The MOTU M2 is a 2-in/2-out bus-powered interface with an ESS Sabre32 Ultra DAC, full-color LCD meters and hardware loopback for streaming. The RME Babyface Pro FS is a 4-in/4-out unit with up to 24 channels vía ADAT, the SteadyClock FS jitter suppression, TotalMix FX routing and a metal chassis with decades of driver support. The M2 wins on value and meters; the Babyface wins on routing, expansion and rock-solid drivers.",
+      "faq_a2_en": "The MOTU M2 is a 2-in/2-out bus-powered interface with an ESS Sabre32 Ultra DAC, full-color LCD meters and hardware loopback for streaming. The RME Babyface Pro FS is a 4-in/4-out unit with up to 24 channels via ADAT, the SteadyClock FS jitter suppression, TotalMix FX routing and a metal chassis with decades of driver support. The M2 wins on value and meters; the Babyface wins on routing, expansion and rock-solid drivers.",
       "specs": [
         {
           "label_es": "Preamplificadores",
@@ -94665,7 +94665,7 @@
           "label_en": "Direct Phone Pairing",
           "label_es": "Emparejamiento Directo con Móvil",
           "val1": "No (receiver required)",
-          "val2": "Yes, vía Bluetooth"
+          "val2": "Yes, via Bluetooth"
         }
       ],
       "title_es": "Rode Wireless PRO vs DJI Mic 3: mejor micrófono inalámbrico para Entrevistas y Vlogs",
@@ -94749,7 +94749,7 @@
           "label": "Direct Phone Pairing",
           "label_es": "Emparejamiento Directo con Móvil",
           "val1": "No (receiver required)",
-          "val2": "Yes, vía Bluetooth",
+          "val2": "Yes, via Bluetooth",
           "val1_es": "No (requiere receptor)",
           "val2_es": "Sí, por Bluetooth"
         },
@@ -95920,7 +95920,7 @@
         ],
         "cons": [
           "Only 48V/96kHz no 192kHz recording option",
-          "No expansion vía ADAT locked at 2 inputs forever",
+          "No expansion via ADAT locked at 2 inputs forever",
           "Hi-Z only on channel 2 not independent instrument channel 1",
           "SSL 360 software not as mature as competitors mixing software"
         ],
@@ -96279,7 +96279,7 @@
         "pros": [
           "Built-in analog compressor based on Universal Audio 1176 prints compression to tape pre-AD",
           "Vintage Preamp mode emulates UA610 transformer saturation",
-          "MIDI I/O vía breakout cable connects keyboard controller",
+          "MIDI I/O via breakout cable connects keyboard controller",
           "Direct monitoring with real-time compressor feedback",
           "All-metal USB-C bus-powered chassis more premium than plastic competitors"
         ],
@@ -98041,7 +98041,7 @@
         "name_es": "Rode NT1 5th Generation",
         "pros": [
           "Exceptionally low self-noise of just 4dBA - the world's quietest studio condenser - capturing subtle details SM7B misses entirely",
-          "Dual Connect output: works as a classic XLR condenser or plugs straight into a computer vía USB-C with a built-in Revolution preamp",
+          "Dual Connect output: works as a classic XLR condenser or plugs straight into a computer via USB-C with a built-in Revolution preamp",
           "World-first 32-bit float digital output makes clipping virtually impossible, even recording drums or loud vocals",
           "Includes the SM6 shock mount, pop filter, XLR and USB-C cables - a complete package worth separately",
           "Ultra-lightweight 308g on standard mic stand with no boom arm sagging issues",
@@ -98529,7 +98529,7 @@
         },
         {
           "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
+          "label_es": "Patrón polar",
           "values": [
             {
               "value": "Cardioid",
@@ -98759,7 +98759,7 @@
         },
         {
           "label": "Signal-to-Noise Ratio",
-          "label_es": "Relación Señal-Ruido",
+          "label_es": "Relación señal-ruido",
           "values": [
             {
               "value": "Not published",
@@ -98897,7 +98897,7 @@
         },
         {
           "label": "Capsule / Diaphragm",
-          "label_es": "Cápsula / Diafragma",
+          "label_es": "Cápsula / diafragma",
           "values": [
             {
               "value": "Unidyne III dynamic element (~0.6 in / 15 mm)",
@@ -98943,7 +98943,7 @@
         },
         {
           "label": "Pad & High-Pass Filter",
-          "label_es": "Pad y Filtro Paso Alto",
+          "label_es": "Pad y filtro paso alto",
           "values": [
             {
               "value": "None",
@@ -98989,7 +98989,7 @@
         },
         {
           "label": "Phantom Power",
-          "label_es": "Alimentación Phantom",
+          "label_es": "Alimentación phantom",
           "values": [
             {
               "value": "None required",
@@ -99549,7 +99549,7 @@
       "faq_q1_en": "What is the difference between a stage wedge and a regular PA speaker?",
       "faq_a1_en": "A stage wedge is designed to sit on the floor at an angle, projecting sound upward toward the performer. A regular PA speaker is designed to be mounted on a pole or hung, projecting sound outward toward the audience. Wedges have a specific angle (typically 30–45 degrees) and are optimized for near-field monitoring, not audience coverage.",
       "faq_q2_en": "How many stage wedges does a band need?",
-      "faq_a2_en": "One per musician is ideal — each performer gets their own mix. In practice, most bands use 2–4 wedges: one for the vocalist, one for the bandleader, and optionally one or two for other key members. The mixer sends a separate monitor mix to each wedge vía aux sends.",
+      "faq_a2_en": "One per musician is ideal — each performer gets their own mix. In practice, most bands use 2–4 wedges: one for the vocalist, one for the bandleader, and optionally one or two for other key members. The mixer sends a separate monitor mix to each wedge via aux sends.",
       "faq_q3_en": "Can a powered PA speaker work as a stage wedge?",
       "faq_a3_en": "You can, but it is not optimal. PA speakers project sound horizontally and are designed for audience coverage. A wedge is angled upward and has a different dispersion pattern optimized for a single performer. If you must use a PA speaker, place it on its side and angle it upward, but a dedicated wedge will sound better for monitoring.",
       "faq_q1_es": "¿Cuál es la diferencia entre una cuña de escenario y un altavoz PA regular?",
@@ -100425,7 +100425,7 @@
         },
         {
           "label": "Mic Capsule",
-          "label_es": "Cápsula de Micrófono",
+          "label_es": "Cápsula de micrófono",
           "values": [
             {
               "value": "Sennheiser MMD 835 (e 835) cardioid",
@@ -100503,7 +100503,7 @@
         },
         {
           "label": "Tuning / Channels",
-          "label_es": "Sintonización / Canales",
+          "label_es": "Sintonización / canales",
           "values": [
             {
               "value": "Up to 8 channels per band",
@@ -102295,7 +102295,7 @@
         },
         {
           "label": "Mic Gain",
-          "label_es": "Ganancia de Micrófono",
+          "label_es": "Ganancia de micrófono",
           "values": [
             {
               "value": "None (software control only)",
@@ -102345,7 +102345,7 @@
         },
         {
           "label": "Video Capture",
-          "label_es": "Captura de Vídeo",
+          "label_es": "Captura de vídeo",
           "values": [
             {
               "value": "No",
@@ -103542,7 +103542,7 @@
         },
         {
           "label": "Mic Inputs",
-          "label_es": "Entradas de Micrófono",
+          "label_es": "Entradas de micrófono",
           "values": [
             {
               "value": "2 Revolution preamps + wireless receiver",
@@ -103610,7 +103610,7 @@
         },
         {
           "label": "Key Extras",
-          "label_es": "Extras Destacados",
+          "label_es": "Extras destacados",
           "values": [
             {
               "value": "Touchscreen, 4 faders, 6 SMART pads, wireless receiver, APHEX",
@@ -103644,7 +103644,7 @@
         },
         {
           "label": "Video Capture",
-          "label_es": "Captura de Vídeo",
+          "label_es": "Captura de vídeo",
           "values": [
             {
               "value": "No",
@@ -105075,7 +105075,7 @@
         },
         {
           "label": "Crossover",
-          "label_es": "Frecuencia de Cruce",
+          "label_es": "Frecuencia de cruce",
           "values": [
             {
               "value": "60 – 90 Hz (4-position switch)",
@@ -105127,7 +105127,7 @@
         },
         {
           "label": "Bypass Footswitch",
-          "label_es": "Bypass con Pedal",
+          "label_es": "Bypass con pedal",
           "values": [
             {
               "value": "Yes (1/4\" input, sold separately)",
@@ -105153,7 +105153,7 @@
         },
         {
           "label": "Port Design",
-          "label_es": "Diseno del Puerto",
+          "label_es": "Diseño del puerto",
           "values": [
             {
               "value": "Front-ported",
@@ -106192,7 +106192,7 @@
         },
         {
           "label": "Driver Size",
-          "label_es": "Tamaño del Driver",
+          "label_es": "Tamaño del driver",
           "values": [
             {
               "value": "45mm",
@@ -107526,7 +107526,7 @@
         },
         {
           "label": "Bit Depth / Sample Rate",
-          "label_es": "Profundidad de bits / Tasa de muestreo",
+          "label_es": "Profundidad de bits / tasa de muestreo",
           "values": [
             {
               "value": "Not published",
@@ -107572,7 +107572,7 @@
         },
         {
           "label": "Polar Pattern",
-          "label_es": "Patrón Polar",
+          "label_es": "Patrón polar",
           "values": [
             {
               "value": "Cardioid",
@@ -107618,7 +107618,7 @@
         },
         {
           "label": "Frequency Response",
-          "label_es": "Respuesta en Frecuencia",
+          "label_es": "Respuesta en frecuencia",
           "values": [
             {
               "value": "50 Hz – 16 kHz",
@@ -107756,7 +107756,7 @@
         },
         {
           "label": "Max SPL",
-          "label_es": "SPL Máximo",
+          "label_es": "SPL máximo",
           "values": [
             {
               "value": "128 dB (USB output)",
@@ -107802,7 +107802,7 @@
         },
         {
           "label": "Output Impedance",
-          "label_es": "Impedancia de Salida",
+          "label_es": "Impedancia de salida",
           "values": [
             {
               "value": "350 Ω (XLR)",
@@ -107894,7 +107894,7 @@
         },
         {
           "label": "Capsule / Diaphragm",
-          "label_es": "Cápsula / Diafragma",
+          "label_es": "Cápsula / diafragma",
           "values": [
             {
               "value": "Dynamic moving-coil (size not disclosed)",
@@ -107940,7 +107940,7 @@
         },
         {
           "label": "Pad & High-Pass Filter",
-          "label_es": "Pad y Filtro Paso-Alto",
+          "label_es": "Pad y filtro paso-alto",
           "values": [
             {
               "value": "DSP HPF (75/150 Hz), limiter, compressor, Auto-Level",
@@ -107986,7 +107986,7 @@
         },
         {
           "label": "Phantom Power",
-          "label_es": "Alimentación Phantom",
+          "label_es": "Alimentación phantom",
           "values": [
             {
               "value": "USB bus power; phantom-protected XLR",
@@ -108986,7 +108986,7 @@
         },
         {
           "label": "Copy Protection",
-          "label_es": "Protección de Copia",
+          "label_es": "Protección de copia",
           "values": [
             {
               "value": "License file",
@@ -109070,7 +109070,7 @@
         },
         {
           "label": "Standout Feature",
-          "label_es": "Característica Destacada",
+          "label_es": "Característica destacada",
           "values": [
             {
               "value": "24 bands, spectrum analyzer, linear phase",
@@ -109883,7 +109883,7 @@
         },
         {
           "label": "Noise Cancelling",
-          "label_es": "Cancelación de Ruido",
+          "label_es": "Cancelación de ruido",
           "values": [
             {
               "value": "Active echo cancellation",
@@ -109919,7 +109919,7 @@
         },
         {
           "label": "Mute Control",
-          "label_es": "Control de Silencio",
+          "label_es": "Control de silencio",
           "values": [
             {
               "value": "Flip-down boom (down = talk, up = mute)",
@@ -110831,7 +110831,7 @@
       "faq_q1_en": "Running sound alone for a church band with many monitors — will the automatic mixing of the CQ-18T help on Sundays or is the XR18 the safer choice?",
       "faq_a1_en": "Buy the XR18 for proven Midas previo quality, tablet control and the largest installed base of any budget digital mixer. Buy the CQ-18T if you want the latest technology — a built-in 7-inch touchscreen, 96kHz processing, SD multitrack recording and smart assistants like Gain and Feedback Assistant that set levels for you. The XR18 is the proven value; the CQ-18T is the modern all-in-one.",
       "faq_q2_en": "What is the difference between the Behringer XR18 and the Allen & Heath CQ-18T?",
-      "faq_a2_en": "The XR18 is a rack mixer with 16 Midas previos, 48kHz processing, 18x18 USB recording and control from any tablet vía Wi-Fi. The CQ-18T is an ultra-compact mixer that fits in a backpack, with a built-in 7-inch touchscreen, 96kHz processing, SD multitrack recording and smart assistants that auto-set gain and kill feedback. The XR18 is proven and flexible with any tablet; the CQ-18T is self-contained, newer and easier for less-experienced sound techs.",
+      "faq_a2_en": "The XR18 is a rack mixer with 16 Midas previos, 48kHz processing, 18x18 USB recording and control from any tablet via Wi-Fi. The CQ-18T is an ultra-compact mixer that fits in a backpack, with a built-in 7-inch touchscreen, 96kHz processing, SD multitrack recording and smart assistants that auto-set gain and kill feedback. The XR18 is proven and flexible with any tablet; the CQ-18T is self-contained, newer and easier for less-experienced sound techs.",
       "faq_q1_es": "Hacer sonido en solitario para una banda de iglesia con muchos monitores — ¿ayuda la mezcla automática del CQ-18T los domingos o es más seguro el XR18?",
       "faq_a1_es": "Compra el XR18 por la calidad probada de los previos Midas, control por tablet y la mayor base instalada de cualquier mezclador digital económico. Compra el CQ-18T si quieres la tecnología más reciente — pantalla táctil de 7 pulgadas integrada, procesamiento de 96kHz, grabación multitrack a tarjeta SD y asistentes inteligentes como Gain Assistant y Feedback Assistant que ajustan los niveles por ti. El XR18 es la relación calidad-precio probada; el CQ-18T es el todo-en-uno moderno.",
       "faq_q2_es": "¿Cuál es la diferencia entre el Behringer XR18 y el Allen & Heath CQ-18T?",
@@ -111214,7 +111214,7 @@
           "label_es": "Wi-Fi",
           "label_en": "Wi-Fi",
           "val1": "Built-in",
-          "val2": "vía router"
+          "val2": "via router"
         },
         {
           "label_es": "Peso",
@@ -111226,7 +111226,7 @@
       "faq_q1_en": "A five-piece band plays small venues mixing from the stage — is the iPad-only XR18 enough, or is the fader surface of the M32R worth 4x?",
       "faq_a1_en": "Buy the XR18 for a budget digital mixer with Midas previos and tablet control — the proven choice for bands mixing from the stage or the house. Buy the M32R LIVE if you want a full touring console with motorized faders, PRO series previos and 40 channels of processing for professional engineers. The XR18 is the value digital mixer; the M32R is the pro touring desk.",
       "faq_q2_en": "What is the difference between the Behringer XR18 and the Midas M32R LIVE?",
-      "faq_a2_en": "The XR18 is a rack-mounted 18-in/18-out digital mixer with 16 Midas-designed previos, controlled from an iPad or tablet vía the X-Air app — compact, affordable and proven. The M32R LIVE is a full console with 17 motorized faders, PRO series previos, 40 channels of processing, a color screen and the same platform as the Midas M32 touring desks. The XR18 is portable and cheap; the M32R gives you hands-on faders and pro-grade build.",
+      "faq_a2_en": "The XR18 is a rack-mounted 18-in/18-out digital mixer with 16 Midas-designed previos, controlled from an iPad or tablet via the X-Air app — compact, affordable and proven. The M32R LIVE is a full console with 17 motorized faders, PRO series previos, 40 channels of processing, a color screen and the same platform as the Midas M32 touring desks. The XR18 is portable and cheap; the M32R gives you hands-on faders and pro-grade build.",
       "faq_q1_es": "Una banda de cinco integrantes toca en locales pequeños mezclando desde el escenario — ¿basta el XR18 solo con iPad, o compensa 4x la superficie de faders del M32R?",
       "faq_a1_es": "Compra el XR18 para un mezclador digital económico con previos Midas y control por tablet — la opción probada para bandas que mezclan desde el escenario o desde la sala. Compra el M32R LIVE si quieres una consola de gira completa con faders motorizados, previos serie PRO y 40 canales de procesamiento para ingenieros profesionales. El XR18 es el mezclador digital con mejor relación calidad-precio; el M32R es la mesa profesional de gira.",
       "faq_q2_es": "¿Cuál es la diferencia entre el Behringer XR18 y el Midas M32R LIVE?",
@@ -111236,7 +111236,7 @@
       "faq_q3_es": "¿Puedo mezclar la XR18 desde un teléfono o sólo desde una tablet?",
       "faq_a3_es": "La XR18 se controla desde una app que funciona en teléfonos y tablets (iOS y Android). Usa Wi-Fi, y la XR18 también funciona como punto de acceso propio, así que puedes conectarte directamente a ella sin necesidad de router. La tablet es mucho más fácil para mezclar 16 canales, pero un teléfono sirve para salir del paso para cambios básicos de nivel en plena presentación.",
       "faq_q4_en": "How many inputs does the M32R have compared to the XR18?",
-      "faq_a4_en": "The M32R has 40 input channels total (16 local previos plus more vía AES50 stage boxes), while the XR18 has 18 channels (16 mic/line inputs). For a standard band — vocals, guitars, drums, keys — the XR18 is enough. The M32R is aimed at professionals who need 32+ channels, motorized faders, and Midas-quality previos for larger productions.",
+      "faq_a4_en": "The M32R has 40 input channels total (16 local previos plus more via AES50 stage boxes), while the XR18 has 18 channels (16 mic/line inputs). For a standard band — vocals, guitars, drums, keys — the XR18 is enough. The M32R is aimed at professionals who need 32+ channels, motorized faders, and Midas-quality previos for larger productions.",
       "faq_q4_es": "¿Cuántas entradas tiene la M32R comparada con la XR18?",
       "faq_a4_es": "La M32R tiene 40 canales de entrada en total (16 previos locales más el resto vía stage boxes AES50), mientras que la XR18 tiene 18 canales (16 entradas mic/line). Para una banda estándar — voces, guitarras, batería, teclados — la XR18 es suficiente. La M32R está pensada para profesionales que necesitan más de 32 canales, faders motorizados y previos de calidad Midas para producciones más grandes.",
       "faq_q5_en": "Does the XR18 sound good enough for professional use?",
@@ -111323,7 +111323,7 @@
           "label": "Wi-Fi",
           "label_es": "Wi-Fi",
           "val1": "Built-in",
-          "val2": "vía router",
+          "val2": "via router",
           "val1_es": "Built-in",
           "val2_es": "Vía router"
         },
@@ -112187,7 +112187,7 @@
         ],
         "cons": [
           "ABS plastic enclosure less durable than ZLX-12P-G2 polypropylene for repeated touring",
-          "No built-in Wi-Fi control only QSC TouchMix app vía Ethernet connection",
+          "No built-in Wi-Fi control only QSC TouchMix app via Ethernet connection",
           "Tweeter lacks the extended top-end detail of ZLX-12P-G2 compression driver design",
           "Higher price point than ZLX-12P-G2 for similar power and output class"
         ],

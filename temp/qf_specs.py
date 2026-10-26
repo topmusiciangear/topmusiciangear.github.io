@@ -110,6 +110,16 @@ ROW_KINDS = {
     'faders': ['faders / control', 'faders', 'controles'],
     'samplerate': ['sample rate', 'frecuencia de muestreo'],
     'bassext': ['bass extension', 'extension de graves'],
+    # pedals
+    'bypass': ['bypass'],
+    'current': ['current draw', 'consumo'],
+    'controls': ['controls', 'controles'],
+    'models': ['models', 'modelos'],
+    'blocks': ['simultaneous blocks'],
+    'expression': ['expression pedal'],
+    'usb': ['usb audio interface'],
+    'looper': ['looper'],
+    'size': ['size', 'tamaño'],
 }
 
 

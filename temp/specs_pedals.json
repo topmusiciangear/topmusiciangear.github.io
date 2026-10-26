@@ -1,0 +1,1125 @@
+{
+ "202": {
+  "models": [
+   "300+ Helix amps, cabs, effects"
+  ],
+  "blocks": [
+   "8"
+  ],
+  "expression": [
+   "External support"
+  ],
+  "usb": [
+   "Yes"
+  ],
+  "looper": [
+   "60 seconds"
+  ],
+  "battery": [
+   "No"
+  ],
+  "ptype": [
+   "Multi-effects / modeler"
+  ],
+  "controls": [
+   "LCD + knobs, 3 touch footswitches"
+  ],
+  "bypass": [
+   "Analog / DSP (trails)"
+  ],
+  "power": [
+   "DC 9V (1A)"
+  ],
+  "current": [
+   "1000 mA"
+  ],
+  "size": [
+   "Compact (196 x 142 x 70 mm)"
+  ],
+  "standout": [
+   "Helix amp models, 300+ FX"
+  ]
+ },
+ "203": {
+  "models": [
+   "108 effects, 198 patches, COSM amps"
+  ],
+  "blocks": [
+   "Full chain (amp + effects)"
+  ],
+  "expression": [
+   "Built-in"
+  ],
+  "usb": [
+   "Yes"
+  ],
+  "looper": [
+   "32 seconds"
+  ],
+  "battery": [
+   "7 hours on 4x AA"
+  ],
+  "ptype": [
+   "Multi-effects"
+  ],
+  "controls": [
+   "Switches + knobs + expression"
+  ],
+  "bypass": [
+   "True bypass"
+  ],
+  "power": [
+   "4x AA / USB / AC"
+  ],
+  "current": [
+   "250 mA"
+  ],
+  "size": [
+   "307 x 149 x 56 mm"
+  ],
+  "standout": [
+   "100+ effects, phrase loop"
+  ]
+ },
+ "205": {
+  "models": [
+   "52 amps, 15 cabs, 300 IRs, 74+ effects"
+  ],
+  "blocks": [
+   "Full chain with rigs"
+  ],
+  "expression": [
+   "Built-in"
+  ],
+  "usb": [
+   "Yes"
+  ],
+  "looper": [
+   "Yes"
+  ],
+  "battery": [
+   "No"
+  ],
+  "ptype": [
+   "Multi-effects / modeler"
+  ],
+  "controls": [
+   "Touchscreen, 4 FS + expression"
+  ],
+  "bypass": [
+   "True bypass"
+  ],
+  "power": [
+   "DC 12V (3A)"
+  ],
+  "current": [
+   "3000 mA"
+  ],
+  "size": [
+   "295 x 150 x 70 mm"
+  ],
+  "standout": [
+   "300+ FX, 7-core DSP"
+  ]
+ },
+ "259": {
+  "models": [
+   "200+ HX amps, cabs and effects"
+  ],
+  "blocks": [
+   "Full chain with snapshots"
+  ],
+  "expression": [
+   "Built-in"
+  ],
+  "usb": [
+   "Yes"
+  ],
+  "looper": [
+   "Yes (40 s mono / 20 s stereo)"
+  ],
+  "battery": [
+   "No"
+  ]
+ },
+ "258": {
+  "models": [
+   "420+ Premium Tone Models, 60,000+ on ToneNET"
+  ],
+  "blocks": [
+   "1 amp-in-a-box (2 modes, 20 vía MIDI)"
+  ],
+  "expression": [
+   "None"
+  ],
+  "usb": [
+   "Yes (USB-C)"
+  ],
+  "looper": [
+   "No"
+  ],
+  "battery": [
+   "1x 9V battery"
+  ]
+ },
+ "200": {
+  "ptype": [
+   "Loop station",
+   "Looper / Loop Station"
+  ],
+  "controls": [
+   "Loop time, rhythm, drum sounds",
+   "Single pedal + volume/menu dial, colour LCD"
+  ],
+  "bypass": [
+   "True bypass",
+   "—"
+  ],
+  "power": [
+   "9V DC",
+   "9V DC (battery or PSA adaptor)"
+  ],
+  "current": [
+   "100 mA",
+   "170 mA"
+  ],
+  "size": [
+   "Compact (73 x 129 x 59 mm)",
+   "73 x 129 x 56 mm"
+  ],
+  "standout": [
+   "13 hours loop, 57 drum patterns",
+   "13 h stereo, 99 memories, 57 rhythms, MIDI I/O"
+  ],
+  "dsp": [
+   "32-bit floating point, 44.1 kHz"
+  ]
+ },
+ "201": {
+  "ptype": [
+   "Looper"
+  ],
+  "controls": [
+   "Single switch"
+  ],
+  "bypass": [
+   "True bypass"
+  ],
+  "power": [
+   "9V battery/DC"
+  ],
+  "current": [
+   "8 mA"
+  ],
+  "size": [
+   "Mini (51 x 93 x 51 mm)"
+  ],
+  "standout": [
+   "5 minutes loop time"
+  ]
+ },
+ "586": {
+  "ptype": [
+   "Multi-track Looper"
+  ],
+  "controls": [
+   "3 footswitches + knobs + display"
+  ],
+  "bypass": [
+   "Buffered"
+  ],
+  "power": [
+   "4x AA (adapter optional)"
+  ],
+  "current": [
+   "240 mA"
+  ],
+  "size": [
+   "170 x 138 x 60 mm"
+  ],
+  "standout": [
+   "2 tracks, 13 hrs, MIDI, FX"
+  ]
+ },
+ "587": {
+  "ptype": [
+   "Stereo Looper"
+  ],
+  "controls": [
+   "4 footswitches + knobs"
+  ],
+  "bypass": [
+   "True Bypass"
+  ],
+  "power": [
+   "9V DC"
+  ],
+  "current": [
+   "100 mA"
+  ],
+  "size": [
+   "235 x 145 x 57 mm"
+  ],
+  "standout": [
+   "2 tracks, 5 mins, MIDI, stereo"
+  ]
+ },
+ "588": {
+  "ptype": [
+   "Stereo Looper"
+  ],
+  "controls": [
+   "2 footswitches + knobs + display"
+  ],
+  "bypass": [
+   "True Bypass"
+  ],
+  "power": [
+   "9V DC (adapter included)"
+  ],
+  "current": [
+   "75 mA"
+  ],
+  "size": [
+   "102 x 121 x 57 mm"
+  ],
+  "standout": [
+   "12 mins stereo, undo/redo, half-speed"
+  ]
+ },
+ "600": {
+  "ptype": [
+   "Stereo Looper"
+  ],
+  "controls": [
+   "Footswitches + knobs"
+  ],
+  "bypass": [
+   "Buffered"
+  ],
+  "power": [
+   "9V DC (adapter included)"
+  ],
+  "current": [
+   "150 mA"
+  ],
+  "size": [
+   "121 x 105 x 57 mm"
+  ],
+  "standout": [
+   "24 mins, 20 loops, MIDI sync"
+  ]
+ },
+ "590": {
+  "ptype": [
+   "Multi-track Looper"
+  ],
+  "controls": [
+   "Touchscreen + 1 footswitch"
+  ],
+  "bypass": [
+   "Buffered"
+  ],
+  "power": [
+   "9V DC (adapter included)"
+  ],
+  "current": [
+   "500 mA"
+  ],
+  "size": [
+   "210 x 150 x 45 mm"
+  ],
+  "standout": [
+   "4 tracks, 3 hrs, touchscreen, FX"
+  ]
+ },
+ "601": {
+  "ptype": [
+   "Mono Looper"
+  ],
+  "controls": [
+   "1 footswitch + 1 knob"
+  ],
+  "bypass": [
+   "True Bypass"
+  ],
+  "power": [
+   "9V DC"
+  ],
+  "current": [
+   "50 mA"
+  ],
+  "size": [
+   "73 x 111 x 50 mm"
+  ],
+  "standout": [
+   "6 mins, undo/redo, tiny footprint"
+  ]
+ },
+ "204": {
+  "ptype": [
+   "Multi-effects"
+  ],
+  "controls": [
+   "8 footswitches + expression, knobs"
+  ],
+  "bypass": [
+   "Buffered"
+  ],
+  "power": [
+   "4x AA / adapter"
+  ],
+  "current": [
+   "190 mA"
+  ],
+  "size": [
+   "443 x 220 x 67 mm"
+  ],
+  "standout": [
+   "97 effects, hands-on control"
+  ]
+ },
+ "577": {
+  "ptype": [
+   "Multi-FX / Amp Modeler"
+  ],
+  "controls": [
+   "5 footswitches + expression + touchscreen"
+  ],
+  "bypass": [
+   "Buffered / True Bypass selectable"
+  ],
+  "power": [
+   "9V DC (adapter included)"
+  ],
+  "current": [
+   "500 mA"
+  ],
+  "size": [
+   "495 x 253 x 64 mm"
+  ],
+  "standout": [
+   "200+ amps/FX, 5\" touchscreen, looper"
+  ]
+ },
+ "578": {
+  "ptype": [
+   "Multi-FX / Amp Modeler"
+  ],
+  "controls": [
+   "7 footswitches + 2 expression + knobs"
+  ],
+  "bypass": [
+   "Buffered / True Bypass selectable"
+  ],
+  "power": [
+   "9V DC (adapter included)"
+  ],
+  "current": [
+   "1000 mA"
+  ],
+  "size": [
+   "337 x 176 x 63 mm"
+  ],
+  "standout": [
+   "AIRD modeling, 32-bit/96kHz, 2 expr"
+  ]
+ },
+ "579": {
+  "ptype": [
+   "Amp Modeler / Capture System"
+  ],
+  "controls": [
+   "11 footswitches + rotary + 7\" touchscreen"
+  ],
+  "bypass": [
+   "Buffered / True Bypass selectable"
+  ],
+  "power": [
+   "12V DC (adapter included)"
+  ],
+  "current": [
+   "3000 mA"
+  ],
+  "size": [
+   "290 x 190 x 49 mm"
+  ],
+  "standout": [
+   "Neural Capture, plugin ecosystem, WiFi"
+  ]
+ },
+ "580": {
+  "ptype": [
+   "Multi-FX / Amp Modeler"
+  ],
+  "controls": [
+   "5 footswitches + expression + touchscreen"
+  ],
+  "bypass": [
+   "Buffered / True Bypass selectable"
+  ],
+  "power": [
+   "9V DC (adapter included)"
+  ],
+  "current": [
+   "600 mA"
+  ],
+  "size": [
+   "295 x 165 x 55 mm"
+  ],
+  "standout": [
+   "108 amps + 164 FX, 5\" display, IR loader"
+  ]
+ },
+ "96": {
+  "ptype": [
+   "Overdrive"
+  ],
+  "controls": [
+   "Drive, Tone, Level"
+  ],
+  "bypass": [
+   "Buffered (FET electronic switching)",
+   "Buffered"
+  ],
+  "power": [
+   "9V battery/DC"
+  ],
+  "current": [
+   "8 mA"
+  ],
+  "size": [
+   "Compact (74 x 129 x 60 mm)"
+  ],
+  "standout": [
+   "Icons of the TS808 circuit"
+  ]
+ },
+ "133": {
+  "ptype": [
+   "Overdrive"
+  ],
+  "controls": [
+   "Level, Tone, Drive"
+  ],
+  "bypass": [
+   "Buffered bypass"
+  ],
+  "power": [
+   "20 mA"
+  ],
+  "current": [
+   "8 mA"
+  ],
+  "size": [
+   "Compact (73 x 129 x 59 mm)"
+  ],
+  "standout": [
+   "Cleans up with guitar volume for dynamic rhythm-to-lead control"
+  ]
+ },
+ "134": {
+  "ptype": [
+   "Distortion"
+  ],
+  "controls": [
+   "Distortion, Filter, Volume"
+  ],
+  "bypass": [
+   "True bypass"
+  ],
+  "power": [
+   "9V battery/DC"
+  ],
+  "current": [
+   "2 mA"
+  ],
+  "size": [
+   "Compact (69 x 114 x 57 mm)"
+  ],
+  "standout": [
+   "LM308 chip, legendary RAT tone"
+  ]
+ },
+ "581": {
+  "ptype": [
+   "Overdrive"
+  ],
+  "controls": [
+   "Volume, Drive, Tone"
+  ],
+  "bypass": [
+   "True / Enhanced switchable"
+  ],
+  "power": [
+   "9V DC / Battery"
+  ],
+  "current": [
+   "8 mA"
+  ],
+  "size": [
+   "112 x 60 x 50 mm"
+  ],
+  "standout": [
+   "Mosfet clipping, amp-like feel"
+  ]
+ },
+ "582": {
+  "ptype": [
+   "Overdrive"
+  ],
+  "controls": [
+   "Volume, Gain, Treble, Mid, Bass, Buffer"
+  ],
+  "bypass": [
+   "Buffered / True Bypass switchable"
+  ],
+  "power": [
+   "9V DC"
+  ],
+  "current": [
+   "70 mA"
+  ],
+  "size": [
+   "114 x 64 x 38 mm"
+  ],
+  "standout": [
+   "3-band EQ + buffer switch"
+  ]
+ },
+ "583": {
+  "ptype": [
+   "Overdrive"
+  ],
+  "controls": [
+   "Volume, Drive, Tone"
+  ],
+  "bypass": [
+   "True Bypass"
+  ],
+  "power": [
+   "9V DC"
+  ],
+  "current": [
+   "43 mA"
+  ],
+  "size": [
+   "122 x 66 x 41 mm"
+  ],
+  "standout": [
+   "JFET input, transparent boost"
+  ]
+ },
+ "584": {
+  "ptype": [
+   "Distortion"
+  ],
+  "controls": [
+   "Output, Distortion"
+  ],
+  "bypass": [
+   "True Bypass"
+  ],
+  "power": [
+   "9V DC / Battery"
+  ],
+  "current": [
+   "2.5 mA"
+  ],
+  "size": [
+   "108 x 57 x 32 mm"
+  ],
+  "standout": [
+   "Germanium-style clipping, simple"
+  ]
+ },
+ "585": {
+  "ptype": [
+   "Overdrive"
+  ],
+  "controls": [
+   "Level, Tone, Drive, Mode switch"
+  ],
+  "bypass": [
+   "Buffered"
+  ],
+  "power": [
+   "9V DC / Battery"
+  ],
+  "current": [
+   "18 mA"
+  ],
+  "size": [
+   "73 x 129 x 59 mm"
+  ],
+  "standout": [
+   "Standard/Custom modes, premium parts"
+  ]
+ },
+ "136": {
+  "ptype": [
+   "Phaser"
+  ],
+  "controls": [
+   "Speed, 45/90/Phase 95 switch"
+  ],
+  "bypass": [
+   "True Bypass",
+   "True bypass"
+  ],
+  "power": [
+   "9V battery/DC"
+  ],
+  "current": [
+   "4 mA"
+  ],
+  "size": [
+   "Mini (50 x 94 x 57 mm)"
+  ],
+  "standout": [
+   "Script/Block 45 & 90 modes"
+  ]
+ },
+ "97": {
+  "ptype": [
+   "digital delay"
+  ],
+  "controls": [
+   "Mode, Time, Feedback, E.Level"
+  ],
+  "bypass": [
+   "Buffered bypass",
+   "Buffered"
+  ],
+  "power": [
+   "100 mA"
+  ],
+  "current": [
+   "65 mA"
+  ],
+  "dsp": [
+   "—"
+  ],
+  "size": [
+   "Compact (73 x 129 x 59 mm)"
+  ],
+  "standout": [
+   "11 delay modes + 40s looper"
+  ]
+ },
+ "100": {
+  "ptype": [
+   "digital reverb"
+  ],
+  "controls": [
+   "Decay, Tone, Level, FX"
+  ],
+  "bypass": [
+   "True bypass"
+  ],
+  "power": [
+   "9V DC"
+  ],
+  "current": [
+   "150 mA"
+  ],
+  "dsp": [
+   "—"
+  ],
+  "size": [
+   "Compact (72 x 131 x 54 mm)"
+  ],
+  "standout": [
+   "Toneprint, 11 reverb types"
+  ]
+ },
+ "135": {
+  "ptype": [
+   "Multi-algorithm reverb",
+   "digital reverb"
+  ],
+  "controls": [
+   "Encoders, mini-display",
+   "9 knobs + OLED + 3 footswitches"
+  ],
+  "bypass": [
+   "True bypass",
+   "True / Buffered selectable"
+  ],
+  "power": [
+   "9V DC (center negative)",
+   "9V DC (adapter required)"
+  ],
+  "current": [
+   "500 mA"
+  ],
+  "dsp": [
+   "ARM tri-core 800 MHz, 32-bit float"
+  ],
+  "size": [
+   "Wide (172 x 127 x 48 mm)",
+   "Large (172 x 127 x 48 mm)"
+  ],
+  "standout": [
+   "300 presets, 12 algorithms",
+   "12 reverbs, dual engine, 300 presets"
+  ]
+ },
+ "591": {
+  "ptype": [
+   "Delay"
+  ],
+  "controls": [
+   "Knobs + 3 footswitches + display"
+  ],
+  "bypass": [
+   "Buffered / True Bypass selectable"
+  ],
+  "power": [
+   "9V DC (300 mA)"
+  ],
+  "current": [
+   "300 mA"
+  ],
+  "dsp": [
+   "SHARC DSP"
+  ],
+  "size": [
+   "171 x 127 x 47 mm"
+  ],
+  "standout": [
+   "12 delay machines, 200 presets, MIDI"
+  ]
+ },
+ "592": {
+  "ptype": [
+   "Modular delay workstation"
+  ],
+  "controls": [
+   "Knobs + 3 footswitches + display"
+  ],
+  "bypass": [
+   "Buffered / True Bypass selectable"
+  ],
+  "power": [
+   "9V DC (300 mA)"
+  ],
+  "current": [
+   "300 mA"
+  ],
+  "dsp": [
+   "ARM, 32-bit float"
+  ],
+  "size": [
+   "184 x 114 x 51 mm"
+  ],
+  "standout": [
+   "Structures: combine reverb+delay"
+  ]
+ },
+ "593": {
+  "ptype": [
+   "Delay / Looper (discontinued)"
+  ],
+  "controls": [
+   "6 knobs + 2 footswitches"
+  ],
+  "bypass": [
+   "Buffered"
+  ],
+  "power": [
+   "9V DC (150 mA)"
+  ],
+  "current": [
+   "150 mA"
+  ],
+  "dsp": [
+   "—"
+  ],
+  "size": [
+   "73 x 124 x 58 mm"
+  ],
+  "standout": [
+   "Habit: records everything, scan/loop"
+  ]
+ },
+ "594": {
+  "ptype": [
+   "Delay"
+  ],
+  "controls": [
+   "10 knobs + 3 footswitches + display"
+  ],
+  "bypass": [
+   "Buffered"
+  ],
+  "power": [
+   "9V DC (400 mA)"
+  ],
+  "current": [
+   "400 mA"
+  ],
+  "dsp": [
+   "—"
+  ],
+  "size": [
+   "190 x 122 x 54 mm"
+  ],
+  "standout": [
+   "10 delay types, looper, MIDI"
+  ]
+ },
+ "595": {
+  "ptype": [
+   "Delay"
+  ],
+  "controls": [
+   "4 knobs + 2 footswitches"
+  ],
+  "bypass": [
+   "Buffered / True Bypass selectable"
+  ],
+  "power": [
+   "9V DC (200 mA)"
+  ],
+  "current": [
+   "200 mA"
+  ],
+  "dsp": [
+   "—"
+  ],
+  "size": [
+   "114 x 114 x 51 mm"
+  ],
+  "standout": [
+   "26 delay engines, full MIDI, 128 presets, Neuro app"
+  ]
+ },
+ "596": {
+  "ptype": [
+   "Delay + reverb combo"
+  ],
+  "controls": [
+   "Blend x2, Decay, Rate, Time, Repeats, Warmth"
+  ],
+  "bypass": [
+   "True bypass / Trails"
+  ],
+  "power": [
+   "9V DC"
+  ],
+  "current": [
+   "75 mA"
+  ],
+  "dsp": [
+   "UAFX dual-engine"
+  ],
+  "size": [
+   "94 x 119 x 50 mm"
+  ],
+  "standout": [
+   "Magnetic tape delay + Spring/Mod/Shimmer"
+  ]
+ },
+ "597": {
+  "ptype": [
+   "Analog delay (BBD)"
+  ],
+  "controls": [
+   "Mix, Regen, Delay, Mod switch"
+  ],
+  "bypass": [
+   "True bypass"
+  ],
+  "power": [
+   "9V DC (optional battery)"
+  ],
+  "current": [
+   "26 mA"
+  ],
+  "dsp": [
+   "Analog path (no DSP)"
+  ],
+  "size": [
+   "70 x 121 x 33 mm"
+  ],
+  "standout": [
+   "100% analog BBD, 600 ms + modulation"
+  ]
+ },
+ "598": {
+  "ptype": [
+   "Reverb (Spring/Plate/Hall)"
+  ],
+  "controls": [
+   "Knobs, tap tempo, UAFX app"
+  ],
+  "bypass": [
+   "Buffered (trails)"
+  ],
+  "power": [
+   "9V DC (400 mA)"
+  ],
+  "current": [
+   "400 mA"
+  ],
+  "dsp": [
+   "UAFX dual-engine"
+  ],
+  "size": [
+   "92 x 141 x 65 mm"
+  ],
+  "standout": [
+   "Spring 65, Plate 140, Hall 224"
+  ]
+ },
+ "599": {
+  "ptype": [
+   "Reverb (Spring/Plate/Hall)"
+  ],
+  "controls": [
+   "Knobs + A/B/C switch"
+  ],
+  "bypass": [
+   "Buffered"
+  ],
+  "power": [
+   "9V DC (400 mA)"
+  ],
+  "current": [
+   "400 mA"
+  ],
+  "dsp": [
+   "—"
+  ],
+  "size": [
+   "92 x 141 x 65 mm"
+  ],
+  "standout": [
+   "Spring/plate/hall + A/B/C memories"
+  ]
+ },
+ "98": {
+  "ptype": [
+   "Chromatic tuner"
+  ],
+  "controls": [
+   "Strobe/standard switch"
+  ],
+  "bypass": [
+   "Buffered"
+  ],
+  "power": [
+   "9V battery/DC"
+  ],
+  "current": [
+   "40 mA"
+  ],
+  "size": [
+   "Compact (73 x 129 x 59 mm)"
+  ],
+  "standout": [
+   "Bright LED display, power out"
+  ]
+ },
+ "99": {
+  "ptype": [
+   "Wah"
+  ],
+  "controls": [
+   "Foot pedal, switch"
+  ],
+  "bypass": [
+   "Hardwire"
+  ],
+  "power": [
+   "9V battery"
+  ],
+  "current": [
+   "1 mA"
+  ],
+  "size": [
+   "Large (112 x 271 x 91 mm)"
+  ],
+  "standout": [
+   "Industry-standard wah, rugged build"
+  ]
+ },
+ "443": {
+  "ptype": [
+   "Phaser"
+  ],
+  "controls": [
+   "Rate, Depth, Feedback"
+  ],
+  "bypass": [
+   "True bypass"
+  ],
+  "power": [
+   "9V battery/DC"
+  ],
+  "current": [
+   "5 mA"
+  ],
+  "size": [
+   "Compact (70 x 120 x 60 mm)"
+  ],
+  "standout": [
+   "Analog 4-stage phaser"
+  ]
+ },
+ "382": {
+  "ptype": [
+   "Music theory workstation (MIDI)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Automatic key detection with one-finger chords"
+  ]
+ },
+ "1032": {
+  "editing": [
+   "Basic monophonic (one track per window)"
+  ],
+  "timing": [
+   "Manual note-by-note timing"
+  ],
+  "formant": [
+   "Not included (Assistant and higher only)"
+  ],
+  "midiout": [
+   "Not included (Assistant and higher only)"
+  ],
+  "multitrack": [
+   "No: one track per window (Studio only)"
+  ],
+  "ecosystem": [
+   "Standalone (needs ARA or manual transfer)"
+  ]
+ },
+ "1040": {
+  "editing": [
+   "Monophonic (smart multi-track view)"
+  ],
+  "timing": [
+   "Automatic SmartAttack + macros"
+  ],
+  "formant": [
+   "Included: reshape vocal timbre and character"
+  ],
+  "midiout": [
+   "Not included (audio processing only)"
+  ],
+  "multitrack": [
+   "Yes: several takes side by side"
+  ],
+  "ecosystem": [
+   "Direct SynchroLink to VocAlign & Revoice"
+  ]
+ }
+}
