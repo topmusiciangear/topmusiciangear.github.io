@@ -110,13 +110,13 @@
     vertical-align: top !important;
   }
 
-  /* Quick facts card takes right column (compact so it never exceeds photo height) */
+  /* Quick facts card takes right column, stretched to match photo height */
   .guide-section-quickfacts {
     grid-column: 2 !important;
     width: 100% !important;
-    height: auto !important;
+    height: 100% !important;
     max-height: 35vh !important;
-    align-self: start !important;
+    align-self: stretch !important;
     padding: 4px 6px !important;
     gap: 2px !important;
   }
@@ -139,8 +139,7 @@
   .guide-section-mediabuy .guide-section-img,
   .guide-section-mediabuy .guide-video-thumb {
     width: 100% !important;
-    height: auto !important;
-    aspect-ratio: auto !important;
+    height: 100% !important;
     max-height: 35vh !important;
     object-fit: contain !important;
   }
