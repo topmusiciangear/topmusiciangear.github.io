@@ -163,4 +163,11 @@
     width: 200px !important;
     height: 200px !important;
   }
+  /* Desktop: stretch store buttons card to fill space next to quickfacts */
+  .guide-section-mediabuy > .guide-section-buy {
+    flex: 1 1 auto !important;
+    width: auto !important;
+    max-width: 460px !important;
+    min-width: 260px !important;
+  }
 }
