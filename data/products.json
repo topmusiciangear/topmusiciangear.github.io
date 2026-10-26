@@ -5290,7 +5290,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Live vocals",
+      "es": "Voz en directo"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "150+ dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 227,
@@ -5315,7 +5348,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Live vocals",
+      "es": "Voz en directo"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "150+ dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 228,
@@ -5340,7 +5406,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Live vocals",
+      "es": "Voz en directo"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "150+ dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 229,
@@ -5365,7 +5464,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Live vocals & snare",
+      "es": "Voz en directo y caja"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "146 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 230,
@@ -5390,7 +5522,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Live vocals",
+      "es": "Voz en directo"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "147 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 231,
@@ -5416,7 +5581,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Live vocals",
+      "es": "Voz en directo"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Hypercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "144 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 232,
@@ -5441,7 +5639,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Live vocals",
+      "es": "Voz en directo"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "143 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 233,
@@ -5808,7 +6039,40 @@
       "reverb",
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Content creators",
+      "es": "Creadores de contenido"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Wireless",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Omni",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "2.4 GHz",
+        "label": {
+          "en": "Band",
+          "es": "Banda"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 250,
@@ -5833,7 +6097,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Content creators",
+      "es": "Creadores de contenido"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Wireless",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Omni",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "2.4 GHz",
+        "label": {
+          "en": "Band",
+          "es": "Banda"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 251,
@@ -5859,7 +6156,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Content creators",
+      "es": "Creadores de contenido"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Wireless",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Omni",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "2.4 GHz",
+        "label": {
+          "en": "Band",
+          "es": "Banda"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 252,
@@ -5884,7 +6214,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 253,
@@ -5909,7 +6272,40 @@
       "reverb",
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Streaming & gaming",
+      "es": "Streaming y gaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "4 patterns",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 254,
@@ -5935,7 +6331,40 @@
       "zzounds",
       "amazon"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Content creators",
+      "es": "Creadores de contenido"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Wireless",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Omni",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "2.4 GHz",
+        "label": {
+          "en": "Band",
+          "es": "Banda"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 255,
@@ -6466,7 +6895,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Podcast & beginners",
+      "es": "Podcast y principiantes"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 277,
@@ -6492,7 +6954,40 @@
       "reverb",
       "gear4music"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 278,
