@@ -28429,7 +28429,40 @@
       "andertons": "https://www.andertons.co.uk/roland-t-8-aira-compact-beat-machine",
       "zzounds": "https://www.zzounds.com/item--ROLT8?siid=318855"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Pocket acid and boom",
+      "es": "Acid y bombo de bolsillo"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Pocket groovebox",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "6 drum + 1 bass",
+        "label": {
+          "en": "Tracks",
+          "es": "Pistas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "ACB 808/909/606 + TB-303",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 612,
@@ -28451,7 +28484,40 @@
       "andertons": "https://www.andertons.co.uk/elektron-syntakt-drum-computer-synthesiser/",
       "zzounds": "https://www.zzounds.com/item--ELKSYNTAKT?siid=318234"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Hybrid analog + digital drums",
+      "es": "Baterías híbridas analógicas y digitales"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Drum computer + synth",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "12 (8 digital + 4 analog)",
+        "label": {
+          "en": "Tracks",
+          "es": "Pistas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Hybrid synthesis, 37 engines",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 613,
@@ -28471,7 +28537,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Erica-Synths-Perkons-HD-01-Black/art-SYN0007991-001",
       "amazon": "https://www.amazon.com/dp/B0CFVZNN89"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Premium techno beast",
+      "es": "Bestia techno premium"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Hybrid drum synth",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "4 hybrid voices",
+        "label": {
+          "en": "Tracks",
+          "es": "Pistas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "digital + analog filters",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 614,
@@ -28493,7 +28592,40 @@
       "andertons": "https://www.andertons.co.uk/arturia-drumbrute-impact/",
       "zzounds": "https://www.zzounds.com/a--925521/item--ARADRUMBRUTEIMP"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Raw analog punch",
+      "es": "Pegada analógica pura"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Analog drum machine",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "10 analog voices",
+        "label": {
+          "en": "Tracks",
+          "es": "Pistas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Pure analog + Color drive",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 615,
