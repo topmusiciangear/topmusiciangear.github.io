@@ -5616,7 +5616,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Full digital rack mixer you control with a tablet",
+      "es": "Mezclador digital de rack que controlas con una tableta"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "18 (16 preamps)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "16 MIDAS",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Wi-Fi, USB, 6 aux",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 146,
@@ -5641,7 +5674,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Affordable analog with FX for gigs",
+      "es": "Analógico asequible con efectos para directos"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "12 (7 mic)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "7 Onyx",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB 2x4 24-bit/192kHz",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 147,
@@ -5666,7 +5732,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Easy-to-use digital mixer for new bands",
+      "es": "Mezclador digital sencillo para bandas que empiezan"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "18 (16 preamps)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "16 A&H",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB, Wi-Fi, app control",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 148,
@@ -5691,7 +5790,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Powerful touring-grade digital mixer",
+      "es": "Mezclador digital potente de nivel gira"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "40 (16 local XLR)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "16 MIDAS PRO",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "AES50, USB, 16 out",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 149,
@@ -5716,7 +5848,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Analog mixer for more channels",
+      "es": "Mezclador analógico con más canales"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "16 line, 10 mic",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "10x D-PRE",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB, 4 groups",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 150,
@@ -5741,7 +5906,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Analog mixer with USB and FX",
+      "es": "Mezclador analógico con USB y efectos"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "16-input, 2-bus",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "6 XENYX",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB interface",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 151,
@@ -17647,7 +17845,40 @@
     },
     "description": "40-channel digital mixing console with 32 MIDAS-designed preamps, 25 motorized faders, 32-channel USB audio interface, and iPad/iPhone remote control.",
     "image": "img/products/e0c396e485.webp",
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Best overall value & church/house bands",
+      "es": "La mejor relación calidad-precio para iglesias y bandas residentes"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "32 channels (up to 40)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "16 aux + LR",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "USB 32-track",
+        "label": {
+          "en": "Multitrack",
+          "es": "Multipista"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 403,
@@ -17671,7 +17902,40 @@
     },
     "description": "40-channel digital console with 32 award-winning Midas PRO microphone preamps, 25 motorized faders, dual SD multitrack recording, and AES50 networking.",
     "image": "img/products/25e9e79162.webp",
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Premium sound for touring FOH",
+      "es": "Sonido premium para FOH de gira"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "32 channels (up to 40)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "16 aux + LR",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Dual SD 32-track",
+        "label": {
+          "en": "Multitrack",
+          "es": "Multipista"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 406,
@@ -17693,7 +17957,40 @@
       "zzounds": "https://www.zzounds.com/item--PRSSLIIISE32R?siid=389034",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Presonus-StudioLive-Series-III-SE-32R/art-REC0017144-000"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Budget 32-channel studios",
+      "es": "Estudios con 32 canales y presupuesto ajustado"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "32 channels (up to 40)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "16 FlexMix + LR",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "USB 64x64 + SD",
+        "label": {
+          "en": "Multitrack",
+          "es": "Multipista"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 408,
@@ -17715,7 +18012,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Mackie-DL32R-Live-Mixer-with-IPad-Control/art-PAH0016276-000"
     },
     "image": "img/products/a35515ad2b.webp",
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Wireless rack-mount mixing",
+      "es": "Mezcla inalámbrica de rack"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "32 channels (16 XLR + 16 Combo)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "15 mix buses",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "USB 32-track",
+        "label": {
+          "en": "Multitrack",
+          "es": "Multipista"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 410,
@@ -17738,7 +18068,40 @@
       "andertons": "https://www.andertons.co.uk/soundcraft-ui24r-digital-mixing-multi-track-recording-system/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Soundcraft-Ui24R-Digital-Mixer-Recording-System/art-PAH0018764-000"
     },
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Tablet-controlled rack mixer for bands",
+      "es": "Mezclador de rack controlado por tableta para bandas"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "24 (20 preamps)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "20 Studer",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Wi-Fi, Ethernet, USB multitrack",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 411,
@@ -17761,7 +18124,40 @@
       "zzounds": "https://www.zzounds.com/item--YAMDM3S?siid=334208",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FYamaha-DM3-S-16-Channel-Digital-Mixer%2F5JCY"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Compact Yamaha console with touchscreen",
+      "es": "Consola Yamaha compacta con pantalla táctil"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "22 (16 preamps)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "16 D-PRE",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB 18x18, network",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 412,
@@ -17779,7 +18175,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FPresonus-StudioLive-32S%2Fart-REC0014236-000",
       "zzounds": "https://www.zzounds.com/item--PRSSTUDIOLIVE32S"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Hands-on mixing for live bands",
+      "es": "Mezcla manual para bandas en directo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "32 channels (up to 40)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "26 mix buses",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "USB 64x64 + SD",
+        "label": {
+          "en": "Multitrack",
+          "es": "Multipista"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 413,
@@ -17800,7 +18229,40 @@
       "andertons": "https://www.andertons.co.uk/b-stock-presonus-studiolive-32sc-compact-digital-mixing-console-007/",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FPreSonus-StudioLive-32SC%2F2WNL"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "32 channels with motorized faders",
+      "es": "32 canales con faders motorizados"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "32 (16 preamps)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "16 XMAX-R",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB 64x64, AVB, SD",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 414,
@@ -21109,7 +21571,40 @@
       "andertons": "https://www.andertons.co.uk/behringer-wing-compact-48channel-digital-mixing-console-with-16fader-control-surface--10-touch-screen/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Behringer-Wing-Compact/art-PAH0023908-000"
     },
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "48-channel flagship in compact size",
+      "es": "Buque insignia de 48 canales en formato compacto"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "48 (24 preamps)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "24 Midas PRO",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB 48x48, AES50, SD",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 484,
@@ -21238,7 +21733,40 @@
       "andertons": "https://www.andertons.co.uk/soundcraft-ui16-remote-controlled-digital-mixer-w-12-mic-inputs/",
       "zzounds": "https://www.zzounds.com/a--925521/item--SOUUI16"
     },
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Cheapest tablet mixer for small gigs",
+      "es": "El mezclador de tableta más barato para bolos pequeños"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "16 (12 preamps)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "12 Soundcraft",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Wi-Fi, Ethernet, USB 2-track",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 487,
@@ -21258,7 +21786,40 @@
       "zzounds": "https://www.zzounds.com/item--SOUSIG12MTK",
       "reverb": "https://reverb.com/p/soundcraft-signature-12-mtk-12-channel-multi-track-analog-usb-mixer-w-slash-effects"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Live + multitrack USB recording",
+      "es": "Directos y grabación multipista por USB"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "12 (8 mic)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "8 Ghost",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB 14-in/12-out",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 488,
@@ -23598,7 +24159,40 @@
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-WING-RACK-Rackmount-Digital-Mixer/6J9R",
       "musicstore": "https://www.musicstore.com/en_US/USD/Behringer-Wing-Rack/art-PAH0023909-000"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "48-channel flagship power",
+      "es": "La potencia del buque insignia de 48 canales"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "4U rack digital",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "48x48 + SD",
+        "label": {
+          "en": "USB Recording",
+          "es": "Grabación USB"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "24 mix + 8 matrix",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 559,
@@ -23620,7 +24214,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Multi-musician IEM rigs",
+      "es": "Rigs de IEM para varios músicos"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "3U rack digital",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "32x32 USB",
+        "label": {
+          "en": "USB Recording",
+          "es": "Grabación USB"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "16 mix + 6 matrix",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 560,
@@ -23642,7 +24269,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "1U touring fly-rigs",
+      "es": "Rigs de gira de 1U"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "1U rack digital",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "32x32 USB",
+        "label": {
+          "en": "USB Recording",
+          "es": "Grabación USB"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "16 mix + 6 matrix",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 561,
@@ -23661,7 +24321,40 @@
       "zzounds": "https://www.zzounds.com/item--ALLAHCQ20B",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Allen-Heath-CQ20B/art-PAH0023555-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Fast automated mixing",
+      "es": "Mezcla automática rápida"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Stagebox mixer",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "24x24 + SD",
+        "label": {
+          "en": "USB Recording",
+          "es": "Grabación USB"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "12 mix + 4 subgroups",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 563,
@@ -23679,7 +24372,40 @@
       "zzounds": "https://www.zzounds.com/item--ALLAHSQRACK",
       "musicstore": "https://www.musicstore.com/en_US/USD/Allen-Heath-SQ-Rack/art-PAH0024059-000"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "96kHz pro engineering",
+      "es": "Ingeniería profesional a 96 kHz"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "4U rack digital",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "32x32 USB",
+        "label": {
+          "en": "USB Recording",
+          "es": "Grabación USB"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "12 mix + 8 matrix",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 564,
@@ -23697,7 +24423,40 @@
       "musicstore": "https://www.musicstore.com/en_GB/GBP/Presonus-StudioLive-Series-III-SE-24R/art-REC0017143-000",
       "zzounds": "https://www.zzounds.com/item--PRSSLIIISE24R"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Studio One studios",
+      "es": "Estudios que trabajan con Studio One"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "2U rack digital",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "64x64 + SD",
+        "label": {
+          "en": "USB Recording",
+          "es": "Grabación USB"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "16 FlexMixes + 4 FX",
+        "label": {
+          "en": "Mix Buses",
+          "es": "Buses de mezcla"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 565,
