@@ -7012,7 +7012,40 @@
       "gear4music",
       "reverb"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 279,
@@ -7038,7 +7071,40 @@
       "reverb",
       "gear4music"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Gaming & streaming",
+      "es": "Gaming y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 280,
@@ -7064,7 +7130,40 @@
       "reverb",
       "gear4music"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Streaming",
+      "es": "Streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 281,
@@ -7090,7 +7189,40 @@
       "reverb",
       "gear4music"
     ],
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Streaming",
+      "es": "Streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 284,
@@ -7116,7 +7248,40 @@
       "reverb",
       "gear4music"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Podcasting",
+      "es": "Podcasting"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 286,
@@ -7138,7 +7303,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Audio-Technica-AT2040-USB/art-REC0016401-000",
       "zzounds": "https://www.zzounds.com/a--925521/item--AUDAT2040USB"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Hypercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 287,
@@ -7164,7 +7362,40 @@
       "reverb",
       "gear4music"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Beginners & podcast",
+      "es": "Principiantes y podcast"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 289,
@@ -7190,7 +7421,40 @@
       "gear4music",
       "reverb"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Gaming",
+      "es": "Gaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 290,
@@ -7218,7 +7482,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Streaming",
+      "es": "Streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 291,
@@ -7243,7 +7540,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Podcast & streaming",
+      "es": "Podcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 292,
@@ -7271,7 +7601,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Podcast",
+      "es": "Podcast"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 293,
@@ -7407,7 +7770,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Home studio vocals",
+      "es": "Voz en home studio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "4 dB-A",
+        "label": {
+          "en": "Self-noise",
+          "es": "Ruido propio"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 298,
@@ -7430,7 +7826,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Audio-Technica-AT-2035/art-REC0006277-000"
     },
     "oos": [],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Home studio",
+      "es": "Home studio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "12 dB-A",
+        "label": {
+          "en": "Self-noise",
+          "es": "Ruido propio"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 299,
@@ -7455,7 +7884,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Streaming",
+      "es": "Streaming"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 300,
@@ -8028,7 +8490,40 @@
       "andertons": "https://www.andertons.co.uk/shure-sm7db-microphone/",
       "zzounds": "https://www.zzounds.com/a--925521/item--SHUSM7DB"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Podcast & broadcast",
+      "es": "Podcast y radio"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "USB/XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 323,
@@ -8170,7 +8665,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Broadcast & podcast",
+      "es": "Radio y podcast"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 330,
@@ -8195,7 +8723,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Live & budget",
+      "es": "Directo y económico"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 331,
@@ -8405,7 +8966,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Film, TV & voiceover",
+      "es": "Cine, TV y locución"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Shotgun",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Lobar",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 340,
@@ -8430,7 +9024,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Film & TV",
+      "es": "Cine y TV"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Shotgun",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 341,
@@ -8453,7 +9080,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Film & TV",
+      "es": "Cine y TV"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Shotgun",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Supercardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "XLR",
+        "label": {
+          "en": "Output",
+          "es": "Salida"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 342,
