@@ -28514,7 +28514,40 @@
       "zzounds": "https://www.zzounds.com/item--TEEEP133KOII?siid=345972",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Teenage-Engineering-EP-133-K-O-II-128MB/art-SYN0009460-000"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Fast pocket sketching and punch-in performance FX",
+      "es": "Bocetos de bolsillo y FX de actuación"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "128 MB internal (999 slots)",
+        "label": {
+          "en": "Storage",
+          "es": "Almacenamiento"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "6 master FX + 12 punch-in FX",
+        "label": {
+          "en": "Effects",
+          "es": "Efectos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C, MIDI I/O, sync I/O",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 616,
@@ -28535,7 +28568,40 @@
       "zzounds": "https://www.zzounds.com/item--AKAMPCKEY37G2?siid=392057",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/AKAI-Professional-MPC-Key-37-G2/art-SYN0009522-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Keyboard-centric beatmakers and synth control",
+      "es": "Beatmakers de teclado y control de sintes"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "4 GB RAM / 64 GB storage",
+        "label": {
+          "en": "Storage",
+          "es": "Almacenamiento"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "MPC FX rack insert chains",
+        "label": {
+          "en": "Effects",
+          "es": "Efectos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-A/B, MIDI, WiFi, Bluetooth",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 617,
@@ -28556,7 +28622,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Roland-P-6-Creative-Sampler/art-SYN0009091-000",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FRoland-Aira-Compact-P-6-Creative-Sampler%2F6MDZ"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Micro-sampling, granular soundscapes and travel",
+      "es": "Micro-sampling, paisajes granulares y viaje"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "285 s mono total (140 s stereo)",
+        "label": {
+          "en": "Storage",
+          "es": "Almacenamiento"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "Granular engine, 20 MFX, Vinyl Sim",
+        "label": {
+          "en": "Effects",
+          "es": "Efectos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C audio/MIDI, MIDI I/O",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 618,
@@ -28577,7 +28676,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FNovation-Circuit-Rhythm%2F3V5S",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Novation-Circuit-Rhythm/art-SYN0007908-000"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Grid-based intuitive sampling and DAWless jams",
+      "es": "Sampling intuitivo por rejilla y jams sin DAW"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "228 s per pack + microSD",
+        "label": {
+          "en": "Storage",
+          "es": "Almacenamiento"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "Grid FX, delay and reverb sends",
+        "label": {
+          "en": "Effects",
+          "es": "Efectos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C, MIDI In/Out/Thru, sync out",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 619,
@@ -28598,7 +28730,40 @@
       "zzounds": "https://www.zzounds.com/item--AKAMPCXL?siid=383057",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/AKAI-Professional-MPC-XL/art-SYN0009438-000"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Flagship studio centerpiece and hardware routing",
+      "es": "Centro de estudio insignia y routing hardware"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "16 GB RAM / 256 GB NVMe SSD",
+        "label": {
+          "en": "Storage",
+          "es": "Almacenamiento"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "Full MPC premium FX suite",
+        "label": {
+          "en": "Effects",
+          "es": "Efectos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "2x USB-A, USB-B, 4x MIDI out",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 620,
@@ -28619,7 +28784,40 @@
       "zzounds": "https://www.zzounds.com/item--NINMASCHINEPLUS?siid=286031",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Native-Instruments-Maschine-/art-SYN0007645-000"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Standalone integration for NI ecosystem fans",
+      "es": "Integración autónoma para el ecosistema NI"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "4 GB RAM / 32 GB + 64 GB SD",
+        "label": {
+          "en": "Storage",
+          "es": "Almacenamiento"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "Factory FX (Raum, Phasis)",
+        "label": {
+          "en": "Effects",
+          "es": "Efectos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-A/B, MIDI I/O, WiFi, Link",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 621,
