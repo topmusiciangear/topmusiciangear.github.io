@@ -105,6 +105,21 @@
     flex: none !important;
     height: auto !important;
   }
+  .guide-section-imgs > div:first-child {
+    grid-column: 1 !important;
+  }
+  .guide-section-quickfacts {
+    grid-column: 2 !important;
+  }
+  .store-buttons {
+    grid-column: 1 / -1 !important;
+  }
+  .guide-section-imgs .guide-section-img,
+  .guide-section-imgs .guide-video-thumb {
+    aspect-ratio: auto !important;
+    height: auto !important;
+    max-height: 35vh !important;
+  }
 
   /* Photo wrapper takes left column */
   .guide-section-imgs > div:first-child {
