@@ -27,8 +27,7 @@
   grid-template-columns: 16px 1fr !important;
   gap: 6px !important;
   align-items: center !important;
-  width: fit-content !important;
-  margin: 0 auto !important;
+  width: 100% !important;
   padding: 3px 4px !important;
   text-align: left !important;
 }
