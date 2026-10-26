@@ -6204,7 +6204,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Pro rock and session playing",
+      "es": "Rock profesional y trabajo de sesión"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "V-Mod II split coil",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 156,
@@ -6229,7 +6262,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Pro funk and live gigging",
+      "es": "Funk profesional y directos"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x V-Mod II J single coils",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 157,
@@ -6254,7 +6320,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Beginner funk and rock playing",
+      "es": "Funk y rock para empezar"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x Fender alnico J",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Poplar",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 158,
@@ -6279,7 +6378,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Beginner P/J practice and gigs",
+      "es": "Práctica P/J y primeros bolos"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Ceramic P + J",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Poplar",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 159,
@@ -6304,7 +6436,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Versatile active bass",
+      "es": "Bajo activo versátil"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x YGD humbuckers",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Active (2-band EQ)",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 160,
@@ -6329,7 +6494,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Lightweight speed grooves",
+      "es": "Grooves rápidos y bajo ligero"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x PowerSpan humbuckers",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Active (3-band EQ)",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Nyatoh",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 161,
@@ -6354,7 +6552,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Iconic StingRay funk and slap tone",
+      "es": "El sonido funk y slap del StingRay"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "1x ceramic humbucker",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Active",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Basswood",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 162,
@@ -6377,7 +6608,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Epiphone-Thunderbird-64-Ember-Red/art-BAS0012560-000",
       "reverb": "https://reverb.com/marketplace?query=Epiphone+Thunderbird+'64+Bass"
     },
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Iconic reverse-body look and rock growl",
+      "es": "Cuerpo invertido icónico y gruñido rock"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x ProBucker 760 humbuckers",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "9-ply mahogany/walnut",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 163,
@@ -6397,7 +6661,40 @@
       "andertons": "https://www.andertons.co.uk/sire-v5-4string-bass-in-black/",
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Sire-Marcus-Miller-V5-Bass-Tide-Pool/8D0H"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Best-feeling build at the price",
+      "es": "El acabado que mejor se siente a este precio"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x Marcus Vintage-J Revolution",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "North American alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 164,
@@ -6421,7 +6718,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Modern groove for rock gigs",
+      "es": "Groove moderno para bolos de rock"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Diamond Schecter humbuckers",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Active",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Swamp ash",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 165,
@@ -6444,7 +6774,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Spalted maple looks, stage volume",
+      "es": "Tapa de arce spalted y volumen de escenario"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x ESP SB-4 humbuckers",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive + switchable active EQ",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Ash, spalted maple top",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 166,
@@ -6469,7 +6832,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Beatle bass charm and short scale",
+      "es": "El encanto del bajo de los Beatles y escala corta"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x vintage single coils",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Maple",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 167,
@@ -7186,7 +7582,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Pro session and tour playing",
+      "es": "Sesiones y giras profesionales"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Ultra II Noiseless P + J",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Active/Passive (S-1 switch)",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 186,
@@ -7211,7 +7640,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "The modern StingRay",
+      "es": "El StingRay moderno"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Neodymium pickup",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "18V active preamp",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Lightweight ash",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 187,
@@ -14024,7 +14486,40 @@
       "andertons": "https://www.andertons.co.uk/sire-marcus-miller-v5r-alder-4-string-bass-guitar-tobacco-sunburst/",
       "zzounds": "https://www.zzounds.com/a--925521/item--SIRML1712"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Roasted neck premium feel",
+      "es": "Mástil tostado con tacto premium"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x Marcus Revolution single-coil",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Mahogany",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 328,
@@ -19447,7 +19942,40 @@
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-II-Precision-Bass-MN-Black/6HZM",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-Player-II-Precision-Bass-MN-Black/art-BAS0012731-004"
     },
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Rock and Motown live gigging",
+      "es": "Rock y Motown en directo"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Player split coil P",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 442,
@@ -19470,7 +19998,40 @@
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-II-Jazz-Bass-RW-3-Colour-Sunburst/6HYY",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-Player-II-Jazz-Bass-RW-3-Color-Sunburst/art-BAS0012732-001"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Funk and fusion live playing",
+      "es": "Funk y fusión en directo"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x Player Alnico 5 J",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 443,
@@ -20854,7 +21415,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-BB434-Tobacco-Brown-Sunburst/art-BAS0009157-000",
       "zzounds": "https://www.zzounds.com/a--925521/item--YAMBB434"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Punchy P/J for gigging bassists",
+      "es": "P/J con pegada para bajistas de directo"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "YGD V5 P/J (Alnico V)",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 468,
@@ -29781,7 +30375,40 @@
     "excludeStores": [
       "reverb"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "All-round PJ workhorse",
+      "es": "PJ todoterreno"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Split P + J bridge",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 682,
@@ -29804,7 +30431,40 @@
     "excludeStores": [
       "reverb"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Compact short-scale PJ",
+      "es": "PJ compacto de escala corta"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "Split P + J (Dynamix)",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Poplar",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 683,
@@ -29827,7 +30487,40 @@
     ],
     "discontinued": true,
     "availabilityNote": "G&L ceased operations in 2025. Stock is now limited to independent dealers and second-hand sellers.",
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Passive, active or boosted from one bass",
+      "es": "Pasivo, activo o con refuerzo en el mismo bajo"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "2x G&L MFD humbuckers",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Passive / active switchable",
+        "label": {
+          "en": "Active / Passive",
+          "es": "Activo / Pasivo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
+        "value": "Ash top over poplar",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 684,
