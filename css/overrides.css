@@ -148,3 +148,19 @@
     display: none !important;
   }
 }
+
+/* Desktop: enlarge photo and quickfacts card to use available space */
+@media (min-width: 901px) {
+  .guide-section-quickfacts {
+    flex: 0 0 200px !important;
+    width: 200px !important;
+    height: 200px !important;
+    padding: 8px 10px !important;
+    gap: 4px !important;
+  }
+  .guide-section-mediabuy .guide-section-img,
+  .guide-section-mediabuy .guide-video-thumb {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
