@@ -1,0 +1,514 @@
+{
+ "13": {
+  "title": "Arturia KeyLab Essential 61 MkIII",
+  "sub": "controller",
+  "guide": "best-keyboard",
+  "col": "Arturia KeyLab Essential 61 MkIII",
+  "rows": [
+   "Keys",
+   "Connectivity",
+   "Weight"
+  ],
+  "values": {
+   "Keys": "61 synth-action",
+   "Connectivity": "USB-C",
+   "Weight": "3.1 kg (6.8 lb)"
+  }
+ },
+ "14": {
+  "title": "Native Instruments Kontrol S61 MK3",
+  "sub": "controller",
+  "guide": "best-keyboard",
+  "col": "Native Instruments Kontrol S61 MK3",
+  "rows": [
+   "Keys",
+   "Connectivity",
+   "Weight"
+  ],
+  "values": {
+   "Keys": "61 semi-weighted, poly aftertouch",
+   "Connectivity": "USB-C, MIDI In/Out, 4 pedal inputs",
+   "Weight": "6.0 kg (13.2 lb)"
+  }
+ },
+ "323": {
+  "title": "Akai MPK Mini MK4",
+  "sub": "controller",
+  "guide": "best-keyboard",
+  "col": "Akai MPK Mini MK4",
+  "rows": [
+   "Keys",
+   "Connectivity",
+   "Weight"
+  ],
+  "values": {
+   "Keys": "25 mini keys",
+   "Connectivity": "USB-C, MIDI Out",
+   "Weight": "1.05 kg (2.3 lb)"
+  }
+ },
+ "324": {
+  "title": "Novation Launchkey Mini 25 MK4",
+  "sub": "controller",
+  "guide": "best-keyboard",
+  "col": "Novation Launchkey Mini 25 MK4",
+  "rows": [
+   "Keys",
+   "Connectivity",
+   "Weight"
+  ],
+  "values": {
+   "Keys": "25 mini keys",
+   "Connectivity": "USB-C",
+   "Weight": "0.78 kg (1.7 lb)"
+  }
+ },
+ "325": {
+  "title": "M-Audio Hammer 88",
+  "sub": "controller",
+  "guide": "best-keyboard",
+  "col": "M-Audio Hammer 88",
+  "rows": [
+   "Keys",
+   "Connectivity",
+   "Weight"
+  ],
+  "values": {
+   "Keys": "88 fully-weighted hammer",
+   "Connectivity": "USB, MIDI Out, 3 pedal inputs",
+   "Weight": "17.5 kg (38.5 lb)"
+  }
+ },
+ "363": {
+  "title": "Novation Launchkey 49 MK4",
+  "sub": "controller",
+  "guide": "best-keyboard",
+  "col": "Novation Launchkey 49 MK4",
+  "rows": [
+   "Keys",
+   "Connectivity",
+   "Weight"
+  ],
+  "values": {
+   "Keys": "49 semi-weighted",
+   "Connectivity": "USB-C, MIDI Out",
+   "Weight": "4.1 kg (9.0 lb)"
+  }
+ },
+ "370": {
+  "title": "Roland GO:KEYS 3",
+  "sub": "controller",
+  "guide": "best-keyboard",
+  "col": "Roland GO:KEYS 3",
+  "rows": [
+   "Keys",
+   "Connectivity",
+   "Weight"
+  ],
+  "values": {
+   "Keys": "61 touch-sensitive",
+   "Connectivity": "Bluetooth, USB",
+   "Weight": "4.5 kg (9 lb 15 oz)"
+  }
+ },
+ "140": {
+  "title": "Yamaha P-225",
+  "sub": "piano",
+  "guide": "best-digital-pianos",
+  "col": "Yamaha P-225",
+  "rows": [
+   "Keyboard Action",
+   "Polyphony",
+   "Weight"
+  ],
+  "values": {
+   "Keyboard Action": "GHC (Graded Hammer Compact)",
+   "Polyphony": "192",
+   "Weight": "11.5 kg"
+  }
+ },
+ "141": {
+  "title": "Roland FP-30X",
+  "sub": "piano",
+  "guide": "best-digital-pianos",
+  "col": "Roland FP-30X",
+  "rows": [
+   "Keyboard Action",
+   "Polyphony",
+   "Weight"
+  ],
+  "values": {
+   "Keyboard Action": "PHA-4 Standard (escapement)",
+   "Polyphony": "256",
+   "Weight": "14.8 kg"
+  }
+ },
+ "565": {
+  "title": "Roland RP107 Digital Piano",
+  "sub": "piano",
+  "guide": "best-digital-pianos",
+  "col": "Roland RP107",
+  "rows": [
+   "Keyboard Action",
+   "Polyphony",
+   "Weight"
+  ],
+  "values": {
+   "Keyboard Action": "PHA-4 Standard (escapement)",
+   "Polyphony": "256",
+   "Weight": "37 kg"
+  }
+ },
+ "567": {
+  "title": "Yamaha Arius YDP-166",
+  "sub": "piano",
+  "guide": "best-digital-pianos",
+  "col": "Yamaha YDP-166",
+  "rows": [
+   "Keyboard Action",
+   "Polyphony",
+   "Weight"
+  ],
+  "values": {
+   "Keyboard Action": "GrandTouch-E (escapement)",
+   "Polyphony": "192",
+   "Weight": "42 kg"
+  }
+ },
+ "571": {
+  "title": "Casio Privia PX-S1100 Digital Piano",
+  "sub": "piano",
+  "guide": "best-digital-pianos",
+  "col": "Casio PX-S1100",
+  "rows": [
+   "Keyboard Action",
+   "Polyphony",
+   "Weight"
+  ],
+  "values": {
+   "Keyboard Action": "Smart Scaled Hammer Action",
+   "Polyphony": "192",
+   "Weight": "11.2 kg"
+  }
+ },
+ "572": {
+  "title": "Roland FP-10 Digital Piano",
+  "sub": "piano",
+  "guide": "best-digital-pianos",
+  "col": "Roland FP-10",
+  "rows": [
+   "Keyboard Action",
+   "Polyphony",
+   "Weight"
+  ],
+  "values": {
+   "Keyboard Action": "PHA-4 Standard (escapement)",
+   "Polyphony": "96",
+   "Weight": "12.6 kg"
+  }
+ },
+ "573": {
+  "title": "Yamaha Arius YDP-146 Digital Piano",
+  "sub": "piano",
+  "guide": "best-digital-pianos",
+  "col": "Yamaha YDP-146",
+  "rows": [
+   "Keyboard Action",
+   "Polyphony",
+   "Weight"
+  ],
+  "values": {
+   "Keyboard Action": "GHS (no escapement)",
+   "Polyphony": "192",
+   "Weight": "38 kg"
+  }
+ },
+ "11": {
+  "title": "Nord Stage 4 88",
+  "sub": "stage",
+  "guide": "best-stage-keyboards",
+  "col": "Nord Stage 4 88",
+  "rows": [
+   "Keys & Action",
+   "Weight",
+   "Sound Engines"
+  ],
+  "values": {
+   "Keys & Action": "88 triple-sensor hammer + AT",
+   "Weight": "19.6 kg (43.2 lb)",
+   "Sound Engines": "Piano + Organ + Wave 2 Synth"
+  }
+ },
+ "637": {
+  "title": "Roland RD-2000 EX",
+  "sub": "stage",
+  "guide": "best-stage-keyboards",
+  "col": "Roland RD-2000 EX",
+  "rows": [
+   "Keys & Action",
+   "Weight",
+   "Sound Engines"
+  ],
+  "values": {
+   "Keys & Action": "88 PHA-50 hybrid wood",
+   "Weight": "21.7 kg (47 lbs 14 oz)",
+   "Sound Engines": "V-Piano + SuperNATURAL"
+  }
+ },
+ "638": {
+  "title": "Yamaha YC88",
+  "sub": "stage",
+  "guide": "best-stage-keyboards",
+  "col": "Yamaha YC88",
+  "rows": [
+   "Keys & Action",
+   "Weight",
+   "Sound Engines"
+  ],
+  "values": {
+   "Keys & Action": "88 NW-GH3 wooden graded",
+   "Weight": "18.6 kg (41 lb)",
+   "Sound Engines": "VCM Organ + AWM2 + FM"
+  }
+ },
+ "639": {
+  "title": "Yamaha Montage M8x",
+  "sub": "stage",
+  "guide": "best-stage-keyboards",
+  "col": "Yamaha Montage M8x",
+  "rows": [
+   "Keys & Action",
+   "Weight",
+   "Sound Engines"
+  ],
+  "values": {
+   "Keys & Action": "88 GEX weighted + poly AT",
+   "Weight": "28.1 kg (61 lb 15 oz)",
+   "Sound Engines": "AN-X + AWM2 + FM-X"
+  }
+ },
+ "640": {
+  "title": "Roland Fantom 8 EX",
+  "sub": "stage",
+  "guide": "best-stage-keyboards",
+  "col": "Roland Fantom 8 EX",
+  "rows": [
+   "Keys & Action",
+   "Weight",
+   "Sound Engines"
+  ],
+  "values": {
+   "Keys & Action": "88 PHA-50 hybrid + channel AT",
+   "Weight": "27.7 kg (61 lb 2 oz)",
+   "Sound Engines": "ZEN-Core + V-Piano + ACB"
+  }
+ },
+ "641": {
+  "title": "Nord Electro 7 61",
+  "sub": "stage",
+  "guide": "best-stage-keyboards",
+  "col": "Nord Electro 7 61",
+  "rows": [
+   "Keys & Action",
+   "Weight",
+   "Sound Engines"
+  ],
+  "values": {
+   "Keys & Action": "61 waterfall semi-weighted",
+   "Weight": "8.3 kg (18.3 lb)",
+   "Sound Engines": "Organ 3 + Piano + new Synth"
+  }
+ },
+ "642": {
+  "title": "Korg Grandstage X",
+  "sub": "stage",
+  "guide": "best-stage-keyboards",
+  "col": "Korg Grandstage X",
+  "rows": [
+   "Keys & Action",
+   "Weight",
+   "Sound Engines"
+  ],
+  "values": {
+   "Keys & Action": "88 RH3 hammer",
+   "Weight": "25 kg (55.12 lb)",
+   "Sound Engines": "7 engines (SGX-2 to HD-1)"
+  }
+ },
+ "643": {
+  "title": "Arturia AstroLab 61",
+  "sub": "stage",
+  "guide": "best-stage-keyboards",
+  "col": "Arturia AstroLab 61",
+  "rows": [
+   "Keys & Action",
+   "Weight",
+   "Sound Engines"
+  ],
+  "values": {
+   "Keys & Action": "61 semi-weighted + AT",
+   "Weight": "9.9 kg (21.8 lb)",
+   "Sound Engines": "40+ engines, 1,800+ presets"
+  }
+ },
+ "644": {
+  "title": "Yamaha CK88",
+  "sub": "stage",
+  "guide": "best-stage-keyboards",
+  "col": "Yamaha CK88",
+  "rows": [
+   "Keys & Action",
+   "Weight",
+   "Sound Engines"
+  ],
+  "values": {
+   "Keys & Action": "88 GHS graded hammer",
+   "Weight": "13.1 kg (28 lb 14 oz)",
+   "Sound Engines": "AWM2 + organ, 363 voices"
+  }
+ },
+ "142": {
+  "title": "Korg Minilogue XD",
+  "sub": "synth",
+  "guide": "best-synthesizers",
+  "col": "Korg Minilogue XD",
+  "rows": [
+   "Type",
+   "Keys",
+   "Polyphony"
+  ],
+  "values": {
+   "Type": "Analog synth",
+   "Keys": "37 keys",
+   "Polyphony": "4 voices"
+  }
+ },
+ "143": {
+  "title": "Moog Subsequent 37",
+  "sub": "synth",
+  "guide": "best-synthesizers",
+  "col": "Moog Subsequent 37",
+  "rows": [
+   "Type",
+   "Keys",
+   "Polyphony"
+  ],
+  "values": {
+   "Type": "Analog synth (mono)",
+   "Keys": "37 semi-weighted with aftertouch",
+   "Polyphony": "Mono/paraphonic"
+  }
+ },
+ "174": {
+  "title": "Sequential OB-6 Keyboard",
+  "sub": "synth",
+  "guide": "best-synthesizers",
+  "col": "Sequential OB-6 Keyboard",
+  "rows": [
+   "Type",
+   "Keys",
+   "Polyphony"
+  ],
+  "values": {
+   "Type": "Analog synth",
+   "Keys": "49 keys",
+   "Polyphony": "6 voices"
+  }
+ },
+ "175": {
+  "title": "Sequential Prophet-10",
+  "sub": "synth",
+  "guide": "best-synthesizers",
+  "col": null,
+  "rows": [
+   "Type",
+   "Keys",
+   "Polyphony"
+  ],
+  "values": {
+   "Type": "Analog synth",
+   "Keys": "61 keys, velocity + AT",
+   "Polyphony": "10 voices"
+  }
+ },
+ "176": {
+  "title": "Moog Muse",
+  "sub": "synth",
+  "guide": "best-synthesizers",
+  "col": null,
+  "rows": [
+   "Type",
+   "Keys",
+   "Polyphony"
+  ],
+  "values": {
+   "Type": "Analog synth",
+   "Keys": "61 keys",
+   "Polyphony": "8 voices"
+  }
+ },
+ "475": {
+  "title": "Arturia MicroFreak",
+  "sub": "synth",
+  "guide": "best-synthesizers",
+  "col": "Arturia MicroFreak",
+  "rows": [
+   "Type",
+   "Keys",
+   "Polyphony"
+  ],
+  "values": {
+   "Type": "Hybrid paraphonic synth",
+   "Keys": "25 keys (capacitive, poly-AT)",
+   "Polyphony": "4 voices (paraphonic)"
+  }
+ },
+ "476": {
+  "title": "Behringer DeepMind 12",
+  "sub": "synth",
+  "guide": "best-synthesizers",
+  "col": "Behringer DeepMind 12",
+  "rows": [
+   "Type",
+   "Keys",
+   "Polyphony"
+  ],
+  "values": {
+   "Type": "Analog synth (12-voice)",
+   "Keys": "49 keys (semi-weighted)",
+   "Polyphony": "12 voices"
+  }
+ },
+ "477": {
+  "title": "ASM Hydrasynth",
+  "sub": "synth",
+  "guide": "best-synthesizers",
+  "col": "ASM Hydrasynth Keyboard",
+  "rows": [
+   "Type",
+   "Keys",
+   "Polyphony"
+  ],
+  "values": {
+   "Type": "digital synth (wave morphing)",
+   "Keys": "49 keys (PolyTouch)",
+   "Polyphony": "8 voices"
+  }
+ },
+ "478": {
+  "title": "Sequential Take 5",
+  "sub": "synth",
+  "guide": "best-synthesizers",
+  "col": "Sequential Take 5",
+  "rows": [
+   "Type",
+   "Keys",
+   "Polyphony"
+  ],
+  "values": {
+   "Type": "Analog synth",
+   "Keys": "44 keys (semi-weighted)",
+   "Polyphony": "5 voices"
+  }
+ }
+}

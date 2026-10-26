@@ -481,7 +481,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Pro touring and versatility",
+      "es": "Directo profesional y versátil"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "88 triple-sensor hammer + AT",
+        "label": {
+          "en": "Keys & action",
+          "es": "Teclas y acción"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "19.6 kg (43.2 lb)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Piano + Organ + Wave 2 Synth",
+        "label": {
+          "en": "Sound engines",
+          "es": "Motores de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 13,
@@ -506,7 +539,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "DAW work with Analog Lab",
+      "es": "Producción en DAW con Analog Lab"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "61 synth-action",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "3.1 kg (6.8 lb)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 14,
@@ -531,7 +597,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Composing inside Komplete",
+      "es": "Componer dentro de Komplete"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "61 semi-weighted, poly aftertouch",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB-C, MIDI In/Out, 4 pedal inputs",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "6.0 kg (13.2 lb)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 15,
@@ -4435,7 +4534,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Compact home piano, CFX sound",
+      "es": "Piano doméstico compacto con CFX"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "GHC (Graded Hammer Compact)",
+        "label": {
+          "en": "Keyboard action",
+          "es": "Acción del teclado"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "192",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "11.5 kg",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 141,
@@ -4460,7 +4592,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Best portable practice feel",
+      "es": "El portátil con mejor tacto"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "PHA-4 Standard (escapement)",
+        "label": {
+          "en": "Keyboard action",
+          "es": "Acción del teclado"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "256",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "14.8 kg",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 142,
@@ -4485,7 +4650,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Analog poly on a budget",
+      "es": "Poli analógico sin arruinarte"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Analog synth",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "keyboard",
+        "value": "37 keys",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "4 voices",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 143,
@@ -4510,7 +4708,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Fat mono bass and leads",
+      "es": "Bajos y leads mono con cuerpo"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Analog synth (mono)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "keyboard",
+        "value": "37 semi-weighted with aftertouch",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "Mono/paraphonic",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 144,
@@ -5311,7 +5542,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Huge analog pads and leads",
+      "es": "Pads y leads analógicos enormes"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Analog synth",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "keyboard",
+        "value": "49 keys",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "6 voices",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 175,
@@ -5337,7 +5601,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Legendary analog poly",
+      "es": "Poli analógico legendario"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Analog synth",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "keyboard",
+        "value": "61 keys, velocity + AT",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "10 voices",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 176,
@@ -5362,7 +5659,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Flagship Moog polysynth",
+      "es": "El poli insignia de Moog"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Analog synth",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "keyboard",
+        "value": "61 keys",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "8 voices",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 177,
@@ -11977,7 +12307,40 @@
       "andertons": "https://www.andertons.co.uk/akai-mpk-mini-4-in-grey/",
       "zzounds": "https://www.zzounds.com/item--AKAMPKMINI4"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Beats anywhere",
+      "es": "Beats en cualquier sitio"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "25 mini keys",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB-C, MIDI Out",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "1.05 kg (2.3 lb)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 324,
@@ -12002,7 +12365,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Ultra-portable DAW control",
+      "es": "Control de DAW ultraligero"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "25 mini keys",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "0.78 kg (1.7 lb)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 325,
@@ -12027,7 +12423,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Piano practice in the DAW",
+      "es": "Practicar piano en el DAW"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "88 fully-weighted hammer",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB, MIDI Out, 3 pedal inputs",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "17.5 kg (38.5 lb)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 326,
@@ -13916,7 +14345,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Ableton-focused production",
+      "es": "Producción centrada en Ableton"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "49 semi-weighted",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB-C, MIDI Out",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "4.1 kg (9.0 lb)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 364,
@@ -14109,7 +14571,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FRoland-GOKEYS-3-Music-Creation-Keyboard-Midnight-Blue%2F6AB8"
     },
     "image": "img/products/b413d9ad66.webp",
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Standalone practice and jams",
+      "es": "Practicar y tocar sin ordenador"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "61 touch-sensitive",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "Bluetooth, USB",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "4.5 kg (9 lb 15 oz)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 371,
@@ -18108,7 +18603,40 @@
       "zzounds": "https://www.zzounds.com/a--925521/item--ARAMICROFREAK",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FArturia-MICROFREAK-Paraphonic-Hybrid-Synthesizer%2F2UVM"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Cheap hybrid, endless tones",
+      "es": "Híbrido barato y muy versátil"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Hybrid paraphonic synth",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "keyboard",
+        "value": "25 keys (capacitive, poly-AT)",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "4 voices (paraphonic)",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 476,
@@ -18132,7 +18660,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Warm pads, studio or stage",
+      "es": "Pads cálidos, estudio o directo"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Analog synth (12-voice)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "keyboard",
+        "value": "49 keys (semi-weighted)",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "12 voices",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 477,
@@ -18154,7 +18715,40 @@
       "andertons": "https://www.andertons.co.uk/asm-hydrasynth-synth-49-keys/",
       "zzounds": "https://www.zzounds.com/a--925521/item--ASOHYDRASYNTHKB"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Deep sound design",
+      "es": "Diseño de sonido a fondo"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "digital synth (wave morphing)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "keyboard",
+        "value": "49 keys (PolyTouch)",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "8 voices",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 478,
@@ -18176,7 +18770,40 @@
       "andertons": "https://www.andertons.co.uk/sequential-take-5/",
       "zzounds": "https://www.zzounds.com/a--925521/item--SEQTAKE5"
     },
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Compact pro poly with split",
+      "es": "Poli profesional y compacto"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Analog synth",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "keyboard",
+        "value": "44 keys (semi-weighted)",
+        "label": {
+          "en": "Keys",
+          "es": "Teclas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "5 voices",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 479,
@@ -20449,7 +21076,40 @@
       "andertons": "https://www.andertons.co.uk/roland-RP107-digital-piano/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Roland-RP107-BKX/art-EPI0001241-000"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Console with real escapement",
+      "es": "Consola con escape real"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "PHA-4 Standard (escapement)",
+        "label": {
+          "en": "Keyboard action",
+          "es": "Acción del teclado"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "256",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "37 kg",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 567,
@@ -20468,7 +21128,40 @@
       "andertons": "https://www.andertons.co.uk/yamaha-ydp-166-digital-home-piano-in-black/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-YDP-166-BK/art-EPI0001383-000"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Living-room console that lasts",
+      "es": "Consola para el salón, para años"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "GrandTouch-E (escapement)",
+        "label": {
+          "en": "Keyboard action",
+          "es": "Acción del teclado"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "192",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "42 kg",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 570,
@@ -20494,16 +21187,16 @@
     "facts": [
       {
         "icon": "keyboard",
-        "value": "GrandTouch-S",
+        "value": "GrandTouch-S (escapement)",
         "label": {
-          "en": "Key action",
-          "es": "Mecánica"
+          "en": "Keyboard action",
+          "es": "Acción del teclado"
         },
         "tone": "good"
       },
       {
-        "icon": "music",
-        "value": "256 notes",
+        "icon": "layers",
+        "value": "256",
         "label": {
           "en": "Polyphony",
           "es": "Polifonía"
@@ -20517,7 +21210,7 @@
           "en": "Weight",
           "es": "Peso"
         },
-        "tone": "tradeoff"
+        "tone": "good"
       }
     ]
   },
@@ -20538,7 +21231,40 @@
       "andertons": "https://www.andertons.co.uk/casio-privia-px-s1100bkc5-ultra-slim-compact-stage-piano-in-black/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Casio-Privia-PX-S1100-BK/art-KEY0005519-000"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Slim apartment piano",
+      "es": "Piano fino para pisos pequeños"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "Smart Scaled Hammer Action",
+        "label": {
+          "en": "Keyboard action",
+          "es": "Acción del teclado"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "192",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "11.2 kg",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 572,
@@ -20557,7 +21283,40 @@
       "andertons": "https://www.andertons.co.uk/roland-fp10-portable-digital-piano-black/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Roland-FP-10-BK/art-KEY0004982-000"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "First serious piano, small budget",
+      "es": "Primer piano serio y asequible"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "PHA-4 Standard (escapement)",
+        "label": {
+          "en": "Keyboard action",
+          "es": "Acción del teclado"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "96",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "12.6 kg",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 573,
@@ -20576,7 +21335,40 @@
       "andertons": "https://www.andertons.co.uk/yamaha-ydp-146-digital-home-piano-in-black/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-YDP-146-BK/art-EPI0001380-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Affordable furniture console",
+      "es": "Consola de mueble asequible"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "GHS (no escapement)",
+        "label": {
+          "en": "Keyboard action",
+          "es": "Acción del teclado"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "192",
+        "label": {
+          "en": "Polyphony",
+          "es": "Polifonía"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "38 kg",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 577,
@@ -22722,7 +23514,40 @@
       "amazon",
       "andertons"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Piano realism, hybrid rigs",
+      "es": "Realismo de piano, rigs híbridos"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "88 PHA-50 hybrid wood",
+        "label": {
+          "en": "Keys & action",
+          "es": "Teclas y acción"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "21.7 kg (47 lbs 14 oz)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "V-Piano + SuperNATURAL",
+        "label": {
+          "en": "Sound engines",
+          "es": "Motores de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 638,
@@ -22742,7 +23567,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-YC88%2Fart-KEY0005386-000",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FYamaha-YC88-Digital-Stage-Keyboard-with-Drawbars%2F3Q2G"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Organ and rock stages",
+      "es": "Órgano y escenarios de rock"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "88 NW-GH3 wooden graded",
+        "label": {
+          "en": "Keys & action",
+          "es": "Teclas y acción"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "18.6 kg (41 lb)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "VCM Organ + AWM2 + FM",
+        "label": {
+          "en": "Sound engines",
+          "es": "Motores de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 639,
@@ -22763,7 +23621,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-Montage-M8x%2Fart-SYN0008831-000",
       "reverb": "https://reverb.com/p/yamaha-montage-m8x-88-key-synthesizer"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Huge live orchestrations",
+      "es": "Orquestaciones enormes en vivo"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "88 GEX weighted + poly AT",
+        "label": {
+          "en": "Keys & action",
+          "es": "Teclas y acción"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "28.1 kg (61 lb 15 oz)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "AN-X + AWM2 + FM-X",
+        "label": {
+          "en": "Sound engines",
+          "es": "Motores de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 640,
@@ -22786,7 +23677,40 @@
     "excludeStores": [
       "amazon"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Live sequencing and setlists",
+      "es": "Secuencias y setlists en vivo"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "88 PHA-50 hybrid + channel AT",
+        "label": {
+          "en": "Keys & action",
+          "es": "Teclas y acción"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "27.7 kg (61 lb 2 oz)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "ZEN-Core + V-Piano + ACB",
+        "label": {
+          "en": "Sound engines",
+          "es": "Motores de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 641,
@@ -22808,7 +23732,40 @@
     "excludeStores": [
       "amazon"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Lightweight vintage tone",
+      "es": "Sonido vintage y poco peso"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "61 waterfall semi-weighted",
+        "label": {
+          "en": "Keys & action",
+          "es": "Teclas y acción"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "8.3 kg (18.3 lb)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Organ 3 + Piano + new Synth",
+        "label": {
+          "en": "Sound engines",
+          "es": "Motores de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 642,
@@ -22829,7 +23786,40 @@
       "reverb": "https://reverb.com/p/korg-grandstage-x-88-key-digital-piano",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKorg-Grandstage-X-inkl-Wooden-stand%2Fart-KEY0005938-000"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Seven-engine stage piano",
+      "es": "Piano de directo con 7 motores"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "88 RH3 hammer",
+        "label": {
+          "en": "Keys & action",
+          "es": "Teclas y acción"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "25 kg (55.12 lb)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "7 engines (SGX-2 to HD-1)",
+        "label": {
+          "en": "Sound engines",
+          "es": "Motores de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 643,
@@ -22849,7 +23839,40 @@
       "andertons": "https://www.andertons.co.uk/arturia-astrolab-61-key-synth",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FArturia-AstroLab-61%2Fart-SYN0008965-000"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Your plugins, on stage",
+      "es": "Tus plugins, en el escenario"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "61 semi-weighted + AT",
+        "label": {
+          "en": "Keys & action",
+          "es": "Teclas y acción"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "9.9 kg (21.8 lb)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "40+ engines, 1,800+ presets",
+        "label": {
+          "en": "Sound engines",
+          "es": "Motores de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 644,
@@ -22869,7 +23892,40 @@
       "andertons": "https://www.andertons.co.uk/yamaha-ck88-88-key-ghs-graded-hammer-standard-keyboard/",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-CK88%2Fart-KEY0005768-000"
     },
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Battery gigging on a budget",
+      "es": "Directo con pilas y sin gastar"
+    },
+    "facts": [
+      {
+        "icon": "keyboard",
+        "value": "88 GHS graded hammer",
+        "label": {
+          "en": "Keys & action",
+          "es": "Teclas y acción"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "weight",
+        "value": "13.1 kg (28 lb 14 oz)",
+        "label": {
+          "en": "Weight",
+          "es": "Peso"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "AWM2 + organ, 363 voices",
+        "label": {
+          "en": "Sound engines",
+          "es": "Motores de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 645,
