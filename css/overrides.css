@@ -163,14 +163,12 @@
     width: 200px !important;
     height: 200px !important;
   }
-  /* Desktop: keep imgs (photo+quickfacts) fixed, stretch store buttons card */
+  /* Desktop: keep imgs (photo+quickfacts) fixed, widen store buttons card */
   .guide-section-mediabuy > .guide-section-imgs {
     flex: 0 0 auto !important;
   }
   .guide-section-mediabuy > .guide-section-buy {
-    flex: 1 1 auto !important;
-    width: auto !important;
-    max-width: 460px !important;
-    min-width: 260px !important;
+    flex: 0 0 auto !important;
+    width: 360px !important;
   }
 }
