@@ -2579,7 +2579,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Mobile DJs & solo gigs",
+      "es": "DJ móvil y solistas"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "1000W Class-D",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "127 dB peak",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 106,
@@ -2606,7 +2639,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Pro bands & DJs",
+      "es": "Bandas y DJ pro"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "2000W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "132 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "75° axisymmetric",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 107,
@@ -2628,7 +2694,40 @@
       "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-BLX24R-SM58-K3E-Rack-Mount-Wireless-Microphone-System/TU6",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Shure-BLX24RE-SM58-T11-863-865MHz-Wireless-Handheld-System/art-PAH0013749-000"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Live vocals & stage",
+      "es": "Voz en directo"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "Dynamic",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "50 Hz – 15 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Up to 14 h (2 AA)",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 108,
@@ -2654,7 +2753,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "High-output all-rounder",
+      "es": "Todo terreno potente"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "1100W dynamic",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "134 dB peak",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 109,
@@ -2681,7 +2813,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "All-in-one column PA",
+      "es": "Columna todo en uno"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "2000W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "131 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "140° x 40°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 110,
@@ -3601,7 +3766,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Simple analog mixer with FX",
+      "es": "Mezcladora analógica con FX"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "10 (4 mic)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "4 D-PRE",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB 2x2",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 138,
@@ -3626,7 +3824,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Best value for house bands",
+      "es": "Mejor valor para bandas"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "32 channels (up to 40)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "16 MIDAS",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB, AES50, 16 out",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 139,
@@ -3651,7 +3882,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Compact pro digital",
+      "es": "Digital compacta y pro"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "48 total",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "16 A&H",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB, 2x dSnake, tablet",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 140,
@@ -3952,7 +4216,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Loud budget 15-inch",
+      "es": "15 pulgadas económico"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "1400W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "129 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 152,
@@ -3980,7 +4277,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Street gigs & busking",
+      "es": "Directo en la calle"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "2000W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "123 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "120° x 30°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 153,
@@ -4008,7 +4338,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Light budget PA with bass",
+      "es": "PA ligera con bajos"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "2500W peak",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "132 dB peak",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 154,
@@ -4035,7 +4398,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Compact clean budget PA",
+      "es": "Compacta y clara"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "1000W dynamic",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "131 dB peak",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 155,
@@ -5881,7 +6277,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Maximum stage headroom",
+      "es": "Máximo headroom"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "2100W peak Class-D",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "130 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "100° x 70°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 217,
@@ -5908,7 +6337,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Clubs & small outdoor gigs",
+      "es": "Clubs y directos al aire"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "700W Class-D",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "129 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 90°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 218,
@@ -5935,7 +6397,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Budget wedge, solid bass",
+      "es": "Cuña económica con bajos"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "800W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "128 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 219,
@@ -5962,7 +6457,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Clean budget monitoring",
+      "es": "Monitoreo limpio y económico"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "1000W dynamic",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "129 dB peak",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 90°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 222,
@@ -6425,7 +6953,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Mid-size venues & cardioid",
+      "es": "Salas medianas y cardioide"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "18\" long-excursion",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "3600W peak Class-D",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "136 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 234,
@@ -6451,7 +7012,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.62
+    "score": 9.62,
+    "bestFor": {
+      "en": "Rock & metal bands",
+      "es": "Bandas de rock y metal"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "18\" with 4\" voice coil",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "2500W peak / 1250W RMS",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "136 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 235,
@@ -6478,7 +7072,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.43
+    "score": 9.43,
+    "bestFor": {
+      "en": "Working live bands",
+      "es": "Bandas en directo"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "EVS-18L 18\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "1200W Class-D",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "132 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 236,
@@ -6505,7 +7132,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.25
+    "score": 9.25,
+    "bestFor": {
+      "en": "Events & weddings",
+      "es": "Eventos y bodas"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "918SG 18\" ferrite",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "2000W peak / 1000W RMS",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "134 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 237,
@@ -6531,7 +7191,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.07
+    "score": 9.07,
+    "bestFor": {
+      "en": "Touring & deepest lows",
+      "es": "Gira y bajos profundos"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "18\" with 4\" voice coil",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "1020W dynamic",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "136 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 238,
@@ -7382,7 +8075,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Duos & rehearsals",
+      "es": "Dúos y ensayos"
+    },
+    "facts": [
+      {
+        "icon": "signal",
+        "value": "300 ft",
+        "label": {
+          "en": "Range",
+          "es": "Alcance"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "0 ms (analog)",
+        "label": {
+          "en": "Latency",
+          "es": "Latencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "2x AA",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 267,
@@ -7411,7 +8137,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Working bands",
+      "es": "Bandas en directo"
+    },
+    "facts": [
+      {
+        "icon": "signal",
+        "value": "300 ft",
+        "label": {
+          "en": "Range",
+          "es": "Alcance"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "0 ms (analog)",
+        "label": {
+          "en": "Latency",
+          "es": "Latencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "2x AA",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 268,
@@ -10206,7 +10965,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Mixer + recorder + interface",
+      "es": "Mezcladora, grabadora y USB"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "10 (12-track SD recorder)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "8 x Ultra-HDDA",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB-C 12-in/10-out",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 333,
@@ -10227,7 +11019,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAllen-Heath-ZEDi-10FX%2Fart-PAH0017785-000",
       "zzounds": "https://www.zzounds.com/item--AAHZEDI10FX?siid=182825"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Analog warmth + USB",
+      "es": "Calidez analógica + USB"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "10 (4 mono + 3 stereo)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "4 x GSPre",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB 4x4 24-bit/96kHz",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 334,
@@ -10252,7 +11077,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "True SSL console sound",
+      "es": "Sonido de consola SSL"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "12 analog",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "4 x SuperAnalogue (+72dB)",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB-C 16-in/16-out",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 335,
@@ -10274,7 +11132,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Analog workflow, digital FX",
+      "es": "Flujo analógico, FX digital"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "16 (8 mono + 4 stereo)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "8 x HiVolt",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB stereo + XLR outs",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 337,
@@ -10803,7 +11694,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Cable-free for beginners",
+      "es": "Sin cables para empezar"
+    },
+    "facts": [
+      {
+        "icon": "signal",
+        "value": "27 m (90 ft)",
+        "label": {
+          "en": "Range",
+          "es": "Alcance"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "<5 ms",
+        "label": {
+          "en": "Latency",
+          "es": "Latencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Micro-USB rechargeable",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 348,
@@ -10827,7 +11751,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Whole bands, 4 receivers",
+      "es": "Bandas enteras, 4 receptores"
+    },
+    "facts": [
+      {
+        "icon": "signal",
+        "value": "90 ft",
+        "label": {
+          "en": "Range",
+          "es": "Alcance"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "<5 ms",
+        "label": {
+          "en": "Latency",
+          "es": "Latencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Micro-USB rechargeable",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 349,
@@ -10852,7 +11809,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Touring professionals",
+      "es": "Profesionales de gira"
+    },
+    "facts": [
+      {
+        "icon": "signal",
+        "value": "300 ft",
+        "label": {
+          "en": "Range",
+          "es": "Alcance"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "0 ms (analog)",
+        "label": {
+          "en": "Latency",
+          "es": "Latencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "2x AA",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 350,
@@ -10874,7 +11864,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Stereo rehearsal monitoring",
+      "es": "Monitoreo estéreo en ensayos"
+    },
+    "facts": [
+      {
+        "icon": "signal",
+        "value": "160 ft",
+        "label": {
+          "en": "Range",
+          "es": "Alcance"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "0 ms (analog)",
+        "label": {
+          "en": "Latency",
+          "es": "Latencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "2x AA",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 352,
@@ -11448,7 +12471,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Growing bands on wireless",
+      "es": "Bandas que crecen"
+    },
+    "facts": [
+      {
+        "icon": "signal",
+        "value": "100 m",
+        "label": {
+          "en": "Range",
+          "es": "Alcance"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "0 ms (analog)",
+        "label": {
+          "en": "Latency",
+          "es": "Latencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "2x AA",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 363,
@@ -15881,7 +16937,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FJBL-EON712-12-Active-PA-Speaker-with-Bluetooth%2F463S",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FJBL-EON-712%2Fart-PAH0022712-000"
     },
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Portable PA for small gigs",
+      "es": "PA portátil para directos"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "1300W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "127 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "100° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 494,
@@ -15904,7 +16993,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FLD-Systems-ICOA-12-A-BT%2Fart-PAH0021617-000"
     },
     "unit": "each",
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Coaxial all-rounder",
+      "es": "Coaxial todo terreno"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "1200W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "126 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 50°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 495,
@@ -15927,7 +17049,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FElectro-Voice-ELX200-15P-15-Active-PA-Speaker%2F23EB",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FElectro-Voice-ELX200-15P%2Fart-PAH0019326-000"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Loud FOH for bands",
+      "es": "FOH potente para bandas"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "1200W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "132 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 496,
@@ -15949,7 +17104,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FJBL-PRX915%2Fart-PAH0023188-000"
     },
     "score": 9.3,
-    "unit": "each"
+    "unit": "each",
+    "bestFor": {
+      "en": "Tour-grade 15-inch",
+      "es": "15 pulgadas de gira"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "1000W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "133 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 50°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 497,
@@ -15972,7 +17160,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FJBL-JRX215-15-Passive-PA-Speaker%2FUXJ",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FJBL-JRX-215%2Fart-PAH0013936-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Passive 15-inch FOH",
+      "es": "15 pasiva para etapas"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "250W cont. / 1000W peak",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "129 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 50°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 499,
@@ -15995,7 +17216,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FYamaha-CBR12-12-Passive-PA-Speaker%2F13M7",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-CBR12-%2Fart-PAH0016341-000"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Lightweight 12-inch",
+      "es": "12 pulgadas ligera"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "175W cont. / 700W peak",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "125 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 500,
@@ -16017,7 +17271,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FElectro-Voice-ELX200-12-12-Passive-Speaker-Black%2F23EG",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FElectro-Voice-ELX200-12%2Fart-PAH0019428-000"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Passive 12-inch, pro build",
+      "es": "12 pasiva robusta"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "300W cont. / 1,200W peak",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "128 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 501,
@@ -16041,7 +17328,40 @@
       "amazon": "https://www.amazon.com/dp/B06Y4R9ZBF",
       "zzounds": "https://www.zzounds.com/item--TURTFX122MAN"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Live monitoring for bands",
+      "es": "Monitoreo en directo"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "1100W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "125 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "60° x 40°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 502,
@@ -16064,7 +17384,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FPA-DJ-and-Lighting%2FMackie-SRT215-15-Active-PA-Speaker%2F3Q8C",
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMackie-SRT215%2Fart-PAH0022227-000"
     },
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "15-inch FOH & monitors",
+      "es": "15 para FOH y monitores"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "1600W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "133 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "90° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 503,
@@ -18481,7 +19834,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Electro-Voice-EVERSE-12/art-PAH0023691-000"
     },
     "unit": "each",
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Battery-powered outdoors",
+      "es": "Exteriores con batería"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "400W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "126 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "cone",
+        "value": "100° x 60°",
+        "label": {
+          "en": "Coverage",
+          "es": "Cobertura"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 627,
@@ -18565,7 +19951,40 @@
       "zzounds": "https://www.zzounds.com/item--APATS18SXUS?siid=339921"
     },
     "unit": "each",
-    "score": 8.88
+    "score": 8.88,
+    "bestFor": {
+      "en": "Most punch per dollar",
+      "es": "Máximo golpe por precio"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "18\" woofer",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "2500W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "137 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 631,
@@ -18587,7 +20006,40 @@
       "zzounds": "https://www.zzounds.com/item--JBLEON718S?siid=308811"
     },
     "unit": "each",
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Touring DJs & bands",
+      "es": "DJ y bandas de gira"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "18\" woofer",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "1500W (peak)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "131 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 632,
@@ -19335,7 +20787,40 @@
       "andertons": "https://www.andertons.co.uk/bose-t8s-tonematch/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Bose-T8S-ToneMatch-Mixer/art-PAH0019778-000"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Acoustic duos & weddings",
+      "es": "Dúos acústicos y bodas"
+    },
+    "facts": [
+      {
+        "icon": "sliders",
+        "value": "8 (ToneMatch presets)",
+        "label": {
+          "en": "Channels",
+          "es": "Canales"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "8 Bose with 48 V phantom",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "globe",
+        "value": "USB interface + stand mount",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 659,

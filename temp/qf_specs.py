@@ -84,6 +84,31 @@ ROW_KINDS = {
     'midiout': ['audio-to-midi'],
     'multitrack': ['multi-track view'],
     'ecosystem': ['ecosystem', 'ecosistema'],
+    # live sound
+    'power': ['power', 'potencia'],
+    'maxspl': ['max spl'],
+    'coverage': ['coverage', 'cobertura', 'dispersion', 'dispersión'],
+    'driver': ['driver', 'drivers', 'woofer', 'hf driver', 'controlador'],
+    'inputs': ['inputs', 'entradas'],
+    'freq': ['frequency response', 'respuesta de frecuencia'],
+    'dsp': ['dsp', 'dsp & control'],
+    'cardioid': ['cardioid mode', 'modo cardioide'],
+    'range': ['range', 'alcance'],
+    'audio': ['audio'],
+    'nc': ['noise cancelling', 'cancelacion de ruido'],
+    'battery': ['battery', 'bateria', 'batería'],
+    'mute': ['mute control'],
+    'extras': ['extras'],
+    'angle': ['monitor angle'],
+    # mixers / interfaces
+    'channels': ['channels', 'canales'],
+    'preamps': ['preamps', 'preamplificadores'],
+    'eq': ['eq', 'ecualizacion'],
+    'aux': ['aux sends', 'auxiliares'],
+    'fx': ['built-in fx', 'efectos integrados'],
+    'conn': ['connectivity', 'conectividad'],
+    'faders': ['faders / control', 'faders', 'controles'],
+    'samplerate': ['sample rate', 'frecuencia de muestreo'],
 }
 
 

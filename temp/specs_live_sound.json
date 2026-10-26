@@ -1,0 +1,1251 @@
+{
+ "493": {
+  "ptype": [
+   "Powered PA speaker"
+  ],
+  "power": [
+   "1300W (peak)"
+  ],
+  "driver": [
+   "12\" + 1\" HF"
+  ],
+  "freq": [
+   "50 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "127 dB"
+  ],
+  "coverage": [
+   "100° x 60°"
+  ],
+  "dsp": [
+   "dbx DriveRack DSP + presets"
+  ],
+  "inputs": [
+   "2x XLR/combo + XLR thru + Bluetooth"
+  ],
+  "weight": [
+   "32.2 lb (14.6 kg)"
+  ]
+ },
+ "495": {
+  "ptype": [
+   "Powered PA speaker"
+  ],
+  "power": [
+   "1200W (peak)"
+  ],
+  "driver": [
+   "15\" + 1\" HF"
+  ],
+  "freq": [
+   "48 Hz – 19 kHz"
+  ],
+  "maxspl": [
+   "132 dB"
+  ],
+  "coverage": [
+   "90° x 60°"
+  ],
+  "dsp": [
+   "QuickSmartDSP presets + app control"
+  ],
+  "inputs": [
+   "2x XLR/combo + RCA + XLR out"
+  ],
+  "weight": [
+   "41.7 lb (18.9 kg)"
+  ]
+ },
+ "497": {
+  "ptype": [
+   "Passive PA speaker"
+  ],
+  "power": [
+   "250W cont. / 1000W peak (8Ω)"
+  ],
+  "driver": [
+   "15\" + 1\" HF"
+  ],
+  "freq": [
+   "41 Hz – 18 kHz"
+  ],
+  "maxspl": [
+   "129 dB"
+  ],
+  "coverage": [
+   "90° x 50°"
+  ],
+  "dsp": [
+   "None — external amp/crossover"
+  ],
+  "inputs": [
+   "NL4 + 0.25\" jack"
+  ],
+  "weight": [
+   "60.5 lb (27.4 kg)"
+  ]
+ },
+ "502": {
+  "ptype": [
+   "Powered PA speaker"
+  ],
+  "power": [
+   "1600W (peak)"
+  ],
+  "driver": [
+   "15\" + 1.4\" HF"
+  ],
+  "freq": [
+   "42 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "133 dB"
+  ],
+  "coverage": [
+   "90° x 60°"
+  ],
+  "dsp": [
+   "Advanced Impulse DSP + SRT Connect app"
+  ],
+  "inputs": [
+   "2x XLR/combo + 1/8\" aux + XLR out + Bluetooth"
+  ],
+  "weight": [
+   "37.1 lb (16.8 kg)"
+  ]
+ },
+ "499": {
+  "ptype": [
+   "Passive PA speaker"
+  ],
+  "power": [
+   "175W cont. / 700W peak (8Ω)"
+  ],
+  "driver": [
+   "12\" + 1.4\" HF"
+  ],
+  "freq": [
+   "48 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "125 dB"
+  ],
+  "coverage": [
+   "90° x 60°"
+  ],
+  "dsp": [
+   "None — external amp/crossover"
+  ],
+  "inputs": [
+   "NL4 + 0.25\" jack"
+  ],
+  "weight": [
+   "30.6 lb (13.9 kg)"
+  ]
+ },
+ "500": {
+  "ptype": [
+   "Passive PA speaker"
+  ],
+  "power": [
+   "300W cont. / 1,200W peak (8Ω)"
+  ],
+  "driver": [
+   "12\" + 1\" HF"
+  ],
+  "freq": [
+   "51 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "128 dB"
+  ],
+  "coverage": [
+   "90° x 60°"
+  ],
+  "dsp": [
+   "None — external amp/crossover"
+  ],
+  "inputs": [
+   "Dual NL4"
+  ],
+  "weight": [
+   "33.5 lb (15.2 kg)"
+  ]
+ },
+ "105": {
+  "ptype": [
+   "Powered PA speaker"
+  ],
+  "power": [
+   "1000W Class-D"
+  ],
+  "driver": [
+   "12\" WECA2128 + 1.4\" titanium DECA2516"
+  ],
+  "freq": [
+   "54 Hz – 18.5 kHz (-3 dB) / 48 Hz – 20 kHz (-10 dB)"
+  ],
+  "maxspl": [
+   "127 dB peak"
+  ],
+  "coverage": [
+   "90° x 60°"
+  ],
+  "dsp": [
+   "DSP presets (music/live/voice)"
+  ],
+  "inputs": [
+   "Mic/line XLR, RCA, Bluetooth (ZLX-12P-G2)"
+  ],
+  "weight": [
+   "32.67 lb (14.82 kg)"
+  ]
+ },
+ "106": {
+  "ptype": [
+   "Powered PA speaker"
+  ],
+  "power": [
+   "2000W (peak)",
+   "1000W (peak)"
+  ],
+  "driver": [
+   "12\" + 1.4\" HF",
+   "12\" + 1.4\" titanium compression driver"
+  ],
+  "freq": [
+   "50 Hz – 20 kHz",
+   "50 Hz – 20 kHz (-6 dB) / 45 Hz – 20 kHz (-10 dB)"
+  ],
+  "maxspl": [
+   "132 dB",
+   "132 dB peak / 126 dB continuous"
+  ],
+  "coverage": [
+   "75° axisymmetric",
+   "75° axisymmetric DMT"
+  ],
+  "dsp": [
+   "Intrinsic Correction DSP + presets",
+   "DSP with 8 presets"
+  ],
+  "inputs": [
+   "2x XLR/combo + 3.5mm + XLR thru",
+   "2x XLR/combo, RCA, 3.5mm"
+  ],
+  "weight": [
+   "39 lb (17.7 kg)"
+  ]
+ },
+ "154": {
+  "ptype": [
+   "Powered PA speaker"
+  ],
+  "power": [
+   "1000W dynamic (800W LF + 200W)"
+  ],
+  "driver": [
+   "12\" + 1.4\" HF"
+  ],
+  "freq": [
+   "52 Hz – 20 kHz (-10 dB)"
+  ],
+  "maxspl": [
+   "131 dB peak"
+  ],
+  "coverage": [
+   "90° x 60°"
+  ],
+  "dsp": [
+   "DSP presets"
+  ],
+  "inputs": [
+   "2x XLR/combo + XLR out"
+  ],
+  "weight": [
+   "34.8 lb (15.8 kg)"
+  ]
+ },
+ "138": {
+  "channels": [
+   "32 channels (up to 40)",
+   "40 (16 local XLR)"
+  ],
+  "samplerate": [
+   "48 kHz / 0.8 ms",
+   "48 kHz"
+  ],
+  "ptype": [
+   "digital mixer"
+  ],
+  "preamps": [
+   "16 MIDAS"
+  ],
+  "eq": [
+   "4-band fully parametric"
+  ],
+  "aux": [
+   "16 aux buses"
+  ],
+  "fx": [
+   "8 FX engines"
+  ],
+  "conn": [
+   "USB, AES50, 16 out"
+  ],
+  "weight": [
+   "33.9 lb (15.4 kg)"
+  ],
+  "faders": [
+   "17 motorized faders"
+  ]
+ },
+ "137": {
+  "ptype": [
+   "Analog mixer"
+  ],
+  "channels": [
+   "10 (4 mic)"
+  ],
+  "preamps": [
+   "4 D-PRE"
+  ],
+  "eq": [
+   "3-band per channel"
+  ],
+  "aux": [
+   "1 AUX (FX) send"
+  ],
+  "fx": [
+   "SPX digital FX"
+  ],
+  "conn": [
+   "USB 2x2"
+  ],
+  "weight": [
+   "4.6 lb (2.1 kg)"
+  ]
+ },
+ "333": {
+  "ptype": [
+   "Analog hybrid with 4x4 USB interface"
+  ],
+  "channels": [
+   "10 (4 mono + 3 stereo)"
+  ],
+  "preamps": [
+   "4 x GSPre"
+  ],
+  "eq": [
+   "MusiQ 3-band (mono), 2-band (stereo)"
+  ],
+  "aux": [
+   "1 aux + 1 FX send"
+  ],
+  "fx": [
+   "Yes (multi-model reverb/delay)"
+  ],
+  "conn": [
+   "USB 4x4 24-bit/96kHz, XLR main outs"
+  ],
+  "weight": [
+   "2.3 kg (5.1 lb)"
+  ]
+ },
+ "334": {
+  "ptype": [
+   "SuperAnalogue desktop console + USB"
+  ],
+  "channels": [
+   "12 analog (4 mono + 4 stereo)"
+  ],
+  "preamps": [
+   "4 x SuperAnalogue (+72dB)"
+  ],
+  "eq": [
+   "SSL E-Series 3-band, bell/shelf"
+  ],
+  "aux": [
+   "2 stereo cue feeds"
+  ],
+  "fx": [
+   "None (G-Bus comp + LMC instead)"
+  ],
+  "conn": [
+   "USB-C 16-in/16-out 24-bit/96kHz"
+  ],
+  "weight": [
+   "10 kg (22 lb)"
+  ]
+ },
+ "332": {
+  "ptype": [
+   "Hybrid analog with digital recorder & USB"
+  ],
+  "channels": [
+   "10 (12-track SD recorder)"
+  ],
+  "preamps": [
+   "8 x Ultra-HDDA"
+  ],
+  "eq": [
+   "3-band w/ sweepable mid + low-cut"
+  ],
+  "aux": [
+   "2 aux sends"
+  ],
+  "fx": [
+   "Yes (reverb, delay, chorus)"
+  ],
+  "conn": [
+   "USB-C 12-in/10-out, SD recorder, Bluetooth 5.0, MIDI"
+  ],
+  "weight": [
+   "4.3 kg (9.5 lb)"
+  ],
+  "faders": [
+   "Analog faders (non-motorized)"
+  ],
+  "samplerate": [
+   "48 kHz"
+  ]
+ },
+ "335": {
+  "ptype": [
+   "Hybrid analog/digital, true 8-bus",
+   "Hybrid Analog/digital Mixer"
+  ],
+  "channels": [
+   "16 (8 mono + 4 stereo)"
+  ],
+  "preamps": [
+   "8 x HiVolt"
+  ],
+  "eq": [
+   "3-band analog + 9-band ParaGraphic GEQ",
+   "3-band with sweepable mid + 9-band ParaGraphic main EQ"
+  ],
+  "aux": [
+   "2 aux + FX buses",
+   "4 Aux sends"
+  ],
+  "fx": [
+   "Yes (20 x 32-bit, up to 10 at once)",
+   "Korg 32-bit digital FX (up to 10 simultaneously)"
+  ],
+  "conn": [
+   "USB stereo record/playback, XLR speaker outs",
+   "USB stereo, 8-bus architecture"
+  ],
+  "weight": [
+   "8 kg (17.6 lb)",
+   "17.6 lb (8.0 kg)"
+  ],
+  "faders": [
+   "Analog faders (non-motorized)"
+  ],
+  "samplerate": [
+   "48 kHz (USB)"
+  ]
+ },
+ "347": {
+  "ptype": [
+   "2.4 GHz wireless system"
+  ],
+  "latency": [
+   "<5 ms"
+  ],
+  "range": [
+   "27 m (90 ft)",
+   "90 ft"
+  ],
+  "power": [
+   "Micro-USB rechargeable"
+  ]
+ },
+ "362": {
+  "ptype": [
+   "Entry-level UHF wireless system"
+  ],
+  "latency": [
+   "0 ms (analog)"
+  ],
+  "range": [
+   "100 m",
+   "328 ft / 100 m"
+  ],
+  "power": [
+   "2x AA"
+  ]
+ },
+ "139": {
+  "ptype": [
+   "digital mixer"
+  ],
+  "channels": [
+   "48 total"
+  ],
+  "preamps": [
+   "16 A&H"
+  ],
+  "eq": [
+   "4-band parametric"
+  ],
+  "aux": [
+   "12 stereo mixes + LR, 8 stereo FX engines"
+  ],
+  "fx": [
+   "8 FX slots (DEEP)"
+  ],
+  "conn": [
+   "USB, 2x dSnake, tablet"
+  ],
+  "weight": [
+   "23.1 lb (10.5 kg)"
+  ],
+  "faders": [
+   "17 motorized faders"
+  ],
+  "samplerate": [
+   "96 kHz"
+  ]
+ },
+ "658": {
+  "ptype": [
+   "Compact digital mixer"
+  ],
+  "channels": [
+   "8 (ToneMatch presets per channel)"
+  ],
+  "preamps": [
+   "8 Bose with 48 V phantom"
+  ],
+  "eq": [
+   "ToneMatch + zEQ per channel"
+  ],
+  "aux": [
+   "4 aux outs"
+  ],
+  "fx": [
+   "Per-channel dynamics + shared reverb"
+  ],
+  "conn": [
+   "USB interface + stand mount"
+  ],
+  "weight": [
+   "1.9 kg (4.1 lb)"
+  ],
+  "faders": [
+   "Rotary encoders, no faders"
+  ],
+  "samplerate": [
+   "48 kHz"
+  ]
+ },
+ "233": {
+  "ptype": [
+   "Active, direct radiating"
+  ],
+  "driver": [
+   "18\" long-excursion"
+  ],
+  "power": [
+   "3600W peak Class-D"
+  ],
+  "freq": [
+   "35-111 Hz (-10 dB)"
+  ],
+  "maxspl": [
+   "136 dB"
+  ],
+  "cardioid": [
+   "Yes (2 units)"
+  ],
+  "dsp": [
+   "DEEP mode, scenes, crossover, delay"
+  ],
+  "weight": [
+   "47 kg (104 lb)"
+  ]
+ },
+ "234": {
+  "ptype": [
+   "Active, bass reflex"
+  ],
+  "driver": [
+   "18\" with 4\" voice coil"
+  ],
+  "power": [
+   "2500W peak / 1250W RMS"
+  ],
+  "freq": [
+   "30-120 Hz"
+  ],
+  "maxspl": [
+   "136 dB"
+  ],
+  "cardioid": [
+   "Yes"
+  ],
+  "dsp": [
+   "Xover, phase, Deep/Punch, delay, cardioid"
+  ],
+  "weight": [
+   "56 kg (123.5 lb)"
+  ]
+ },
+ "235": {
+  "ptype": [
+   "Active, bass reflex"
+  ],
+  "driver": [
+   "EVS-18L 18\""
+  ],
+  "power": [
+   "1200W Class-D"
+  ],
+  "freq": [
+   "40-145 Hz (-10 dB)"
+  ],
+  "maxspl": [
+   "132 dB"
+  ],
+  "cardioid": [
+   "No"
+  ],
+  "dsp": [
+   "QuickSmartDSP + app (6 units)"
+  ],
+  "weight": [
+   "29 kg (64 lb)"
+  ]
+ },
+ "236": {
+  "ptype": [
+   "Active, bass reflex"
+  ],
+  "driver": [
+   "918SG 18\" ferrite"
+  ],
+  "power": [
+   "2000W peak / 1000W RMS"
+  ],
+  "freq": [
+   "30-110 Hz (-10 dB)"
+  ],
+  "maxspl": [
+   "134 dB"
+  ],
+  "cardioid": [
+   "No"
+  ],
+  "dsp": [
+   "6-band EQ, lowpass, delay vía BLE app"
+  ],
+  "weight": [
+   "40.7 kg (89.7 lb)"
+  ]
+ },
+ "237": {
+  "ptype": [
+   "Active, bass reflex"
+  ],
+  "driver": [
+   "18\" with 4\" voice coil"
+  ],
+  "power": [
+   "1020W dynamic / 800W continuous"
+  ],
+  "freq": [
+   "32 Hz – 120 Hz (-10 dB)"
+  ],
+  "maxspl": [
+   "136 dB"
+  ],
+  "cardioid": [
+   "Yes"
+  ],
+  "dsp": [
+   "D-XSUB modes + cardioid, FIR-X"
+  ],
+  "weight": [
+   "110 lb (49.7 kg)"
+  ]
+ },
+ "630": {
+  "ptype": [
+   "Powered subwoofer"
+  ],
+  "driver": [
+   "18\" woofer"
+  ],
+  "power": [
+   "2500W (peak)"
+  ],
+  "freq": [
+   "35 Hz – 100 Hz"
+  ],
+  "maxspl": [
+   "137 dB"
+  ],
+  "cardioid": [
+   "No"
+  ],
+  "dsp": [
+   "DSP tunings + phase switch, no app"
+  ],
+  "weight": [
+   "93 lb (42.2 kg)"
+  ]
+ },
+ "631": {
+  "ptype": [
+   "Powered subwoofer"
+  ],
+  "driver": [
+   "18\" woofer"
+  ],
+  "power": [
+   "1500W (peak)"
+  ],
+  "freq": [
+   "40 Hz – 120 Hz"
+  ],
+  "maxspl": [
+   "131 dB"
+  ],
+  "cardioid": [
+   "Yes, stackable"
+  ],
+  "dsp": [
+   "dbx DSP + LCD + Bluetooth app"
+  ],
+  "weight": [
+   "81.5 lb (37 kg)"
+  ]
+ },
+ "107": {
+  "ptype": [
+   "Dynamic (moving coil), passive",
+   "Dynamic"
+  ],
+  "freq": [
+   "50 Hz – 15 kHz"
+  ],
+  "maxspl": [
+   "~160 dB SPL (physical capsule limit)",
+   "Not published"
+  ],
+  "weight": [
+   "298 g"
+  ],
+  "battery": [
+   "Up to 14 h (2 AA)"
+  ]
+ },
+ "108": {
+  "ptype": [
+   "Powered PA speaker"
+  ],
+  "power": [
+   "1100W dynamic (950W LF + 150W HF)"
+  ],
+  "driver": [
+   "12\" + 1.75\" HF"
+  ],
+  "freq": [
+   "52 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "134 dB peak"
+  ],
+  "coverage": [
+   "90° x 60°"
+  ],
+  "dsp": [
+   "DSP presets, D-XR tuning"
+  ],
+  "inputs": [
+   "2x XLR/combo + XLR out"
+  ],
+  "weight": [
+   "41 lb (18.6 kg)"
+  ]
+ },
+ "151": {
+  "ptype": [
+   "Powered PA speaker"
+  ],
+  "power": [
+   "1400W (peak)"
+  ],
+  "driver": [
+   "15\" + 1\" HF",
+   "15\" + 1\" compression driver"
+  ],
+  "freq": [
+   "40 Hz – 20 kHz",
+   "40 Hz – 23 kHz"
+  ],
+  "maxspl": [
+   "129 dB"
+  ],
+  "coverage": [
+   "90° x 60°"
+  ],
+  "dsp": [
+   "Voicing presets + outdoor mode + app",
+   "DSP presets"
+  ],
+  "inputs": [
+   "2x XLR/combo + 3.5mm + Bluetooth",
+   "2x XLR/combo, Bluetooth"
+  ],
+  "weight": [
+   "35.1 lb (15.9 kg)"
+  ]
+ },
+ "496": {
+  "ptype": [
+   "Powered PA speaker"
+  ],
+  "power": [
+   "1000W (peak)"
+  ],
+  "driver": [
+   "15\" + 1.5\" HF"
+  ],
+  "freq": [
+   "48 Hz – 19 kHz"
+  ],
+  "maxspl": [
+   "133 dB"
+  ],
+  "coverage": [
+   "90° x 50°"
+  ],
+  "dsp": [
+   "dbx DriveRack DSP + OLED/app control"
+  ],
+  "inputs": [
+   "2x XLR/combo + aux + 2x XLR thru"
+  ],
+  "weight": [
+   "53.1 lb (24.1 kg)"
+  ]
+ },
+ "267": {
+  "latency": [
+   "0 ms (analog)"
+  ],
+  "range": [
+   "300 ft"
+  ],
+  "power": [
+   "2x AA"
+  ]
+ },
+ "266": {
+  "latency": [
+   "0 ms (analog)"
+  ],
+  "range": [
+   "300 ft"
+  ],
+  "power": [
+   "2x AA"
+  ]
+ },
+ "348": {
+  "latency": [
+   "<5 ms"
+  ],
+  "range": [
+   "90 ft"
+  ],
+  "power": [
+   "Micro-USB rechargeable"
+  ]
+ },
+ "350": {
+  "latency": [
+   "0 ms (analog)"
+  ],
+  "range": [
+   "160 ft"
+  ],
+  "power": [
+   "2x AA"
+  ]
+ },
+ "153": {
+  "ptype": [
+   "Powered PA speaker"
+  ],
+  "power": [
+   "2500W peak (1600W LF + 900W HF)",
+   "2500W (peak)"
+  ],
+  "driver": [
+   "12\" + 1\" HF"
+  ],
+  "freq": [
+   "53 Hz – 20 kHz (±3 dB) / 44 Hz – 20 kHz (-10 dB)",
+   "53 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "132 dB peak / 129 dB continuous",
+   "132 dB"
+  ],
+  "coverage": [
+   "90° x 60°"
+  ],
+  "dsp": [
+   "DSP presets",
+   "DSP + app control + Bluetooth"
+  ],
+  "inputs": [
+   "2x XLR/combo + XLR out",
+   "2x XLR/combo + XLR out + Bluetooth"
+  ],
+  "weight": [
+   "33 lb (15 kg)"
+  ]
+ },
+ "494": {
+  "ptype": [
+   "Powered PA speaker"
+  ],
+  "power": [
+   "1200W (peak)"
+  ],
+  "driver": [
+   "12\" coaxial + 1\" HF"
+  ],
+  "freq": [
+   "50 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "126 dB"
+  ],
+  "coverage": [
+   "90° x 50°"
+  ],
+  "dsp": [
+   "DynX presets + EQ + delay"
+  ],
+  "inputs": [
+   "2x XLR/combo + 3.5mm + Bluetooth"
+  ],
+  "weight": [
+   "44 lb (19.95 kg)"
+  ]
+ },
+ "109": {
+  "ptype": [
+   "Column PA"
+  ],
+  "power": [
+   "2000W (peak)"
+  ],
+  "driver": [
+   "12\" sub + 6x 1.5\" array"
+  ],
+  "freq": [
+   "38 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "131 dB"
+  ],
+  "coverage": [
+   "140° x 40°"
+  ],
+  "dsp": [
+   "DSP + app control"
+  ],
+  "inputs": [
+   "3x XLR/combo, Bluetooth, 2x aux"
+  ],
+  "weight": [
+   "56.6 lb (25.7 kg)"
+  ]
+ },
+ "152": {
+  "ptype": [
+   "Column PA"
+  ],
+  "power": [
+   "2000W"
+  ],
+  "driver": [
+   "10\" sub + 8x 1\" array"
+  ],
+  "freq": [
+   "40 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "123 dB"
+  ],
+  "coverage": [
+   "120° x 30°"
+  ],
+  "dsp": [
+   "FX + app EQ"
+  ],
+  "inputs": [
+   "4x mic/line + Bluetooth + app"
+  ],
+  "weight": [
+   "50.7 lb (23.0 kg)"
+  ]
+ },
+ "626": {
+  "ptype": [
+   "Battery-powered PA speaker"
+  ],
+  "power": [
+   "400W (peak)"
+  ],
+  "driver": [
+   "12\" + 1\" HF"
+  ],
+  "freq": [
+   "45 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "126 dB"
+  ],
+  "coverage": [
+   "100° x 60°"
+  ],
+  "dsp": [
+   "QuickSmart DSP + app + Bluetooth"
+  ],
+  "inputs": [
+   "2x XLR/combo + 3.5mm + XLR out"
+  ],
+  "weight": [
+   "31.2 lb (14.16 kg)"
+  ]
+ },
+ "217": {
+  "ptype": [
+   "2-way coaxial (floor wedge / mains)",
+   "Powered wedge"
+  ],
+  "driver": [
+   "12\" coaxial",
+   "1.75\" coaxial compression driver",
+   "12\" / 1.75\" coaxial"
+  ],
+  "power": [
+   "700W Class-D",
+   "700W Class-D (500W LF + 200W HF)"
+  ],
+  "freq": [
+   "64 Hz – 20 kHz (-3 dB)",
+   "64 Hz – 20 kHz (-3 dB) / 53 Hz – 20 kHz (-10 dB)"
+  ],
+  "maxspl": [
+   "129 dB",
+   "129 dB peak"
+  ],
+  "coverage": [
+   "90° x 90°",
+   "90° x 90° symmetrical"
+  ],
+  "angle": [
+   "55°"
+  ],
+  "weight": [
+   "13.5 kg (29.8 lb)",
+   "29.8 lb (13.5 kg)"
+  ],
+  "dsp": [
+   "DSP presets + app"
+  ],
+  "inputs": [
+   "2x XLR/TRS combo + stereo RCA + XLR THRU + MIXOUT"
+  ]
+ },
+ "216": {
+  "ptype": [
+   "2-way horn-loaded (floor wedge / mains)",
+   "Powered wedge"
+  ],
+  "driver": [
+   "12\" (2.5\" voice coil)",
+   "1.75\" compression driver (TRW waveguide)",
+   "12\" (2.5\" v.c.) + 1\" throat compression driver"
+  ],
+  "power": [
+   "2100W peak Class-D",
+   "2100W (peak)"
+  ],
+  "freq": [
+   "50 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "130 dB"
+  ],
+  "coverage": [
+   "100° x 70°",
+   "100° H x 70° V"
+  ],
+  "angle": [
+   "Horizontal or vertical (multifunction)"
+  ],
+  "weight": [
+   "20 kg (44 lb)",
+   "44.09 lb (20 kg)"
+  ],
+  "dsp": [
+   "DSP presets (music/live/voice)"
+  ],
+  "inputs": [
+   "2x XLR/combo + XLR out"
+  ]
+ },
+ "218": {
+  "ptype": [
+   "Powered wedge"
+  ],
+  "power": [
+   "800W (peak)"
+  ],
+  "driver": [
+   "12\" + 1\" HF"
+  ],
+  "freq": [
+   "55 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "128 dB"
+  ],
+  "coverage": [
+   "90° x 60°"
+  ],
+  "dsp": [
+   "DSP presets"
+  ],
+  "inputs": [
+   "2x XLR/combo"
+  ],
+  "weight": [
+   "30.9 lb (14 kg)"
+  ]
+ },
+ "219": {
+  "ptype": [
+   "Powered wedge"
+  ],
+  "power": [
+   "1000W dynamic (800W LF + 200W HF)"
+  ],
+  "driver": [
+   "12\" (2.5\" v.c.) + 1.75\" coaxial (1\" throat)"
+  ],
+  "freq": [
+   "55 Hz – 20 kHz (-10 dB)"
+  ],
+  "maxspl": [
+   "129 dB peak"
+  ],
+  "coverage": [
+   "90° x 90°"
+  ],
+  "dsp": [
+   "DSP presets"
+  ],
+  "inputs": [
+   "2x XLR/combo + XLR out"
+  ],
+  "weight": [
+   "36.4 lb (16.5 kg)"
+  ]
+ },
+ "501": {
+  "ptype": [
+   "Powered wedge"
+  ],
+  "power": [
+   "1100W (peak)"
+  ],
+  "driver": [
+   "12\" + 1\" HF"
+  ],
+  "freq": [
+   "68 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "125 dB"
+  ],
+  "coverage": [
+   "60° x 40°"
+  ],
+  "dsp": [
+   "DSP presets (Klark Teknik)"
+  ],
+  "inputs": [
+   "1x combo + XLR out + ULTRANET"
+  ],
+  "weight": [
+   "37.2 lb (16.9 kg)"
+  ]
+ },
+ "382": {
+  "ptype": [
+   "Music theory workstation (MIDI)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Automatic key detection with one-finger chords"
+  ]
+ },
+ "1032": {
+  "editing": [
+   "Basic monophonic (one track per window)"
+  ],
+  "timing": [
+   "Manual note-by-note timing"
+  ],
+  "formant": [
+   "Not included (Assistant and higher only)"
+  ],
+  "midiout": [
+   "Not included (Assistant and higher only)"
+  ],
+  "multitrack": [
+   "No: one track per window (Studio only)"
+  ],
+  "ecosystem": [
+   "Standalone (needs ARA or manual transfer)"
+  ]
+ },
+ "1040": {
+  "editing": [
+   "Monophonic (smart multi-track view)"
+  ],
+  "timing": [
+   "Automatic SmartAttack + macros"
+  ],
+  "formant": [
+   "Included: reshape vocal timbre and character"
+  ],
+  "midiout": [
+   "Not included (audio processing only)"
+  ],
+  "multitrack": [
+   "Yes: several takes side by side"
+  ],
+  "ecosystem": [
+   "Direct SynchroLink to VocAlign & Revoice"
+  ]
+ }
+}

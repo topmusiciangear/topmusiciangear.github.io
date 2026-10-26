@@ -6911,6 +6911,18 @@ function buildGuidePage(guide, lang, idx) {
             if (name === 'chip') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><rect x="7" y="4" width="10" height="8" rx="1.5"/><line x1="10" y1="1.5" x2="10" y2="4"/><line x1="14" y1="1.5" x2="14" y2="4"/><line x1="10" y1="12" x2="10" y2="14.5"/><line x1="14" y1="12" x2="14" y2="14.5"/></svg>';
             }
+            if (name === 'cone') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M3 8 L 19 3.5"/><path d="M3 8 L 19 12.5"/><path d="M19 3.5 A 9 9 0 0 1 19 12.5"/></svg>';
+            }
+            if (name === 'speaker') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="6.4"/><circle cx="12" cy="8" r="2"/></svg>';
+            }
+            if (name === 'signal') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><line x1="12" y1="14" x2="12" y2="11.5"/><path d="M9 9 A 5 5 0 0 1 15 9"/><path d="M5.8 5.5 A 9.4 9.4 0 0 1 18.2 5.5"/></svg>';
+            }
+            if (name === 'battery') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><rect x="2.5" y="4" width="15.5" height="8" rx="1.5"/><line x1="20.5" y1="6.5" x2="20.5" y2="9.5"/><line x1="6.5" y1="6" x2="6.5" y2="10"/><line x1="10.5" y1="6" x2="10.5" y2="10"/></svg>';
+            }
             return icon(name, 'fa-solid');
           }
           const _cardBase = 'background:#22252c;border-radius:8px;padding:4px 6px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:2px;overflow:hidden;';
