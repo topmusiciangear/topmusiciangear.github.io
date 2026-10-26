@@ -1574,7 +1574,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Live techno and 808/909",
+      "es": "Techno en directo y 808/909"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Rhythm performer",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "11 parts + trigger",
+        "label": {
+          "en": "Tracks",
+          "es": "Pistas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "ACB + FM + samples",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 39,
@@ -4704,7 +4737,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Stereo sampling god",
+      "es": "Sampling estéreo de referencia"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Drum computer + sampler",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "16 stereo/MIDI",
+        "label": {
+          "en": "Tracks",
+          "es": "Pistas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Stereo samples + machines",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 128,
@@ -4729,7 +4795,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "ACB classics to go",
+      "es": "Los clásicos ACB, para llevar"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Compact drum machine",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "ACB + FM + samples",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "AA / USB",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 129,
@@ -4754,7 +4853,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "First groovebox, no screen",
+      "es": "Primer groovebox, sin pantalla"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Groovebox (8-track)",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "2 synth + 4 drum + 2 MIDI",
+        "label": {
+          "en": "Tracks",
+          "es": "Pistas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "digital synth + samples",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 130,
@@ -5591,7 +5723,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "FM groove sketching",
+      "es": "Bocetos de groove con FM"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Groovebox",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "FM synthesis",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "USB powered",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 145,
@@ -7756,7 +7921,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Mobile production with Stems and 3D expression",
+      "es": "Producción móvil con Stems y expresión 3D"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "8 GB RAM / 128 GB storage",
+        "label": {
+          "en": "Storage",
+          "es": "Almacenamiento"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "MPC3 Pro FX pack, XYFX",
+        "label": {
+          "en": "Effects",
+          "es": "Efectos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C, MIDI, WiFi, Bluetooth",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 191,
@@ -10910,7 +11108,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Live performance, resampling and lo-fi beats",
+      "es": "Directo, resampling y beats lo-fi"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "16 GB internal + SD card",
+        "label": {
+          "en": "Storage",
+          "es": "Almacenamiento"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "41 multi-FX + 17 input FX",
+        "label": {
+          "en": "Effects",
+          "es": "Efectos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C audio/MIDI, MIDI I/O, SD slot",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 256,
@@ -10935,7 +11166,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Standalone hip-hop brain, perfected",
+      "es": "El cerebro de hip-hop autónomo, afinado"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Standalone sampler/sequencer",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layers",
+        "value": "32 plugin + 16 audio",
+        "label": {
+          "en": "Tracks",
+          "es": "Pistas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "MPC sampler + plugins",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 257,
@@ -10960,7 +11224,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Portable MPC pads at the best value",
+      "es": "Los pads MPC portátiles con mejor precio"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "8GB internal + microSD",
+        "label": {
+          "en": "Storage",
+          "es": "Almacenamiento"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "60 FX types across 4 processors",
+        "label": {
+          "en": "Effects",
+          "es": "Efectos"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Built-in mic, TRS, USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 258,
@@ -27914,7 +28211,40 @@
       "zzounds": "https://www.zzounds.com/item--YAMSEQTRAK?siid=347183",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-SEQTRAK-ORANGE/art-SYN0008890-000"
     },
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Backpack all-in-one studio",
+      "es": "Estudio completo de mochila"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Bar workstation",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "AWM2 + FM + sampling",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Built-in Li-ion, 3-4 hours",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 622,
@@ -27935,7 +28265,40 @@
       "zzounds": "https://www.zzounds.com/item--ELKMODELSAMPLES?siid=254275",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Elektron-Model-Samples/art-SYN0006852-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Affordable Elektron sequencing",
+      "es": "Secuenciación Elektron asequible"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Groovebox",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Sampling",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "USB powered",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 623,
@@ -27956,7 +28319,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Sonicware-LIVEN-Lofi-12/art-SYN0008472-000",
       "andertons": "https://www.andertons.co.uk/sonicware-liven-lofi-12-sampling-groovebox/"
     },
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "12-bit lo-fi nostalgia",
+      "es": "Nostalgia lo-fi de 12 bits"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Groovebox",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "12-bit sampling",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Battery powered",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 624,
@@ -27976,7 +28372,40 @@
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FKorg-Volca-Sample-2-Digital-Sample-Sequencer%2F3JY6",
       "zzounds": "https://www.zzounds.com/item--KORVOLCASAMPLE2?siid=284757"
     },
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Cheapest hardware sampling",
+      "es": "El sampling hardware más barato"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Pocket sampler",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Sampling",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "6xAA batteries",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 625,
@@ -27996,7 +28425,40 @@
       "zzounds": "https://www.zzounds.com/item--PLYTRACKERMINI?siid=335703",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FPolyend-Tracker-Mini-Portable-Audio-Workstation%2F5K7D"
     },
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Tracker composing anywhere",
+      "es": "Componer con tracker en cualquier sitio"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Handheld tracker",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wave",
+        "value": "Sampling + 5 synth engines",
+        "label": {
+          "en": "Sound Engine",
+          "es": "Motor de sonido"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Built-in Li-ion, up to 8 hours",
+        "label": {
+          "en": "Battery",
+          "es": "Batería"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 626,
