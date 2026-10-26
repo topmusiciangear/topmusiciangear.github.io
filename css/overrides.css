@@ -146,7 +146,7 @@
   }
   .guide-section-quickfacts .qf-fact {
     padding: 2px 4px !important;
-    gap: 4px !important;
+    gap: 8px !important;
   }
   .guide-section-quickfacts .qf-bestfor .qf-label,
   .guide-section-quickfacts .qf-bestfor .qf-value,
