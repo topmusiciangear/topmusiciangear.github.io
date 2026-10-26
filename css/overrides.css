@@ -158,50 +158,52 @@
 /* Desktop: enlarge photo and quickfacts card to use available space */
 @media (min-width: 901px) {
   .guide-section-imgs {
+    display: grid !important;
+    grid-template-columns: auto 1fr 360px !important;
     gap: 4px !important;
     margin-top: 0 !important;
+    width: 100% !important;
+    overflow: visible !important;
+    align-items: start !important;
+  }
+  .guide-section-imgs > div:first-child {
+    grid-column: 1 !important;
   }
   .guide-section-quickfacts {
-    flex: 0 0 180px !important;
+    grid-column: 2 !important;
+    flex: 0 0 auto !important;
     width: 180px !important;
     height: 180px !important;
     padding: 8px 10px !important;
     gap: 4px !important;
+  }
+  .store-buttons {
+    grid-column: 3 !important;
   }
   .guide-section-mediabuy .guide-section-img,
   .guide-section-mediabuy .guide-video-thumb {
     width: 180px !important;
     height: 180px !important;
   }
-  /* Desktop: keep imgs (photo+quickfacts) fixed, widen store buttons card */
-  .guide-section-mediabuy > .guide-section-imgs {
-    flex: 0 0 auto !important;
-  }
-  .guide-section-mediabuy > .guide-section-buy {
-    flex: 1 1 auto !important;
-    width: auto !important;
-    max-width: 560px !important;
-    min-width: 300px !important;
-    overflow: visible !important;
-    margin-left: 0 !important;
-  }
 }
-/* Store buttons inside imgs: third column, stacked, stretched */
+/* Store buttons inside imgs: third column (360px), stacked, thin */
 .guide-section-imgs {
   width: 100% !important;
   overflow: visible !important;
 }
 .store-buttons {
-  flex: 1 1 260px !important;
   display: flex !important;
   flex-direction: column !important;
-  gap: 8px !important;
-  align-self: stretch !important;
-  min-width: 260px !important;
+  gap: 6px !important;
+  justify-content: flex-start !important;
+  align-self: start !important;
+  width: 100% !important;
+  font-size: 13px !important;
 }
-.store-buttons .guide-section-buy,
 .store-buttons .shop-btn-primary,
 .store-buttons .shop-btn-more {
-  flex: 1 1 auto !important;
+  flex: 0 0 auto !important;
+  min-height: 0 !important;
+  padding: 12px 16px !important;
   width: 100% !important;
 }
