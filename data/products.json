@@ -655,7 +655,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Best all-around entry interface",
+      "es": "La mejor entrada al mundo de las interfaces"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "2-in / 2-out",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2, +69 dB gain",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 16,
@@ -680,7 +713,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Pro UAD plugin tracking",
+      "es": "Grabación profesional con plugins UAD"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "10-in / 6-out",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2 Unison",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Thunderbolt 3",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 17,
@@ -705,7 +771,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Pro mobile recording",
+      "es": "Grabación móvil profesional"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "4-in / 4-out (12 total)",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2, +65 dB",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB 2.0",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 18,
@@ -730,7 +829,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "High-headroom recording and MIDI",
+      "es": "Grabación con mucho headroom y MIDI"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "2-in / 4-out",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2, 64 dB gain",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 19,
@@ -1758,7 +1890,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Warm console preamps at home",
+      "es": "Preamps cálidos de consola en casa"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "2-in / 4-out (+ ADAT)",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2, 58 dB gain",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 54,
@@ -1785,36 +1950,36 @@
     ],
     "score": 9.4,
     "bestFor": {
-      "en": "Beginners",
-      "es": "Principiantes"
+      "en": "Clear metering for beginners",
+      "es": "Medición clara para empezar"
     },
     "facts": [
       {
-        "icon": "sliders",
-        "value": "Colour LCD",
+        "icon": "layers",
+        "value": "2-in / 2-out",
         "label": {
-          "en": "Live meters",
-          "es": "Medidores"
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
         },
         "tone": "good"
       },
       {
         "icon": "microphone",
-        "value": "60 dB",
+        "value": "2, 60 dB gain",
         "label": {
-          "en": "Preamp gain",
-          "es": "Ganancia"
+          "en": "Preamps",
+          "es": "Preamps"
         },
         "tone": "good"
       },
       {
-        "icon": "arrowLeft",
-        "value": "2-in / 2-out",
+        "icon": "signal",
+        "value": "USB-C (USB 2.0)",
         "label": {
-          "en": "Channels",
-          "es": "Canales"
+          "en": "Connectivity",
+          "es": "Conectividad"
         },
-        "tone": "tradeoff"
+        "tone": "good"
       }
     ]
   },
@@ -1841,7 +2006,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Vintage tone at home",
+      "es": "Sonido vintage para casa"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "2-in / 2-out",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2, 55 dB gain",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 56,
@@ -6672,7 +6870,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Studio centerpiece, 16x20",
+      "es": "Centro del estudio, 16x20"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "16 in / 20 out",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "167 dB dynamic range",
+        "label": {
+          "en": "Conversion",
+          "es": "Conversión"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Thunderbolt 3",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 183,
@@ -6699,7 +6930,40 @@
       "zzounds"
     ],
     "image": "img/products/ae291ccc56.webp",
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Pro studio, 188 channels",
+      "es": "Estudio profesional, 188 canales"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "D/A 135 dB",
+        "label": {
+          "en": "Conversion",
+          "es": "Conversión"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "Transparent",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB 3.0 + MADI",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 185,
@@ -9390,7 +9654,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Podcasting and streaming",
+      "es": "Pódcast y streaming"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "All-in-one production console",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2 Revolution preamps",
+        "label": {
+          "en": "Mic Inputs",
+          "es": "Entradas de micro"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Yes — hardware buses",
+        "label": {
+          "en": "Loopback",
+          "es": "Loopback"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 240,
@@ -9418,7 +9715,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Console streaming with HDMI",
+      "es": "Streaming de consola con HDMI"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Streaming mixer + HDMI capture",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "1 XLR with phantom",
+        "label": {
+          "en": "Mic Inputs",
+          "es": "Entradas de micro"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Yes — hardware dual-bus",
+        "label": {
+          "en": "Loopback",
+          "es": "Loopback"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 243,
@@ -10112,7 +10442,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Simple smart-gain recording",
+      "es": "Grabación sencilla con smart gain"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "2-in / 2-out",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2 EVO, 58 dB gain",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 263,
@@ -10138,7 +10501,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Compression on the way in",
+      "es": "Compresión al grabar"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "2-in / 2-out",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2, 55 dB gain",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 264,
@@ -13458,7 +13854,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Phone and tablet recording",
+      "es": "Grabación con móvil y tableta"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "2-in / 2-out",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2, +56 dB",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C + OTG USB-C + USB-A hub",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 329,
@@ -22090,7 +22519,40 @@
       "reverb": "https://reverb.com/marketplace?query=Neumann+MT+48+(U)+Premium+Audio+Interface"
     },
     "image": "img/products/9399b196d8.webp",
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Reference conversion, 2 pres",
+      "es": "Conversión de referencia con 2 pres"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "A/D 136 dBA",
+        "label": {
+          "en": "Conversion",
+          "es": "Conversión"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2× Neumann, 78 dB",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C + AES67/RAVENNA",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 513,
@@ -22116,7 +22578,40 @@
       "reverb": "https://reverb.com/marketplace?query=Universal%20Audio%20Apollo%20x8p%20Gen%202"
     },
     "image": "img/products/a2605c4485.webp",
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "8 Unison pres and DSP",
+      "es": "8 pres Unison y DSP"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "D/A 130 dB",
+        "label": {
+          "en": "Conversion",
+          "es": "Conversión"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "8× Unison",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Thunderbolt/USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 515,
@@ -22144,7 +22639,40 @@
       "reverb": "https://reverb.com/marketplace?query=Audient+ORIA+Immersive+Audio+Interface"
     },
     "image": "img/products/a4b7fa6056.webp",
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Immersive monitoring control",
+      "es": "Control de monitorización inmersiva"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "D/A 126.5 dB",
+        "label": {
+          "en": "Conversion",
+          "es": "Conversión"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2× Console",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C + ADAT/AES",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 518,
@@ -22701,7 +23229,40 @@
       "amazon": "https://www.amazon.com/dp/B01ET9GCGS?tag=topmusicg-20",
       "zzounds": "https://www.zzounds.com/item--BEHUMC1820"
     },
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "18-in/20-out on a budget",
+      "es": "18 entradas y 20 salidas sin gastar"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "18-in / 20-out (+ ADAT)",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "8, MIDAS-designed",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB 2.0 (Type-B)",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 551,
@@ -22720,7 +23281,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FArturia-MiniFuse-2-Black%2Fart-PCM0017077-000",
       "amazon": "https://www.amazon.com/dp/B09HL4GZF9?tag=topmusicg-20"
     },
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Compact USB-C starter",
+      "es": "USB-C compacta para empezar"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "2-in / 2-out",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C plus USB-A hub",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 552,
@@ -27481,7 +28075,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Audient-Horizon-8P/art-PCM0019045-000"
     },
     "excludeStores": [],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Console sound, 8 pres",
+      "es": "Sonido de consola con 8 pres"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "32-bit/192kHz ESS",
+        "label": {
+          "en": "Conversion",
+          "es": "Conversión"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "8x console, 75dB",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Thunderbolt 3",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 677,
@@ -27502,7 +28129,40 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/ANTELOPE-Orion-Studio-Synergy-Core/art-PCM0015924-000"
     },
     "excludeStores": [],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "12 pres with Thunderbolt",
+      "es": "12 pres con Thunderbolt"
+    },
+    "facts": [
+      {
+        "icon": "gauge",
+        "value": "130 dB, AFC clock",
+        "label": {
+          "en": "Conversion",
+          "es": "Conversión"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "12x discrete, 75dB",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Thunderbolt 3 + USB",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 678,
@@ -27525,7 +28185,40 @@
     "excludeStores": [
       "reverb"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Streaming with HDMI capture",
+      "es": "Streaming con captura HDMI"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "USB-C interface with HDMI capture",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "4 URX pres, 78dB",
+        "label": {
+          "en": "Mic Inputs",
+          "es": "Entradas de micro"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Yes — Multi-Stream ×3",
+        "label": {
+          "en": "Loopback",
+          "es": "Loopback"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 679,
@@ -27548,7 +28241,40 @@
     "excludeStores": [
       "reverb"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Guitar and bass recording",
+      "es": "Grabación de guitarra y bajo"
+    },
+    "facts": [
+      {
+        "icon": "layers",
+        "value": "2-in / 5-out",
+        "label": {
+          "en": "Inputs / Outputs",
+          "es": "Entradas / Salidas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "2 Hi-Z + 2 mic pres",
+        "label": {
+          "en": "Preamps",
+          "es": "Preamps"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB 2.0",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 681,
