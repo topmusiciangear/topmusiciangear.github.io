@@ -17,18 +17,18 @@
 .guide-section-quickfacts .qf-bestfor .qf-value,
 .guide-section-quickfacts .qf-fact .qf-label,
 .guide-section-quickfacts .qf-fact .qf-value {
-  font-size: 10px !important;
-  line-height: 1.0 !important;
+  font-size: 11px !important;
+  line-height: 1.2 !important;
   text-align: left !important;
 }
 /* Icon in a fixed-width column so all icons line up; text left-aligned; block centered */
 .guide-section-quickfacts .qf-fact {
   display: grid !important;
-  grid-template-columns: 18px 1fr !important;
-  gap: 6px !important;
+  grid-template-columns: 20px 1fr !important;
+  gap: 10px !important;
   align-items: center !important;
   width: 100% !important;
-  padding: 2px 4px !important;
+  padding: 3px 4px !important;
   text-align: left !important;
   overflow: hidden !important;
 }
@@ -137,7 +137,7 @@
   .guide-section-quickfacts .qf-bestfor .qf-value,
   .guide-section-quickfacts .qf-fact .qf-label,
   .guide-section-quickfacts .qf-fact .qf-value {
-    font-size: 9px !important;
+    font-size: 10px !important;
   }
 
   /* Photos bigger ~ half screen and separated from text */
@@ -162,16 +162,16 @@
     margin-top: 0 !important;
   }
   .guide-section-quickfacts {
-    flex: 0 0 200px !important;
-    width: 200px !important;
-    height: 200px !important;
-    padding: 6px 8px !important;
-    gap: 3px !important;
+    flex: 0 0 180px !important;
+    width: 180px !important;
+    height: 180px !important;
+    padding: 8px 10px !important;
+    gap: 4px !important;
   }
   .guide-section-mediabuy .guide-section-img,
   .guide-section-mediabuy .guide-video-thumb {
-    width: 200px !important;
-    height: 200px !important;
+    width: 180px !important;
+    height: 180px !important;
   }
   /* Desktop: keep imgs (photo+quickfacts) fixed, widen store buttons card */
   .guide-section-mediabuy > .guide-section-imgs {
