@@ -109,6 +109,7 @@ ROW_KINDS = {
     'conn': ['connectivity', 'conectividad'],
     'faders': ['faders / control', 'faders', 'controles'],
     'samplerate': ['sample rate', 'frecuencia de muestreo'],
+    'bassext': ['bass extension', 'extension de graves'],
 }
 
 

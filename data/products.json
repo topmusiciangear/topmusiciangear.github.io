@@ -670,6 +670,39 @@
       "Requiere habitacion tratada para brillar",
       "Sin calibracion DSP ni correccion automatica de sala",
       "Precio elevado respecto a alternativas con mas funciones"
+    ],
+    "bestFor": {
+      "en": "Flat reference mixing",
+      "es": "Mezcla plana de referencia"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "8\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "120W (75W + 45W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "38 Hz – 30 kHz (-10 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
     ]
   },
   {
@@ -709,6 +742,39 @@
       "Graves pueden resultar enfatizados en habitaciones pequeñas",
       "DSP de correccion de sala basico (no automatico)",
       "Calidad de construccion inferior a monitores profesionales"
+    ],
+    "bestFor": {
+      "en": "Punchy rock & hip-hop",
+      "es": "Rock y hip-hop con pegada"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "7\" Kevlar",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "145W RMS (97W + 48W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "45 Hz – 36 kHz (±3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
     ]
   },
   {
@@ -748,6 +814,39 @@
       "Requiere habitacion bien tratada para aprovechar el detalle",
       "Curva de aprendizaje para ajustar los 3 controles de ecualizacion",
       "Menos SPL maximo que monitores de 8\""
+    ],
+    "bestFor": {
+      "en": "Detailed nearfield mixing",
+      "es": "Nearfield con detalle"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "7\" MLM",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "130W peak",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "44 Hz – 41 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
     ]
   },
   {
@@ -776,7 +875,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Small-room reference mixing",
+      "es": "Referencia en salas pequeñas"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "6.5\" / 165 mm",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "90W bass + 90W treble",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "48 Hz – 20 kHz (±2 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 23,
@@ -3047,6 +3179,39 @@
       "Puede sonar brillante en habitaciones sin tratar",
       "Construccion de plastico menos robusta que gamas superiores",
       "Sin calibracion de sala ni DSP"
+    ],
+    "bestFor": {
+      "en": "Compact nearfield mixing",
+      "es": "Nearfield compacto"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "5\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "82W (41W + 41W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "49 Hz – 20 kHz (±3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
     ]
   },
   {
@@ -3074,7 +3239,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Accurate on a budget",
+      "es": "Preciso y económico"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "6.5\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "80W (40W + 40W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "47 Hz – 21 kHz (±3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 119,
@@ -4938,7 +5136,40 @@
     ],
     "unit": "each",
     "unit_es": "cada uno",
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Midfield detail and depth",
+      "es": "Detalle y profundidad"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "2x 7\" woofers",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "1,350W total",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "30 Hz – 50 kHz (-20 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 181,
@@ -4964,7 +5195,40 @@
     ],
     "unit": "each",
     "unit_es": "cada uno",
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Full-range mastering",
+      "es": "Masterización completa"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "11\" sub + 5\" mid",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "300W + 150W + 100W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "30 Hz – 40 kHz (±3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 182,
@@ -5175,7 +5439,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Rock & hip-hop low end",
+      "es": "Graves para rock y hip-hop"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "10\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "160W Class-D",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "117.2 dB (peak)",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 192,
@@ -5202,7 +5499,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Flat reference sub bass",
+      "es": "Sub de referencia plano"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "8\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "150W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "22 Hz – 160 Hz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 193,
@@ -5229,7 +5559,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Home studio low end",
+      "es": "Graves para home studio"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "10\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "130W Class-D",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "104 dB (at 1m)",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 194,
@@ -5521,6 +5884,39 @@
       "Boundary EQ requiere ajuste manual (no automatico)",
       "Menos refinado en agudos que diseños coaxiales de gama alta",
       "Calidad de construccion inferior a Genelec/Neumann"
+    ],
+    "bestFor": {
+      "en": "Project-studio detail",
+      "es": "Detalle en home studio"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "8\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "140W (60W + 40W + 40W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "45 Hz – 21 kHz (±3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
     ]
   },
   {
@@ -6519,7 +6915,40 @@
       "zzounds",
       "pluginboutique"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Midfield truth for mixing",
+      "es": "Referencia para mezclar"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "6.5\" / 164 mm",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "242W total",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "47 Hz – 25 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 226,
@@ -9726,7 +10155,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Deep bass in small rooms",
+      "es": "Graves en salas pequeñas"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "2 x 6.5\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "400W Class-D",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "120 dB (peak at 1m)",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 301,
@@ -9753,7 +10215,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Ultra-compact desktop sub",
+      "es": "Sub de escritorio compacto"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "6.5\" + 2 radiators",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "160W RMS",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "106 dB (peak at 40 Hz)",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 302,
@@ -9780,7 +10275,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Untreated desks",
+      "es": "Escritorios sin tratar"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "3\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "50W RMS per speaker",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "42 Hz – 22 kHz (-10 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 303,
@@ -9807,7 +10335,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Ultra-compact reference",
+      "es": "Referencia ultracompacta"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "3\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "50W (25W + 25W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "74 Hz – 20 kHz (±2.5 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 304,
@@ -9846,6 +10407,39 @@
       "Requiere kit GLM (microfono + software) para calibracion completa",
       "Curva de aprendizaje en software GLM",
       "Tamano y peso considerables para monitor de campo cercano"
+    ],
+    "bestFor": {
+      "en": "Compact desktop pair",
+      "es": "Par estéreo de escritorio"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "5.25\" + 2 x 3.5\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "100W (sub) + 2 x 20W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "54 Hz – 21 kHz (±3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
     ]
   },
   {
@@ -9885,6 +10479,39 @@
       "Respuesta de graves limitada a 57 Hz (requiere subwoofer)",
       "Curva de aprendizaje en software de control DSP",
       "Precio muy elevado para monitor de 4\""
+    ],
+    "bestFor": {
+      "en": "DSP-corrected precision",
+      "es": "Precisión con DSP"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "4\" (100 mm)",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "140W (90W + 50W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "57 Hz – 21 kHz (±3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
     ]
   },
   {
@@ -9912,7 +10539,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Desktop near a bare wall",
+      "es": "Escritorio junto a pared"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "3.5\" aluminum",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "240W peak (pair)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "45 Hz – 23.2 kHz (-6 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 307,
@@ -9951,6 +10611,39 @@
       "SPL maximo moderado (108 dB) para monitoreo a bajo volumen",
       "Solo amplificacion Clase D (menos musical que Clase AB)",
       "Sin calibracion automatica de sala"
+    ],
+    "bestFor": {
+      "en": "Wall-adjacent nearfield",
+      "es": "Nearfield junto a pared"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "4.5\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "80W Class D",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "40 Hz – 35 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
     ]
   },
   {
@@ -9978,7 +10671,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Accurate bass, no treatment",
+      "es": "Graves precisos sin tratar"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "2 × 3.5\"",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "200W RMS (pair)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "36 Hz – 32 kHz (-10 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 309,
@@ -10942,6 +11668,39 @@
       "SPL maximo moderado (96 dB) para monitoreo a bajo volumen",
       "Precio elevado para su tamano",
       "Sin controles de ecualizacion ni calibracion DSP"
+    ],
+    "bestFor": {
+      "en": "Critical pro-studio mixing",
+      "es": "Mezcla crítica en estudio"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "Dual 8.6 x 4 in obround",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "550W (250W + 150W + 150W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "38 Hz – 20 kHz (±1.5 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
     ]
   },
   {
@@ -11193,7 +11952,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "DSP sub for KH monitors",
+      "es": "Sub DSP para monitores KH"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "10\" / 265 mm",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "256W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "105 dB (half space)",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 338,
@@ -11219,7 +12011,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Compact sub for small rooms",
+      "es": "Sub para salas pequeñas"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "8\" / 205 mm",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "130W Class D",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "≥103 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 339,
@@ -12750,7 +13575,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Affordable ribbon tweeter",
+      "es": "Tweeter ribbon económico"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "5\" polypropylene",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "70W Class-D (50W + 20W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "45 Hz – 25 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 372,
@@ -12777,7 +13635,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Pro reference monitoring",
+      "es": "Referencia profesional"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "5\" (130 mm)",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "100W Class-D (50W + 50W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "47 Hz – 25 kHz (-6 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 374,
@@ -16325,7 +17216,40 @@
     "excludeStores": [
       "gear4music"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Mastering-room deep bass",
+      "es": "Graves para mastering"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "10\" / 265 mm",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "180W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "109 dB (half space)",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 470,
@@ -16350,7 +17274,40 @@
       "andertons",
       "musicstore"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "High-output ATC sub",
+      "es": "Sub ATC de alta salida"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "15\" / 375 mm",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "300W Class AB",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "113 dB cont. / 119 dB peak",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 472,
@@ -16650,7 +17607,40 @@
       "gear4music",
       "amazon"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Focal sub for large rooms",
+      "es": "Sub Focal para salas grandes"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "13\" / 33 cm",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "600W class G",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "125 dB peak",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 480,
@@ -16676,7 +17666,40 @@
       "amazon",
       "gear4music"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "SAM sub for big rooms",
+      "es": "Sub SAM para salas grandes"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "12\" / 305 mm",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "400W Class D",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "≥113 dB short-term",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máximo"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 481,
@@ -16699,7 +17722,40 @@
       "andertons",
       "musicstore"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Dual-woofer compact sub",
+      "es": "Sub compacto de doble cono"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "2x 8\" aluminum",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "500W",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "25 Hz (-3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 482,
@@ -20062,7 +21118,40 @@
     },
     "unit": "each",
     "unit_es": "cada uno",
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Mix translation standard",
+      "es": "Estándar de traducción"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "5\" cone",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "70W (45W + 25W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "54 Hz – 30 kHz (-10 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 633,
@@ -20083,7 +21172,40 @@
     },
     "unit": "each",
     "unit_es": "cada uno",
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Budget DSP controls",
+      "es": "Controles DSP económicos"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "5\" Kevlar",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "55W RMS (35W + 20W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "54 Hz – 30 kHz (±3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 635,
@@ -20383,7 +21505,40 @@
       "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFocal-Alpha-65-Evo%2Fart-REC0015459-000",
       "zzounds": "https://www.zzounds.com/a--925521/item--FOLALPHA65EVO"
     },
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Desk against the wall",
+      "es": "Escritorio pegado a pared"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "6.5\" Slatefiber",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "85W (30W + 55W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "40 Hz – 22 kHz (±3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 646,
@@ -21469,7 +22624,40 @@
     },
     "unit": "each",
     "unit_es": "cada uno",
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "Budget wide sweet spot",
+      "es": "Punto dulce amplio"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "5.25\" woven composite",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "80W (45W + 35W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "48 Hz – 20 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1001,
@@ -23311,7 +24499,40 @@
     },
     "unit": "pair",
     "unit_es": "par",
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Cheapest true nearfield",
+      "es": "Nearfield muy barato"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "3.5\" woven composite",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "50 W (2×25 W bi-amp)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "80 Hz – 20 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1043,
@@ -23333,7 +24554,40 @@
     },
     "unit": "pair",
     "unit_es": "par",
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "Small desk starter pair",
+      "es": "Par inicial pequeño"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "4.5\" Black Kevlar",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "50 W (2×25 W bi-amp)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "69 Hz – 22 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1046,
@@ -23357,7 +24611,40 @@
     },
     "unit": "pair",
     "unit_es": "par",
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Tiny desk speakers",
+      "es": "Monitores mini de escritorio"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "3.5\" woven",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "50 W (2×25 W bi-amp)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "70 Hz – 20 kHz (-3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1048,
@@ -23380,7 +24667,40 @@
     },
     "unit": "pair",
     "unit_es": "par",
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Budget 4.5-inch pair",
+      "es": "Par de 4,5 pulgadas"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "4.5\" woven",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "50 W (2×25 W bi-amp)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "65 Hz – 20 kHz (-3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1049,
@@ -23402,7 +24722,40 @@
     },
     "unit": "pair",
     "unit_es": "par",
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "Bluetooth budget monitoring",
+      "es": "Monitoreo con Bluetooth"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "3.5\" glass fibre",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "64 W (2x32 W, Class D)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "70 Hz – 20 kHz (±3 dB)",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1050,
@@ -23461,7 +24814,40 @@
     },
     "unit": "pair",
     "unit_es": "par",
-    "img": "img/products/b343deb5bf.webp"
+    "img": "img/products/b343deb5bf.webp",
+    "bestFor": {
+      "en": "Cheap desk monitoring",
+      "es": "Monitoreo económico"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "4\" woofer",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "50 W (2x25 W, Class AB)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "68 Hz – 20 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 1053,
@@ -23520,6 +24906,39 @@
       "Se vende individualmente; el par estereo supera los 1.300",
       "Respuesta de graves limitada a 40 Hz (menos que monitores con puerto de 8\")",
       "Sin calibracion DSP ni correccion de sala integrada"
+    ],
+    "bestFor": {
+      "en": "Flax-cone nearfield mixing",
+      "es": "Nearfield con cono Flax"
+    },
+    "facts": [
+      {
+        "icon": "speaker",
+        "value": "6.5\" Flax cone",
+        "label": {
+          "en": "Woofer",
+          "es": "Woofer"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "105W (80W + 25W)",
+        "label": {
+          "en": "Power",
+          "es": "Potencia"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "freq",
+        "value": "40 Hz – 35 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        },
+        "tone": "good"
+      }
     ]
   }
 ]

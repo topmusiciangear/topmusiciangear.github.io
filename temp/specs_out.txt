@@ -1,481 +1,281 @@
-PID 105 | EV ZLX-12P-G2 Active PA Speaker
-   bestFor: Mobile DJs and solo performers || Budget-friendly powered speaker || Small gigs for working bands || Small gigs and rehearsals on a budget
-   weight    : 32.67 lb (14.82 kg)
-   ptype     : Powered PA speaker
-   power     : 1000W Class-D
-   maxspl    : 127 dB peak
-   coverage  : 90° x 60°
-   driver    : 12" WECA2128 + 1.4" titanium DECA2516
-   inputs    : Mic/line XLR, RCA, Bluetooth (ZLX-12P-G2)
-   freq      : 54 Hz – 18.5 kHz (-3 dB) / 48 Hz – 20 kHz (-10 dB)
-   dsp       : DSP presets (music/live/voice)
-PID 106 | QSC K12.2 Active PA Speaker
-   bestFor: Pro bands and DJs, the reference standard || Pro sound quality with lots of headroom
-   weight    : 39 lb (17.7 kg)
-   ptype     : Powered PA speaker
-   power     : 2000W (peak) | 1000W (peak)
-   maxspl    : 132 dB | 132 dB peak / 126 dB continuous
-   coverage  : 75° axisymmetric | 75° axisymmetric DMT
-   driver    : 12" + 1.4" HF | 12" + 1.4" titanium compression driver
-   inputs    : 2x XLR/combo + 3.5mm + XLR thru | 2x XLR/combo, RCA, 3.5mm
-   freq      : 50 Hz – 20 kHz | 50 Hz – 20 kHz (-6 dB) / 45 Hz – 20 kHz (-10 dB)
-   dsp       : Intrinsic Correction DSP + presets | DSP with 8 presets
-PID 107 | Shure BLX24R/SM58 Wireless
-   bestFor: Live & stage vocals / budget podcasts || Live vocals & stage || All-round live vocals || Live vocals with classic SM58 tone
-   weight    : 298 g
-   ptype     : Dynamic (moving coil), passive | Dynamic
-   maxspl    : ~160 dB SPL (physical capsule limit) | Not published
-   freq      : 50 Hz – 15 kHz
-   battery   : Up to 14 h (2 AA)
-PID 108 | Yamaha DXR12mkII Active PA Speaker
-   bestFor: High-output durable PA speaker || Loud live gigs and outdoor events
-   weight    : 41 lb (18.6 kg)
-   ptype     : Powered PA speaker
-   power     : 1100W dynamic (950W LF + 150W HF)
-   maxspl    : 134 dB peak
-   coverage  : 90° x 60°
-   driver    : 12" + 1.75" HF
-   inputs    : 2x XLR/combo + XLR out
-   freq      : 52 Hz – 20 kHz
-   dsp       : DSP presets, D-XR tuning
-PID 109 | JBL PRX ONE Active PA Column
-   bestFor: All-in-one column system for small gigs
-   weight    : 56.6 lb (25.7 kg)
-   ptype     : Column PA
-   power     : 2000W (peak)
-   maxspl    : 131 dB
-   coverage  : 140° x 40°
-   driver    : 12" sub + 6x 1.5" array
-   inputs    : 3x XLR/combo, Bluetooth, 2x aux
-   freq      : 38 Hz – 20 kHz
-   dsp       : DSP + app control
-PID 137 | Yamaha MG10XU
-   bestFor: Simple analog mixer with FX
-   weight    : 4.6 lb (2.1 kg)
-   ptype     : Analog mixer
-   channels  : 10 (4 mic)
-   preamps   : 4 D-PRE
-   eq        : 3-band per channel
-   aux       : 1 AUX (FX) send
-   fx        : SPX digital FX
-   conn      : USB 2x2
-PID 138 | Behringer X32 Compact
-   bestFor: Best overall value & church/house bands || digital mixer with deep I/O for bands
-   weight    : 33.9 lb (15.4 kg)
-   ptype     : digital mixer
-   channels  : 32 channels (up to 40) | 40 (16 local XLR)
-   preamps   : 16 MIDAS
-   eq        : 4-band fully parametric
-   aux       : 16 aux buses
-   fx        : 8 FX engines
-   conn      : USB, AES50, 16 out
-   faders    : 17 motorized faders
-   samplerate: 48 kHz / 0.8 ms | 48 kHz
-PID 139 | Allen & Heath SQ-5
-   bestFor: Small-format digital with pro sound
-   weight    : 23.1 lb (10.5 kg)
-   ptype     : digital mixer
-   channels  : 48 total
-   preamps   : 16 A&H
-   eq        : 4-band parametric
-   aux       : 12 stereo mixes + LR, 8 stereo FX engines
-   fx        : 8 FX slots (DEEP)
-   conn      : USB, 2x dSnake, tablet
-   faders    : 17 motorized faders
-   samplerate: 96 kHz
-PID 151 | Mackie Thump215XT
-   bestFor: Powerful budget 15-inch PA speaker || Loud budget 15" speaker
-   weight    : 35.1 lb (15.9 kg)
-   ptype     : Powered PA speaker
-   power     : 1400W (peak)
-   maxspl    : 129 dB
-   coverage  : 90° x 60°
-   driver    : 15" + 1" HF | 15" + 1" compression driver
-   inputs    : 2x XLR/combo + 3.5mm + Bluetooth | 2x XLR/combo, Bluetooth
-   freq      : 40 Hz – 20 kHz | 40 Hz – 23 kHz
-   dsp       : Voicing presets + outdoor mode + app | DSP presets
-PID 152 | Yamaha Stagepas 1K MKII Active PA Mixer
-   bestFor: Mobile gigs and street performances
-   weight    : 50.7 lb (23.0 kg)
-   ptype     : Column PA
-   power     : 2000W
-   maxspl    : 123 dB
-   coverage  : 120° x 30°
-   driver    : 10" sub + 8x 1" array
-   inputs    : 4x mic/line + Bluetooth + app
-   freq      : 40 Hz – 20 kHz
-   dsp       : FX + app EQ
-PID 153 | Alto Professional TS412 Active PA Speaker
-   bestFor: Light budget PA with low end || Maximum SPL per dollar for budget gigs
-   weight    : 33 lb (15 kg)
-   ptype     : Powered PA speaker
-   power     : 2500W peak (1600W LF + 900W HF) | 2500W (peak)
-   maxspl    : 132 dB peak / 129 dB continuous | 132 dB
-   coverage  : 90° x 60°
-   driver    : 12" + 1" HF
-   inputs    : 2x XLR/combo + XLR out | 2x XLR/combo + XLR out + Bluetooth
-   freq      : 53 Hz – 20 kHz (±3 dB) / 44 Hz – 20 kHz (-10 dB) | 53 Hz – 20 kHz
-   dsp       : DSP presets | DSP + app control + Bluetooth
-PID 154 | Yamaha DBR12 Active PA Speaker
-   bestFor: Compact clear-sounding budget PA
-   weight    : 34.8 lb (15.8 kg)
-   ptype     : Powered PA speaker
-   power     : 1000W dynamic (800W LF + 200W)
-   maxspl    : 131 dB peak
-   coverage  : 90° x 60°
-   driver    : 12" + 1.4" HF
-   inputs    : 2x XLR/combo + XLR out
-   freq      : 52 Hz – 20 kHz (-10 dB)
-   dsp       : DSP presets
-PID 216 | RCF NX 912-SMA
-   bestFor: Loud stages and maximum headroom || Loud-stage monitoring for bands
-   weight    : 20 kg (44 lb) | 44.09 lb (20 kg)
-   ptype     : 2-way horn-loaded (floor wedge / mains) | Powered wedge
-   power     : 2100W peak Class-D | 2100W (peak)
-   maxspl    : 130 dB
-   coverage  : 100° x 70° | 100° H x 70° V
-   driver    : 12" (2.5" voice coil) | 1.75" compression driver (TRW waveguide) | 12" (2.5" v.c.) + 1" throat compression driver
-   inputs    : 2x XLR/combo + XLR out
-   freq      : 50 Hz – 20 kHz
-   dsp       : DSP presets (music/live/voice)
-   angle     : Horizontal or vertical (multifunction)
-PID 217 | Electro-Voice PXM-12MP
-   bestFor: Most working bands, clubs & small outdoor gigs || Powerful, clear stage wedge
-   weight    : 13.5 kg (29.8 lb) | 29.8 lb (13.5 kg)
-   ptype     : 2-way coaxial (floor wedge / mains) | Powered wedge
-   power     : 700W Class-D | 700W Class-D (500W LF + 200W HF)
-   maxspl    : 129 dB | 129 dB peak
-   coverage  : 90° x 90° | 90° x 90° symmetrical
-   driver    : 12" coaxial | 1.75" coaxial compression driver | 12" / 1.75" coaxial
-   inputs    : 2x XLR/TRS combo + stereo RCA + XLR THRU + MIXOUT
-   freq      : 64 Hz – 20 kHz (-3 dB) | 64 Hz – 20 kHz (-3 dB) / 53 Hz – 20 kHz (-10 dB)
-   dsp       : DSP presets + app
-   angle     : 55°
-PID 218 | LD Systems MON 12 A G3
-   bestFor: Budget monitor wedge with solid bass
-   weight    : 30.9 lb (14 kg)
-   ptype     : Powered wedge
-   power     : 800W (peak)
-   maxspl    : 128 dB
-   coverage  : 90° x 60°
-   driver    : 12" + 1" HF
-   inputs    : 2x XLR/combo
-   freq      : 55 Hz – 20 kHz
-   dsp       : DSP presets
-PID 219 | Yamaha DHR12M
-   bestFor: Clean stage monitoring on a budget
-   weight    : 36.4 lb (16.5 kg)
-   ptype     : Powered wedge
-   power     : 1000W dynamic (800W LF + 200W HF)
-   maxspl    : 129 dB peak
-   coverage  : 90° x 90°
-   driver    : 12" (2.5" v.c.) + 1.75" coaxial (1" throat)
-   inputs    : 2x XLR/combo + XLR out
-   freq      : 55 Hz – 20 kHz (-10 dB)
-   dsp       : DSP presets
-PID 233 | QSC KS118 Powered Subwoofer
-   bestFor: Mid-size venues & cardioid setups
-   weight    : 47 kg (104 lb)
-   ptype     : Active, direct radiating
-   power     : 3600W peak Class-D
-   maxspl    : 136 dB
-   driver    : 18" long-excursion
-   freq      : 35-111 Hz (-10 dB)
-   dsp       : DEEP mode, scenes, crossover, delay
-   cardioid  : Yes (2 units)
-PID 234 | RCF SUB 8004-AS
-   bestFor: Rock and metal bands
-   weight    : 56 kg (123.5 lb)
-   ptype     : Active, bass reflex
-   power     : 2500W peak / 1250W RMS
-   maxspl    : 136 dB
-   driver    : 18" with 4" voice coil
-   freq      : 30-120 Hz
-   dsp       : Xover, phase, Deep/Punch, delay, cardioid
-   cardioid  : Yes
-PID 235 | Electro-Voice ELX200-18SP
-   bestFor: Most working live bands
-   weight    : 29 kg (64 lb)
-   ptype     : Active, bass reflex
-   power     : 1200W Class-D
-   maxspl    : 132 dB
-   driver    : EVS-18L 18"
-   freq      : 40-145 Hz (-10 dB)
-   dsp       : QuickSmartDSP + app (6 units)
-   cardioid  : No
-PID 236 | JBL PRX918XLF
-   bestFor: Events, weddings & remote tuning
-   weight    : 40.7 kg (89.7 lb)
-   ptype     : Active, bass reflex
-   power     : 2000W peak / 1000W RMS
-   maxspl    : 134 dB
-   driver    : 918SG 18" ferrite
-   freq      : 30-110 Hz (-10 dB)
-   dsp       : 6-band EQ, lowpass, delay vía BLE app
-   cardioid  : No
-PID 237 | Yamaha DXS18XLF
-   bestFor: Touring durability & deepest lows
-   weight    : 110 lb (49.7 kg)
-   ptype     : Active, bass reflex
-   power     : 1020W dynamic / 800W continuous
-   maxspl    : 136 dB
-   driver    : 18" with 4" voice coil
-   freq      : 32 Hz – 120 Hz (-10 dB)
-   dsp       : D-XSUB modes + cardioid, FIR-X
-   cardioid  : Yes
-PID 266 | Sennheiser ew IEM G4-TWIN-E
-   bestFor: Duos & rehearsals
-   latency   : 0 ms (analog)
-   power     : 2x AA
-   range     : 300 ft
-PID 267 | Shure PSM300
-   bestFor: Working bands
-   latency   : 0 ms (analog)
-   power     : 2x AA
-   range     : 300 ft
-PID 332 | Tascam Model 12
-   bestFor: Bands wanting mixer + recorder + interface in one
-   weight    : 4.3 kg (9.5 lb)
-   ptype     : Hybrid analog with digital recorder & USB
-   channels  : 10 (12-track SD recorder)
-   preamps   : 8 x Ultra-HDDA
-   eq        : 3-band w/ sweepable mid + low-cut
-   aux       : 2 aux sends
-   fx        : Yes (reverb, delay, chorus)
-   conn      : USB-C 12-in/10-out, SD recorder, Bluetooth 5.0, MIDI
-   faders    : Analog faders (non-motorized)
-   samplerate: 48 kHz
-PID 333 | Allen & Heath ZEDi-10FX
-   bestFor: Home studios wanting analog sound + USB recording
-   weight    : 2.3 kg (5.1 lb)
-   ptype     : Analog hybrid with 4x4 USB interface
-   channels  : 10 (4 mono + 3 stereo)
-   preamps   : 4 x GSPre
-   eq        : MusiQ 3-band (mono), 2-band (stereo)
-   aux       : 1 aux + 1 FX send
-   fx        : Yes (multi-model reverb/delay)
-   conn      : USB 4x4 24-bit/96kHz, XLR main outs
-PID 334 | SSL BiG SiX
-   bestFor: Pro studios wanting true SSL console sound
-   weight    : 10 kg (22 lb)
-   ptype     : SuperAnalogue desktop console + USB
-   channels  : 12 analog (4 mono + 4 stereo)
-   preamps   : 4 x SuperAnalogue (+72dB)
-   eq        : SSL E-Series 3-band, bell/shelf
-   aux       : 2 stereo cue feeds
-   fx        : None (G-Bus comp + LMC instead)
-   conn      : USB-C 16-in/16-out 24-bit/96kHz
-PID 335 | Korg SoundLink MW-1608
-   bestFor: Bands wanting analog workflow with digital processing || Medium bands wanting analog control with advanced digital effects
-   weight    : 8 kg (17.6 lb) | 17.6 lb (8.0 kg)
-   ptype     : Hybrid analog/digital, true 8-bus | Hybrid Analog/digital Mixer
-   channels  : 16 (8 mono + 4 stereo)
-   preamps   : 8 x HiVolt
-   eq        : 3-band analog + 9-band ParaGraphic GEQ | 3-band with sweepable mid + 9-band ParaGraphic main EQ
-   aux       : 2 aux + FX buses | 4 Aux sends
-   fx        : Yes (20 x 32-bit, up to 10 at once) | Korg 32-bit digital FX (up to 10 simultaneously)
-   conn      : USB stereo record/playback, XLR speaker outs | USB stereo, 8-bus architecture
-   faders    : Analog faders (non-motorized)
-   samplerate: 48 kHz (USB)
-PID 347 | Xvive U4 Wireless In-Ear Monitor System
-   bestFor: Small-to-mid stages on a budget || Cable-free monitoring for beginners
-   ptype     : 2.4 GHz wireless system
-   latency   : <5 ms
-   power     : Micro-USB rechargeable
-   range     : 27 m (90 ft) | 90 ft
-PID 348 | Xvive U4R4 Wireless IEM System (4 Receivers)
-   bestFor: Whole bands
-   latency   : <5 ms
-   power     : Micro-USB rechargeable
-   range     : 90 ft
-PID 349 | Sennheiser EW IEM G4 Stereo Wireless System
-PID 350 | Phenyx Pro PTM-10 UHF Stereo IEM System
-   bestFor: Stereo monitoring for rehearsals
-   latency   : 0 ms (analog)
-   power     : 2x AA
-   range     : 160 ft
-PID 362 | Sennheiser XSW IEM Wireless System
-   bestFor: First wireless rig for gigging bands || Wireless monitoring for growing bands
-   ptype     : Entry-level UHF wireless system
-   latency   : 0 ms (analog)
-   power     : 2x AA
-   range     : 100 m | 328 ft / 100 m
-PID 493 | JBL EON712 Active PA Speaker
-   bestFor: Portable PA for small gigs || Small-venue gigs and monitoring
-   weight    : 32.2 lb (14.6 kg)
-   ptype     : Powered PA speaker
-   power     : 1300W (peak)
-   maxspl    : 127 dB
-   coverage  : 100° x 60°
-   driver    : 12" + 1" HF
-   inputs    : 2x XLR/combo + XLR thru + Bluetooth
-   freq      : 50 Hz – 20 kHz
-   dsp       : dbx DriveRack DSP + presets
-PID 494 | LD Systems ICOA 12 A BT Active PA Speaker
-   bestFor: Coaxial all-rounder, full-range + monitor
-   weight    : 44 lb (19.95 kg)
-   ptype     : Powered PA speaker
-   power     : 1200W (peak)
-   maxspl    : 126 dB
-   coverage  : 90° x 50°
-   driver    : 12" coaxial + 1" HF
-   inputs    : 2x XLR/combo + 3.5mm + Bluetooth
-   freq      : 50 Hz – 20 kHz
-   dsp       : DynX presets + EQ + delay
-PID 495 | EV ELX200-15P Active PA Speaker
-   bestFor: Loud FOH for live bands || Powerful 15-inch powered speaker with pro DSP
-   weight    : 41.7 lb (18.9 kg)
-   ptype     : Powered PA speaker
-   power     : 1200W (peak)
-   maxspl    : 132 dB
-   coverage  : 90° x 60°
-   driver    : 15" + 1" HF
-   inputs    : 2x XLR/combo + RCA + XLR out
-   freq      : 48 Hz – 19 kHz
-   dsp       : QuickSmartDSP presets + app control
-PID 496 | JBL PRX915 Powered Speaker
-   bestFor: Tour-grade 15-inch powered speaker
-   weight    : 53.1 lb (24.1 kg)
-   ptype     : Powered PA speaker
-   power     : 1000W (peak)
-   maxspl    : 133 dB
-   coverage  : 90° x 50°
-   driver    : 15" + 1.5" HF
-   inputs    : 2x XLR/combo + aux + 2x XLR thru
-   freq      : 48 Hz – 19 kHz
-   dsp       : dbx DriveRack DSP + OLED/app control
-PID 497 | JBL JRX215 Passive Speaker
-   bestFor: Passive 15-inch for amp-matched systems
-   weight    : 60.5 lb (27.4 kg)
-   ptype     : Passive PA speaker
-   power     : 250W cont. / 1000W peak (8Ω)
-   maxspl    : 129 dB
-   coverage  : 90° x 50°
-   driver    : 15" + 1" HF
-   inputs    : NL4 + 0.25" jack
-   freq      : 41 Hz – 18 kHz
-   dsp       : None — external amp/crossover
-PID 499 | Yamaha CBR12 Passive Speaker
-   bestFor: Lightweight 12-inch for amp-matched FOH and monitors
-   weight    : 30.6 lb (13.9 kg)
-   ptype     : Passive PA speaker
-   power     : 175W cont. / 700W peak (8Ω)
-   maxspl    : 125 dB
-   coverage  : 90° x 60°
-   driver    : 12" + 1.4" HF
-   inputs    : NL4 + 0.25" jack
+PID 19 | Yamaha HS8
+   bestFor: Flat reference mixing || Reference mixing in untreated rooms; rear port needs 30–50 cm from wall
+   ptype     : 2-way powered
+   standout  : 8-inch woofer, 120 W bi-amp, Room Control/High Trim (no mid EQ)
+   power     : 120W (75W + 45W)
+   maxspl    : 110 dB | N/A
+   driver    : 8"
+   freq      : 38 Hz – 30 kHz (-10 dB)
+PID 20 | KRK Rokit 7 G5
+   bestFor: Punchy rock & hip-hop mixing
+   ptype     : 2-way powered
+   power     : 145W RMS (97W LF + 48W HF)
+   maxspl    : 110 dB
+   driver    : 7" Kevlar
+   freq      : 45 Hz – 36 kHz (±3 dB)
+PID 21 | Adam Audio A7V
+   bestFor: Detailed pro nearfield mixing
+   ptype     : 2-way powered
+   power     : 130W peak
+   maxspl    : 105 dB
+   driver    : 7" MLM
+   freq      : 44 Hz – 41 kHz
+PID 22 | Genelec 8040B
+PID 116 | JBL 305P MkII
+   bestFor: Compact nearfield mixing || Industry-standard translation (Requires >40cm from untreated walls)
+   ptype     : 2-way powered
+   power     : 82W (41W + 41W)
+   maxspl    : 108 dB
+   driver    : 5"
+   freq      : 49 Hz – 20 kHz (±3 dB)
+PID 117 | Kali Audio LP-6 V2
+   bestFor: Accurate budget monitoring || Best Budget Choice for Untreated Rooms (Front Port)
+   ptype     : 2-way powered
+   power     : 80W (40W + 40W)
+   maxspl    : 115 dB
+   driver    : 6.5"
+   freq      : 47 Hz – 21 kHz (±3 dB)
+PID 180 | ADAM Audio S3H
+PID 181 | Focal Trio11 Be
+PID 191 | KRK S10.4
+   bestFor: Rock & hip-hop bass extension
+   weight    : 35 lb (15.88 kg)
+   ptype     : Powered subwoofer
+   power     : 160W Class-D
+   maxspl    : 117.2 dB (peak)
+   driver    : 10"
+   freq      : 30 Hz – 110 Hz (±3 dB)
+PID 192 | Yamaha HS8S
+   bestFor: Flat reference sub bass
+   weight    : 27.6 lb (12.5 kg)
+   ptype     : Powered subwoofer
+   power     : 150W
+   maxspl    : Not specified
+   driver    : 8"
+   freq      : 22 Hz – 160 Hz
+PID 193 | Adam T10S
+   bestFor: Home studio low-end extension
+   weight    : 27 lb (12.2 kg)
+   ptype     : Powered subwoofer
+   power     : 130W Class-D
+   maxspl    : 104 dB (at 1m)
+   driver    : 10"
+   freq      : 28 Hz – 120 Hz
+PID 199 | Kali Audio IN-8 V2
+   bestFor: Detailed mixing in project studios
+   ptype     : 3-way powered || Triamplificado de 3 vías | 3-way powered
+   power     : 140W (60W + 40W + 40W)
+   maxspl    : 117 dB
+   driver    : 8"
+   freq      : 45 Hz – 21 kHz (±3 dB)
+PID 222 | ATC SCM25A Pro Mk2
+PID 300 | Kali Audio WS-6.2
+   bestFor: Small-studio mixing with deeper bass
+   weight    : 31 lb (14 kg)
+   ptype     : Powered subwoofer (side-firing woofers)
+   power     : 400W Class-D (1000W peak)
+   maxspl    : 120 dB (peak at 1m)
+   driver    : 2 x 6.5"
+   freq      : 27 Hz – 200 Hz (-10 dB)
+PID 301 | IK Multimedia iLoud Sub
+   bestFor: Ultra-compact desktop sub bass
+   weight    : 15.6 lb (7.1 kg)
+   ptype     : Powered subwoofer (down-firing)
+   power     : 160W RMS (200W peak)
+   maxspl    : 106 dB (peak at 40 Hz)
+   driver    : 6.5" + 2 passive radiators
+   freq      : 25 Hz – 150 Hz (-6 dB)
+PID 302 | IK Multimedia iLoud Micro Monitor Pro
+   bestFor: Best for Untreated Desks via Auto-Calibration
+   ptype     : 2-way powered (pair)
+   power     : 50W RMS per speaker (30W LF + 20W HF)
+   maxspl    : 94 dB continuous / 107.3 dB peak
+   driver    : 3" composite cellulose fiber
+   freq      : 42 Hz – 22 kHz (-10 dB)
+PID 303 | Genelec 8010A
+   bestFor: Ultra-compact reference monitoring || Reference-grade nearfield mixing (Rear port - needs space)
+   ptype     : 2-way powered || Biamplificado de 2 vías | 2-way powered
+   power     : 50W (25W + 25W)
+   maxspl    : 96 dB
+   driver    : 3"
+   freq      : 74 Hz – 20 kHz (±2.5 dB) | 67 Hz – 25 kHz (-6 dB)
+PID 304 | Kali Audio IN-UNF
+   bestFor: Compact desktop stereo pair
+   ptype     : 3-piece system (sub + 2 satellites)
+   power     : 100W (sub) + 2 x 20W (satellites) Class D
+   maxspl    : 103 dB
+   driver    : 5.25" subwoofer + 2 x 3.5" satellite woofers
+   freq      : 54 Hz – 21 kHz (±3 dB)
+PID 305 | Neumann KH 80 DSP
+   bestFor: DSP-corrected precision monitoring || Best Premium Choice for Untreated Rooms
+   ptype     : 2-way powered | 2-way powered with DSP
+   power     : 140W (90W + 50W)
+   maxspl    : 108.8 dB
+   driver    : 4" (100 mm) | 4"
+   freq      : 57 Hz – 21 kHz (±3 dB)
+PID 306 | ADAM Audio D3V
+   bestFor: Best Portless Desktop Choice for Bare Walls
+   ptype     : 2-way powered (pair)
+   power     : 240W peak (pair)
+   maxspl    : 96 dB
+   driver    : 3.5" aluminum
+   freq      : 45 Hz – 23.2 kHz (-6 dB)
+PID 307 | Kali Audio LP-UNF
+   bestFor: Wall-adjacent nearfield mixing || Best Ultra-Nearfield for Untreated Desktops || Compact desktop stereo pair
+   ptype     : 2-way powered | 2-way powered (pair) | 2-way pair powered
+   power     : 80W Class D | 160W Class-D (pair) | 160W (2 x 40W + 2 x 40W)
+   maxspl    : 108 dB | 103 dB
+   driver    : 4.5" | 4.5" long-excursion
+   freq      : 40 Hz – 35 kHz | 39 Hz – 25 kHz (-10 dB) | 54 Hz – 21 kHz (±3 dB)
+PID 308 | IK Multimedia iLoud MTM MKII
+   bestFor: Best Low-End Accuracy without Acoustic Treatment
+   ptype     : 2-way/3-speaker with DSP
+   power     : 200W RMS (pair)
+   maxspl    : 112.5 dB
+   driver    : 2 × 3.5"
+   freq      : 36 Hz – 32 kHz (-10 dB)
+PID 331 | Genelec 8351B SAM 3-Way Coaxial Studio Monitor
+   bestFor: Critical mixing for pro studios
+   ptype     : 3-way coaxial powered
+   power     : 550W (250W + 150W + 150W)
+   maxspl    : 113 dB
+   driver    : Dual 8.6 x 4 in obround
+   freq      : 38 Hz – 20 kHz (±1.5 dB)
+PID 337 | Neumann KH 750 DSP 10" Powered Studio Subwoofer
+PID 338 | Genelec 7050C Studio Subwoofer
+PID 371 | ADAM Audio T5V
+   bestFor: Affordable ribbon tweeter (Rear port - needs space)
+   ptype     : 2-way powered
+   power     : 70W Class-D (50W + 20W)
+   maxspl    : 106 dB
+   driver    : 5" polypropylene
+   freq      : 45 Hz – 25 kHz
+PID 372 | Genelec 8030C
+   bestFor: Professional reference monitoring (Best with built-in dip switches engaged)
+   ptype     : 2-way powered
+   power     : 100W Class-D (50W + 50W)
+   maxspl    : 104 dB
+   driver    : 5" (130 mm)
+   freq      : 47 Hz – 25 kHz (-6 dB)
+PID 468 | Neumann KH 810 II 10" Powered Studio Subwoofer
+PID 470 | ATC SCS120 Pro Active Studio Subwoofer
+PID 479 | Focal Sub12 13" Professional Studio Subwoofer
+PID 480 | Genelec 7370A SAM 12" Smart Active Studio Subwoofer
+PID 481 | Barefoot Sound MicroSub45 Dual-Force 8" Active Studio Subwoofer (Pair)
+PID 632 | Yamaha HS5
+   bestFor: Industry-standard mix translation (Rear port - needs space)
+   ptype     : 2-way bi-amped
+   power     : 70W (45W LF + 25W HF)
+   maxspl    : 102 dB
+   driver    : 5" cone
+   freq      : 54 Hz – 30 kHz (-10 dB)
+PID 633 | KRK Rokit 5 G5
+   bestFor: Best Budget DSP Controls for Untreated Spaces
+   ptype     : 2-way bi-amped, DSP
+   power     : 55W RMS (35W LF + 20W HF)
+   maxspl    : 104 dB
+   driver    : 5" Kevlar
+   freq      : 54 Hz – 30 kHz (±3 dB)
+PID 645 | Focal Alpha 65 Evo
+   bestFor: Desk against the wall; front-ported, no bass buildup near walls
+   standout  : 6.5-inch Slatefiber woofer, front laminar vent, 55 W + 30 W Class D
+PID 684 | PreSonus Eris Studio 5
+   bestFor: Best Budget Wide Sweet Spot (Front Ported)
+   ptype     : 2-way bi-amped, Class AB
+   power     : 80W (45W LF + 35W HF)
+   maxspl    : 102 dB peak @ 1 m
+   driver    : 5.25" woven composite
    freq      : 48 Hz – 20 kHz
-   dsp       : None — external amp/crossover
-PID 500 | EV ELX200-12 Passive Speaker
-   bestFor: Passive 12-inch with pro build and high headroom
-   weight    : 33.5 lb (15.2 kg)
-   ptype     : Passive PA speaker
-   power     : 300W cont. / 1,200W peak (8Ω)
-   maxspl    : 128 dB
-   coverage  : 90° x 60°
-   driver    : 12" + 1" HF
-   inputs    : Dual NL4
-   freq      : 51 Hz – 20 kHz
-   dsp       : None — external amp/crossover
-PID 501 | Turbosound Flashline TFX122M-AN Stage Monitor
-   bestFor: Live monitoring for gigging bands
-   weight    : 37.2 lb (16.9 kg)
-   ptype     : Powered wedge
-   power     : 1100W (peak)
-   maxspl    : 125 dB
-   coverage  : 60° x 40°
-   driver    : 12" + 1" HF
-   inputs    : 1x combo + XLR out + ULTRANET
-   freq      : 68 Hz – 20 kHz
-   dsp       : DSP presets (Klark Teknik)
-PID 502 | Mackie SRT215 Active PA Speaker
-   bestFor: Powered 15-inch for FOH and floor monitoring
-   weight    : 37.1 lb (16.8 kg)
-   ptype     : Powered PA speaker
-   power     : 1600W (peak)
-   maxspl    : 133 dB
-   coverage  : 90° x 60°
-   driver    : 15" + 1.4" HF
-   inputs    : 2x XLR/combo + 1/8" aux + XLR out + Bluetooth
-   freq      : 42 Hz – 20 kHz
-   dsp       : Advanced Impulse DSP + SRT Connect app
-PID 626 | Electro-Voice EVERSE 12 Active PA Speaker
-   bestFor: Battery-powered outdoor gigs and events
-   weight    : 31.2 lb (14.16 kg)
-   ptype     : Battery-powered PA speaker
-   power     : 400W (peak)
-   maxspl    : 126 dB
-   coverage  : 100° x 60°
-   driver    : 12" + 1" HF
-   inputs    : 2x XLR/combo + 3.5mm + XLR out
-   freq      : 45 Hz – 20 kHz
-   dsp       : QuickSmart DSP + app + Bluetooth
-PID 630 | Alto Professional TS18S
-   bestFor: Maximum chest-thump per dollar, budget gigs
-   weight    : 93 lb (42.2 kg)
-   ptype     : Powered subwoofer
-   power     : 2500W (peak)
-   maxspl    : 137 dB
-   driver    : 18" woofer
-   freq      : 35 Hz – 100 Hz
-   dsp       : DSP tunings + phase switch, no app
-   cardioid  : No
-PID 631 | JBL EON718S
-   bestFor: Touring DJs and bands, the reliable standard
-   weight    : 81.5 lb (37 kg)
-   ptype     : Powered subwoofer
-   power     : 1500W (peak)
-   maxspl    : 131 dB
-   driver    : 18" woofer
-   freq      : 40 Hz – 120 Hz
-   dsp       : dbx DSP + LCD + Bluetooth app
-   cardioid  : Yes, stackable
-PID 658 | Bose T8S ToneMatch
-   bestFor: Small acoustic events, weddings, duos
-   weight    : 1.9 kg (4.1 lb)
-   ptype     : Compact digital mixer
-   channels  : 8 (ToneMatch presets per channel)
-   preamps   : 8 Bose with 48 V phantom
-   eq        : ToneMatch + zEQ per channel
-   aux       : 4 aux outs
-   fx        : Per-channel dynamics + shared reverb
-   conn      : USB interface + stand mount
-   faders    : Rotary encoders, no faders
-   samplerate: 48 kHz
+PID 1042 | PreSonus Eris 3.5 2nd Gen
+   power     : 50 W (2×25 W bi-amp)
+   maxspl    : 98 dB (Peak, @ 1 m)
+   driver    : 3.5" woven composite
+   bassext   : 80 Hz - 20 kHz
+PID 1043 | M-Audio BX4
+   power     : 50 W (2×25 W bi-amp)
+   maxspl    : 100 dB (Peak, @ 1 m)
+   driver    : 4.5" Black Kevlar
+   bassext   : 69 Hz - 22 kHz
+PID 1046 | Mackie CR3.5
+   power     : 50 W (2×25 W bi-amp)
+   maxspl    : 94 dB (Peak, @ 1 m)
+   driver    : 3.5" woven
+   bassext   : 70 Hz - 20 kHz (-3 dB) / 60 Hz at -10 dB
+PID 1048 | Mackie CR4.5
+   power     : 50 W (2×25 W bi-amp)
+   maxspl    : 96 dB (Peak, @ 1 m)
+   driver    : 4.5" woven
+   bassext   : 65 Hz - 20 kHz (-3 dB) / 55 Hz at -10 dB
+PID 1049 | Behringer Truth 3.5 BT
+   power     : 64 W (2x32 W, Class D)
+   maxspl    : 101 dB (Peak, @ 1 m)
+   driver    : 3.5" glass fibre
+   bassext   : 70 Hz - 20 kHz (±3 dB)
+PID 1052 | Alesis ELEVATE 4
+   power     : 50 W (2x25 W, Class AB)
+   maxspl    : Not published
+   driver    : 4" woofer
+   bassext   : 68 Hz - 20 kHz
+PID 1054 | Focal Shape 65
+   bestFor: Focal Shape 65 nearfield mixing
+   ptype     : 2-way active
+   power     : 105W (80W LF + 25W HF) Class AB
+   maxspl    : 108 dB
+   driver    : 6.5" Flax cone
+   freq      : 40 Hz - 35 kHz
 
 === NO TABLE DATA ===
-  349 | Sennheiser EW IEM G4 Stereo Wireless System
+  22 | Genelec 8040B
+  180 | ADAM Audio S3H
+  181 | Focal Trio11 Be
+  222 | ATC SCM25A Pro Mk2
+  337 | Neumann KH 750 DSP 10" Powered Studio Subwoofer
+  338 | Genelec 7050C Studio Subwoofer
+  468 | Neumann KH 810 II 10" Powered Studio Subwoofer
+  470 | ATC SCS120 Pro Active Studio Subwoofer
+  479 | Focal Sub12 13" Professional Studio Subwoofer
+  480 | Genelec 7370A SAM 12" Smart Active Studio Subwoofer
+  481 | Barefoot Sound MicroSub45 Dual-Force 8" Active Studio Subwoofer (Pair)
 
 === UNMATCHED COLUMNS ===
-  beat-making :: Shure SM7B
+  active-vs-passive-pa :: JBL EON712 Active PA Speaker
+  active-vs-passive-pa :: EV ELX200-15P Active PA Speaker
+  active-vs-passive-pa :: JBL JRX215 Passive Speaker
+  active-vs-passive-pa :: Mackie SRT215 Active PA Speaker
+  active-vs-passive-pa :: Yamaha CBR12 Passive Speaker
+  active-vs-passive-pa :: EV ELX200-12 Passive Speaker
+  active-vs-passive-pa :: EV ZLX-12P-G2 Active PA Speaker
+  active-vs-passive-pa :: Yamaha DBR12 Active PA Speaker
   beginner-bass-guitars :: Yamaha TRBX304
   beginner-bass-guitars :: Yamaha BB234
   beginner-guitar :: Yamaha FG800 Acoustic
   beginner-guitar :: Yamaha Pacifica 112V
   beginner-guitar :: Yamaha C40 Classical (Nylon) Guitar
-  best-32-channel-digital-mixers :: Allen & Heath SQ-6+
+  best-32-channel-digital-mixers :: Behringer X32
   best-32-channel-digital-mixers :: Yamaha TF3
+  best-32-channel-digital-mixers :: PreSonus StudioLive SE 32R
+  best-32-channel-digital-mixers :: PreSonus StudioLive 32S
   best-32-channel-digital-mixers :: Mackie DL32SE
+  best-32-channel-digital-mixers :: PreSonus StudioLive 32SC
   best-5-string-basses :: Yamaha TRBX305 Bass
   best-5-string-basses :: Yamaha BB435 Bass
   best-acoustic-guitars-for-beginners :: Yamaha FG800 Acoustic
   best-acoustic-guitars-for-beginners :: Yamaha FS800
   best-acoustic-guitars-for-beginners :: Yamaha FGX800C
-  best-amp-modelers :: Line 6 Helix HX Stomp
-  best-amp-modelers :: Line 6 POD Go
+  best-amp-modelers :: IK Multimedia TONEX ONE+
+  best-analog-mixers :: Yamaha MG10XU
   best-analog-mixers :: Mackie ProFX12v3
   best-bass-practice-amps :: Yamaha THR30II
   best-bass-under-700 :: Yamaha TRBX304
   best-bass-under-700 :: Yamaha BB434
   best-beginner-electric-guitar :: Yamaha Pacifica 112V
   best-beginner-electric-guitar :: Yamaha Revstar Element RSE20
-  best-compact-mixers :: X32 Rack
-  best-compact-mixers :: SQ-Rack
-  best-compact-mixers :: SE 24R
-  best-condenser-mics :: sE Electronics sE2200
-  best-daw-for-beginners :: FL Studio Producer Edition
+  best-condenser-mics :: Audio-Technica AT2020
+  best-condenser-mics :: Neumann TLM 103
+  best-condenser-mics :: Neumann U 87 Ai
   best-digital-mixers :: Behringer X Air XR18
-  best-digital-mixers :: Allen & Heath CQ-18T
+  best-digital-mixers :: Behringer X32 Compact
+  best-digital-mixers :: PreSonus StudioLive 32SC
   best-digital-mixers :: Yamaha DM3S
   best-digital-mixers :: Behringer WING Compact
   best-digital-pianos :: Yamaha P-225
@@ -486,125 +286,92 @@ PID 658 | Bose T8S ToneMatch
   best-electric-guitars-2026 :: Yamaha Pacifica 112V
   best-guitar-home-office :: Yamaha SLG200S
   best-guitar-home-office :: Yamaha SLG200N
-  best-headphones :: Sennheiser HD 490 Pro Plus
-  best-headphones :: Sennheiser HD 600
-  best-headphones-for-mixing :: Sennheiser HD 490 Pro Plus
-  best-headphones-for-mixing :: Sennheiser HD 600
-  best-in-ear-monitors :: Shure SE846 Gen 2
-  best-in-ear-monitors :: Sennheiser EW IEM G4
-  best-instrument-mics :: Shure SM57
-  best-instrument-mics :: Sennheiser e 906
-  best-instrument-mics :: Electro-Voice RE20
-  best-instrument-mics :: Sennheiser MD 421 Kompakt
-  best-instrument-mics :: Shure Beta 52A
-  best-instrument-mics :: Sennheiser e 604
-  best-instrument-mics :: Shure Beta 58A
-  best-interface :: SSL 2+ MKII
+  best-guitar-plugins :: IK Multimedia AmpliTube 5
+  best-headphones :: Audio-Technica ATH-M50x
+  best-headphones :: Audio-Technica ATH-M20x
+  best-headphones :: Audio-Technica ATH-R70xa
+  best-headphones :: Neumann NDH 30
+  best-headphones-for-mixing :: Neumann NDH 30
+  best-headphones-for-mixing :: Audio-Technica ATH-M50x
+  best-instrument-mics :: Neumann KM 184
+  best-interface :: IK Multimedia AXE I/O
   best-keyboard :: Yamaha P-225
   best-keyboard :: M-Audio Hammer 88
+  best-live-sound-mixers :: Behringer X32 Compact
   best-live-sound-mixers :: Yamaha MG16XU
   best-live-sound-mixers :: Behringer X Air XR18
-  best-live-sound-mixers :: Allen & Heath CQ-18T
   best-live-sound-mixers :: Yamaha DM3S
+  best-live-subwoofers :: JBL PRX918XLF
+  best-live-subwoofers :: Yamaha DXS18XLF
+  best-live-subwoofers :: JBL EON718S
   best-looper-pedals :: TC Electronic Ditto Looper
   best-looper-pedals :: TC Electronic Ditto X4 Looper
-  best-looper-pedals :: Electro-Harmonix 720 Stereo Looper
-  best-looper-pedals :: Electro-Harmonix 1440 Stereo Looper
-  best-mic-for-guitar-amps :: Shure SM57
-  best-mic-for-guitar-amps :: Sennheiser MD 421 Kompakt
-  best-mic-for-guitar-amps :: Shure SM7B
-  best-mic-for-guitar-amps :: Sennheiser e906
-  best-mic-for-guitar-amps :: Shure Beta 57A
-  best-mic-for-podcasting :: Shure SM7B
   best-mic-for-podcasting :: Behringer XM8500 Ultravoice
-  best-mic-for-podcasting :: Shure MV7+
-  best-microphone :: sE Electronics X1 R
-  best-microphone :: Shure SM7B
-  best-microphone :: Shure SM7dB
-  best-monitors :: JBL 305P MkII
-  best-monitors :: Yamaha HS8
-  best-monitors-for-small-rooms :: JBL 305P MkII
-  best-monitors-for-small-rooms :: Yamaha HS5
-  best-multi-effects-pedals :: Line 6 Helix HX Stomp
-  best-parlor-guitars :: SE P20e
+  best-microphone :: Audio-Technica AT2020
+  best-microphone :: Neumann TLM 102
+  best-pa-speakers :: EV ZLX-12P-G2 Active PA Speaker
+  best-pa-speakers :: Yamaha DXR12mkII Active PA Speaker
+  best-pa-speakers :: Mackie Thump215XT
+  best-pa-speakers :: EV ELX200-15P Active PA Speaker
+  best-pa-speakers :: JBL PRX915
   best-parlor-guitars :: L-00 Studio
   best-practice-amps :: Yamaha THR10II
   best-reverb-delay :: TC Electronic Hall of Fame 2
-  best-ribbon-mics :: sE Electronics Voodoo VR2
   best-shotgun-mics :: S-Mic 3
+  best-shotgun-mics :: Audio-Technica AT897
   best-stage-keyboards :: Yamaha YC88
   best-stage-keyboards :: Yamaha Montage M8x
-  best-stage-keyboards :: Korg Grandstage X
   best-stage-keyboards :: Yamaha CK88
   best-synth-vsts :: u-he Diva
-  best-synthesizers :: Korg Minilogue XD
   best-synthesizers :: Yamaha Montage M8x
   best-synthesizers :: Behringer DeepMind 12
-  best-wireless-iems :: EW IEM G4
   budget-bass-like-expensive :: Yamaha TRBX304
   budget-bass-like-expensive :: Yamaha BB434
   budget-bass-like-expensive :: G&L Tribute L-2000
-  budget-headphones :: Sennheiser HD 560S
-  budget-headphones :: Shure SRH440A
-  budget-headphones :: Sennheiser HD 280 Pro II
-  budget-interfaces :: SSL 2+ MKII
+  budget-headphones :: Audio-Technica ATH-M40x
+  budget-headphones :: Audio-Technica ATH-R30x
   budget-interfaces :: Behringer U-Phoria UMC1820
-  budget-mics :: sE Electronics V7
-  budget-mics :: Shure SM57
   budget-mics :: Behringer B 906
   budget-mics :: Behringer XM8500 Ultravoice
-  budget-mics :: Shure Beta 58A
-  budget-mics :: Sennheiser e935
-  budget-mics :: Sennheiser e945
-  budget-mics :: Electro-Voice ND86
-  budget-monitors :: JBL 305P MkII
-  budget-monitors :: Yamaha HS8
-  budget-monitors ::  IN-8 V2
+  budget-mics :: Audio-Technica AT2020
+  budget-mics :: Audio-Technica AT2035
+  budget-pa-systems :: Mackie Thump215XT
+  budget-pa-systems :: EV ZLX-12P-G2 Active PA Speaker
+  budget-pa-systems :: Yamaha DBR12 Active PA Speaker
+  budget-pa-systems :: JBL EON712 Active PA Speaker
   compact-rhythm-devices :: Yamaha SEQTRAK
-  compact-rhythm-devices :: Korg Volca Sample 2
-  daw-guide :: FL Studio Producer Edition
   guitar-bass-amps :: Yamaha THR30II Wireless Desktop Amp
   guitar-pedals :: TC Electronic Hall of Fame 2
-  guitar-pedals :: Electro-Harmonix Nano Small Stone
-  mics-for-creators :: Shure MV7+
-  midi-controllers :: SSL UF8
+  live-sound-pa :: EV ZLX-12P-G2 Active PA Speaker
+  live-sound-pa :: JBL EON712 Active PA Speaker
+  live-sound-pa :: JBL PRX ONE Active PA Column
+  live-sound-pa :: Yamaha DXR12mkII Active PA Speaker
+  live-sound-pa :: Yamaha Stagepas 1K MKII Active PA Mixer
+  mics-for-creators :: Audio-Technica AT2020USB-X
+  mics-for-creators :: Audio-Technica AT2020
+  mics-for-creators :: Audio-Technica AT2040USB
+  midi-controllers :: PreSonus FaderPort 8
   midi-controllers :: Behringer X-Touch
-  midi-controllers :: SSL UF1
   midi-controllers :: Mackie MCU Pro
-  monitor-setup :: Yamaha HS8
   monitor-setup :: K&M 26722 Monitor Stands
-  open-headphones :: Sennheiser HD 490 Pro Plus
-  open-headphones :: Sennheiser HD 600
-  portable-interfaces :: SSL 2+ MKII
-  stage-mics :: Shure Beta 58A
-  stage-mics :: Sennheiser e935
-  stage-mics :: Sennheiser e945
-  stage-mics :: Electro-Voice ND86
-  stage-mics :: Shure SM57
-  stage-mics :: Sennheiser EW-D Dual Wireless System
-  stage-wireless :: Sennheiser EW-D 835-S Vocal Set
-  stage-wireless :: Shure BLX288/PG58
-  stage-wireless :: Sennheiser EW 100 G4-935
-  stage-wireless :: Sennheiser EW-D Dual
+  monitor-setup :: Genelec GLM Kit
+  open-headphones :: Audio-Technica ATH-R70xa
+  open-headphones :: Neumann NDH 30
+  premium-interfaces :: Neumann MT 48 (U)
+  stage-wedges :: Yamaha DHR12M
   stream-controllers :: TC Helicon GoXLR Mini
   stream-controllers :: Mackie MainStream
   stream-controllers :: RØDE RØDECaster Pro II
   stream-controllers :: Mackie DLZ Creator
   stream-controllers :: Yamaha AG08
-  stream-controllers :: Tascam Mixcast 4
   stream-controllers :: Behringer FLOW 8
   streaming-interfaces :: Yamaha URX44V
   studio-furniture :: K&M 210/2 Mic Stand
   studio-furniture :: K&M 26722 Monitor Stands (Each)
-  studio-furniture :: SSL UF8 DAW Controller
-  studio-subwoofers :: Yamaha HS8S
-  tracking-headphones :: Sennheiser HD 280 PRO II
-  tracking-headphones :: Shure SRH440A
-  tracking-headphones :: Sennheiser HD 300 Pro
-  usb-mics :: Shure MV7+
-  usb-mics :: Sennheiser Profile Streaming Set
-  usb-mics :: sE Electronics NEOM USB
-  best-studio-monitors-under-150 :: Mackie CR4.5
-  best-studio-monitors-under-150 :: M-Audio BX4
-  best-studio-monitors-under-150 :: Behringer Truth 3.5 BT
-  best-studio-monitors-under-150 :: Mackie CR3.5
+  tracking-headphones :: Focal Listen Professional
+  tracking-headphones :: Audio-Technica ATH-M50x
+  tracking-headphones :: Audio-Technica ATH-M40x
+  tracking-headphones :: Neumann NDH 20
+  tracking-headphones :: Audio-Technica ATH-M70x
+  usb-mics :: Audio-Technica AT2040USB
+  usb-mics :: Audio-Technica AT2020USB-X

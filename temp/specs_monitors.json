@@ -1,0 +1,602 @@
+{
+ "116": {
+  "ptype": [
+   "2-way powered"
+  ],
+  "driver": [
+   "5\""
+  ],
+  "power": [
+   "82W (41W + 41W)"
+  ],
+  "freq": [
+   "49 Hz – 20 kHz (±3 dB)"
+  ],
+  "maxspl": [
+   "108 dB"
+  ]
+ },
+ "117": {
+  "ptype": [
+   "2-way powered"
+  ],
+  "driver": [
+   "6.5\""
+  ],
+  "power": [
+   "80W (40W + 40W)"
+  ],
+  "freq": [
+   "47 Hz – 21 kHz (±3 dB)"
+  ],
+  "maxspl": [
+   "115 dB"
+  ]
+ },
+ "20": {
+  "ptype": [
+   "2-way powered"
+  ],
+  "driver": [
+   "7\" Kevlar"
+  ],
+  "power": [
+   "145W RMS (97W LF + 48W HF)"
+  ],
+  "freq": [
+   "45 Hz – 36 kHz (±3 dB)"
+  ],
+  "maxspl": [
+   "110 dB"
+  ]
+ },
+ "19": {
+  "ptype": [
+   "2-way powered"
+  ],
+  "driver": [
+   "8\""
+  ],
+  "power": [
+   "120W (75W + 45W)"
+  ],
+  "freq": [
+   "38 Hz – 30 kHz (-10 dB)"
+  ],
+  "maxspl": [
+   "110 dB",
+   "N/A"
+  ],
+  "standout": [
+   "8-inch woofer, 120 W bi-amp, Room Control/High Trim (no mid EQ)"
+  ]
+ },
+ "21": {
+  "ptype": [
+   "2-way powered"
+  ],
+  "driver": [
+   "7\" MLM"
+  ],
+  "power": [
+   "130W peak"
+  ],
+  "freq": [
+   "44 Hz – 41 kHz"
+  ],
+  "maxspl": [
+   "105 dB"
+  ]
+ },
+ "199": {
+  "ptype": [
+   "3-way powered || Triamplificado de 3 vías",
+   "3-way powered"
+  ],
+  "driver": [
+   "8\""
+  ],
+  "power": [
+   "140W (60W + 40W + 40W)"
+  ],
+  "freq": [
+   "45 Hz – 21 kHz (±3 dB)"
+  ],
+  "maxspl": [
+   "117 dB"
+  ]
+ },
+ "303": {
+  "ptype": [
+   "2-way powered || Biamplificado de 2 vías",
+   "2-way powered"
+  ],
+  "driver": [
+   "3\""
+  ],
+  "power": [
+   "50W (25W + 25W)"
+  ],
+  "freq": [
+   "74 Hz – 20 kHz (±2.5 dB)",
+   "67 Hz – 25 kHz (-6 dB)"
+  ],
+  "maxspl": [
+   "96 dB"
+  ]
+ },
+ "305": {
+  "ptype": [
+   "2-way powered",
+   "2-way powered with DSP"
+  ],
+  "driver": [
+   "4\" (100 mm)",
+   "4\""
+  ],
+  "power": [
+   "140W (90W + 50W)"
+  ],
+  "freq": [
+   "57 Hz – 21 kHz (±3 dB)"
+  ],
+  "maxspl": [
+   "108.8 dB"
+  ]
+ },
+ "331": {
+  "ptype": [
+   "3-way coaxial powered"
+  ],
+  "driver": [
+   "Dual 8.6 x 4 in obround"
+  ],
+  "power": [
+   "550W (250W + 150W + 150W)"
+  ],
+  "freq": [
+   "38 Hz – 20 kHz (±1.5 dB)"
+  ],
+  "maxspl": [
+   "113 dB"
+  ]
+ },
+ "304": {
+  "ptype": [
+   "3-piece system (sub + 2 satellites)"
+  ],
+  "driver": [
+   "5.25\" subwoofer + 2 x 3.5\" satellite woofers"
+  ],
+  "power": [
+   "100W (sub) + 2 x 20W (satellites) Class D"
+  ],
+  "freq": [
+   "54 Hz – 21 kHz (±3 dB)"
+  ],
+  "maxspl": [
+   "103 dB"
+  ]
+ },
+ "307": {
+  "ptype": [
+   "2-way powered",
+   "2-way powered (pair)",
+   "2-way pair powered"
+  ],
+  "driver": [
+   "4.5\"",
+   "4.5\" long-excursion"
+  ],
+  "power": [
+   "80W Class D",
+   "160W Class-D (pair)",
+   "160W (2 x 40W + 2 x 40W)"
+  ],
+  "freq": [
+   "40 Hz – 35 kHz",
+   "39 Hz – 25 kHz (-10 dB)",
+   "54 Hz – 21 kHz (±3 dB)"
+  ],
+  "maxspl": [
+   "108 dB",
+   "103 dB"
+  ]
+ },
+ "1054": {
+  "ptype": [
+   "2-way active"
+  ],
+  "driver": [
+   "6.5\" Flax cone"
+  ],
+  "power": [
+   "105W (80W LF + 25W HF) Class AB"
+  ],
+  "freq": [
+   "40 Hz - 35 kHz"
+  ],
+  "maxspl": [
+   "108 dB"
+  ]
+ },
+ "302": {
+  "ptype": [
+   "2-way powered (pair)"
+  ],
+  "driver": [
+   "3\" composite cellulose fiber"
+  ],
+  "power": [
+   "50W RMS per speaker (30W LF + 20W HF)"
+  ],
+  "freq": [
+   "42 Hz – 22 kHz (-10 dB)"
+  ],
+  "maxspl": [
+   "94 dB continuous / 107.3 dB peak"
+  ]
+ },
+ "308": {
+  "ptype": [
+   "2-way/3-speaker with DSP"
+  ],
+  "driver": [
+   "2 × 3.5\""
+  ],
+  "power": [
+   "200W RMS (pair)"
+  ],
+  "freq": [
+   "36 Hz – 32 kHz (-10 dB)"
+  ],
+  "maxspl": [
+   "112.5 dB"
+  ]
+ },
+ "633": {
+  "ptype": [
+   "2-way bi-amped, DSP"
+  ],
+  "driver": [
+   "5\" Kevlar"
+  ],
+  "power": [
+   "55W RMS (35W LF + 20W HF)"
+  ],
+  "freq": [
+   "54 Hz – 30 kHz (±3 dB)"
+  ],
+  "maxspl": [
+   "104 dB"
+  ]
+ },
+ "306": {
+  "ptype": [
+   "2-way powered (pair)"
+  ],
+  "driver": [
+   "3.5\" aluminum"
+  ],
+  "power": [
+   "240W peak (pair)"
+  ],
+  "freq": [
+   "45 Hz – 23.2 kHz (-6 dB)"
+  ],
+  "maxspl": [
+   "96 dB"
+  ]
+ },
+ "684": {
+  "ptype": [
+   "2-way bi-amped, Class AB"
+  ],
+  "driver": [
+   "5.25\" woven composite"
+  ],
+  "power": [
+   "80W (45W LF + 35W HF)"
+  ],
+  "freq": [
+   "48 Hz – 20 kHz"
+  ],
+  "maxspl": [
+   "102 dB peak @ 1 m"
+  ]
+ },
+ "372": {
+  "ptype": [
+   "2-way powered"
+  ],
+  "driver": [
+   "5\" (130 mm)"
+  ],
+  "power": [
+   "100W Class-D (50W + 50W)"
+  ],
+  "freq": [
+   "47 Hz – 25 kHz (-6 dB)"
+  ],
+  "maxspl": [
+   "104 dB"
+  ]
+ },
+ "371": {
+  "ptype": [
+   "2-way powered"
+  ],
+  "driver": [
+   "5\" polypropylene"
+  ],
+  "power": [
+   "70W Class-D (50W + 20W)"
+  ],
+  "freq": [
+   "45 Hz – 25 kHz"
+  ],
+  "maxspl": [
+   "106 dB"
+  ]
+ },
+ "632": {
+  "ptype": [
+   "2-way bi-amped"
+  ],
+  "driver": [
+   "5\" cone"
+  ],
+  "power": [
+   "70W (45W LF + 25W HF)"
+  ],
+  "freq": [
+   "54 Hz – 30 kHz (-10 dB)"
+  ],
+  "maxspl": [
+   "102 dB"
+  ]
+ },
+ "645": {
+  "standout": [
+   "6.5-inch Slatefiber woofer, front laminar vent, 55 W + 30 W Class D"
+  ]
+ },
+ "191": {
+  "ptype": [
+   "Powered subwoofer"
+  ],
+  "driver": [
+   "10\""
+  ],
+  "power": [
+   "160W Class-D"
+  ],
+  "freq": [
+   "30 Hz – 110 Hz (±3 dB)"
+  ],
+  "maxspl": [
+   "117.2 dB (peak)"
+  ],
+  "weight": [
+   "35 lb (15.88 kg)"
+  ]
+ },
+ "192": {
+  "ptype": [
+   "Powered subwoofer"
+  ],
+  "driver": [
+   "8\""
+  ],
+  "power": [
+   "150W"
+  ],
+  "freq": [
+   "22 Hz – 160 Hz"
+  ],
+  "maxspl": [
+   "Not specified"
+  ],
+  "weight": [
+   "27.6 lb (12.5 kg)"
+  ]
+ },
+ "193": {
+  "ptype": [
+   "Powered subwoofer"
+  ],
+  "driver": [
+   "10\""
+  ],
+  "power": [
+   "130W Class-D"
+  ],
+  "freq": [
+   "28 Hz – 120 Hz"
+  ],
+  "maxspl": [
+   "104 dB (at 1m)"
+  ],
+  "weight": [
+   "27 lb (12.2 kg)"
+  ]
+ },
+ "300": {
+  "ptype": [
+   "Powered subwoofer (side-firing woofers)"
+  ],
+  "driver": [
+   "2 x 6.5\""
+  ],
+  "power": [
+   "400W Class-D (1000W peak)"
+  ],
+  "freq": [
+   "27 Hz – 200 Hz (-10 dB)"
+  ],
+  "maxspl": [
+   "120 dB (peak at 1m)"
+  ],
+  "weight": [
+   "31 lb (14 kg)"
+  ]
+ },
+ "301": {
+  "ptype": [
+   "Powered subwoofer (down-firing)"
+  ],
+  "driver": [
+   "6.5\" + 2 passive radiators"
+  ],
+  "power": [
+   "160W RMS (200W peak)"
+  ],
+  "freq": [
+   "25 Hz – 150 Hz (-6 dB)"
+  ],
+  "maxspl": [
+   "106 dB (peak at 40 Hz)"
+  ],
+  "weight": [
+   "15.6 lb (7.1 kg)"
+  ]
+ },
+ "1048": {
+  "driver": [
+   "4.5\" woven"
+  ],
+  "bassext": [
+   "65 Hz - 20 kHz (-3 dB) / 55 Hz at -10 dB"
+  ],
+  "power": [
+   "50 W (2×25 W bi-amp)"
+  ],
+  "maxspl": [
+   "96 dB (Peak, @ 1 m)"
+  ]
+ },
+ "1052": {
+  "driver": [
+   "4\" woofer"
+  ],
+  "bassext": [
+   "68 Hz - 20 kHz"
+  ],
+  "power": [
+   "50 W (2x25 W, Class AB)"
+  ],
+  "maxspl": [
+   "Not published"
+  ]
+ },
+ "1043": {
+  "driver": [
+   "4.5\" Black Kevlar"
+  ],
+  "bassext": [
+   "69 Hz - 22 kHz"
+  ],
+  "power": [
+   "50 W (2×25 W bi-amp)"
+  ],
+  "maxspl": [
+   "100 dB (Peak, @ 1 m)"
+  ]
+ },
+ "1049": {
+  "driver": [
+   "3.5\" glass fibre"
+  ],
+  "bassext": [
+   "70 Hz - 20 kHz (±3 dB)"
+  ],
+  "power": [
+   "64 W (2x32 W, Class D)"
+  ],
+  "maxspl": [
+   "101 dB (Peak, @ 1 m)"
+  ]
+ },
+ "1042": {
+  "driver": [
+   "3.5\" woven composite"
+  ],
+  "bassext": [
+   "80 Hz - 20 kHz"
+  ],
+  "power": [
+   "50 W (2×25 W bi-amp)"
+  ],
+  "maxspl": [
+   "98 dB (Peak, @ 1 m)"
+  ]
+ },
+ "1046": {
+  "driver": [
+   "3.5\" woven"
+  ],
+  "bassext": [
+   "70 Hz - 20 kHz (-3 dB) / 60 Hz at -10 dB"
+  ],
+  "power": [
+   "50 W (2×25 W bi-amp)"
+  ],
+  "maxspl": [
+   "94 dB (Peak, @ 1 m)"
+  ]
+ },
+ "382": {
+  "ptype": [
+   "Music theory workstation (MIDI)"
+  ],
+  "format": [
+   "VST2/VST3/AU/AAX"
+  ],
+  "platforms": [
+   "macOS & Windows"
+  ],
+  "standout": [
+   "Automatic key detection with one-finger chords"
+  ]
+ },
+ "1032": {
+  "editing": [
+   "Basic monophonic (one track per window)"
+  ],
+  "timing": [
+   "Manual note-by-note timing"
+  ],
+  "formant": [
+   "Not included (Assistant and higher only)"
+  ],
+  "midiout": [
+   "Not included (Assistant and higher only)"
+  ],
+  "multitrack": [
+   "No: one track per window (Studio only)"
+  ],
+  "ecosystem": [
+   "Standalone (needs ARA or manual transfer)"
+  ]
+ },
+ "1040": {
+  "editing": [
+   "Monophonic (smart multi-track view)"
+  ],
+  "timing": [
+   "Automatic SmartAttack + macros"
+  ],
+  "formant": [
+   "Included: reshape vocal timbre and character"
+  ],
+  "midiout": [
+   "Not included (audio processing only)"
+  ],
+  "multitrack": [
+   "Yes: several takes side by side"
+  ],
+  "ecosystem": [
+   "Direct SynchroLink to VocAlign & Revoice"
+  ]
+ }
+}
