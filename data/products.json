@@ -10630,7 +10630,40 @@
       "gear4music",
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Hands-on stream control and automation",
+      "es": "Control y automatización del directo a mano"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Controller with LCD keys & dials",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "8 LCD keys + 4 dials + touch strip",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C (USB 2.0)",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 244,
@@ -10657,7 +10690,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Budget streaming with 4K capture",
+      "es": "Streaming económico con captura 4K"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Interface + capture + control surface",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "4 customizable SMART pads",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Dual USB-C, HDMI, XLR combo",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 246,
@@ -10682,7 +10748,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 8.8
+    "score": 8.8,
+    "bestFor": {
+      "en": "Broadcast-grade XLR mic audio",
+      "es": "Audio de micro XLR de emisión"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Compact XLR mic interface",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "1 multifunction dial + tap-to-mute",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C host, XLR in, 3.5mm out",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 247,
@@ -10707,7 +10806,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Adaptive podcast/stream console",
+      "es": "Consola de podcast y directo adaptable"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Adaptive digital mixer + interface",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "Nine 100mm faders + 10.1in touchscreen",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C, SD, USB drive",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 248,
@@ -10732,7 +10864,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.6
+    "score": 9.6,
+    "bestFor": {
+      "en": "All-in-one broadcast console",
+      "es": "Consola de emisión todo en uno"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Production console + interface",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "6 faders + 8 SMART pads + touchscreen",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Dual USB-C, BT, WiFi, microSD",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 249,
@@ -11518,7 +11683,40 @@
       "official": "https://www.elgato.com/us/en/p/stream-deck-plus-xl",
       "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FDISC-Elgato-Stream-Deck-XL%2F467H"
     },
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Biggest Stream Deck with dials",
+      "es": "El Stream Deck más grande con diales"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Controller with LCD keys & dials",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "36 LCD keys + dials + touch strip",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 265,
@@ -11544,7 +11742,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Loupedeck-style control for OBS",
+      "es": "Control tipo Loupedeck para OBS"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "All-in-one keypad with LCD keys",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "12 haptic keys + dials",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB-C",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 266,
@@ -30151,7 +30382,40 @@
       "zzounds",
       "andertons"
     ],
-    "score": 9.3
+    "score": 9.3,
+    "bestFor": {
+      "en": "Stream mixing with real faders + voice FX",
+      "es": "Mezcla en directo con faders reales y FX de voz"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "4-channel USB streaming mixer",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "4 faders + cough/censor buttons",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB (Windows only)",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 661,
@@ -30171,7 +30435,40 @@
       "andertons": "https://www.andertons.co.uk/mackie-mainstream-live-streaming-video-capture-interface/",
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Mackie-MainStream/art-LIG0019371-000"
     },
-    "score": 9.2
+    "score": 9.2,
+    "bestFor": {
+      "en": "Video + audio streaming in one box",
+      "es": "Vídeo y audio en directo en una sola caja"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Streaming + video capture interface",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "6 programmable keys + Matrix pads",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Single USB-C, HDMI in, USB-C hub",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 662,
@@ -30190,7 +30487,40 @@
       "andertons": "https://www.andertons.co.uk/yamaha-ag08-bl/",
       "zzounds": "https://www.zzounds.com/item--YAMAG08"
     },
-    "score": 9.1
+    "score": 9.1,
+    "bestFor": {
+      "en": "Analog-style multi-source streaming",
+      "es": "Streaming de varias fuentes estilo analógico"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "8-channel livestreaming mixer",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "60 mm faders + 6 sound pads",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB 8in/14out, smartphone, AUX",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 663,
@@ -30213,7 +30543,40 @@
     "oos": [
       "andertons"
     ],
-    "score": 8.9
+    "score": 8.9,
+    "bestFor": {
+      "en": "4-person podcast without a computer",
+      "es": "Podcast de cuatro personas sin ordenador"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Podcast console + recorder",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "Faders + 8 lit sound pads",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "USB, Bluetooth, TRRS call, SD",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 664,
@@ -30236,7 +30599,40 @@
     "oos": [
       "andertons"
     ],
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Mobile streaming and compact setups",
+      "es": "Streaming móvil y montajes compactos"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "Bus-powered USB-C interface",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "microphone",
+        "value": "4 XLR (70dB) + TRRS phone in",
+        "label": {
+          "en": "Mic Inputs",
+          "es": "Entradas de micro"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Built-in",
+        "label": {
+          "en": "Loopback",
+          "es": "Loopback"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 666,
@@ -30367,7 +30763,40 @@
     "excludeStores": [],
     "desc": "Eight-input digital mixer with six 60 mm channel faders, two independent studio-grade FX engines and a 10x2 USB audio interface, controlled from the free FLOW app over Bluetooth. Every channel gets four-band EQ and a compressor, with a limiter on the output.",
     "desc_es": "Mezclador digital de ocho entradas con seis faders de canal de 60 mm, dos motores de efectos independientes de calidad estudio y una interfaz USB 10x2, controlable desde la app FLOW gratuita por Bluetooth. Cada canal recibe EQ de cuatro bandas y compresor; hay limitador.",
-    "score": 8.7
+    "score": 8.7,
+    "bestFor": {
+      "en": "Full-featured digital mixing on a tight budget",
+      "es": "Mezcla digital completa con presupuesto ajustado"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "8-input digital mixer",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "sliders",
+        "value": "6 × 60mm channel faders",
+        "label": {
+          "en": "Controls",
+          "es": "Controles"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "signal",
+        "value": "Bluetooth app control + 10×2 USB",
+        "label": {
+          "en": "Connectivity",
+          "es": "Conectividad"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 672,
