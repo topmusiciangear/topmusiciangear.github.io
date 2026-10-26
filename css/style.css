@@ -3651,14 +3651,11 @@ a.chip-store[href*="fender.com"] { display: none !important; }
   
   /* Desktop product card spacing / hover containment */
   .guide-product-card {
-    gap: 24px;
-  }
-  .guide-product-card-img {
-    margin-bottom: 4px;
+    gap: 12px;
   }
   .guide-product-card-body {
-    padding: 24px 24px 20px 24px;
-    gap: 14px;
+    padding: 20px;
+    gap: 10px;
   }
   .guide-product-card:hover {
     transform: none;
