@@ -4029,7 +4029,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.7
+    "score": 9.7,
+    "bestFor": {
+      "en": "Electronic music and live performance",
+      "es": "Música electrónica y directo"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "90 days",
+        "label": {
+          "en": "Free Trial",
+          "es": "Prueba gratuita"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "star",
+        "value": "Session View, Max for Live",
+        "label": {
+          "en": "Standout Feature",
+          "es": "Función destacada"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 111,
@@ -4051,7 +4084,40 @@
     "excludeStores": [
       "zzounds"
     ],
-    "score": 9.5
+    "score": 9.5,
+    "bestFor": {
+      "en": "All-in-one Mac production",
+      "es": "Producción completa en Mac"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "macOS only",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "90-day trial",
+        "label": {
+          "en": "Free Trial",
+          "es": "Prueba gratuita"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "star",
+        "value": "Included instruments, Flex Time",
+        "label": {
+          "en": "Standout Feature",
+          "es": "Función destacada"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 112,
@@ -4079,7 +4145,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "Beat-makers and lifetime updates",
+      "es": "Productores de beats y actualizaciones de por vida"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "Free forever (limited)",
+        "label": {
+          "en": "Free Trial",
+          "es": "Prueba gratuita"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "star",
+        "value": "Step sequencer, free updates",
+        "label": {
+          "en": "Standout Feature",
+          "es": "Función destacada"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 113,
@@ -4108,7 +4207,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.8
+    "score": 9.8,
+    "bestFor": {
+      "en": "Post and audio-to-picture pros",
+      "es": "Profesionales de post y audio para imagen"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "30 days",
+        "label": {
+          "en": "Free Trial",
+          "es": "Prueba gratuita"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "star",
+        "value": "Elastic audio, 512 tracks",
+        "label": {
+          "en": "Standout Feature",
+          "es": "Función destacada"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 114,
@@ -4137,7 +4269,40 @@
     "oos": [
       "zzounds"
     ],
-    "score": 9.4
+    "score": 9.4,
+    "bestFor": {
+      "en": "MIDI and scoring workflows",
+      "es": "Flujos MIDI y partituras"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "60 days",
+        "label": {
+          "en": "Free Trial",
+          "es": "Prueba gratuita"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "star",
+        "value": "Studio to pro features, notation",
+        "label": {
+          "en": "Standout Feature",
+          "es": "Función destacada"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 115,
@@ -4163,7 +4328,40 @@
       "musicstore",
       "zzounds"
     ],
-    "score": 9
+    "score": 9,
+    "bestFor": {
+      "en": "Rack-based creative patching",
+      "es": "Patching creativo basado en rack"
+    },
+    "facts": [
+      {
+        "icon": "chip",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "30 days",
+        "label": {
+          "en": "Free Trial",
+          "es": "Prueba gratuita"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "star",
+        "value": "Rack plugin, CV patching",
+        "label": {
+          "en": "Standout Feature",
+          "es": "Función destacada"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 116,
