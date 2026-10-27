@@ -1,0 +1,562 @@
+{
+  "title": "Budget Microphones Compared in This Guide",
+  "title_es": "Comparativa de micros económicos en esta guía",
+  "columns": [
+    {
+      "title": "sE Electronics V7",
+      "title_es": "sE Electronics V7"
+    },
+    {
+      "title": "Elgato Wave DX",
+      "title_es": "Elgato Wave DX"
+    },
+    {
+      "title": "Samson Q9U XLR/USB",
+      "title_es": "Samson Q9U XLR/USB"
+    },
+    {
+      "title": "AKG P120 Medium-Diaphragm",
+      "title_es": "AKG P120 Diafragma Mediano"
+    },
+    {
+      "title": "Shure SM57",
+      "title_es": "Shure SM57"
+    },
+    {
+      "title": "Behringer XM8500 Ultravoice",
+      "title_es": "Behringer XM8500 Ultravoice"
+    },
+    {
+      "title": "Samson Q2U USB/XLR",
+      "title_es": "Samson Q2U USB/XLR"
+    },
+    {
+      "title": "FIFINE AmpliTank K688",
+      "title_es": "FIFINE AmpliTank K688"
+    },
+    {
+      "title": "Shure SM58",
+      "title_es": "Shure SM58"
+    },
+    {
+      "title": "Rode PodMic",
+      "title_es": "Rode PodMic"
+    },
+    {
+      "title": "Maono PD200X Dynamic",
+      "title_es": "Maono PD200X Dynamic"
+    },
+    {
+      "title": "Rode NT1 Signature",
+      "title_es": "Rode NT1 Signature"
+    },
+    {
+      "title": "Audio-Technica AT2020",
+      "title_es": "Audio-Technica AT2020"
+    },
+    {
+      "title": "Audio-Technica AT2035",
+      "title_es": "Audio-Technica AT2035"
+    },
+    {
+      "title": "Sennheiser e935",
+      "title_es": "Sennheiser e935"
+    },
+    {
+      "title": "Electro-Voice ND86",
+      "title_es": "Electro-Voice ND86"
+    }
+  ],
+  "rows": [
+    {
+      "label": "Best For",
+      "label_es": "Ideal para",
+      "values": [
+        {
+          "value": "Live vocals & instruments",
+          "value_es": "Voces en vivo e instrumentos"
+        },
+        {
+          "value": "Streaming & podcasting",
+          "value_es": "Streaming y podcasting"
+        },
+        {
+          "value": "Broadcast podcasting",
+          "value_es": "Podcast y transmisión en vivo"
+        },
+        {
+          "value": "Vocals & instruments",
+          "value_es": "Voces e instrumentos"
+        },
+        {
+          "value": "Guitars, drums & live",
+          "value_es": "Guitarras, batería y en vivo"
+        },
+        {
+          "value": "Ultra-budget vocals",
+          "value_es": "Voces ultra económicas"
+        },
+        {
+          "value": "First podcast mic",
+          "value_es": "Primer micrófono de podcast"
+        },
+        {
+          "value": "Streaming with controls",
+          "value_es": "Streaming con controles"
+        },
+        {
+          "value": "Live vocals & stage",
+          "value_es": "Voces en vivo y escenarios"
+        },
+        {
+          "value": "Podcasting & voiceover",
+          "value_es": "Podcast y locución"
+        },
+        {
+          "value": "Streaming & vocals",
+          "value_es": "Streaming y voces"
+        },
+        {
+          "value": "Studio vocals",
+          "value_es": "Voces de estudio"
+        },
+        {
+          "value": "Budget studio vocals",
+          "value_es": "Voces de estudio económicas"
+        },
+        {
+          "value": "Versatile studio",
+          "value_es": "estudio versátil"
+        },
+        {
+          "value": "Live vocals & cut-through",
+          "value_es": "Voces en vivo y corte de mezcla"
+        },
+        {
+          "value": "Large-venue vocals",
+          "value_es": "Voces en recintos grandes"
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "label_es": "Tipo",
+      "values": [
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        },
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        },
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        },
+        {
+          "value": "Condenser",
+          "value_es": "Condensador"
+        },
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        },
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        },
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        },
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        },
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        },
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        },
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        },
+        {
+          "value": "Condenser",
+          "value_es": "Condensador"
+        },
+        {
+          "value": "Condenser",
+          "value_es": "Condensador"
+        },
+        {
+          "value": "Condenser",
+          "value_es": "Condensador"
+        },
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        },
+        {
+          "value": "Dynamic",
+          "value_es": "Dinámico"
+        }
+      ]
+    },
+    {
+      "label": "Connection",
+      "label_es": "Conexión",
+      "values": [
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        },
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        },
+        {
+          "value": "USB-C/XLR",
+          "value_es": "USB-C/XLR"
+        },
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        },
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        },
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        },
+        {
+          "value": "USB-C/XLR",
+          "value_es": "USB-C/XLR"
+        },
+        {
+          "value": "USB-C/XLR",
+          "value_es": "USB-C/XLR"
+        },
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        },
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        },
+        {
+          "value": "USB-C/XLR",
+          "value_es": "USB-C/XLR"
+        },
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        },
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        },
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        },
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        },
+        {
+          "value": "XLR",
+          "value_es": "XLR"
+        }
+      ]
+    },
+    {
+      "label": "Polar Pattern",
+      "label_es": "Patrón polar",
+      "values": [
+        {
+          "value": "Supercardioid",
+          "value_es": "Supercardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Cardioid",
+          "value_es": "Cardioide"
+        },
+        {
+          "value": "Supercardioid",
+          "value_es": "Supercardioide"
+        }
+      ]
+    },
+    {
+      "label": "Frequency Response",
+      "label_es": "Respuesta de frecuencia",
+      "values": [
+        {
+          "value": "40 Hz – 19 kHz",
+          "value_es": "40 Hz – 19 kHz"
+        },
+        {
+          "value": "50 Hz – 15 kHz",
+          "value_es": "50 Hz – 15 kHz"
+        },
+        {
+          "value": "50 Hz – 20 kHz",
+          "value_es": "50 Hz – 20 kHz"
+        },
+        {
+          "value": "20 Hz – 20 kHz",
+          "value_es": "20 Hz – 20 kHz"
+        },
+        {
+          "value": "40 Hz – 15 kHz",
+          "value_es": "40 Hz – 15 kHz"
+        },
+        {
+          "value": "50 Hz – 15 kHz",
+          "value_es": "50 Hz – 15 kHz"
+        },
+        {
+          "value": "50 Hz – 15 kHz",
+          "value_es": "50 Hz – 15 kHz"
+        },
+        {
+          "value": "50 Hz – 16 kHz",
+          "value_es": "50 Hz – 16 kHz"
+        },
+        {
+          "value": "50 Hz – 15 kHz",
+          "value_es": "50 Hz – 15 kHz"
+        },
+        {
+          "value": "50 Hz – 15 kHz",
+          "value_es": "50 Hz – 15 kHz"
+        },
+        {
+          "value": "40 Hz – 16 kHz",
+          "value_es": "40 Hz – 16 kHz"
+        },
+        {
+          "value": "20 Hz – 20 kHz",
+          "value_es": "20 Hz – 20 kHz"
+        },
+        {
+          "value": "20 Hz – 20 kHz",
+          "value_es": "20 Hz – 20 kHz"
+        },
+        {
+          "value": "20 Hz – 20 kHz",
+          "value_es": "20 Hz – 20 kHz"
+        },
+        {
+          "value": "40 Hz – 18 kHz",
+          "value_es": "40 Hz – 18 kHz"
+        },
+        {
+          "value": "Close 30 Hz – 17 kHz",
+          "value_es": "Close 30 Hz – 17 kHz"
+        }
+      ]
+    },
+    {
+      "label": "Max SPL",
+      "label_es": "SPL máximo",
+      "values": [
+        {
+          "value": "Not published",
+          "value_es": "No publicado"
+        },
+        {
+          "value": "Not published",
+          "value_es": "No publicado"
+        },
+        {
+          "value": ">140 dB",
+          "value_es": ">140 dB"
+        },
+        {
+          "value": "130 dB (150 dB w/ pad)",
+          "value_es": "130 dB (150 dB con pad)"
+        },
+        {
+          "value": "Not published",
+          "value_es": "No publicado"
+        },
+        {
+          "value": "Not published",
+          "value_es": "No publicado"
+        },
+        {
+          "value": "148 dB",
+          "value_es": "148 dB"
+        },
+        {
+          "value": "130 dB",
+          "value_es": "130 dB"
+        },
+        {
+          "value": "Not published",
+          "value_es": "No publicado"
+        },
+        {
+          "value": "Not published",
+          "value_es": "No publicado"
+        },
+        {
+          "value": ">130 dB",
+          "value_es": ">130 dB"
+        },
+        {
+          "value": "142 dB",
+          "value_es": "142 dB"
+        },
+        {
+          "value": "144 dB",
+          "value_es": "144 dB"
+        },
+        {
+          "value": "148 dB (158 dB w/ pad)",
+          "value_es": "148 dB (158 dB con pad)"
+        },
+        {
+          "value": "Not published",
+          "value_es": "No publicado"
+        },
+        {
+          "value": ">140 dB",
+          "value_es": ">140 dB"
+        }
+      ]
+    },
+    {
+      "label": "Phantom Power",
+      "label_es": "Phantom",
+      "values": [
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        },
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        },
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        },
+        {
+          "value": "48V required",
+          "value_es": "Requiere 48V"
+        },
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        },
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        },
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        },
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        },
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        },
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        },
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        },
+        {
+          "value": "48V required",
+          "value_es": "Requiere 48V"
+        },
+        {
+          "value": "48V required",
+          "value_es": "Requiere 48V"
+        },
+        {
+          "value": "48V required",
+          "value_es": "Requiere 48V"
+        },
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        },
+        {
+          "value": "Not required",
+          "value_es": "No requiere"
+        }
+      ]
+    }
+  ]
+}

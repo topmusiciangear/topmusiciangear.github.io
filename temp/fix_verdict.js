@@ -1,30 +1,39 @@
-const fs = require('fs');
-const path = 'C:/Users/Daniel/projects/topmusiciangear/data/guides.json';
-let c = fs.readFileSync(path, 'utf8');
-let obj = JSON.parse(c);
-const g = obj.find(x => x.id === 'best-monitors');
-
-// Corregir verdict_es
-g.verdict_es = g.verdict_es
-  .replace('<span class="product-name"> LP-6 V2</span>', '<span class="product-name">Kali Audio LP-6 V2</span>')
-  .replace('<span class="product-name"> IN-8 V2</span>', '<span class="product-name">Kali Audio IN-8 V2</span>')
-  .replace('<span class="product-name"> IN-UNF</span>', '<span class="product-name">Kali Audio IN-UNF</span>')
-  .replace('<span class="product-name"> LP-UNF</span>', '<span class="product-name">Kali Audio LP-UNF</span>')
-  .replace('<p><strong><span class="product-name"> </span></strong> — Un subwoofer de estudio compacto con dos woofers de 6,5 pulgadas opuestos horizontalmente que cancelan su propia vibración.</p>', '');
-
-// Corregir verdict (EN)
-g.verdict = g.verdict
-  .replace('<span class="product-name"> LP-6 V2</span>', '<span class="product-name">Kali Audio LP-6 V2</span>')
-  .replace('<span class="product-name"> IN-8 V2</span>', '<span class="product-name">Kali Audio IN-8 V2</span>')
-  .replace('<span class="product-name"> IN-UNF</span>', '<span class="product-name">Kali Audio IN-UNF</span>')
-  .replace('<span class="product-name"> LP-UNF</span>', '<span class="product-name">Kali Audio LP-UNF</span>')
-  .replace('<p><strong><span class="product-name"> </span></strong> — A compact studio subwoofer with two 6.5-inch horizontal woofers that cancel their own vibration.</p>', '');
-
-fs.writeFileSync(path, JSON.stringify(obj, null, 2));
-console.log('Verdict corregido');
-
-// Verificar
-const obj2 = JSON.parse(fs.readFileSync(path, 'utf8'));
-const g2 = obj2.find(x => x.id === 'best-monitors');
-console.log('VERDICTO ES corregido:');
-console.log(g2.verdict_es.substring(0, 600));
+const fs=require('fs');
+let guides=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+let guide=guides.find(g=>g.id==='budget-mics');
+if(!guide.verdictProsCons) { console.log('no verdict'); process.exit(0);}
+let idx=guide.verdictProsCons.findIndex(p=>p.name==='Electro-Voice ND86');
+if(idx>=0){
+  guide.verdictProsCons[idx]={
+    name:'sE Electronics X1 S',
+    name_es:'sE Electronics X1 S',
+    pros:[
+      'Hand-crafted 1" capsule delivers warm, detailed vocal tone',
+      'Switchable -10/-20 dB pads and 80/160 Hz filters add flexibility',
+      'Max SPL up to 160 dB handles loud sources without distortion',
+      'Low self-noise 9 dB keeps recordings clean in quiet home rooms'
+    ],
+    cons:[
+      'Condenser requires phantom power, not plug-and-play for live use',
+      'Large-diaphragm look may feel big on a small desk',
+      'Cardioid pattern picks up room reflections in untreated spaces',
+      'Price sits near the top of the under $200 budget'
+    ],
+    pros_es:[
+      'Cápsula de 1" hecha a mano entrega tono vocal cálido y detallado',
+      'Pads -10/-20 dB y filtros 80/160 Hz conmutables dan flexibilidad',
+      'SPL máximo 160 dB aguanta fuentes fuertes sin distorsión',
+      'Ruido propio 9 dB mantiene limpias las grabaciones en habitaciones silenciosas'
+    ],
+    cons_es:[
+      'Condensador requiere phantom power, no es plug-and-play para directo',
+      'Aspecto de diafragma grande puede resultar grande en un escritorio pequeño',
+      'Patrón cardioide capta reflexiones de sala en espacios sin tratar',
+      'Precio se sitúa cerca del tope del presupuesto bajo $200'
+    ]
+  };
+  console.log('replaced');
+}else{
+  console.log('not found');
+}
+fs.writeFileSync('data/guides.json', JSON.stringify(guides,null,2));
