@@ -1,0 +1,9 @@
+const fs=require('fs');
+const OVERRIDES_VERSION='59';
+const f='guides/best-mic-for-podcasting.html';
+const txt=fs.readFileSync(f,'utf8');
+console.log('override', txt.includes(`/css/overrides.css?v=${OVERRIDES_VERSION}`));
+console.log('quick', txt.includes('...guide-section-quickfacts'));
+console.log('awin', /href="https:\/\/www\.awin1\.com\/cread\.php\?[^"]*ued=/.test(txt));
+console.log('pxf', /href="https:\/\/andertonsmusiccompany\.pxf\.io\/[^"]*\?[^"]*u=/.test(txt));
+console.log('cj', /href="https:\/\/www\.anrdoezrs\.net\/click-[^"]*\?[^"]*url=/.test(txt));
