@@ -1,8 +1,8 @@
 import re
-s = open('guides/at2020-vs-p120.html', 'r', encoding='utf-8').read()
-m = re.search(r'guide-section-mediabuy', s)
+path='guides/budget-mics_es.html'
+txt=open(path,encoding='utf-8').read()
+m=re.search(r'<div class="guide-section-imgs">.*?</div>',txt,re.S)
+print('found' if m else 'no')
 if m:
-    start = m.start()
-    print(s[start:start+1500])
-else:
-    print('NOT FOUND')
+    snippet=m.group(0)[:800]
+    print(snippet)

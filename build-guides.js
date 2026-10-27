@@ -216,6 +216,7 @@ const cacheVerJs = crypto.createHash('md5').update(fs.readFileSync(path.join(dir
 const cacheVerJsMin = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'app.min.js'))).digest('hex').slice(0, 8);
 const cacheVerConstants = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'js', 'constants.js'))).digest('hex').slice(0, 8);
 const cacheVerCss = crypto.createHash('md5').update(fs.readFileSync(path.join(dir, 'css', 'style.min.css'))).digest('hex').slice(0, 8);
+const OVERRIDES_VERSION = '59';
 const RECAPTCHA_SITE_KEY = "6Lf083QtAAAAACTzrVpmKX5_syRkkw_U1Za8K6C2";
 const today = new Date().toISOString().split('T')[0];
 const YEAR = new Date().getFullYear();
@@ -7149,6 +7150,7 @@ ${ogMeta}
   <style>${criticalCss()}</style><script>/*tmgLangScrollEarly*/(function(){try{var y=parseInt(sessionStorage.getItem('tmgLangScroll')||'-1',10);if(y>=0){document.documentElement.style.visibility='hidden';history.scrollRestoration='manual';}}catch(e){}})();</script>
   <link rel="preload" as="style" href="/css/style.min.css?v=${cacheVerCss}" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/css/style.min.css?v=${cacheVerCss}"></noscript>
+  <link rel="stylesheet" href="/css/overrides.css?v=${OVERRIDES_VERSION}">
   <style id="hf-overrides">
 .mobile-social{padding:48px 16px 0!important}
 main:has(.mobile-social)+footer{padding-top:48px!important}
@@ -7721,3 +7723,44 @@ fs.writeFileSync(path.join(dir, 'data', 'guides.json'), JSON.stringify(guides, n
 console.log('Updated: data/guides.json with pre-bolded content');
 
 console.log(`\nDone! Generated ${guides.length * 2} guide pages.`);
+
+// --- Integrated post-build steps ---
+try {
+  console.log('\n[post-build] Regenerating shop-buttons.js...');
+  const { execSync } = require('child_process');
+  execSync('node temp/gen-shop-buttons.js', { stdio: 'inherit' });
+
+  console.log('[post-build] Deferring affiliate links...');
+  execSync('node temp/defere-aff.js', { stdio: 'inherit' });
+
+  console.log('[post-build] Pre-rendering home categories...');
+  execSync('node build-home-cats.js', { stdio: 'inherit' });
+
+  console.log('[post-build] Updating cache hashes...');
+  const crypto = require('crypto');
+  const shopContent = fs.readFileSync(path.join(dir, 'js', 'shop-buttons.js'));
+  const shopHash = crypto.createHash('md5').update(shopContent).digest('hex').substring(0, 8);
+  const indexHtmlPath = path.join(dir, 'index.html');
+  let indexHtml = fs.readFileSync(indexHtmlPath, 'utf8');
+  indexHtml = indexHtml.replace(/shop-buttons\.js\?v=[a-f0-9]+/, 'shop-buttons.js?v=' + shopHash);
+  fs.writeFileSync(indexHtmlPath, indexHtml);
+  const esIndexPath = path.join(dir, 'es', 'index.html');
+  if (fs.existsSync(esIndexPath)) {
+    let esHtml = fs.readFileSync(esIndexPath, 'utf8');
+    const cssMatch = indexHtml.match(/css\/style\.min\.css\?v=([a-f0-9]+)/);
+    const appMatch = indexHtml.match(/js\/app\.min\.js\?v=([a-f0-9]+)/);
+    const cssHash = cssMatch ? cssMatch[1] : '';
+    const appHash = appMatch ? appMatch[1] : '';
+    esHtml = esHtml.replace(/css\/style\.min\.css\?v=[a-f0-9]+/g, 'css/style.min.css?v=' + cssHash);
+    esHtml = esHtml.replace(/shop-buttons\.js\?v=[a-f0-9]+/g, 'shop-buttons.js?v=' + shopHash);
+    esHtml = esHtml.replace(/js\/app\.min\.js\?v=[a-f0-9]+/g, 'js/app.min.js?v=' + appHash);
+    fs.writeFileSync(esIndexPath, esHtml);
+  }
+  console.log('   shop-buttons.js?v=' + shopHash);
+
+  console.log('[post-build] Running checks...');
+  execSync('node check-guides.js', { stdio: 'inherit' });
+} catch(e){
+  console.error('[post-build] Error:', e.message);
+  process.exit(1);
+}

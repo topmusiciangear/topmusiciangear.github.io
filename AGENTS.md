@@ -983,3 +983,9 @@ propio. Nunca se rompe una card por no tener recorte.
 - Si el producto es **blanco sobre fondo blanco** y el recorte automático lo descarta, revisar la
   imagen a mano: es el único caso donde hace falta una foto con más contraste.
 - El resto del sitio (home, deals) sigue usando las fotos originales; esta regla es de las guías.
+
+
+## Gu�a Build
+
+Nunca editar guides/.html a mano, se regeneran. Los cambios van en build-guides.js o data/.json. Tras cambiar overrides.css, subir OVERRIDES_VERSION y regenerar.
+
