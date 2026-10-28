@@ -6316,7 +6316,7 @@ function shopButtonsTest(p, lang) {
     'background:#333333;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
     '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + t('Comparar en ' + rowCount + ' tiendas más', 'Compare ' + rowCount + ' more stores') + chevSvg + '</span></span>' + '</button>' +
-    '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + reviewRow + '</div>';
+    '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;margin-top:8px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>' + reviewRow;
   return isLogic ? primaryBtn + reviewRow : primaryBtn + moreBtn;
 }
 
