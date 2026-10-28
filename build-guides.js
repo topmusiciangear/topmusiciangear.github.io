@@ -7773,18 +7773,18 @@ try {
   const shopHash = crypto.createHash('md5').update(shopContent).digest('hex').substring(0, 8);
   const indexHtmlPath = path.join(dir, 'index.html');
   let indexHtml = fs.readFileSync(indexHtmlPath, 'utf8');
-  indexHtml = indexHtml.replace(/shop-buttons\.js\?v=[a-f0-9]+/, 'shop-buttons.js?v=' + shopHash);
+  indexHtml = indexHtml.replace(/shop-buttons\.js\?v=[a-zA-Z0-9]+/, 'shop-buttons.js?v=' + shopHash);
   fs.writeFileSync(indexHtmlPath, indexHtml);
   const esIndexPath = path.join(dir, 'es', 'index.html');
   if (fs.existsSync(esIndexPath)) {
     let esHtml = fs.readFileSync(esIndexPath, 'utf8');
-    const cssMatch = indexHtml.match(/css\/style\.min\.css\?v=([a-f0-9]+)/);
-    const appMatch = indexHtml.match(/js\/app\.min\.js\?v=([a-f0-9]+)/);
+    const cssMatch = indexHtml.match(/css\/style\.min\.css\?v=([a-zA-Z0-9]+)/);
+    const appMatch = indexHtml.match(/js\/app\.min\.js\?v=([a-zA-Z0-9]+)/);
     const cssHash = cssMatch ? cssMatch[1] : '';
     const appHash = appMatch ? appMatch[1] : '';
-    esHtml = esHtml.replace(/css\/style\.min\.css\?v=[a-f0-9]+/g, 'css/style.min.css?v=' + cssHash);
-    esHtml = esHtml.replace(/shop-buttons\.js\?v=[a-f0-9]+/g, 'shop-buttons.js?v=' + shopHash);
-    esHtml = esHtml.replace(/js\/app\.min\.js\?v=[a-f0-9]+/g, 'js/app.min.js?v=' + appHash);
+    esHtml = esHtml.replace(/css\/style\.min\.css\?v=[a-zA-Z0-9]+/g, 'css/style.min.css?v=' + cssHash);
+    esHtml = esHtml.replace(/shop-buttons\.js\?v=[a-zA-Z0-9]+/g, 'shop-buttons.js?v=' + shopHash);
+    esHtml = esHtml.replace(/js\/app\.min\.js\?v=[a-zA-Z0-9]+/g, 'js/app.min.js?v=' + appHash);
     fs.writeFileSync(esIndexPath, esHtml);
   }
   console.log('   shop-buttons.js?v=' + shopHash);
