@@ -89,6 +89,20 @@ const TEST_SHOP_BTN = {
       musicstore: "€119.00"
     }
   },
+  1057: {
+    prices: {
+      andertons: "£249.00",
+      zzounds: "$349.00",
+      gear4music: "£249.00",
+      amazon: "$349.99"
+    },
+    urls: {
+      andertons: "https://www.andertons.co.uk/alvarez-artist-series-dreadnought-acoustic-guitar/",
+      zzounds: "https://www.zzounds.com/item--ALVAD30?siid=107025",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/DISC-Alvarez-AD30-Dreadnought-Acoustic-Guitar-Natural/PVX",
+      amazon: "https://www.amazon.com/dp/B0057GPHNM?plpRedirect=mhFallback&ref=clp_hp_h_pc"
+    }
+  },
   1055: {
     prices: {
       andertons: "£114.00",
