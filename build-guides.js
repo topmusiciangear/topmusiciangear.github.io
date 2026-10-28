@@ -523,6 +523,20 @@ const TEST_SHOP_BTN = {
       musicstore: "€119.00"
     }
   },
+  1057: {
+    prices: {
+      andertons: "£249.00",
+      zzounds: "$349.00",
+      gear4music: "£249.00",
+      amazon: "$349.99"
+    },
+    urls: {
+      andertons: "https://www.andertons.co.uk/alvarez-artist-series-dreadnought-acoustic-guitar/",
+      zzounds: "https://www.zzounds.com/item--ALVAD30?siid=107025",
+      gear4music: "https://www.gear4music.com/Guitar-and-Bass/DISC-Alvarez-AD30-Dreadnought-Acoustic-Guitar-Natural/PVX",
+      amazon: "https://www.amazon.com/dp/B0057GPHNM?plpRedirect=mhFallback&ref=clp_hp_h_pc"
+    }
+  },
   1055: {
     prices: {
       andertons: "£114.00",
@@ -6949,7 +6963,7 @@ function buildGuidePage(guide, lang, idx) {
           }
           const _cardBase = 'background:#22252c;border-radius:8px;padding:4px 6px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:2px;overflow:hidden;';
           quickFactsHtml = '<div class="guide-section-quickfacts">' +
-            '<div class="qf-card qf-bestfor">' +
+            '<div class="qf-card qf-bestfor" style="text-align:center">' +
               '<div class="qf-label">' + _bfl + '</div>' +
               '<div class="qf-value">' + _bf + '</div>' +
             '</div>' +
