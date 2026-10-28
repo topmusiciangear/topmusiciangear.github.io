@@ -1,0 +1,41 @@
+const fs = require('fs');
+const arr = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = (Array.isArray(arr) ? arr : arr.guides).find(x => x.id === 'best-nylon-guitars-for-beginners');
+const strip = s => String(s || '').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+const out = [];
+out.push('TITLE EN: ' + g.title);
+out.push('TITLE ES: ' + g.title_es);
+out.push('DESC EN: ' + g.description);
+out.push('DESC ES: ' + g.description_es);
+out.push('\nINTRO EN: ' + strip(g.intro));
+out.push('\nINTRO ES: ' + strip(g.intro_es));
+g.sections.forEach((s, i) => {
+  out.push(`\n===== [${i}] =====`);
+  out.push('H EN: ' + strip(s.heading));
+  out.push('H ES: ' + strip(s.heading_es));
+  out.push('EN: ' + strip(s.content));
+  out.push('ES: ' + strip(s.content_es));
+});
+g.verdictProsCons.forEach((v, i) => {
+  out.push(`\n----- verdict [${i}] -----`);
+  out.push('NAME EN: ' + strip(v.name));
+  out.push('NAME ES: ' + strip(v.name_es));
+  out.push('EN PROS: ' + v.pros.map(strip).join(' | '));
+  out.push('ES PROS: ' + v.pros_es.map(strip).join(' | '));
+  out.push('EN CONS: ' + v.cons.map(strip).join(' | '));
+  out.push('ES CONS: ' + v.cons_es.map(strip).join(' | '));
+});
+out.push('\n===== TABLE =====');
+out.push(JSON.stringify(g.productTable.headers));
+g.productTable.rows.forEach(r => out.push(JSON.stringify(r)));
+out.push('\n===== FAQ =====');
+g.faq.forEach((q, i) => {
+  out.push(`[${i}] Q: ${strip(q.q)}\n    Q_ES: ${strip(q.q_es)}\n    A: ${strip(q.a)}\n    A_ES: ${strip(q.a_es)}`);
+});
+out.push('\n===== CONCLUSION =====');
+out.push('EN: ' + strip(g.conclusion));
+out.push('ES: ' + strip(g.conclusion_es));
+out.push('\nVERDICT EN: ' + strip(g.verdict));
+out.push('VERDICT ES: ' + strip(g.verdict_es));
+fs.writeFileSync('temp/nylon_review.txt', out.join('\n'), 'utf8');
+console.log('written', out.length, 'lines');

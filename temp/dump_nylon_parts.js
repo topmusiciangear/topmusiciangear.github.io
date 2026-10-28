@@ -1,0 +1,12 @@
+const fs = require('fs');
+const a = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = (Array.isArray(a) ? a : a.guides).find(x => x.id === 'best-nylon-guitars-for-beginners');
+console.log('=== PRODUCTTABLE ===');
+console.log(JSON.stringify(g.productTable, null, 1));
+console.log('=== VERDICTSPROSCONS ===');
+console.log(JSON.stringify(g.verdictProsCons, null, 1));
+console.log('=== VERDICT / VERDICT_ES ===');
+console.log(JSON.stringify(g.verdict));
+console.log(JSON.stringify(g.verdict_es));
+console.log('=== DESCRIPTION ===');
+console.log(JSON.stringify({ description: g.description, description_es: g.description_es }));

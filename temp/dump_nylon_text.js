@@ -1,0 +1,20 @@
+const fs = require('fs');
+const arr = JSON.parse(fs.readFileSync('data/guides.json', 'utf8'));
+const g = (Array.isArray(arr) ? arr : arr.guides).find(x => x.id === 'best-nylon-guitars-for-beginners');
+const strip = s => String(s || '').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+console.log('TITLE EN:', g.title, '|', g.title.length);
+console.log('TITLE ES:', g.title_es, '|', g.title_es.length);
+console.log('DESC EN:', g.description);
+console.log('DESC ES:', g.description_es);
+console.log('\nINTRO EN:', strip(g.intro));
+console.log('\nINTRO ES:', strip(g.intro_es));
+console.log('\n=== SECTIONS ===');
+g.sections.forEach((s, i) => {
+  console.log(`\n[${i}] H: ${strip(s.heading)}`);
+  console.log(`    H_ES: ${strip(s.heading_es)}`);
+  console.log(`    EN: ${strip(s.content)}`);
+  console.log(`    ES: ${strip(s.content_es)}`);
+});
+console.log('\n=== CONCLUSION ===');
+console.log('EN:', strip(g.conclusion));
+console.log('ES:', strip(g.conclusion_es));

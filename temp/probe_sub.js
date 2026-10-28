@@ -1,0 +1,11 @@
+const fs = require('fs');
+const raw = fs.readFileSync('data/guides.json', 'utf8');
+const start = raw.indexOf('"id": "best-nylon-guitars-for-beginners"');
+const region = raw.slice(start);
+const oldText = 'Las cuerdas de nylon son más suaves para las yemas y dan un tono cálido y cantable que funciona para estudios clásicos y práctica nocturna.';
+const o = JSON.stringify(oldText);
+console.log('o len', o.length);
+console.log('indexOf o in region', region.indexOf(o));
+console.log('split count', region.split(o).length - 1);
+console.log(JSON.stringify(o.slice(0, 40)));
+console.log(JSON.stringify(region.slice(region.indexOf('intro_es') + 10, region.indexOf('intro_es') + 70)));

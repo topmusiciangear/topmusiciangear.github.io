@@ -1,0 +1,11 @@
+const fs = require('fs');
+const s = fs.readFileSync('guides/best-nylon-guitars-for-beginners_es.html', 'utf8');
+const i = s.indexOf('ipinfo.io', 0);
+const start = s.lastIndexOf('<script', i);
+const end = s.indexOf('</script>', i);
+const code = s.slice(s.indexOf('>', start) + 1, end);
+fs.writeFileSync('temp/geo_inline_extracted.js', code);
+console.log('len', code.length);
+console.log(code.slice(0, 1200));
+console.log('...');
+console.log(code.slice(-800));

@@ -1,29 +1,17 @@
-const https = require('https');
-
-const url = 'https://topmusiciangear.com/guides/best-monitors.html';
-
-https.get(url, (res) => {
-  let data = '';
-  res.on('data', chunk => data += chunk);
-  res.on('end', () => {
-    console.log('Status:', res.statusCode);
-    
-    // Buscar productos en el HTML live
-    const products = ['JBL 305P', 'Kali Audio LP-6', 'KRK Rokit 7', 'Yamaha HS8', 'Adam Audio A7V', 'Genelec 8010A', 'Neumann KH 80', 'Genelec 8351B', 'Kali IN-UNF', 'Kali LP-UNF', 'Focal Shape 65'];
-    
-    products.forEach(name => {
-      const regex = new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
-      const count = (data.match(new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi')) || []).length;
-      if (count > 0) console.log(name + ': ' + count + ' ocurrencias');
-    });
-    
-    // Verificar JSON-LD
-    const idx = data.indexOf('Kali Audio LP-6 V2');
-    if (idx > 0) {
-      console.log('\n=== LIVE KALI LP-6 V2 ===');
-      console.log(data.substring(idx - 100, idx + 300));
-    }
-  });
-}).on('error', (e) => {
-  console.error('Error:', e.message);
-});
+const fs = require('fs');
+const c = fs.readFileSync('guides/best-nylon-guitars-for-beginners.html','utf8');
+// Find the actual dropdown div (with max-height)
+const i = c.indexOf('max-height:0;transition');
+const sub = c.substring(Math.max(0,i-120), i+20);
+console.log('dropdown:', JSON.stringify(sub));
+console.log('has margin-top:', sub.includes('margin-top'));
+// Check review button
+const j = c.indexOf('shop-btn-review');
+const sub2 = c.substring(j, j+260);
+const si = sub2.indexOf('style=');
+const q1 = sub2.indexOf('"', si);
+const q2 = sub2.indexOf('"', q1+1);
+const style = sub2.substring(q1+1, q2);
+console.log('review style end:', JSON.stringify(style.slice(-50)));
+console.log('review has margin-top:', style.includes('margin-top'));
+console.log('git status check...');

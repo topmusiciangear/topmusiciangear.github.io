@@ -1,1 +1,21 @@
-/* DEPLOY WRAPPER - solo commit/push */\nconst { execSync } = require("child_process");\nconst msg = process.argv[2] || "deploy";\nconsole.log("=== DEPLOY WRAPPER ===");\nconsole.log("1. git add -A");\nexecSync("git add -A", { stdio: "inherit" });\nconsole.log("2. git commit");\ntry { execSync(`git commit -m "${msg}"`, { stdio: "inherit" }); } catch(e) { console.log("   No changes to commit"); }\nconsole.log("3. git push");\nexecSync("git push", { stdio: "inherit" });\nconsole.log("4. Trigger Pages build");\ntry { execSync("gh api repos/topmusiciangear/topmusiciangear.github.io/pages/builds -X POST", { stdio: "inherit" }); } catch(e) { console.log("   gh trigger skipped"); }\nconsole.log("=== DONE ===");\n
+/* DEPLOY WRAPPER - solo commit/push */
+const { execSync } = require("child_process");
+const msg = process.argv[2] || "deploy";
+console.log("=== DEPLOY WRAPPER ===");
+console.log("1. git add -A");
+execSync("git add -A", { stdio: "inherit" });
+console.log("2. git commit");
+try {
+  execSync(`git commit -m "${msg}"`, { stdio: "inherit" });
+} catch (e) {
+  console.log("   No changes to commit");
+}
+console.log("3. git push");
+execSync("git push", { stdio: "inherit" });
+console.log("4. Trigger Pages build");
+try {
+  execSync("gh api repos/topmusiciangear/topmusiciangear.github.io/pages/builds -X POST", { stdio: "inherit" });
+} catch (e) {
+  console.log("   gh trigger skipped");
+}
+console.log("=== DONE ===");

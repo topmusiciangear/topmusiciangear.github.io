@@ -1,0 +1,10 @@
+const fs = require('fs');
+const raw = fs.readFileSync('data/guides.json', 'utf8');
+console.log('raw length', raw.length);
+console.log('indexOf plain:', raw.indexOf('Las cuerdas de nylon son más suaves'));
+console.log('indexOf quoted:', raw.indexOf('"Las cuerdas de nylon son más suaves'));
+console.log('count plain:', raw.split('Las cuerdas de nylon').length - 1);
+console.log('count quoted:', raw.split('"Las cuerdas de nylon').length - 1);
+const j = raw.indexOf('intro_es');
+console.log('chars around intro_es:', JSON.stringify(raw.slice(j - 20, j + 60).split('').map(c => c.charCodeAt(0)).slice(0, 40)));
+console.log(JSON.stringify(raw.slice(j - 20, j + 60)));

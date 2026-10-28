@@ -1,0 +1,16 @@
+const fs = require('fs');
+const FILE = 'data/guides.json';
+let raw = fs.readFileSync(FILE, 'utf8');
+const start = raw.indexOf('"id": "best-nylon-guitars-for-beginners"');
+if (start < 0) throw new Error('guide not found');
+const endMarker = raw.indexOf('\n    {\n      "id": "', start);
+const end = endMarker < 0 ? raw.length : endMarker;
+let region = raw.slice(start, end);
+const oldText = 'clear, punchy tone';
+const c = region.split(oldText).length - 1;
+if (c !== 2) throw new Error('expected 2, got ' + c);
+region = region.split(oldText).join('clear, lively tone');
+raw = raw.slice(0, start) + region + raw.slice(end);
+fs.writeFileSync(FILE, raw, 'utf8');
+const g = (JSON.parse(fs.readFileSync(FILE, 'utf8'))).find(x => x.id === 'best-nylon-guitars-for-beginners');
+console.log('punchy left:', (JSON.stringify(g).match(/punchy/gi) || []).length);

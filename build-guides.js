@@ -155,7 +155,7 @@ function criticalCss() {
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
     '.guide-detail .guide-detail-img{width:100%;border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;border:1px solid var(--border);max-height:500px;background:#fff}.guide-detail .guide-detail-img img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-height:500px}.guide-detail .guide-detail-img.guide-detail-img--cutout{background:#5a5a5a}.guide-detail .guide-detail-img--cutout img{object-fit:contain;padding:6px;box-sizing:border-box}',
     '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:contain;padding:8px;box-sizing:border-box}.guide-product-card .guide-product-card-img--cutout{background:#5a5a5a}.guide-product-card--cutout{background:rgba(255,255,255,.06)}.guide-product-card--cutout .guide-product-card-img img{object-fit:contain;padding:10px;box-sizing:border-box}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
-    '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap;width:100%}.guide-section-img{width:120px;height:120px;object-fit:contain;padding:4px;box-sizing:border-box;border-radius:var(--radius-sm);background:var(--white);display:block;transition:transform .2s ease}.guide-section-img.guide-section-img--cutout{background:#5a5a5a;object-fit:contain;padding:6px;box-sizing:border-box}.guide-section-img:hover{transform:scale(1.08)}',
+    '.guide-section-imgs{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap;width:100%}.guide-section-img{width:120px;height:120px;object-fit:contain;padding:4px;box-sizing:border-box;border-radius:var(--radius-sm);background:var(--white);display:block;overflow:hidden;transition:transform .2s ease}.guide-section-img.guide-section-img--cutout{background:#5a5a5a;object-fit:contain;padding:6px;box-sizing:border-box}.guide-section-img:hover{transform:scale(1.08)}',
     '.guide-detail .guide-back-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);margin-bottom:32px;font-weight:500;text-decoration:none}',
     '.guide-detail .guide-back-link:hover{text-decoration:underline}',
 
@@ -519,11 +519,11 @@ const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, mus
 const TEST_SHOP_BTN = {
   459: { prices: { gear4music: "£125.00", andertons: "£129.00", musicstore: "€129.00", zzounds: "$239.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-C40-III-Classical-Guitar/A20", andertons: "https://www.andertons.co.uk/yamaha-c40ii-nylon-classical-guitar/", musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-C40-Classical-Guitar-/art-GIT0000636-000", zzounds: "https://www.zzounds.com/item--YAMC40PK" } },
   553: { prices: { gear4music: "£189.00", andertons: "£189.00", musicstore: "€215.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-CN-60S-Nylon-Walnut-Fingerboard-Natural/2VXD", andertons: "https://www.andertons.co.uk/fender-classic-design-cn60s-nylon-strung-classical-guitar-in-natural-w-walnut-fingerboard/", musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-CN-60S-Natural-/art-GIT0049159-000" } },
-  1058: { prices: { gear4music: "£299.00", andertons: "£379.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Cordoba-Iberia-C5-Classical-Acoustic-Guitar-Gloss-Finish/18OQ", andertons: "https://www.andertons.co.uk/cordoba-iberia-c5-classical-guitar/" } },
-  1059: { prices: { gear4music: "£179.00", andertons: "£245.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ortega-R121-Classical-Guitar/MA2", andertons: "https://www.andertons.co.uk/ortega-r121-family-series-classical-guitar/" } },
-  1060: { prices: { gear4music: "£655.00", andertons: "£699.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-Academy-12e-N-Natural/6BTP", andertons: "https://www.andertons.co.uk/taylor-academy-series-12en-walnut-nylon-string/" } },
+  1058: { prices: { gear4music: "£299.00", andertons: "£379.00", zzounds: "$449.99" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Cordoba-Iberia-C5-Classical-Acoustic-Guitar-Gloss-Finish/18OQ", andertons: "https://www.andertons.co.uk/cordoba-iberia-c5-classical-guitar/", zzounds: "https://www.zzounds.com/item--CODC5" } },
+  1059: { prices: { gear4music: "£179.00", andertons: "£245.00", musicstore: "€284.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ortega-R121-Classical-Guitar/MA2", andertons: "https://www.andertons.co.uk/ortega-r121-family-series-classical-guitar/", musicstore: "https://www.musicstore.com/en_OE/EUR/Ortega-R121-NT/art-GIT0014064-000" } },
+  1060: { prices: { gear4music: "£655.00", andertons: "£699.00", zzounds: "$799.00", musicstore: "€769.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-Academy-12e-N-Natural/6BTP", andertons: "https://www.andertons.co.uk/taylor-academy-series-12en-walnut-nylon-string/", zzounds: "https://www.zzounds.com/item--TAYACADEMY12EN", musicstore: "https://www.musicstore.com/en_OE/EUR/Taylor-Academy-12e-N/art-GIT0040877-000" } },
   1061: { prices: { gear4music: "£279.00", andertons: "£285.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-CG122MS-Classical-Acoustic-Guitar-Natural/CJS", andertons: "https://www.andertons.co.uk/yamaha-cg122c-classical-with-spruce-top/" } },
-  1062: { prices: { gear4music: "£339.00", andertons: "£299.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-GA35TCE-Natural/7Q1C", andertons: "https://www.andertons.co.uk/ibanez-ga35tce-nt-classical-nylon-string-electro-acoustic-guitar-natural-high-gloss/" } },
+  1062: { prices: { gear4music: "£339.00", andertons: "£299.00", zzounds: "$379.99" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-GA35TCE-Natural/7Q1C", andertons: "https://www.andertons.co.uk/ibanez-ga35tce-nt-classical-nylon-string-electro-acoustic-guitar-natural-high-gloss/", zzounds: "https://www.zzounds.com/item--IBAGA35TCE" } },
   1063: { prices: { gear4music: "£152.00", andertons: "£175.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Cordoba-Protege-C1-Classical-Guitar/1FCA", andertons: "https://www.andertons.co.uk/cordoba-protege-c1m-34-classical-guitar/" } },
   1064: { prices: { gear4music: "£147.25", andertons: "£139.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Admira-Alba-Classical-Guitar-4-4/1LBE", andertons: "https://www.andertons.co.uk/admira-alba-full-size-classical-guitar/" } },
   1065: { prices: { gear4music: "£279.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Takamine-GC1CE-Electro-Classical-Guitar-Natural/1LGI" } },
@@ -6316,7 +6316,7 @@ function shopButtonsTest(p, lang) {
     'background:#333333;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
     '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + t('Comparar en ' + rowCount + ' tiendas más', 'Compare ' + rowCount + ' more stores') + chevSvg + '</span></span>' + '</button>' +
-    '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>' + reviewRow;
+    '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:none;flex-direction:column;gap:6px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>' + reviewRow;
   return isLogic ? primaryBtn + reviewRow : primaryBtn + moreBtn;
 }
 
@@ -6919,7 +6919,7 @@ function buildGuidePage(guide, lang, idx) {
       var quickFactsHtml = '';
       if (isFirstNew) {
         renderedProducts.add(firstProduct.id);
-        sectionChips = '<div class="store-buttons">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>';
+        sectionChips = '<div class="store-buttons guide-section-buy">' + storeChips(firstProduct, isEs ? 'es' : 'en') + '</div>';
         if (firstProduct.bestFor && firstProduct.facts && firstProduct.facts.length) {
           const _bf = (isEs ? firstProduct.bestFor.es : firstProduct.bestFor.en) || '';
           const _bfl = isEs ? 'Ideal para' : 'Best for';
@@ -6997,7 +6997,7 @@ function buildGuidePage(guide, lang, idx) {
         const gifp = guideCutImg(firstProduct);
         const psrc = gifp.src;
         productImgs = '<div class="guide-section-imgs">' +
-          '<div style="position:relative;display:inline-block">' +
+          '<div style="position:relative;display:inline-block;overflow:hidden">' +
             '<img src="' + psrc + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img' + (gifp.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' +
             scoreBadge(firstProduct, isEs ? 'es' : 'en') +
           '</div>' +
@@ -7011,7 +7011,7 @@ function buildGuidePage(guide, lang, idx) {
       } else if (isFirstNew) {
         const gis = guideCutImg(firstProduct);
         productImgs = '<div class="guide-section-imgs">' +
-          '<div style="position:relative;display:inline-block">' +
+          '<div style="position:relative;display:inline-block;overflow:hidden">' +
             '<img src="' + gis.src + '" alt="' + (isEs && firstProduct.title_es ? firstProduct.title_es : firstProduct.title) + '" class="guide-section-img lb-img' + (gis.cut ? ' guide-section-img--cutout' : '') + '" style="cursor:zoom-in">' +
             scoreBadge(firstProduct, isEs ? 'es' : 'en') +
           '</div>' +
@@ -7022,7 +7022,7 @@ function buildGuidePage(guide, lang, idx) {
       }
     }
     const mediaBuy = (productImgs)
-      ? '<div class="guide-section-mediabuy">' + productImgs + '</div>'
+      ? '<div class="guide-section-mediabuy" style="margin-top:1.5rem">' + productImgs + '</div>'
       : productImgs + sectionChips;
     const bodyHtml = boldedC + mediaBuy;
     return `<div class="guide-section${splitSide ? ' guide-section-wide' : ''}">

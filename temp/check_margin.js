@@ -1,0 +1,10 @@
+const fs = require('fs');
+const c = fs.readFileSync('build-guides.js','utf8');
+const i = c.indexOf('shop-btn-review');
+const sub = c.substring(i, i+300);
+const m = sub.match(/margin-top:\d+px/);
+console.log('review margin:', m ? m[0] : 'NOT FOUND');
+const j = c.indexOf('shop-more-list" style');
+const sub2 = c.substring(j, j+120);
+const m2 = sub2.match(/margin-top:\d+px/);
+console.log('dropdown margin:', m2 ? m2[0] : 'NOT FOUND');

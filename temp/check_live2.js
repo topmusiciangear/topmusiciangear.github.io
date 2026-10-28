@@ -1,25 +1,11 @@
-const https = require('https');
-const url = 'https://topmusiciangear.com/guides/best-monitors.html';
-
-https.get(url, (res) => {
-  let data = '';
-  res.on('data', chunk => data += chunk);
-  res.on('end', () => {
-    console.log('Status:', res.statusCode);
-    
-    const products = ['JBL 305P', 'Kali Audio LP-6', 'KRK Rokit 7', 'Yamaha HS8', 'Adam Audio A7V', 'Genelec 8010A', 'Neumann KH 80', 'Genelec 8351B', 'Kali IN-UNF', 'Kali LP-UNF', 'Focal Shape 65'];
-    
-    products.forEach(name => {
-      const regex = new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
-      const count = (data.match(regex) || []).length;
-      if (count > 0) console.log(name + ': ' + count + ' ocurrencias');
-    });
-    
-    const ldMatches = data.match(/"position": \d+, "item": \{/g);
-    console.log('\nJSON-LD positions:', ldMatches ? ldMatches.length : 0);
-    
-    const imgMatches = data.match(/img\/products\/[^"]+\.webp/g);
-    console.log('\nImagenes:', imgMatches ? imgMatches.length : 0);
-    if (imgMatches) imgMatches.forEach((img, i) => console.log('  ' + i + ': ' + img));
-  });
-}).on('error', (e) => console.error('Error:', e.message));
+const fs = require('fs');
+const c = fs.readFileSync('guides/best-nylon-guitars-for-beginners.html','utf8');
+const j = c.indexOf('shop-btn-review');
+const sub2 = c.substring(j, j+300);
+// Find style= more carefully
+const si = sub2.indexOf('style="');
+const q1 = si + 7; // after style="
+const q2 = sub2.indexOf('"', q1);
+const style = sub2.substring(q1, q2);
+console.log('review style:', style);
+console.log('has margin-top:', style.includes('margin-top'));

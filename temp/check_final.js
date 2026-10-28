@@ -1,0 +1,10 @@
+const fs = require('fs');
+const c = fs.readFileSync('guides/best-nylon-guitars-for-beginners.html','utf8');
+const i = c.indexOf('shop-btn-review');
+const sub = c.substring(i, i+280);
+const si = sub.indexOf('style=');
+const q1 = sub.indexOf('"', si);
+const q2 = sub.indexOf('"', q1+1);
+const style = sub.substring(q1+1, q2);
+const m = style.match(/margin-top:[^;]*/);
+console.log('review margin:', m ? m[0] : 'NONE');
