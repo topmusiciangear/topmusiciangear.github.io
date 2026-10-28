@@ -34546,6 +34546,15 @@
           "es": "Patrón"
         },
         "tone": "good"
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "16 dB-A",
+        "label": {
+          "en": "Self-noise",
+          "es": "Ruido propio"
+        },
+        "tone": "good"
       }
     ]
   },
