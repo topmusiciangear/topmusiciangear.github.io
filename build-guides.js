@@ -523,7 +523,8 @@ const TEST_SHOP_BTN = {
   1059: { prices: { gear4music: "£179.00", andertons: "£245.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ortega-R121-Classical-Guitar/MA2", andertons: "https://www.andertons.co.uk/ortega-r121-family-series-classical-guitar/" } },
   1060: { prices: { gear4music: "£655.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-Academy-12e-N-Natural/6BTP" } },
   1061: { prices: { gear4music: "£279.00", andertons: "£285.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-CG122MS-Classical-Acoustic-Guitar-Natural/CJS", andertons: "https://www.andertons.co.uk/yamaha-cg122c-classical-with-spruce-top/" } },
-  1062: { prices: { gear4music: "£339.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-GA35TCE-Natural/7Q1C" } },
+  1062: { prices: { gear4music: "£339.00", andertons: "£299.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-GA35TCE-Natural/7Q1C", andertons: "https://www.andertons.co.uk/ibanez-ga35tce-nt-classical-nylon-string-electro-acoustic-guitar-natural-high-gloss/" } },
+```
   1063: { prices: { gear4music: "£152.00", andertons: "£175.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Cordoba-Protege-C1-Classical-Guitar/1FCA", andertons: "https://www.andertons.co.uk/cordoba-protege-c1m-34-classical-guitar/" } },
   1064: { prices: { gear4music: "£147.25", andertons: "£139.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Admira-Alba-Classical-Guitar-4-4/1LBE", andertons: "https://www.andertons.co.uk/admira-alba-full-size-classical-guitar/" } },
   1065: { prices: { gear4music: "£279.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Takamine-GC1CE-Electro-Classical-Guitar-Natural/1LGI" } },
