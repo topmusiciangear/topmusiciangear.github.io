@@ -34563,59 +34563,38 @@
     "stores": {
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Alvarez-AD30-Dreadnought-Acoustic-Guitar-Natural-Ex-Demo/Z3W"
     },
-    "score": 0,
+    "score": 9.2,
     "bestFor": {
       "en": "Best premium tone on a budget",
       "es": "Mejor tono premium con presupuesto limitado"
     },
     "facts": [
       {
-        "icon": "microphone",
+        "icon": "guitar",
+        "value": "Dreadnought",
+        "label": {
+          "en": "Body shape",
+          "es": "Forma del cuerpo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "wood",
         "value": "Solid A+ Sitka spruce",
         "label": {
           "en": "Top",
           "es": "Tapa"
-        }
-      },
-      {
-        "icon": "microphone",
-        "value": "African mahogany laminate",
-        "label": {
-          "en": "Back & Sides",
-          "es": "Fondo y aros"
-        }
+        },
+        "tone": "good"
       },
       {
         "icon": "ruler",
-        "value": "Dreadnought",
+        "value": "25.5 in",
         "label": {
-          "en": "Body Shape",
-          "es": "Forma del cuerpo"
-        }
-      },
-      {
-        "icon": "ruler",
-        "value": "25.5 in (648 mm)",
-        "label": {
-          "en": "Scale Length",
-          "es": "Longitud de escala"
-        }
-      },
-      {
-        "icon": "settings",
-        "value": "None",
-        "label": {
-          "en": "Electronics",
-          "es": "Electrónica"
-        }
-      },
-      {
-        "icon": "settings",
-        "value": "21",
-        "label": {
-          "en": "Frets",
-          "es": "Trastes"
-        }
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
       }
     ]
   }
