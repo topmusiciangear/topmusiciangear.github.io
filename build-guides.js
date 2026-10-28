@@ -517,6 +517,15 @@ function globeIcon() {
 }
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 const TEST_SHOP_BTN = {
+  1058: { prices: { gear4music: "£299.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Cordoba-Iberia-C5-Classical-Acoustic-Guitar-Gloss-Finish/18OQ" } },
+  1059: { prices: { gear4music: "£179.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ortega-R121-Classical-Guitar/MA2" } },
+  1060: { prices: { gear4music: "£655.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-Academy-12e-N-Natural/6BTP" } },
+  1061: { prices: { gear4music: "£279.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-CG122MS-Classical-Acoustic-Guitar-Natural/CJS" } },
+  1062: { prices: { gear4music: "£339.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-GA35TCE-Natural/7Q1C" } },
+  1063: { prices: { gear4music: "£152.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Cordoba-Protege-C1-Classical-Guitar/1FCA" } },
+  1064: { prices: { gear4music: "£147.25" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Admira-Alba-Classical-Guitar-4-4/1LBE" } },
+  1065: { prices: { gear4music: "£279.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Takamine-GC1CE-Electro-Classical-Guitar-Natural/1LGI" } },
+```
   1052: {
     prices: {
       gear4music: "£142.00",
