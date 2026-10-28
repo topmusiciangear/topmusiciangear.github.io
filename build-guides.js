@@ -517,14 +517,14 @@ function globeIcon() {
 }
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 const TEST_SHOP_BTN = {
-  459: { prices: { gear4music: "£125.00", andertons: "£129.00", musicstore: "€129.00", zzounds: "$239.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-C40-III-Classical-Guitar/A20", andertons: "https://www.andertons.co.uk/yamaha-c40ii-nylon-classical-guitar/", musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-C40-Classical-Guitar-/art-GIT0000636-000", zzounds: "https://www.zzounds.com/item--YAMC40PK" } },
-  553: { prices: { gear4music: "£189.00", andertons: "£189.00", musicstore: "€215.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-CN-60S-Nylon-Walnut-Fingerboard-Natural/2VXD", andertons: "https://www.andertons.co.uk/fender-classic-design-cn60s-nylon-strung-classical-guitar-in-natural-w-walnut-fingerboard/", musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-CN-60S-Natural-/art-GIT0049159-000" } },
-  1058: { prices: { gear4music: "£299.00", andertons: "£379.00", zzounds: "$449.99" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Cordoba-Iberia-C5-Classical-Acoustic-Guitar-Gloss-Finish/18OQ", andertons: "https://www.andertons.co.uk/cordoba-iberia-c5-classical-guitar/", zzounds: "https://www.zzounds.com/item--CODC5" } },
-  1059: { prices: { gear4music: "£179.00", andertons: "£245.00", musicstore: "€284.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ortega-R121-Classical-Guitar/MA2", andertons: "https://www.andertons.co.uk/ortega-r121-family-series-classical-guitar/", musicstore: "https://www.musicstore.com/en_OE/EUR/Ortega-R121-NT/art-GIT0014064-000" } },
+  459: { prices: { gear4music: "£129.00", andertons: "£129.00", musicstore: "€129.00", zzounds: "$239.99", amazon: "$149.99" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-C40-III-Classical-Guitar/A20", andertons: "https://www.andertons.co.uk/yamaha-c40ii-nylon-classical-guitar/", musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-C40-Classical-Guitar-/art-GIT0000636-000", zzounds: "https://www.zzounds.com/item--YAMC40PK" } },
+  553: { prices: { gear4music: "£189.00", andertons: "£189.00", musicstore: "€215.00" }, urls: { amazon: "https://www.amazon.com/dp/B07K2JLS56?tag=topmusicg-20", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Fender-CN-60S-Nylon-Walnut-Fingerboard-Natural/2VXD", andertons: "https://www.andertons.co.uk/fender-classic-design-cn60s-nylon-strung-classical-guitar-in-natural-w-walnut-fingerboard/?search_query=Fender%20CN-60S", musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-CN-60S-Natural-/art-GIT0049159-000" } },
+  1058: { prices: { gear4music: "£319.00", andertons: "£379.00", zzounds: "$449.99" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Cordoba-Iberia-C5-Classical-Acoustic-Guitar-Gloss-Finish/18OQ", andertons: "https://www.andertons.co.uk/cordoba-iberia-c5-classical-guitar/", zzounds: "https://www.zzounds.com/item--CODC5" } },
+  1059: { prices: { musicstore: "€209.00" }, urls: { zzounds: "https://www.zzounds.com/item--ORTR121", gear4music: "https://www.gear4music.com/search?q=Ortega%20R121", andertons: "https://www.andertons.co.uk/search.php?search_query=Ortega%20R121", musicstore: "https://www.musicstore.com/en_OE/EUR/Ortega-R121-NT/art-GIT0014064-000" } },
   1060: { prices: { gear4music: "£655.00", andertons: "£699.00", zzounds: "$799.00", musicstore: "€769.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Taylor-Academy-12e-N-Natural/6BTP", andertons: "https://www.andertons.co.uk/taylor-academy-series-12en-walnut-nylon-string/", zzounds: "https://www.zzounds.com/item--TAYACADEMY12EN", musicstore: "https://www.musicstore.com/en_OE/EUR/Taylor-Academy-12e-N/art-GIT0040877-000" } },
-  1061: { prices: { gear4music: "£279.00", andertons: "£285.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-CG122MS-Classical-Acoustic-Guitar-Natural/CJS", andertons: "https://www.andertons.co.uk/yamaha-cg122c-classical-with-spruce-top/" } },
+  1061: { prices: { gear4music: "£279.00", andertons: "£285.00", musicstore: "€289.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-CG122MS-Classical-Acoustic-Guitar-Natural/CJS", andertons: "https://www.andertons.co.uk/yamaha-cg122c-classical-with-spruce-top/", musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-CG122MS-Classical-Guitar-Matt-e-Natural/art-GIT0018380-000" } },
   1062: { prices: { gear4music: "£339.00", andertons: "£299.00", zzounds: "$379.99" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Ibanez-GA35TCE-Natural/7Q1C", andertons: "https://www.andertons.co.uk/ibanez-ga35tce-nt-classical-nylon-string-electro-acoustic-guitar-natural-high-gloss/", zzounds: "https://www.zzounds.com/item--IBAGA35TCE" } },
-  1063: { prices: { gear4music: "£152.00", andertons: "£175.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Cordoba-Protege-C1-Classical-Guitar/1FCA", andertons: "https://www.andertons.co.uk/cordoba-protege-c1m-34-classical-guitar/" } },
+  1063: { prices: { andertons: "£175.00", zzounds: "$229.00" }, urls: { andertons: "https://www.andertons.co.uk/cordoba-protege-c1m-34-classical-guitar/", zzounds: "https://www.zzounds.com/item--CODC1M34?siid=231497" }, na: ["gear4music"] },
   1064: { prices: { gear4music: "£147.25", andertons: "£139.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Admira-Alba-Classical-Guitar-4-4/1LBE", andertons: "https://www.andertons.co.uk/admira-alba-full-size-classical-guitar/" } },
   1065: { prices: { gear4music: "£279.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Takamine-GC1CE-Electro-Classical-Guitar-Natural/1LGI" } },
   1052: {
@@ -4501,15 +4501,6 @@ const TEST_SHOP_BTN = {
       "gear4music"
     ]
   },
-  459: {
-    prices: {
-      zzounds: "$239.99",
-      amazon: "$149.99",
-      gear4music: "£125.50",
-      musicstore: "€129.00",
-      andertons: "£129.00"
-    }
-  },
   460: {
     prices: {
       zzounds: "$249.99",
@@ -5348,18 +5339,6 @@ const TEST_SHOP_BTN = {
       andertons: "£379.00",
       gear4music: "£347.00",
       musicstore: "€399.00"
-    }
-  },
-  553: {
-    prices: {
-      gear4music: "£189.00",
-      andertons: "£189.00",
-      musicstore: "€215.00"
-    },
-    urls: {
-      amazon: "https://www.amazon.com/dp/B07K2JLS56?tag=topmusicg-20",
-      andertons: "https://www.andertons.co.uk/fender-classic-design-cn60s-nylon-strung-classical-guitar-in-natural-w-walnut-fingerboard/?search_query=Fender%20CN-60S",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-CN-60S-Natural-/art-GIT0049159-000"
     }
   },
 554: {
