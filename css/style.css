@@ -2011,6 +2011,8 @@ footer ul li a:hover { color: var(--accent); }
   flex-wrap: wrap;
 }
 .guide-section-img {
+  overflow: hidden;
+}
   width: 120px;
   height: 120px;
   object-fit: contain;
@@ -2508,7 +2510,7 @@ footer ul li a:hover { color: var(--accent); }
 .guide-section-mediabuy {
   display: flex;
   gap: 0;
-  margin-top: 0;
+  margin-top: 1.5rem;
   align-items: flex-start;
 }
 .guide-section-mediabuy > .guide-section-imgs {
