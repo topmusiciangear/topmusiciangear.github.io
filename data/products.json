@@ -34548,5 +34548,75 @@
         "tone": "good"
       }
     ]
+  },
+  {
+    "id": 1057,
+    "title": "Alvarez Artist AD30 Dreadnought Acoustic Guitar",
+    "title_es": "Alvarez Artist AD30 Dreadnought Acústica",
+    "brand": "Alvarez",
+    "category": "guitars",
+    "price": 349.99,
+    "badge": "",
+    "desc": "Solid A+ Sitka spruce top with African mahogany back and sides. Dreadnought body, 25.5\" scale, forward-shifted FST2 bracing and bone nut/saddle for premium tone on a beginner budget.",
+    "desc_es": "Tapa maciza de abeto Sitka A+ con fondo y aros de caoba africana. Cuerpo dreadnought, escala 25,5\", bracing FST2 adelantado y cejuela/silla de hueso para un tono premium con presupuesto de principiante.",
+    "img": "https://r2.gear4music.com/media/8/88993/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Alvarez-AD30-Dreadnought-Acoustic-Guitar-Natural-Ex-Demo/Z3W"
+    },
+    "score": 0,
+    "bestFor": {
+      "en": "Best premium tone on a budget",
+      "es": "Mejor tono premium con presupuesto limitado"
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Solid A+ Sitka spruce",
+        "label": {
+          "en": "Top",
+          "es": "Tapa"
+        }
+      },
+      {
+        "icon": "microphone",
+        "value": "African mahogany laminate",
+        "label": {
+          "en": "Back & Sides",
+          "es": "Fondo y aros"
+        }
+      },
+      {
+        "icon": "ruler",
+        "value": "Dreadnought",
+        "label": {
+          "en": "Body Shape",
+          "es": "Forma del cuerpo"
+        }
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in (648 mm)",
+        "label": {
+          "en": "Scale Length",
+          "es": "Longitud de escala"
+        }
+      },
+      {
+        "icon": "settings",
+        "value": "None",
+        "label": {
+          "en": "Electronics",
+          "es": "Electrónica"
+        }
+      },
+      {
+        "icon": "settings",
+        "value": "21",
+        "label": {
+          "en": "Frets",
+          "es": "Trastes"
+        }
+      }
+    ]
   }
 ]
