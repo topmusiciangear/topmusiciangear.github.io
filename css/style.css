@@ -2374,7 +2374,7 @@ footer ul li a:hover { color: var(--accent); }
 
 .guide-product-card-stores {
   display: flex;
-  gap: 0;
+  gap: 8px;
   margin-top: 1rem;
   padding-top: 0;
   flex-wrap: wrap;
