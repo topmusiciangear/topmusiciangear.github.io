@@ -61294,44 +61294,44 @@
           "label_es": "Ideal para",
           "values": [
             {
-              "value": "Live vocals & instruments",
-              "value_es": "Voces en vivo e instrumentos"
+              "value": "Loud sources",
+              "value_es": "Fuentes potentes"
             },
             {
-              "value": "Streaming & podcasting",
-              "value_es": "Streaming y podcasting"
+              "value": "Instruments, amps & snare",
+              "value_es": "Instrumentos, amplis y caja"
             },
             {
-              "value": "Broadcast podcasting",
-              "value_es": "Podcast y transmisión en vivo"
+              "value": "Live vocals",
+              "value_es": "Voz en directo"
             },
             {
-              "value": "Vocals & instruments",
-              "value_es": "Voces e instrumentos"
+              "value": "Home studio vocals",
+              "value_es": "Voz en home studio"
             },
             {
-              "value": "Guitars, drums & live",
-              "value_es": "Guitarras, batería y en vivo"
+              "value": "Vocals & acoustic guitar",
+              "value_es": "Voces y guitarra acústica"
             },
             {
-              "value": "Ultra-budget vocals",
-              "value_es": "Voces ultra económicas"
+              "value": "Home studio",
+              "value_es": "Home studio"
             },
             {
-              "value": "First podcast mic",
-              "value_es": "Primer micrófono de podcast"
+              "value": "Live vocals",
+              "value_es": "Voz en directo"
             },
             {
-              "value": "Streaming with controls",
-              "value_es": "Streaming con controles"
+              "value": "Home studio vocals",
+              "value_es": "Voces de estudio en casa"
             },
             {
-              "value": "Live vocals & stage",
-              "value_es": "Voces en vivo y escenarios"
+              "value": "Home studio vocals",
+              "value_es": "Voz en home studio"
             },
             {
-              "value": "Streaming & vocals",
-              "value_es": "Streaming y voces"
+              "value": "Acoustic instruments & drums",
+              "value_es": "Instrumentos acústicos y batería"
             }
           ]
         },
@@ -61340,8 +61340,8 @@
           "label_es": "Tipo",
           "values": [
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Condenser",
+              "value_es": "Condensador"
             },
             {
               "value": "Dynamic",
@@ -61356,28 +61356,28 @@
               "value_es": "Condensador"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Condenser",
+              "value_es": "Condensador"
+            },
+            {
+              "value": "Condenser",
+              "value_es": "Condensador"
             },
             {
               "value": "Dynamic",
               "value_es": "Dinámico"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Condenser",
+              "value_es": "Condensador"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Condenser",
+              "value_es": "Condensador"
             },
             {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
-            },
-            {
-              "value": "Dynamic",
-              "value_es": "Dinámico"
+              "value": "Condenser",
+              "value_es": "Condensador"
             }
           ]
         },
@@ -61394,8 +61394,16 @@
               "value_es": "XLR"
             },
             {
-              "value": "USB-C/XLR",
-              "value_es": "USB-C/XLR"
+              "value": "XLR",
+              "value_es": "XLR"
+            },
+            {
+              "value": "XLR",
+              "value_es": "XLR"
+            },
+            {
+              "value": "XLR",
+              "value_es": "XLR"
             },
             {
               "value": "XLR",
@@ -61410,20 +61418,12 @@
               "value_es": "XLR"
             },
             {
-              "value": "USB-C/XLR",
-              "value_es": "USB-C/XLR"
-            },
-            {
-              "value": "USB-C/XLR",
-              "value_es": "USB-C/XLR"
-            },
-            {
               "value": "XLR",
               "value_es": "XLR"
             },
             {
-              "value": "USB-C/XLR",
-              "value_es": "USB-C/XLR"
+              "value": "XLR",
+              "value_es": "XLR"
             }
           ]
         },
@@ -61432,32 +61432,32 @@
           "label_es": "Patrón polar",
           "values": [
             {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
+              "value": "Cardioid",
+              "value_es": "Cardioide"
+            },
+            {
               "value": "Supercardioid",
               "value_es": "Supercardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
-            },
-            {
-              "value": "Cardioid",
-              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
@@ -61478,18 +61478,6 @@
           "label_es": "Respuesta de frecuencia",
           "values": [
             {
-              "value": "40 Hz – 19 kHz",
-              "value_es": "40 Hz – 19 kHz"
-            },
-            {
-              "value": "50 Hz – 15 kHz",
-              "value_es": "50 Hz – 15 kHz"
-            },
-            {
-              "value": "50 Hz – 20 kHz",
-              "value_es": "50 Hz – 20 kHz"
-            },
-            {
               "value": "20 Hz – 20 kHz",
               "value_es": "20 Hz – 20 kHz"
             },
@@ -61502,20 +61490,32 @@
               "value_es": "50 Hz – 15 kHz"
             },
             {
-              "value": "50 Hz – 15 kHz",
-              "value_es": "50 Hz – 15 kHz"
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
             },
             {
-              "value": "50 Hz – 16 kHz",
-              "value_es": "50 Hz – 16 kHz"
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
             },
             {
-              "value": "50 Hz – 15 kHz",
-              "value_es": "50 Hz – 15 kHz"
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
             },
             {
-              "value": "40 Hz – 16 kHz",
-              "value_es": "40 Hz – 16 kHz"
+              "value": "40 Hz – 18 kHz",
+              "value_es": "40 Hz – 18 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
+            },
+            {
+              "value": "20 Hz – 20 kHz",
+              "value_es": "20 Hz – 20 kHz"
             }
           ]
         },
@@ -61524,44 +61524,44 @@
           "label_es": "SPL máximo",
           "values": [
             {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": "Not published",
-              "value_es": "No publicado"
-            },
-            {
-              "value": ">140 dB",
-              "value_es": ">140 dB"
-            },
-            {
               "value": "130 dB (150 dB w/ pad)",
               "value_es": "130 dB (150 dB con pad)"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "150 dB",
+              "value_es": "150 dB"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "173 dB",
+              "value_es": "173 dB"
             },
             {
-              "value": "148 dB",
-              "value_es": "148 dB"
+              "value": "142 dB",
+              "value_es": "142 dB"
             },
             {
-              "value": "130 dB",
-              "value_es": "130 dB"
+              "value": "144 dB",
+              "value_es": "144 dB"
             },
             {
-              "value": "Not published",
-              "value_es": "No publicado"
+              "value": "148 dB (158 dB w/ pad)",
+              "value_es": "148 dB (158 dB con pad)"
             },
             {
-              "value": ">130 dB",
-              "value_es": ">130 dB"
+              "value": "163 dB",
+              "value_es": "163 dB"
+            },
+            {
+              "value": "160 dB",
+              "value_es": "160 dB"
+            },
+            {
+              "value": "142 dB",
+              "value_es": "142 dB"
+            },
+            {
+              "value": "136 dB (156 dB w/ pad)",
+              "value_es": "136 dB (156 dB con pad)"
             }
           ]
         },
@@ -61570,8 +61570,8 @@
           "label_es": "Phantom",
           "values": [
             {
-              "value": "Not required",
-              "value_es": "No requiere"
+              "value": "48V required",
+              "value_es": "Requiere 48V"
             },
             {
               "value": "Not required",
@@ -61586,28 +61586,28 @@
               "value_es": "Requiere 48V"
             },
             {
-              "value": "Not required",
-              "value_es": "No requiere"
+              "value": "48V required",
+              "value_es": "Requiere 48V"
+            },
+            {
+              "value": "48V required",
+              "value_es": "Requiere 48V"
             },
             {
               "value": "Not required",
               "value_es": "No requiere"
             },
             {
-              "value": "Not required",
-              "value_es": "No requiere"
+              "value": "48V required",
+              "value_es": "Requiere 48V"
             },
             {
-              "value": "Not required",
-              "value_es": "No requiere"
+              "value": "48V required",
+              "value_es": "Requiere 48V"
             },
             {
-              "value": "Not required",
-              "value_es": "No requiere"
-            },
-            {
-              "value": "Not required",
-              "value_es": "No requiere"
+              "value": "48V required",
+              "value_es": "Requiere 48V"
             }
           ]
         }
@@ -61619,7 +61619,7 @@
         "name_es": "AKG P120 Diafragma Mediano",
         "pros": [
           "Switchable bass-cut filter and -20dB pad handle loud sources cleanly",
-          "Large-diaphragm condenser clarity at a budget-friendly price",
+          "Medium-diaphragm condenser clarity at a budget-friendly price",
           "Cardioid pattern focuses on your source and rejects room noise",
           "Ideal first condenser for vocals, instruments, and project studios"
         ],
@@ -61631,7 +61631,7 @@
         ],
         "pros_es": [
           "Filtro de corte de graves conmutable y pad de -20dB manejan fuentes fuertes con limpieza",
-          "Claridad de condensador de diafragma grande a un precio accesible",
+          "Claridad de condensador de diafragma medio a un precio accesible",
           "Patrón cardioide enfoca en la fuente y rechaza el ruido de la sala",
           "Primer condensador ideal para voces, instrumentos y estudios de proyecto"
         ],
@@ -61648,8 +61648,7 @@
         "pros": [
           "Die-cast body and capsule that survive drops, heat and decades of stage abuse",
           "Handles guitar amps, snares, and horns with authority no other mic matches",
-          "Tight cardioid gives excellent off-axis rejection for multi-mic setups",
-          "Indestructible build survives drops, kicks, and decades of use"
+          "Tight cardioid gives excellent off-axis rejection for multi-mic setups"
         ],
         "cons": [
           "Needs an XLR interface and cable to record",
@@ -61660,8 +61659,7 @@
         "pros_es": [
           "Cuerpo fundido y cápsula que sobreviven a caídas, calor y décadas de escenario",
           "Maneja amplificadores, cajas y metales con una autoridad que ningún otro mic iguala",
-          "Cardioide ajustado ofrece excelente rechazo fuera del eje para setups multi-mic",
-          "Construcción indestructible sobrevive caídas, patadas y décadas de uso"
+          "Cardioide ajustado ofrece excelente rechazo fuera del eje para setups multi-mic"
         ],
         "cons_es": [
           "Necesita una interfaz XLR y cable para grabar",
@@ -61786,7 +61784,7 @@
         "name": "Sennheiser e935",
         "name_es": "Sennheiser e935",
         "pros": [
-          "High-output cardioid engineered to cut through dense mixes",
+          "High-output supercardioid engineered to cut through dense mixes",
           "All-metal German construction built for professional touring",
           "Shock-mounted capsule reduces handling noise and stage vibration",
           "Hum-compensating coil eliminates electromagnetic interference"
@@ -61795,10 +61793,10 @@
           "Premium price point for a dynamic vocal microphone",
           "XLR only — no USB convenience for home setups",
           "Less versatile than multi-purpose dynamics like the SM58",
-          "Cardioid pattern — not as tight as supercardioid alternatives"
+          "Supercardioid pattern — not as wide as cardioid alternatives"
         ],
         "pros_es": [
-          "Cardioide de alta salida diseñado para cortar mezclas densas",
+          "Supercardioide de alta salida diseñado para cortar mezclas densas",
           "Construcción metálica alemana para tours profesionales",
           "Cápsula con suspensión reduce ruido de manejo y vibración de escenario",
           "Bobina compensadora de zumbido elimina interferencia electromagnética"
@@ -61807,7 +61805,7 @@
           "Precio premium para un micrófono dinámico vocal",
           "Solo XLR — sin comodidad USB para setups caseros",
           "Menos versátil que dinámicos multi-propósito como el SM58",
-          "Patrón cardioide — no tan ajustado como alternativas supercardioide"
+          "Patrón supercardioide — no tan amplio como alternativas cardioides"
         ]
       },
       {
@@ -61842,7 +61840,7 @@
         "name": "Lewitt LCT 240 PRO",
         "name_es": "Lewitt LCT 240 PRO",
         "pros": [
-          "Low self-noise 14 dBA for clean recordings in quiet rooms",
+          "Low self-noise 19 dBA for clean recordings in quiet rooms",
           "Switchable 80Hz high-pass filter and -10 dB pad",
           "Cardioid pattern focuses source and rejects room noise",
           "Solid metal construction with good shockmount compatibility"
@@ -61854,7 +61852,7 @@
           "Price near top of budget range"
         ],
         "pros_es": [
-          "Ruido propio bajo 14 dBA para grabaciones limpias en salas silenciosas",
+          "Ruido propio bajo 19 dBA para grabaciones limpias en salas silenciosas",
           "Filtro high-pass 80Hz conmutable y pad -10 dB",
           "Patrón cardioide enfoca la fuente y rechaza ruido de sala",
           "Construcción metálica sólida con buena compatibilidad de shockmount"
@@ -61878,7 +61876,7 @@
         "cons": [
           "Requires phantom power",
           "Sensitive to room reflections",
-          "No pad or filter switches",
+          "No pad or filter switches — less flexibility on loud sources",
           "Limited low-end for large instruments"
         ],
         "pros_es": [
@@ -61890,7 +61888,7 @@
         "cons_es": [
           "Requiere alimentación phantom",
           "Sensible a reflexiones de sala",
-          "Sin pad ni filtros conmutables",
+          "Sin pad ni filtros conmutables — menos flexibilidad con fuentes fuertes",
           "Bajo limitado para instrumentos grandes"
         ]
       }

@@ -34467,7 +34467,41 @@
     "bestFor": {
       "en": "Home studio vocals",
       "es": "Voces de estudio en casa"
-    }
+    },
+    "facts": [
+      {
+        "icon": "microphone",
+        "value": "Condenser",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        }
+      },
+      {
+        "icon": "wave",
+        "value": "Cardioid",
+        "label": {
+          "en": "Pattern",
+          "es": "Patrón"
+        }
+      },
+      {
+        "icon": "volumeHigh",
+        "value": "160 dB",
+        "label": {
+          "en": "Max SPL",
+          "es": "SPL máx."
+        }
+      },
+      {
+        "icon": "freq",
+        "value": "20 Hz – 20 kHz",
+        "label": {
+          "en": "Frequency response",
+          "es": "Respuesta de frecuencia"
+        }
+      }
+    ]
   },
   {
     "id": 1056,
