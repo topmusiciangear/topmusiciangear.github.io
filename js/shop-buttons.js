@@ -5850,7 +5850,7 @@ function shopButtonsTest(p, lang) {
   const reviewRow = '<button type="button" class="shop-btn-review" onclick="openReviewModal(' + p.id + ')" ' +
     'style="width:100%;box-sizing:border-box;flex:none;display:flex;align-items:center;justify-content:center;gap:8px;padding:8px 16px;min-height:40px;' +
     'border-radius:12px;background:#262626;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;' +
-    'border:none;cursor:pointer;transition:background .2s ease" ' +
+    'border:none;cursor:pointer;transition:transform .18s ease,background .18s ease,box-shadow .18s ease" ' +
     'onmouseover="this.style.background=\'#34383d\'" onmouseout="this.style.background=\'#262626\'">' +
     starSvg + '<span style="white-space:nowrap">' + t('Escribe una reseña', 'Write a review') + '</span></button>';
   const rowCount = order.filter(k => k !== primaryStoreKey).length;
@@ -6479,7 +6479,7 @@ function shopButtonsTest(p, lang) {
   const reviewRow = '<button type="button" class="shop-btn-review" onclick="openReviewModal(' + p.id + ')" ' +
     'style="width:100%;box-sizing:border-box;flex:none;display:flex;align-items:center;justify-content:center;gap:8px;padding:8px 16px;min-height:40px;' +
     'border-radius:12px;background:#262626;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;' +
-    'border:none;cursor:pointer;transition:background .2s ease" ' +
+    'border:none;cursor:pointer;transition:transform .18s ease,background .18s ease,box-shadow .18s ease" ' +
     'onmouseover="this.style.background=\'#34383d\'" onmouseout="this.style.background=\'#262626\'">' +
     starSvg + '<span style="white-space:nowrap">' + t('Escribe una reseña', 'Write a review') + '</span></button>';
   const rowCount = order.filter(k => k !== primaryStoreKey).length;

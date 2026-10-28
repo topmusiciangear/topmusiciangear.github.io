@@ -3615,6 +3615,20 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 .shop-more-list .shop-wm{transition:color .18s ease}
 .shop-more-list a:hover .shop-wm{color:#FFB300}
 
+/* Same hover zoom as the pre-rendered guides (there it lives in an inline block):
+   primary store button, "compare stores" button, dropdown rows and the review button. */
+@media (hover: hover) {
+  .shop-btn-primary:hover,
+  .shop-btn-more:hover,
+  .shop-btn-review:hover {
+    transform: scale(1.05);
+  }
+  .shop-btn-review:hover,
+  .shop-more-list a:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .5);
+  }
+}
+
 /* Spanish mobile hero: use the full screen width so "Del estudio al escenario"
    stays on one line, then let the second phrase wrap onto two lines like desktop. */
 @media (max-width: 768px) {
