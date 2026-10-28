@@ -1204,7 +1204,6 @@ const TEST_SHOP_BTN = {
     prices: {
       andertons: "£299.00",
       gear4music: "£245.00",
-      amazon: "$399.00",
       pluginboutique: "€289.19"
     },
     pbCur: {
@@ -1493,7 +1492,6 @@ const TEST_SHOP_BTN = {
   144: {
     prices: {
       gear4music: "£286.00",
-      amazon: "$299.99",
       andertons: "£249.00",
       zzounds: "$299.00",
       musicstore: "€299.00"
@@ -1534,7 +1532,6 @@ const TEST_SHOP_BTN = {
   148: {
     prices: {
       gear4music: "£2,009.00",
-      amazon: "$2,499.00",
       andertons: "£1,452.00",
       musicstore: "€2,099.00"
     },
@@ -1743,7 +1740,8 @@ const TEST_SHOP_BTN = {
       andertons: "£41.00"
     },
     urls: {
-      andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fmogami-2534-quad-neglex-3m-xlrf-xlrm-mic-cable-neutrik-black-gold-xlr%2F"
+      andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fmogami-2534-quad-neglex-3m-xlrf-xlrm-mic-cable-neutrik-black-gold-xlr%2F",
+      amazon: "https://www.amazon.com/dp/B0002E1P2G"
     }
   },
   170: {
@@ -3294,7 +3292,6 @@ const TEST_SHOP_BTN = {
   },
   344: {
     prices: {
-      amazon: "$399.00"
     },
     na: [
       "zzounds",
@@ -3485,7 +3482,6 @@ const TEST_SHOP_BTN = {
   },
   364: {
     prices: {
-      amazon: "$507.99",
       zzounds: "$1,049.99",
       andertons: "£799.00",
       gear4music: "£788.00",
@@ -3505,7 +3501,8 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/sE-Electronics-VR2-Voodoo-Active-Ribbon-Mic/DRQ",
-      zzounds: "https://www.zzounds.com/item--SEEVR2"
+      zzounds: "https://www.zzounds.com/item--SEEVR2",
+      amazon: "https://www.amazon.com/dp/B0053GPY9S"
     }
   },
   366: {
@@ -3531,7 +3528,8 @@ const TEST_SHOP_BTN = {
     },
     urls: {
       gear4music: "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FKeyboards-and-Pianos%2FRoland-GOKEYS-3-Music-Creation-Keyboard-Midnight-Blue%2F6AB8",
-      zzounds: "https://www.zzounds.com/item--ROLGOKEYS3"
+      zzounds: "https://www.zzounds.com/item--ROLGOKEYS3",
+      amazon: "https://www.amazon.com/dp/B0CWHG3NVR"
     }
   },
   371: {
@@ -3545,7 +3543,6 @@ const TEST_SHOP_BTN = {
   },
   372: {
     prices: {
-      amazon: "$795.00",
       andertons: "£517.00",
       gear4music: "£540.00",
       musicstore: "€453.78"
@@ -3566,8 +3563,7 @@ const TEST_SHOP_BTN = {
       uk: "£78.79"
     },
     urls: {
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9819-ShaperBox-3-Bundle",
-      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9819-ShaperBox-3-Bundle"
     },
     na: [
       "andertons",
@@ -3579,8 +3575,7 @@ const TEST_SHOP_BTN = {
     prices: {
       pluginboutique: "€99.83",
       gear4music: "£22.00",
-      musicstore: "€91.00",
-      amazon: "$99.00"
+      musicstore: "€91.00"
     },
     pbCur: {
       us: "$99.00",
@@ -3589,8 +3584,7 @@ const TEST_SHOP_BTN = {
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/XLN-Audio-RC-20-Retro-Color/3NGQ",
       pluginboutique: "https://www.pluginboutique.com/product/2-Effects/44-Saturation/3016-RC-20-Retro-Color",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/XLN-Audio-RC-20-Retro-Color/art-PCM0018798-000",
-      amazon: "https://www.amazon.com/XLN-Audio-RC-20-Retro-Color/dp/B08JSYBDY1"
+      musicstore: "https://www.musicstore.com/en_OE/EUR/XLN-Audio-RC-20-Retro-Color/art-PCM0018798-000"
     }
   },
   376: {
@@ -3602,8 +3596,7 @@ const TEST_SHOP_BTN = {
       uk: "£9.55"
     },
     urls: {
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/3952-HalfTime",
-      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/3952-HalfTime"
     },
     na: [
       "andertons",
@@ -3616,8 +3609,7 @@ const TEST_SHOP_BTN = {
       pluginboutique: "€120.00",
       gear4music: "£111.00",
       andertons: "£99.00",
-      musicstore: "€129.00",
-      amazon: "$129.00"
+      musicstore: "€129.00"
     },
     pbCur: {
       us: "$129.00",
@@ -3627,8 +3619,7 @@ const TEST_SHOP_BTN = {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Baby-Audio-Transit-2/6RY2",
       andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fbaby-audio-transit-2-motion-effects-plugin%2F",
       pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/13431-Transit-2",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Baby-Audio-Transit-2-License-Code/art-PCM0018531-000",
-      amazon: "https://www.amazon.com/Baby-Audio-Transit-2-Plugin/dp/B0DCJ5LPZL"
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Baby-Audio-Transit-2-License-Code/art-PCM0018531-000"
     }
   },
   378: {
@@ -3660,8 +3651,7 @@ const TEST_SHOP_BTN = {
       uk: "£103.46"
     },
     urls: {
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7627-Infiltrator-2",
-      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7627-Infiltrator-2"
     },
     na: [
       "andertons",
@@ -3685,22 +3675,19 @@ const TEST_SHOP_BTN = {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/iZotope-Neutron-5-Advanced/6U5K",
       andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fizotope-neutron-5-standard--esd%2F",
       pluginboutique: "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/13502-Neutron-5",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/iZotope-Neutron-5-License-Code/art-PCM0018250-000",
-      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
+      musicstore: "https://www.musicstore.com/en_OE/EUR/iZotope-Neutron-5-License-Code/art-PCM0018250-000"
     }
   },
   382: {
     prices: {
-      pluginboutique: "€99.83",
-      amazon: "$99.00"
+      pluginboutique: "€99.83"
     },
     pbCur: {
       us: "$99.00",
       uk: "£78.79"
     },
     urls: {
-      pluginboutique: "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/14563-Scaler-3",
-      amazon: "https://www.amazon.com/Plugin-Boutique-Scaler-3-Software/dp/B0FKK2H83D"
+      pluginboutique: "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/14563-Scaler-3"
     },
     na: [
       "andertons",
@@ -3712,8 +3699,7 @@ const TEST_SHOP_BTN = {
     prices: {
       pluginboutique: "€130.08",
       gear4music: "£119.00",
-      musicstore: "€99.00",
-      amazon: "$129.00"
+      musicstore: "€99.00"
     },
     pbCur: {
       us: "$129.00",
@@ -3722,8 +3708,7 @@ const TEST_SHOP_BTN = {
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Sonible-SmartEQ-4/65LT",
       pluginboutique: "https://www.pluginboutique.com/product/2-Effects/16-EQ/11784-smart-EQ-4",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Sonible-smart-EQ-4-License-Code/art-PCM0017947-000",
-      amazon: "https://www.amazon.com/Sonible-smartEQ-4/dp/B0CVHRCRW2"
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Sonible-smart-EQ-4-License-Code/art-PCM0017947-000"
     },
     na: [
       "andertons"
@@ -3733,8 +3718,7 @@ const TEST_SHOP_BTN = {
     prices: {
       pluginboutique: "€130.08",
       gear4music: "£119.00",
-      musicstore: "€99.00",
-      amazon: "$129.00"
+      musicstore: "€99.00"
     },
     pbCur: {
       us: "$129.00",
@@ -3743,8 +3727,7 @@ const TEST_SHOP_BTN = {
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Sonible-SmartLimit/4M4S",
       pluginboutique: "https://www.pluginboutique.com/product/2-Effects/9-Limiter/8476-smart-limit",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/Sonible-Smart-limit-License-Code/art-PCM0017210-000",
-      amazon: "https://www.amazon.com/Sonible-smartlimit-Plugin/dp/B0C8J4WJF1"
+      musicstore: "https://www.musicstore.com/en_OE/EUR/Sonible-Smart-limit-License-Code/art-PCM0017210-000"
     },
     na: [
       "andertons"
@@ -3764,8 +3747,7 @@ const TEST_SHOP_BTN = {
       pluginboutique: "€109.90",
       gear4music: "£95.00",
       andertons: "£95.00",
-      musicstore: "€99.00",
-      amazon: "$99.00"
+      musicstore: "€99.00"
     },
     pbCur: {
       us: "$99.00",
@@ -3775,22 +3757,19 @@ const TEST_SHOP_BTN = {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/iZotope-Trash/6AAU",
       andertons: "https://andertonsmusiccompany.pxf.io/c/7292297/3326127/43829?u=https%3A%2F%2Fwww.andertons.co.uk%2Fizotope-trash-creative-distortion-plugin%2F",
       pluginboutique: "https://www.pluginboutique.com/product/2-Effects/30-Distortion/11987-Trash",
-      musicstore: "https://www.musicstore.com/en_OE/EUR/iZotope-Trash-License-Code/art-PCM0018334-000",
-      amazon: "https://www.amazon.com/iZotope-Trash-Distortion-Plugin/dp/B0DF84C84J"
+      musicstore: "https://www.musicstore.com/en_OE/EUR/iZotope-Trash-License-Code/art-PCM0018334-000"
     }
   },
   387: {
     prices: {
-      pluginboutique: "€79.65",
-      amazon: "$79.00"
+      pluginboutique: "€79.65"
     },
     pbCur: {
       us: "$79.00",
       uk: "£62.88"
     },
     urls: {
-      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8036-Lifeline-Expanse",
-      amazon: "https://www.amazon.com/Excite-Audio-Lifeline-Expanse-Plugin/dp/B0DKF74MVH"
+      pluginboutique: "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8036-Lifeline-Expanse"
     },
     na: [
       "andertons",
@@ -3809,7 +3788,6 @@ const TEST_SHOP_BTN = {
       uk: "£39.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20"
     }
   },
   390: {
@@ -3824,7 +3802,6 @@ const TEST_SHOP_BTN = {
       uk: "£39.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B0002E4Z8M/?tag=topmusicg-20",
       zzounds: "https://www.zzounds.com/item--ARACHORUSJUN6?siid=351840",
       andertons: "https://www.andertons.co.uk/arturia-chorus-jun-6/"
     }
@@ -4430,7 +4407,6 @@ const TEST_SHOP_BTN = {
       musicstore: "€6,599.00"
     },
     urls: {
-      amazon: "https://www.amazon.com/dp/B079V26HMV?tag=topmusicg-20"
     },
     oos: ["amazon"]
   },
@@ -4704,7 +4680,6 @@ const TEST_SHOP_BTN = {
   },
   487: {
     prices: {
-      amazon: "$585.00"
     },
     urls: {
       zzounds: "https://www.zzounds.com/item--SOUSIG12MTK"
@@ -5103,7 +5078,6 @@ const TEST_SHOP_BTN = {
     prices: {
       andertons: "£899.00",
       musicstore: "€1,159.00",
-      amazon: "$1299.99",
       zzounds: "$1,300.00",
       gear4music: "£899.00"
     }
@@ -6041,7 +6015,7 @@ const TEST_SHOP_BTN = {
   19: {prices:{amazon:"$398.99",zzounds:"$398.99",gear4music:"£263.00",andertons:"£254.00",musicstore:"€289.00"}},
   20: {prices:{amazon:"$269.00",zzounds:"$269.00",gear4music:"£199.25",musicstore:"€266.00"}},
   21: {prices:{amazon:"$899.99",zzounds:"$939.00",andertons:"£600.00",gear4music:"£600.00",musicstore:"€649.00"}},
-  22: {prices:{amazon:"$1,175.00",andertons:"£959.00",gear4music:"£812.00",musicstore:"€949.00"}},
+  22: {prices:{andertons:"£959.00",gear4music:"£812.00",musicstore:"€949.00"}},
   23: {prices:{amazon:"$199.99",andertons:"£129.00",gear4music:"£129.00",musicstore:"€149.00",zzounds:"$199.99"}},
   24: {prices:{amazon:"£339.00",andertons:"£295.00",gear4music:"£298.00",musicstore:"€359.00"},urls:{zzounds:"https://www.zzounds.com/prodsearch?form=search&q=Sennheiser+HD+490+Pro"},oos:["zzounds"]},
   1053: {prices:{amazon:"$499.00",andertons:"£351.00",gear4music:"£351.00",musicstore:"€432.00",zzounds:"$499.00"},urls:{zzounds:"https://www.zzounds.com/item--SENHD490PROPLUS?siid=346774",gear4music:"https://www.gear4music.com/Recording-and-Computers/Sennheiser-HD-490-Pro-Plus-Open-Back-Headphones/62YL"},oos:[]},
@@ -6174,7 +6148,12 @@ function shopButtonsTest(p, lang) {
   const starSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#FFC107" style="flex-shrink:0"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L374 150.2 308.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>';
   const cartSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>';
   const chevSvg = '<svg viewBox="0 0 512 512" width="1.1em" height="1.1em" fill="currentColor" style="flex-shrink:0;transition:transform .3s ease;margin-top:2px"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>';
-  const order = isLogic ? [] : (dawHasAmazon ? ['amazon', 'reverb', 'zzounds', 'gear4music', 'andertons', 'musicstore'] : isDaw ? ['zzounds', 'reverb', 'andertons', 'musicstore'] : ['amazon', 'reverb', 'zzounds', 'gear4music', 'andertons', 'musicstore']);
+  // Amazon solo entra en la lista si de verdad hay un ASIN de producto. En plugins
+  // casi nunca lo hay (y antes la fila acababa apuntando a la portada de Amazon).
+  const _amazonUrl = (cfg.urls && cfg.urls.amazon) || stores.amazon || '';
+  const amazonReal = /\/dp\/[A-Z0-9]{10}/i.test(_amazonUrl);
+  const _allStores = ['amazon', 'reverb', 'zzounds', 'gear4music', 'andertons', 'musicstore'];
+  const order = isLogic ? [] : (dawHasAmazon ? _allStores : isDaw ? ['zzounds', 'reverb', 'andertons', 'musicstore'] : (p.category === 'plugins' && !amazonReal ? _allStores.filter(k => k !== 'amazon') : _allStores));
   const naList = cfg.na || [];
   const oosList = cfg.oos || [];
   const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
@@ -6196,7 +6175,7 @@ function shopButtonsTest(p, lang) {
     andertons: () => 'https://www.andertons.co.uk/',
     musicstore: () => 'https://www.musicstore.com/en_OE/EUR'
   };
-  const rowUrl = k => { var u = (k === 'amazon' && isPlugins) ? 'https://www.amazon.com/?tag=topmusicg-20' : ((cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k])); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
+  const rowUrl = k => { var u = (cfg.urls && cfg.urls[k]) ? cfg.urls[k] : (k === 'reverb' ? revUrl : stores[k]); if (!u && storeSearch[k]) u = storeSearch[k](); return wrapAffiliate(k, u); };
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
   const hasAmazon = !isLogic && !isPlugins && !isHolly;
