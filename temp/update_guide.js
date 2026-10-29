@@ -1,56 +1,38 @@
 const fs=require('fs');
-let guides=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
-let guide=guides.find(g=>g.id==='budget-mics');
-if(!guide){console.error('not found');process.exit(1);}
+const guidesPath='./data/guides.json';
+let guides=JSON.parse(fs.readFileSync(guidesPath,'utf8'));
+const guide=guides.find(g=>g.id==='channel-strip-plugins');
+if(!guide){console.log('not found');process.exit(1);}
 
-// Remove ND86 product from section 5
-let sec5=guide.sections.find(s=>s.heading && s.heading.includes('SM58') && s.products && s.products.includes(232));
-if(sec5){
-  sec5.products=sec5.products.filter(p=>p!==232);
-}
+// Map sections to new product IDs
+// sections[1] currently product 119 -> replace with 1066
+// sections[2] product 29 -> 1067
+// sections[3] product 60 -> 1068
+// sections[4] product 62 -> 1069
+// sections[5] product 121 -> 1070
+// sections[6] product 379 keep
 
-// Replace ND86 section
-let idx=guide.sections.findIndex(s=>s.heading && s.heading.includes('EV ND86'));
-if(idx>=0){
-  guide.sections[idx]={
-    heading:'Warm and Detailed: sE Electronics X1 S for Home Vocals',
-    heading_es:'Cálido y detallado: sE Electronics X1 S para voces en casa',
-    content:'<strong>The X1 S sits in the sweet spot for bedroom singers and acoustic players who want a large-diaphragm sound without a large-diaphragm price.</strong> Its hand-crafted 1-inch capsule delivers a smooth, slightly warm top end that flatters voices and strummed guitars, while the -10/-20 dB pads and 80/160 Hz filters keep it usable in a small untreated room. Self-noise is low enough that you hear the performance, not the mic, and the max SPL of 160 dB means it handles loud amps and drums without breaking up. Build quality feels solid, with an all-metal body that survives a desk move. For home studio vocals, acoustic guitar and the occasional podcast, it gives you that condenser clarity at a budget price.',
-    content_es:'<strong>El X1 S encaja justo donde lo necesitan quienes graban en el dormitorio y buscan el sonido de diafragma grande sin pagar precio de diafragma grande.</strong> Su cápsula de 1 pulgada hecha a mano entrega un agudo suave, ligeramente cálido, que favorece voces y guitarras rasgueadas. Los pads -10/-20 dB y los filtros 80/160 Hz lo hacen útil en una habitación pequeña sin tratar. El ruido propio es lo bastante bajo para oír la interpretación y no el micrófono, y el SPL máximo de 160 dB aguanta amplis y baterías sin distorsionar. La construcción metálica se siente sólida y aguanta traslados de escritorio. Para voces de estudio en casa, guitarra acústica y algún podcast, ofrece claridad de condensador a precio de presupuesto.',
-    products:[1055],
-    verdict:'',
-    verdict_es:'',
-    pros:[],
-    pros_es:[],
-    cons:[],
-    cons_es:[],
-    specs:{}
-  };
-}
+const mapping={
+  1:1066,
+  2:1067,
+  3:1068,
+  4:1069,
+  5:1070
+};
+guide.sections.forEach((sec,idx)=>{
+  if(mapping[idx]) sec.products=[mapping[idx]];
+});
 
-// Update product table column
-const colIdx=15;
-if(guide.productTable && guide.productTable.columns[colIdx]){
-  guide.productTable.columns[colIdx].title='sE Electronics X1 S';
-  guide.productTable.columns[colIdx].title_es='sE Electronics X1 S';
-  // Update rows
-  const updates={
-    'Best For':{value:'Vocals & acoustic instruments', value_es:'Voces e instrumentos acústicos'},
-    'Type':{value:'Condenser', value_es:'Condensador'},
-    'Connection':{value:'XLR', value_es:'XLR'},
-    'Polar Pattern':{value:'Cardioid', value_es:'Cardioide'},
-    'Frequency Response':{value:'20 Hz – 20 kHz', value_es:'20 Hz – 20 kHz'},
-    'Max SPL':{value:'160 dB with pad', value_es:'160 dB con pad'},
-    'Phantom Power':{value:'Required', value_es:'Requerida'}
-  };
-  guide.productTable.rows.forEach(row=>{
-    const upd=updates[row.label];
-    if(upd && row.values[colIdx]){
-      row.values[colIdx]=upd;
-    }
-  });
-}
+// Update featuredProducts
+guide.featuredProducts=[379,1066,1067,1068,1069,1070];
 
-// Write back
-fs.writeFileSync('data/guides.json', JSON.stringify(guides,null,2));
-console.log('updated');
+// Update conclusion
+guide.conclusion="<p>That is why I would go with <span class=\"product-name\">Brainworx bx_console SSL 4000 E</span>. Classic 72 channel E Series desk emulation with TMT technology.</p>";
+guide.conclusion_es="<p>Por eso me quedo con <span class=\"product-name\">Brainworx bx_console SSL 4000 E</span>. Emulación clásica de consola serie E de 72 canales con tecnología TMT.</p>";
+
+// Update verdict
+guide.verdict=`<p><strong>I would go with <span class=\"product-name\">Waves Scheps Omni Channel 2</span> — Our Top Pick.</strong> The ultimate hybrid mixing workflow and the most versatile channel strip ever created.</p><p><strong><span class=\"product-name\">Brainworx bx_console SSL 4000 E</span></strong> — Best Analog Emulation. The definitive choice for purists chasing the absolute truest vintage analog desk experience.</p><p><strong><span class=\"product-name\">Solid State Logic SSL Native Channel Strip 2</span></strong> — The official factory digital flagship. Developed directly by SSL using modern console DSP algorithms for ultra-clean, clinical pop and EDM separation.</p><p><strong><span class=\"product-name\">Lindell Audio 80 Series</span></strong> — The heavy hitter for vintage British warmth. Recreates the thick, cream-colored, class-A character of the legendary Neve 8028 desk.</p><p><strong><span class=\"product-name\">Universal Audio UAD API Vision Channel Strip</span></strong> — Unmatched transient speed and aggressive American mid-range bite.</p><p><strong><span class=\"product-name\">Waves Magma Tube Channel Strip</span></strong> — True golden-era analog character condensed into an intuitive three-knob workflow.</p>`;
+guide.verdict_es=`<p><strong>Me quedo con <span class=\"product-name\">Waves Scheps Omni Channel 2</span> — Nuestra elección principal.</strong> El flujo de trabajo híbrido definitivo y el channel strip más versátil jamás creado.</p><p><strong><span class=\"product-name\">Brainworx bx_console SSL 4000 E</span></strong> — Mejor emulación analógica. La opción definitiva para puristas.</p><p><strong><span class=\"product-name\">Solid State Logic SSL Native Channel Strip 2</span></strong> — La insignia digital oficial de fábrica.</p><p><strong><span class=\"product-name\">Lindell Audio 80 Series</span></strong> — El peso pesado del calor británico vintage.</p><p><strong><span class=\"product-name\">Universal Audio UAD API Vision Channel Strip</span></strong> — Velocidad de transitorios inigualable.</p><p><strong><span class=\"product-name\">Waves Magma Tube Channel Strip</span></strong> — Carácter analógico de la era dorada condensado en un flujo de tres perillas.</p>`;
+
+fs.writeFileSync(guidesPath, JSON.stringify(guides,null,2).replace(/\n/g,'\r\n'),'utf8');
+console.log('Guide updated');
