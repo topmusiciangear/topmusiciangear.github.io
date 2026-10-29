@@ -1,0 +1,17 @@
+import json
+p='data/products.json'
+d=json.load(open(p,'r',encoding='utf-8'))
+descs_es={
+1069:"Esta estación de mezcla híbrida desarrollada con Andrew Scheps rompe con los layouts rígidos de hardware. Ofrece un entorno modular libre donde puedes reorganizar los bloques de procesamiento al instante. Incluye tres sabores de compresión distintos, un ecualizador de cuatro bandas flexible, un de-esser dual ampliado y una sección de saturación versátil. El dial característico 'Thump' de bajos une las subfrecuencias sin ensuciar la mezcla. Funciona con decenas de instancias sin problemas en sesiones grandes y complejas.",
+379:"Esta emulación definitiva del desk británico reproduce el circuito original de la serie E de Solid State Logic. Captura fielmente el preamplificador con transformador Jensen, el filtrado musical y la agresividad matemática de sus secciones de dinámica. Pasar la mezcla por este plugin aporta un golpe inmediato, directo y una separación de canales profesional. Su legendaria sección de EQ de cuatro bandas 'Black Knob' responde con intensidad a ajustes mínimos, permitiendo eliminar resonancias problemáticas o añadir presencia incisiva.",
+1066:"Este buque insignia digital oficial está desarrollado directamente a partir de los algoritmos DSP propietarios de Solid State Logic. En lugar de replicar mesas vintage, emula la respuesta matemática impecable de las consolas digitales de gran formato modernas. Incluye un ecualizador paramétrico de cuatro bandas totalmente configurable que cambia entre curvas históricas, acompañado de un algoritmo anti-compresión. Su sección de dinámica ofrece un compresor soft-knee transparente y un sistema inteligente de headroom anti-clipping.",
+1068:"Esta impresionante emulación del clásico desk americano de grabación destaca por su velocidad de transitorios sin igual. El canal completo modela el famoso preamplificador, un compresor VCA ultrarrápido y el distintivo ecualizador de cuatro bandas 550L con Q proporcional. Este diseño de EQ estrecha automáticamente el ancho de banda al aumentar o cortar más, aportando un suavizado musical en ajustes sutiles. Incluye un módulo de puerta y expander increíblemente preciso, ideal para limpiar micrófonos de batería.",
+1071:"Esta emulación colorida y profundamente musical clona el comportamiento de hardware de transformadores de audio clase A históricos. Desarrollada con Andrew Scheps, elimina la frialdad digital añadiendo peso y densidad analógicos. Este canal está pensado para inyectar cuerpo cohesionado en voces principales, bajos eléctricos y pianos acústicos en lugar de centrarse en cortes quirúrgicos. Incluye la banda fija 'Air' de 12 kHz famosa por abrir grabaciones oscuras o apagadas con una textura sedosa.",
+1070:"Este canal minimalista y muy enfocado captura la textura rica y saturada de hardware de válvulas. Sin menús digitales abrumadores ni pantallas analíticas, condensa el procesamiento vintage en un flujo de tres perillas. Al empujar el circuito Drive genera texturas armónicas asimétricas de segundo y tercer orden que engordan pistas sintéticas. Su compresor óptico integrado actúa como nivelador suave, perfecto para ajustar voces o mezclar subgrupos ambientales de batería con limpieza."
+}
+for prod in d:
+    pid=prod.get('id')
+    if pid in descs_es:
+        prod['desc_es']=descs_es[pid]
+json.dump(d, open(p,'w',encoding='utf-8'), indent=2)
+print('done')

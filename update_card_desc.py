@@ -1,0 +1,17 @@
+import json
+p='data/products.json'
+d=json.load(open(p,'r',encoding='utf-8'))
+descs={
+1069:"This hybrid mixing workstation built alongside Andrew Scheps shatters rigid hardware layouts. It offers a free modular environment where you can rearrange processing blocks instantly on the fly. It packs three distinct compression flavors, a flexible four-band equalizer, an expanded dual de-esser, and a versatile saturation section. A signature low-end \"Thump\" dial glues sub-frequencies effortlessly without muddying your mix. It runs dozens of instances smoothly across huge, complex sessions.",
+379:"This definitive emulation of the British desk models the original Solid State Logic E Series circuitry. It faithfully captures the Jensen transformer preamp, musical filtering, and mathematical aggression of its dynamics sections. Mixing through this plugin delivers an immediate, upfront punch and professional channel separation. Its legendary \"Black Knob\" four-band EQ section responds intensely to minor adjustments, allowing you to slice out problematic resonances or introduce a biting presence.",
+1066:"This official factory digital flagship is developed straight from Solid State Logic's proprietary DSP algorithms. Rather than replicating vintage desks, it emulates the pristine mathematical response of modern large-format digital consoles. It features a fully configurable 4-band parametric equalizer that toggles between historic curves, paired with an anti-cramping algorithm. Its dynamics section boasts a transparent soft-knee compressor and an intelligent anti-clipping headroom system.",
+1068:"This stunning emulation of the classic American recording desk is known for its unparalleled transient speed. The complete channel strip models the famous preamp, a hyper-fast VCA-driven compressor, and the distinct 550L four-band proportional Q equalizer. This unique EQ design automatically narrows the filter's bandwidth as you boost or cut harder, providing musical smoothing on soft adjustments. It features an incredibly precise gate and expander module perfect for cleaning drum microphones.",
+1071:"This colorful, deeply musical emulation clones the hardware behavior of historic class-A audio transformers. Developed alongside Andrew Scheps, it removes cold digital acoustics by adding heavy analog weight and density. This channel strip is built to inject cohesive body into principal vocal tracks, electric bass lines, and acoustic pianos rather than focusing on surgical cuts. It features a fixed 12 kHz \"Air\" band famous for opening up dark or muted recordings in a silk-like texture.",
+1070:"This highly focused, minimal channel strip captures the rich, saturated grit of vacuum tube hardware. Ditching overwhelming digital menus and analytical display screens, it condenses vintage processing into a direct three-knob workflow. Pushing the Drive circuit creates rich, asymmetric second and third-order harmonic textures that fat up synthetic tracks. Its integrated optical compressor acts as a smooth leveler, perfect for tightening vocals or blending ambient drum sub-groups cleanly."
+}
+for prod in d:
+    pid=prod.get('id')
+    if pid in descs:
+        prod['desc']=descs[pid]
+json.dump(d, open(p,'w',encoding='utf-8'), indent=2)
+print('done')
