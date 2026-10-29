@@ -35373,29 +35373,11 @@
     "score": 9.7,
     "facts": [
       {
-        "icon": "sliders",
-        "value": "2.5-way powered",
-        "label": {
-          "en": "Type",
-          "es": "Tipo"
-        },
-        "tone": "good"
-      },
-      {
         "icon": "compactDisc",
         "value": "Dual 6.5\" composite W cone woofers",
         "label": {
           "en": "Woofer",
           "es": "Woofer"
-        },
-        "tone": "good"
-      },
-      {
-        "icon": "signal",
-        "value": "1.5\" Beryllium inverted dome tweeter",
-        "label": {
-          "en": "Tweeter",
-          "es": "Tweeter"
         },
         "tone": "good"
       },
@@ -35414,15 +35396,6 @@
         "label": {
           "en": "Frequency Response",
           "es": "Respuesta de frecuencia"
-        },
-        "tone": "good"
-      },
-      {
-        "icon": "volume2",
-        "value": "112 dB peak",
-        "label": {
-          "en": "Max SPL",
-          "es": "SPL máximo"
         },
         "tone": "good"
       }
