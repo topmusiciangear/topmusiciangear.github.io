@@ -1,39 +1,14 @@
 const fs=require('fs');
-let guides=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
-let guide=guides.find(g=>g.id==='budget-mics');
-if(!guide.verdictProsCons) { console.log('no verdict'); process.exit(0);}
-let idx=guide.verdictProsCons.findIndex(p=>p.name==='Electro-Voice ND86');
-if(idx>=0){
-  guide.verdictProsCons[idx]={
-    name:'sE Electronics X1 S',
-    name_es:'sE Electronics X1 S',
-    pros:[
-      'Hand-crafted 1" capsule delivers warm, detailed vocal tone',
-      'Switchable -10/-20 dB pads and 80/160 Hz filters add flexibility',
-      'Max SPL up to 160 dB handles loud sources without distortion',
-      'Low self-noise 9 dB keeps recordings clean in quiet home rooms'
-    ],
-    cons:[
-      'Condenser requires phantom power, not plug-and-play for live use',
-      'Large-diaphragm look may feel big on a small desk',
-      'Cardioid pattern picks up room reflections in untreated spaces',
-      'Price sits near the top of the under $200 budget'
-    ],
-    pros_es:[
-      'Cápsula de 1" hecha a mano entrega tono vocal cálido y detallado',
-      'Pads -10/-20 dB y filtros 80/160 Hz conmutables dan flexibilidad',
-      'SPL máximo 160 dB aguanta fuentes fuertes sin distorsión',
-      'Ruido propio 9 dB mantiene limpias las grabaciones en habitaciones silenciosas'
-    ],
-    cons_es:[
-      'Condensador requiere phantom power, no es plug-and-play para directo',
-      'Aspecto de diafragma grande puede resultar grande en un escritorio pequeño',
-      'Patrón cardioide capta reflexiones de sala en espacios sin tratar',
-      'Precio se sitúa cerca del tope del presupuesto bajo $200'
-    ]
-  };
-  console.log('replaced');
-}else{
-  console.log('not found');
-}
-fs.writeFileSync('data/guides.json', JSON.stringify(guides,null,2));
+const guidesPath='./data/guides.json';
+let guides=JSON.parse(fs.readFileSync(guidesPath,'utf8'));
+const guide=guides.find(g=>g.id==='channel-strip-plugins');
+const verdictText=`Waves Scheps Omni Channel 2 is our top recommendation for the ultimate hybrid mixing workflow. It is arguably the most versatile channel strip ever created, offering interchangeable modules, three distinct compression flavors, and a signature low-end "Thump" saturation control—all while maintaining an incredibly light CPU footprint.
+If you are a purist chasing the absolute truest analog desk experience, Brainworx bx_console SSL 4000 E remains an unbeatable choice, leveraging patented TMT technology to model 72 distinct, individual channel tolerances.
+Solid State Logic SSL Native Channel Strip 2 — The official digital flagship. Developed by SSL using their modern factory DSP algorithms for ultra-clean, clinical pop and EDM separation without the vintage mud.
+Lindell Audio 80 Series — The heavy hitter for vintage British warmth. Recreates the thick, cream-colored, class-A character of the Neve 8028 desk alongside the smooth leveling of the 2254 diode-bridge compressor.
+Universal Audio UAD API Vision Channel Strip — Unmatched transient speed and aggressive American mid-range bite. Perfect for punching through dense rock guitars and snapping acoustic drum tracks forward in the mix.
+Waves Magma Tube Channel Strip — True golden-era analog character condensed into an intuitive three-knob workflow. Ideal for injecting thick, harmonic tube saturation and smooth optical compression into sterile digital recordings.`;
+guide.verdict=`<p><strong>Waves Scheps Omni Channel 2 is our top recommendation for the ultimate hybrid mixing workflow.</strong> It is arguably the most versatile channel strip ever created, offering interchangeable modules, three distinct compression flavors, and a signature low-end "Thump" saturation control—all while maintaining an incredibly light CPU footprint.</p><p><strong>Brainworx bx_console SSL 4000 E</strong> — If you are a purist chasing the absolute truest analog desk experience, it remains an unbeatable choice, leveraging patented TMT technology to model 72 distinct, individual channel tolerances.</p><p><strong>Solid State Logic SSL Native Channel Strip 2</strong> — The official digital flagship. Developed by SSL using their modern factory DSP algorithms for ultra-clean, clinical pop and EDM separation without the vintage mud.</p><p><strong>Lindell Audio 80 Series</strong> — The heavy hitter for vintage British warmth. Recreates the thick, cream-colored, class-A character of the Neve 8028 desk alongside the smooth leveling of the 2254 diode-bridge compressor.</p><p><strong>Universal Audio UAD API Vision Channel Strip</strong> — Unmatched transient speed and aggressive American mid-range bite. Perfect for punching through dense rock guitars and snapping acoustic drum tracks forward in the mix.</p><p><strong>Waves Magma Tube Channel Strip</strong> — True golden-era analog character condensed into an intuitive three-knob workflow. Ideal for injecting thick, harmonic tube saturation and smooth optical compression into sterile digital recordings.</p>`;
+
+fs.writeFileSync(guidesPath, JSON.stringify(guides,null,2).replace(/\n/g,'\r\n'),'utf8');
+console.log('Verdict updated');
