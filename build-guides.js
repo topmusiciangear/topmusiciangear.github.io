@@ -6091,7 +6091,7 @@ const TEST_SHOP_BTN = {
 1039: {prices:{pluginboutique:"€271.04",gear4music:"£215.00"},pbCur:{us:"$249.00",uk:"£238.80"}},
 1066: {prices:{gear4music:"£122.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/SSL-Native-Channel-Strip-2/5B7U"}},
 1068: {prices:{gear4music:"£29.00",zzounds:"$29.00",andertons:"£26.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Universal-Audio-API-Vision-Channel-Strip/5Z78",zzounds:"https://www.zzounds.com/item--UADAPIVISCHNSTRP",andertons:"https://www.andertons.co.uk/universal-audio-api-vision-channel-strip--esd/"}},
-1072: {prices:{gear4music:"£1,752",zzounds:"$2,299",andertons:"£1,675"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Focal-Twin-6-ST6-Active-Studio-Monitor/4WVC",zzounds:"https://www.zzounds.com/item--FOLFOPROTWIN6ST6?siid=320073",andertons:"https://www.andertons.co.uk/focal-twin-6-st6-studio-monitors/"}},
+1072: {prices:{gear4music:"£1,752",zzounds:"$2,299",andertons:"£1,675",musicstore:"€1,998"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Focal-Twin-6-ST6-Active-Studio-Monitor/4WVC",zzounds:"https://www.zzounds.com/item--FOLFOPROTWIN6ST6?siid=320073",andertons:"https://www.andertons.co.uk/focal-twin-6-st6-studio-monitors/",musicstore:"https://www.musicstore.com/en_OE/EUR/Focal-Twin-6/art-REC0016101-000"}},
 
   };function hollyDefaultRegion() {
   var isUsa = false;
@@ -6887,8 +6887,11 @@ function buildGuidePage(guide, lang, idx) {
           const _bf = (isEs ? firstProduct.bestFor.es : firstProduct.bestFor.en) || '';
           const _bfl = isEs ? 'Ideal para' : 'Best for';
           function _qfIcon(name, color) {
-            if (name === 'wave' || name === 'sineWave') {
+            if (name === 'wave' || name === 'sineWave' || name === 'waveform') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M1 8 C 4 2, 7 2, 10 8 S 16 14, 19 8 S 22 2, 23 8"/></svg>';
+            }
+            if (name === 'zap' || name === 'bolt') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M13 2 L5 14 h7 l-2 8 10-12 h-7 l2-8z"/></svg>';
             }
             if (name === 'gauge') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M3 14 A 9 9 0 0 1 21 14"/><line x1="12" y1="14" x2="17" y2="6" stroke-width="2"/></svg>';
