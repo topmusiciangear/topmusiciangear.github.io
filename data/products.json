@@ -35050,9 +35050,9 @@
     "badge": "topQuality",
     "desc": "Official SSL channel strip with modern digital precision, anti-cramping EQ and Over-Easy compressor.",
     "desc_es": "Channel strip oficial de SSL con precisión digital moderna, EQ anti-cramping y compresor Over-Easy.",
-    "img": "img/products/default-plugin.webp",
+    "img": "https://banners.pluginboutique.com/g4gm08bdw903kf8owbe7stdwuwel",
     "stores": {
-      "pluginboutique": "https://www.pluginboutique.com/product/8653-SSL-Native-Channel-Strip-2?a_aid=6a01e859cbe1a"
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/8653-SSL-Native-Channel-Strip-2?a_aid=6a01e859cbe1a"
     }
   },
   {
@@ -35084,9 +35084,9 @@
     "badge": "topQuality",
     "desc": "API console emulation with Proportional Q EQ and fast VCA compressor, Unison preamp.",
     "desc_es": "Emulación de consola API con EQ Proportional Q y compresor VCA rápido, previo Unison.",
-    "img": "img/products/default-plugin.webp",
+    "img": "https://banners.pluginboutique.com/kjgqt885n7yg50axmch0ft848fis",
     "stores": {
-      "pluginboutique": "https://www.pluginboutique.com/search?q=UAD+API+Vision+Channel+Strip&a_aid=6a01e859cbe1a"
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/10158-API-Vision-Channel-Strip?a_aid=6a01e859cbe1a"
     }
   },
   {
@@ -35101,9 +35101,9 @@
     "badge": "topQuality",
     "desc": "Modular channel strip by Andrew Scheps with interchangeable modules and Thump saturation.",
     "desc_es": "Channel strip modular de Andrew Scheps con módulos intercambiables y saturación Thump.",
-    "img": "img/products/default-plugin.webp",
+    "img": "https://banners.pluginboutique.com/lhm27j6dz53vgv5fjcloc4si7l4g",
     "stores": {
-      "pluginboutique": "https://www.pluginboutique.com/search?q=Waves+Scheps+Omni+Channel+2&a_aid=6a01e859cbe1a"
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/13791-Scheps-Omni-Channel-2?a_aid=6a01e859cbe1a"
     }
   },
   {
@@ -35118,9 +35118,34 @@
     "badge": "",
     "desc": "Vintage tube channel strip with asymmetric drive and optical compressor.",
     "desc_es": "Channel strip de válvulas vintage con drive asimétrico y compresor óptico.",
-    "img": "img/products/default-plugin.webp",
+    "img": "https://banners.pluginboutique.com/71j2evwn208xckz1fb8t5l2dphvo",
     "stores": {
-      "pluginboutique": "https://www.pluginboutique.com/search?q=Waves+Magma+Tube+Channel+Strip&a_aid=6a01e859cbe1a"
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/13708-Magma-Tube-Channel-Strip?a_aid=6a01e859cbe1a"
     }
+  },
+  {
+    "id": 1071,
+    "title": "Waves Scheps 73",
+    "title_es": "Waves Scheps 73",
+    "brand": "Waves",
+    "category": "plugins",
+    "price": 199,
+    "rating": 4.8,
+    "reviews": 1800,
+    "badge": "topQuality",
+    "desc": "Neve 1073 emulation by Andrew Scheps with analog transformers, 12 kHz Air band and Mid-Side EQ.",
+    "desc_es": "Emulación Neve 1073 por Andrew Scheps con transformadores analógicos, banda Air de 12 kHz y EQ Mid-Side.",
+    "img": "https://banners.pluginboutique.com/v0o3nza20cs8epgp6vagykslf2k5",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/8-Compressor/13666-Scheps-73?a_aid=6a01e859cbe1a"
+    },
+    "excludeStores": [
+      "amazon",
+      "zzounds",
+      "reverb",
+      "andertons",
+      "gear4music",
+      "musicstore"
+    ]
   }
 ]

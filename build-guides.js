@@ -3634,13 +3634,6 @@ const TEST_SHOP_BTN = {
     },
   },
   379: {
-    prices: {
-      pluginboutique: "€42.35"
-    },
-    pbCur: {
-      us: "$175.00",
-      uk: "£139.28"
-    },
   },
   380: {
     prices: {
