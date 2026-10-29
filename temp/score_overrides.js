@@ -870,15 +870,12 @@ var GUIDE_SCORES = {
   "AKG C414 XLII": 9.7
  },
  "channel-strip-plugins": {
-  "Waves SSL G-Master Buss Compresor": 9.8,
-  "Waves SSL G-Master Buss Compressor": 9.8,
-  "FabFilter Paquete Total": 9.7,
-  "FabFilter Total Bundle": 9.7,
-  "Colección UA 1176 Classic Limiter": 9.5,
-  "Universal Audio 1176 Classic Limiter Collection": 9.5,
-  "FabFilter Pro-Q 4": 9.8,
-  "Universal Audio UAD Ultimate 14": 9.5,
-  "Brainworx bx_console SSL 4000 E": 9.9
+  "Waves Scheps Omni Channel 2": 9.9,
+  "Universal Audio UAD SSL 4000 E Channel Strip": 9.5,
+  "Solid State Logic SSL Native Channel Strip 2": 9.4,
+  "Universal Audio UAD API Vision Channel Strip": 9.2,
+  "Waves Scheps 73": 9.1,
+  "Waves Magma Tube Channel Strip": 8.7
  },
  "compact-rhythm-devices": {
   "Roland Aira Compact P-6": 9.3,

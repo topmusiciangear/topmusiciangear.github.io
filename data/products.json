@@ -17839,22 +17839,22 @@
   },
   {
     "id": 379,
-    "title": "Brainworx bx_console SSL 4000 E",
-    "title_es": "Brainworx bx_console SSL 4000 E",
-    "brand": "Brainworx",
+    "title": "Universal Audio UAD SSL 4000 E Channel Strip",
+    "title_es": "Universal Audio UAD SSL 4000 E Channel Strip",
+    "brand": "Universal Audio",
     "category": "plugins",
-    "price": 175,
+    "price": 299,
     "rating": 4.8,
-    "reviews": 3400,
+    "reviews": 2100,
     "badge": "topQuality",
-    "desc": "Officially approved by SSL. Classic 72 channel E Series desk emulation with TMT technology. The only true console emulation. TMT reproduces the subtle channel-to-channel differences of the original hardware, while the single window holds EQ, dynamics and the high-pass and low-pass filters.",
-    "desc_es": "Oficialmente aprobado por SSL. Emulación clásica de consola serie E de 72 canales con tecnología TMT. La única emulación de consola verdadera. TMT reproduce las diferencias entre canales del hardware original, y una sola ventana reúne EQ, dinámica y filtros de paso alto y bajo.",
-    "img": "img/products/88616ad590.webp",
+    "desc": "The definitive emulation of the British console that defined rock, pop and classic hip-hop. Universal Audio meticulously modeled the original Solid State Logic E Series circuitry, faithfully capturing the Jensen transformer preamp, musical filtering and the mathematical aggression of its dynamics sections. Mixing through this plugin instantly delivers that famous in-your-face punch and surgical frequency separation that places elements naturally in space. Its famed Black Knob EQ responds powerfully to small gain changes, letting you clean imperfections or add aggressive brightness to kick drums and lead vocals without unpleasant digital distortion.",
+    "desc_es": "La emulación definitiva de la consola británica que definió el sonido del rock, el pop y el hip-hop clásico. Universal Audio modeló minuciosamente el circuito original de la serie E de Solid State Logic, capturando fielmente el comportamiento de su preamplificador con transformador Jensen, sus filtros de corte musicales y la agresividad matemática de sus secciones de dinámica. Mezclar a través de este plugin aporta de inmediato esa famosa pegada \"en la cara\" y una separación de frecuencias quirúrgica que hace que los elementos de tu sesión tomen su lugar en el espacio de forma natural. Su famosa sección de ecualización de tipo \"Black Knob\" responde de manera muy contundente ante pequeños ajustes de ganancia, permitiéndote limpiar imperfecciones o añadir un brillo agresivo a la caja de la batería o las voces principales sin introducir distorsiones digitales desagradables.",
+    "img": "https://banners.pluginboutique.com/ssl4000e.jpg",
     "stores": {
-      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/25-Channel-Strip/10239-bx-console-SSL-4000-E?a_aid=6a01e859cbe1a"
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/13324-SSL-4000-E-Channel-Strip?a_aid=6a01e859cbe1a"
     },
     "affiliate": {
-      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/25-Channel-Strip/10239-bx-console-SSL-4000-E?a_aid=6a01e859cbe1a"
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/13324-SSL-4000-E-Channel-Strip?a_aid=6a01e859cbe1a"
     },
     "excludeStores": [
       "amazon",
@@ -17864,15 +17864,15 @@
       "gear4music",
       "musicstore"
     ],
-    "score": 9.2,
+    "score": 9.5,
     "bestFor": {
-      "en": "SSL 4000 E channel",
-      "es": "Canal SSL 4000 E"
+      "en": "Classic SSL 4K punch",
+      "es": "Sonido clásico de la consola SSL 4K con la máxima pegada analógica."
     },
     "facts": [
       {
         "icon": "sliders",
-        "value": "Channel strip (72ch TMT)",
+        "value": "Channel Strip Vintage (Británico)",
         "label": {
           "en": "Type",
           "es": "Tipo"
@@ -17889,8 +17889,17 @@
         "tone": "good"
       },
       {
+        "icon": "signal",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      },
+      {
         "icon": "lock",
-        "value": "PA account",
+        "value": "iLok",
         "label": {
           "en": "Copy protection",
           "es": "Protección anticopia"
@@ -35079,7 +35088,7 @@
     "brand": "Universal Audio",
     "category": "plugins",
     "price": 299,
-    "rating": 4.8,
+    "rating": 4.6,
     "reviews": 950,
     "badge": "topQuality",
     "desc": "API console emulation with Proportional Q EQ and fast VCA compressor, Unison preamp.",
@@ -35096,11 +35105,12 @@
     "brand": "Waves",
     "category": "plugins",
     "price": 299,
-    "rating": 4.9,
+    "rating": 4.95,
     "reviews": 2100,
     "badge": "topQuality",
     "desc": "Modular channel strip by Andrew Scheps with interchangeable modules and Thump saturation.",
     "desc_es": "Channel strip modular de Andrew Scheps con módulos intercambiables y saturación Thump.",
+    "bestFor": {"en": "Hybrid mixing with modular workflow", "es": "Mezcla híbrida con flujo modular"},
     "img": "https://banners.pluginboutique.com/lhm27j6dz53vgv5fjcloc4si7l4g",
     "stores": {
       "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/13791-Scheps-Omni-Channel-2?a_aid=6a01e859cbe1a"
@@ -35113,7 +35123,7 @@
     "brand": "Waves",
     "category": "plugins",
     "price": 149,
-    "rating": 4.4,
+    "rating": 4.35,
     "reviews": 600,
     "badge": "",
     "desc": "Vintage tube channel strip with asymmetric drive and optical compressor.",
@@ -35130,7 +35140,7 @@
     "brand": "Waves",
     "category": "plugins",
     "price": 199,
-    "rating": 4.8,
+    "rating": 4.55,
     "reviews": 1800,
     "badge": "topQuality",
     "desc": "Neve 1073 emulation by Andrew Scheps with analog transformers, 12 kHz Air band and Mid-Side EQ.",
