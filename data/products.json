@@ -35374,7 +35374,7 @@
     "score": 9.7,
     "facts": [
       {
-        "icon": "compactDisc",
+        "icon": "speaker",
         "value": "Dual 6.5\" composite W cone woofers",
         "label": {
           "en": "Woofer",
@@ -35383,7 +35383,7 @@
         "tone": "good"
       },
       {
-        "icon": "zap",
+        "icon": "gauge",
         "value": "280W RMS Total",
         "label": {
           "en": "Power",
@@ -35392,7 +35392,7 @@
         "tone": "good"
       },
       {
-        "icon": "waveform",
+        "icon": "freq",
         "value": "40 Hz – 40 kHz",
         "label": {
           "en": "Frequency Response",
