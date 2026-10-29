@@ -3200,6 +3200,14 @@ const TEST_SHOP_BTN = {
     },
   },
   379: {
+    prices: {
+      gear4music: "£59.00",
+      andertons: "£59.00"
+    },
+    urls: {
+      gear4music: "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-SSL-4000-E-Chanel-Strip/6RTQ",
+      andertons: "https://www.andertons.co.uk/universal-audio-ssl-4000-e-channel-strip--esd/"
+    }
   },
   380: {
     prices: {
