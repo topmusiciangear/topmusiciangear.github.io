@@ -5755,6 +5755,7 @@ function shopButtonsTest(p, lang) {
   // "Check price" / "Verificar precio". El precio de Amazon sigue en
   // TEST_SHOP_BTN (lo usan los totales), pero no se pinta.
   if (primaryStoreKey === 'amazon') _precio = '';
+  if (isPlugins) _precio = '';
   const pPrice = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
     : (_precio ? fmtPrice(_precio, lang, true) : t('Verificar precio', 'Check Price'));
@@ -6389,6 +6390,7 @@ function shopButtonsTest(p, lang) {
   // "Check price" / "Verificar precio". El precio de Amazon sigue en
   // TEST_SHOP_BTN (lo usan los totales), pero no se pinta.
   if (primaryStoreKey === 'amazon') _precio = '';
+  if (isPlugins) _precio = '';
   const pPrice = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
     : (_precio ? fmtPrice(_precio, lang, true) : t('Verificar precio', 'Check Price'));
