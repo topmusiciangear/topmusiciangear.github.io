@@ -1,0 +1,630 @@
+{
+  "mismatches": [
+    {
+      "label": "Type",
+      "majority": {
+        "icon": "microphone",
+        "count": 107,
+        "products": [
+          {
+            "id": 1,
+            "title": "Shure SM7B"
+          },
+          {
+            "id": 2,
+            "title": "Neumann U 87 Ai"
+          },
+          {
+            "id": 3,
+            "title": "Rode NT1 5th Generation"
+          },
+          {
+            "id": 4,
+            "title": "AKG C414 XLII"
+          },
+          {
+            "id": 5,
+            "title": "Shure SM57"
+          }
+        ]
+      },
+      "others": [
+        {
+          "icon": "chip",
+          "count": 80,
+          "products": [
+            {
+              "id": 33,
+              "title": "Roland TR-8S"
+            },
+            {
+              "id": 71,
+              "title": "Fender Blues Junior IV"
+            },
+            {
+              "id": 72,
+              "title": "Boss Katana 50 Gen 3"
+            },
+            {
+              "id": 73,
+              "title": "Vox AC30"
+            },
+            {
+              "id": 74,
+              "title": "Marshall DSL40CR"
+            }
+          ]
+        },
+        {
+          "icon": "sliders",
+          "count": 71,
+          "products": [
+            {
+              "id": 29,
+              "title": "FabFilter Total Bundle"
+            },
+            {
+              "id": 30,
+              "title": "iZotope Ozone 12 Advanced"
+            },
+            {
+              "id": 32,
+              "title": "Soundtoys 5.5 Bundle"
+            },
+            {
+              "id": 60,
+              "title": "Universal Audio 1176 Classic Limiter Collection"
+            },
+            {
+              "id": 61,
+              "title": "Tokyo Dawn Labs TDR Kotelnikov GE"
+            }
+          ]
+        },
+        {
+          "icon": "wave",
+          "count": 42,
+          "products": [
+            {
+              "id": 96,
+              "title": "Ibanez TS9 Tube Screamer"
+            },
+            {
+              "id": 97,
+              "title": "Boss DD-8 Digital Delay"
+            },
+            {
+              "id": 98,
+              "title": "Boss TU-3 Chromatic Tuner"
+            },
+            {
+              "id": 99,
+              "title": "Dunlop GCB95 Crybaby Wah"
+            },
+            {
+              "id": 100,
+              "title": "TC Electronic Hall of Fame 2"
+            }
+          ]
+        },
+        {
+          "icon": "headphones",
+          "count": 29,
+          "products": [
+            {
+              "id": 23,
+              "title": "Beyerdynamic DT 770 Pro"
+            },
+            {
+              "id": 24,
+              "title": "Sennheiser HD 490 Pro"
+            },
+            {
+              "id": 25,
+              "title": "Audio-Technica ATH-M50x"
+            },
+            {
+              "id": 26,
+              "title": "Sony MDR-7506"
+            },
+            {
+              "id": 56,
+              "title": "Beyerdynamic DT 990 Pro"
+            }
+          ]
+        },
+        {
+          "icon": "wrench",
+          "count": 19,
+          "products": [
+            {
+              "id": 39,
+              "title": "Aston Microphones Shield GN Pop Filter"
+            },
+            {
+              "id": 58,
+              "title": "K&M 210/2 Mic Stand"
+            },
+            {
+              "id": 59,
+              "title": "K&M 26722 Monitor Stands (Each)"
+            },
+            {
+              "id": 167,
+              "title": "Mogami Gold Studio XLR Cable"
+            },
+            {
+              "id": 170,
+              "title": "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)"
+            }
+          ]
+        }
+      ],
+      "totalIcons": 6
+    }
+  ],
+  "summary": [
+    {
+      "label": "Pattern",
+      "icon": "wave",
+      "count": 108,
+      "variants": 1
+    },
+    {
+      "label": "Type",
+      "icon": "microphone",
+      "count": 107,
+      "variants": 6
+    },
+    {
+      "label": "Power",
+      "icon": "gauge",
+      "count": 97,
+      "variants": 1
+    },
+    {
+      "label": "Connectivity",
+      "icon": "signal",
+      "count": 82,
+      "variants": 1
+    },
+    {
+      "label": "Max SPL",
+      "icon": "volumeHigh",
+      "count": 73,
+      "variants": 1
+    },
+    {
+      "label": "Format",
+      "icon": "compactDisc",
+      "count": 70,
+      "variants": 1
+    },
+    {
+      "label": "Pickups",
+      "icon": "sineWave",
+      "count": 67,
+      "variants": 1
+    },
+    {
+      "label": "Scale",
+      "icon": "ruler",
+      "count": 65,
+      "variants": 1
+    },
+    {
+      "label": "Body",
+      "icon": "wood",
+      "count": 56,
+      "variants": 1
+    },
+    {
+      "label": "Woofer",
+      "icon": "speaker",
+      "count": 50,
+      "variants": 1
+    },
+    {
+      "label": "Platforms",
+      "icon": "globe",
+      "count": 42,
+      "variants": 1
+    },
+    {
+      "label": "Weight",
+      "icon": "weight",
+      "count": 41,
+      "variants": 1
+    },
+    {
+      "label": "Preamps",
+      "icon": "microphone",
+      "count": 39,
+      "variants": 1
+    },
+    {
+      "label": "Frequency response",
+      "icon": "freq",
+      "count": 37,
+      "variants": 1
+    },
+    {
+      "label": "Bypass",
+      "icon": "signal",
+      "count": 37,
+      "variants": 1
+    },
+    {
+      "label": "Current draw",
+      "icon": "battery",
+      "count": 37,
+      "variants": 1
+    },
+    {
+      "label": "Top",
+      "icon": "wood",
+      "count": 35,
+      "variants": 1
+    },
+    {
+      "label": "Driver size",
+      "icon": "cone",
+      "count": 28,
+      "variants": 1
+    },
+    {
+      "label": "Frequency range",
+      "icon": "freq",
+      "count": 27,
+      "variants": 1
+    },
+    {
+      "label": "Impedance",
+      "icon": "gauge",
+      "count": 27,
+      "variants": 1
+    },
+    {
+      "label": "Channels",
+      "icon": "sliders",
+      "count": 27,
+      "variants": 1
+    },
+    {
+      "label": "Speaker",
+      "icon": "speaker",
+      "count": 25,
+      "variants": 1
+    },
+    {
+      "label": "Scale Length",
+      "icon": "ruler",
+      "count": 23,
+      "variants": 1
+    },
+    {
+      "label": "Copy protection",
+      "icon": "lock",
+      "count": 22,
+      "variants": 1
+    },
+    {
+      "label": "Coverage",
+      "icon": "cone",
+      "count": 22,
+      "variants": 1
+    },
+    {
+      "label": "Active / Passive",
+      "icon": "battery",
+      "count": 21,
+      "variants": 1
+    },
+    {
+      "label": "Battery",
+      "icon": "battery",
+      "count": 20,
+      "variants": 1
+    },
+    {
+      "label": "Self-noise",
+      "icon": "volumeHigh",
+      "count": 19,
+      "variants": 1
+    },
+    {
+      "label": "Back & sides",
+      "icon": "layers",
+      "count": 19,
+      "variants": 1
+    },
+    {
+      "label": "Polyphony",
+      "icon": "layers",
+      "count": 17,
+      "variants": 1
+    },
+    {
+      "label": "Body shape",
+      "icon": "guitar",
+      "count": 16,
+      "variants": 1
+    },
+    {
+      "label": "Keys",
+      "icon": "piano",
+      "count": 16,
+      "variants": 1
+    },
+    {
+      "label": "Sound Engine",
+      "icon": "wave",
+      "count": 15,
+      "variants": 1
+    },
+    {
+      "label": "Inputs / Outputs",
+      "icon": "layers",
+      "count": 14,
+      "variants": 1
+    },
+    {
+      "label": "Mix Buses",
+      "icon": "layers",
+      "count": 13,
+      "variants": 1
+    },
+    {
+      "label": "Output",
+      "icon": "volumeHigh",
+      "count": 12,
+      "variants": 1
+    },
+    {
+      "label": "CPU load",
+      "icon": "chip",
+      "count": 12,
+      "variants": 1
+    },
+    {
+      "label": "Controls",
+      "icon": "sliders",
+      "count": 12,
+      "variants": 1
+    },
+    {
+      "label": "Band",
+      "icon": "volumeHigh",
+      "count": 10,
+      "variants": 1
+    },
+    {
+      "label": "Keys & action",
+      "icon": "keyboard",
+      "count": 9,
+      "variants": 1
+    },
+    {
+      "label": "Sound engines",
+      "icon": "wave",
+      "count": 9,
+      "variants": 1
+    },
+    {
+      "label": "Storage",
+      "icon": "chip",
+      "count": 9,
+      "variants": 1
+    },
+    {
+      "label": "Effects",
+      "icon": "sliders",
+      "count": 9,
+      "variants": 1
+    },
+    {
+      "label": "Tracks",
+      "icon": "layers",
+      "count": 8,
+      "variants": 1
+    },
+    {
+      "label": "Keyboard action",
+      "icon": "piano",
+      "count": 8,
+      "variants": 1
+    },
+    {
+      "label": "Range",
+      "icon": "signal",
+      "count": 8,
+      "variants": 1
+    },
+    {
+      "label": "Faders",
+      "icon": "sliders",
+      "count": 7,
+      "variants": 1
+    },
+    {
+      "label": "Protocol",
+      "icon": "chip",
+      "count": 7,
+      "variants": 1
+    },
+    {
+      "label": "Conversion",
+      "icon": "gauge",
+      "count": 7,
+      "variants": 1
+    },
+    {
+      "label": "Latency",
+      "icon": "clock",
+      "count": 7,
+      "variants": 1
+    },
+    {
+      "label": "Strings",
+      "icon": "strings",
+      "count": 7,
+      "variants": 1
+    },
+    {
+      "label": "Multitrack",
+      "icon": "wave",
+      "count": 7,
+      "variants": 1
+    },
+    {
+      "label": "Free Trial",
+      "icon": "clock",
+      "count": 6,
+      "variants": 1
+    },
+    {
+      "label": "Standout Feature",
+      "icon": "star",
+      "count": 6,
+      "variants": 1
+    },
+    {
+      "label": "USB Recording",
+      "icon": "wave",
+      "count": 6,
+      "variants": 1
+    },
+    {
+      "label": "Models",
+      "icon": "layers",
+      "count": 5,
+      "variants": 1
+    },
+    {
+      "label": "System",
+      "icon": "volumeHigh",
+      "count": 4,
+      "variants": 1
+    },
+    {
+      "label": "Mic Inputs",
+      "icon": "microphone",
+      "count": 4,
+      "variants": 1
+    },
+    {
+      "label": "Loopback",
+      "icon": "signal",
+      "count": 4,
+      "variants": 1
+    },
+    {
+      "label": "Height",
+      "icon": "ruler",
+      "count": 3,
+      "variants": 1
+    },
+    {
+      "label": "Capacity",
+      "icon": "weight",
+      "count": 3,
+      "variants": 1
+    },
+    {
+      "label": "Size",
+      "icon": "ruler",
+      "count": 2,
+      "variants": 1
+    },
+    {
+      "label": "Material",
+      "icon": "layers",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Mesh",
+      "icon": "gauge",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Boom",
+      "icon": "gauge",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Shielding",
+      "icon": "layers",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Connectors",
+      "icon": "signal",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Contents",
+      "icon": "layers",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Angles",
+      "icon": "gauge",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Transmission",
+      "icon": "volumeHigh",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Tilt",
+      "icon": "gauge",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Accuracy",
+      "icon": "gauge",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Profiles",
+      "icon": "headphones",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Resolution",
+      "icon": "chip",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Filters",
+      "icon": "sliders",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Works with",
+      "icon": "lock",
+      "count": 1,
+      "variants": 1
+    },
+    {
+      "label": "Max load",
+      "icon": "weight",
+      "count": 1,
+      "variants": 1
+    }
+  ]
+}

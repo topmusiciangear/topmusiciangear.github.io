@@ -318,7 +318,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "SSS",
         "label": {
           "en": "Pickups",
@@ -376,7 +376,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HH",
         "label": {
           "en": "Pickups",
@@ -555,7 +555,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB-C",
         "label": {
           "en": "Connectivity",
@@ -613,7 +613,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB-C, MIDI In/Out, 4 pedal inputs",
         "label": {
           "en": "Connectivity",
@@ -2577,7 +2577,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "SS",
         "label": {
           "en": "Pickups",
@@ -2702,7 +2702,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "15W",
         "label": {
           "en": "Power",
@@ -2760,7 +2760,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "50W",
         "label": {
           "en": "Power",
@@ -2818,7 +2818,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "30W",
         "label": {
           "en": "Power",
@@ -2876,7 +2876,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "40W",
         "label": {
           "en": "Power",
@@ -2934,7 +2934,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "250W (500W w/ ext. cab)",
         "label": {
           "en": "Power",
@@ -2992,7 +2992,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "350W (500W w/ ext. cab)",
         "label": {
           "en": "Power",
@@ -3619,7 +3619,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HSS",
         "label": {
           "en": "Pickups",
@@ -4035,7 +4035,7 @@
     },
     "facts": [
       {
-        "icon": "chip",
+        "icon": "globe",
         "value": "macOS & Windows",
         "label": {
           "en": "Platforms",
@@ -4090,7 +4090,7 @@
     },
     "facts": [
       {
-        "icon": "chip",
+        "icon": "globe",
         "value": "macOS only",
         "label": {
           "en": "Platforms",
@@ -4151,7 +4151,7 @@
     },
     "facts": [
       {
-        "icon": "chip",
+        "icon": "globe",
         "value": "macOS & Windows",
         "label": {
           "en": "Platforms",
@@ -4213,7 +4213,7 @@
     },
     "facts": [
       {
-        "icon": "chip",
+        "icon": "globe",
         "value": "macOS & Windows",
         "label": {
           "en": "Platforms",
@@ -4275,7 +4275,7 @@
     },
     "facts": [
       {
-        "icon": "chip",
+        "icon": "globe",
         "value": "macOS & Windows",
         "label": {
           "en": "Platforms",
@@ -4333,7 +4333,7 @@
     },
     "facts": [
       {
-        "icon": "chip",
+        "icon": "globe",
         "value": "macOS & Windows",
         "label": {
           "en": "Platforms",
@@ -4825,7 +4825,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HSS",
         "label": {
           "en": "Pickups",
@@ -4882,7 +4882,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "SS",
         "label": {
           "en": "Pickups",
@@ -5123,7 +5123,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "25W",
         "label": {
           "en": "Power",
@@ -5181,7 +5181,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "35W",
         "label": {
           "en": "Power",
@@ -5238,7 +5238,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "300W (500W w/ ext. cab)",
         "label": {
           "en": "Power",
@@ -5529,7 +5529,7 @@
         "tone": "good"
       },
       {
-        "icon": "layers",
+        "icon": "microphone",
         "value": "4 D-PRE",
         "label": {
           "en": "Preamps",
@@ -5538,7 +5538,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB 2x2",
         "label": {
           "en": "Connectivity",
@@ -5587,7 +5587,7 @@
         "tone": "good"
       },
       {
-        "icon": "layers",
+        "icon": "microphone",
         "value": "16 MIDAS",
         "label": {
           "en": "Preamps",
@@ -5596,7 +5596,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB, AES50, 16 out",
         "label": {
           "en": "Connectivity",
@@ -5645,7 +5645,7 @@
         "tone": "good"
       },
       {
-        "icon": "layers",
+        "icon": "microphone",
         "value": "16 A&H",
         "label": {
           "en": "Preamps",
@@ -5654,7 +5654,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB, 2x dSnake, tablet",
         "label": {
           "en": "Connectivity",
@@ -7319,7 +7319,7 @@
         "tone": "good"
       },
       {
-        "icon": "freq",
+        "icon": "signal",
         "value": "200 Hz – 4 kHz",
         "label": {
           "en": "Range",
@@ -13381,7 +13381,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "20W (10W + 10W)",
         "label": {
           "en": "Power",
@@ -13442,7 +13442,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "50W RMS",
         "label": {
           "en": "Power",
@@ -13496,7 +13496,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HH",
         "label": {
           "en": "Pickups",
@@ -14362,7 +14362,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "SSS",
         "label": {
           "en": "Pickups",
@@ -14420,7 +14420,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "SSS",
         "label": {
           "en": "Pickups",
@@ -14478,7 +14478,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "SSS",
         "label": {
           "en": "Pickups",
@@ -14536,7 +14536,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HH",
         "label": {
           "en": "Pickups",
@@ -14594,7 +14594,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "SS",
         "label": {
           "en": "Pickups",
@@ -14823,7 +14823,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HH",
         "label": {
           "en": "Pickups",
@@ -14881,7 +14881,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HH",
         "label": {
           "en": "Pickups",
@@ -14939,7 +14939,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HH",
         "label": {
           "en": "Pickups",
@@ -15058,7 +15058,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB-C, MIDI Out",
         "label": {
           "en": "Connectivity",
@@ -15116,7 +15116,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB-C",
         "label": {
           "en": "Connectivity",
@@ -15174,7 +15174,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB, MIDI Out, 3 pedal inputs",
         "label": {
           "en": "Connectivity",
@@ -15531,7 +15531,7 @@
         "tone": "good"
       },
       {
-        "icon": "layers",
+        "icon": "microphone",
         "value": "8 x Ultra-HDDA",
         "label": {
           "en": "Preamps",
@@ -15540,7 +15540,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB-C 12-in/10-out",
         "label": {
           "en": "Connectivity",
@@ -15585,7 +15585,7 @@
         "tone": "good"
       },
       {
-        "icon": "layers",
+        "icon": "microphone",
         "value": "4 x GSPre",
         "label": {
           "en": "Preamps",
@@ -15594,7 +15594,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB 4x4 24-bit/96kHz",
         "label": {
           "en": "Connectivity",
@@ -15643,7 +15643,7 @@
         "tone": "good"
       },
       {
-        "icon": "layers",
+        "icon": "microphone",
         "value": "4 x SuperAnalogue (+72dB)",
         "label": {
           "en": "Preamps",
@@ -15652,7 +15652,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB-C 16-in/16-out",
         "label": {
           "en": "Connectivity",
@@ -15698,7 +15698,7 @@
         "tone": "good"
       },
       {
-        "icon": "layers",
+        "icon": "microphone",
         "value": "8 x HiVolt",
         "label": {
           "en": "Preamps",
@@ -15707,7 +15707,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB stereo + XLR outs",
         "label": {
           "en": "Connectivity",
@@ -17161,7 +17161,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB-C, MIDI Out",
         "label": {
           "en": "Connectivity",
@@ -17386,7 +17386,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "Bluetooth, USB",
         "label": {
           "en": "Connectivity",
@@ -20679,7 +20679,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "SSS",
         "label": {
           "en": "Pickups",
@@ -20902,7 +20902,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "SS",
         "label": {
           "en": "Pickups",
@@ -21681,7 +21681,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HH",
         "label": {
           "en": "Pickups",
@@ -21919,7 +21919,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "SSS",
         "label": {
           "en": "Pickups",
@@ -21978,7 +21978,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HH",
         "label": {
           "en": "Pickups",
@@ -22037,7 +22037,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HH",
         "label": {
           "en": "Pickups",
@@ -22096,7 +22096,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "HH",
         "label": {
           "en": "Pickups",
@@ -22155,7 +22155,7 @@
     },
     "facts": [
       {
-        "icon": "sliders",
+        "icon": "sineWave",
         "value": "SSS",
         "label": {
           "en": "Pickups",
@@ -23020,7 +23020,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "50W",
         "label": {
           "en": "Power",
@@ -23073,7 +23073,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "500W (4Ω)",
         "label": {
           "en": "Power",
@@ -23235,7 +23235,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "Battery (5h)",
         "label": {
           "en": "Power",
@@ -23290,7 +23290,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "10W",
         "label": {
           "en": "Power",
@@ -23346,7 +23346,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "40W",
         "label": {
           "en": "Power",
@@ -23401,7 +23401,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "25W",
         "label": {
           "en": "Power",
@@ -23456,7 +23456,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "Headphone amp",
         "label": {
           "en": "Power",
@@ -24015,7 +24015,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "30W stereo",
         "label": {
           "en": "Power",
@@ -26013,7 +26013,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "60W RMS (110W peak)",
         "label": {
           "en": "Power",
@@ -26176,7 +26176,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "200W (100W standalone)",
         "label": {
           "en": "Power",
@@ -26230,7 +26230,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "50W",
         "label": {
           "en": "Power",
@@ -29367,7 +29367,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "100W",
         "label": {
           "en": "Power",
@@ -29420,7 +29420,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "300W (500W w/ ext cab)",
         "label": {
           "en": "Power",
@@ -29474,7 +29474,7 @@
         "tone": "good"
       },
       {
-        "icon": "volumeHigh",
+        "icon": "gauge",
         "value": "100W (22W tube sim)",
         "label": {
           "en": "Power",
@@ -30457,7 +30457,7 @@
         "tone": "good"
       },
       {
-        "icon": "signal",
+        "icon": "wave",
         "value": "Omni 20 Hz – 20 kHz",
         "label": {
           "en": "Pattern",
@@ -30926,7 +30926,7 @@
         "tone": "good"
       },
       {
-        "icon": "layers",
+        "icon": "microphone",
         "value": "8 Bose with 48 V phantom",
         "label": {
           "en": "Preamps",
@@ -30935,7 +30935,7 @@
         "tone": "good"
       },
       {
-        "icon": "globe",
+        "icon": "signal",
         "value": "USB interface + stand mount",
         "label": {
           "en": "Connectivity",
@@ -34992,7 +34992,7 @@
     "category": "guitars",
     "price": 419,
     "rating": 4.6,
-    "score": 9.0,
+    "score": 9,
     "reviews": 8,
     "desc": "The GC1CE pairs a spruce top with mahogany back and sides for a warm, balanced nylon tone, and adds a Venetian cutaway with Takamine TP-E preamp and built-in tuner. The 650 mm scale and 50.8 mm nut feel traditional, while the cutaway gives easy upper-fret access. It's a practical electro-classical for students who want to plug in for lessons or small gigs without spending a fortune.",
     "desc_es": "La GC1CE combina tapa de abeto con fondo y aros de caoba para un tono de nylon cálido y equilibrado y añade un cutaway veneciano con preamplificador Takamine TP-E y afinador integrado. La escala de 650 mm y cejuela de 50,8 mm se sienten tradicionales, mientras que el cutaway facilita el acceso a trastes altos. Es una electroclásica práctica para estudiantes que quieren enchufarla en clase o en pequeños conciertos sin gastar mucho.",
