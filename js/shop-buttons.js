@@ -5767,9 +5767,10 @@ function shopButtonsTest(p, lang) {
   // TEST_SHOP_BTN (lo usan los totales), pero no se pinta.
   if (primaryStoreKey === 'amazon') _precio = '';
   if (isPlugins) _precio = '';
-  const pPrice = isHolly
+  const pPriceRaw = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
     : (_precio ? fmtPrice(_precio, lang, true) : t('Verificar precio', 'Check Price'));
+  const pPrice = pPriceRaw;
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(searchTerm(p.title)) + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
@@ -5824,7 +5825,8 @@ function shopButtonsTest(p, lang) {
       return '';
     };
     const _pr = _rowPrice(k);
-    const pr = (!_pr) ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (_pr ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + fmtPrice(_pr, lang) + '</span></span>' : '');
+    const rowPriceFmt = _pr ? fmtPrice(_pr, lang) : '';
+    const pr = (!_pr) ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (_pr ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + rowPriceFmt + '</span></span>' : '');
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + pr + '</a>';
@@ -6402,9 +6404,10 @@ function shopButtonsTest(p, lang) {
   // TEST_SHOP_BTN (lo usan los totales), pero no se pinta.
   if (primaryStoreKey === 'amazon') _precio = '';
   if (isPlugins) _precio = '';
-  const pPrice = isHolly
+  const pPriceRaw = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
     : (_precio ? fmtPrice(_precio, lang, true) : t('Verificar precio', 'Check Price'));
+  const pPrice = pPriceRaw;
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(searchTerm(p.title)) + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
@@ -6459,7 +6462,8 @@ function shopButtonsTest(p, lang) {
       return '';
     };
     const _pr = _rowPrice(k);
-    const pr = (!_pr) ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (_pr ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + fmtPrice(_pr, lang) + '</span></span>' : '');
+    const rowPriceFmt = _pr ? fmtPrice(_pr, lang) : '';
+    const pr = (!_pr) ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (_pr ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + rowPriceFmt + '</span></span>' : '');
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + pr + '</a>';

@@ -35371,6 +35371,8 @@
       "en": "High-end pro mixing and critical mastering",
       "es": "Mezcla profesional de alta gama y masterización crítica"
     },
+    "unit": "each",
+    "unit_es": "cada uno",
     "score": 9.7,
     "facts": [
       {
@@ -35384,7 +35386,7 @@
       },
       {
         "icon": "gauge",
-        "value": "280W RMS Total",
+        "value": "190W RMS Total",
         "label": {
           "en": "Power",
           "es": "Potencia"
