@@ -927,7 +927,7 @@
       },
       {
         "icon": "freq",
-        "value": "38 Hz – 30 kHz (-10 dB)",
+        "value": "47 Hz – 20 kHz (±3 dB)",
         "label": {
           "en": "Frequency response",
           "es": "Respuesta de frecuencia"
@@ -1062,7 +1062,7 @@
       },
       {
         "icon": "gauge",
-        "value": "130W peak",
+        "value": "110W RMS (90W + 20W)",
         "label": {
           "en": "Power",
           "es": "Potencia"
@@ -14122,7 +14122,7 @@
       },
       {
         "icon": "gauge",
-        "value": "140W (90W + 50W)",
+        "value": "120W cont. / 150W peak (90W + 30W)",
         "label": {
           "en": "Power",
           "es": "Potencia"
@@ -14263,7 +14263,7 @@
       },
       {
         "icon": "freq",
-        "value": "40 Hz – 35 kHz",
+        "value": "40 Hz – 35 kHz (±3 dB)",
         "label": {
           "en": "Frequency response",
           "es": "Respuesta de frecuencia"
@@ -34428,7 +34428,7 @@
       },
       {
         "icon": "freq",
-        "value": "40 Hz – 35 kHz",
+        "value": "40 Hz – 35 kHz (±3 dB)",
         "label": {
           "en": "Frequency response",
           "es": "Respuesta de frecuencia"
