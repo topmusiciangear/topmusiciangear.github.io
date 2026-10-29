@@ -5655,6 +5655,8 @@ const TEST_SHOP_BTN = {
 1038: {prices:{pluginboutique:"€146.20",gear4music:"£149.00",musicstore:"€194.00"},pbCur:{us:"$149.00",uk:"£124.80"}},
 
 1039: {prices:{pluginboutique:"€271.04",gear4music:"£215.00"},pbCur:{us:"$249.00",uk:"£238.80"}},
+1066: {prices:{gear4music:"£122.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/SSL-Native-Channel-Strip-2/5B7U"}},
+1068: {prices:{gear4music:"£29.00",zzounds:"$29.00",andertons:"£26.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Universal-Audio-API-Vision-Channel-Strip/5Z78",zzounds:"https://www.zzounds.com/item--UADAPIVISCHNSTRP",andertons:"https://www.andertons.co.uk/universal-audio-api-vision-channel-strip--esd/"}},
 
   };function hollyDefaultRegion() {
   var isUsa = false;
