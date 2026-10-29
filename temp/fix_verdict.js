@@ -1,14 +1,23 @@
 const fs=require('fs');
-const guidesPath='./data/guides.json';
-let guides=JSON.parse(fs.readFileSync(guidesPath,'utf8'));
-const guide=guides.find(g=>g.id==='channel-strip-plugins');
-const verdictText=`Waves Scheps Omni Channel 2 is our top recommendation for the ultimate hybrid mixing workflow. It is arguably the most versatile channel strip ever created, offering interchangeable modules, three distinct compression flavors, and a signature low-end "Thump" saturation control—all while maintaining an incredibly light CPU footprint.
-If you are a purist chasing the absolute truest analog desk experience, Brainworx bx_console SSL 4000 E remains an unbeatable choice, leveraging patented TMT technology to model 72 distinct, individual channel tolerances.
-Solid State Logic SSL Native Channel Strip 2 — The official digital flagship. Developed by SSL using their modern factory DSP algorithms for ultra-clean, clinical pop and EDM separation without the vintage mud.
-Lindell Audio 80 Series — The heavy hitter for vintage British warmth. Recreates the thick, cream-colored, class-A character of the Neve 8028 desk alongside the smooth leveling of the 2254 diode-bridge compressor.
-Universal Audio UAD API Vision Channel Strip — Unmatched transient speed and aggressive American mid-range bite. Perfect for punching through dense rock guitars and snapping acoustic drum tracks forward in the mix.
-Waves Magma Tube Channel Strip — True golden-era analog character condensed into an intuitive three-knob workflow. Ideal for injecting thick, harmonic tube saturation and smooth optical compression into sterile digital recordings.`;
-guide.verdict=`<p><strong>Waves Scheps Omni Channel 2 is our top recommendation for the ultimate hybrid mixing workflow.</strong> It is arguably the most versatile channel strip ever created, offering interchangeable modules, three distinct compression flavors, and a signature low-end "Thump" saturation control—all while maintaining an incredibly light CPU footprint.</p><p><strong>Brainworx bx_console SSL 4000 E</strong> — If you are a purist chasing the absolute truest analog desk experience, it remains an unbeatable choice, leveraging patented TMT technology to model 72 distinct, individual channel tolerances.</p><p><strong>Solid State Logic SSL Native Channel Strip 2</strong> — The official digital flagship. Developed by SSL using their modern factory DSP algorithms for ultra-clean, clinical pop and EDM separation without the vintage mud.</p><p><strong>Lindell Audio 80 Series</strong> — The heavy hitter for vintage British warmth. Recreates the thick, cream-colored, class-A character of the Neve 8028 desk alongside the smooth leveling of the 2254 diode-bridge compressor.</p><p><strong>Universal Audio UAD API Vision Channel Strip</strong> — Unmatched transient speed and aggressive American mid-range bite. Perfect for punching through dense rock guitars and snapping acoustic drum tracks forward in the mix.</p><p><strong>Waves Magma Tube Channel Strip</strong> — True golden-era analog character condensed into an intuitive three-knob workflow. Ideal for injecting thick, harmonic tube saturation and smooth optical compression into sterile digital recordings.</p>`;
-
-fs.writeFileSync(guidesPath, JSON.stringify(guides,null,2).replace(/\n/g,'\r\n'),'utf8');
-console.log('Verdict updated');
+const path='data/guides.json';
+const data=JSON.parse(fs.readFileSync(path,'utf8'));
+const g=data.find(x=>x.id==='best-monitors');
+if(g){
+  // Remove LP-UNF mentions
+  const removePattern = /<p><strong><span class="product-name">Kali Audio LP-UNF<\/span><\/strong> —[^<]*<[^>]*>.*?<\/p>\s*/g;
+  // Simpler: remove any paragraph containing Kali Audio LP-UNF
+  g.verdict = g.verdict.replace(/<p><strong><span class="product-name">Kali Audio LP-UNF<\/span><\/strong>[^<]*<\/p>\s*<p>/g, '<p>');
+  // Also remove standalone paragraph
+  g.verdict = g.verdict.replace(/<p><strong><span class="product-name">Kali Audio LP-UNF<\/span><\/strong> —[^<]*<\/p>\s*/g, '');
+  // Remove from verdict_es
+  if(g.verdict_es){
+    g.verdict_es = g.verdict_es.replace(/<p><strong><span class="product-name">Kali Audio LP-UNF<\/span><\/strong>[^<]*<\/p>\s*<p>/g, '<p>');
+    g.verdict_es = g.verdict_es.replace(/<p><strong><span class="product-name">Kali Audio LP-UNF<\/span><\/strong> —[^<]*<\/p>\s*/g, '');
+  }
+  // Remove from conclusion if present
+  if(g.conclusion && g.conclusion.includes('LP-UNF')){
+    g.conclusion = g.conclusion.replace(/Focal Shape 65<\/span><\/strong> —[^<]*<\/p>\s*<p><strong><span class="product-name">Kali Audio LP-UNF<\/span>/g,'');
+  }
+  fs.writeFileSync(path, JSON.stringify(data, null, 2));
+  console.log('fixed');
+}
