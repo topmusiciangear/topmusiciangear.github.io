@@ -1,7 +1,7 @@
-// GENERADO AUTOMATICAMENTE - Scores por guía
+﻿// GENERADO AUTOMATICAMENTE - Scores por guÃ­a
 var GUIDE_SCORES = {
  "ableton-vs-fl-studio": {
-  "FL Studio Edición Producer": 9.4,
+  "FL Studio EdiciÃ³n Producer": 9.4,
   "FL Studio Producer Edition": 9.4,
   "Ableton Live 12 Suite": 9.8
  },
@@ -59,7 +59,7 @@ var GUIDE_SCORES = {
  },
  "atc-vs-genelec": {
   "ATC SCM25A Pro Mk2": 9.7,
-  "Genelec 8351B SAM Monitor de Estudio Coaxial de 3 Vías": 9.8,
+  "Genelec 8351B SAM Monitor de Estudio Coaxial de 3 VÃ­as": 9.8,
   "Genelec 8351B SAM 3-Way Coaxial Studio Monitor": 9.8
  },
  "audient-vs-motu": {
@@ -102,16 +102,16 @@ var GUIDE_SCORES = {
   "Ibanez TMB30 Talman": 8.9
  },
  "beginner-guitar": {
-  "Yamaha FG800 Acústica": 9.8,
+  "Yamaha FG800 AcÃºstica": 9.8,
   "Yamaha FG800 Acoustic": 9.8,
-  "Fender CD-60S Acústica": 9.6,
+  "Fender CD-60S AcÃºstica": 9.6,
   "Fender CD-60S Acoustic": 9.6,
-  "Yamaha C40 Clásica (Nylon)": 9.2,
+  "Yamaha C40 ClÃ¡sica (Nylon)": 9.2,
   "Yamaha C40 Classical (Nylon) Guitar": 9.2,
   "Yamaha Pacifica 112V": 9.9,
   "Squier Affinity Series Stratocaster": 9.4,
   "Epiphone Les Paul Special-I": 9.3,
-  "Guitarra Eléctrica Inteligente Enya Nova Go Sonic": 9.2,
+  "Guitarra ElÃ©ctrica Inteligente Enya Nova Go Sonic": 9.2,
   "Enya Nova Go Sonic Smart Electric Guitar": 9.2,
   "Squier Sonic Mustang": 9,
   "Fender CN-60S (Nylon)": 9.2,
@@ -143,16 +143,16 @@ var GUIDE_SCORES = {
   "Dingwall Combustion 5-String Bass": 9.6
  },
  "best-acoustic-guitars-for-beginners": {
-  "Fender CD-60S Acústica": 9.6,
+  "Fender CD-60S AcÃºstica": 9.6,
   "Fender CD-60S Acoustic": 9.6,
-  "Yamaha FG800 Acústica": 9.8,
+  "Yamaha FG800 AcÃºstica": 9.8,
   "Yamaha FG800 Acoustic": 9.8,
   "Yamaha FS800": 9.5,
   "Yamaha FGX800C": 9.2,
   "Martin LX1 Little Martin": 9.2,
-  "Guitarra acústica Epiphone DR-100": 8.9,
+  "Guitarra acÃºstica Epiphone DR-100": 8.9,
   "Epiphone DR-100 Acoustic Guitar": 8.9,
-  "Guitarra acústica Ibanez AW54 Artwood": 9.3,
+  "Guitarra acÃºstica Ibanez AW54 Artwood": 9.3,
   "Ibanez AW54 Artwood Acoustic Guitar": 9.3
  },
  "best-amp-modelers": {
@@ -203,7 +203,7 @@ var GUIDE_SCORES = {
   "Fender Rumble 40 V3": 9.8,
   "Amplificador Inteligente para Bajo y Guitarra Positive Grid Spark MINI": 9.5,
   "Positive Grid Spark MINI": 9.5,
-  "Amplificador de Escritorio Inalámbrico Yamaha THR30II": 9.3,
+  "Amplificador de Escritorio InalÃ¡mbrico Yamaha THR30II": 9.3,
   "Yamaha THR30II Wireless Desktop Amp": 9.3,
   "Orange Crush Bass 25": 9.2,
   "Boss WAZA-AIR Bass": 9.1,
@@ -231,7 +231,7 @@ var GUIDE_SCORES = {
   "Jet Guitars JS-300": 9.2,
   "Ibanez Gio GRG121DX": 9.1,
   "Squier Sonic Mustang": 9,
-  "Guitarra Eléctrica Inteligente Enya Nova Go Sonic": 9.2,
+  "Guitarra ElÃ©ctrica Inteligente Enya Nova Go Sonic": 9.2,
   "Enya Nova Go Sonic Smart Electric Guitar": 9.2,
   "Yamaha Revstar Element RSE20": 9.4,
   "Squier Debut Series Stratocaster": 8.8
@@ -259,7 +259,7 @@ var GUIDE_SCORES = {
  },
  "best-daw-for-beginners": {
   "Ableton Live 12 Suite": 9.7,
-  "FL Studio Edición Producer": 9.8,
+  "FL Studio EdiciÃ³n Producer": 9.8,
   "FL Studio Producer Edition": 9.8,
   "Avid Pro Tools Studio": 9.8,
   "Steinberg Cubase Pro 15": 9.4,
@@ -310,7 +310,7 @@ var GUIDE_SCORES = {
   "ESP E-II Eclipse DB": 9.4,
   "Yamaha Pacifica 112V": 9.6,
   "PRS SE Custom 24": 9.5,
-  "Guitarra Eléctrica Inteligente Enya Nova Go Sonic": 9.2,
+  "Guitarra ElÃ©ctrica Inteligente Enya Nova Go Sonic": 9.2,
   "Enya Nova Go Sonic Smart Electric Guitar": 9.2,
   "Squier Classic Vibe '50s Stratocaster": 9.2,
   "Squier Debut Series Stratocaster": 8.9,
@@ -342,7 +342,7 @@ var GUIDE_SCORES = {
   "Yamaha SLG200N": 9.2,
   "Traveler Guitar Ultra-Light Steel": 9,
   "Traveler Guitar Ultra-Light Nylon": 8.9,
-  "Guitarra Eléctrica Inteligente Enya Nova Go Sonic": 9.2,
+  "Guitarra ElÃ©ctrica Inteligente Enya Nova Go Sonic": 9.2,
   "Enya Nova Go Sonic Smart Electric Guitar": 9.2,
   "Guitarra Inteligente Lava Music Lava ME 4": 8.9,
   "Lava Music Lava ME 4 Smart Guitar": 8.9,
@@ -394,15 +394,15 @@ var GUIDE_SCORES = {
   "Shure SE846 Gen 2": 9.8,
   "Sennheiser IE 900": 9.7,
   "Sennheiser ew IEM G4-TWIN-E": 9.6,
-  "Sistema In-Ear Inalámbrico Xvive U4": 9.1,
+  "Sistema In-Ear InalÃ¡mbrico Xvive U4": 9.1,
   "Xvive U4 Wireless In-Ear Monitor System": 9.1,
-  "Sistema In-Ear Inalámbrico Xvive U4R4 (4 Receptores)": 9.3,
+  "Sistema In-Ear InalÃ¡mbrico Xvive U4R4 (4 Receptores)": 9.3,
   "Xvive U4R4 Wireless IEM System (4 Receivers)": 9.3,
-  "Sistema Estéreo Inalámbrico Sennheiser EW IEM G4": 9.8,
+  "Sistema EstÃ©reo InalÃ¡mbrico Sennheiser EW IEM G4": 9.8,
   "Sennheiser EW IEM G4 Stereo Wireless System": 9.8,
-  "Sistema Estéreo UHF Phenyx Pro PTM-10": 8.9,
+  "Sistema EstÃ©reo UHF Phenyx Pro PTM-10": 8.9,
   "Phenyx Pro PTM-10 UHF Stereo IEM System": 8.9,
-  "Sistema Inalámbrico Sennheiser XSW IEM": 9.2,
+  "Sistema InalÃ¡mbrico Sennheiser XSW IEM": 9.2,
   "Sennheiser XSW IEM Wireless System": 9.2
  },
  "best-instrument-mics": {
@@ -492,7 +492,7 @@ var GUIDE_SCORES = {
   "Shure SM7B": 9.9,
   "Rode NT1 5th Generation": 9.6,
   "Rode NT1 Signature Series": 9.5,
-  "Micrófono Dinámico Behringer XM8500 Ultravoice": 8.7,
+  "MicrÃ³fono DinÃ¡mico Behringer XM8500 Ultravoice": 8.7,
   "Behringer XM8500 Ultravoice Dynamic Microphone": 8.7,
   "Shure MV7+": 9.8,
   "Rode PodMic USB": 9.1,
@@ -531,7 +531,7 @@ var GUIDE_SCORES = {
   "Kali Audio WS-6.2": 9.1,
   "Kali Audio IN-UNF": 8.8,
   "Kali Audio LP-UNF": 9,
-  "Genelec 8351B SAM Monitor de Estudio Coaxial de 3 Vías": 9.9,
+  "Genelec 8351B SAM Monitor de Estudio Coaxial de 3 VÃ­as": 9.9,
   "Genelec 8351B SAM 3-Way Coaxial Studio Monitor": 9.9
  },
  "best-monitors-for-small-rooms": {
@@ -587,15 +587,15 @@ var GUIDE_SCORES = {
  "best-parlor-guitars": {
   "Guitarra Gretsch G9500 Jim Dandy Flat Top": 9.6,
   "Gretsch G9500 Jim Dandy Flat Top": 9.6,
-  "Guitarra Parlor Electroacústica Yamaha CSF1M": 9.8,
+  "Guitarra Parlor ElectroacÃºstica Yamaha CSF1M": 9.8,
   "Yamaha CSF1M Parlor Acoustic-Electric": 9.8,
   "Guitarra PRS SE P20e Tonare Parlor": 9.9,
   "PRS SE P20e Tonare Parlor": 9.9,
-  "Guitarra Parlor Electroacústica Epiphone L-00 Studio": 9.1,
+  "Guitarra Parlor ElectroacÃºstica Epiphone L-00 Studio": 9.1,
   "Epiphone L-00 Studio Parlor Acoustic-Electric": 9.1,
-  "Guitarra Acústica Fender CP-60S Parlor": 9,
+  "Guitarra AcÃºstica Fender CP-60S Parlor": 9,
   "Fender CP-60S Parlor Acoustic": 9,
-  "Guitarra Electroacústica Fender Highway Series Parlor All-Mahogany": 9.3,
+  "Guitarra ElectroacÃºstica Fender Highway Series Parlor All-Mahogany": 9.3,
   "Fender Highway Series Parlor All-Mahogany Acoustic-Electric": 9.3,
   "Guitarra Gretsch G5021E Rancher Penguin Parlor": 9.2,
   "Gretsch G5021E Rancher Penguin Parlor": 9.2
@@ -608,20 +608,20 @@ var GUIDE_SCORES = {
   "Native Instruments Noire": 9.8,
   "Arturia Augmented GRAND PIANO": 9
  },
- "best-plugins": {
-  "FabFilter Paquete Total": 9.7,
-  "FabFilter Total Bundle": 9.7,
-  "FabFilter Pro-Q 4": 9.8,
-  "FabFilter Pro-C 3": 9.7,
-  "iZotope Ozone 12 Advanced": 9.8,
-  "Soundtoys 5.5 Bundle": 9.8,
-  "Celemony Melodyne 5": 9.3,
-  "Native Instruments Komplete 26 Definitivo": 9.3,
-  "Native Instruments Komplete 26 Ultimate": 9.3,
-  "TDR Kotelnikov GE": 9.1,
-  "Tokyo Dawn Labs TDR Kotelnikov GE": 9.1,
-  "Universal Audio UAD Ultimate 14": 9.5
- },
+  "best-plugins": {
+   "FabFilter Paquete Total": 9.8,
+   "FabFilter Total Bundle": 9.8,
+   "FabFilter Pro-Q 4": 9.8,
+   "FabFilter Pro-C 3": 9.7,
+   "iZotope Ozone 12 Advanced": 9.6,
+   "Soundtoys 5.5 Bundle": 9.4,
+   "Celemony Melodyne 5": 9.5,
+   "Native Instruments Komplete 26 Definitivo": 9.0,
+   "Native Instruments Komplete 26 Ultimate": 9.0,
+   "TDR Kotelnikov GE": 9.1,
+   "Tokyo Dawn Labs TDR Kotelnikov GE": 9.1,
+   "Universal Audio UAD Ultimate 14": 9.3
+  },
  "best-practice-amps": {
   "Boss Katana 50 Gen 3": 9.8,
   "Fender Champion II 25": 9.6,
@@ -668,27 +668,27 @@ var GUIDE_SCORES = {
   "Akai Professional MPC XL": 9.8
  },
  "best-shotgun-mics": {
-  "Micrófono Sennheiser MKH 416 Shotgun": 9.8,
+  "MicrÃ³fono Sennheiser MKH 416 Shotgun": 9.8,
   "Sennheiser MKH 416 Shotgun Microphone": 9.8,
-  "Kit de Micrófono Shotgun Rode NTG5": 9.4,
+  "Kit de MicrÃ³fono Shotgun Rode NTG5": 9.4,
   "Rode NTG5 Shotgun Microphone Kit": 9.4,
-  "Micrófono Shotgun Sennheiser MKE 600": 9.2,
+  "MicrÃ³fono Shotgun Sennheiser MKE 600": 9.2,
   "Sennheiser MKE 600 Shotgun Microphone": 9.2,
-  "Micrófono Shotgun Corto Audio-Technica AT875R": 8.8,
+  "MicrÃ³fono Shotgun Corto Audio-Technica AT875R": 8.8,
   "Audio-Technica AT875R Short Shotgun Microphone": 8.8,
-  "Micrófono Shotgun Deity S-Mic 3": 8.9,
+  "MicrÃ³fono Shotgun Deity S-Mic 3": 8.9,
   "Deity S-Mic 3 Shotgun Microphone": 8.9,
-  "Micrófono On-Camera Rode VideoMic NTG": 9,
+  "MicrÃ³fono On-Camera Rode VideoMic NTG": 9,
   "Rode VideoMic NTG On-Camera Shotgun": 9,
-  "Micrófono Shotgun Rode VideoMic GO II Helix": 8.9,
+  "MicrÃ³fono Shotgun Rode VideoMic GO II Helix": 8.9,
   "Rode VideoMic GO II Helix On-Camera Shotgun": 8.9,
   "Shotgun Compacto Sennheiser MKE 400": 8.9,
   "Sennheiser MKE 400 Compact Shotgun": 8.9,
-  "Micrófono Supercardioide Sennheiser MKH 50-P48": 9.5,
+  "MicrÃ³fono Supercardioide Sennheiser MKH 50-P48": 9.5,
   "Sennheiser MKH 50-P48 Supercardioid Microphone": 9.5,
-  "Micrófono Shotgun Rode NTG3": 9.1,
+  "MicrÃ³fono Shotgun Rode NTG3": 9.1,
   "Rode NTG3 Shotgun Microphone": 9.1,
-  "Micrófono Shotgun Audio-Technica AT897": 8.9,
+  "MicrÃ³fono Shotgun Audio-Technica AT897": 8.9,
   "Audio-Technica AT897 Shotgun Microphone": 8.9
  },
  "best-stage-keyboards": {
@@ -722,17 +722,17 @@ var GUIDE_SCORES = {
   "Sequential OB-6 Keyboard": 9.2
  },
  "best-wireless-iems": {
-  "Sistema Estéreo Inalámbrico Sennheiser EW IEM G4": 9.8,
+  "Sistema EstÃ©reo InalÃ¡mbrico Sennheiser EW IEM G4": 9.8,
   "Sennheiser EW IEM G4 Stereo Wireless System": 9.8,
   "Shure PSM300": 9.6,
   "Sennheiser ew IEM G4-TWIN-E": 9.6,
-  "Sistema In-Ear Inalámbrico Xvive U4": 9.1,
+  "Sistema In-Ear InalÃ¡mbrico Xvive U4": 9.1,
   "Xvive U4 Wireless In-Ear Monitor System": 9.1,
-  "Sistema In-Ear Inalámbrico Xvive U4R4 (4 Receptores)": 9.3,
+  "Sistema In-Ear InalÃ¡mbrico Xvive U4R4 (4 Receptores)": 9.3,
   "Xvive U4R4 Wireless IEM System (4 Receivers)": 9.3,
-  "Sistema Estéreo UHF Phenyx Pro PTM-10": 8.9,
+  "Sistema EstÃ©reo UHF Phenyx Pro PTM-10": 8.9,
   "Phenyx Pro PTM-10 UHF Stereo IEM System": 8.9,
-  "Sistema Inalámbrico Sennheiser XSW IEM": 9.2,
+  "Sistema InalÃ¡mbrico Sennheiser XSW IEM": 9.2,
   "Sennheiser XSW IEM Wireless System": 9.2
  },
  "blues-junior-vs-ac30": {
@@ -741,12 +741,12 @@ var GUIDE_SCORES = {
  },
  "blx288-vs-ewd": {
   "Shure BLX288/PG58": 9.6,
-  "Sennheiser EW-D Sistema Inalámbrico Dual": 9.8,
+  "Sennheiser EW-D Sistema InalÃ¡mbrico Dual": 9.8,
   "Sennheiser EW-D Dual Wireless System": 9.8
  },
  "bridge-cast-x-vs-rodecaster-pro2": {
   "Roland Bridge Cast X": 9.5,
-  "RØDE RØDECaster Pro II": 9.6
+  "RÃ˜DE RÃ˜DECaster Pro II": 9.6
  },
  "budget-bass-like-expensive": {
   "Squier Classic Vibe '60s Jazz Bass": 9.2,
@@ -793,12 +793,12 @@ var GUIDE_SCORES = {
    "Shure SM57": 9.5,
    "Lewitt LCT 240 PRO": 9.4,
    "Audio-Technica AT2020 Studio Condenser Microphone": 9.2,
-   "Micrófono de condensador de estudio Audio-Technica AT2020": 9.2,
+   "MicrÃ³fono de condensador de estudio Audio-Technica AT2020": 9.2,
    "sE Electronics sE7": 9.1,
    "Sennheiser e935": 9.0,
    "Shure SM58": 8.9,
    "AKG P120 Medium-Diaphragm Condenser Microphone": 8.8,
-   "Micrófono de condensador de diafragma mediano AKG P120": 8.8
+   "MicrÃ³fono de condensador de diafragma mediano AKG P120": 8.8
   }
 ,
  "budget-monitors": {
@@ -821,26 +821,26 @@ var GUIDE_SCORES = {
   "Yamaha DBR12 Active PA Speaker": 9.5
  },
  "budget-usb-mics": {
-  "Micrófono Samson Q2U USB/XLR": 9.8,
+  "MicrÃ³fono Samson Q2U USB/XLR": 9.8,
   "Samson Q2U USB/XLR Microphone": 9.8,
-  "Micrófono Dinámico USB FIFINE AmpliGame AM8": 9.4,
+  "MicrÃ³fono DinÃ¡mico USB FIFINE AmpliGame AM8": 9.4,
   "FIFINE AmpliGame AM8 Dynamic USB Microphone": 9.4,
-  "Micrófono de Condensador de Estudio Rode NT-USB Mini": 9.5,
+  "MicrÃ³fono de Condensador de Estudio Rode NT-USB Mini": 9.5,
   "Rode NT-USB Mini Studio Condenser Microphone": 9.5,
-  "Micrófono USB Maono PM461": 8.9,
+  "MicrÃ³fono USB Maono PM461": 8.9,
   "Maono PM461 USB Microphone": 8.9,
-  "Micrófono USB TONOR TC-777": 9,
+  "MicrÃ³fono USB TONOR TC-777": 9,
   "TONOR TC-777 USB Microphone": 9,
-  "Micrófono USB Condensador Blue Yeti Nano": 8.9,
+  "MicrÃ³fono USB Condensador Blue Yeti Nano": 8.9,
   "Blue Yeti Nano USB Condenser Microphone": 8.9,
-  "Micrófono Dinámico Maono PD200X": 9.2,
+  "MicrÃ³fono DinÃ¡mico Maono PD200X": 9.2,
   "Maono PD200X Dynamic Microphone": 9.2,
-  "Micrófono Dinámico FIFINE AmpliTank K688 USB/XLR": 9.1,
+  "MicrÃ³fono DinÃ¡mico FIFINE AmpliTank K688 USB/XLR": 9.1,
   "FIFINE AmpliTank K688 Dynamic USB/XLR Microphone": 9.1,
-  "Kit de Micrófono USB FIFINE T669": 8.9,
+  "Kit de MicrÃ³fono USB FIFINE T669": 8.9,
   "FIFINE T669 USB Microphone Kit": 8.9,
   "Razer Seiren V3 Mini": 8.9,
-  "Micrófono USB de Gaming FIFINE AmpliGame A6V": 9,
+  "MicrÃ³fono USB de Gaming FIFINE AmpliGame A6V": 9,
   "FIFINE AmpliGame A6V USB Gaming Microphone": 9
  },
  "c414-vs-u87": {
@@ -851,8 +851,8 @@ var GUIDE_SCORES = {
   "Waves SSL G-Master Buss Compresor": 9.8,
   "Waves SSL G-Master Buss Compressor": 9.8,
   "FabFilter Paquete Total": 9.7,
-  "FabFilter Total Bundle": 9.7,
-  "Colección UA 1176 Classic Limiter": 9.5,
+  "FabFilter Total Bundle": 9.8,
+  "ColecciÃ³n UA 1176 Classic Limiter": 9.5,
   "Universal Audio 1176 Classic Limiter Collection": 9.5,
   "FabFilter Pro-Q 4": 9.8,
   "Universal Audio UAD Ultimate 14": 9.5,
@@ -872,7 +872,7 @@ var GUIDE_SCORES = {
  },
  "daw-guide": {
   "Ableton Live 12 Suite": 9.7,
-  "FL Studio Edición Producer": 9.4,
+  "FL Studio EdiciÃ³n Producer": 9.4,
   "FL Studio Producer Edition": 9.4,
   "Avid Pro Tools Studio": 9.8,
   "Steinberg Cubase Pro 15": 9.4,
@@ -885,13 +885,13 @@ var GUIDE_SCORES = {
   "Interfaz Directa Activa Rupert Neve Designs RNDI": 9.7,
   "Rupert Neve Designs RNDI Active Direct Interface": 9.7,
   "Tech 21 SansAmp Bass Driver DI v2": 9.3,
-  "Radial ProD2 Caja Directa Pasiva Estéreo": 9.2,
+  "Radial ProD2 Caja Directa Pasiva EstÃ©reo": 9.2,
   "Radial ProD2 Stereo Passive Direct Box": 9.2,
   "Whirlwind IMP 2 Caja DI Pasiva": 8.9,
   "Whirlwind IMP 2 Passive Direct Box": 8.9,
-  "Walrus Audio Canvas Mono Aislador de Línea / DI": 9,
+  "Walrus Audio Canvas Mono Aislador de LÃ­nea / DI": 9,
   "Walrus Audio Canvas Mono Line Isolator / DI": 9,
-  "LR Baggs Para DI Acústico": 9.1,
+  "LR Baggs Para DI AcÃºstico": 9.1,
   "LR Baggs Para Acoustic DI": 9.1
  },
  "digitakt-ii-vs-tr8s": {
@@ -914,7 +914,7 @@ var GUIDE_SCORES = {
  },
  "fabfilter-vs-ozone": {
   "FabFilter Paquete Total": 9.7,
-  "FabFilter Total Bundle": 9.7,
+  "FabFilter Total Bundle": 9.8,
   "iZotope Ozone 12 Advanced": 9.7
  },
  "fender-bass-guide": {
@@ -936,7 +936,7 @@ var GUIDE_SCORES = {
   "Fender American Professional II Stratocaster": 9.6,
   "Gibson Les Paul Standard '60s": 9.7,
   "Fender Player II Jazzmaster": 9.2,
-  "Fender CD-60S Acústica": 9.6,
+  "Fender CD-60S AcÃºstica": 9.6,
   "Fender CD-60S Acoustic": 9.6
  },
  "fix-clipping-scarlett": {
@@ -964,7 +964,7 @@ var GUIDE_SCORES = {
   "Marshall DSL40CR": 9.4,
   "Fender Rumble 500 V3": 9.5,
   "Ampeg Rocket Bass RB-115": 9.2,
-  "Amplificador de Escritorio Inalámbrico Yamaha THR30II": 9.3,
+  "Amplificador de Escritorio InalÃ¡mbrico Yamaha THR30II": 9.3,
   "Yamaha THR30II Wireless Desktop Amp": 9.3,
   "Amplificador Inteligente de Guitarra Positive Grid Spark 2": 9.1,
   "Positive Grid Spark 2": 9.1,
@@ -976,7 +976,7 @@ var GUIDE_SCORES = {
   "Ibanez TS9 Tube Screamer": 9.3,
   "Boss DD-8 Delay Digital": 9.8,
   "Boss DD-8 Digital Delay": 9.8,
-  "Boss TU-3 Afinador Cromático": 9.8,
+  "Boss TU-3 Afinador CromÃ¡tico": 9.8,
   "Boss TU-3 Chromatic Tuner": 9.8,
   "Dunlop GCB95 Crybaby Wah": 9.1,
   "TC Electronic Hall of Fame 2": 9.5,
@@ -1062,24 +1062,24 @@ var GUIDE_SCORES = {
   "HyperX QuadCast 2": 8.9,
   "Elgato Wave:3": 9.3,
   "Audio-Technica AT2020": 9.1,
-  "Micrófono Samson Q2U USB/XLR": 9.7,
+  "MicrÃ³fono Samson Q2U USB/XLR": 9.7,
   "Samson Q2U USB/XLR Microphone": 9.7,
-  "Micrófono Dinámico USB FIFINE AmpliGame AM8": 9.2,
+  "MicrÃ³fono DinÃ¡mico USB FIFINE AmpliGame AM8": 9.2,
   "FIFINE AmpliGame AM8 Dynamic USB Microphone": 9.2,
-  "Micrófono USB Maono PM461": 8.7,
+  "MicrÃ³fono USB Maono PM461": 8.7,
   "Maono PM461 USB Microphone": 8.7,
-  "Micrófono USB TONOR TC-777": 8.5,
+  "MicrÃ³fono USB TONOR TC-777": 8.5,
   "TONOR TC-777 USB Microphone": 8.5,
-  "Micrófono USB de Condensador Cardioide Audio-Technica AT2020USB-X": 8.8,
+  "MicrÃ³fono USB de Condensador Cardioide Audio-Technica AT2020USB-X": 8.8,
   "Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone": 8.8,
-  "Micrófono de Condensador de Estudio Rode NT-USB Mini": 9.5,
+  "MicrÃ³fono de Condensador de Estudio Rode NT-USB Mini": 9.5,
   "Rode NT-USB Mini Studio Condenser Microphone": 9.5,
   "Audio-Technica AT2040USB": 9,
   "Blue Yeti USB Microphone": 8.4,
-  "Micrófono Dinámico FIFINE AmpliTank K688 USB/XLR": 9,
+  "MicrÃ³fono DinÃ¡mico FIFINE AmpliTank K688 USB/XLR": 9,
   "FIFINE AmpliTank K688 Dynamic USB/XLR Microphone": 9,
   "Razer Seiren V3 Mini": 8.6,
-  "Micrófono USB de Condensador Compacto Rode XCM-50": 8.7,
+  "MicrÃ³fono USB de Condensador Compacto Rode XCM-50": 8.7,
   "Rode XCM-50 Compact USB Condenser Microphone": 8.7
  },
  "midi-controllers": {
@@ -1096,7 +1096,7 @@ var GUIDE_SCORES = {
   "iZotope Ozone 12 Advanced": 9.7,
   "FabFilter Paquete Total": 9.8,
   "FabFilter Total Bundle": 9.8,
-  "Colección UA 1176 Classic Limiter": 9.5,
+  "ColecciÃ³n UA 1176 Classic Limiter": 9.5,
   "Universal Audio 1176 Classic Limiter Collection": 9.5,
   "Baby Audio Smooth Operator Pro": 9.2,
   "bx_clipper": 9.3,
@@ -1207,7 +1207,7 @@ var GUIDE_SCORES = {
  },
  "pro-microphones": {
   "Neumann U 87 Ai": 9.8,
-  "Lewitt LCT1040 Sistema de Micrófono Ultimate": 9.3,
+  "Lewitt LCT1040 Sistema de MicrÃ³fono Ultimate": 9.3,
   "Lewitt LCT1040 Ultimate Microphone System": 9.3
  },
  "pro-mixers": {
@@ -1220,7 +1220,7 @@ var GUIDE_SCORES = {
  },
  "pro-plugins": {
   "FabFilter Paquete Total": 9.7,
-  "FabFilter Total Bundle": 9.7,
+  "FabFilter Total Bundle": 9.8,
   "Native Instruments Komplete 26 Definitivo": 9.4,
   "Native Instruments Komplete 26 Ultimate": 9.4
  },
@@ -1247,7 +1247,7 @@ var GUIDE_SCORES = {
  },
  "rodecaster-pro2-vs-dlz-creator": {
   "Mackie DLZ Creator": 9.2,
-  "RØDE RØDECaster Pro II": 9.6
+  "RÃ˜DE RÃ˜DECaster Pro II": 9.6
  },
  "scarlett-vs-motu": {
   "Focusrite Scarlett 2i2 4th Gen": 9.4,
@@ -1289,7 +1289,7 @@ var GUIDE_SCORES = {
   "Shure Beta 58A": 9.3,
   "Sennheiser e935": 9.1,
   "Sennheiser e945": 9.3,
-  "Sennheiser EW-D Sistema Inalámbrico Dual": 9.5,
+  "Sennheiser EW-D Sistema InalÃ¡mbrico Dual": 9.5,
   "Sennheiser EW-D Dual Wireless System": 9.5,
   "Telefunken M80": 8.9,
   "AKG D5": 8.8,
@@ -1306,12 +1306,12 @@ var GUIDE_SCORES = {
   "RCF NX 912-SMA": 9.9
  },
  "stage-wireless": {
-  "Sennheiser EW-D Sistema Inalámbrico Dual": 9.8,
+  "Sennheiser EW-D Sistema InalÃ¡mbrico Dual": 9.8,
   "Sennheiser EW-D Dual Wireless System": 9.8,
   "Sennheiser EW-D 835-S": 9.1,
   "Shure BLX288/PG58": 9.6,
   "Sennheiser EW 100 G4-935": 9.4,
-  "Shure BLX24R/SM58 Inalámbrico": 8.9,
+  "Shure BLX24R/SM58 InalÃ¡mbrico": 8.9,
   "Shure BLX24R/SM58 Wireless": 8.9
  },
  "starter-studio": {
@@ -1323,9 +1323,9 @@ var GUIDE_SCORES = {
   "Yamaha HS8": 9.8,
   "Universal Audio Apollo Twin X Gen 2": 9.9,
   "Neumann TLM 102": 9.8,
-  "Paneles de Tratamiento Acústico G4M Acoustics Squarewave (4-Unidades)": 9.4,
+  "Paneles de Tratamiento AcÃºstico G4M Acoustics Squarewave (4-Unidades)": 9.4,
   "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)": 9.4,
-  "Soporte de Micrófono K&M 210/2": 9.6,
+  "Soporte de MicrÃ³fono K&M 210/2": 9.6,
   "K&M 210/2 Mic Stand": 9.6,
   "Filtro Antipop Aston Microphones Shield GN": 9.1,
   "Aston Microphones Shield GN Pop Filter": 9.1,
@@ -1341,7 +1341,7 @@ var GUIDE_SCORES = {
   "Rode Streamer X": 9,
   "Elgato Wave XLR MK.2": 8.8,
   "TC Helicon GoXLR Mini": 9.3,
-  "RØDE RØDECaster Pro II": 9.6,
+  "RÃ˜DE RÃ˜DECaster Pro II": 9.6,
   "Mackie MainStream": 9.2,
   "Roland Bridge Cast X": 9.5,
   "Mackie DLZ Creator": 9.2,
@@ -1366,11 +1366,11 @@ var GUIDE_SCORES = {
  "studio-furniture": {
   "Soportes de Monitor K&M 26722 (Unidad)": 9.6,
   "K&M 26722 Monitor Stands (Each)": 9.6,
-  "Soporte de Micrófono K&M 210/2": 9.6,
+  "Soporte de MicrÃ³fono K&M 210/2": 9.6,
   "K&M 210/2 Mic Stand": 9.6,
   "Cable Mogami Gold Studio XLR": 9.3,
   "Mogami Gold Studio XLR Cable": 9.3,
-  "Paneles de Tratamiento Acústico G4M Acoustics Squarewave (4-Unidades)": 9.7,
+  "Paneles de Tratamiento AcÃºstico G4M Acoustics Squarewave (4-Unidades)": 9.7,
   "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)": 9.7,
   "Pads de Aislamiento para Monitores AcouFoam 6, Par": 9.2,
   "AcouFoam 6 Monitor Isolation Pads, Pair": 9.2,
@@ -1426,9 +1426,9 @@ var GUIDE_SCORES = {
   "Rode NT-USB+": 9,
   "sE Electronics NEOM USB": 8.9,
   "Rode PodMic USB": 9.1,
-  "Micrófono USB de Condensador Cardioide Audio-Technica AT2020USB-X": 8.9,
+  "MicrÃ³fono USB de Condensador Cardioide Audio-Technica AT2020USB-X": 8.9,
   "Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone": 8.9,
-  "Micrófono Samson Q2U USB/XLR": 9.8,
+  "MicrÃ³fono Samson Q2U USB/XLR": 9.8,
   "Samson Q2U USB/XLR Microphone": 9.8
  },
  "vocal-plugins": {
@@ -1441,7 +1441,7 @@ var GUIDE_SCORES = {
   "iZotope Nectar 4 Advanced": 9.9,
   "Baby Audio Smooth Operator Pro": 9.2,
   "FabFilter Paquete Total": 9.7,
-  "FabFilter Total Bundle": 9.7
+  "FabFilter Total Bundle": 9.8
  },
  "vocalign-vs-revoice-pro": {
   "Synchro Arts VocAlign 7 Pro": 9.6,
