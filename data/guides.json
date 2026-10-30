@@ -48345,28 +48345,10 @@
         "specs": {}
       },
       {
-        "heading": "Hardware-Modeled Plugins",
-        "heading_es": "Plugins modelados de hardware",
-        "content": "<p><strong>Hardware-modeled plugins capture the behavior of well-regarded gear.</strong> The Universal Audio 1176 emulation reproduces fast attack and FET coloration for vocals and drums; check attack needs before buying. The Waves Puigtec EQP-1A models simultaneous boost and attenuation for Pultec-style tone shaping — something digital EQs can't do naturally.</p><p>The question is whether modeling is worth the price when digital-first plugins like FabFilter Pro-Q ($179) offer more flexibility. The answer depends on your workflow: if you want the character and workflow of classic hardware, modeled plugins deliver it. If you want surgical precision and maximum control, digital-first plugins are better.</p><p>For plugin comparisons, check <a class=\"guide-link-btn\" href=\"/guides/pro-plugins.html\">FabFilter vs Komplete: ¿bisturíes o ecosistema?</a> and </p>",
-        "content_es": "<p><strong>Los plugins modelados de hardware capturan el comportamiento de equipo legendario.</strong> La emulación del Universal Audio 1176 ($149) reproduce el ataque rápido y la coloración del compresor FET original. El Waves Puigtec EQP-1A ($99) modela la capacidad del ecualizador Pultec de realzar y atenuar la misma frecuencia simultáneamente — algo que los ecualizadores digitales no pueden hacer naturalmente.</p><p>La pregunta es si el modelado merece su precio cuando plugins digitales como FabFilter Pro-Q ($179) ofrecen más flexibilidad. La respuesta depende de tu proceso: si quieres el carácter y flujo del hardware clásico, los plugins modelados lo entregan. Si quieres precisión quirúrgica y control máximo, los plugins nativos digitales son mejores.</p><p>Para comparativas de plugins, revisa nuestros <a class=\"guide-link-btn\" href=\"/guides/pro-plugins_es.html\">FabFilter vs Komplete: ¿bisturíes o ecosistema?</a>.</p>",
-        "products": [
-          62,
-          121
-        ],
-        "skipMedia": true,
-        "verdict": "",
-        "verdict_es": "",
-        "pros": [],
-        "pros_es": [],
-        "cons": [],
-        "cons_es": [],
-        "specs": {}
-      },
-      {
-        "heading": "FabFilter Total Bundle: Three Tools You Reach for Every Mix",
-        "heading_es": "FabFilter Total Bundle: tres herramientas en cada mezcla",
-        "content": "<strong>Opening a large mix often means reaching for the same three tools on repeat.</strong> The Total Bundle gathers those essentials into one licensed collection covering EQ, compression, reverb, saturation and limiting, with Pro-Q 4, Pro-C 3, Pro-MB and Pro-R leading the set. Formats span VST2, VST3, AU and AAX on macOS and Windows, and operation stays ultra-low latency throughout.\n\nThe collection suits mix engineers juggling varied sessions where consistent character across tracks matters, plus mastering tasks that demand flexible dynamics and tone shaping. The trade-off is scope: newcomers face a dense feature set and a long learning curve before the workflow turns fluid and fast.",
-        "content_es": "<strong>Abrir una mezcla grande suele obligar a recurrir siempre a los mismos recursos.</strong> Este paquete reúne en una sola licencia herramientas de ecualización, compresión, reverberación, saturación y limitación, con Pro-Q 4, Pro-C 3, Pro-MB y Pro-R como piezas centrales. Funciona en VST2, VST3, AU y AAX dentro de macOS y Windows, con una latencia mínima que permite encadenar procesos sin cortes.\n\nResulta útil para técnicos que alternan sesiones distintas y buscan coherencia tímbrica entre temas, además de trabajos de masterización que piden dinámica flexible. La contrapartida está en la amplitud: al principio la cantidad de módulos abruma y exige tiempo hasta dominar el flujo con soltura.",
+        "heading": "Essential Mixing & EQ",
+        "heading_es": "Mezcla esencial y EQ",
+        "content": "<strong>Opening a large mix often means reaching for the same three tools on repeat.</strong> The Total Bundle gathers those essentials into one licensed collection covering EQ, compression, reverb, saturation and limiting, with Pro-Q 4, Pro-C 3, Pro-MB and Pro-R leading the set. Formats span VST2, VST3, AU and AAX on macOS and Windows, and operation stays ultra-low latency throughout.\n\nThe collection suits mix engineers juggling varied sessions where consistent character across tracks matters, plus mastering tasks that demand flexible dynamics and tone shaping. The trade-off is scope: newcomers face a dense feature set and a long learning curve before the workflow turns fluid and fast.\n<p><strong>Pro-Q 4 and Pro-C 3 can be purchased individually.</strong></p>",
+        "content_es": "<strong>Abrir una mezcla grande suele obligar a recurrir siempre a los mismos recursos.</strong> Este paquete reúne en una sola licencia herramientas de ecualización, compresión, reverberación, saturación y limitación, con Pro-Q 4, Pro-C 3, Pro-MB y Pro-R como piezas centrales. Funciona en VST2, VST3, AU y AAX dentro de macOS y Windows, con una latencia mínima que permite encadenar procesos sin cortes.\n\nResulta útil para técnicos que alternan sesiones distintas y buscan coherencia tímbrica entre temas, además de trabajos de masterización que piden dinámica flexible. La contrapartida está en la amplitud: al principio la cantidad de módulos abruma y exige tiempo hasta dominar el flujo con soltura.\n<p><strong>Pro-Q 4 y Pro-C 3 también se pueden comprar por separado.</strong></p>",
         "products": [
           29
         ],
@@ -48379,13 +48361,15 @@
         "specs": {}
       },
       {
-        "heading": "iZotope Ozone 12 Advanced: Eight Mastering Stages in One Chain",
-        "heading_es": "iZotope Ozone 12 Advanced: ocho etapas de masterización en una cadena",
-        "content": "<strong>Mastering chains grow long when every song needs width, tone and loudness in one pass.</strong> Ozone 12 Advanced bundles that path into a suite with Stem EQ, Clarity and Stabilizer among its modules, assisted by neural stem splitting, Ozone Assistant and tonal-balance guidance across eight core stages. Authorization runs through iLok, with VST2, VST3, AU and AAX operation on macOS and Windows at low latency.\n\nThe suite addresses self-mastering producers and small studios delivering finished singles and EPs without outsourcing the last stage. The caveat involves reliance: assistant suggestions accelerate starts yet still demand trained ears, and heavy module stacks can tax older machines during long sessions with automation.",
-        "content_es": "<strong>Las cadenas de masterización se alargan cuando cada canción pide amplitud, tono y contundencia en una pasada.</strong> Ozone 12 Advanced concentra ese recorrido en una suite con Stem EQ, Clarity y Stabilizer entre sus módulos, apoyada por separación de stems neuronal, Ozone Assistant y guía de balance tonal en ocho etapas centrales. La autorización pasa por iLok, con operación VST2, VST3, AU y AAX en macOS y Windows y baja latencia.\n\nLa suite mira a productores que finalizan sencillos y EPs por su cuenta, sin externalizar la última etapa. La reserva tiene que ver con la dependencia: las sugerencias del asistente aceleran el arranque pero exigen oído entrenado, y las pilas pesadas de módulos pueden exigir equipos veteranos en sesiones largas con automatización.",
+        "heading": "Analog Color & Creative FX",
+        "heading_es": "Color analógico y efectos creativos",
+        "content": "<p><strong>Twenty-three effects that defined modern record color — Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender and the Effect Rack that chains them.</strong> Where FabFilter gives you surgical precision, Soundtoys gives you character: saturation that growls, delays that wobble, pitch shifting that turns vocals into instruments. It is the creative producer toolkit — the bundle you reach for when a track sounds correct but boring.</p><p><strong>The trade-off is focus.</strong> This is a color and movement collection, not a mixing foundation: there is no EQ, no compressor, no limiter here, and the vintage-styled interfaces prize vibe over visual feedback. Pair it with a clean EQ/comp bundle and you cover both halves of production — precision and personality.</p><hr><p><strong>The complete UAD collection — over one hundred faithful emulations of vintage analog hardware running on dedicated UAD DSP with near-zero latency.</strong> Neve preamps, API and SSL buses, Manley vari-mu glue, Ampex and Studer tape: the signal chains behind classic records, inside your DAW, tracking through them in real time the way engineers tracked through the hardware.</p><p><strong>The price of admission is the ecosystem.</strong> These plug-ins require UAD DSP hardware — a Satellite or UA interface — so there is a hardware buy-in on top of the software, and the bundle price sits at flagship level. For engineers chasing authentic analog behavior at tracking speed with no native CPU load, it remains the reference.</p>",
+        "content_es": "<p><strong>Veintitrés efectos que definieron el color de los discos modernos — Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender y el Effect Rack que los encadena.</strong> Donde FabFilter te da precisión quirúrgica, Soundtoys te da carácter: saturación que ruge, delays que se tambalean, pitch shifting que convierte voces en instrumentos. Es la caja de herramientas del productor creativo — el paquete al que recurres cuando una pista suena correcta pero aburrida.</p><p><strong>La contrapartida es el enfoque.</strong> Es una colección de color y movimiento, no una base de mezcla: aquí no hay EQ, ni compresor, ni limitador, y sus interfaces de estética vintage premian la vibra sobre la información visual. Combínalo con un paquete limpio de EQ y compresión y cubres las dos mitades de la producción — precisión y personalidad.</p><hr><p><strong>La colección completa de UAD — más de cien emulaciones fieles de hardware analógico clásico corriendo en DSP dedicado con latencia casi nula.</strong> Previos Neve, buses API y SSL, pegamento vari-mu de Manley, cintas Ampex y Studer: las cadenas de señal de los discos clásicos, dentro de tu DAW, procesando la señal con ellas en tiempo real como se hacía con el hardware.</p><p><strong>El precio es el ecosistema.</strong> Estos plug-ins exigen hardware DSP de UAD — un Satellite o una interfaz UA — así que hay una inversión en hardware además del software, y el precio del paquete está en terreno insignia. Para quien busque comportamiento analógico auténtico a velocidad de grabación y sin cargar la CPU, sigue siendo la referencia.</p>",
         "products": [
-          30
+          32,
+          121
         ],
+        "skipMedia": true,
         "verdict": "",
         "verdict_es": "",
         "pros": [],
@@ -48395,8 +48379,8 @@
         "specs": {}
       },
       {
-        "heading": "Celemony Melodyne 5: Fixing Notes Without Flattening the Performance",
-        "heading_es": "Celemony Melodyne 5: arreglar notas sin aplanar la interpretación",
+        "heading": "Vocal Processing",
+        "heading_es": "Procesamiento vocal",
         "content": "<strong>Vocal takes carry feeling first, tuning second, and heavy-handed correction flattens both.</strong> Melodyne 5 edits individual notes inside polyphonic audio, adjusting timing, pitch and formants through the melodic algorithm with per-note control. Operation spans VST2, VST3, AU and AAX on macOS and Windows under a license file, keeping latency low enough for detailed editing passes.\n\nThe editor fits engineers rescuing strong performances with drifting intonation or tightening doubles without rerecording. The drawback is time: transparent results demand zooming in, listening phrase by phrase, and resisting over-quantizing, which turns rushed deadlines into a test of patience rather than a quick fix.",
         "content_es": "<strong>Las tomas vocales transmiten emoción primero y afinación después, y una corrección brusca aplana ambas.</strong> Melodyne 5 edita notas individuales dentro del audio polifónico y ajusta tiempo, tono y formantes mediante el algoritmo melódico con control por nota. Trabaja en VST2, VST3, AU y AAX en macOS y Windows bajo archivo de licencia, con latencia baja para pasadas de edición minuciosas.\n\nEl editor encaja con técnicos que rescatan interpretaciones potentes con entonación flotante o ajustan dobles sin regrabar. El inconveniente es el tiempo: un resultado transparente obliga a ampliar, escuchar frase por frase y evitar cuantizar en exceso, así que con plazos ajustados la herramienta pone a prueba la paciencia en lugar de ofrecer un arreglo exprés.",
         "products": [
@@ -48411,8 +48395,24 @@
         "specs": {}
       },
       {
-        "heading": "Native Instruments Komplete 26: Strings, Synths and Scoring in One",
-        "heading_es": "Native Instruments Komplete 26: cuerdas, sintes y música de imagen en uno",
+        "heading": "Mastering",
+        "heading_es": "Masterización",
+        "content": "<strong>Mastering chains grow long when every song needs width, tone and loudness in one pass.</strong> Ozone 12 Advanced bundles that path into a suite with Stem EQ, Clarity and Stabilizer among its modules, assisted by neural stem splitting, Ozone Assistant and tonal-balance guidance across eight core stages. Authorization runs through iLok, with VST2, VST3, AU and AAX operation on macOS and Windows at low latency.\n\nThe suite addresses self-mastering producers and small studios delivering finished singles and EPs without outsourcing the last stage. The caveat involves reliance: assistant suggestions accelerate starts yet still demand trained ears, and heavy module stacks can tax older machines during long sessions with automation.",
+        "content_es": "<strong>Las cadenas de masterización se alargan cuando cada canción pide amplitud, tono y contundencia en una pasada.</strong> Ozone 12 Advanced concentra ese recorrido en una suite con Stem EQ, Clarity y Stabilizer entre sus módulos, apoyada por separación de stems neuronal, Ozone Assistant y guía de balance tonal en ocho etapas centrales. La autorización pasa por iLok, con operación VST2, VST3, AU y AAX en macOS y Windows y baja latencia.\n\nLa suite mira a productores que finalizan sencillos y EPs por su cuenta, sin externalizar la última etapa. La reserva tiene que ver con la dependencia: las sugerencias del asistente aceleran el arranque pero exigen oído entrenado, y las pilas pesadas de módulos pueden exigir equipos veteranos en sesiones largas con automatización.",
+        "products": [
+          30
+        ],
+        "verdict": "",
+        "verdict_es": "",
+        "pros": [],
+        "pros_es": [],
+        "cons": [],
+        "cons_es": [],
+        "specs": {}
+      },
+      {
+        "heading": "Virtual Instruments",
+        "heading_es": "Instrumentos virtuales",
         "content": "<strong>Starting from a blank session taxes imagination when the palette stays narrow.</strong> Komplete 26 widens it with a Kontakt-based library spanning Native Instruments Kontakt 8, Native Instruments Massive X, Guitar Rig 7, Session Strings and Cremona Quartet, plus cinematic scoring devices for producers, composers and sound designers. Management runs through Native Access, hosting VST2, VST3, AU and AAX instruments and effects on macOS and Windows.\n\nThe package suits creators scoring picture, building beats or designing textures who want strings, synths and guitars under one browser. The compromise is weight: installation size and library organization overwhelm small drives, and sorting favorites from filler requires deliberate curation across long catalog browsing.",
         "content_es": "<strong>Partir de una sesión vacía exige imaginación cuando la paleta sigue estrecha.</strong> Komplete 26 Ultimate la amplía con una librería basada en Kontakt que reúne Native Instruments Kontakt 8, Native Instruments Massive X, Guitar Rig 7, Session Strings y Cremona Quartet, más recursos cinematográficos para productores, compositores y diseñadores de sonido. La gestión pasa por Native Access y aloja instrumentos y efectos VST2, VST3, AU y AAX en macOS y Windows.\n\nEl paquete conviene a creadores que musicalizan imagen, arman beats o diseñan texturas y quieren cuerdas, sintes y guitarras bajo un mismo navegador. La concesión es el peso: el tamaño de instalación y el orden de librerías saturan discos pequeños, y separar favoritos de relleno exige criba atenta entre catálogos extensos.",
         "products": [
@@ -48427,8 +48427,8 @@
         "specs": {}
       },
       {
-        "heading": "Tokyo Dawn Labs TDR Kotelnikov GE: Bus Compression That Breathes",
-        "heading_es": "Tokyo Dawn Labs TDR Kotelnikov GE: compresión de bus que respira",
+        "heading": "Budget / Transparent",
+        "heading_es": "Presupuesto / Transparente",
         "content": "<strong>Bus compression should breathe with the song rather than stamp on transients.</strong> Kotelnikov GE follows that idea with transparent gain riding, joined by M/S processing, sidechain EQ, lookahead, dry-wet blending, oversampling and precision metering. Adaptive release and switchable soft-hard knee preserve the preserved dynamic range of the original design while adding detailed control for stereo and mid-side duties.\n\nThe plug-in rewards mastering engineers and mixers taming wide buses where clarity must survive glue. The hurdle lies in subtlety: dialing threshold, ratio and timing by ear takes disciplined monitoring, and aggressive loudness moves fall outside the comfort zone of such a refined processor.",
         "content_es": "<strong>La compresión de bus debería respirar con la canción en lugar de pisar los transitorios.</strong> Kotelnikov GE sigue esa idea con una ganancia transparente, acompañada de procesado M/S, EQ de sidechain, lookahead, mezcla dry-wet, sobremuestreo y medición de precisión. El release adaptable y el knee suave-fuerte conservan la dinámica pulcra del diseño original y suman control de nivel estudio para tareas estéreo y mid-side.\n\nEl plugin premia a técnicos de masterización y mezcla que domestican buses amplios donde la claridad debe sobrevivir a la cohesión. El obstáculo está en la sutileza: ajustar umbral, ratio y tiempos a oído exige escucha disciplinada, y las búsquedas agresivas de contundencia quedan fuera de la zona cómoda de un procesador tan refinado.",
         "products": [
@@ -48441,86 +48441,20 @@
         "cons": [],
         "cons_es": [],
         "specs": {}
-      },
-      {
-        "heading": "FabFilter Pro-Q 4: The Definitive EQ",
-        "heading_es": "FabFilter Pro-Q 4: El ecualizador definitivo",
-        "content": "<p><strong>The most advanced equalizer in the world — and the one you will open on every mix.</strong> Pro-Q 4 pairs up to 24 bands of surgical parametric EQ with spectral dynamics that turn problem resonances into musical opportunities instead of just cutting them. EQ Sketch lets you draw curves freehand, vintage saturation modes add analog weight when a track sounds too clean, and full Dolby Atmos support up to 9.1.6 keeps it relevant as mixes go immersive.</p><p><strong>The honest trade-off is depth versus speed.</strong> The interface stays fluid and the spectrum analyzer is the clearest in the business, but spectral dynamics take disciplined listening to master — beginners will fix things faster with a simpler EQ before graduating here. If you want one equalizer that never leaves your template, this is it.</p>",
-        "content_es": "<p><strong>El ecualizador más avanzado del mundo — y el que acabarás abriendo en cada mezcla.</strong> Pro-Q 4 combina hasta 24 bandas de ecualización quirúrgica con dinámica espectral que convierte las resonancias problemáticas en oportunidades musicales en lugar de limitarse a recortarlas. EQ Sketch permite dibujar curvas a mano alzada, los modos de saturación vintage aportan peso analógico cuando una pista suena demasiado limpia y el soporte completo de Dolby Atmos hasta 9.1.6 lo mantiene vigente ahora que las mezclas se vuelven inmersivas.</p><p><strong>La contrapartida honesta es profundidad frente a inmediatez.</strong> La interfaz sigue siendo fluida y su analizador de espectro es el más claro del mercado, pero la dinámica espectral exige un oído disciplinado para dominarla — al principio resolverás más rápido con un EQ sencillo antes de dar el salto aquí. Si buscas un único ecualizador que no salga nunca de tu plantilla, es este.</p>",
-        "products": [
-          62
-        ],
-        "verdict": "",
-        "verdict_es": "",
-        "pros": [],
-        "pros_es": [],
-        "cons": [],
-        "cons_es": [],
-        "specs": {}
-      },
-      {
-        "heading": "FabFilter Pro-C 3: The Definitive Compressor",
-        "heading_es": "FabFilter Pro-C 3: El compresor definitivo",
-        "content": "<p><strong>Fourteen compression styles in one elegant box — from invisible mastering glue to aggressive pumping.</strong> Pro-C 3 covers opto warmth, VCA punch, FET bite and modern transparent leveling, with Character modes adding analog saturation when a track needs color. The advanced sidechain EQ with dynamic triggering tames harshness only when it appears, and Dolby Atmos support keeps it ready for immersive delivery.</p><p><strong>The catch is choice overload.</strong> With fourteen styles plus lookahead, knee, and channel linking options, newcomers can spend sessions auditioning instead of committing — pick one style per job and learn it deeply. For engineers who want a single compressor that handles vocals, buses and masters without compromise, nothing else covers this much ground.</p>",
-        "content_es": "<p><strong>Catorce estilos de compresión en una sola caja elegante — desde pegamento transparente de masterización hasta bombeo agresivo.</strong> Pro-C 3 cubre calidez opto, pegada VCA, mordiente FET y nivelación moderna transparente, con modos Character que añaden saturación analógica cuando la pista pide color. Su ecualizador de sidechain avanzado con disparo dinámico doma la aspereza solo cuando aparece, y el soporte de Dolby Atmos lo deja listo para entregas inmersivas.</p><p><strong>La pega es el exceso de opciones.</strong> Con catorce estilos más lookahead, knee y enlazado de canales, es fácil pasarse sesiones probando en lugar de decidir — elige un estilo por tarea y domínalo a fondo. Para quien quiera un único compresor que resuelva voces, buses y masters sin concesiones, nada más cubre tanto terreno.</p>",
-        "products": [
-          63
-        ],
-        "verdict": "",
-        "verdict_es": "",
-        "pros": [],
-        "pros_es": [],
-        "cons": [],
-        "cons_es": [],
-        "specs": {}
-      },
-      {
-        "heading": "Soundtoys 5.5 Bundle: 23 Iconic Effects",
-        "heading_es": "Soundtoys 5.5 Bundle: 23 efectos icónicos",
-        "content": "<p><strong>Twenty-three effects that defined modern record color — Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender and the Effect Rack that chains them.</strong> Where FabFilter gives you surgical precision, Soundtoys gives you character: saturation that growls, delays that wobble, pitch shifting that turns vocals into instruments. It is the creative producer toolkit — the bundle you reach for when a track sounds correct but boring.</p><p><strong>The trade-off is focus.</strong> This is a color and movement collection, not a mixing foundation: there is no EQ, no compressor, no limiter here, and the vintage-styled interfaces prize vibe over visual feedback. Pair it with a clean EQ/comp bundle and you cover both halves of production — precision and personality.</p>",
-        "content_es": "<p><strong>Veintitrés efectos que definieron el color de los discos modernos — Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender y el Effect Rack que los encadena.</strong> Donde FabFilter te da precisión quirúrgica, Soundtoys te da carácter: saturación que ruge, delays que se tambalean, pitch shifting que convierte voces en instrumentos. Es la caja de herramientas del productor creativo — el paquete al que recurres cuando una pista suena correcta pero aburrida.</p><p><strong>La contrapartida es el enfoque.</strong> Es una colección de color y movimiento, no una base de mezcla: aquí no hay EQ, ni compresor, ni limitador, y sus interfaces de estética vintage premian la vibra sobre la información visual. Combínalo con un paquete limpio de EQ y compresión y cubres las dos mitades de la producción — precisión y personalidad.</p>",
-        "products": [
-          32
-        ],
-        "verdict": "",
-        "verdict_es": "",
-        "pros": [],
-        "pros_es": [],
-        "cons": [],
-        "cons_es": [],
-        "specs": {}
-      },
-      {
-        "heading": "UAD Ultimate 14: 100+ Hardware Emulations",
-        "heading_es": "UAD Ultimate 14: Más de 100 emulaciones de hardware",
-        "content": "<p><strong>The complete UAD collection — over one hundred faithful emulations of vintage analog hardware running on dedicated UAD DSP with near-zero latency.</strong> Neve preamps, API and SSL buses, Manley vari-mu glue, Ampex and Studer tape: the signal chains behind classic records, inside your DAW, tracking through them in real time the way engineers tracked through the hardware.</p><p><strong>The price of admission is the ecosystem.</strong> These plug-ins require UAD DSP hardware — a Satellite or UA interface — so there is a hardware buy-in on top of the software, and the bundle price sits at flagship level. For engineers chasing authentic analog behavior at tracking speed with no native CPU load, it remains the reference.</p>",
-        "content_es": "<p><strong>La colección completa de UAD — más de cien emulaciones fieles de hardware analógico clásico corriendo en DSP dedicado con latencia casi nula.</strong> Previos Neve, buses API y SSL, pegamento vari-mu de Manley, cintas Ampex y Studer: las cadenas de señal de los discos clásicos, dentro de tu DAW, procesando la señal con ellas en tiempo real como se hacía con el hardware.</p><p><strong>El precio es el ecosistema.</strong> Estos plug-ins exigen hardware DSP de UAD — un Satellite o una interfaz UA — así que hay una inversión en hardware además del software, y el precio del paquete está en terreno insignia. Para quien busque comportamiento analógico auténtico a velocidad de grabación y sin cargar la CPU, sigue siendo la referencia.</p>",
-        "products": [
-          121
-        ],
-        "verdict": "",
-        "verdict_es": "",
-        "pros": [],
-        "pros_es": [],
-        "cons": [],
-        "cons_es": [],
-        "specs": {}
       }
     ],
     "conclusion": "<p>For me, the choice is clear: <span class=\"product-name\">FabFilter Total Bundle</span>. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, and more.</p>",
     "conclusion_es": "<p>Para mí, la elección está clara: <span class=\"product-name\">FabFilter Paquete Total</span>. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3 y más.</p>",
-    "verdict": "<p><strong>The reference in this category is <span class=\"product-name\">FabFilter Total Bundle</span>.</strong> The ultimate mixing and mastering toolkit. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, and more.</p><p><strong><span class=\"product-name\">FabFilter Pro-Q 4</span></strong> — The world's most advanced equalizer. New spectral dynamics processing turns problematic resonances into musical opportunities.</p><p><strong><span class=\"product-name\">FabFilter Pro-C 3</span></strong> — The ultimate compressor plug-in. 14 compression styles from transparent mastering control to aggressive pumping.</p><p><strong><span class=\"product-name\">iZotope Ozone 12 Advanced</span></strong> — Next-gen AI-powered mastering suite. 20 pro modules including Stem EQ, Clarity, Stabilizer, and improved stem splitting with neural networks.</p><p><strong><span class=\"product-name\">Soundtoys 5.5 Bundle</span></strong> — 23 iconic effects including Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender, and Effect Rack. The creative producer's toolbox.</p><p><strong><span class=\"product-name\">Celemony Melodyne 5</span></strong> — The industry standard for pitch correction and vocal tuning. Edit individual notes within polyphonic audio — fix timing, pitch, and formants with surgical precision.</p><p><strong><span class=\"product-name\">Native Instruments Komplete 26 Ultimate</span></strong> — The ultimate Native Instruments collection.</p><p><strong><span class=\"product-name\">Tokyo Dawn Labs TDR Kotelnikov GE</span></strong> — The Gentleman's Edition of the legendary transparent compressor. Adds M/S processing, sidechain EQ, lookahead, dry/wet mix, oversampling, and precision metering.</p><p><strong><span class=\"product-name\">Universal Audio UAD Ultimate 14</span></strong> — The complete UAD plugin collection.</p>",
-    "verdict_es": "<p><strong>La referencia de la categoría es <span class=\"product-name\">FabFilter Paquete Total</span>.</strong> El kit definitivo de mezcla y masterización. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3 y más.</p><p><strong><span class=\"product-name\">FabFilter Pro-Q 4</span></strong> — El ecualizador más avanzado del mundo. Nuevo procesamiento de dinámica espectral convierte resonancias problemáticas en oportunidades musicales.</p><p><strong><span class=\"product-name\">FabFilter Pro-C 3</span></strong> — El compresor definitivo. 14 estilos de compresión desde control transparente de masterización hasta pumping agresivo.</p><p><strong><span class=\"product-name\">iZotope Ozone 12 Advanced</span></strong> — Suite de masterización de nueva generación impulsada por IA.</p><p><strong><span class=\"product-name\">Soundtoys 5.5 Bundle</span></strong> — 23 efectos icónicos incluyendo Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender y Effect Rack. Las herramientas imprescindibles del productor creativo.</p><p><strong><span class=\"product-name\">Celemony Melodyne 5</span></strong> — El estándar de la industria para corrección de tono y afinación vocal.</p><p><strong><span class=\"product-name\">Native Instruments Komplete 26 Definitivo</span></strong> — La colección definitiva de Native Instruments.</p><p><strong><span class=\"product-name\">TDR Kotelnikov GE</span></strong> — La Edición Gentleman del legendario compresor transparente. Añade procesamiento M/S, EQ de sidechain, lookahead, mezcla dry/wet, oversampling y medición de precisión.</p><p><strong><span class=\"product-name\">Universal Audio UAD Ultimate 14</span></strong> — La colección completa de plugins UAD.</p>",
+    "verdict": "<p><strong>The reference in this category is <span class=\"product-name\">FabFilter Total Bundle</span>.</strong> The ultimate mixing and mastering toolkit. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, and more. Pro-Q 4 and Pro-C 3 can be purchased individually.</p><p><strong><span class=\"product-name\">Tokyo Dawn Labs TDR Kotelnikov GE</span></strong> — Transparent bus & master compression with M/S, sidechain EQ, lookahead, oversampling.</p><p><strong><span class=\"product-name\">Soundtoys 5.5 Bundle</span></strong> — 23 iconic effects including Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender, and Effect Rack.</p><p><strong><span class=\"product-name\">Universal Audio UAD Ultimate 14</span></strong> — The complete UAD plugin collection with 100+ hardware emulations.</p><p><strong><span class=\"product-name\">Celemony Melodyne 5</span></strong> — Industry standard for pitch correction and vocal tuning.</p><p><strong><span class=\"product-name\">iZotope Ozone 12 Advanced</span></strong> — Next-gen AI-powered mastering suite.</p><p><strong><span class=\"product-name\">Native Instruments Komplete 26 Ultimate</span></strong> — The ultimate Native Instruments collection.</p>",
+    "verdict_es": "<p><strong>La referencia de la categoría es <span class=\"product-name\">FabFilter Paquete Total</span>.</strong> El kit definitivo de mezcla y masterización. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3 y más. Pro-Q 4 y Pro-C 3 se pueden comprar por separado.</p><p><strong><span class=\"product-name\">Tokyo Dawn Labs TDR Kotelnikov GE</span></strong> — Compresión transparente de bus y master con M/S, EQ de sidechain, lookahead y oversampling.</p><p><strong><span class=\"product-name\">Soundtoys 5.5 Bundle</span></strong> — 23 efectos icónicos incluyendo Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender y Effect Rack.</p><p><strong><span class=\"product-name\">Universal Audio UAD Ultimate 14</span></strong> — La colección completa de plugins UAD con más de 100 emulaciones.</p><p><strong><span class=\"product-name\">Celemony Melodyne 5</span></strong> — Estándar de la industria para corrección de tono y afinación vocal.</p><p><strong><span class=\"product-name\">iZotope Ozone 12 Advanced</span></strong> — Suite de masterización con IA de nueva generación.</p><p><strong><span class=\"product-name\">Native Instruments Komplete 26 Definitivo</span></strong> — La colección definitiva de Native Instruments.</p>",
     "featuredProducts": [
-      62,
-      30,
-      32,
       29,
-      63,
+      61,
+      32,
       121,
       120,
-      123,
-      61
+      30,
+      123
     ],
     "relatedGuides": [
       "mixing-plugins",
@@ -48613,36 +48547,28 @@
           "title_es": "FabFilter Total Bundle"
         },
         {
-          "title": "FabFilter Pro-Q 4",
-          "title_es": "FabFilter Pro-Q 4"
-        },
-        {
-          "title": "FabFilter Pro-C 3",
-          "title_es": "FabFilter Pro-C 3"
-        },
-        {
-          "title": "iZotope Ozone 12 Advanced",
-          "title_es": "iZotope Ozone 12 Advanced"
+          "title": "Tokyo Dawn Labs TDR Kotelnikov GE",
+          "title_es": "Tokyo Dawn Labs TDR Kotelnikov GE"
         },
         {
           "title": "Soundtoys 5.5 Bundle",
           "title_es": "Soundtoys 5.5 Bundle"
         },
         {
+          "title": "Universal Audio UAD Ultimate 14",
+          "title_es": "Universal Audio UAD Ultimate 14"
+        },
+        {
           "title": "Celemony Melodyne 5",
           "title_es": "Celemony Melodyne 5"
         },
         {
+          "title": "iZotope Ozone 12 Advanced",
+          "title_es": "iZotope Ozone 12 Advanced"
+        },
+        {
           "title": "Native Instruments Komplete 26 Ultimate",
           "title_es": "Native Instruments Komplete 26 Definitivo"
-        },
-        {
-          "title": "Tokyo Dawn Labs TDR Kotelnikov GE",
-          "title_es": "Tokyo Dawn Labs TDR Kotelnikov GE"
-        },
-        {
-          "title": "Universal Audio UAD Ultimate 14",
-          "title_es": "Universal Audio UAD Ultimate 14"
         }
       ],
       "rows": [
@@ -48655,36 +48581,28 @@
               "value_es": "Set completo para mezclar"
             },
             {
-              "value": "Precision EQ on any track",
-              "value_es": "EQ de precisión en cualquier pista"
-            },
-            {
-              "value": "Transparent to aggressive compression",
-              "value_es": "Compresión transparente o agresiva"
-            },
-            {
-              "value": "Mastering with AI-assisted workflow",
-              "value_es": "Mastering con flujo asistido por IA"
+              "value": "Transparent bus & master compression",
+              "value_es": "Transparent bus & master compression"
             },
             {
               "value": "Creative color and character FX",
               "value_es": "FX creativos con carácter"
             },
             {
+              "value": "Vintage hardware emulations",
+              "value_es": "Vintage hardware emulations"
+            },
+            {
               "value": "Pitch-perfect vocal tuning",
               "value_es": "Afinado vocal impecable"
             },
             {
+              "value": "Mastering with AI-assisted workflow",
+              "value_es": "Mastering con flujo asistido por IA"
+            },
+            {
               "value": "Huge instrument & FX library",
               "value_es": "Gran biblioteca de instrumentos y FX"
-            },
-            {
-              "value": "Transparent bus & master compression",
-              "value_es": "Transparent bus & master compression"
-            },
-            {
-              "value": "Vintage hardware emulations",
-              "value_es": "Vintage hardware emulations"
             }
           ]
         },
@@ -48697,36 +48615,28 @@
               "value_es": "14 plug-ins"
             },
             {
-              "value": "Dynamic/parametric EQ",
-              "value_es": "EQ paramétrico/dinámico"
-            },
-            {
               "value": "Compressor",
-              "value_es": "Compresor"
-            },
-            {
-              "value": "Mastering suite",
-              "value_es": "Suite de mastering"
+              "value_es": "Compressor"
             },
             {
               "value": "21 creative plug-ins",
               "value_es": "21 plugins creativos"
             },
             {
+              "value": "Emulation suite",
+              "value_es": "Emulation suite"
+            },
+            {
               "value": "Pitch correction & editing",
               "value_es": "Corrección y edición de tono"
             },
             {
+              "value": "Mastering suite",
+              "value_es": "Suite de mastering"
+            },
+            {
               "value": "Bundle (Kontakt-based)",
               "value_es": "Pack (basado en Kontakt)"
-            },
-            {
-              "value": "Compressor",
-              "value_es": "Compressor"
-            },
-            {
-              "value": "Emulation suite",
-              "value_es": "Emulation suite"
             }
           ]
         },
@@ -48734,10 +48644,6 @@
           "label": "Format",
           "label_es": "Formato",
           "values": [
-            {
-              "value": "VST2/VST3/AU/AAX",
-              "value_es": "VST2/VST3/AU/AAX"
-            },
             {
               "value": "VST2/VST3/AU/AAX",
               "value_es": "VST2/VST3/AU/AAX"
@@ -48765,10 +48671,6 @@
             {
               "value": "VST2/VST3/AU/AAX",
               "value_es": "VST2/VST3/AU/AAX"
-            },
-            {
-              "value": "VST2/VST3/AU/AAX",
-              "value_es": "VST2/VST3/AU/AAX"
             }
           ]
         },
@@ -48782,23 +48684,7 @@
             },
             {
               "value": "macOS & Windows",
-              "value_es": "macOS y Windows"
-            },
-            {
-              "value": "macOS & Windows",
-              "value_es": "macOS y Windows"
-            },
-            {
-              "value": "macOS & Windows",
-              "value_es": "macOS y Windows"
-            },
-            {
-              "value": "macOS & Windows",
-              "value_es": "macOS y Windows"
-            },
-            {
-              "value": "macOS & Windows",
-              "value_es": "macOS y Windows"
+              "value_es": "macOS & Windows"
             },
             {
               "value": "macOS & Windows",
@@ -48810,7 +48696,15 @@
             },
             {
               "value": "macOS & Windows",
-              "value_es": "macOS & Windows"
+              "value_es": "macOS y Windows"
+            },
+            {
+              "value": "macOS & Windows",
+              "value_es": "macOS y Windows"
+            },
+            {
+              "value": "macOS & Windows",
+              "value_es": "macOS y Windows"
             }
           ]
         },
@@ -48824,35 +48718,27 @@
             },
             {
               "value": "License file",
-              "value_es": "Archivo de licencia"
-            },
-            {
-              "value": "License file",
-              "value_es": "Archivo de licencia"
-            },
-            {
-              "value": "iLok",
-              "value_es": "iLok"
-            },
-            {
-              "value": "iLok",
-              "value_es": "iLok"
-            },
-            {
-              "value": "License file",
-              "value_es": "Archivo de licencia"
-            },
-            {
-              "value": "Native Access",
-              "value_es": "Native Access"
-            },
-            {
-              "value": "License file",
               "value_es": "License file"
+            },
+            {
+              "value": "iLok",
+              "value_es": "iLok"
             },
             {
               "value": "UAD DSP hardware required",
               "value_es": "UAD DSP hardware required"
+            },
+            {
+              "value": "License file",
+              "value_es": "Archivo de licencia"
+            },
+            {
+              "value": "iLok",
+              "value_es": "iLok"
+            },
+            {
+              "value": "Native Access",
+              "value_es": "Native Access"
             }
           ]
         },
@@ -48866,35 +48752,27 @@
             },
             {
               "value": "Ultra-low",
-              "value_es": "Ultrabaja"
-            },
-            {
-              "value": "Ultra-low",
-              "value_es": "Ultrabaja"
-            },
-            {
-              "value": "Low",
-              "value_es": "Baja"
-            },
-            {
-              "value": "Low",
-              "value_es": "Baja"
-            },
-            {
-              "value": "Low",
-              "value_es": "Baja"
-            },
-            {
-              "value": "Low",
-              "value_es": "Baja"
-            },
-            {
-              "value": "Ultra-low",
               "value_es": "Ultra-low"
+            },
+            {
+              "value": "Low",
+              "value_es": "Baja"
             },
             {
               "value": "Near-zero (DSP UAD)",
               "value_es": "Near-zero (DSP UAD)"
+            },
+            {
+              "value": "Low",
+              "value_es": "Baja"
+            },
+            {
+              "value": "Low",
+              "value_es": "Baja"
+            },
+            {
+              "value": "Low",
+              "value_es": "Baja"
             }
           ]
         },
@@ -48907,36 +48785,28 @@
               "value_es": "Pro-Q 4 + Pro-C 3 + Pro-MB + Pro-R"
             },
             {
-              "value": "24 bands, spectrum analyzer, linear phase",
-              "value_es": "24 bandas, analizador, fase lineal"
-            },
-            {
-              "value": "Opto, VCA, FET + dynamic sidechain",
-              "value_es": "Opto, VCA, FET + sidechain dinámico"
-            },
-            {
-              "value": "Ozone Assistant, Tonal Balance, 8 modules",
-              "value_es": "Ozone Assistant, Tonal Balance, 8 módulos"
+              "value": "M/S, sidechain EQ, lookahead, oversampling",
+              "value_es": "M/S, sidechain EQ, lookahead, oversampling"
             },
             {
               "value": "EchoBoy, Decapitator, AlterBoy, FilterFreak",
               "value_es": "EchoBoy, Decapitator, AlterBoy, FilterFreak"
             },
             {
+              "value": "100+ emulations: Neve, API, SSL, Manley, Ampex",
+              "value_es": "100+ emulations: Neve, API, SSL, Manley, Ampex"
+            },
+            {
               "value": "Melodic algorithm, per-note editing",
               "value_es": "Algoritmo melódico, edición por nota"
             },
             {
+              "value": "Ozone Assistant, Tonal Balance, 8 modules",
+              "value_es": "Ozone Assistant, Tonal Balance, 8 módulos"
+            },
+            {
               "value": "100+ instruments, synths & sampled libraries",
               "value_es": "100+ instrumentos, synths y librerías"
-            },
-            {
-              "value": "M/S, sidechain EQ, lookahead, oversampling",
-              "value_es": "M/S, sidechain EQ, lookahead, oversampling"
-            },
-            {
-              "value": "100+ emulations: Neve, API, SSL, Manley, Ampex",
-              "value_es": "100+ emulations: Neve, API, SSL, Manley, Ampex"
             }
           ]
         }
