@@ -248,7 +248,7 @@ window.tmgStoreButtons = function(p) {
         }
         return;
       }
-      var tmgCheckLabel = tmgIsEsDoc() ? 'Verificar precio' : 'Check Price';
+      var tmgCheckLabel = tmgIsEsDoc() ? 'Ver precio' : 'See price';
       if (curStore === T || curStore === 'msdirect') return;
       if (!curStore) return;
       var zRow = c.querySelector('[data-store="' + T + '"]');

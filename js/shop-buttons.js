@@ -5769,7 +5769,7 @@ function shopButtonsTest(p, lang) {
   if (isPlugins) _precio = '';
   const pPriceRaw = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
-    : (_precio ? fmtPrice(_precio, lang, true) : t('Verificar precio', 'Check Price'));
+    : (_precio ? fmtPrice(_precio, lang, true) : t('Ver precio', 'See price'));
   const pPrice = pPriceRaw;
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
@@ -5806,11 +5806,11 @@ function shopButtonsTest(p, lang) {
     const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
       const naUrl = rowUrl(k);
-      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + ((k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : '') + '</a>';
+      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + ((k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See price') + '</span>' : '') + '</a>';
     }
     if (oosList.indexOf(k) > -1 || (k !== 'reverb' && !prices[k] && stores[k])) {
       const _oosPr = (cfg.prices && cfg.prices[k]) ? cfg.prices[k] : '';
-      const oosPrice = (k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : ((_oosPr) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + fmtPrice(_oosPr, lang) + '</span></span>' : '';
+      const oosPrice = (k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See price') + '</span>' : ((_oosPr) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + fmtPrice(_oosPr, lang) + '</span></span>' : '';
       return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + oosPrice + '</a>';
     }
     // Amazon no tiene precio propio en casi ningun producto (solo aporta el
@@ -5826,7 +5826,7 @@ function shopButtonsTest(p, lang) {
     };
     const _pr = _rowPrice(k);
     const rowPriceFmt = _pr ? fmtPrice(_pr, lang) : '';
-    const pr = (!_pr) ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (_pr ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + rowPriceFmt + '</span></span>' : '');
+    const pr = (!_pr) ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See price') + '</span>' : (_pr ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + rowPriceFmt + '</span></span>' : '');
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + pr + '</a>';
@@ -6406,7 +6406,7 @@ function shopButtonsTest(p, lang) {
   if (isPlugins) _precio = '';
   const pPriceRaw = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
-    : (_precio ? fmtPrice(_precio, lang, true) : t('Verificar precio', 'Check Price'));
+    : (_precio ? fmtPrice(_precio, lang, true) : t('Ver precio', 'See price'));
   const pPrice = pPriceRaw;
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
@@ -6443,11 +6443,11 @@ function shopButtonsTest(p, lang) {
     const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
       const naUrl = rowUrl(k);
-      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + ((k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : '') + '</a>';
+      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + ((k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See price') + '</span>' : '') + '</a>';
     }
     if (oosList.indexOf(k) > -1 || (k !== 'reverb' && !prices[k] && stores[k])) {
       const _oosPr = (cfg.prices && cfg.prices[k]) ? cfg.prices[k] : '';
-      const oosPrice = (k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : ((_oosPr) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + fmtPrice(_oosPr, lang) + '</span></span>' : '';
+      const oosPrice = (k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See price') + '</span>' : ((_oosPr) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + fmtPrice(_oosPr, lang) + '</span></span>' : '';
       return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + oosPrice + '</a>';
     }
     // Amazon no tiene precio propio en casi ningun producto (solo aporta el
@@ -6463,7 +6463,7 @@ function shopButtonsTest(p, lang) {
     };
     const _pr = _rowPrice(k);
     const rowPriceFmt = _pr ? fmtPrice(_pr, lang) : '';
-    const pr = (!_pr) ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Verificar precio', 'Check Price') + '</span>' : (_pr ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + rowPriceFmt + '</span></span>' : '');
+    const pr = (!_pr) ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See price') + '</span>' : (_pr ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + rowPriceFmt + '</span></span>' : '');
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + pr + '</a>';
@@ -6539,7 +6539,7 @@ window.tmgStoreButtons = function(p) {
         }
         return;
       }
-      var tmgCheckLabel = tmgIsEsDoc() ? 'Verificar precio' : 'Check Price';
+      var tmgCheckLabel = tmgIsEsDoc() ? 'Ver precio' : 'See price';
       if (curStore === T || curStore === 'msdirect') return;
       if (!curStore) return;
       var zRow = c.querySelector('[data-store="' + T + '"]');
