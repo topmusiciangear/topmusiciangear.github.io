@@ -31,13 +31,23 @@ function loadTestShopBtn() {
 
 async function fetchPrice(url, store) {
   try {
-    // Tiendas con Cloudflare / render dinámico usan Playwright
-    const needsBrowser = ['zzounds','gear4music','musicstore'].includes(store);
     let html;
-    if (needsBrowser){
+    if (store === 'zzounds') {
+      // r.jina.ai funciona gratis para zZounds
+      const res = await fetch(`https://r.jina.ai/http://${url.replace(/^https?:\/\//,'')}`);
+      html = await res.text();
+    } else if (['gear4music','musicstore'].includes(store)) {
+      // Playwright + proxy HOSTAL para Cloudflare
       const { chromium } = require('playwright');
-      const browser = await chromium.launch({ headless: true });
-      const page = await browser.newPage();
+      const proxy = process.env.GLOBAL_AGENT_HTTP_PROXY || process.env.HTTP_PROXY;
+      const browser = await chromium.launch({
+        headless: true,
+        args: proxy ? [`--proxy-server=${proxy}`] : []
+      });
+      const context = await browser.newContext({
+        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36'
+      });
+      const page = await context.newPage();
       await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
       html = await page.content();
       await browser.close();
@@ -107,7 +117,8 @@ async function run() {
           continue;
         }
         console.log(`Producto ${id} ${store}: ${current} -> ${newPrice}`);
-        cfg.prices[store] = newPrice.toFixed(2);
+        const rounded = Math.round(newPrice);
+        cfg.prices[store] = String(rounded);
         changed = true;
       }
     }
