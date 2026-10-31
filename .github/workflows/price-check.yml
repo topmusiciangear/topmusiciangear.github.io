@@ -18,6 +18,12 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Debug file
+        run: |
+          ls -la scripts
+          head -n 5 scripts/price-watcher.js
+          wc -l scripts/price-watcher.js
+
       - name: Run price watcher
         env:
           THRESHOLD: '0.01'
