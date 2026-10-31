@@ -57,6 +57,7 @@ function loadTestShopBtn() {
 
 async function fetchPrice(url, store) {
   try {
+    if (!url) return null;
     let html;
     if (store === 'zzounds') {
       // r.jina.ai funciona gratis para zZounds
