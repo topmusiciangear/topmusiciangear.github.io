@@ -45,8 +45,14 @@ function loadTestShopBtn() {
   const vm = require('vm');
   const sandbox = {};
   vm.createContext(sandbox);
-  vm.runInContext(code, sandbox);
-  return sandbox.TEST_SHOP_BTN;
+  try {
+    vm.runInContext(code, sandbox);
+    if (!sandbox.TEST_SHOP_BTN) throw new Error('TEST_SHOP_BTN undefined');
+    return sandbox.TEST_SHOP_BTN;
+  } catch (e) {
+    console.error('Error loading TEST_SHOP_BTN:', e.message);
+    return {};
+  }
 }
 
 async function fetchPrice(url, store) {
