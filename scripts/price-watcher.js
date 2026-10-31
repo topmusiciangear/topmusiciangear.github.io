@@ -100,7 +100,7 @@ async function fetchPrice(url, store) {
     // Fallback regex para zZounds
     if(store==='zzounds'){
       const m = html.match(/"price"\s*:\s*"([^"]+)"/);
-      if(m) return parseFloat(String(m[1]).replace(/[^0-9.]/g,''));
+      if(m && m[1]) return parseFloat(String(m[1]).replace(/[^0-9.]/g,''));
     }
     return null;
   } catch (e) {
@@ -111,7 +111,11 @@ async function fetchPrice(url, store) {
 
 async function run() {
   const products = loadProducts();
-  const testBtn = loadTestShopBtn();
+  const testBtn = loadTestShopBtn() || {};
+  if (!testBtn || typeof testBtn !== 'object') {
+    console.error('TEST_SHOP_BTN no cargado correctamente');
+    return;
+  }
   let changed = false;
 
   for (const p of products) {
