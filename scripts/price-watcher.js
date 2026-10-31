@@ -19,14 +19,27 @@ function loadTestShopBtn() {
   const content = fs.readFileSync(GUIDES_PATH, 'utf8');
   const start = content.indexOf('const TEST_SHOP_BTN = {');
   if (start === -1) throw new Error('TEST_SHOP_BTN no encontrado');
-  const end = content.indexOf('};', start) + 2;
-  const code = content.slice(start, end);
-  // Eval seguro en sandbox
-  const vm = require('vm');
-  const sandbox = {};
-  vm.createContext(sandbox);
-  vm.runInContext(code, sandbox);
-  return sandbox.TEST_SHOP_BTN;
+  // Find matching closing brace by counting
+  let braceCount = 0;
+  let i = start;
+  for (; i < content.length; i++) {
+    const ch = content[i];
+    if (ch === '{') braceCount++;
+    else if (ch === '}') {
+      braceCount--;
+      if (braceCount === 0) {
+        // include the ';' if present
+        const end = i + 1;
+        const code = content.slice(start, end + (content[end] === ';' ? 1 : 0));
+        const vm = require('vm');
+        const sandbox = {};
+        vm.createContext(sandbox);
+        vm.runInContext(code, sandbox);
+        return sandbox.TEST_SHOP_BTN;
+      }
+    }
+  }
+  throw new Error('TEST_SHOP_BTN no cerrado correctamente');
 }
 
 async function fetchPrice(url, store) {
