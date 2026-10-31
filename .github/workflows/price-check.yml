@@ -1,0 +1,36 @@
+name: Price Watcher
+
+on:
+  schedule:
+    - cron: '0 3 */5 * *'  # cada 5 días a las 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  check-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run price watcher
+        env:
+          THRESHOLD: '0.01'
+        run: node scripts/price-watcher.js
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/guides.json guides/ js/shop-buttons.js
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "price-watcher: update store prices"
+            git push
+          fi
