@@ -21,6 +21,10 @@ jobs:
       - name: Run price watcher
         env:
           THRESHOLD: '0.01'
+          GLOBAL_AGENT_HTTP_PROXY: ${{ secrets.HOSTAL_PROXY_URL }}
+          GLOBAL_AGENT_HTTPS_PROXY: ${{ secrets.HOSTAL_PROXY_URL }}
+          HTTP_PROXY: ${{ secrets.HOSTAL_PROXY_URL }}
+          HTTPS_PROXY: ${{ secrets.HOSTAL_PROXY_URL }}
         run: node scripts/price-watcher.js
 
       - name: Commit changes if any
