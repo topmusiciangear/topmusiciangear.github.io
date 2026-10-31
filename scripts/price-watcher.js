@@ -17,24 +17,62 @@ function loadProducts() {
 
 function loadTestShopBtn() {
   const content = fs.readFileSync(GUIDES_PATH, 'utf8');
-  const match = content.match(/const TEST_SHOP_BTN = ({[\s\S]*?});/);
-  if (!match) throw new Error('TEST_SHOP_BTN no encontrado');
-  // Eval seguro limitado a objeto
-  return JSON.parse('{' + match[1].replace(/(\w+):/g, '"$1":') + '}');
+  const start = content.indexOf('const TEST_SHOP_BTN = {');
+  if (start === -1) throw new Error('TEST_SHOP_BTN no encontrado');
+  const end = content.indexOf('};', start) + 2;
+  const code = content.slice(start, end);
+  // Eval seguro en sandbox
+  const vm = require('vm');
+  const sandbox = {};
+  vm.createContext(sandbox);
+  vm.runInContext(code, sandbox);
+  return sandbox.TEST_SHOP_BTN;
 }
 
 async function fetchPrice(url, store) {
   try {
-    const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
-    const html = await res.text();
-    // Búsqueda simple de JSON-LD con offers.price
-    const ldMatch = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
-    if (!ldMatch) return null;
-    const data = JSON.parse(ldMatch[1]);
-    const offers = data.offers || data;
-    const price = offers.price || offers.aggregateRating?.ratingValue;
-    if (!price) return null;
-    return parseFloat(String(price).replace(/[^0-9.]/g, ''));
+    // Tiendas con Cloudflare / render dinámico usan Playwright
+    const needsBrowser = ['zzounds','gear4music','musicstore'].includes(store);
+    let html;
+    if (needsBrowser){
+      const { chromium } = require('playwright');
+      const browser = await chromium.launch({ headless: true });
+      const page = await browser.newPage();
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+      html = await page.content();
+      await browser.close();
+    } else {
+      const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+      html = await res.text();
+    }
+    const blocks = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g) || [];
+    for (const b of blocks){
+      try{
+        const jsonStr = b.replace(/<script[^>]*>/,'').replace(/<\/script>/,'').trim();
+        const data = JSON.parse(jsonStr);
+        const findPrice = (obj)=>{
+          if(!obj || typeof obj!=='object') return null;
+          if(obj.offers?.price) return obj.offers.price;
+          if(Array.isArray(obj['@graph'])) {
+            for(const item of obj['@graph']){
+              if(item.offers?.price) return item.offers.price;
+            }
+          }
+          if(obj.offers && typeof obj.offers==='object'){
+            if(obj.offers.price) return obj.offers.price;
+          }
+          return null;
+        };
+        const price = findPrice(data);
+        if(price) return parseFloat(String(price).replace(/[^0-9.]/g,''));
+      }catch{}
+    }
+    // Fallback regex para zZounds
+    if(store==='zzounds'){
+      const m = html.match(/"price"\s*:\s*"([^"]+)"/);
+      if(m) return parseFloat(String(m[1]).replace(/[^0-9.]/g,''));
+    }
+    return null;
   } catch (e) {
     console.warn(`Fetch error ${store}:`, e.message);
     return null;
