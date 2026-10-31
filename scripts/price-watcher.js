@@ -41,7 +41,7 @@ function loadTestShopBtn() {
   if (endLine === -1) throw new Error('TEST_SHOP_BTN no cerrado correctamente');
   let code = lines.slice(startLine, endLine + 1).join('\n');
   // vm sandbox no guarda const, convertir a var
-  code = code.replace(/^const TEST_SHOP_BTN =/, 'var TEST_SHOP_BTN =');
+  code = code.replace(/^\s*const TEST_SHOP_BTN =/, 'var TEST_SHOP_BTN =');
   const vm = require('vm');
   const sandbox = {};
   vm.createContext(sandbox);
