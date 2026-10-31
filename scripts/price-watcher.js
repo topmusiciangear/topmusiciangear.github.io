@@ -17,29 +17,34 @@ function loadProducts() {
 
 function loadTestShopBtn() {
   const content = fs.readFileSync(GUIDES_PATH, 'utf8');
-  const start = content.indexOf('const TEST_SHOP_BTN = {');
-  if (start === -1) throw new Error('TEST_SHOP_BTN no encontrado');
-  // Find matching closing brace by counting
-  let braceCount = 0;
-  let i = start;
-  for (; i < content.length; i++) {
-    const ch = content[i];
-    if (ch === '{') braceCount++;
-    else if (ch === '}') {
-      braceCount--;
-      if (braceCount === 0) {
-        // include the ';' if present
-        const end = i + 1;
-        const code = content.slice(start, end + (content[end] === ';' ? 1 : 0));
-        const vm = require('vm');
-        const sandbox = {};
-        vm.createContext(sandbox);
-        vm.runInContext(code, sandbox);
-        return sandbox.TEST_SHOP_BTN;
+  const lines = content.split(/\r?\n/);
+  let startLine = -1;
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].includes('const TEST_SHOP_BTN = {')) {
+      startLine = i;
+      break;
+    }
+  }
+  if (startLine === -1) throw new Error('TEST_SHOP_BTN no encontrado');
+  const startIndent = lines[startLine].search(/\S/);
+  let endLine = -1;
+  for (let i = startLine + 1; i < lines.length; i++) {
+    const line = lines[i];
+    if (/^\s*\};\s*$/.test(line)) {
+      const indent = line.search(/\S/);
+      if (indent <= startIndent) {
+        endLine = i;
+        break;
       }
     }
   }
-  throw new Error('TEST_SHOP_BTN no cerrado correctamente');
+  if (endLine === -1) throw new Error('TEST_SHOP_BTN no cerrado correctamente');
+  const code = lines.slice(startLine, endLine + 1).join('\n');
+  const vm = require('vm');
+  const sandbox = {};
+  vm.createContext(sandbox);
+  vm.runInContext(code, sandbox);
+  return sandbox.TEST_SHOP_BTN;
 }
 
 async function fetchPrice(url, store) {
