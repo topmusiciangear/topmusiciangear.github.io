@@ -151,7 +151,7 @@ function criticalCss() {
     '.mobile-nav.open{opacity:1;pointer-events:auto}',
     '.audio-mini{flex:1;display:flex;justify-content:center}.audio-mini-inner{display:flex;align-items:center;gap:12px;white-space:nowrap}.audio-mini-label{font-size:13px;font-weight:600;color:var(--white);letter-spacing:.3px;display:block;line-height:1.45}.audio-mini-marquee{display:block}.audio-mini-marquee-item{white-space:normal}.audio-mini audio{width:260px;height:36px;border-radius:6px;filter:invert(1) hue-rotate(180deg)}.audio-mini-player{display:inline-flex;background:rgba(255,255,255,0.08);border-radius:6px;padding:2px}',
     '.guide-faq{margin:40px 0 20px;padding-top:8px;border-top:1px solid var(--border)}.guide-faq-title{font-size:22px;font-weight:700;margin:0 0 24px;color:var(--white)}.guide-faq-list{display:flex;flex-direction:column}.guide-faq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--bg-card);margin-bottom:8px}.guide-faq-item:last-child{margin-bottom:0}.guide-faq-question{width:100%;padding:16px 20px;background:none;border:none;color:var(--text);font-size:15px;font-weight:600;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:inherit;line-height:1.4}.guide-faq-question:hover{background:var(--bg-card-hover)}.guide-faq-icon{font-size:20px;font-weight:300;color:var(--accent);flex-shrink:0;transition:transform .25s ease}.guide-faq-question.open .guide-faq-icon{transform:rotate(45deg)}.guide-faq-answer{padding:0 20px 16px;color:var(--text-secondary);font-size:14px;line-height:1.7;max-height:0;overflow:hidden;transition:max-height .3s ease}',
-    '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.verdict-label{font-size:20px;font-weight:800;color:var(--accent)!important;margin-bottom:12px}/* cache-bust 2026-10-31 */.verdict-text{font-size:15px;color:var(--text-secondary);line-height:1.8}.verdict-product-name{color:var(--white)!important;font-weight:700;font-size:15px;margin-bottom:8px}.product-name{color:var(--accent);font-weight:700}.guide-verdict .product-name,.guide-conclusion .product-name{color:var(--white)!important}.guide-verdict a .product-name,.guide-conclusion a .product-name{color:var(--accent)!important}',
+    '.guide-verdict{background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:var(--radius);padding:14px 22px;margin-bottom:40px}.verdict-label{font-size:20px;font-weight:800;color:var(--white);margin-bottom:12px}.verdict-text{font-size:15px;color:var(--text-secondary);line-height:1.8}.verdict-product-name{color:var(--accent);font-weight:700;font-size:15px;margin-bottom:8px}.product-name{color:var(--accent);font-weight:700}',
     '.guide-detail{padding:20px 32px 60px}@media(max-width:768px){.guide-detail{padding:16px 16px 40px}}@media(max-width:480px){.guide-detail{padding:12px 12px 32px}}',
     '.guide-detail .guide-detail-img{width:100%;border-radius:var(--radius-lg);overflow:hidden;margin-bottom:32px;border:1px solid var(--border);max-height:500px;background:#fff}.guide-detail .guide-detail-img img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover;max-height:500px}.guide-detail .guide-detail-img.guide-detail-img--cutout{background:#5a5a5a}.guide-detail .guide-detail-img--cutout img{object-fit:contain;padding:6px;box-sizing:border-box}',
     '.guide-product-card{contain:layout style;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}.guide-product-card-img{width:100%;aspect-ratio:4/3;overflow:hidden;background:#fff}.guide-product-card-img img{width:100%;height:100%;object-fit:contain;padding:8px;box-sizing:border-box}.guide-product-card .guide-product-card-img--cutout{background:#5a5a5a}.guide-product-card--cutout{background:rgba(255,255,255,.06)}.guide-product-card--cutout .guide-product-card-img img{object-fit:contain;padding:10px;box-sizing:border-box}.guide-products-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.guide-products-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.guide-products-cards{grid-template-columns:1fr;gap:16px}.guide-products-cards .guide-product-card-img{aspect-ratio:16/9}.guide-reviews{padding:16px}}.guide-products-grid{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}',
@@ -2458,7 +2458,7 @@ const TEST_SHOP_BTN = {
     prices: {
       amazon: "$799.00",
       zzounds: "$799.00",
-      andertons: "£711.00",
+      andertons: "£719.00",
       gear4music: "£719.00",
       musicstore: "€829.00"
     }
@@ -3635,13 +3635,12 @@ const TEST_SHOP_BTN = {
   },
   379: {
     prices: {
-      gear4music: "£59.00",
-      andertons: "£59.00"
+      pluginboutique: "€42.35"
     },
-    urls: {
-      gear4music: "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-SSL-4000-E-Chanel-Strip/6RTQ",
-      andertons: "https://www.andertons.co.uk/universal-audio-ssl-4000-e-channel-strip--esd/"
-    }
+    pbCur: {
+      us: "$175.00",
+      uk: "£139.28"
+    },
   },
   380: {
     prices: {
@@ -4042,7 +4041,7 @@ const TEST_SHOP_BTN = {
     }
   },
 
-  610: { prices: { andertons: "£177.00", gear4music: "£178.00", zzounds: "$249.00", musicstore: "€199.00" }, urls: { amazon: "https://www.amazon.com/dp/B0B11K62XF?tag=topmusicg-20", gear4music: "https://www.gear4music.com/Recording-and-Computers/Roland-Aira-Compact-T-8-Beat-Machine/4TXY", zzounds: "https://www.zzounds.com/item--ROLT8?siid=318855", musicstore: "https://www.musicstore.com/en_OE/EUR/Roland-T-8-Beat-Machine/art-SYN0008302-000?utm_source=na" } },
+  610: { prices: { andertons: "£177.00", gear4music: "£178.00", zzounds: "$249.00" }, urls: { amazon: "https://www.amazon.com/dp/B0B11K62XF?tag=topmusicg-20", gear4music: "https://www.gear4music.com/Recording-and-Computers/Roland-Aira-Compact-T-8-Beat-Machine/4TXY", zzounds: "https://www.zzounds.com/item--ROLT8?siid=318855" } },
   612: {
     prices: {
       gear4music: "£920.00", zzounds: "$1,149.00",
@@ -6089,9 +6088,6 @@ const TEST_SHOP_BTN = {
 1038: {prices:{pluginboutique:"€146.20",gear4music:"£149.00",musicstore:"€194.00"},pbCur:{us:"$149.00",uk:"£124.80"}},
 
 1039: {prices:{pluginboutique:"€271.04",gear4music:"£215.00"},pbCur:{us:"$249.00",uk:"£238.80"}},
-1066: {prices:{gear4music:"£122.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/SSL-Native-Channel-Strip-2/5B7U"}},
-1068: {prices:{gear4music:"£29.00",zzounds:"$29.00",andertons:"£26.00"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Universal-Audio-API-Vision-Channel-Strip/5Z78",zzounds:"https://www.zzounds.com/item--UADAPIVISCHNSTRP",andertons:"https://www.andertons.co.uk/universal-audio-api-vision-channel-strip--esd/"}},
-1072: {prices:{gear4music:"£1,752",zzounds:"$2,299",andertons:"£1,675",musicstore:"€1,998"},urls:{gear4music:"https://www.gear4music.com/Recording-and-Computers/Focal-Twin-6-ST6-Active-Studio-Monitor/4WVC",zzounds:"https://www.zzounds.com/item--FOLFOPROTWIN6ST6?siid=320073",andertons:"https://www.andertons.co.uk/focal-twin-6-st6-studio-monitors/",musicstore:"https://www.musicstore.com/en_OE/EUR/Focal-Twin-6/art-REC0016101-000"}},
 
   };function hollyDefaultRegion() {
   var isUsa = false;
@@ -6150,8 +6146,8 @@ function shopButtonsTest(p, lang) {
   const dawHasAmazon = isDaw && !isLogic && prices.amazon;
   const t = (es, en) => lang === 'es' ? es : en;
   const starSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#FFC107" style="flex-shrink:0"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L374 150.2 308.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>';
-  const cartSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0;margin-right:8px"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>';
-  const chevSvg = '<svg viewBox="0 0 512 512" width="1.1em" height="1.1em" fill="currentColor" style="flex-shrink:0;transition:transform .3s ease;margin-top:2px;margin-left:8px"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>';
+  const cartSvg = '<svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>';
+  const chevSvg = '<svg viewBox="0 0 512 512" width="1.1em" height="1.1em" fill="currentColor" style="flex-shrink:0;transition:transform .3s ease;margin-top:2px"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>';
   // Amazon solo entra en la lista si de verdad hay un ASIN de producto. En plugins
   // casi nunca lo hay (y antes la fila acababa apuntando a la portada de Amazon).
   const _amazonUrl = (cfg.urls && cfg.urls.amazon) || stores.amazon || '';
@@ -6200,11 +6196,9 @@ function shopButtonsTest(p, lang) {
   // "Check price" / "Verificar precio". El precio de Amazon sigue en
   // TEST_SHOP_BTN (lo usan los totales), pero no se pinta.
   if (primaryStoreKey === 'amazon') _precio = '';
-  if (isPlugins) _precio = '';
-  const pPriceRaw = isHolly
+  const pPrice = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
-    : (_precio ? fmtPrice(_precio, lang, true) : t('Ver precio', 'See Price'));
-  const pPrice = pPriceRaw;
+    : (_precio ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability'));
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(searchTerm(p.title)) + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
@@ -6227,11 +6221,11 @@ function shopButtonsTest(p, lang) {
   }
   const primaryBtn =
     '<a data-store="' + (primaryStoreKey) + '" href="' + pUrl + '"' + hollyAttrs + pbAttrs + ' target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" ' +
-    'style="display:flex;align-items:center;justify-content:center;gap:0;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
+    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#3b82f6;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;' +
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
-    cartSvg + '<span style="white-space:nowrap;display:inline">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at') + ' ' + (isHolly ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.hollyland + '</span>' : dawHasAmazon ? '<span style=\'' + SHOP_PRIMARY_FONT + '\'>Amazon</span>' : isDaw ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'' + SHOP_PRIMARY_FONT + '\'>PluginBoutique</span>' : (primaryStoreKey === 'zzounds' ? '<span style=' + SHOP_PRIMARY_FONT + '>zZounds</span>' : primaryStoreKey === 'gear4music' ? '<span style=' + SHOP_PRIMARY_FONT + '>' + SHOP_LOGO_TEXT.gear4music + '</span>' : primaryStoreKey === 'amazon' ? '<span style=' + SHOP_PRIMARY_FONT + '>Amazon</span>' : primaryStoreKey === 'pluginboutique' ? '<span style=' + SHOP_PRIMARY_FONT + '>PluginBoutique</span>' : primaryStoreKey === 'official' ? '<span style=' + SHOP_PRIMARY_FONT + '>Official Store</span>' : primaryStoreKey === 'hollyland' ? '<span style=' + SHOP_PRIMARY_FONT + '>Hollyland</span>' : '<span style="' + SHOP_PRIMARY_FONT + '">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>'))) + (pPrice ? ' - ' + pPrice : '') + '</span></a>';
+    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at')) + (isLogic ? '' : isHolly ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.hollyland + '</span>' : dawHasAmazon ? '<span style=\'' + SHOP_PRIMARY_FONT + '\'>Amazon</span>' : isDaw ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'' + SHOP_PRIMARY_FONT + '\'>PluginBoutique</span>' : (primaryStoreKey === 'zzounds' ? '<span style=' + SHOP_PRIMARY_FONT + '>zZounds</span>' : primaryStoreKey === 'gear4music' ? '<span style=' + SHOP_PRIMARY_FONT + '>' + SHOP_LOGO_TEXT.gear4music + '</span>' : primaryStoreKey === 'amazon' ? '<span style=' + SHOP_PRIMARY_FONT + '>Amazon</span>' : primaryStoreKey === 'pluginboutique' ? '<span style=' + SHOP_PRIMARY_FONT + '>PluginBoutique</span>' : primaryStoreKey === 'official' ? '<span style=' + SHOP_PRIMARY_FONT + '>Official Store</span>' : primaryStoreKey === 'hollyland' ? '<span style=' + SHOP_PRIMARY_FONT + '>Hollyland</span>' : '<span style="' + SHOP_PRIMARY_FONT + '">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>')) + (pPrice ? '<span>- ' + pPrice + '</span>' : '') + '</span></a>';
   const rows = order.filter(k => k !== primaryStoreKey).map(k => {
     const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
     const st = SHOP_ROW_FONT;
@@ -6240,12 +6234,11 @@ function shopButtonsTest(p, lang) {
     const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
       const naUrl = rowUrl(k);
-      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + ((k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See Price') + '</span>' : '') + '</a>';
+      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Comprobar disponibilidad', 'Check Availability') + '</span>' + '</a>';
     }
-    if (oosList.indexOf(k) > -1 || (k !== 'reverb' && !prices[k] && stores[k])) {
-      const _oosPr = (cfg.prices && cfg.prices[k]) ? cfg.prices[k] : '';
-      const oosPrice = (k === 'amazon' || k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See Price') + '</span>' : ((_oosPr) && !(k === 'amazon' && isPlugins)) ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + fmtPrice(_oosPr, lang) + '</span></span>' : '';
-      return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + oosPrice + '</a>';
+    if (oosList.indexOf(k) > -1) {
+      const oosUrl = rowUrl(k);
+      return '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Comprobar disponibilidad', 'Check Availability') + '</span>' + '</a>';
     }
     // Amazon no tiene precio propio en casi ningun producto (solo aporta el
     // enlace con tag). Antes se mostraba "Verificar precio" y se perdia el
@@ -6253,17 +6246,12 @@ function shopButtonsTest(p, lang) {
     // disponible, igual que en el boton primario.
     // REGLA FIJA: Amazon nunca muestra precio en la fila, solo
     // "Check price" / "Verificar precio" (ni el suyo ni el de otra tienda).
-    const _rowPrice = (k) => {
-      if (k === 'amazon') return '';
-      if (prices[k]) return prices[k];
-      return '';
-    };
-    const _pr = _rowPrice(k);
-    const rowPriceFmt = _pr ? fmtPrice(_pr, lang) : '';
-    const pr = (!_pr) ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See Price') + '</span>' : (k === 'amazon' && isPlugins) ? '' : (k === 'reverb') ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + t('Ver precio', 'See Price') + '</span>' : (_pr ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0">' + '<span style="font-weight:700;color:#fff">' + rowPriceFmt + '</span></span>' : '');
+    const hasPrice = !!(prices[k] && prices[k] !== '');
+    const showLabel = hasPrice ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability');
+    const rowBg = hasPrice ? '#333333' : '#262626';
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
-      'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#333333;transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
-      'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + pr + '</a>';
+      'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:' + rowBg + ';transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
+      'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#fff">' + showLabel + '</span></a>';
   }).join('');
   // Fila final del desplegable: escribir reseña. Se declara fuera del .map() de
   // rows para que quede SIEMPRE después de todas las tiendas.
@@ -6272,15 +6260,15 @@ function shopButtonsTest(p, lang) {
     'border-radius:12px;background:#262626;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;' +
     'border:none;cursor:pointer;transition:transform .18s ease,background .18s ease,box-shadow .18s ease" ' +
     'onmouseover="this.style.background=\'#34383d\'" onmouseout="this.style.background=\'#262626\'">' +
-    starSvg + '<span style="white-space:nowrap">' + t('Escribe una reseña', 'Write a Review') + '</span></button>';
+    starSvg + '<span style="white-space:nowrap">' + t('Escribe una reseña', 'Write a review') + '</span></button>';
   const rowCount = order.filter(k => k !== primaryStoreKey).length;
   const moreBtn =
     '<button type="button" class="shop-btn-more" ' +
     'onclick="var l=this.nextElementSibling;var open=l.style.maxHeight&&l.style.maxHeight!==\'0px\';if(open){l.style.overflow=\'hidden\';l.style.maxHeight=l.scrollHeight+\'px\';void l.offsetHeight;l.style.maxHeight=\'0px\';setTimeout(function(){if(l.style.maxHeight===\'0px\'){l.style.display=\'none\';l.style.overflow=\'hidden\';}},330);}else{l.style.display=\'flex\';l.style.overflow=\'hidden\';l.style.maxHeight=l.scrollHeight+\'px\';setTimeout(function(){if(l.style.maxHeight!==\'0px\'){l.style.maxHeight=\'none\';l.style.overflow=\'visible\';}},330);}var s=this.querySelectorAll(\'svg\')[1];if(s)s.style.transform=open?\'\':\'rotate(180deg)\';" ' +
-    'style="display:flex;align-items:center;justify-content:center;gap:0;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
+    'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#333333;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
-    cartSvg + t('Comparar en ' + rowCount + ' tiendas más', 'Compare ' + rowCount + ' More Stores') + chevSvg + '</button>' +
+    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + t('Comparar en ' + rowCount + ' tiendas más', 'Compare ' + rowCount + ' more stores') + chevSvg + '</span></span>' + '</button>' +
     '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:none;flex-direction:column;gap:6px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>' + reviewRow;
   return isLogic ? primaryBtn + reviewRow : primaryBtn + moreBtn;
 }
@@ -6889,11 +6877,8 @@ function buildGuidePage(guide, lang, idx) {
           const _bf = (isEs ? firstProduct.bestFor.es : firstProduct.bestFor.en) || '';
           const _bfl = isEs ? 'Ideal para' : 'Best for';
           function _qfIcon(name, color) {
-            if (name === 'wave' || name === 'sineWave' || name === 'waveform') {
+            if (name === 'wave' || name === 'sineWave') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M1 8 C 4 2, 7 2, 10 8 S 16 14, 19 8 S 22 2, 23 8"/></svg>';
-            }
-            if (name === 'zap' || name === 'bolt') {
-              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M13 2 L5 14 h7 l-2 8 10-12 h-7 l2-8z"/></svg>';
             }
             if (name === 'gauge') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M3 14 A 9 9 0 0 1 21 14"/><line x1="12" y1="14" x2="17" y2="6" stroke-width="2"/></svg>';
@@ -7502,7 +7487,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     }
     if(curStore===T)return;
     if(!curStore)return;
-    var tmgCheckLabel=tmgIsEsDoc()?'Ver precio':'See Price';
+    var tmgCheckLabel=tmgIsEsDoc()?'Verificar precio':'Check Price';
     var zRow=c.querySelector('[data-store="'+T+'"]');
     if(!zRow)return;
     if(!zRow.getAttribute('href'))return;
@@ -7514,7 +7499,7 @@ window.hideAffiliateDisclosure=function(){var d=document.getElementById('affilia
     var zPriceHtml=(T==='amazon')?'<span style="margin-left:auto;font-weight:700;color:#fff">'+tmgCheckLabel+'</span>':(zPlain?tmgPriceHtml(zPlain,true):'');
     var aUrl=pb.getAttribute('href');var aAff=pb.getAttribute('data-aff');
     var aAffAttr=aAff?' data-aff="'+aAff+'"':'';
-    var newPrimary='<a data-store="'+T+'" href="'+zUrl+'"'+zAffAttr+' target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:0;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\\'brightness(1.05)\\'" onmouseout="this.style.filter=\\'\\'"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0;margin-right:8px"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="white-space:nowrap;display:inline">'+(tmgIsEsDoc()?'Comprar en':'Buy at')+' <span style="'+gPrimFont+'">'+(gText[T]||T)+'</span>'+(zPriceHtml?' - '+zPriceHtml:'')+'</span></a>';
+    var newPrimary='<a data-store="'+T+'" href="'+zUrl+'"'+zAffAttr+' target="_blank" rel="noopener noreferrer sponsored" class="shop-btn-primary" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;background:#3b82f6;color:#fff;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" onmouseover="this.style.filter=\\'brightness(1.05)\\'" onmouseout="this.style.filter=\\'\\'"><span style="display:flex;align-items:center;gap:10px"><svg viewBox="0 0 576 512" width="1em" height="1em" fill="#fff" style="flex-shrink:0"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0-5.4 21.7c-1.1 4.5-.6 9.2 1.4 13.3L482.3 320l24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-30.9 0-56-25.1-56-56c0-25.9 17.6-47.6 41.5-53.9L442 128l-305.6 0c-14 26-33.1 60.1-44.4 81.5c-11 20.6-36.6 28.4-57.2 17.4c-20.6-11-28.4-36.6-17.4-57.2C35.7 133 63 82.9 74.5 61.8C83.5 45.1 100.9 34 120.8 34L96 34C82.7 34 72 23.3 72 20L0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span style="display:flex;align-items:center;gap:10px">'+(tmgIsEsDoc()?'Comprar en':'Buy at')+'<span style="'+gPrimFont+'">'+(gText[T]||T)+'</span>'+(zPriceHtml?' - '+zPriceHtml:'')+'</span></span></a>';
     if(zRow.__tmgDisp===undefined)zRow.__tmgDisp=zRow.style.display||'flex';
     zRow.style.display='none';
     pb.insertAdjacentHTML('beforebegin',newPrimary);
