@@ -6237,11 +6237,11 @@ function shopButtonsTest(p, lang) {
     const storeNote = '';
     const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
-      const naUrl = rowUrl(k);
+      const naUrl = storeSearch[k] ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
       return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + t('Verificar existencias', 'Check Stock') + '</span>' + '</a>';
     }
     if (oosList.indexOf(k) > -1) {
-      const oosUrl = rowUrl(k);
+      const oosUrl = storeSearch[k] ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
       return '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + t('Verificar existencias', 'Check Stock') + '</span>' + '</a>';
     }
     // Amazon no tiene precio propio en casi ningun producto (solo aporta el
@@ -6254,7 +6254,8 @@ function shopButtonsTest(p, lang) {
     const showLabel = isAmRe ? t('Verificar precio', 'Check Price') : (hasPrice ? t('Verificar precio', 'Check Price') : t('Verificar existencias', 'Check Stock'));
     const rowBg = isAmRe || hasPrice ? '#333333' : '#262626';
     const labelColor = (isAmRe || hasPrice) ? '#fff' : '#a8a8a8';
-    return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
+    const rowHref = (!isAmRe && !hasPrice && storeSearch[k]) ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
+    return '<a' + ds + ' href="' + rowHref + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:' + rowBg + ';transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:' + labelColor + '">' + showLabel + '</span></a>';
   }).join('');
