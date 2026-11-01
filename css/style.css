@@ -3614,8 +3614,8 @@ a.chip-store[href*="fender.com"] { display: none !important; }
 
 .shop-more-list .shop-wm{transition:color .18s ease}
 .shop-more-list a:hover .shop-wm{color:#FFB300}
-.shop-more-list a span{transition:color .18s ease}
-.shop-more-list a:hover span:last-child{color:#FFB300}
+.shop-more-list a span{transition:color .18s ease !important}
+.shop-more-list a:hover span:last-child{color:#FFB300 !important}
 
 /* Same hover zoom as the pre-rendered guides (there it lives in an inline block):
    primary store button, "compare stores" button, dropdown rows and the review button. */
