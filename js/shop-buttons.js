@@ -5767,7 +5767,7 @@ function shopButtonsTest(p, lang) {
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
     : isAmRePrimary
       ? t('Verificar precio', 'Check Price')
-      : (_precio ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability'));
+      : (_precio ? t('Ver precio', 'See Price') : t('Verificar existencias', 'Check Stock'));
   const pPrice = hidePrimaryLabel ? '' : pPriceRaw;
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
@@ -5804,11 +5804,11 @@ function shopButtonsTest(p, lang) {
     const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
       const naUrl = rowUrl(k);
-      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + t('Comprobar disponibilidad', 'Check Availability') + '</span>' + '</a>';
+      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + t('Verificar existencias', 'Check Stock') + '</span>' + '</a>';
     }
     if (oosList.indexOf(k) > -1) {
       const oosUrl = rowUrl(k);
-      return '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + t('Comprobar disponibilidad', 'Check Availability') + '</span>' + '</a>';
+      return '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + t('Verificar existencias', 'Check Stock') + '</span>' + '</a>';
     }
     // Amazon no tiene precio propio en casi ningun producto (solo aporta el
     // enlace con tag). Antes se mostraba "Verificar precio" y se perdia el
@@ -5817,11 +5817,12 @@ function shopButtonsTest(p, lang) {
     // REGLA FIJA: Amazon y Reverb siempre muestran "Check price" / "Verificar precio"
     const isAmRe = k === 'amazon' || k === 'reverb';
     const hasPrice = !!(prices[k] && prices[k] !== '');
-    const showLabel = isAmRe ? t('Verificar precio', 'Check Price') : (hasPrice ? t('Verificar precio', 'Check Price') : t('Comprobar disponibilidad', 'Check Availability'));
+    const showLabel = isAmRe ? t('Verificar precio', 'Check Price') : (hasPrice ? t('Verificar precio', 'Check Price') : t('Verificar existencias', 'Check Stock'));
     const rowBg = isAmRe || hasPrice ? '#333333' : '#262626';
+    const labelColor = (isAmRe || hasPrice) ? '#fff' : '#a8a8a8';
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:' + rowBg + ';transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
-      'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#fff">' + showLabel + '</span></a>';
+      'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:' + labelColor + '">' + showLabel + '</span></a>';
   }).join('');
   // Fila final del desplegable: escribir reseña. Se declara fuera del .map() de
   // rows para que quede SIEMPRE después de todas las tiendas.
@@ -6400,7 +6401,7 @@ function shopButtonsTest(p, lang) {
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
     : isAmRePrimary
       ? t('Verificar precio', 'Check Price')
-      : (_precio ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability'));
+      : (_precio ? t('Ver precio', 'See Price') : t('Verificar existencias', 'Check Stock'));
   const pPrice = hidePrimaryLabel ? '' : pPriceRaw;
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
@@ -6437,11 +6438,11 @@ function shopButtonsTest(p, lang) {
     const ds = ' data-store="' + k + '"';
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
       const naUrl = rowUrl(k);
-      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + t('Comprobar disponibilidad', 'Check Availability') + '</span>' + '</a>';
+      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + t('Verificar existencias', 'Check Stock') + '</span>' + '</a>';
     }
     if (oosList.indexOf(k) > -1) {
       const oosUrl = rowUrl(k);
-      return '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + t('Comprobar disponibilidad', 'Check Availability') + '</span>' + '</a>';
+      return '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + t('Verificar existencias', 'Check Stock') + '</span>' + '</a>';
     }
     // Amazon no tiene precio propio en casi ningun producto (solo aporta el
     // enlace con tag). Antes se mostraba "Verificar precio" y se perdia el
@@ -6450,11 +6451,12 @@ function shopButtonsTest(p, lang) {
     // REGLA FIJA: Amazon y Reverb siempre muestran "Check price" / "Verificar precio"
     const isAmRe = k === 'amazon' || k === 'reverb';
     const hasPrice = !!(prices[k] && prices[k] !== '');
-    const showLabel = isAmRe ? t('Verificar precio', 'Check Price') : (hasPrice ? t('Verificar precio', 'Check Price') : t('Comprobar disponibilidad', 'Check Availability'));
+    const showLabel = isAmRe ? t('Verificar precio', 'Check Price') : (hasPrice ? t('Verificar precio', 'Check Price') : t('Verificar existencias', 'Check Stock'));
     const rowBg = isAmRe || hasPrice ? '#333333' : '#262626';
+    const labelColor = (isAmRe || hasPrice) ? '#fff' : '#a8a8a8';
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:' + rowBg + ';transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
-      'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#fff">' + showLabel + '</span></a>';
+      'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:' + labelColor + '">' + showLabel + '</span></a>';
   }).join('');
   // Fila final del desplegable: escribir reseña. Se declara fuera del .map() de
   // rows para que quede SIEMPRE después de todas las tiendas.
@@ -6539,7 +6541,7 @@ window.tmgStoreButtons = function(p) {
       var zAffAttr = zAff ? ' data-aff="' + zAff + '"' : '';
       var zPriceEl = zRow.querySelector('.shop-price');
       var zPlain = zPriceEl ? zPriceEl.getAttribute('data-price') : '';
-      var zPriceHtml = (T === 'amazon' ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + tmgCheckLabel + '</span>' : (zPlain ? tmgPriceHtml(zPlain, true) : ''));
+      var zPriceHtml = (T === 'amazon' ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + tmgCheckLabel + '</span>' : (zPlain ? tmgPriceHtml(zPlain, true) : '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + (tmgIsEsDoc() ? 'Verificar existencias' : 'Check Stock') + '</span>'));
       var aUrl = pb.getAttribute('href');
       var aAff = pb.getAttribute('data-aff');
       var aAffAttr = aAff ? ' data-aff="' + aAff + '"' : '';
@@ -6551,7 +6553,7 @@ window.tmgStoreButtons = function(p) {
       if (ml2) { var existing = ml2.querySelector('[data-store="' + curStore + '"]'); if (existing) existing.remove(); if (!ml2.querySelector('[data-store="' + curStore + '"]')) {
         var dispEl = pb.querySelector('.shop-price');
         var dispPlain = dispEl ? dispEl.getAttribute('data-price') : '';
-        var dispPriceSpan = curStore === 'amazon' ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + tmgCheckLabel + '</span>' : (dispPlain ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + tmgPriceHtml(dispPlain) + '</span></span>' : '');
+        var dispPriceSpan = curStore === 'amazon' ? '<span style="margin-left:auto;font-weight:700;color:#fff">' + tmgCheckLabel + '</span>' : (dispPlain ? '<span style="margin-left:auto;display:flex;align-items:baseline;gap:6px;white-space:nowrap;flex-shrink:0"><span style="font-weight:700;color:#fff">' + tmgPriceHtml(dispPlain) + '</span></span>' : '<span style="margin-left:auto;font-weight:700;color:#a8a8a8">' + (tmgIsEsDoc() ? 'Verificar existencias' : 'Check Stock') + '</span>');
         var dispNotes = { zzounds: ['(Planes de pago fáciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Envíos rápidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garantía de 3 años)', '(3-Year Warranty)'], amazon: ['(Envío Prime)', '(Prime Delivery)'] };
         var isEsPage = tmgIsEsDoc();
         var dispNm = SHOP_LOGO_TEXT[curStore] || curStore;

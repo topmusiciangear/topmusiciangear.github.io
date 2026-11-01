@@ -1,23 +1,39 @@
 const fs=require('fs');
-const path='data/guides.json';
-const data=JSON.parse(fs.readFileSync(path,'utf8'));
-const g=data.find(x=>x.id==='best-monitors');
-if(g){
-  // Remove LP-UNF mentions
-  const removePattern = /<p><strong><span class="product-name">Kali Audio LP-UNF<\/span><\/strong> —[^<]*<[^>]*>.*?<\/p>\s*/g;
-  // Simpler: remove any paragraph containing Kali Audio LP-UNF
-  g.verdict = g.verdict.replace(/<p><strong><span class="product-name">Kali Audio LP-UNF<\/span><\/strong>[^<]*<\/p>\s*<p>/g, '<p>');
-  // Also remove standalone paragraph
-  g.verdict = g.verdict.replace(/<p><strong><span class="product-name">Kali Audio LP-UNF<\/span><\/strong> —[^<]*<\/p>\s*/g, '');
-  // Remove from verdict_es
-  if(g.verdict_es){
-    g.verdict_es = g.verdict_es.replace(/<p><strong><span class="product-name">Kali Audio LP-UNF<\/span><\/strong>[^<]*<\/p>\s*<p>/g, '<p>');
-    g.verdict_es = g.verdict_es.replace(/<p><strong><span class="product-name">Kali Audio LP-UNF<\/span><\/strong> —[^<]*<\/p>\s*/g, '');
-  }
-  // Remove from conclusion if present
-  if(g.conclusion && g.conclusion.includes('LP-UNF')){
-    g.conclusion = g.conclusion.replace(/Focal Shape 65<\/span><\/strong> —[^<]*<\/p>\s*<p><strong><span class="product-name">Kali Audio LP-UNF<\/span>/g,'');
-  }
-  fs.writeFileSync(path, JSON.stringify(data, null, 2));
-  console.log('fixed');
+let guides=JSON.parse(fs.readFileSync('data/guides.json','utf8'));
+let guide=guides.find(g=>g.id==='budget-mics');
+if(!guide.verdictProsCons) { console.log('no verdict'); process.exit(0);}
+let idx=guide.verdictProsCons.findIndex(p=>p.name==='Electro-Voice ND86');
+if(idx>=0){
+  guide.verdictProsCons[idx]={
+    name:'sE Electronics X1 S',
+    name_es:'sE Electronics X1 S',
+    pros:[
+      'Hand-crafted 1" capsule delivers warm, detailed vocal tone',
+      'Switchable -10/-20 dB pads and 80/160 Hz filters add flexibility',
+      'Max SPL up to 160 dB handles loud sources without distortion',
+      'Low self-noise 9 dB keeps recordings clean in quiet home rooms'
+    ],
+    cons:[
+      'Condenser requires phantom power, not plug-and-play for live use',
+      'Large-diaphragm look may feel big on a small desk',
+      'Cardioid pattern picks up room reflections in untreated spaces',
+      'Price sits near the top of the under $200 budget'
+    ],
+    pros_es:[
+      'Cápsula de 1" hecha a mano entrega tono vocal cálido y detallado',
+      'Pads -10/-20 dB y filtros 80/160 Hz conmutables dan flexibilidad',
+      'SPL máximo 160 dB aguanta fuentes fuertes sin distorsión',
+      'Ruido propio 9 dB mantiene limpias las grabaciones en habitaciones silenciosas'
+    ],
+    cons_es:[
+      'Condensador requiere phantom power, no es plug-and-play para directo',
+      'Aspecto de diafragma grande puede resultar grande en un escritorio pequeño',
+      'Patrón cardioide capta reflexiones de sala en espacios sin tratar',
+      'Precio se sitúa cerca del tope del presupuesto bajo $200'
+    ]
+  };
+  console.log('replaced');
+}else{
+  console.log('not found');
 }
+fs.writeFileSync('data/guides.json', JSON.stringify(guides,null,2));
