@@ -6195,7 +6195,7 @@ function shopButtonsTest(p, lang) {
   // REGLA FIJA: Amazon y Reverb siempre muestran "Check Price" / "Verificar precio"
   const isAmRePrimary = primaryStoreKey === 'amazon' || primaryStoreKey === 'reverb';
   if (primaryStoreKey === 'amazon') _precio = '';
-  const primaryNoLabelStores = ['gear4music','pluginboutique','musicstore','hollyland','amazon'];
+  const primaryNoLabelStores = ['gear4music','pluginboutique','musicstore','hollyland','amazon','reverb'];
   const hidePrimaryLabel = primaryNoLabelStores.includes(primaryStoreKey);
   const pPriceRaw = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
