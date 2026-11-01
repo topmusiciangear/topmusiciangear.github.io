@@ -5758,13 +5758,14 @@ function shopButtonsTest(p, lang) {
                   dawHasAmazon ? 'amazon' : null, 'zzounds'].filter(Boolean);
   let _precio = '';
   for (const k of _order) { if (!_precio && _ownPrice(k)) _precio = _ownPrice(k); }
-  // REGLA FIJA: Amazon nunca muestra precio en el boton primario, solo
-  // "Check price" / "Verificar precio". El precio de Amazon sigue en
-  // TEST_SHOP_BTN (lo usan los totales), pero no se pinta.
+  // REGLA FIJA: Amazon y Reverb siempre muestran "Check Price" / "Verificar precio"
+  const isAmRePrimary = primaryStoreKey === 'amazon' || primaryStoreKey === 'reverb';
   if (primaryStoreKey === 'amazon') _precio = '';
   const pPrice = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
-    : (_precio ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability'));
+    : isAmRePrimary
+      ? t('Verificar precio', 'Check Price')
+      : (_precio ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability'));
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(searchTerm(p.title)) + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
@@ -5810,11 +5811,11 @@ function shopButtonsTest(p, lang) {
     // enlace con tag). Antes se mostraba "Verificar precio" y se perdia el
     // precio que si existe en otra tienda: ahora se cae al primer precio
     // disponible, igual que en el boton primario.
-    // REGLA FIJA: Amazon nunca muestra precio en la fila, solo
-    // "Check price" / "Verificar precio" (ni el suyo ni el de otra tienda).
+    // REGLA FIJA: Amazon y Reverb siempre muestran "Check price" / "Verificar precio"
+    const isAmRe = k === 'amazon' || k === 'reverb';
     const hasPrice = !!(prices[k] && prices[k] !== '');
-    const showLabel = hasPrice ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability');
-    const rowBg = hasPrice ? '#333333' : '#262626';
+    const showLabel = isAmRe ? t('Verificar precio', 'Check Price') : (hasPrice ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability'));
+    const rowBg = isAmRe || hasPrice ? '#333333' : '#262626';
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:' + rowBg + ';transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#fff">' + showLabel + '</span></a>';
@@ -6387,13 +6388,14 @@ function shopButtonsTest(p, lang) {
                   dawHasAmazon ? 'amazon' : null, 'zzounds'].filter(Boolean);
   let _precio = '';
   for (const k of _order) { if (!_precio && _ownPrice(k)) _precio = _ownPrice(k); }
-  // REGLA FIJA: Amazon nunca muestra precio en el boton primario, solo
-  // "Check price" / "Verificar precio". El precio de Amazon sigue en
-  // TEST_SHOP_BTN (lo usan los totales), pero no se pinta.
+  // REGLA FIJA: Amazon y Reverb siempre muestran "Check Price" / "Verificar precio"
+  const isAmRePrimary = primaryStoreKey === 'amazon' || primaryStoreKey === 'reverb';
   if (primaryStoreKey === 'amazon') _precio = '';
   const pPrice = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
-    : (_precio ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability'));
+    : isAmRePrimary
+      ? t('Verificar precio', 'Check Price')
+      : (_precio ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability'));
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
   var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(searchTerm(p.title)) + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
@@ -6439,11 +6441,11 @@ function shopButtonsTest(p, lang) {
     // enlace con tag). Antes se mostraba "Verificar precio" y se perdia el
     // precio que si existe en otra tienda: ahora se cae al primer precio
     // disponible, igual que en el boton primario.
-    // REGLA FIJA: Amazon nunca muestra precio en la fila, solo
-    // "Check price" / "Verificar precio" (ni el suyo ni el de otra tienda).
+    // REGLA FIJA: Amazon y Reverb siempre muestran "Check price" / "Verificar precio"
+    const isAmRe = k === 'amazon' || k === 'reverb';
     const hasPrice = !!(prices[k] && prices[k] !== '');
-    const showLabel = hasPrice ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability');
-    const rowBg = hasPrice ? '#333333' : '#262626';
+    const showLabel = isAmRe ? t('Verificar precio', 'Check Price') : (hasPrice ? t('Ver precio', 'See Price') : t('Comprobar disponibilidad', 'Check Availability'));
+    const rowBg = isAmRe || hasPrice ? '#333333' : '#262626';
     return '<a' + ds + ' href="' + rowUrl(k) + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:' + rowBg + ';transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#fff">' + showLabel + '</span></a>';
