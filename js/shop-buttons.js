@@ -5325,7 +5325,7 @@ const TEST_SHOP_BTN = {
     urls: {
       gear4music: "https://www.gear4music.com/Recording-and-Computers/Lewitt-LCT-440-PURE-Condenser-Microphone/1ZJI",
       musicstore: "https://www.musicstore.com/en_OE/EUR/Lewitt-LCT-440-Pure/art-REC0013117-000",
-      zzounds: "https://www.zzounds.com/item--LEWLCT440PURE",
+      zzounds: "https://www.zzounds.com/item--LEWLCT440PURE?siid=244282",
       andertons: "https://www.andertons.co.uk/lewitt-lct-440-pure-large-diaphragm-condenser-microphone/"
     }
   },
