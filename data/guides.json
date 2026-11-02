@@ -1401,6 +1401,40 @@
               "value_es": "Ninguna (acústica)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$3099.99",
+              "value_es": "$3099.99"
+            },
+            {
+              "value": "$4599.99",
+              "value_es": "$4599.99"
+            },
+            {
+              "value": "$6699.99",
+              "value_es": "$6699.99"
+            },
+            {
+              "value": "$6999",
+              "value_es": "$6999"
+            },
+            {
+              "value": "$8999",
+              "value_es": "$8999"
+            },
+            {
+              "value": "$4999",
+              "value_es": "$4999"
+            },
+            {
+              "value": "$5699",
+              "value_es": "$5699"
+            }
+          ]
         }
       ]
     },
@@ -2688,6 +2722,48 @@
             {
               "value": "34.8 lb (15.8 kg)",
               "value_es": "34.8 lb (15,8 kg)"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$549",
+              "value_es": "$549"
+            },
+            {
+              "value": "$949",
+              "value_es": "$949"
+            },
+            {
+              "value": "$415",
+              "value_es": "$415"
+            },
+            {
+              "value": "$780",
+              "value_es": "$780"
+            },
+            {
+              "value": "$267",
+              "value_es": "$267"
+            },
+            {
+              "value": "$467",
+              "value_es": "$467"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$459",
+              "value_es": "$459"
             }
           ]
         }
@@ -5666,6 +5742,20 @@
               "value_es": "Independiente (requiere ARA o transferencia manual)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            }
+          ]
         }
       ]
     },
@@ -6113,6 +6203,48 @@
             {
               "value": "USB-C sampling, built-in mic and speaker",
               "value_es": "Muestreo por USB-C, microfono y altavoz integrados"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$749",
+              "value_es": "$749"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$749",
+              "value_es": "$749"
+            },
+            {
+              "value": "$1699",
+              "value_es": "$1699"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
             }
           ]
         }
@@ -7760,6 +7892,52 @@
               "value_es": "~3.2 kg (7.1 lbs)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$221",
+              "value_es": "$221"
+            },
+            {
+              "value": "$280",
+              "value_es": "$280"
+            },
+            {
+              "value": "$380",
+              "value_es": "$380"
+            },
+            {
+              "value": "$350",
+              "value_es": "$350"
+            },
+            {
+              "value": "$350",
+              "value_es": "$350"
+            },
+            {
+              "value": "$450",
+              "value_es": "$450"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$359",
+              "value_es": "$359"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            }
+          ]
         }
       ]
     },
@@ -8814,6 +8992,52 @@
               "value_es": "3,0 kg"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$229",
+              "value_es": "$229"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$219",
+              "value_es": "$219"
+            },
+            {
+              "value": "$320",
+              "value_es": "$320"
+            },
+            {
+              "value": "$199.99",
+              "value_es": "$199.99"
+            },
+            {
+              "value": "$230",
+              "value_es": "$230"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$169.99",
+              "value_es": "$169.99"
+            },
+            {
+              "value": "$209",
+              "value_es": "$209"
+            },
+            {
+              "value": "$369.99",
+              "value_es": "$369.99"
+            }
+          ]
         }
       ]
     },
@@ -9764,6 +9988,48 @@
             {
               "value": "Dante (optional)",
               "value_es": "Dante (opciónal)"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$1999",
+              "value_es": "$1999"
+            },
+            {
+              "value": "$3999",
+              "value_es": "$3999"
+            },
+            {
+              "value": "$5999",
+              "value_es": "$5999"
+            },
+            {
+              "value": "$1369",
+              "value_es": "$1369"
+            },
+            {
+              "value": "$$2,999",
+              "value_es": "$$2,999"
+            },
+            {
+              "value": "$1599",
+              "value_es": "$1599"
+            },
+            {
+              "value": "$2499.99",
+              "value_es": "$2499.99"
+            },
+            {
+              "value": "$1400",
+              "value_es": "$1400"
+            },
+            {
+              "value": "$1899",
+              "value_es": "$1899"
             }
           ]
         }
@@ -11003,6 +11269,60 @@
             }
           ],
           "label_es": "Puente"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$299.99",
+              "value_es": "$299.99"
+            },
+            {
+              "value": "$449",
+              "value_es": "$449"
+            },
+            {
+              "value": "$499.99",
+              "value_es": "$499.99"
+            },
+            {
+              "value": "$399.99",
+              "value_es": "$399.99"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$659.99",
+              "value_es": "$659.99"
+            },
+            {
+              "value": "$629",
+              "value_es": "$629"
+            },
+            {
+              "value": "$479.99",
+              "value_es": "$479.99"
+            },
+            {
+              "value": "$1999",
+              "value_es": "$1999"
+            },
+            {
+              "value": "$2519.99",
+              "value_es": "$2519.99"
+            },
+            {
+              "value": "$1349.99",
+              "value_es": "$1349.99"
+            },
+            {
+              "value": "$2049",
+              "value_es": "$2049"
+            }
+          ]
         }
       ]
     },
@@ -11932,6 +12252,44 @@
               "value_es": "21"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$219",
+              "value_es": "$219"
+            },
+            {
+              "value": "$229",
+              "value_es": "$229"
+            },
+            {
+              "value": "$262.1",
+              "value_es": "$262.1"
+            },
+            {
+              "value": "$419.99",
+              "value_es": "$419.99"
+            },
+            {
+              "value": "$229.99",
+              "value_es": "$229.99"
+            },
+            {
+              "value": "$450",
+              "value_es": "$450"
+            },
+            {
+              "value": "$349.99",
+              "value_es": "$349.99"
+            }
+          ]
         }
       ]
     },
@@ -12565,6 +12923,32 @@
               "value_es": "1 pila 9V"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$230",
+              "value_es": "$230"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            }
+          ]
         }
       ]
     },
@@ -13174,6 +13558,32 @@
             {
               "value": "5.86 kg (12.9 lb)",
               "value_es": "5,86 kg"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$268",
+              "value_es": "$268"
+            },
+            {
+              "value": "$292",
+              "value_es": "$292"
+            },
+            {
+              "value": "$379",
+              "value_es": "$379"
+            },
+            {
+              "value": "$2000",
+              "value_es": "$2000"
+            },
+            {
+              "value": "$585",
+              "value_es": "$585"
             }
           ]
         }
@@ -13846,6 +14256,32 @@
               "value_es": "Separa el sonido directo de las reflexiones"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$129",
+              "value_es": "$129"
+            },
+            {
+              "value": "$129",
+              "value_es": "$129"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            }
+          ]
         }
       ]
     },
@@ -14383,6 +14819,40 @@
             {
               "value": "8.2 kg (18 lb)",
               "value_es": "8,2 kg (18 lb)"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$750",
+              "value_es": "$750"
+            },
+            {
+              "value": "$750",
+              "value_es": "$750"
+            },
+            {
+              "value": "$949.99",
+              "value_es": "$949.99"
+            },
+            {
+              "value": "$449.99",
+              "value_es": "$449.99"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$1099",
+              "value_es": "$1099"
+            },
+            {
+              "value": "$270",
+              "value_es": "$270"
             }
           ]
         }
@@ -15367,6 +15837,52 @@
             }
           ],
           "label_es": "Funda incluida"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$1300",
+              "value_es": "$1300"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$399.99",
+              "value_es": "$399.99"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$369",
+              "value_es": "$369"
+            },
+            {
+              "value": "$849.99",
+              "value_es": "$849.99"
+            },
+            {
+              "value": "$299.99",
+              "value_es": "$299.99"
+            },
+            {
+              "value": "$219.99",
+              "value_es": "$219.99"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$190",
+              "value_es": "$190"
+            }
+          ]
         }
       ]
     },
@@ -16130,6 +16646,36 @@
             {
               "value": "No (AC powered)",
               "value_es": "No (alimentación de red)"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$270",
+              "value_es": "$270"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$439",
+              "value_es": "$439"
+            },
+            {
+              "value": "$450",
+              "value_es": "$450"
+            },
+            {
+              "value": "$1099",
+              "value_es": "$1099"
             }
           ]
         }
@@ -16986,6 +17532,44 @@
             {
               "value": "—",
               "value_es": "—"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$649",
+              "value_es": "$649"
+            },
+            {
+              "value": "$649",
+              "value_es": "$649"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$380",
+              "value_es": "$380"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$350",
+              "value_es": "$350"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$350",
+              "value_es": "$350"
             }
           ]
         }
@@ -17970,6 +18554,52 @@
               "value_es": "~3,2 kg"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$320",
+              "value_es": "$320"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$219",
+              "value_es": "$219"
+            },
+            {
+              "value": "$179",
+              "value_es": "$179"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$209",
+              "value_es": "$209"
+            },
+            {
+              "value": "$369.99",
+              "value_es": "$369.99"
+            },
+            {
+              "value": "$539.99",
+              "value_es": "$539.99"
+            },
+            {
+              "value": "$147",
+              "value_es": "$147"
+            }
+          ]
         }
       ]
     },
@@ -18935,6 +19565,44 @@
               "value_es": "48 / 96 kHz"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$979",
+              "value_es": "$979"
+            },
+            {
+              "value": "$1369",
+              "value_es": "$1369"
+            },
+            {
+              "value": "$1799",
+              "value_es": "$1799"
+            },
+            {
+              "value": "$2999",
+              "value_es": "$2999"
+            },
+            {
+              "value": "$509",
+              "value_es": "$509"
+            },
+            {
+              "value": "$1299",
+              "value_es": "$1299"
+            },
+            {
+              "value": "$999.99",
+              "value_es": "$999.99"
+            },
+            {
+              "value": "$1299.99",
+              "value_es": "$1299.99"
+            }
+          ]
         }
       ]
     },
@@ -19479,6 +20147,48 @@
       ],
       "rows": [
         {
+          "label": "Best For",
+          "values": [
+            {
+              "value": "Entry standard for home studios",
+              "value_es": "Estándar entrada home studios"
+            },
+            {
+              "value": "Quiet vocals for home studios",
+              "value_es": "Voces limpias para tu home studio"
+            },
+            {
+              "value": "Bright vocals and loud instruments",
+              "value_es": "Voces brillantes e instrumentos potentes"
+            },
+            {
+              "value": "Transformer warmth without the pro-tier price tag",
+              "value_es": "Calidez de transformador sin precio de gama profesional"
+            },
+            {
+              "value": "K103 capsule, vocal presence boost",
+              "value_es": "Cápsula K103, presencia vocal"
+            },
+            {
+              "value": "Vocals and ensembles in studios",
+              "value_es": "Voces y conjuntos en el estudio"
+            },
+            {
+              "value": "Warm rap and R&B vocals",
+              "value_es": "Voces cálidas de rap y R&B"
+            },
+            {
+              "value": "Flagship vocals for pro studios",
+              "value_es": "Voces insignia para estudios pro"
+            },
+            {
+              "value": "38 mic models after tracking",
+              "value_es": "38 modelos después de grabar"
+            }
+          ],
+          "label_es": "Ideal para"
+        },
+        {
           "label": "Price Tier",
           "values": [
             {
@@ -19857,46 +20567,46 @@
           "label_es": "Alimentación phantom"
         },
         {
-          "label": "Best For",
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
           "values": [
             {
-              "value": "Entry standard for home studios",
-              "value_es": "Estándar entrada home studios"
+              "value": "$99",
+              "value_es": "$99"
             },
             {
-              "value": "Quiet vocals for home studios",
-              "value_es": "Voces limpias para tu home studio"
+              "value": "$159",
+              "value_es": "$159"
             },
             {
-              "value": "Bright vocals and loud instruments",
-              "value_es": "Voces brillantes e instrumentos potentes"
+              "value": "$269",
+              "value_es": "$269"
             },
             {
-              "value": "Transformer warmth without the pro-tier price tag",
-              "value_es": "Calidez de transformador sin precio de gama profesional"
+              "value": "$299",
+              "value_es": "$299"
             },
             {
-              "value": "K103 capsule, vocal presence boost",
-              "value_es": "Cápsula K103, presencia vocal"
+              "value": "$999",
+              "value_es": "$999"
             },
             {
-              "value": "Vocals and ensembles in studios",
-              "value_es": "Voces y conjuntos en el estudio"
+              "value": "$1099",
+              "value_es": "$1099"
             },
             {
-              "value": "Warm rap and R&B vocals",
-              "value_es": "Voces cálidas de rap y R&B"
+              "value": "$1299",
+              "value_es": "$1299"
             },
             {
-              "value": "Flagship vocals for pro studios",
-              "value_es": "Voces insignia para estudios pro"
+              "value": "$3599",
+              "value_es": "$3599"
             },
             {
-              "value": "38 mic models after tracking",
-              "value_es": "38 modelos después de grabar"
+              "value": "$1499",
+              "value_es": "$1499"
             }
-          ],
-          "label_es": "Ideal para"
+          ]
         }
       ]
     },
@@ -20604,6 +21314,36 @@
             {
               "value": "Included instruments, Flex Time",
               "value_es": "Instrumentos incluidos, Flex Time"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$749",
+              "value_es": "$749"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$580",
+              "value_es": "$580"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$200",
+              "value_es": "$200"
             }
           ]
         }
@@ -21624,6 +22364,56 @@
               "value_es": "15,9 kg"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$509",
+              "value_es": "$509"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$1999",
+              "value_es": "$1999"
+            },
+            {
+              "value": "$1000",
+              "value_es": "$1000"
+            },
+            {
+              "value": "$1199",
+              "value_es": "$1199"
+            },
+            {
+              "value": "$2799",
+              "value_es": "$2799"
+            },
+            {
+              "value": "$1369",
+              "value_es": "$1369"
+            },
+            {
+              "value": "$1899",
+              "value_es": "$1899"
+            },
+            {
+              "value": "$559",
+              "value_es": "$559"
+            },
+            {
+              "value": "$1699.99",
+              "value_es": "$1699.99"
+            },
+            {
+              "value": "$2799",
+              "value_es": "$2799"
+            }
+          ]
         }
       ]
     },
@@ -22534,6 +23324,44 @@
               "value_es": "57 kg"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$499.99",
+              "value_es": "$499.99"
+            },
+            {
+              "value": "$749.99",
+              "value_es": "$749.99"
+            },
+            {
+              "value": "$699.99",
+              "value_es": "$699.99"
+            },
+            {
+              "value": "$1319.99",
+              "value_es": "$1319.99"
+            },
+            {
+              "value": "$1299.99",
+              "value_es": "$1299.99"
+            },
+            {
+              "value": "$1749.99",
+              "value_es": "$1749.99"
+            },
+            {
+              "value": "$3299.99",
+              "value_es": "$3299.99"
+            }
+          ]
         }
       ]
     },
@@ -23429,6 +24257,44 @@
             {
               "value": "3.7 kg",
               "value_es": "3,7 kg"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$749",
+              "value_es": "$749"
+            },
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$1099",
+              "value_es": "$1099"
+            },
+            {
+              "value": "$1999",
+              "value_es": "$1999"
             }
           ]
         }
@@ -24883,6 +25749,80 @@
               "value_es": "No publicado (varía por unidad)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$1799",
+              "value_es": "$1799"
+            },
+            {
+              "value": "$1099",
+              "value_es": "$1099"
+            },
+            {
+              "value": "$2200",
+              "value_es": "$2200"
+            },
+            {
+              "value": "$2399",
+              "value_es": "$2399"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$949",
+              "value_es": "$949"
+            },
+            {
+              "value": "$369.99",
+              "value_es": "$369.99"
+            },
+            {
+              "value": "$500",
+              "value_es": "$500"
+            },
+            {
+              "value": "$147",
+              "value_es": "$147"
+            },
+            {
+              "value": "$320",
+              "value_es": "$320"
+            },
+            {
+              "value": "$209",
+              "value_es": "$209"
+            },
+            {
+              "value": "$949",
+              "value_es": "$949"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$2799",
+              "value_es": "$2799"
+            },
+            {
+              "value": "$2299",
+              "value_es": "$2299"
+            },
+            {
+              "value": "$1799",
+              "value_es": "$1799"
+            }
+          ]
         }
       ]
     },
@@ -26001,6 +26941,40 @@
             {
               "value": "7.8 lb (3.5 kg)",
               "value_es": "3,5 kg"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$147",
+              "value_es": "$147"
+            },
+            {
+              "value": "$320",
+              "value_es": "$320"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$500",
+              "value_es": "$500"
+            },
+            {
+              "value": "$209",
+              "value_es": "$209"
+            },
+            {
+              "value": "$949",
+              "value_es": "$949"
+            },
+            {
+              "value": "$1799",
+              "value_es": "$1799"
             }
           ]
         }
@@ -27136,6 +28110,44 @@
               "value_es": "Funda Airflow, cable USB-C, llave del alma"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$219.99",
+              "value_es": "$219.99"
+            },
+            {
+              "value": "$899",
+              "value_es": "$899"
+            },
+            {
+              "value": "$879.99",
+              "value_es": "$879.99"
+            },
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$239.99",
+              "value_es": "$239.99"
+            },
+            {
+              "value": "$329.99",
+              "value_es": "$329.99"
+            },
+            {
+              "value": "$369.99",
+              "value_es": "$369.99"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            }
+          ]
         }
       ]
     },
@@ -27899,6 +28911,32 @@
               "value_es": "Amplis, cabs y pedales Marshall licenciados"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$69.99",
+              "value_es": "$69.99"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            }
+          ]
         }
       ]
     },
@@ -28481,6 +29519,40 @@
             {
               "value": "Up to 8 hours",
               "value_es": "Hasta 8 horas"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$500",
+              "value_es": "$500"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$289",
+              "value_es": "$289"
+            },
+            {
+              "value": "$1699",
+              "value_es": "$1699"
+            },
+            {
+              "value": "$659",
+              "value_es": "$659"
             }
           ]
         }
@@ -29501,6 +30573,60 @@
               "value_es": "612 g"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$155",
+              "value_es": "$155"
+            },
+            {
+              "value": "$279",
+              "value_es": "$279"
+            },
+            {
+              "value": "$59",
+              "value_es": "$59"
+            },
+            {
+              "value": "$39.9",
+              "value_es": "$39.9"
+            },
+            {
+              "value": "$379",
+              "value_es": "$379"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$1236",
+              "value_es": "$1236"
+            }
+          ]
         }
       ]
     },
@@ -30450,6 +31576,44 @@
               "value_es": "230 g"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$1699",
+              "value_es": "$1699"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$279",
+              "value_es": "$279"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            }
+          ]
         }
       ]
     },
@@ -31103,6 +32267,28 @@
             {
               "value": "IE 4 included",
               "value_es": "IE 4 incluidos"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$989",
+              "value_es": "$989"
+            },
+            {
+              "value": "$1366",
+              "value_es": "$1366"
+            },
+            {
+              "value": "$250",
+              "value_es": "$250"
+            },
+            {
+              "value": "$649",
+              "value_es": "$649"
             }
           ]
         }
@@ -32909,6 +34095,68 @@
               "value_es": "298 g"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$1499",
+              "value_es": "$1499"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$449",
+              "value_es": "$449"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$1399",
+              "value_es": "$1399"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$1099",
+              "value_es": "$1099"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            }
+          ]
         }
       ]
     },
@@ -33986,6 +35234,48 @@
               "value_es": "Afinador a bordo, Z-TONE, Amp Out, MIDI"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$949",
+              "value_es": "$949"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$189",
+              "value_es": "$189"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            }
+          ]
         }
       ]
     },
@@ -34579,6 +35869,52 @@
       ],
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "values": [
+            {
+              "value": "Professional stage performance",
+              "value_es": "Actuación profesional en escenario"
+            },
+            {
+              "value": "Home piano practice",
+              "value_es": "Práctica de piano en casa"
+            },
+            {
+              "value": "Piano practice for beginners",
+              "value_es": "Práctica de piano para principiantes"
+            },
+            {
+              "value": "DAW production with Analog Lab",
+              "value_es": "Producción en DAW con Analog Lab"
+            },
+            {
+              "value": "Ableton Live production",
+              "value_es": "Producción en Ableton Live"
+            },
+            {
+              "value": "Portable beat-making",
+              "value_es": "Beat-making portátil"
+            },
+            {
+              "value": "Ultra-portable DAW control",
+              "value_es": "Control DAW ultra-portátil"
+            },
+            {
+              "value": "Standalone practice & jamming",
+              "value_es": "Práctica y jamming independiente"
+            },
+            {
+              "value": "Piano practice in the DAW",
+              "value_es": "Practicar piano en el DAW"
+            },
+            {
+              "value": "Komplete-based composing",
+              "value_es": "Componer con Komplete"
+            }
+          ]
+        },
+        {
           "label": "Type",
           "label_es": "Tipo",
           "values": [
@@ -34855,48 +36191,48 @@
           ]
         },
         {
-          "label": "Best For",
-          "label_es": "Ideal para",
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
           "values": [
             {
-              "value": "Professional stage performance",
-              "value_es": "Actuación profesional en escenario"
+              "value": "$4999",
+              "value_es": "$4999"
             },
             {
-              "value": "Home piano practice",
-              "value_es": "Práctica de piano en casa"
+              "value": "$749.99",
+              "value_es": "$749.99"
             },
             {
-              "value": "Piano practice for beginners",
-              "value_es": "Práctica de piano para principiantes"
+              "value": "$699.99",
+              "value_es": "$699.99"
             },
             {
-              "value": "DAW production with Analog Lab",
-              "value_es": "Producción en DAW con Analog Lab"
+              "value": "$299",
+              "value_es": "$299"
             },
             {
-              "value": "Ableton Live production",
-              "value_es": "Producción en Ableton Live"
+              "value": "$279.99",
+              "value_es": "$279.99"
             },
             {
-              "value": "Portable beat-making",
-              "value_es": "Beat-making portátil"
+              "value": "$99",
+              "value_es": "$99"
             },
             {
-              "value": "Ultra-portable DAW control",
-              "value_es": "Control DAW ultra-portátil"
+              "value": "$130",
+              "value_es": "$130"
             },
             {
-              "value": "Standalone practice & jamming",
-              "value_es": "Práctica y jamming independiente"
+              "value": "$449",
+              "value_es": "$449"
             },
             {
-              "value": "Piano practice in the DAW",
-              "value_es": "Practicar piano en el DAW"
+              "value": "$499",
+              "value_es": "$499"
             },
             {
-              "value": "Komplete-based composing",
-              "value_es": "Componer con Komplete"
+              "value": "$849",
+              "value_es": "$849"
             }
           ]
         }
@@ -36041,6 +37377,52 @@
               "value_es": "48 kHz"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$1999",
+              "value_es": "$1999"
+            },
+            {
+              "value": "$3999",
+              "value_es": "$3999"
+            },
+            {
+              "value": "$1000",
+              "value_es": "$1000"
+            },
+            {
+              "value": "$519",
+              "value_es": "$519"
+            },
+            {
+              "value": "$509",
+              "value_es": "$509"
+            },
+            {
+              "value": "$1199",
+              "value_es": "$1199"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$1699.99",
+              "value_es": "$1699.99"
+            },
+            {
+              "value": "$1369",
+              "value_es": "$1369"
+            }
+          ]
         }
       ]
     },
@@ -37080,6 +38462,40 @@
               "value_es": "81,5 lb (37 kg)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$1999",
+              "value_es": "$1999"
+            },
+            {
+              "value": "$3599",
+              "value_es": "$3599"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$1449",
+              "value_es": "$1449"
+            },
+            {
+              "value": "$1699",
+              "value_es": "$1699"
+            },
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$1089",
+              "value_es": "$1089"
+            }
+          ]
         }
       ]
     },
@@ -37750,6 +39166,44 @@
             {
               "value": "6 mins, undo/redo, tiny footprint",
               "value_es": "6 min, undo/redo, huella mínima"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$351.99",
+              "value_es": "$351.99"
+            },
+            {
+              "value": "$219",
+              "value_es": "$219"
+            },
+            {
+              "value": "$181.4",
+              "value_es": "$181.4"
+            },
+            {
+              "value": "$263.1",
+              "value_es": "$263.1"
+            },
+            {
+              "value": "$149.99",
+              "value_es": "$149.99"
+            },
+            {
+              "value": "$659.99",
+              "value_es": "$659.99"
             }
           ]
         }
@@ -38819,6 +40273,40 @@
             {
               "value": "228 g",
               "value_es": "228 g"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$105",
+              "value_es": "$105"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
             }
           ]
         }
@@ -40122,6 +41610,52 @@
               "value_es": "896 g"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$229",
+              "value_es": "$229"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$25",
+              "value_es": "$25"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            }
+          ]
         }
       ]
     },
@@ -41218,6 +42752,56 @@
               "value_es": "XLR"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$1099",
+              "value_es": "$1099"
+            }
+          ]
         }
       ]
     },
@@ -42145,6 +43729,36 @@
               "value_es": "Enruta notas individuales de una mezcla a MIDI en vivo"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$128",
+              "value_es": "$128"
+            },
+            {
+              "value": "$130.08",
+              "value_es": "$130.08"
+            },
+            {
+              "value": "$89",
+              "value_es": "$89"
+            },
+            {
+              "value": "$79",
+              "value_es": "$79"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            }
+          ]
         }
       ]
     },
@@ -42888,6 +44502,60 @@
             {
               "value": "33 x 21 x 27 cm",
               "value_es": "33 x 21 x 27 cm"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$429",
+              "value_es": "$429"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$549",
+              "value_es": "$549"
+            },
+            {
+              "value": "$4195",
+              "value_es": "$4195"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "N/A",
+              "value_es": "N/A"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
             }
           ]
         }
@@ -44223,6 +45891,64 @@
               "value_es": "Trasero"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$556",
+              "value_es": "$556"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$549",
+              "value_es": "$549"
+            },
+            {
+              "value": "$800",
+              "value_es": "$800"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$350",
+              "value_es": "$350"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$149.99",
+              "value_es": "$149.99"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            }
+          ]
         }
       ]
     },
@@ -45192,6 +46918,44 @@
               "value_es": "108 amps + 164 FX, pantalla 5\", cargador IR"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$230",
+              "value_es": "$230"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$799.99",
+              "value_es": "$799.99"
+            },
+            {
+              "value": "$599.99",
+              "value_es": "$599.99"
+            },
+            {
+              "value": "$1799",
+              "value_es": "$1799"
+            },
+            {
+              "value": "$475",
+              "value_es": "$475"
+            }
+          ]
         }
       ]
     },
@@ -46076,6 +47840,48 @@
               "value_es": "Modos Script/Block 45 y 90"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$100",
+              "value_es": "$100"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$79",
+              "value_es": "$79"
+            },
+            {
+              "value": "$168.45",
+              "value_es": "$168.45"
+            },
+            {
+              "value": "$199.97",
+              "value_es": "$199.97"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$99.99",
+              "value_es": "$99.99"
+            },
+            {
+              "value": "$186.99",
+              "value_es": "$186.99"
+            },
+            {
+              "value": "$116",
+              "value_es": "$116"
+            }
+          ]
         }
       ]
     },
@@ -46895,6 +48701,36 @@
               "value_es": "24,1 kg"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$899",
+              "value_es": "$899"
+            },
+            {
+              "value": "$400",
+              "value_es": "$400"
+            },
+            {
+              "value": "$949",
+              "value_es": "$949"
+            },
+            {
+              "value": "$1099",
+              "value_es": "$1099"
+            }
+          ]
         }
       ]
     },
@@ -47338,6 +49174,40 @@
       ],
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "values": [
+            {
+              "value": "Vintage blues vibe",
+              "value_es": "Vibra blues vintage"
+            },
+            {
+              "value": "All-around + gigging",
+              "value_es": "Todo uso + vivo"
+            },
+            {
+              "value": "Intimate blues for fingerstyle fans",
+              "value_es": "Blues íntimo para fans del fingerstyle"
+            },
+            {
+              "value": "Slide & ragtime",
+              "value_es": "Slide y ragtime"
+            },
+            {
+              "value": "First parlor for beginners",
+              "value_es": "Primera parlor para empezar"
+            },
+            {
+              "value": "Electric players & gigs",
+              "value_es": "Eléctricos y directos"
+            },
+            {
+              "value": "Stage personality",
+              "value_es": "Personalidad escénica"
+            }
+          ]
+        },
+        {
           "label": "Top wood",
           "label_es": "Tapa",
           "values": [
@@ -47542,36 +49412,36 @@
           ]
         },
         {
-          "label": "Best For",
-          "label_es": "Ideal para",
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
           "values": [
             {
-              "value": "Vintage blues vibe",
-              "value_es": "Vibra blues vintage"
+              "value": "$190",
+              "value_es": "$190"
             },
             {
-              "value": "All-around + gigging",
-              "value_es": "Todo uso + vivo"
+              "value": "$530",
+              "value_es": "$530"
             },
             {
-              "value": "Intimate blues for fingerstyle fans",
-              "value_es": "Blues íntimo para fans del fingerstyle"
+              "value": "$599",
+              "value_es": "$599"
             },
             {
-              "value": "Slide & ragtime",
-              "value_es": "Slide y ragtime"
+              "value": "$429",
+              "value_es": "$429"
             },
             {
-              "value": "First parlor for beginners",
-              "value_es": "Primera parlor para empezar"
+              "value": "$199.99",
+              "value_es": "$199.99"
             },
             {
-              "value": "Electric players & gigs",
-              "value_es": "Eléctricos y directos"
+              "value": "$999",
+              "value_es": "$999"
             },
             {
-              "value": "Stage personality",
-              "value_es": "Personalidad escénica"
+              "value": "$600",
+              "value_es": "$600"
             }
           ]
         }
@@ -48384,6 +50254,36 @@
               "value_es": "El control Morph mezcla piano con síntesis"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            }
+          ]
         }
       ]
     },
@@ -48870,6 +50770,40 @@
             {
               "value": "100+ instruments, synths & sampled libraries",
               "value_es": "100+ instrumentos, synths y librerías"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$1069",
+              "value_es": "$1069"
+            },
+            {
+              "value": "$50",
+              "value_es": "$50"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$89.99",
+              "value_es": "$89.99"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$1249",
+              "value_es": "$1249"
             }
           ]
         }
@@ -49629,6 +51563,36 @@
             {
               "value": "320 g",
               "value_es": "320 g"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$129",
+              "value_es": "$129"
+            },
+            {
+              "value": "$350",
+              "value_es": "$350"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$300",
+              "value_es": "$300"
+            },
+            {
+              "value": "$350",
+              "value_es": "$350"
             }
           ]
         }
@@ -50729,6 +52693,64 @@
               "value_es": "Spring/plate/hall + memorias A/B/C"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$179",
+              "value_es": "$179"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$679",
+              "value_es": "$679"
+            },
+            {
+              "value": "$449",
+              "value_es": "$449"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$299.99",
+              "value_es": "$299.99"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$149.99",
+              "value_es": "$149.99"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$320.99",
+              "value_es": "$320.99"
+            }
+          ]
         }
       ]
     },
@@ -51421,6 +53443,32 @@
             {
               "value": "135 dB",
               "value_es": "135 dB"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$1099",
+              "value_es": "$1099"
+            },
+            {
+              "value": "$1499",
+              "value_es": "$1499"
             }
           ]
         }
@@ -52367,6 +54415,52 @@
               "value_es": "7,2 kg"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$1699",
+              "value_es": "$1699"
+            },
+            {
+              "value": "$500",
+              "value_es": "$500"
+            },
+            {
+              "value": "$749",
+              "value_es": "$749"
+            },
+            {
+              "value": "$289",
+              "value_es": "$289"
+            },
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$429",
+              "value_es": "$429"
+            },
+            {
+              "value": "$2499",
+              "value_es": "$2499"
+            }
+          ]
         }
       ]
     },
@@ -53019,6 +55113,56 @@
       ],
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "values": [
+            {
+              "value": "Broadcast & film sets",
+              "value_es": "Sets de broadcast y cine"
+            },
+            {
+              "value": "Documentary & solo shooters",
+              "value_es": "Documental y rodajes en solitario"
+            },
+            {
+              "value": "Indie filmmaking",
+              "value_es": "Cine indie"
+            },
+            {
+              "value": "Compact rigs & travel",
+              "value_es": "Rigs compactos y viajes"
+            },
+            {
+              "value": "Pro indie budgets",
+              "value_es": "Presupuestos indie pro"
+            },
+            {
+              "value": "Run-and-gun video",
+              "value_es": "Video run-and-gun"
+            },
+            {
+              "value": "Phones, laptops & vlogs",
+              "value_es": "Teléfonos, laptops y vlogs"
+            },
+            {
+              "value": "First camera upgrade",
+              "value_es": "Primera mejora de cámara"
+            },
+            {
+              "value": "Indoor dialogue & reflective rooms",
+              "value_es": "Diálogo interior y salas reflectantes"
+            },
+            {
+              "value": "Humid-location broadcast boom",
+              "value_es": "Pértiga broadcast en exteriores húmedos"
+            },
+            {
+              "value": "Short booms & camera tops",
+              "value_es": "Pértigas cortas y zapata de cámara"
+            }
+          ]
+        },
+        {
           "label": "Type",
           "label_es": "Tipo",
           "values": [
@@ -53419,52 +55563,52 @@
           ]
         },
         {
-          "label": "Best For",
-          "label_es": "Ideal para",
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
           "values": [
             {
-              "value": "Broadcast & film sets",
-              "value_es": "Sets de broadcast y cine"
+              "value": "$849",
+              "value_es": "$849"
             },
             {
-              "value": "Documentary & solo shooters",
-              "value_es": "Documental y rodajes en solitario"
+              "value": "$569",
+              "value_es": "$569"
             },
             {
-              "value": "Indie filmmaking",
-              "value_es": "Cine indie"
+              "value": "$330",
+              "value_es": "$330"
             },
             {
-              "value": "Compact rigs & travel",
-              "value_es": "Rigs compactos y viajes"
+              "value": "$189",
+              "value_es": "$189"
             },
             {
-              "value": "Pro indie budgets",
-              "value_es": "Presupuestos indie pro"
+              "value": "$399",
+              "value_es": "$399"
             },
             {
-              "value": "Run-and-gun video",
-              "value_es": "Video run-and-gun"
+              "value": "$259",
+              "value_es": "$259"
             },
             {
-              "value": "Phones, laptops & vlogs",
-              "value_es": "Teléfonos, laptops y vlogs"
+              "value": "$99",
+              "value_es": "$99"
             },
             {
-              "value": "First camera upgrade",
-              "value_es": "Primera mejora de cámara"
+              "value": "$200",
+              "value_es": "$200"
             },
             {
-              "value": "Indoor dialogue & reflective rooms",
-              "value_es": "Diálogo interior y salas reflectantes"
+              "value": "$1499",
+              "value_es": "$1499"
             },
             {
-              "value": "Humid-location broadcast boom",
-              "value_es": "Pértiga broadcast en exteriores húmedos"
+              "value": "$699",
+              "value_es": "$699"
             },
             {
-              "value": "Short booms & camera tops",
-              "value_es": "Pértigas cortas y zapata de cámara"
+              "value": "$249",
+              "value_es": "$249"
             }
           ]
         }
@@ -54318,6 +56462,48 @@
             {
               "value": "1/4 in unbalanced",
               "value_es": "6,3 mm no balanceadas"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$4999",
+              "value_es": "$4999"
+            },
+            {
+              "value": "$2899",
+              "value_es": "$2899"
+            },
+            {
+              "value": "$3199",
+              "value_es": "$3199"
+            },
+            {
+              "value": "$4699",
+              "value_es": "$4699"
+            },
+            {
+              "value": "$4629",
+              "value_es": "$4629"
+            },
+            {
+              "value": "$3299",
+              "value_es": "$3299"
+            },
+            {
+              "value": "$1999",
+              "value_es": "$1999"
+            },
+            {
+              "value": "$1599",
+              "value_es": "$1599"
+            },
+            {
+              "value": "$1499",
+              "value_es": "$1499"
             }
           ]
         }
@@ -55191,6 +57377,36 @@
               "value_es": "10 modos de tabla de ondas con matriz de ruteo profunda"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$179",
+              "value_es": "$179"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$189",
+              "value_es": "$189"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            }
+          ]
         }
       ]
     },
@@ -55864,6 +58080,44 @@
               "value_es": "7,7 kg"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$1499",
+              "value_es": "$1499"
+            },
+            {
+              "value": "$4699",
+              "value_es": "$4699"
+            },
+            {
+              "value": "$3499",
+              "value_es": "$3499"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$929",
+              "value_es": "$929"
+            },
+            {
+              "value": "$1399",
+              "value_es": "$1399"
+            },
+            {
+              "value": "$1399",
+              "value_es": "$1399"
+            }
+          ]
         }
       ]
     },
@@ -56366,6 +58620,40 @@
       ],
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "values": [
+            {
+              "value": "Touring professionals",
+              "value_es": "Profesionales de gira"
+            },
+            {
+              "value": "Working bands",
+              "value_es": "Bandas que trabajan"
+            },
+            {
+              "value": "Duos & rehearsals",
+              "value_es": "Dúos y ensayos"
+            },
+            {
+              "value": "Cable-free monitoring for beginners",
+              "value_es": "Monitoreo sin cables para empezar"
+            },
+            {
+              "value": "Whole bands",
+              "value_es": "Bandas enteras"
+            },
+            {
+              "value": "Stereo monitoring for rehearsals",
+              "value_es": "Monitoreo estéreo para ensayos"
+            },
+            {
+              "value": "Wireless monitoring for growing bands",
+              "value_es": "Monitoreo inalámbrico para bandas en vivo"
+            }
+          ]
+        },
+        {
           "label": "Band type",
           "label_es": "Banda",
           "values": [
@@ -56570,36 +58858,36 @@
           ]
         },
         {
-          "label": "Best For",
-          "label_es": "Ideal para",
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
           "values": [
             {
-              "value": "Touring professionals",
-              "value_es": "Profesionales de gira"
+              "value": "$1366",
+              "value_es": "$1366"
             },
             {
-              "value": "Working bands",
-              "value_es": "Bandas que trabajan"
+              "value": "$989",
+              "value_es": "$989"
             },
             {
-              "value": "Duos & rehearsals",
-              "value_es": "Dúos y ensayos"
+              "value": "$1366",
+              "value_es": "$1366"
             },
             {
-              "value": "Cable-free monitoring for beginners",
-              "value_es": "Monitoreo sin cables para empezar"
+              "value": "$250",
+              "value_es": "$250"
             },
             {
-              "value": "Whole bands",
-              "value_es": "Bandas enteras"
+              "value": "$512.1",
+              "value_es": "$512.1"
             },
             {
-              "value": "Stereo monitoring for rehearsals",
-              "value_es": "Monitoreo estéreo para ensayos"
+              "value": "$210.67",
+              "value_es": "$210.67"
             },
             {
-              "value": "Wireless monitoring for growing bands",
-              "value_es": "Monitoreo inalámbrico para bandas en vivo"
+              "value": "$649",
+              "value_es": "$649"
             }
           ]
         }
@@ -58864,6 +61152,60 @@
               "value_es": "No publicado (varía por unidad)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$450",
+              "value_es": "$450"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$350",
+              "value_es": "$350"
+            },
+            {
+              "value": "$380",
+              "value_es": "$380"
+            },
+            {
+              "value": "$350",
+              "value_es": "$350"
+            },
+            {
+              "value": "$649",
+              "value_es": "$649"
+            },
+            {
+              "value": "$649",
+              "value_es": "$649"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$899.99",
+              "value_es": "$899.99"
+            }
+          ]
         }
       ]
     },
@@ -59837,6 +62179,44 @@
               "value_es": "285 g"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$109",
+              "value_es": "$109"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$39.9",
+              "value_es": "$39.9"
+            },
+            {
+              "value": "$89",
+              "value_es": "$89"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            }
+          ]
         }
       ]
     },
@@ -60722,6 +63102,48 @@
             {
               "value": "USB hub plus 4 Arturia FX plus loopback",
               "value_es": "Hub USB más 4 FX Arturia más loopback"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$189",
+              "value_es": "$189"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$129",
+              "value_es": "$129"
+            },
+            {
+              "value": "$229",
+              "value_es": "$229"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
             }
           ]
         }
@@ -61655,6 +64077,52 @@
               "value_es": "Requiere 48V"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$80",
+              "value_es": "$80"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$95",
+              "value_es": "$95"
+            }
+          ]
         }
       ]
     },
@@ -62435,6 +64903,36 @@
               "value_es": "25,4 x 16,4 x 18,6 cm (cada uno)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$429",
+              "value_es": "$429"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            }
+          ]
         }
       ]
     },
@@ -63081,6 +65579,32 @@
             {
               "value": "32.2 lb (14.6 kg)",
               "value_es": "14,6 kg"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$400",
+              "value_es": "$400"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$459",
+              "value_es": "$459"
+            },
+            {
+              "value": "$549",
+              "value_es": "$549"
             }
           ]
         }
@@ -64078,6 +66602,56 @@
             {
               "value": "No",
               "value_es": "No"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$70",
+              "value_es": "$70"
+            },
+            {
+              "value": "$58",
+              "value_es": "$58"
+            },
+            {
+              "value": "$103",
+              "value_es": "$103"
+            },
+            {
+              "value": "$50",
+              "value_es": "$50"
+            },
+            {
+              "value": "$35",
+              "value_es": "$35"
+            },
+            {
+              "value": "$76",
+              "value_es": "$76"
+            },
+            {
+              "value": "$73",
+              "value_es": "$73"
+            },
+            {
+              "value": "$69",
+              "value_es": "$69"
+            },
+            {
+              "value": "$40",
+              "value_es": "$40"
+            },
+            {
+              "value": "$60",
+              "value_es": "$60"
+            },
+            {
+              "value": "$35",
+              "value_es": "$35"
             }
           ]
         }
@@ -65242,6 +67816,36 @@
               "value_es": "Drive de tubo asimétrico, flujo 3 perillas"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            }
+          ]
         }
       ]
     },
@@ -66090,6 +68694,52 @@
               "value_es": "AA / USB"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$289",
+              "value_es": "$289"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$429",
+              "value_es": "$429"
+            },
+            {
+              "value": "$239",
+              "value_es": "$239"
+            },
+            {
+              "value": "$119",
+              "value_es": "$119"
+            },
+            {
+              "value": "$659",
+              "value_es": "$659"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$449",
+              "value_es": "$449"
+            }
+          ]
         }
       ]
     },
@@ -66849,6 +69499,36 @@
               "value_es": "Rack como plugin (VST3/AU/AAX), patch CV"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$749",
+              "value_es": "$749"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$580",
+              "value_es": "$580"
+            },
+            {
+              "value": "$200",
+              "value_es": "$200"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            }
+          ]
         }
       ]
     },
@@ -67206,40 +69886,6 @@
       ],
       "rows": [
         {
-          "label": "Connectivity",
-          "label_es": "Conectividad",
-          "values": [
-            {
-              "value": "1/4\" in + thru, XLR out",
-              "value_es": "Entrada 1/4\" + thru, salida XLR"
-            },
-            {
-              "value": "1/4\" TRS in, XLR out",
-              "value_es": "Entrada 1/4\" TRS, salida XLR"
-            },
-            {
-              "value": "1/4\" in; XLR + 2x 1/4\" outs",
-              "value_es": "Entrada 1/4\"; salidas XLR + 2x 1/4\""
-            },
-            {
-              "value": "2x 1/4\" in + thru, 2x XLR out",
-              "value_es": "2x entradas 1/4\" + thru, 2x salidas XLR"
-            },
-            {
-              "value": "1/4\" in + thru, XLR out",
-              "value_es": "Entrada 1/4\" + thru, salida XLR"
-            },
-            {
-              "value": "1/4\" TRS in (stereo sum), XLR out",
-              "value_es": "Entrada 1/4\" TRS (suma estéreo), salida XLR"
-            },
-            {
-              "value": "1/4\" in, XLR + 1/4\" out, FX loop",
-              "value_es": "Entrada 1/4\", salidas XLR + 1/4\", bucle de efectos"
-            }
-          ]
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "values": [
@@ -67270,6 +69916,40 @@
             {
               "value": "Acoustic instruments with built-in EQ and notch filter",
               "value_es": "Instrumentos acústicos con EQ integrada y filtro notch"
+            }
+          ]
+        },
+        {
+          "label": "Connectivity",
+          "label_es": "Conectividad",
+          "values": [
+            {
+              "value": "1/4\" in + thru, XLR out",
+              "value_es": "Entrada 1/4\" + thru, salida XLR"
+            },
+            {
+              "value": "1/4\" TRS in, XLR out",
+              "value_es": "Entrada 1/4\" TRS, salida XLR"
+            },
+            {
+              "value": "1/4\" in; XLR + 2x 1/4\" outs",
+              "value_es": "Entrada 1/4\"; salidas XLR + 2x 1/4\""
+            },
+            {
+              "value": "2x 1/4\" in + thru, 2x XLR out",
+              "value_es": "2x entradas 1/4\" + thru, 2x salidas XLR"
+            },
+            {
+              "value": "1/4\" in + thru, XLR out",
+              "value_es": "Entrada 1/4\" + thru, salida XLR"
+            },
+            {
+              "value": "1/4\" TRS in (stereo sum), XLR out",
+              "value_es": "Entrada 1/4\" TRS (suma estéreo), salida XLR"
+            },
+            {
+              "value": "1/4\" in, XLR + 1/4\" out, FX loop",
+              "value_es": "Entrada 1/4\", salidas XLR + 1/4\", bucle de efectos"
             }
           ]
         },
@@ -67406,6 +70086,40 @@
             {
               "value": "0.70 kg",
               "value_es": "0,70 kg"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$260",
+              "value_es": "$260"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$210",
+              "value_es": "$210"
+            },
+            {
+              "value": "$79",
+              "value_es": "$79"
+            },
+            {
+              "value": "$150",
+              "value_es": "$150"
+            },
+            {
+              "value": "$229",
+              "value_es": "$229"
             }
           ]
         }
@@ -70051,6 +72765,40 @@
               "value_es": "No publicado (varía por unidad)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$1599",
+              "value_es": "$1599"
+            },
+            {
+              "value": "$1599",
+              "value_es": "$1599"
+            },
+            {
+              "value": "$450",
+              "value_es": "$450"
+            },
+            {
+              "value": "$280",
+              "value_es": "$280"
+            },
+            {
+              "value": "$2199",
+              "value_es": "$2199"
+            }
+          ]
         }
       ]
     },
@@ -70887,6 +73635,44 @@
             {
               "value": "Not published (varies by unit)",
               "value_es": "No publicado (varía por unidad)"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$2299",
+              "value_es": "$2299"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$1799",
+              "value_es": "$1799"
+            },
+            {
+              "value": "$949",
+              "value_es": "$949"
+            },
+            {
+              "value": "$219",
+              "value_es": "$219"
+            },
+            {
+              "value": "$1799",
+              "value_es": "$1799"
+            },
+            {
+              "value": "$2799",
+              "value_es": "$2799"
             }
           ]
         }
@@ -71751,64 +74537,6 @@
       ],
       "rows": [
         {
-          "label": "Type",
-          "values": [
-            {
-              "value": "Multi-FX Bundle (21 effects)",
-              "value_es": "Pack Multi-FX (21 efectos)"
-            },
-            {
-              "value": "Algorithmic Reverb",
-              "value_es": "Reverb Algorítmico"
-            },
-            {
-              "value": "Rhythmic Modulation Suite",
-              "value_es": "Suite Modulación Rítmica"
-            },
-            {
-              "value": "Lo-Fi / Character Processor",
-              "value_es": "Procesador Lo-Fi / Carácter"
-            },
-            {
-              "value": "Time-Stretch / Pitch Effect",
-              "value_es": "Time-Stretch / Efecto Pitch"
-            },
-            {
-              "value": "Dual-Engine Creative Delay",
-              "value_es": "Delay Creativo Dual-Engine"
-            },
-            {
-              "value": "Step-Sequenced Multi-FX",
-              "value_es": "Multi-FX Secuenciado por Pasos"
-            },
-            {
-              "value": "Multiband Distortion",
-              "value_es": "Distorsión Multibanda"
-            },
-            {
-              "value": "Spatial / Reverb (3 engines)",
-              "value_es": "Espacial / Reverb (3 motores)"
-            },
-            {
-              "value": "Harmonic Spectral Processor",
-              "value_es": "Procesador Espectral Armónico"
-            },
-            {
-              "value": "Chorus (Juno-106 modeling)",
-              "value_es": "Chorus (modelado Juno-106)"
-            },
-            {
-              "value": "Delay (23 models)",
-              "value_es": "Delay (23 modelos)"
-            },
-            {
-              "value": "Delay + Reverb Wet-FX Generator",
-              "value_es": "Generador Wet-FX Delay + Reverb"
-            }
-          ],
-          "label_es": "Tipo"
-        },
-        {
           "label": "Best For",
           "values": [
             {
@@ -71865,6 +74593,64 @@
             }
           ],
           "label_es": "Ideal para"
+        },
+        {
+          "label": "Type",
+          "values": [
+            {
+              "value": "Multi-FX Bundle (21 effects)",
+              "value_es": "Pack Multi-FX (21 efectos)"
+            },
+            {
+              "value": "Algorithmic Reverb",
+              "value_es": "Reverb Algorítmico"
+            },
+            {
+              "value": "Rhythmic Modulation Suite",
+              "value_es": "Suite Modulación Rítmica"
+            },
+            {
+              "value": "Lo-Fi / Character Processor",
+              "value_es": "Procesador Lo-Fi / Carácter"
+            },
+            {
+              "value": "Time-Stretch / Pitch Effect",
+              "value_es": "Time-Stretch / Efecto Pitch"
+            },
+            {
+              "value": "Dual-Engine Creative Delay",
+              "value_es": "Delay Creativo Dual-Engine"
+            },
+            {
+              "value": "Step-Sequenced Multi-FX",
+              "value_es": "Multi-FX Secuenciado por Pasos"
+            },
+            {
+              "value": "Multiband Distortion",
+              "value_es": "Distorsión Multibanda"
+            },
+            {
+              "value": "Spatial / Reverb (3 engines)",
+              "value_es": "Espacial / Reverb (3 motores)"
+            },
+            {
+              "value": "Harmonic Spectral Processor",
+              "value_es": "Procesador Espectral Armónico"
+            },
+            {
+              "value": "Chorus (Juno-106 modeling)",
+              "value_es": "Chorus (modelado Juno-106)"
+            },
+            {
+              "value": "Delay (23 models)",
+              "value_es": "Delay (23 modelos)"
+            },
+            {
+              "value": "Delay + Reverb Wet-FX Generator",
+              "value_es": "Generador Wet-FX Delay + Reverb"
+            }
+          ],
+          "label_es": "Tipo"
         },
         {
           "label": "Key Feature",
@@ -72155,6 +74941,64 @@
             }
           ],
           "label_es": "Formatos"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$12",
+              "value_es": "$12"
+            },
+            {
+              "value": "$129",
+              "value_es": "$129"
+            },
+            {
+              "value": "$129.99",
+              "value_es": "$129.99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$79",
+              "value_es": "$79"
+            },
+            {
+              "value": "$79",
+              "value_es": "$79"
+            },
+            {
+              "value": "$49",
+              "value_es": "$49"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            }
+          ]
         }
       ]
     },
@@ -73326,6 +76170,56 @@
               "value_es": "23 lb (10,4 kg)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$790",
+              "value_es": "$790"
+            },
+            {
+              "value": "$399.99",
+              "value_es": "$399.99"
+            },
+            {
+              "value": "$1800",
+              "value_es": "$1800"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$750",
+              "value_es": "$750"
+            },
+            {
+              "value": "$629",
+              "value_es": "$629"
+            },
+            {
+              "value": "$439",
+              "value_es": "$439"
+            },
+            {
+              "value": "$300",
+              "value_es": "$300"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$928",
+              "value_es": "$928"
+            },
+            {
+              "value": "$1199",
+              "value_es": "$1199"
+            }
+          ]
         }
       ]
     },
@@ -74312,6 +77206,44 @@
             {
               "value": "12 reverbs, dual engine, 300 presets",
               "value_es": "12 reverbs, motor dual, 300 presets"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$100",
+              "value_es": "$100"
+            },
+            {
+              "value": "$179",
+              "value_es": "$179"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$100",
+              "value_es": "$100"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$83",
+              "value_es": "$83"
+            },
+            {
+              "value": "$116",
+              "value_es": "$116"
+            },
+            {
+              "value": "$679",
+              "value_es": "$679"
             }
           ]
         }
@@ -78095,6 +81027,48 @@
               "value_es": "31,2 lb (14,16 kg)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$549",
+              "value_es": "$549"
+            },
+            {
+              "value": "$529",
+              "value_es": "$529"
+            },
+            {
+              "value": "$1899",
+              "value_es": "$1899"
+            },
+            {
+              "value": "$899",
+              "value_es": "$899"
+            },
+            {
+              "value": "$1232",
+              "value_es": "$1232"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            }
+          ]
         }
       ]
     },
@@ -80859,6 +83833,76 @@
               "value_es": "Sí, 3,5 mm con control de nivel"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$110",
+              "value_es": "$110"
+            },
+            {
+              "value": "$150",
+              "value_es": "$150"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$70",
+              "value_es": "$70"
+            },
+            {
+              "value": "$58",
+              "value_es": "$58"
+            },
+            {
+              "value": "$50",
+              "value_es": "$50"
+            },
+            {
+              "value": "$35",
+              "value_es": "$35"
+            },
+            {
+              "value": "$103",
+              "value_es": "$103"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$129.99",
+              "value_es": "$129.99"
+            },
+            {
+              "value": "$60",
+              "value_es": "$60"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$69",
+              "value_es": "$69"
+            }
+          ]
         }
       ]
     },
@@ -81903,6 +84947,40 @@
               "value_es": "Chasis metálico"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$1199",
+              "value_es": "$1199"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$449",
+              "value_es": "$449"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$1299",
+              "value_es": "$1299"
+            }
+          ]
         }
       ]
     },
@@ -82722,6 +85800,44 @@
               "value_es": "24 bandas + EQ dinámico + fase lineal"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$1069",
+              "value_es": "$1069"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$129",
+              "value_es": "$129"
+            },
+            {
+              "value": "$125",
+              "value_es": "$125"
+            },
+            {
+              "value": "$80",
+              "value_es": "$80"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            }
+          ]
         }
       ]
     },
@@ -83324,48 +86440,6 @@
       ],
       "rows": [
         {
-          "label": "Category",
-          "label_es": "Categoría",
-          "values": [
-            {
-              "value": "Studio Monitor",
-              "value_es": "Monitor de estudio"
-            },
-            {
-              "value": "Floor Monitor Stands",
-              "value_es": "Soportes de suelo"
-            },
-            {
-              "value": "Studio Monitor",
-              "value_es": "Monitor de estudio"
-            },
-            {
-              "value": "Desktop Isolation Stands",
-              "value_es": "Soportes de aislamiento de escritorio"
-            },
-            {
-              "value": "Room Correction Software",
-              "value_es": "Software de corrección de sala"
-            },
-            {
-              "value": "Measurement Mic",
-              "value_es": "Micrófono de medición"
-            },
-            {
-              "value": "Room Calibration Kit",
-              "value_es": "Kit de calibración de sala"
-            },
-            {
-              "value": "Isolation Pads",
-              "value_es": "Almohadillas de aislamiento"
-            },
-            {
-              "value": "Heavy Midfield Monitor Stands",
-              "value_es": "Soportes para monitores de campo medio pesados"
-            }
-          ]
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "values": [
@@ -83408,6 +86482,48 @@
           ]
         },
         {
+          "label": "Category",
+          "label_es": "Categoría",
+          "values": [
+            {
+              "value": "Studio Monitor",
+              "value_es": "Monitor de estudio"
+            },
+            {
+              "value": "Floor Monitor Stands",
+              "value_es": "Soportes de suelo"
+            },
+            {
+              "value": "Studio Monitor",
+              "value_es": "Monitor de estudio"
+            },
+            {
+              "value": "Desktop Isolation Stands",
+              "value_es": "Soportes de aislamiento de escritorio"
+            },
+            {
+              "value": "Room Correction Software",
+              "value_es": "Software de corrección de sala"
+            },
+            {
+              "value": "Measurement Mic",
+              "value_es": "Micrófono de medición"
+            },
+            {
+              "value": "Room Calibration Kit",
+              "value_es": "Kit de calibración de sala"
+            },
+            {
+              "value": "Isolation Pads",
+              "value_es": "Almohadillas de aislamiento"
+            },
+            {
+              "value": "Heavy Midfield Monitor Stands",
+              "value_es": "Soportes para monitores de campo medio pesados"
+            }
+          ]
+        },
+        {
           "label": "Key Feature",
           "label_es": "Característica clave",
           "values": [
@@ -83446,6 +86562,48 @@
             {
               "value": "Fixed 38-inch height, 34 kg capacity, cable channels, rubber feet",
               "value_es": "Altura fija de 38 pulgadas, 34 kg de capacidad, canales de cables, patas de goma"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$89",
+              "value_es": "$89"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$79",
+              "value_es": "$79"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$39.99",
+              "value_es": "$39.99"
+            },
+            {
+              "value": "$599.99",
+              "value_es": "$599.99"
             }
           ]
         }
@@ -84469,6 +87627,20 @@
               "value_es": "20 kg (44 lb)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$949",
+              "value_es": "$949"
+            },
+            {
+              "value": "$1699",
+              "value_es": "$1699"
+            }
+          ]
         }
       ]
     },
@@ -85072,6 +88244,44 @@
               "value_es": "345 g"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$279",
+              "value_es": "$279"
+            },
+            {
+              "value": "$379",
+              "value_es": "$379"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$1236",
+              "value_es": "$1236"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            }
+          ]
         }
       ]
     },
@@ -85561,6 +88771,20 @@
             {
               "value": "Pro-Q 3, Pro-L 2, Pro-C 2 and Pro-MB",
               "value_es": "Pro-Q 3, Pro-L 2, Pro-C 2 y Pro-MB"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$519",
+              "value_es": "$519"
             }
           ]
         }
@@ -86998,6 +90222,48 @@
               "value_es": "2 salidas auriculares, talkback, lanzador"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$949",
+              "value_es": "$949"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$219",
+              "value_es": "$219"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$189",
+              "value_es": "$189"
+            },
+            {
+              "value": "$129",
+              "value_es": "$129"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            }
+          ]
         }
       ]
     },
@@ -88305,6 +91571,36 @@
             {
               "value": "50 FX, room correction",
               "value_es": "50 efectos, room correction"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$1495",
+              "value_es": "$1495"
+            },
+            {
+              "value": "$3499",
+              "value_es": "$3499"
+            },
+            {
+              "value": "$3299",
+              "value_es": "$3299"
+            },
+            {
+              "value": "$3199",
+              "value_es": "$3199"
+            },
+            {
+              "value": "$2199",
+              "value_es": "$2199"
+            },
+            {
+              "value": "$2895",
+              "value_es": "$2895"
             }
           ]
         }
@@ -98419,6 +101715,52 @@
               "value_es": "Receptor half-rack + mano/petaca"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$139",
+              "value_es": "$139"
+            },
+            {
+              "value": "$259",
+              "value_es": "$259"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            }
+          ]
         }
       ]
     },
@@ -99266,6 +102608,32 @@
               "value_es": "16,9 kg"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$1699",
+              "value_es": "$1699"
+            },
+            {
+              "value": "$949",
+              "value_es": "$949"
+            },
+            {
+              "value": "$590",
+              "value_es": "$590"
+            },
+            {
+              "value": "$697",
+              "value_es": "$697"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            }
+          ]
         }
       ]
     },
@@ -99917,6 +103285,32 @@
             {
               "value": "Up to 14 h (2 AA)",
               "value_es": "Hasta 14 h (2 AA)"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$849",
+              "value_es": "$849"
+            },
+            {
+              "value": "$999",
+              "value_es": "$999"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
             }
           ]
         }
@@ -100699,6 +104093,24 @@
             {
               "value": "~$2,688",
               "value_es": "~$2.688"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "N/A",
+              "value_es": "N/D"
+            },
+            {
+              "value": "N/A",
+              "value_es": "N/D"
+            },
+            {
+              "value": "N/A",
+              "value_es": "N/D"
             }
           ]
         }
@@ -101884,6 +105296,56 @@
             }
           ],
           "label_es": "Software"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$160",
+              "value_es": "$160"
+            },
+            {
+              "value": "$229",
+              "value_es": "$229"
+            },
+            {
+              "value": "$170",
+              "value_es": "$170"
+            },
+            {
+              "value": "$189",
+              "value_es": "$189"
+            },
+            {
+              "value": "$299.99",
+              "value_es": "$299.99"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$800",
+              "value_es": "$800"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            }
+          ]
         }
       ]
     },
@@ -103127,6 +106589,40 @@
               "value_es": "Sí — MAIN + SUB"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$129",
+              "value_es": "$129"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$179",
+              "value_es": "$179"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$699",
+              "value_es": "$699"
+            }
+          ]
         }
       ]
     },
@@ -103706,6 +107202,40 @@
             {
               "value": "8 motorized faders + SSL 360 software",
               "value_es": "8 faders motorizados + software SSL 360"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$108.99",
+              "value_es": "$108.99"
+            },
+            {
+              "value": "$89",
+              "value_es": "$89"
+            },
+            {
+              "value": "$53",
+              "value_es": "$53"
+            },
+            {
+              "value": "$79",
+              "value_es": "$79"
+            },
+            {
+              "value": "$29",
+              "value_es": "$29"
+            },
+            {
+              "value": "$49",
+              "value_es": "$49"
+            },
+            {
+              "value": "$1199",
+              "value_es": "$1199"
             }
           ]
         }
@@ -104628,6 +108158,32 @@
             {
               "value": "Best for iLoud Micro Monitors or tight apartment setups",
               "value_es": "Ideal para iLoud Micro Monitors o espacios reducidos en apartamentos"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$479",
+              "value_es": "$479"
+            },
+            {
+              "value": "$499",
+              "value_es": "$499"
+            },
+            {
+              "value": "$399",
+              "value_es": "$399"
+            },
+            {
+              "value": "$500",
+              "value_es": "$500"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
             }
           ]
         }
@@ -105837,6 +109393,56 @@
             {
               "value": "280 g",
               "value_es": "280 g"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$155",
+              "value_es": "$155"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$109",
+              "value_es": "$109"
+            },
+            {
+              "value": "$549",
+              "value_es": "$549"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$329",
+              "value_es": "$329"
             }
           ]
         }
@@ -107479,6 +111085,52 @@
               "value_es": "0,32 kg (0,7 lb)"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$150",
+              "value_es": "$150"
+            },
+            {
+              "value": "$159",
+              "value_es": "$159"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$269",
+              "value_es": "$269"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$169",
+              "value_es": "$169"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$70",
+              "value_es": "$70"
+            }
+          ]
         }
       ]
     },
@@ -108467,6 +112119,48 @@
               "value_es": "Pro-Q 4 + Pro-C 3 + Pro-MB + Pro-R"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$199",
+              "value_es": "$199"
+            },
+            {
+              "value": "$89.99",
+              "value_es": "$89.99"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$599",
+              "value_es": "$599"
+            },
+            {
+              "value": "$89",
+              "value_es": "$89"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$129",
+              "value_es": "$129"
+            },
+            {
+              "value": "$1069",
+              "value_es": "$1069"
+            }
+          ]
         }
       ]
     },
@@ -108989,6 +112683,20 @@
               "value_es": "Docenas de pistas con precisión de frame"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            }
+          ]
         }
       ]
     },
@@ -109308,6 +113016,24 @@
             {
               "value": "Dust & water resistance, 3.5mm jack, carrying case",
               "value_es": "Resistencia al polvo y al agua, jack 3,5mm, maletín"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$1299",
+              "value_es": "$1299"
+            },
+            {
+              "value": "$679",
+              "value_es": "$679"
             }
           ]
         }
@@ -109826,6 +113552,40 @@
             {
               "value": "Up to 36 hours per transmitter with case",
               "value_es": "Hasta 36 horas por transmisor con estuche"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$219",
+              "value_es": "$219"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$76",
+              "value_es": "$76"
+            },
+            {
+              "value": "$99",
+              "value_es": "$99"
+            },
+            {
+              "value": "$139",
+              "value_es": "$139"
+            },
+            {
+              "value": "$44.99",
+              "value_es": "$44.99"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
             }
           ]
         }
@@ -112223,6 +115983,36 @@
               "value_es": "Sí"
             }
           ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$129.99",
+              "value_es": "$129.99"
+            },
+            {
+              "value": "$142",
+              "value_es": "$142"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$147",
+              "value_es": "$147"
+            },
+            {
+              "value": "$99.99",
+              "value_es": "$99.99"
+            },
+            {
+              "value": "$99.99",
+              "value_es": "$99.99"
+            }
+          ]
         }
       ]
     },
@@ -113154,6 +116944,52 @@
             {
               "value": "52 mm",
               "value_es": "52 mm"
+            }
+          ]
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "values": [
+            {
+              "value": "$169.99",
+              "value_es": "$169.99"
+            },
+            {
+              "value": "$349",
+              "value_es": "$349"
+            },
+            {
+              "value": "$249",
+              "value_es": "$249"
+            },
+            {
+              "value": "$799",
+              "value_es": "$799"
+            },
+            {
+              "value": "$419",
+              "value_es": "$419"
+            },
+            {
+              "value": "$299",
+              "value_es": "$299"
+            },
+            {
+              "value": "$230",
+              "value_es": "$230"
+            },
+            {
+              "value": "$279",
+              "value_es": "$279"
+            },
+            {
+              "value": "$149",
+              "value_es": "$149"
+            },
+            {
+              "value": "$179",
+              "value_es": "$179"
             }
           ]
         }
