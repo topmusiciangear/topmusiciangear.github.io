@@ -1968,7 +1968,7 @@ footer ul li a:hover { color: var(--accent); }
 }
 .guide-comparison-table th {
   background: var(--surface);
-  color: var(--accent);
+  color: var(--white);
   font-weight: 700;
   font-size: 13px;
   text-transform: uppercase;
@@ -2646,7 +2646,7 @@ footer ul li a:hover { color: var(--accent); }
 .verdict-product-name {
   font-size: 15px;
   font-weight: 800;
-  color: var(--white);
+  color: var(--accent);
   margin-bottom: 10px;
 }
 
