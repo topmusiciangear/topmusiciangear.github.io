@@ -5766,8 +5766,8 @@ function shopButtonsTest(p, lang) {
   const pPriceRaw = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
     : isAmRePrimary
-      ? t('Ver precio', 'View price')
-      : (_precio ? t('Ver precio', 'View price') : t('Revisar stock', 'Check Stock'));
+      ? t('Ver precio', 'View Price')
+      : (_precio ? t('Ver precio', 'View Price') : t('Revisar stock', 'Check Stock'));
   const pPrice = hidePrimaryLabel ? '' : pPriceRaw;
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
@@ -5817,7 +5817,7 @@ function shopButtonsTest(p, lang) {
     // REGLA FIJA: Amazon y Reverb siempre muestran "Check price" / "Verificar precio"
     const isAmRe = k === 'amazon' || k === 'reverb';
     const hasPrice = !!(prices[k] && prices[k] !== '');
-    const showLabel = isAmRe ? t('Ver precio', 'View price') : (hasPrice ? t('Ver precio', 'View price') : t('Revisar stock', 'Check Stock'));
+    const showLabel = isAmRe ? t('Ver precio', 'View Price') : (hasPrice ? t('Ver precio', 'View Price') : t('Revisar stock', 'Check Stock'));
     const rowBg = isAmRe || hasPrice ? '#333333' : '#262626';
     const labelColor = (isAmRe || hasPrice) ? '#fff' : '#a8a8a8';
     const rowHref = (!isAmRe && !hasPrice && storeSearch[k]) ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
@@ -6401,8 +6401,8 @@ function shopButtonsTest(p, lang) {
   const pPriceRaw = isHolly
     ? fmtPrice(hollyPick ? hollyPick.p || '' : '', lang, true)
     : isAmRePrimary
-      ? t('Ver precio', 'View price')
-      : (_precio ? t('Ver precio', 'View price') : t('Revisar stock', 'Check Stock'));
+      ? t('Ver precio', 'View Price')
+      : (_precio ? t('Ver precio', 'View Price') : t('Revisar stock', 'Check Stock'));
   const pPrice = hidePrimaryLabel ? '' : pPriceRaw;
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
@@ -6452,7 +6452,7 @@ function shopButtonsTest(p, lang) {
     // REGLA FIJA: Amazon y Reverb siempre muestran "Check price" / "Verificar precio"
     const isAmRe = k === 'amazon' || k === 'reverb';
     const hasPrice = !!(prices[k] && prices[k] !== '');
-    const showLabel = isAmRe ? t('Ver precio', 'View price') : (hasPrice ? t('Ver precio', 'View price') : t('Revisar stock', 'Check Stock'));
+    const showLabel = isAmRe ? t('Ver precio', 'View Price') : (hasPrice ? t('Ver precio', 'View Price') : t('Revisar stock', 'Check Stock'));
     const rowBg = isAmRe || hasPrice ? '#333333' : '#262626';
     const labelColor = (isAmRe || hasPrice) ? '#fff' : '#a8a8a8';
     const rowHref = (!isAmRe && !hasPrice && storeSearch[k]) ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
@@ -6531,7 +6531,7 @@ window.tmgStoreButtons = function(p) {
         }
         return;
       }
-      var tmgCheckLabel = tmgIsEsDoc() ? 'Ver precio' : 'View price';
+      var tmgCheckLabel = tmgIsEsDoc() ? 'Ver precio' : 'View Price';
       if (curStore === T || curStore === 'msdirect') return;
       if (!curStore) return;
       var zRow = c.querySelector('[data-store="' + T + '"]');
