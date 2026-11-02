@@ -5796,19 +5796,22 @@ function shopButtonsTest(p, lang) {
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
     '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at')) + (isLogic ? '' : isHolly ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.hollyland + '</span>' : dawHasAmazon ? '<span style=\'' + SHOP_PRIMARY_FONT + '\'>Amazon</span>' : isDaw ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'' + SHOP_PRIMARY_FONT + '\'>PluginBoutique</span>' : (primaryStoreKey === 'zzounds' ? '<span style=' + SHOP_PRIMARY_FONT + '>zZounds</span>' : primaryStoreKey === 'gear4music' ? '<span style=' + SHOP_PRIMARY_FONT + '>' + SHOP_LOGO_TEXT.gear4music + '</span>' : primaryStoreKey === 'amazon' ? '<span style=' + SHOP_PRIMARY_FONT + '>Amazon</span>' : primaryStoreKey === 'pluginboutique' ? '<span style=' + SHOP_PRIMARY_FONT + '>PluginBoutique</span>' : primaryStoreKey === 'official' ? '<span style=' + SHOP_PRIMARY_FONT + '>Official Store</span>' : primaryStoreKey === 'hollyland' ? '<span style=' + SHOP_PRIMARY_FONT + '>Hollyland</span>' : '<span style="' + SHOP_PRIMARY_FONT + '">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>')) + (pPrice ? '<span>- ' + pPrice + '</span>' : '') + '</span></a>';
-  const rows = order.filter(k => k !== primaryStoreKey).map(k => {
+  const rowsTmp = order.filter(k => k !== primaryStoreKey).map(k => {
     const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
     const st = SHOP_ROW_FONT;
     const storeNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'], amazon: ['(Env\u00edo Prime)', '(Prime Delivery)'] };
     const storeNote = '';
     const ds = ' data-store="' + k + '"';
+    let isCheck = false;
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
       const naUrl = storeSearch[k] ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
-      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8;white-space:nowrap">' + t('Revisar stock', 'Check Stock') + '</span>' + '</a>';
+      const html = '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8;white-space:nowrap">' + t('Revisar stock', 'Check Stock') + '</span>' + '</a>';
+      return {html, isCheck: true};
     }
     if (oosList.indexOf(k) > -1) {
       const oosUrl = storeSearch[k] ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
-      return '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8;white-space:nowrap">' + t('Revisar stock', 'Check Stock') + '</span>' + '</a>';
+      const html = '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8;white-space:nowrap">' + t('Revisar stock', 'Check Stock') + '</span>' + '</a>';
+      return {html, isCheck: true};
     }
     // Amazon no tiene precio propio en casi ningun producto (solo aporta el
     // enlace con tag). Antes se mostraba "Verificar precio" y se perdia el
@@ -5821,10 +5824,15 @@ function shopButtonsTest(p, lang) {
     const rowBg = isAmRe || hasPrice ? '#333333' : '#262626';
     const labelColor = (isAmRe || hasPrice) ? '#fff' : '#a8a8a8';
     const rowHref = (!isAmRe && !hasPrice && storeSearch[k]) ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
-    return '<a' + ds + ' href="' + rowHref + '" target="_blank" rel="noopener noreferrer sponsored" ' +
+    const html = '<a' + ds + ' href="' + rowHref + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:' + rowBg + ';transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:' + labelColor + ';white-space:nowrap">' + showLabel + '</span></a>';
-  }).join('');
+    isCheck = !(isAmRe || hasPrice);
+    return {html, isCheck};
+  });
+  const mixed = rowsTmp.some(r => r.isCheck) && rowsTmp.some(r => !r.isCheck);
+  if (mixed) rowsTmp.sort((a,b) => a.isCheck - b.isCheck);
+  const rows = rowsTmp.map(r => r.html).join('');
   // Fila final del desplegable: escribir reseña. Se declara fuera del .map() de
   // rows para que quede SIEMPRE después de todas las tiendas.
   const reviewRow = '<button type="button" class="shop-btn-review" onclick="openReviewModal(' + p.id + ')" ' +
@@ -6431,19 +6439,22 @@ function shopButtonsTest(p, lang) {
     'box-shadow:0 4px 16px rgba(59,130,246,.35);transition:box-shadow .2s ease,filter .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.filter=\'brightness(1.05)\'" onmouseout="this.style.filter=\'\'">' +
     '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + (isLogic ? t('Tienda Oficial', 'Official Store') : t('Comprar en', 'Buy at')) + (isLogic ? '' : isHolly ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.hollyland + '</span>' : dawHasAmazon ? '<span style=\'' + SHOP_PRIMARY_FONT + '\'>Amazon</span>' : isDaw ? '<span style="' + SHOP_PRIMARY_FONT + '">' + SHOP_LOGO_TEXT.gear4music + '</span>'     : isPlugins ? '<span style=\'' + SHOP_PRIMARY_FONT + '\'>PluginBoutique</span>' : (primaryStoreKey === 'zzounds' ? '<span style=' + SHOP_PRIMARY_FONT + '>zZounds</span>' : primaryStoreKey === 'gear4music' ? '<span style=' + SHOP_PRIMARY_FONT + '>' + SHOP_LOGO_TEXT.gear4music + '</span>' : primaryStoreKey === 'amazon' ? '<span style=' + SHOP_PRIMARY_FONT + '>Amazon</span>' : primaryStoreKey === 'pluginboutique' ? '<span style=' + SHOP_PRIMARY_FONT + '>PluginBoutique</span>' : primaryStoreKey === 'official' ? '<span style=' + SHOP_PRIMARY_FONT + '>Official Store</span>' : primaryStoreKey === 'hollyland' ? '<span style=' + SHOP_PRIMARY_FONT + '>Hollyland</span>' : '<span style="' + SHOP_PRIMARY_FONT + '">' + (SHOP_LOGO_TEXT[primaryStoreKey]||primaryStoreKey) + '</span>')) + (pPrice ? '<span>- ' + pPrice + '</span>' : '') + '</span></a>';
-  const rows = order.filter(k => k !== primaryStoreKey).map(k => {
+  const rowsTmp = order.filter(k => k !== primaryStoreKey).map(k => {
     const nm = SHOP_LOGO_TEXT[k] || storeNames[k] || k;
     const st = SHOP_ROW_FONT;
     const storeNotes = { zzounds: ['(Planes de pago f\u00e1ciles)', '(Easy Payment Plans)'], reverb: ['(Mercado nuevo y usado)', '(New & Used Market)'], gear4music: ['(Env\u00edos r\u00e1pidos UK)', '(Fast UK Delivery)'], andertons: ['(Soporte experto)', '(Expert Support)'], musicstore: ['(Garant\u00eda de 3 a\u00f1os)', '(3-Year Warranty)'], amazon: ['(Env\u00edo Prime)', '(Prime Delivery)'] };
     const storeNote = '';
     const ds = ' data-store="' + k + '"';
+    let isCheck = false;
     if (naList.indexOf(k) > -1 || (!(cfg.urls && cfg.urls[k]) && k !== 'reverb' && !stores[k])) {
       const naUrl = storeSearch[k] ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
-      return '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8;white-space:nowrap">' + t('Revisar stock', 'Check Stock') + '</span>' + '</a>';
+      const html = '<a' + ds + ' href="' + naUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8;white-space:nowrap">' + t('Revisar stock', 'Check Stock') + '</span>' + '</a>';
+      return {html, isCheck: true};
     }
     if (oosList.indexOf(k) > -1) {
       const oosUrl = storeSearch[k] ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
-      return '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8;white-space:nowrap">' + t('Revisar stock', 'Check Stock') + '</span>' + '</a>';
+      const html = '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8;white-space:nowrap">' + t('Revisar stock', 'Check Stock') + '</span>' + '</a>';
+      return {html, isCheck: true};
     }
     // Amazon no tiene precio propio en casi ningun producto (solo aporta el
     // enlace con tag). Antes se mostraba "Verificar precio" y se perdia el
@@ -6456,10 +6467,15 @@ function shopButtonsTest(p, lang) {
     const rowBg = isAmRe || hasPrice ? '#333333' : '#262626';
     const labelColor = (isAmRe || hasPrice) ? '#fff' : '#a8a8a8';
     const rowHref = (!isAmRe && !hasPrice && storeSearch[k]) ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
-    return '<a' + ds + ' href="' + rowHref + '" target="_blank" rel="noopener noreferrer sponsored" ' +
+    const html = '<a' + ds + ' href="' + rowHref + '" target="_blank" rel="noopener noreferrer sponsored" ' +
       'style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:' + rowBg + ';transition:transform .18s ease,background .18s ease,box-shadow .18s ease;' +
       'color:#ffffff;text-decoration:none;font-size:15px;font-weight:800;border:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:' + labelColor + ';white-space:nowrap">' + showLabel + '</span></a>';
-  }).join('');
+    isCheck = !(isAmRe || hasPrice);
+    return {html, isCheck};
+  });
+  const mixed = rowsTmp.some(r => r.isCheck) && rowsTmp.some(r => !r.isCheck);
+  if (mixed) rowsTmp.sort((a,b) => a.isCheck - b.isCheck);
+  const rows = rowsTmp.map(r => r.html).join('');
   // Fila final del desplegable: escribir reseña. Se declara fuera del .map() de
   // rows para que quede SIEMPRE después de todas las tiendas.
   const reviewRow = '<button type="button" class="shop-btn-review" onclick="openReviewModal(' + p.id + ')" ' +
