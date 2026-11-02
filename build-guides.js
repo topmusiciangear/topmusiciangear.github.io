@@ -6266,7 +6266,7 @@ function shopButtonsTest(p, lang) {
     'border-radius:12px;background:#262626;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;' +
     'border:none;cursor:pointer;transition:transform .18s ease,background .18s ease,box-shadow .18s ease" ' +
     'onmouseover="this.style.background=\'#34383d\'" onmouseout="this.style.background=\'#262626\'">' +
-    starSvg + '<span style="white-space:nowrap">' + t('Escribe una reseña', 'Write a review') + '</span></button>';
+    starSvg + '<span style="white-space:nowrap">' + t('Escribe una reseña', 'Write a Review') + '</span></button>';
   const rowCount = order.filter(k => k !== primaryStoreKey).length;
   const moreBtn =
     '<button type="button" class="shop-btn-more" ' +
@@ -6274,7 +6274,7 @@ function shopButtonsTest(p, lang) {
     'style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:0 16px;height:40px;border-radius:12px;' +
     'background:#333333;color:#ffffff;font-family:inherit;font-size:15px;font-weight:800;text-decoration:none;border:none;cursor:pointer;transition:background .2s ease,transform .18s ease" ' +
     'onmouseover="this.style.background=\'#3d3d3d\'" onmouseout="this.style.background=\'#333333\'">' +
-    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + t('Comparar en ' + rowCount + ' tiendas más', 'Compare ' + rowCount + ' more stores') + chevSvg + '</span></span>' + '</button>' +
+    '<span style="display:flex;align-items:center;gap:10px">' + cartSvg + '<span style="display:flex;align-items:center;gap:10px">' + t('Comparar en ' + rowCount + ' tiendas más', 'Compare ' + rowCount + ' More Stores') + chevSvg + '</span></span>' + '</button>' +
     '<div class="shop-more-list" style="width:100%;box-sizing:border-box;display:none;flex-direction:column;gap:6px;overflow:hidden;max-height:0;transition:max-height .3s ease">' + rows + '</div>' + reviewRow;
   return isLogic ? primaryBtn + reviewRow : primaryBtn + moreBtn;
 }
