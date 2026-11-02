@@ -179,20 +179,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2024 (Live 12)",
-          "val2": "2026 (FL Studio)",
-          "val1_es": "2024 (Live 12)",
-          "val2_es": "2026 (FL Studio)"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Electronic music and live performance",
           "val2": "Beat-making and hip-hop",
           "val1_es": "Música electrónica y actuación en vivo",
           "val2_es": "Beat-making y hip-hop"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2024 (Live 12)",
+          "val2": "2026 (FL Studio)",
+          "val1_es": "2024 (Live 12)",
+          "val2_es": "2026 (FL Studio)"
         },
         {
           "label": "Pricing Model",
@@ -273,6 +273,14 @@
           "val2": "Lifetime free updates + piano roll",
           "val1_es": "Session View + Max for Live",
           "val2_es": "Actualizaciones gratis de por vida + piano roll"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$749",
+          "val2": "$199",
+          "val1_es": "$749",
+          "val2_es": "$199"
         }
       ]
     },
@@ -662,6 +670,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Electronic music, live performance",
+          "val2": "Recording, mixing, songwriting",
+          "val1_es": "Música electrónica, actuación en vivo",
+          "val2_es": "Grabación, mezcla, composición"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2024 (Live 12)",
@@ -676,14 +692,6 @@
           "val2": "One-time, updates included",
           "val1_es": "Niveles (Intro / Standard / Suite)",
           "val2_es": "De pago único, actualizaciones incluidas"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Electronic music, live performance",
-          "val2": "Recording, mixing, songwriting",
-          "val1_es": "Música electrónica, actuación en vivo",
-          "val2_es": "Grabación, mezcla, composición"
         },
         {
           "label": "Max Track Count",
@@ -764,6 +772,14 @@
           "val2": "Not available",
           "val1_es": "Incluido (Suite)",
           "val2_es": "No disponible"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$200",
+          "val2": "$749",
+          "val1_es": "$200",
+          "val2_es": "$749"
         }
       ]
     },
@@ -2842,6 +2858,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Detailed mixing with ribbon tweeter",
+          "val2": "Professional reference monitoring",
+          "val1_es": "Mezcla detallada con tweeter de cinta",
+          "val2_es": "Monitoreo de referencia profesional"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2021",
@@ -2856,14 +2880,6 @@
           "val2": "2-way bi-amp",
           "val1_es": "2-way bi-amp",
           "val2_es": "2-way bi-amp"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Detailed mixing with ribbon tweeter",
-          "val2": "Professional reference monitoring",
-          "val1_es": "Mezcla detallada con tweeter de cinta",
-          "val2_es": "Monitoreo de referencia profesional"
         },
         {
           "label": "Woofer",
@@ -2928,6 +2944,14 @@
           "val1_es": "33.8 x 20 x 26,4 cm",
           "val2": "12.4 x 7.9 x 11.8 in",
           "val2_es": "31.5 x 20 x 30 cm"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,198",
+          "val2": "$799",
+          "val1_es": "$1,198",
+          "val2_es": "$799"
         }
       ]
     },
@@ -3384,6 +3408,22 @@
       ],
       "rows": [
         {
+          "label": "Best For",
+          "val": "EQ across all mixing sessions",
+          "val3": "Matching your mix to a reference",
+          "val4": "Final limiting with intelligent LUFS",
+          "val5": "Creative distortion and sound design",
+          "label_es": "Ideal para",
+          "val_es": "EQ en todas las sesiones de mezcla",
+          "val3_es": "Igualar tu mezcla con una referencia",
+          "val4_es": "Limitación final con LUFS inteligente",
+          "val5_es": "Distorsión creativa y diseño sonoro",
+          "val1": "Individual track mixing assistance",
+          "val1_es": "Asistencia de mezcla por pista",
+          "val2": "Fast, repeatable mix decisions",
+          "val2_es": "Decisiones de mezcla rápidas y repetibles"
+        },
+        {
           "label": "Type",
           "val": "Smart EQ",
           "val3": "Immersive 3D EQ",
@@ -3432,20 +3472,12 @@
           "val2_es": "Multitrack"
         },
         {
-          "label": "Best For",
-          "val": "EQ across all mixing sessions",
-          "val3": "Matching your mix to a reference",
-          "val4": "Final limiting with intelligent LUFS",
-          "val5": "Creative distortion and sound design",
-          "label_es": "Ideal para",
-          "val_es": "EQ en todas las sesiones de mezcla",
-          "val3_es": "Igualar tu mezcla con una referencia",
-          "val4_es": "Limitación final con LUFS inteligente",
-          "val5_es": "Distorsión creativa y diseño sonoro",
-          "val1": "Individual track mixing assistance",
-          "val1_es": "Asistencia de mezcla por pista",
-          "val2": "Fast, repeatable mix decisions",
-          "val2_es": "Decisiones de mezcla rápidas y repetibles"
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$299",
+          "val2": "$129",
+          "val1_es": "$299",
+          "val2_es": "$129"
         }
       ]
     }
@@ -3618,20 +3650,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2020 (American Pro II)",
-          "val2": "2019 (Standard '50s)",
-          "val1_es": "2020 (American Pro II)",
-          "val2_es": "2019 (Standard '50s)"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Professional Stratocaster tone",
           "val2": "Classic rock and blues",
           "val1_es": "Tono Stratocaster profesional",
           "val2_es": "Rock clásico y blues"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2020 (American Pro II)",
+          "val2": "2019 (Standard '50s)",
+          "val1_es": "2020 (American Pro II)",
+          "val2_es": "2019 (Standard '50s)"
         },
         {
           "label": "Body",
@@ -3696,6 +3728,14 @@
           "val2": "24.75\"",
           "val1_es": "25.5\"",
           "val2_es": "24.75\""
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,799",
+          "val2": "$2,799",
+          "val1_es": "$1,799",
+          "val2_es": "$2,799"
         }
       ]
     },
@@ -3969,20 +4009,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2019",
-          "val2": "2020",
-          "val1_es": "2019",
-          "val2_es": "2020"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Pro recording with UAD processing",
           "val2": "Professional mobile recording",
           "val1_es": "Grabación pro con procesamiento UAD",
           "val2_es": "Grabación móvil profesional"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2019",
+          "val2": "2020",
+          "val1_es": "2019",
+          "val2_es": "2020"
         },
         {
           "label": "Connectivity",
@@ -4071,6 +4111,14 @@
           "val1_es": "DUO DSP, plugins UAD",
           "val2": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
           "val2_es": "TotalMix FX, SteadyClock FS, MIDI, ADAT"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$949",
+          "val2": "$999",
+          "val1_es": "$949",
+          "val2_es": "$999"
         }
       ]
     },
@@ -4318,6 +4366,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best for",
+          "label_es": "Ideal para",
+          "val1": "Vocals, acoustic guitar, podcasting",
+          "val2": "Drums, loud amps, boomy rooms",
+          "val1_es": "Voces, guitarra acústica y pódcast",
+          "val2_es": "Batería, amplis fuertes y salas con retumbe"
+        },
+        {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Condenser, 16 mm low-mass diaphragm",
@@ -4422,12 +4478,12 @@
           "val2_es": "Adaptador de soporte"
         },
         {
-          "label": "Best for",
-          "label_es": "Ideal para",
-          "val1": "Vocals, acoustic guitar, podcasting",
-          "val2": "Drums, loud amps, boomy rooms",
-          "val1_es": "Voces, guitarra acústica y pódcast",
-          "val2_es": "Batería, amplis fuertes y salas con retumbe"
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$99",
+          "val2": "$80",
+          "val1_es": "$99",
+          "val2_es": "$80"
         }
       ]
     },
@@ -4694,6 +4750,14 @@
       "title_es": "ATC SCM25A Pro Mk2 vs Genelec 8351B: Comparación de Especificaciones",
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Critical mixing and mastering accuracy",
+          "val2": "Room-calibrated reference monitoring",
+          "val1_es": "Precisión crítica en mezcla y masterización",
+          "val2_es": "Monitorización de referencia calibrada a la sala"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2021 (Mk2)",
@@ -4708,14 +4772,6 @@
           "val2": "3-way active coaxial point-source",
           "val1_es": "Nearfield activo de 3 vías",
           "val2_es": "Fuente puntual coaxial activa de 3 vías"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Critical mixing and mastering accuracy",
-          "val2": "Room-calibrated reference monitoring",
-          "val1_es": "Precisión crítica en mezcla y masterización",
-          "val2_es": "Monitorización de referencia calibrada a la sala"
         },
         {
           "label": "Woofer",
@@ -4836,6 +4892,14 @@
           "val2": "2 years (extendable to 3)",
           "val1_es": "6 años",
           "val2_es": "2 años (extensible a 3)"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$4,195",
+          "val2": "$4,995",
+          "val1_es": "$4,195",
+          "val2_es": "$4,995"
         }
       ]
     },
@@ -5106,20 +5170,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2021",
-          "val2": "2020",
-          "val1_es": "2021",
-          "val2_es": "2020"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Home studio with console preamps",
           "val2": "Budget home recording",
           "val1_es": "Home studio con preamps de consola",
           "val2_es": "Grabación doméstica económica"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2021",
+          "val2": "2020",
+          "val1_es": "2021",
+          "val2_es": "2020"
         },
         {
           "label": "Connectivity",
@@ -5208,6 +5272,14 @@
           "val1_es": "ScrollControl, MIDI, ADAT expandible",
           "val2": "ESS Sabre32 DAC, LCD meters, MIDI, loopback",
           "val2_es": "DAC ESS Sabre32, medidores LCD, MIDI, loopback"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$299",
+          "val2": "$199",
+          "val1_es": "$299",
+          "val2_es": "$199"
         }
       ]
     },
@@ -6731,6 +6803,24 @@
       ],
       "rows": [
         {
+          "label": "Best For",
+          "val": "Adding vintage character to beats",
+          "val3": "Harmonic ideas when stuck",
+          "val4": "Spatial depth and atmosphere",
+          "val5": "Rhythmic echo and dub effects",
+          "label_es": "Ideal para",
+          "val_es": "Agregar carácter vintage a beats",
+          "val3_es": "Ideas armónicas cuando estás estancado",
+          "val4_es": "Profundidad espacial y atmósfera",
+          "val5_es": "Eco rítmico y efectos dub",
+          "val1": "Creating movement in transitions",
+          "val1_es": "Crear movimiento en transiciones",
+          "val6": "Movement and evolving texture on beats",
+          "val6_es": "Movimiento y textura cambiante en los beats",
+          "val2": "Filling gaps between sections",
+          "val2_es": "Rellenar huecos entre secciones"
+        },
+        {
           "label": "Type",
           "val": "Vintage color chain",
           "val3": "Chord & scale assistant",
@@ -6785,22 +6875,12 @@
           "val2_es": "Por instancia"
         },
         {
-          "label": "Best For",
-          "val": "Adding vintage character to beats",
-          "val3": "Harmonic ideas when stuck",
-          "val4": "Spatial depth and atmosphere",
-          "val5": "Rhythmic echo and dub effects",
-          "label_es": "Ideal para",
-          "val_es": "Agregar carácter vintage a beats",
-          "val3_es": "Ideas armónicas cuando estás estancado",
-          "val4_es": "Profundidad espacial y atmósfera",
-          "val5_es": "Eco rítmico y efectos dub",
-          "val1": "Creating movement in transitions",
-          "val1_es": "Crear movimiento en transiciones",
-          "val6": "Movement and evolving texture on beats",
-          "val6_es": "Movimiento y textura cambiante en los beats",
-          "val2": "Filling gaps between sections",
-          "val2_es": "Rellenar huecos entre secciones"
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$99",
+          "val2": "$129",
+          "val1_es": "$99",
+          "val2_es": "$129"
         }
       ]
     }
@@ -52574,7 +52654,16 @@
     ],
     "datePublished": "2026-08-19",
     "comparison": {
-      "rows": []
+      "rows": [
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,699",
+          "val2": "$999",
+          "val1_es": "$1,699",
+          "val2_es": "$999"
+        }
+      ]
     }
   },
   {
@@ -56884,20 +56973,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "1995 (IV: 2018)",
-          "val2": "1958 (AC30C2: 2011)",
-          "val1_es": "1995 (IV: 2018)",
-          "val2_es": "1958 (AC30C2: 2011)"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Blues and classic rock",
           "val2": "British chime and indie rock",
           "val1_es": "Blues y rock clásico",
           "val2_es": "Chime británico e indie rock"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "1995 (IV: 2018)",
+          "val2": "1958 (AC30C2: 2011)",
+          "val1_es": "1995 (IV: 2018)",
+          "val2_es": "1958 (AC30C2: 2011)"
         },
         {
           "label": "Power",
@@ -56946,6 +57035,14 @@
           "val2": "UK/China (Custom Series)",
           "val1_es": "México",
           "val2_es": "UK/China (Custom Series)"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,800",
+          "val2": "$790",
+          "val1_es": "$1,800",
+          "val2_es": "$790"
         }
       ]
     },
@@ -57157,20 +57254,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2019 (BLX series)",
-          "val2": "2021 (EW-D)",
-          "val1_es": "2019 (serie BLX)",
-          "val2_es": "2021 (EW-D)"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Budget dual-channel live vocals",
           "val2": "Premium digital wireless with app control",
           "val1_es": "Voces en vivo duales económicas",
           "val2_es": "Inalámbrico digital premium con control por app"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2019 (BLX series)",
+          "val2": "2021 (EW-D)",
+          "val1_es": "2019 (serie BLX)",
+          "val2_es": "2021 (EW-D)"
         },
         {
           "label": "Technology",
@@ -57259,6 +57356,14 @@
           "val2": "128-bit AES",
           "val1_es": "No",
           "val2_es": "128-bit AES"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$999",
+          "val2": "$599",
+          "val1_es": "$999",
+          "val2_es": "$599"
         }
       ]
     },
@@ -57675,20 +57780,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Type",
-          "label_es": "Tipo",
-          "val1": "Dual-bus streaming mixer + video capture",
-          "val2": "All-in-one broadcast console",
-          "val1_es": "Mezclador de doble bus + captura de vídeo",
-          "val2_es": "Consola de broadcast todo-en-uno"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Solo gaming with consoles and cameras",
           "val2": "Voice-first shows, interviews and guests",
           "val1_es": "Gaming en solitario con consolas y cámaras",
           "val2_es": "Programas de voz, entrevistas e invitados"
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Dual-bus streaming mixer + video capture",
+          "val2": "All-in-one broadcast console",
+          "val1_es": "Mezclador de doble bus + captura de vídeo",
+          "val2_es": "Consola de broadcast todo-en-uno"
         },
         {
           "label": "Mic Inputs",
@@ -57753,6 +57858,14 @@
           "val2": "Multitrack/stereo to microSD, USB or computer",
           "val1_es": "Sin grabador independiente — 2 buses de mezcla (Stream + Personal) en salidas USB separadas, AD/DA de 24 bits con procesamiento interno en 32 bits flotantes",
           "val2_es": "Multitrack/estéreo a microSD, USB u ordenador"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$699",
+          "val2": "$499",
+          "val1_es": "$699",
+          "val2_es": "$499"
         }
       ]
     },
@@ -64465,6 +64578,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Versatile studio recording",
+          "val2": "Professional studio recording",
+          "val1_es": "Grabación versátil en estudio",
+          "val2_es": "Grabación profesional de estudio"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2004",
@@ -64479,14 +64600,6 @@
           "val2": "Large-diaphragm condenser",
           "val1_es": "Condensador de diafragma grande",
           "val2_es": "Condensador de diafragma grande"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Versatile studio recording",
-          "val2": "Professional studio recording",
-          "val1_es": "Grabación versátil en estudio",
-          "val2_es": "Grabación profesional de estudio"
         },
         {
           "label": "Polar Patterns",
@@ -64559,6 +64672,14 @@
           "val2": "1.1 lbs / 500 g",
           "val1_es": "10.6 oz / 300 g",
           "val2_es": "1.1 lbs / 500 g"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$3,599",
+          "val2": "$1,099",
+          "val1_es": "$3,599",
+          "val2_es": "$1,099"
         }
       ]
     },
@@ -66256,7 +66377,16 @@
     ],
     "datePublished": "2026-08-19",
     "comparison": {
-      "rows": []
+      "rows": [
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$299",
+          "val2": "$289",
+          "val1_es": "$299",
+          "val2_es": "$289"
+        }
+      ]
     }
   },
   {
@@ -67826,6 +67956,14 @@
           "val1_es": "Inst FX, reverb, delay, master FX, sidechain",
           "val2": "Delay, reverb, chorus, bit/SR reduction, drive",
           "val2_es": "Delay, reverb, chorus, bit/SR reduction, drive"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$999",
+          "val2": "$749",
+          "val1_es": "$999",
+          "val2_es": "$749"
         }
       ]
     },
@@ -68063,6 +68201,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Closed-back tracking and monitoring",
+          "val2": "Open-back mixing and listening",
+          "val1_es": "Monitoreo y tracking cerrados",
+          "val2_es": "Mezcla y escucha abiertos"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "1985",
@@ -68077,14 +68223,6 @@
           "val2": "Open-back",
           "val1_es": "Cerrados",
           "val2_es": "Abiertos"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Closed-back tracking and monitoring",
-          "val2": "Open-back mixing and listening",
-          "val1_es": "Monitoreo y tracking cerrados",
-          "val2_es": "Mezcla y escucha abiertos"
         },
         {
           "label": "Frequency Response",
@@ -68141,6 +68279,14 @@
           "val2": "250 g",
           "val1_es": "270 g",
           "val2_es": "250 g"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$169",
+          "val2": "$159",
+          "val1_es": "$169",
+          "val2_es": "$159"
         }
       ]
     },
@@ -68406,6 +68552,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Professional live sound",
+          "val2": "Portable all-in-one PA",
+          "val1_es": "Sonido en vivo profesional",
+          "val2_es": "PA portátil todo-en-uno"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2016",
@@ -68420,14 +68574,6 @@
           "val2": "Powered column array w/ 7-ch mixer",
           "val1_es": "Powered point-source",
           "val2_es": "Powered column array w/ 7-ch mixer"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Professional live sound",
-          "val2": "Portable all-in-one PA",
-          "val1_es": "Sonido en vivo profesional",
-          "val2_es": "PA portátil todo-en-uno"
         },
         {
           "label": "Woofer",
@@ -68476,6 +68622,14 @@
           "val2": "56.6 lbs / 25.7 kg",
           "val1_es": "41 lbs / 18,6 kg",
           "val2_es": "56.6 lbs / 25,7 kg"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,899",
+          "val2": "$899",
+          "val1_es": "$1,899",
+          "val2_es": "$899"
         }
       ]
     },
@@ -68870,20 +69024,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Type",
-          "label_es": "Tipo",
-          "val1": "Stereo twin wireless IEM set",
-          "val2": "Single-channel wireless IEM system",
-          "val1_es": "Set gemelo inalámbrico estéreo",
-          "val2_es": "Sistema inalámbrico de un canal"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Two performers monitored out of the box",
           "val2": "Starting with one performer and scaling",
           "val1_es": "Dos intérpretes monitoreados de fábrica",
           "val2_es": "Empezar con un intérprete y escalar"
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Stereo twin wireless IEM set",
+          "val2": "Single-channel wireless IEM system",
+          "val1_es": "Set gemelo inalámbrico estéreo",
+          "val2_es": "Sistema inalámbrico de un canal"
         },
         {
           "label": "Included Bodypacks",
@@ -68948,6 +69102,14 @@
           "val2": "MixMode blend or true stereo",
           "val1_es": "La misma señal estéreo a ambos packs",
           "val2_es": "Mezcla MixMode o estéreo real"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,366",
+          "val2": "$989",
+          "val1_es": "$1,366",
+          "val2_es": "$989"
         }
       ]
     },
@@ -69106,20 +69268,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2023 (Pro-Q 4 current)",
-          "val2": "2025 (Ozone 12 Advanced)",
-          "val1_es": "2023 (Pro-Q 4 actual)",
-          "val2_es": "2025 (Ozone 12 Advanced)"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Mixing and mastering EQ and dynamics",
           "val2": "AI-powered mastering suite",
           "val1_es": "Mezcla y mastering de EQ y dinámica",
           "val2_es": "Suite de mastering con IA"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2023 (Pro-Q 4 current)",
+          "val2": "2025 (Ozone 12 Advanced)",
+          "val1_es": "2023 (Pro-Q 4 actual)",
+          "val2_es": "2025 (Ozone 12 Advanced)"
         },
         {
           "label": "Included Plugins",
@@ -69160,6 +69322,14 @@
           "val2": "Yes",
           "val1_es": "Sí",
           "val2_es": "Sí"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,069",
+          "val2": "$499",
+          "val1_es": "$1,069",
+          "val2_es": "$499"
         }
       ]
     },
@@ -74556,6 +74726,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Critical mixing reference",
+          "val2": "Open-back mixing and listening",
+          "val1_es": "Referencia crítica de mezcla",
+          "val2_es": "Mezcla y escucha abiertos"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2024",
@@ -74570,14 +74748,6 @@
           "val2": "Open-back",
           "val1_es": "Abiertos",
           "val2_es": "Abiertos"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Critical mixing reference",
-          "val2": "Open-back mixing and listening",
-          "val1_es": "Referencia crítica de mezcla",
-          "val2_es": "Mezcla y escucha abiertos"
         },
         {
           "label": "Frequency Response",
@@ -74634,6 +74804,14 @@
           "val2": "250 g",
           "val1_es": "260 g",
           "val2_es": "250 g"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$399",
+          "val2": "N/A",
+          "val1_es": "$399",
+          "val2_es": "N/D"
         }
       ]
     },
@@ -74909,6 +75087,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Flat-response reference mixing",
+          "val2": "Bass-forward production",
+          "val1_es": "Mezcla de referencia plana",
+          "val2_es": "Producción con énfasis en graves"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2014",
@@ -74923,14 +75109,6 @@
           "val2": "2-way bi-amp",
           "val1_es": "2 vías biamplificado, bass-reflex",
           "val2_es": "2-way bi-amp"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Flat-response reference mixing",
-          "val2": "Bass-forward production",
-          "val1_es": "Mezcla de referencia plana",
-          "val2_es": "Producción con énfasis en graves"
         },
         {
           "label": "Woofer",
@@ -75003,6 +75181,14 @@
           "val1_es": "25 x 39 x 33,2 cm",
           "val2": "13.35 x 8.86 x 11.42 in",
           "val2_es": "33.9 x 22.5 x 29 cm"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$399",
+          "val2": "$269",
+          "val1_es": "$399",
+          "val2_es": "$269"
         }
       ]
     },
@@ -75363,20 +75549,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Type",
-          "label_es": "Tipo",
-          "val1": "Single 7mm dynamic driver (XWB)",
-          "val2": "4 balanced-armature drivers, 3-way crossover",
-          "val1_es": "Un solo driver dinámico de 7mm (XWB)",
-          "val2_es": "4 drivers de armadura balanceada, crossover de 3 vías"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Audiophiles chasing maximum detail",
           "val2": "Performers, mixers and engineers",
           "val1_es": "Audiófilos que buscan máximo detalle",
           "val2_es": "Intérpretes, técnicos e ingenieros"
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Single 7mm dynamic driver (XWB)",
+          "val2": "4 balanced-armature drivers, 3-way crossover",
+          "val1_es": "Un solo driver dinámico de 7mm (XWB)",
+          "val2_es": "4 drivers de armadura balanceada, crossover de 3 vías"
         },
         {
           "label": "Frequency Response",
@@ -75433,6 +75619,14 @@
           "val2": "MMCX (detachable, True Wireless compatible)",
           "val1_es": "MMCX (cables 3,5mm, 2,5mm, 4,4mm)",
           "val2_es": "MMCX (desmontable, compatible con True Wireless)"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$989",
+          "val2": "$989",
+          "val1_es": "$989",
+          "val2_es": "$989"
         }
       ]
     },
@@ -75863,6 +76057,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Ultra-budget nearfield mixing",
+          "val2": "Budget accurate mixing",
+          "val1_es": "Mezcla de campo cercano ultra económica",
+          "val2_es": "Mezcla precisa económica"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2018",
@@ -75877,14 +76079,6 @@
           "val2": "2-way, front-port",
           "val1_es": "2 vías, puerto trasero",
           "val2_es": "2 vías, puerto delantero"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Ultra-budget nearfield mixing",
-          "val2": "Budget accurate mixing",
-          "val1_es": "Mezcla de campo cercano ultra económica",
-          "val2_es": "Mezcla precisa económica"
         },
         {
           "label": "Woofer",
@@ -75949,6 +76143,14 @@
           "val1_es": "29.7 x 18.5 x 23,1 cm",
           "val2": "14.1 x 8.75 x 10.25 in",
           "val2_es": "35.8 x 22.2 x 26 cm"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$199",
+          "val2": "$149",
+          "val1_es": "$199",
+          "val2_es": "$149"
         }
       ]
     },
@@ -76216,6 +76418,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Budget mix translation",
+          "val2": "Budget mixing and broadcast",
+          "val1_es": "Mezcla económica",
+          "val2_es": "Mezcla económica y broadcast"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2019",
@@ -76230,14 +76440,6 @@
           "val2": "Closed-back",
           "val1_es": "Cerrados",
           "val2_es": "Cerrados"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Budget mix translation",
-          "val2": "Budget mixing and broadcast",
-          "val1_es": "Mezcla económica",
-          "val2_es": "Mezcla económica y broadcast"
         },
         {
           "label": "Frequency Response",
@@ -76286,6 +76488,14 @@
           "val2": "230 g",
           "val1_es": "255 g",
           "val2_es": "230 g"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$155",
+          "val2": "N/A",
+          "val1_es": "$155",
+          "val2_es": "N/D"
         }
       ]
     },
@@ -76552,20 +76762,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2019 (MkII; Gen 3 2024)",
-          "val2": "2018 (DSL40CR)",
-          "val1_es": "2019 (MkII; Gen 3 2024)",
-          "val2_es": "2018 (DSL40CR)"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Versatile practice and gigging",
           "val2": "Classic rock and metal",
           "val1_es": "Práctica versátil y tocar en vivo",
           "val2_es": "Rock clásico y metal"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2019 (MkII; Gen 3 2024)",
+          "val2": "2018 (DSL40CR)",
+          "val1_es": "2019 (MkII; Gen 3 2024)",
+          "val2_es": "2018 (DSL40CR)"
         },
         {
           "label": "Power",
@@ -76614,6 +76824,14 @@
           "val2": "Yes (series)",
           "val1_es": "No (solo Power Amp In)",
           "val2_es": "Sí (serie)"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$999",
+          "val2": "N/A",
+          "val1_es": "$999",
+          "val2_es": "N/D"
         }
       ]
     },
@@ -76886,6 +77104,14 @@
       "title_es": "KH 750 DSP vs 7050C: Comparativa Técnica",
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "DSP-calibrated rooms and digital studios",
+          "val2": "Analogue stereo / 5.1 nearfield systems",
+          "val1_es": "salas calibradas por DSP y estudios digitales",
+          "val2_es": "sistemas nearfield analógicos estéreo / 5.1"
+        },
+        {
           "label": "Driver",
           "label_es": "Altavoz",
           "val1": "10\" long-throw",
@@ -76998,12 +77224,12 @@
           "val2_es": "Finlandia (Iisalmi)"
         },
         {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "DSP-calibrated rooms and digital studios",
-          "val2": "Analogue stereo / 5.1 nearfield systems",
-          "val1_es": "salas calibradas por DSP y estudios digitales",
-          "val2_es": "sistemas nearfield analógicos estéreo / 5.1"
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,750",
+          "val2": "$1,095",
+          "val1_es": "$1,750",
+          "val2_es": "$1,095"
         }
       ]
     },
@@ -78303,6 +78529,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "All-purpose monitoring",
+          "val2": "Closed-back tracking and monitoring",
+          "val1_es": "Monitoreo multiuso",
+          "val2_es": "Monitoreo y tracking cerrados"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2014",
@@ -78317,14 +78551,6 @@
           "val2": "Closed-back",
           "val1_es": "Cerrados",
           "val2_es": "Cerrados"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "All-purpose monitoring",
-          "val2": "Closed-back tracking and monitoring",
-          "val1_es": "Monitoreo multiuso",
-          "val2_es": "Monitoreo y tracking cerrados"
         },
         {
           "label": "Frequency Response",
@@ -78381,6 +78607,14 @@
           "val2": "270 g",
           "val1_es": "285 g",
           "val2_es": "270 g"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$159",
+          "val2": "$169",
+          "val1_es": "$159",
+          "val2_es": "$169"
         }
       ]
     },
@@ -78652,6 +78886,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "All-purpose monitoring",
+          "val2": "Budget mixing and broadcast",
+          "val1_es": "Monitoreo multiuso",
+          "val2_es": "Mezcla económica y broadcast"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2014",
@@ -78666,14 +78908,6 @@
           "val2": "Closed-back",
           "val1_es": "Cerrados",
           "val2_es": "Cerrados"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "All-purpose monitoring",
-          "val2": "Budget mixing and broadcast",
-          "val1_es": "Monitoreo multiuso",
-          "val2_es": "Mezcla económica y broadcast"
         },
         {
           "label": "Frequency Response",
@@ -78730,6 +78964,14 @@
           "val2": "230 g",
           "val1_es": "285 g",
           "val2_es": "230 g"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$169",
+          "val2": "$99",
+          "val1_es": "$169",
+          "val2_es": "$99"
         }
       ]
     },
@@ -78989,20 +79231,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "1931 (2025 refresh)",
-          "val2": "1998 (Next Gen 2026)",
-          "val1_es": "1931 (actualización 2025)",
-          "val2_es": "1998 (Next Gen 2026)"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Bluegrass and flatpicking",
           "val2": "Fingerstyle and songwriting",
           "val1_es": "Bluegrass y flatpicking",
           "val2_es": "Fingerstyle y composición"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "1931 (2025 refresh)",
+          "val2": "1998 (Next Gen 2026)",
+          "val1_es": "1931 (actualización 2025)",
+          "val2_es": "1998 (Next Gen 2026)"
         },
         {
           "label": "Body Shape",
@@ -79075,6 +79317,14 @@
           "val2": "Claria pickup system",
           "val1_es": "Ninguna (acústica)",
           "val2_es": "Sistema de pastilla Claria"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$3,099.99",
+          "val2": "$2,499",
+          "val1_es": "$3,099.99",
+          "val2_es": "$2,499"
         }
       ]
     },
@@ -79475,6 +79725,14 @@
           "val2": "12V DC adaptor",
           "val1_es": "4 x AA o adaptador AC",
           "val2_es": "Adaptador DC 12V"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$499",
+          "val2": "$349",
+          "val1_es": "$499",
+          "val2_es": "$349"
         }
       ]
     },
@@ -83722,6 +83980,14 @@
           "val2": "Production & Sound Design",
           "val1_es": "Stage Performance",
           "val2_es": "Production & Sound Design"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$4,999",
+          "val2": "$4,699",
+          "val1_es": "$4,999",
+          "val2_es": "$4,699"
         }
       ]
     },
@@ -85574,6 +85840,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Workflow, recording and streaming",
+          "val2": "Piano technique and realism",
+          "val1_es": "Flujo, grabación y streaming",
+          "val2_es": "Técnica de piano y realismo"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2023",
@@ -85642,12 +85916,12 @@
           "val2": "321 (56 panel)"
         },
         {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Workflow, recording and streaming",
-          "val2": "Piano technique and realism",
-          "val1_es": "Flujo, grabación y streaming",
-          "val2_es": "Técnica de piano y realismo"
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$699.99",
+          "val2": "$749.99",
+          "val1_es": "$699.99",
+          "val2_es": "$749.99"
         }
       ]
     },
@@ -85854,20 +86128,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2018 (Player II 2024)",
-          "val2": "2016 (current gen)",
-          "val1_es": "2018 (Player II 2024)",
-          "val2_es": "2016 (gen actual)"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Versatile Strat for all levels",
           "val2": "Best beginner electric guitar",
           "val1_es": "Strat versátil para todos los niveles",
           "val2_es": "Mejor guitarra eléctrica principiante"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2018 (Player II 2024)",
+          "val2": "2016 (current gen)",
+          "val1_es": "2018 (Player II 2024)",
+          "val2_es": "2016 (gen actual)"
         },
         {
           "label": "Body",
@@ -85932,6 +86206,14 @@
           "val2": "25.5\"",
           "val1_es": "25.5\"",
           "val2_es": "25.5\""
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$849",
+          "val2": "$349",
+          "val1_es": "$849",
+          "val2_es": "$349"
         }
       ]
     },
@@ -87274,20 +87556,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year Introduced",
-          "label_es": "Año de Introducción",
-          "val1": "1951 (current Player II 2024)",
-          "val2": "1960 (current Player II 2024)",
-          "val1_es": "1951 (Player II actual 2024)",
-          "val2_es": "1960 (Player II actual 2024)"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Rock, punk, Motown, country",
           "val2": "Funk, fusion, jazz, R&B",
           "val1_es": "Rock, punk, Motown, country",
           "val2_es": "Funk, fusion, jazz, R&B"
+        },
+        {
+          "label": "Year Introduced",
+          "label_es": "Año de Introducción",
+          "val1": "1951 (current Player II 2024)",
+          "val2": "1960 (current Player II 2024)",
+          "val1_es": "1951 (Player II actual 2024)",
+          "val2_es": "1960 (Player II actual 2024)"
         },
         {
           "label": "Pickup Configuration",
@@ -87352,6 +87634,14 @@
           "val2": "34\"",
           "val1_es": "34\"",
           "val2_es": "34\""
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$849",
+          "val2": "$849",
+          "val1_es": "$849",
+          "val2_es": "$849"
         }
       ]
     },
@@ -88321,6 +88611,14 @@
           "val2": "Music Man lightweight",
           "val1_es": "Fender HiMass vintage",
           "val2_es": "Music Man ligeras"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$2,199",
+          "val2": "$2,199",
+          "val1_es": "$2,199",
+          "val2_es": "$2,199"
         }
       ]
     },
@@ -88676,6 +88974,14 @@
           "val2": "Dominant in studios/post-production",
           "val1_es": "Dominante en electrónica/producción",
           "val2_es": "Dominante en estudios/post-producción"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$599",
+          "val2": "$749",
+          "val1_es": "$599",
+          "val2_es": "$749"
         }
       ]
     },
@@ -89040,6 +89346,14 @@
           "val2": "No",
           "val1_es": "No (para uso básico)",
           "val2_es": "No"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,699",
+          "val2": "$999",
+          "val1_es": "$1,699",
+          "val2_es": "$999"
         }
       ]
     },
@@ -89367,6 +89681,14 @@
           "val2": "Grover locking keystone",
           "val1_es": "Fender Deluxe bloqueo",
           "val2_es": "Grover bloqueo keystone"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$2,299",
+          "val2": "$2,799",
+          "val1_es": "$2,299",
+          "val2_es": "$2,799"
         }
       ]
     },
@@ -89706,6 +90028,14 @@
           "val2": "Yes (mini-XLR)",
           "val1_es": "Sí (mini-XLR)",
           "val2_es": "Sí (mini-XLR)"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,236",
+          "val2": "$3,320",
+          "val1_es": "$1,236",
+          "val2_es": "$3,320"
         }
       ]
     },
@@ -90037,6 +90367,14 @@
           "val2": "ADAT + MADI + S/PDIF",
           "val1_es": "ADAT + S/PDIF",
           "val2_es": "ADAT + MADI + S/PDIF"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$3,199",
+          "val2": "$3,999",
+          "val1_es": "$3,199",
+          "val2_es": "$3,999"
         }
       ]
     },
@@ -90402,6 +90740,14 @@
           "val2": "Good (prosumer)",
           "val1_es": "Premium (grado gira)",
           "val2_es": "Buena (prosumer)"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$3,999",
+          "val2": "$1,999",
+          "val1_es": "$3,999",
+          "val2_es": "$1,999"
         }
       ]
     },
@@ -90650,6 +90996,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "The studio standard vocal",
+          "val1_es": "La voz estándar de estudio",
+          "val2": "Tube/FET all-in-one studio",
+          "val2_es": "estudio todo-en-uno tubo/FET"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "1967",
@@ -90738,20 +91092,20 @@
           "val2_es": "Soporte, filtro pop, control remoto, estuche militar, cable XLR"
         },
         {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "The studio standard vocal",
-          "val1_es": "La voz estándar de estudio",
-          "val2": "Tube/FET all-in-one studio",
-          "val2_es": "estudio todo-en-uno tubo/FET"
-        },
-        {
           "label": "Sensitivity",
           "label_es": "Sensibilidad",
           "val1": "28 mV/Pa (cardioid)",
           "val1_es": "28 mV/Pa (cardioide)",
           "val2": "17.2 mV/Pa (–35.3 dBV/Pa)",
           "val2_es": "17.2 mV/Pa (–35,3 dBV/Pa)"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$3,599",
+          "val2": "$3,499",
+          "val1_es": "$3,599",
+          "val2_es": "$3,499"
         }
       ]
     },
@@ -91037,6 +91391,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Mejor para",
+          "val1": "Automated/portable mixing",
+          "val2": "Professional live sound",
+          "val1_es": "Mezcla automatizada/portátil",
+          "val2_es": "Sonido en vivo profesional"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2024",
@@ -91109,20 +91471,20 @@
           "val2_es": "AES50"
         },
         {
-          "label": "Best For",
-          "label_es": "Mejor para",
-          "val1": "Automated/portable mixing",
-          "val2": "Professional live sound",
-          "val1_es": "Mezcla automatizada/portátil",
-          "val2_es": "Sonido en vivo profesional"
-        },
-        {
           "label": "Weight",
           "label_es": "Peso",
           "val1": "~5 lbs",
           "val2": "31.5 lbs (14.3 kg)",
           "val1_es": "~5 lbs",
           "val2_es": "31,5 lb (14,3 kg)"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$2,799",
+          "val2": "$1,199",
+          "val1_es": "$2,799",
+          "val2_es": "$1,199"
         }
       ]
     },
@@ -91459,6 +91821,14 @@
           "val2": "25 kg each",
           "val1_es": "26,6 kg cada uno",
           "val2_es": "25 kg cada uno"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$4,199",
+          "val2": "$3,999",
+          "val1_es": "$4,199",
+          "val2_es": "$3,999"
         }
       ]
     },
@@ -91732,6 +92102,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Mejor para",
+          "val1": "Mixing engineers, mastering",
+          "val2": "Producers, composers, sound design",
+          "val1_es": "Ingenieros de mezcla, masterización",
+          "val2_es": "Productores, compositores, diseño sonoro"
+        },
+        {
           "label": "Category",
           "label_es": "Categoría",
           "val1": "Mixing & mastering suite",
@@ -91796,12 +92174,12 @@
           "val2_es": "GUI estándar"
         },
         {
-          "label": "Best For",
-          "label_es": "Mejor para",
-          "val1": "Mixing engineers, mastering",
-          "val2": "Producers, composers, sound design",
-          "val1_es": "Ingenieros de mezcla, masterización",
-          "val2_es": "Productores, compositores, diseño sonoro"
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,069",
+          "val2": "$1,249",
+          "val1_es": "$1,069",
+          "val2_es": "$1,249"
         }
       ]
     },
@@ -92143,6 +92521,14 @@
           "val2": "~35 lbs (~15.9 kg)",
           "val1_es": "~68 lbs (~30,8 kg)",
           "val2_es": "~35 lbs (~15,9 kg)"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$4,399",
+          "val2": "$3,499",
+          "val1_es": "$4,399",
+          "val2_es": "$3,499"
         }
       ]
     },
@@ -92343,20 +92729,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2026 (Pro Tools 2026.4)",
-          "val2": "2025 (Cubase 15)",
-          "val1_es": "2026 (Pro Tools 2026.4)",
-          "val2_es": "2025 (Cubase 15)"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Pro recording and post-production",
           "val2": "Composition and scoring",
           "val1_es": "Grabación profesional y post-producción",
           "val2_es": "Composición y scoring"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2026 (Pro Tools 2026.4)",
+          "val2": "2025 (Cubase 15)",
+          "val1_es": "2026 (Pro Tools 2026.4)",
+          "val2_es": "2025 (Cubase 15)"
         },
         {
           "label": "Pricing Model",
@@ -92437,6 +92823,14 @@
           "val2": "Score Editor, VarIAudio, AI Stem Separation",
           "val1_es": "Dolby Atmos, Elastic Audio, lo que esperan los estudios",
           "val2_es": "Score Editor, VariAudio, separación de stems con IA"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$599",
+          "val2": "$580",
+          "val1_es": "$599",
+          "val2_es": "$580"
         }
       ]
     },
@@ -92696,6 +93090,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Broadcast and voiceover",
+          "val2": "Broadcast, podcast, and streaming",
+          "val1_es": "Broadcast y locución",
+          "val2_es": "Broadcast, pódcast y streaming"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "1968",
@@ -92710,14 +93112,6 @@
           "val2": "Dynamic",
           "val1_es": "Dinámico (Variable-D)",
           "val2_es": "Dinámico"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Broadcast and voiceover",
-          "val2": "Broadcast, podcast, and streaming",
-          "val1_es": "Broadcast y locución",
-          "val2_es": "Broadcast, pódcast y streaming"
         },
         {
           "label": "Polar Pattern",
@@ -92774,6 +93168,14 @@
           "val2": "1 lb 11 oz / 765 g",
           "val1_es": "1 lb 10 oz / 737 g",
           "val2_es": "1 lb 11 oz / 765 g"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$449",
+          "val2": "N/A",
+          "val1_es": "$449",
+          "val2_es": "N/D"
         }
       ]
     },
@@ -93056,20 +93458,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2020",
-          "val2": "2020",
-          "val1_es": "2020",
-          "val2_es": "2020"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Professional portable recording",
           "val2": "Budget home recording",
           "val1_es": "Grabación portátil profesional",
           "val2_es": "Grabación doméstica económica"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2020",
+          "val2": "2020",
+          "val1_es": "2020",
+          "val2_es": "2020"
         },
         {
           "label": "Connectivity",
@@ -93166,6 +93568,14 @@
           "val1_es": "TotalMix FX, SteadyClock FS, MIDI, ADAT",
           "val2": "ESS Sabre32 DAC, LCD meters, MIDI, loopback",
           "val2_es": "DAC ESS Sabre32, medidores LCD, MIDI, loopback"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$949",
+          "val2": "$199",
+          "val1_es": "$949",
+          "val2_es": "$199"
         }
       ]
     },
@@ -93541,20 +93951,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Type",
-          "label_es": "Tipo",
-          "val1": "Dual-channel wireless lavalier system",
-          "val2": "Dual-channel wireless lavalier system",
-          "val1_es": "Sistema inalámbrico de solapa de doble canal",
-          "val2_es": "Sistema inalámbrico de solapa de doble canal"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Interviews, multi-cam and paid shoots",
           "val2": "Phone-first content and vlogging",
           "val1_es": "Entrevistas, multicámara y rodajes pagados",
           "val2_es": "Contenido de móvil y vlogs"
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "Dual-channel wireless lavalier system",
+          "val2": "Dual-channel wireless lavalier system",
+          "val1_es": "Sistema inalámbrico de solapa de doble canal",
+          "val2_es": "Sistema inalámbrico de solapa de doble canal"
         },
         {
           "label": "Onboard Storage",
@@ -93611,6 +94021,14 @@
           "val2": "Two-level (Strong/Basic)",
           "val1_es": "No",
           "val2_es": "De dos niveles (Fuerte/Básica)"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$299",
+          "val2": "$219",
+          "val1_es": "$299",
+          "val2_es": "$219"
         }
       ]
     },
@@ -93891,20 +94309,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Type",
-          "label_es": "Tipo",
-          "val1": "All-in-one production console",
-          "val2": "Adaptive digital mixer",
-          "val1_es": "Consola de producción todo-en-uno",
-          "val2_es": "Mezclador digital adaptativo"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Reliability-first streaming and dual-PC",
           "val2": "Guided setup, guests and NDI",
           "val1_es": "Streaming fiable y doble PC",
           "val2_es": "Configuración guiada, invitados y NDI"
+        },
+        {
+          "label": "Type",
+          "label_es": "Tipo",
+          "val1": "All-in-one production console",
+          "val2": "Adaptive digital mixer",
+          "val1_es": "Consola de producción todo-en-uno",
+          "val2_es": "Mezclador digital adaptativo"
         },
         {
           "label": "Mic Inputs",
@@ -93961,6 +94379,14 @@
           "val2": "12 channels + main mix to SD/USB",
           "val1_es": "Multitrack de 16 pistas a microSD/USB/ordenador",
           "val2_es": "12 canales + mezcla principal a SD/USB"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$699",
+          "val2": "$800",
+          "val1_es": "$699",
+          "val2_es": "$800"
         }
       ]
     },
@@ -94247,20 +94673,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2023",
-          "val2": "2020",
-          "val1_es": "2023",
-          "val2_es": "2020"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Home studio, streaming",
           "val2": "Audio quality, headphone monitoring, metering",
           "val1_es": "Home studio, streaming",
           "val2_es": "Calidad de audio, monitoreo y medidores"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2023",
+          "val2": "2020",
+          "val1_es": "2023",
+          "val2_es": "2020"
         },
         {
           "label": "Inputs / Outputs",
@@ -94341,6 +94767,14 @@
           "val1_es": "Auto Gain, Clip Safe, loopback",
           "val2": "ESS Sabre32 DAC, LCD meters, MIDI, loopback",
           "val2_es": "DAC ESS Sabre32, medidores LCD, MIDI, loopback"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$199",
+          "val2": "N/A",
+          "val1_es": "$199",
+          "val2_es": "N/D"
         }
       ]
     },
@@ -94600,20 +95034,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2023",
-          "val2": "2024",
-          "val1_es": "2023",
-          "val2_es": "2024"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Home studio recording",
           "val2": "Home recording with analog character",
           "val1_es": "Grabación de home studio",
           "val2_es": "Grabación casera con carácter analógico"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2023",
+          "val2": "2024",
+          "val1_es": "2023",
+          "val2_es": "2024"
         },
         {
           "label": "Connectivity",
@@ -94710,6 +95144,14 @@
           "val1_es": "Auto Gain, Clip Safe, loopback",
           "val2": "Legacy 4K, loopback, MIDI, DC-coupled",
           "val2_es": "Legacy 4K, loopback, MIDI, DC-coupled"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$299",
+          "val2": "$199",
+          "val1_es": "$299",
+          "val2_es": "$199"
         }
       ]
     },
@@ -94981,20 +95423,20 @@
     "comparison": {
       "rows": [
         {
-          "label": "Year",
-          "label_es": "Año",
-          "val1": "2023",
-          "val2": "2021",
-          "val1_es": "2023",
-          "val2_es": "2021"
-        },
-        {
           "label": "Best For",
           "label_es": "Ideal para",
           "val1": "Home studio recording",
           "val2": "Home recording with analog character",
           "val1_es": "Grabación de home studio",
           "val2_es": "Grabación casera con carácter analógico"
+        },
+        {
+          "label": "Year",
+          "label_es": "Año",
+          "val1": "2023",
+          "val2": "2021",
+          "val1_es": "2023",
+          "val2_es": "2021"
         },
         {
           "label": "Connectivity",
@@ -95083,6 +95525,14 @@
           "val1_es": "Auto Gain, Clip Safe, loopback",
           "val2": "Vintage Preamp mode, MIDI",
           "val2_es": "Modo Vintage Preamp, MIDI"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$199",
+          "val2": "$189",
+          "val1_es": "$199",
+          "val2_es": "$189"
         }
       ]
     },
@@ -95545,6 +95995,20 @@
       ],
       "rows": [
         {
+          "label": "Best For",
+          "val": "Rhythmic filtering, gating, volume",
+          "val3": "Half-speed bass, lo-fi textures",
+          "val4": "Wide analog chorus on synths and pads",
+          "val5": "Complex modulation and movement",
+          "label_es": "Ideal para",
+          "val_es": "Filtrado rítmico, gateo, volumen",
+          "val3_es": "Bajos a media velocidad, texturas lo-fi",
+          "val4_es": "Coro analógico amplio en sintas y pads",
+          "val5_es": "Modulación compleja y movimiento",
+          "val2": "Rhythmic multi-band delay, pumping textures",
+          "val2_es": "Delay multibanda rítmico, texturas bombeantes"
+        },
+        {
           "label": "Type",
           "val": "Multi-effect modulator",
           "val3": "Half-speed effect",
@@ -95617,18 +96081,12 @@
           "val2_es": "8 voces por instancia"
         },
         {
-          "label": "Best For",
-          "val": "Rhythmic filtering, gating, volume",
-          "val3": "Half-speed bass, lo-fi textures",
-          "val4": "Wide analog chorus on synths and pads",
-          "val5": "Complex modulation and movement",
-          "label_es": "Ideal para",
-          "val_es": "Filtrado rítmico, gateo, volumen",
-          "val3_es": "Bajos a media velocidad, texturas lo-fi",
-          "val4_es": "Coro analógico amplio en sintas y pads",
-          "val5_es": "Modulación compleja y movimiento",
-          "val2": "Rhythmic multi-band delay, pumping textures",
-          "val2_es": "Delay multibanda rítmico, texturas bombeantes"
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$99",
+          "val2": "$129.99",
+          "val1_es": "$99",
+          "val2_es": "$129.99"
         }
       ]
     }
@@ -95779,6 +96237,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Silent practice in shared spaces",
+          "val2": "Real acoustic tone on the couch",
+          "val1_es": "Práctica silenciosa en espacios compartidos",
+          "val2_es": "Sonido acústico real en el sofá"
+        },
+        {
           "label": "Type",
           "label_es": "Tipo",
           "val1": "Silent steel-string, detachable frame",
@@ -95827,12 +96293,12 @@
           "val2_es": "Silenciosa para su tamaño, voz acústica real"
         },
         {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Silent practice in shared spaces",
-          "val2": "Real acoustic tone on the couch",
-          "val1_es": "Práctica silenciosa en espacios compartidos",
-          "val2_es": "Sonido acústico real en el sofá"
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$879.99",
+          "val2": "$499",
+          "val1_es": "$879.99",
+          "val2_es": "$499"
         }
       ]
     },
@@ -96085,6 +96551,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Instrument miking",
+          "val2": "Instrument and drum miking",
+          "val1_es": "Microfonear instrumentos",
+          "val2_es": "Microfonear instrumentos y baterías"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "1965",
@@ -96099,14 +96573,6 @@
           "val2": "Dynamic (pressure gradient)",
           "val1_es": "Dinámico (bobina móvil)",
           "val2_es": "Dinámico (gradiente de presión)"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Instrument miking",
-          "val2": "Instrument and drum miking",
-          "val1_es": "Microfonear instrumentos",
-          "val2_es": "Microfonear instrumentos y baterías"
         },
         {
           "label": "Polar Pattern",
@@ -96163,6 +96629,14 @@
           "val2": "13.6 oz / 385 g",
           "val1_es": "10 oz / 284 g",
           "val2_es": "13.6 oz / 385 g"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$99",
+          "val2": "$299",
+          "val1_es": "$99",
+          "val2_es": "$299"
         }
       ]
     },
@@ -96484,6 +96958,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Instrument miking",
+          "val2": "Live vocal performance",
+          "val1_es": "Microfonear instrumentos",
+          "val2_es": "Voz en vivo"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "1965",
@@ -96498,14 +96980,6 @@
           "val2": "Dynamic (moving coil)",
           "val1_es": "Dinámico (bobina móvil)",
           "val2_es": "Dinámico (bobina móvil)"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Instrument miking",
-          "val2": "Live vocal performance",
-          "val1_es": "Microfonear instrumentos",
-          "val2_es": "Voz en vivo"
         },
         {
           "label": "Polar Pattern",
@@ -96554,6 +97028,14 @@
           "val2": "10.5 oz / 298 g",
           "val1_es": "10 oz / 284 g",
           "val2_es": "10.5 oz / 298 g"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$99",
+          "val2": "$99",
+          "val1_es": "$99",
+          "val2_es": "$99"
         }
       ]
     },
@@ -96759,6 +97241,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Broadcast, podcast, and streaming",
+          "val2": "Home studio vocal recording",
+          "val1_es": "Broadcast, pódcast y streaming",
+          "val2_es": "Grabación vocal en home studio"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2001",
@@ -96773,14 +97263,6 @@
           "val2": "Condenser (1\")",
           "val1_es": "Dinámico",
           "val2_es": "Condensador (1\")"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Broadcast, podcast, and streaming",
-          "val2": "Home studio vocal recording",
-          "val1_es": "Broadcast, pódcast y streaming",
-          "val2_es": "Grabación vocal en home studio"
         },
         {
           "label": "Polar Pattern",
@@ -96845,6 +97327,14 @@
           "val2": "10.9 oz / 308 g",
           "val1_es": "1 lb 11 oz / 765 g",
           "val2_es": "308 g / 10,9 oz"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$399",
+          "val2": "$269",
+          "val1_es": "$399",
+          "val2_es": "$269"
         }
       ]
     },
@@ -102039,6 +102529,14 @@
           "val2": "Windows 10+ / macOS 10.14+",
           "val1_es": "Windows 11 / macOS 13+",
           "val2_es": "Windows 10+ / macOS 10.14+"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$349",
+          "val2": "$269",
+          "val1_es": "$349",
+          "val2_es": "$269"
         }
       ]
     },
@@ -105814,6 +106312,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For / Ideal Para",
+          "label_es": "Ideal para",
+          "val1": "Pushing tube amps, cutting through mix",
+          "val2": "Primary overdrive, touch-responsive playing",
+          "val1_es": "Empujar amps de válvulas, cortar la mezcla",
+          "val2_es": "Overdrive principal, juego sensible al tacto"
+        },
+        {
           "label": "Year / Año",
           "label_es": "Año",
           "val1": "1982 (current reissue ~2001)",
@@ -105828,14 +106334,6 @@
           "val2": "Multi-stage transistor + op-amp clipping",
           "val1_es": "Overdrive de op-amp, soft-clipping simétrico (JRC4558D)",
           "val2_es": "Clipping de transistor multietapa + op-amp"
-        },
-        {
-          "label": "Best For / Ideal Para",
-          "label_es": "Ideal para",
-          "val1": "Pushing tube amps, cutting through mix",
-          "val2": "Primary overdrive, touch-responsive playing",
-          "val1_es": "Empujar amps de válvulas, cortar la mezcla",
-          "val2_es": "Overdrive principal, juego sensible al tacto"
         },
         {
           "label": "Sound Character / Carácter de Sonido",
@@ -105868,6 +106366,14 @@
           "val2": "20mA @ 9V",
           "val1_es": "8mA @ 9V",
           "val2_es": "20mA @ 9V"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$99",
+          "val2": "$100",
+          "val1_es": "$99",
+          "val2_es": "$100"
         }
       ]
     },
@@ -109830,6 +110336,14 @@
           "val2": "HPF + Gate + 4-band parametric + Comp",
           "val1_es": "Paramétrico 4 bandas + HPF",
           "val2_es": "HPF + Gate + Paramétrico 4 bandas + Comp"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$1,199",
+          "val2": "$509",
+          "val1_es": "$1,199",
+          "val2_es": "$509"
         }
       ]
     },
@@ -110186,6 +110700,14 @@
           "val2": "31.5 lbs (14.3 kg)",
           "val1_es": "5.1 lbs",
           "val2_es": "31,5 lb (14,3 kg)"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$2,799",
+          "val2": "$509",
+          "val1_es": "$2,799",
+          "val2_es": "$509"
         }
       ]
     },
@@ -110671,6 +111193,14 @@
           "val2": "AC adaptor, USB cable, CUBASE LE download",
           "val1_es": "Adaptador AC, cable USB, orejas rack (MG16XU)",
           "val2_es": "Adaptador AC, cable USB, descarga CUBASE LE"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$268",
+          "val2": "$269",
+          "val1_es": "$268",
+          "val2_es": "$269"
         }
       ]
     },
@@ -110902,6 +111432,14 @@
     "comparison": {
       "rows": [
         {
+          "label": "Best For",
+          "label_es": "Ideal para",
+          "val1": "Budget live sound reinforcement",
+          "val2": "Versatile professional PA",
+          "val1_es": "Refuerzo de sonido económico",
+          "val2_es": "PA profesional versátil"
+        },
+        {
           "label": "Year",
           "label_es": "Año",
           "val1": "2019",
@@ -110916,14 +111454,6 @@
           "val2": "Powered PA, Class-D DSP",
           "val1_es": "Powered PA, Class-D DSP",
           "val2_es": "Powered PA, Class-D DSP"
-        },
-        {
-          "label": "Best For",
-          "label_es": "Ideal para",
-          "val1": "Budget live sound reinforcement",
-          "val2": "Versatile professional PA",
-          "val1_es": "Refuerzo de sonido económico",
-          "val2_es": "PA profesional versátil"
         },
         {
           "label": "Woofer",
@@ -110980,6 +111510,14 @@
           "val2": "39 lbs / 17.7 kg",
           "val1_es": "35.5 lbs / 16,1 kg",
           "val2_es": "39 lbs / 17,7 kg"
+        },
+        {
+          "label": "Approx Price",
+          "label_es": "Precio aprox.",
+          "val1": "$999",
+          "val2": "$599",
+          "val1_es": "$999",
+          "val2_es": "$599"
         }
       ]
     },
