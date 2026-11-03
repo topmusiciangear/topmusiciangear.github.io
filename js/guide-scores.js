@@ -1497,7 +1497,7 @@ var GUIDE_SCORES = {
    "TC Electronic PolyTune 3": 9.5,
    "Walrus Audio Canvas Tuner": 9.2,
    "Korg Pitchblack X": 9.0,
-   "TC Electronic PolyTune Clip": 9.6,
+   "TC Electronic Polytune Clip": 9.6,
    "Peterson StroboClip HD Clip-On Tuner": 9.4,
    "Korg AW-LT100B Clip-On Bass Tuner": 9.1,
    "Snark ST-2 Super Tight Clip-On Tuner": 8.7
