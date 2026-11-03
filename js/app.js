@@ -1014,7 +1014,7 @@ function submitReview() {
 }
 
 function getCardIntro(g) {
-  const raw = currentLang === 'es' && g.intro_es ? g.intro_es : g.intro;
+  const raw = (currentLang === 'es' && g.intro_es ? g.intro_es : g.intro) || g.desc || g.desc_es || '';
   let text = raw.replace(/<table[\s\S]*?<\/table>/g, ' ');
   text = text.replace(/<[^>]*>/g, ' ');
   text = text.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
