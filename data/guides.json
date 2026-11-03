@@ -113080,8 +113080,8 @@
     ],
     "conclusion": "<p>A good tuner is invisible until you need it — and then it has to be perfect. The Boss TU-3 wins for stage reliability, the Peterson StroboClip HD wins for accuracy, and the Snark ST-8 wins for value. Pick the tuner that matches how you work, and keep it on your board or headstock permanently.</p>",
     "conclusion_es": "<p>Un buen afinador es invisible hasta que lo necesitas — y entonces tiene que ser perfecto. El Boss TU-3 gana en fiabilidad de escenario, el Peterson StroboClip HD gana en precisión y el Snark ST-8 gana en valor. Elige el afinador que se ajuste a cómo trabajas y mantenlo siempre en tu pedalboard o cabeza.</p>",
-    "verdict": "<p><strong>Boss TU-3 Chromatic Tuner</strong> — The stage standard. Bullet-proof build, true bypass mute, and instant readability under any lighting. The industry workhorse.</p><p><strong>Peterson StroboClip HD</strong> — The accuracy king. True strobe ±0.1 cent, Sweetened Tunings, and professional reference mode for intonation.</p>",
-    "verdict_es": "<p><strong>Boss TU-3 Afinador Cromático</strong> — El estándar de escenario. Construcción a prueba de balas, mute true bypass y lectura instantánea bajo cualquier iluminación. El caballo de batalla de la industria.</p><p><strong>Peterson StroboClip HD</strong> — El rey de la precisión. Strobe real ±0.1 cent, Sweetened Tunings y modo de referencia profesional para entonación.</p>",
+    "verdict": "<p><strong>Boss TU-3 Chromatic Tuner</strong> — The stage standard. Bullet-proof build, true bypass mute and instant readability under any lighting. The undisputed workhorse of the industry.</p><p><strong>Peterson StroboStomp HD</strong> — The king of calibration. The largest screen and highest accuracy on the market in pedal format. Ideal for studio, intonation adjustments and professional musicians.</p><p><strong>TC Electronic PolyTune 3</strong> — The fastest live. Perfect for guitarists and bassists who need to check the tuning of all strings with a single strum between songs.</p><p><strong>Walrus Audio Canvas Tuner</strong> — The tuner of the future. Modern aesthetics, high-resolution TFT screen with image rotation and unique customization for modern pedalboards.</p><p><strong>Korg Pitchblack X</strong> — The tone guardian. Excellent visibility in a stylish format that includes an advanced buffer circuit to keep the signal pure in long chains.</p><p><strong>TC Electronic PolyTune Clip</strong> — The definitive premium clip. All the power and polyphonic algorithms of floor pedals reduced to an ultrasensitive stainless steel clip.</p><p><strong>Peterson StroboClip HD</strong> — The king of portable precision. Real high-definition strobe, Sweetened Tunings and professional reference mode for perfect intonation without cables.</p><p><strong>Korg AW-LT100B</strong> — The bassist's lifesaver. Native calibration for low frequencies and unbeatable battery life that destroys the competition.</p><p><strong>Snark ST-2 Super Tight</strong> — The budget champion. The ideal option for quick rehearsals and musicians looking for speed, firm grip and great performance for the money.</p>",
+    "verdict_es": "<p><strong>Boss TU-3 Afinador Cromático</strong> — El estándar de escenario. Construcción a prueba de balas, mute true bypass y lectura instantánea bajo cualquier iluminación. El caballo de batalla indiscutible de la industria.</p><p><strong>Peterson StroboStomp HD</strong> — El rey de la calibración. La pantalla más grande y la precisión más alta del mercado en formato pedal. Ideal para estudio, ajustes de octavación y músicos profesionales.</p><p><strong>TC Electronic PolyTune 3</strong> — El más rápido en vivo. Perfecto para guitarristas y bajistas que necesitan revisar la afinación de todas las cuerdas con un solo rasgueo entre canciones.</p><p><strong>Walrus Audio Canvas Tuner</strong> — El afinador del futuro. Estética moderna, pantalla TFT de alta resolución con rotación de imagen y personalización única para pedaleras modernas.</p><p><strong>Korg Pitchblack X</strong> — El guardián del tono. Excelente visibilidad en un formato estilizado que incluye un circuito buffer avanzado para mantener la señal pura en cadenas largas.</p><p><strong>TC Electronic PolyTune Clip</strong> — La pinza premium definitiva. Todo el poder y algoritmos polifónicos de los pedales de suelo reducidos a un clip de acero inoxidable ultrasensible.</p><p><strong>Peterson StroboClip HD</strong> — El rey de la precisión portátil. Strobe real de alta definición, Sweetened Tunings y modo de referencia profesional para entonación perfecta sin cables.</p><p><strong>Korg AW-LT100B</strong> — El salvavidas del bajista. Calibración nativa para frecuencias graves y una duración de batería imbatible que destruye a la competencia.</p><p><strong>Snark ST-2 Super Tight</strong> — El campeón del presupuesto. La opción ideal para ensayos rápidos y músicos que buscan velocidad, un agarre firme y un gran rendimiento por su dinero.</p>",
     "verdictProsCons": [
       {
         "name": "Peterson StroboStomp HD",
@@ -113101,14 +113101,16 @@
           "Chasis metálico robusto"
         ],
         "cons": [
-          "More expensive than entry pedals",
-          "Menu can be complex",
-          "Larger than mini tuners"
+          "High price compared to basic pedals",
+          "Menu navigation initially complex",
+          "Larger size than mini tuners",
+          "Relatively high current draw"
         ],
         "cons_es": [
-          "Más caro que pedales básicos",
-          "Menú puede ser complejo",
-          "Más grande que mini afinadores"
+          "Precio elevado frente a pedales básicos",
+          "Navegación de menús inicialmente compleja",
+          "Tamaño más grande que afinadores mini",
+          "Consumo de corriente relativamente alto"
         ]
       },
       {
@@ -113129,14 +113131,16 @@
           "Alimentación 9V estándar"
         ],
         "cons": [
-          "Poly mode less precise than strobe",
-          "Display can be busy",
-          "No dedicated bass switch"
+          "Polyphonic mode less precise than strobe",
+          "Multi-string display confusing at first",
+          "No dedicated physical bass switch",
+          "Lighter chassis than Boss standard"
         ],
         "cons_es": [
-          "Modo polifónico menos preciso que strobe",
-          "Pantalla puede ser confusa",
-          "Sin interruptor dedicado para bajo"
+          "Modo polifónico menos preciso que el estroboscópico",
+          "Pantalla de múltiples cuerdas confusa al inicio",
+          "Falta un interruptor físico dedicado para bajo",
+          "Chasis más ligero que el estándar de Boss"
         ]
       },
       {
@@ -113158,13 +113162,15 @@
         ],
         "cons": [
           "±1 cent accuracy not strobe precise",
-          "Pedal format needs board space",
-          "Larger footprint than mini tuners"
+          "Classic format takes up quite a bit of physical space",
+          "Heavy housing for lightweight travel pedalboards",
+          "Traditional aesthetics with no modern digital graphics"
         ],
         "cons_es": [
-          "Precisión ±1 cent no es strobe",
-          "Formato pedal requiere espacio",
-          "Huella más grande que mini afinadores"
+          "Precisión de ±1 centésima (no es estroboscópico)",
+          "Formato clásico que ocupa bastante espacio físico",
+          "Carcasa pesada para pedaleras de viaje ligeras",
+          "Estética tradicional sin gráficos digitales modernos"
         ]
       },
       {
@@ -113185,14 +113191,16 @@
           "Seguimiento instantáneo"
         ],
         "cons": [
-          "Display small from distance",
-          "No polyphonic mode",
-          "Power supply extra cost"
+          "Display digits small from long distance",
+          "Lacks simultaneous polyphonic tuning mode",
+          "No daisy-chain power cables included",
+          "Narrow rectangular format less stable without velcro"
         ],
         "cons_es": [
-          "Pantalla pequeña a distancia",
-          "Sin modo polifónico",
-          "Fuente de alimentación extra cuesta"
+          "Dígitos de pantalla pequeños a larga distancia",
+          "Carece de modo de afinación polifónica simultánea",
+          "No incluye cables de puente para alimentación",
+          "Formato rectangular angosto menos estable sin velcro"
         ]
       },
       {
@@ -113213,14 +113221,16 @@
           "Acabado suave al tacto"
         ],
         "cons": [
-          "No strobe mode",
-          "Less bright than LEDs",
-          "Premium price"
+          "Premium cost compared to market alternatives",
+          "No polyphonic reading of all strings",
+          "Higher mA consumption due to TFT screen",
+          "LCD panel less dazzling than direct LEDs"
         ],
         "cons_es": [
-          "Sin modo strobe",
-          "Menos brillante que LEDs",
-          "Precio premium"
+          "Costo premium comparado con alternativas de mercado",
+          "No ofrece lectura polifónica de todas las cuerdas",
+          "Mayor consumo de miliamperios por su pantalla TFT",
+          "Panel LCD menos deslumbrante que los LEDs directos"
         ]
       },
       {
@@ -113241,14 +113251,16 @@
           "Autonomía larga"
         ],
         "cons": [
-          "Battery life limited for heavy use",
-          "Clip bulky on small headstocks",
-          "Poly mode less precise"
+          "Faster battery drain in polyphonic mode",
+          "Metallic clip base bulky on small headstocks",
+          "Chord algorithm less accurate than strobe",
+          "Significantly high price for a clip-on"
         ],
         "cons_es": [
-          "Autonomía limitada en uso intensivo",
-          "Clip voluminoso en cabezas pequeñas",
-          "Modo polifónico menos preciso"
+          "Gasto de batería acelerado en modo polifónico",
+          "Base metálica del clip voluminosa en palas pequeñas",
+          "Algoritmo de acordes menos exacto que el strobe",
+          "Precio significativamente alto para ser de clip"
         ]
       },
       {
@@ -113269,14 +113281,16 @@
           "Medidor LED brillante"
         ],
         "cons": [
-          "Most expensive clip-on",
-          "Complex menu",
-          "Steeper learning curve"
+          "Higher economic investment in its category",
+          "Complex settings menu with few buttons",
+          "Steep learning curve for beginners",
+          "Structure requires care when stored loose"
         ],
         "cons_es": [
-          "Clip-on más caro",
-          "Menú complejo",
-          "Curva de aprendizaje pronunciada"
+          "Inversión económica más alta en su categoría",
+          "Menú de configuraciones complejo con pocos botones",
+          "Curva de aprendizaje pronunciada para principiantes",
+          "Estructura que requiere cuidado al guardarse suelta"
         ]
       },
       {
@@ -113297,14 +113311,16 @@
           "Carcasa robusta"
         ],
         "cons": [
-          "No polyphonic mode",
-          "Display washes in direct sun",
-          "Clip can slip on glossy finishes"
+          "No polyphonic option for quick strumming",
+          "LCD screen loses contrast under intense sun",
+          "Clip pads slip on ultra-glossy finishes",
+          "Aesthetically utilitarian plastic look"
         ],
         "cons_es": [
-          "Sin modo polifónico",
-          "Pantalla se lava con sol directo",
-          "Clip puede resbalar en acabados brillantes"
+          "Diseño sin opción polifónica para rasgueo rápido",
+          "Pantalla LCD que pierde contraste bajo sol intenso",
+          "Almohadillas de clip deslizantes en acabados ultra-brillantes",
+          "Aspecto estético de plástico marcadamente utilitario"
         ]
       },
       {
@@ -113325,14 +113341,16 @@
           "Robusto para gig bags"
         ],
         "cons": [
-          "Short battery life",
-          "Plastic housing less durable",
-          "Display washes out in sun"
+          "Shortest button cell battery life in the group",
+          "Plastic housing vulnerable to cracks from drops",
+          "Screen brightness dulled by direct sunlight",
+          "Ball joint delicate under strong pressure"
         ],
         "cons_es": [
-          "Autonomía corta",
-          "Carcasa de plástico menos durable",
-          "Pantalla se desvanece al sol"
+          "Autonomía de pila de botón más corta del grupo",
+          "Carcasa plástica vulnerable a grietas por caídas",
+          "Brillo de pantalla opacado por luz solar directa",
+          "Articulación de bola delicada ante presiones fuertes"
         ]
       }
     ],
