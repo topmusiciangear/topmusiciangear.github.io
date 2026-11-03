@@ -1,7 +1,18 @@
-/* DEPLOY WRAPPER - solo commit/push */
+/* DEPLOY WRAPPER - runs validation, then commit/push */
 const { execSync } = require("child_process");
-const msg = process.argv[2] || "deploy";
+
 console.log("=== DEPLOY WRAPPER ===");
+
+// 1. Run validation first
+console.log("0. Running guides validation...");
+try {
+  execSync("node validate-guides.js", { stdio: "inherit" });
+} catch (e) {
+  console.error("❌ VALIDATION FAILED - Deploy aborted");
+  process.exit(1);
+}
+
+const msg = process.argv[2] || "deploy";
 console.log("1. git add -A");
 execSync("git add -A", { stdio: "inherit" });
 console.log("2. git commit");

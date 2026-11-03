@@ -10,6 +10,17 @@ let guides = [];
 let products = [];
 let reviews = [];
 
+
+// Safe getter for guide properties with fallbacks
+function safeGuide(g, key, fallback) {
+  try {
+    const v = g[key];
+    return (v !== undefined && v !== null) ? v : fallback;
+  } catch (e) {
+    return fallback;
+  }
+}
+
 function readingTime(guide, lang) {
   var texts = [];
   if (lang === 'es') {
@@ -1026,12 +1037,14 @@ function getCardIntro(g) {
 function renderGuideGrid(fanFrom) {
   currentGuideId = null;
   const grid = document.getElementById("guideGrid");
-  const container = document.getElementById("guideContainer");
   if (!grid) return;
   grid.style.display = "";
-  container.classList.remove("guide-detail-open");
-  document.querySelector(".guides-section").classList.remove("guide-detail-active");
-  document.getElementById("guideCats").style.display = "";
+  const containerEl = document.getElementById("guideContainer");
+  if (containerEl) containerEl.classList.remove("guide-detail-open");
+  const guidesSection = document.querySelector(".guides-section");
+  if (guidesSection) guidesSection.classList.remove("guide-detail-active");
+  const guideCats = document.getElementById("guideCats");
+  if (guideCats) guideCats.style.display = "";
   const sortBar = document.querySelector(".sort-bar");
   if (sortBar) sortBar.style.display = "";
   const sectionHeader = document.querySelector("#guides .section-header");
@@ -1052,6 +1065,7 @@ function renderGuideGrid(fanFrom) {
   if (videoCaption) videoCaption.style.display = "";
   const storesSection = document.querySelector(".stores-section");
   if (storesSection) storesSection.style.display = "";
+  
   const filtered = getFilteredGuides();
   if (filtered.length === 0) {
     grid.innerHTML = `<div class="no-results"><h3><svg data-fa="music" class="icon fa-solid fa-music" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg> ${t("noGuides")}</h3><p>${t("noGuidesDesc")}</p></div>`;
@@ -1061,20 +1075,34 @@ function renderGuideGrid(fanFrom) {
     if (hideBtn) hideBtn.style.display = "none";
     return;
   }
+  
   const visible = filtered.slice(0, guideVisibleCount);
-  grid.innerHTML = visible.map((g, i) => {
-    const catName = getCatName(g.category);
-    const introText = getCardIntro(g);
-    return `
-      <div class="guide-card-wrap${typeof fanFrom === 'number' && i >= fanFrom ? ' fan-in' : ''}" style="${typeof fanFrom === 'number' && i >= fanFrom ? '--fan-i:' + (i - fanFrom) : ''}">
-        <a href="/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html" class="guide-card" data-guide="${g.id}" onclick="event.preventDefault(); var id=this.dataset.guide; window.location.href='/guides/'+id+(currentLang==='es'?'_es':'')+'.html';">
+  let html = "";
+  visible.forEach((g, i) => {
+    try {
+      const catName = getCatName(safeGuide(g, 'category', ''));
+      const introText = getCardIntro(g);
+      const title = safeGuide(g, currentLang === 'es' ? 'title_es' : 'title', safeGuide(g, 'title', 'Untitled'));
+      const image = safeGuide(g, 'image', '');
+      const alt = safeGuide(g, currentLang === 'es' ? 'title_es' : 'title', safeGuide(g, 'title', 'Untitled'));
+      const reading = readingTime(g, currentLang);
+      const id = safeGuide(g, 'id', '');
+      const catNameSafe = getCatName(safeGuide(g, 'category', ''));
+      
+      const fanIn = typeof fanFrom === 'number' && i >= fanFrom;
+      const fanStyle = fanIn ? '--fan-i:' + (i - fanFrom) : '';
+      const fanClass = fanIn ? ' fan-in' : '';
+      
+      html += `
+      <div class="guide-card-wrap${fanClass}" style="${fanStyle}">
+        <a href="/guides/${id}${currentLang === 'es' ? '_es' : ''}.html" class="guide-card" data-guide="${id}" onclick="event.preventDefault(); var id=this.dataset.guide; window.location.href='/guides/' + id + (currentLang==='es'?'_es':'') + '.html';">
           <div class="guide-card-img">
-            <img src="${(g.image||'').replace(/w=600&h=400&fit=crop/, 'w=400&fit=crop')}" alt="${currentLang === 'es' && g.title_es ? g.title_es : g.title}" loading="lazy">
-            <span class="guide-card-cat">${catName}</span>
-            <button type="button" class="guide-card-share" aria-label="Share" title="Share" onclick="event.preventDefault(); event.stopPropagation(); shareProduct(this, 'https://topmusiciangear.com/guides/${g.id}${currentLang === 'es' ? '_es' : ''}.html')"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button>
+            <img src="${(safeGuide(g, 'image', '') || '').replace(/w=600&h=400&fit=crop/, 'w=400&fit=crop')}" alt="${alt}" loading="lazy">
+            <span class="guide-card-cat">${catNameSafe}</span>
+            <button type="button" class="guide-card-share" aria-label="Share" title="Share" onclick="event.preventDefault(); event.stopPropagation(); shareProduct(this, 'https://topmusiciangear.com/guides/${id}${currentLang === 'es' ? '_es' : ''}.html')"><svg data-fa="share-nodes" class="icon fa-solid fa-share-nodes" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9-.7-7.8-.7 11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg></button>
           </div>
           <div class="guide-card-body">
-            <h3 class="guide-card-title">${currentLang === 'es' && g.title_es ? g.title_es : g.title}</h3>
+            <h3 class="guide-card-title">${title}</h3>
             <p class="guide-card-intro">${introText}</p>
             <div class="guide-card-footer">
               <span class="guide-card-meta"><svg data-fa="clock" class="icon fa-regular fa-clock" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg> ${readingTime(g, currentLang)} ${t("minRead")}</span>
@@ -1084,7 +1112,13 @@ function renderGuideGrid(fanFrom) {
         </a>
       </div>
     `;
-  }).join("");
+    } catch (e) {
+      console.warn('Failed to render guide card:', safeGuide(g, 'id', 'UNKNOWN'), e);
+    }
+  });
+  
+  grid.innerHTML = html;
+  
   if (filtered.length > guideVisibleCount) {
     const moreWrap = document.getElementById("guideMoreWrap");
     if (moreWrap) {

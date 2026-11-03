@@ -1,0 +1,88 @@
+{
+  "id": "new-guide-slug",
+  "title": "Guide Title in English",
+  "title_es": "Título de la Guía en Español",
+  "titleTag": "Short Tag",
+  "titleTag_es": "Etiqueta Corta",
+  "category": "accessories",
+  "category_es": "accesorios",
+  "score": 9.0,
+  "score_es": 9.0,
+  "badge": "bestSell",
+  "badge_es": "bestSell",
+  "desc": "Short description for SEO and card intro (max 155 chars).",
+  "desc_es": "Descripción corta para SEO e intro de tarjeta (máx 155 chars).",
+  "intro": "Full intro text for card and detail page. HTML allowed. No table.",
+  "intro_es": "Texto completo de intro para tarjeta y página detalle. HTML permitido. Sin tabla.",
+  "products": [1, 2, 3],
+  "featuredProducts": [1, 2],
+  "featuredProducts_es": [1, 2],
+  "sections": [
+    {
+      "name": "Section Name",
+      "name_es": "Nombre de Sección",
+      "heading": "Section Heading",
+      "heading_es": "Título de Sección",
+      "content": "Section content with <strong>HTML</strong> allowed.",
+      "content_es": "Contenido de la sección con <strong>HTML</strong> permitido."
+    }
+  ],
+  "pros": ["Pro 1", "Pro 2", "Pro 3", "Pro 4"],
+  "pros_es": ["Pro 1", "Pro 2", "Pro 3", "Pro 4"],
+  "cons": ["Con 1", "Con 2", "Con 3", "Con 4"],
+  "cons_es": ["Contra 1", "Contra 2", "Contra 3", "Contra 4"],
+  "verdictPros": ["Pro 1", "Pro 2", "Pro 3", "Pro 4"],
+  "verdictPros_es": ["Pro 1", "Pro 2", "Pro 3", "Pro 4"],
+  "verdictCons": ["Con 1", "Con 2", "Con 3", "Con 4"],
+  "verdictCons_es": ["Contra 1", "Contra 2", "Contra 3", "Contra 4"],
+  "verdictProsCons": [
+    {
+      "name": "Product Name",
+      "name_es": "Nombre del Producto",
+      "pros": ["Pro 1", "Pro 2", "Pro 3"],
+      "pros_es": ["Pro 1", "Pro 2", "Pro 3"],
+      "cons": ["Con 1", "Con 2", "Con 3"],
+      "cons_es": ["Contra 1", "Contra 2", "Contra 3"]
+    }
+  ],
+  "prices": {
+    "Product Name": "99.99"
+  },
+  "prices_es": {
+    "Product Name": "99.99"
+  },
+  "stores": {
+    "Product Name": ["gear4music", "musicstore", "andertons", "amazon", "zzounds"]
+  },
+  "stores_es": {
+    "Product Name": ["gear4music", "musicstore", "andertons", "amazon", "zzounds"]
+  },
+  "image": "https://example.com/image.jpg",
+  "conclusion": "Final conclusion text.",
+  "conclusion_es": "Texto de conclusión final.",
+  "verdict": "Verdict summary.",
+  "verdict_es": "Resumen del veredicto.",
+  "aboutName": "Guide topic name",
+  "featuredSnippet": {
+    "faq_q1_en": "Question 1?",
+    "faq_q1_es": "¿Pregunta 1?",
+    "faq_a1_en": "Answer 1.",
+    "faq_a1_es": "Respuesta 1.",
+    "faq_q2_en": "Question 2?",
+    "faq_q2_es": "¿Pregunta 2?",
+    "faq_a2_en": "Answer 2.",
+    "faq_a2_es": "Respuesta 2."
+  },
+  "steps": [
+    {
+      "name": "Step 1",
+      "name_es": "Paso 1",
+      "text": "Step description.",
+      "text_es": "Descripción del paso.",
+      "url": ""
+    }
+  ],
+  "dateModified": "2026-01-15",
+  "description": "Meta description for SEO (max 155 chars).",
+  "description_es": "Meta description para SEO (máx 155 chars)."
+}

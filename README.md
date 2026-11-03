@@ -4,63 +4,176 @@
 
 Honest, hands-on reviews of professional music gear. Every product personally tested by a touring Cuban musician.
 
-## Features
-
-- 🎵 **42+ Products** across 9 categories
-- 🎤 **Microphones** — SM7B, U87, NT1-A, C414, SM57
-- 🎸 **Instruments** — Fender, Gibson, Taylor, PRS, Nord, Yamaha
-- 🔌 **Interfaces** — Focusrite, UA Apollo, RME, SSL
-- 💻 **Plugins** — Serum, Kontakt, FabFilter, Ozone, Valhalla
-- 🔊 **Audio Demos** — Hear gear in action
-- 🛒 **Multi-store shopping** — Thomann, Plugin Boutique, Loopmasters, Amazon
-- 📱 **Fully responsive** — Mobile, tablet, desktop
-- ⚡ **100% static** — Zero server, instant load
-
-## File structure
+## Project Structure
 
 ```
-├── index.html           # Main page
-├── css/
-│   └── style.css        # Dark theme with orange accents
+├── index.html                 # Main landing page
+├── es/index.html              # Spanish landing page
+├── build-guides.js            # Static site generator (run this to build)
+├── validate-guides.js         # Validation script (runs before deploy)
+├── temp/deploy.js             # Deploy wrapper (runs validation + commit + push)
+├── data/
+│   ├── guides.json            # All guide content (edit this!)
+│   ├── products.json          # Product catalog with prices/stores
+│   ├── reviews.json           # User reviews
+│   ├── guide-template.json    # Template for new guides
+│   └── cut-images.json        # Cutout image mappings
+├── guides/                    # Generated HTML guides (338 files)
 ├── js/
-│   ├── products.js      # Product catalog (edit this!)
-│   └── app.js           # Application logic
+│   ├── app.js                 # Client-side logic (edit this!)
+│   ├── app.min.js             # Minified (auto-generated)
+│   ├── shop-buttons.js        # Buy button logic (auto-generated)
+│   ├── constants.js           # Category names, store names
+│   ├── guide-scores.js        # Guide scoring data
+│   └── icons.js               # SVG icons
+├── css/
+│   ├── style.css              # Main styles
+│   ├── style.min.css          # Minified (auto-generated)
+│   └── overrides.css          # Guide-specific overrides
 ├── img/
-│   └── me.jpg           # About Me photo
-└── README.md
+│   └── products/              # Product images (local, WebP)
+└── temp/                      # Utility scripts
 ```
 
-## How to customize products
+## Adding a New Guide
 
-Edit `js/products.js`. Each product:
+### 1. Copy the Template
 
-```js
+```bash
+cp data/guide-template.json data/new-guide.json
+# Edit with your guide content
+```
+
+### 2. Required Fields (Validation Will Fail If Missing)
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `id` | string | URL slug, lowercase with hyphens (e.g., `best-guitars-2026`) |
+| `title` | string | English title |
+| `title_es` | string | Spanish title |
+| `category` | string | English category (see valid list below) |
+| `intro` | string | Card intro text (HTML allowed, no `<table>`) |
+| `intro_es` | string | Spanish card intro |
+
+### 3. Valid Categories
+
+```
+microphones, guitars, basses, keyboards, interfaces,
+in_ear_monitors, monitors, headphones, drum-machine, plugins,
+accessories, amps, pedals, live_sound, mixers, daw,
+streaming, production, strings, other
+```
+
+### 4. Add to guides.json
+
+Add your guide to `data/guides.json` with a new numeric key (e.g., `"169": { ... }`).
+
+### 5. Recommended Fields
+
+| Field | Type | Notes |
+|-------|------|-------|
+| `titleTag` | string | Short tag for UI badges |
+| `category_es` | string | Spanish category name |
+| `desc`, `desc_es` | string | Meta description / fallback for intro |
+| `products` | array | Product IDs from `products.json` |
+| `featuredProducts` | array | Featured product IDs (EN) |
+| `featuredProducts_es` | array | Featured product IDs (ES) |
+| `sections` | array | Content sections with `heading`, `heading_es`, `content`, `content_es` |
+| `verdictPros`, `verdictPros_es` | array | Pro list (min 4 items) |
+| `verdictCons`, `verdictCons_es` | array | Con list (min 4 items) |
+| `verdictProsCons` | array | Detailed verdict per product |
+| `image` | string | Hero image URL |
+| `conclusion`, `conclusion_es` | string | Closing text |
+
+### 6. Build & Deploy
+
+```bash
+node build-guides.js        # Builds all 338 guide pages
+node temp/deploy.js "msg"   # Runs validation, commits, pushes, triggers deploy
+```
+
+**The deploy script runs validation automatically and will abort if validation fails.**
+
+## Validation
+
+Run validation manually:
+
+```bash
+node validate-guides.js
+```
+
+**Required fields that will cause build failure if missing:**
+- `id`, `title`, `title_es`, `category`, `intro`, `intro_es`
+
+**Recommended fields (warnings only):**
+- `category_es`, `desc`, `desc_es`, `products`, `featuredProducts`, etc.
+
+## Product Catalog (`data/products.json`)
+
+Each product needs:
+```json
 {
-  id: 1,
-  title: "Shure SM7B",
-  category: "microphones",   // microphones, guitars, keyboards, interfaces, monitors, headphones, plugins, percussion, accessories
-  price: 399,
-  rating: 4.8,
-  reviews: 18453,
-  badge: "bestSeller",       // bestSeller, legend, premium, topQuality, recommended, savings, or null
-  desc: "Product description",
-  img: "https://...image.jpg",
-  stores: {
-    thomann: "https://www.thomann.de/...",
-    pluginboutique: "https://www.pluginboutique.com/...",
-    loopmasters: "https://www.loopmasters.com/...",
-    amazon: "https://amzn.to/..."
+  "id": 123,
+  "title": "Product Name",
+  "title_es": "Nombre en Español",
+  "category": "microphones",
+  "brand": "Shure",
+  "desc": "English description",
+  "desc_es": "Descripción en español",
+  "price": 399,
+  "image": "https://...",
+  "stores": {
+    "gear4music": "https://...",
+    "musicstore": "https://...",
+    "andertons": "https://...",
+    "amazon": "https://...",
+    "zzounds": "https://..."
   }
 }
 ```
 
 ## Deployment
 
-1. Create a GitHub repo (e.g., `topmusiciangear/topmusiciangear.github.io`)
-2. Push the `affiliate-site/` contents to the repo
-3. Enable GitHub Pages in repo settings (branch: `main`, folder: `/`)
-4. Your site will be live at `https://topmusiciangear.github.io/`
+```bash
+node temp/deploy.js "Your commit message"
+```
 
-## Customize your photo
+This runs:
+1. ✅ Validation (`validate-guides.js`)
+2. ✅ Build (`build-guides.js`)
+3. ✅ Git add/commit/push
+4. ✅ GitHub Pages build trigger
 
-Place your photo at `img/me.jpg` (recommended: 400x400px square).
+**Deploy will abort if validation fails.**
+
+## Cloudflare Cache
+
+After deploy, purge Cloudflare cache:
+1. Go to Cloudflare Dashboard → Speed → Purge Cache → Purge Everything
+2. Wait 2-5 minutes
+3. Hard refresh: `Ctrl + Shift + R`
+
+## File Structure Notes
+
+- **Never edit `guides/*.html` directly** — they're generated by `build-guides.js`
+- **Edit source files**: `data/guides.json`, `js/app.js`, `data/products.json`
+- **Regenerate minified JS**: `npx terser js/app.js -o js/app.min.js -c -m`
+- **Regenerate minified CSS**: `node _minify_css.js`
+- **Version cache**: Updated automatically in `version.txt` by build script
+
+## Validation Checklist (Before Adding a Guide)
+
+- [ ] `id` is unique, lowercase, hyphens only
+- [ ] `title` and `title_es` are present and non-empty
+- [ ] `category` matches valid list
+- [ ] `intro` and `intro_es` are present, non-empty, no `<table>` tags
+- [ ] `intro_es` uses Spanish sentence case (not Title Case)
+- [ ] `products` array contains valid product IDs from `products.json`
+- [ ] `featuredProducts` and `featuredProducts_es` arrays match
+- [ ] `sections` array has `heading`, `heading_es`, `content`, `content_es`
+- [ ] `verdictPros`/`Cons` have at least 4 items each (EN + ES)
+- [ ] `verdictProsCons` array matches featured products
+- [ ] `image` URL is valid and accessible
+- [ ] Run `node validate-guides.js` — must pass with 0 errors
+- [ ] Run `node build-guides.js` — must complete without errors
+- [ ] Run `node temp/deploy.js "message"` — commits and deploys
