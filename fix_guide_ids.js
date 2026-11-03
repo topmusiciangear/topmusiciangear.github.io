@@ -1,0 +1,12 @@
+const fs=require('fs');
+const p='data/guides.json';
+const data=JSON.parse(fs.readFileSync(p,'utf8'));
+const g=data.find(x=>x.id==='tuners-bass-guitar');
+if(!g){console.error('not found');process.exit(1)};
+const repl=[58,59];
+const newIds=[9001,9002];
+function replaceIds(arr){return arr.map(v=>repl.includes(v)?newIds[repl.indexOf(v)]:v)};
+g.products=replaceIds(g.products);
+g.sections.forEach(s=>{if(s.products)s.products=replaceIds(s.products)});
+fs.writeFileSync(p,JSON.stringify(data,null,2));
+console.log('done');

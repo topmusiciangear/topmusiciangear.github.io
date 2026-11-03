@@ -161,6 +161,18 @@ After deploy, purge Cloudflare cache:
 - **Regenerate minified CSS**: `node _minify_css.js`
 - **Version cache**: Updated automatically in `version.txt` by build script
 
+## Content Rules for New Guides
+
+**MANDATORY — DO NOT COPY OR INVENT CONTENT**
+
+- Use existing guides **only as structural reference** for layout, fields, and rendering order.
+- **All text, specs, reviews, pros/cons, FAQs, comparisons must be original** for the new guide.
+- **Never copy paragraphs, verdicts, or FAQ answers from other guides.** Rewrite from scratch based on real, verified product data.
+- **Never invent specs, prices, or reviews.** All specs must come from manufacturer spec sheets or verified retailer pages. Prices must be verified live.
+- Follow the exact same structure as other guides: intro, product table, verdicts, sections, conclusion, FAQ.
+- Spanish content must be written naturally by a native speaker, not a literal translation of English or of another guide.
+- Run the SEO and typo audits after writing: `node temp/audit_en.js`, `node temp/audit_en_typos.js`, `node temp/audit_es_caps3.js`.
+
 ## Validation Checklist (Before Adding a Guide)
 
 - [ ] `id` is unique, lowercase, hyphens only
