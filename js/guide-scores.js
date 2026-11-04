@@ -1492,9 +1492,9 @@ var GUIDE_SCORES = {
  },
 
   "tuners-bass-guitar": {
-   "Boss TU-3 Chromatic Tuner": 9.8,
-   "Boss TU-3 Afinador Cromático": 9.8,
-   "Peterson StroboStomp HD": 9.7,
+   "Boss TU-3 Chromatic Tuner": 9.7,
+   "Boss TU-3 Afinador Cromático": 9.7,
+   "Peterson StroboStomp HD": 9.8,
    "TC Electronic PolyTune 3": 9.5,
    "Walrus Audio Canvas Tuner": 9.2,
    "Korg Pitchblack X": 9.0,
@@ -1502,7 +1502,7 @@ var GUIDE_SCORES = {
    "Peterson StroboClip HD Clip-On Tuner": 9.4,
    "Korg AW-LT100B Clip-On Bass Tuner": 9.1,
    "Korg AW-LT100B Afinador Clip-On para Bajo": 9.1,
-   "Snark ST-2 Super Tight Clip-On Tuner": 8.7,
-   "Snark ST-2 Super Tight Afinador Clip-On": 8.7
+   "Snark ST-8 Super Tight Rechargable Tuner, Titanium": 9.3,
+   "Snark ST-8 Super Tight Afinador Recargable, Titanio": 9.3
   }
 };
