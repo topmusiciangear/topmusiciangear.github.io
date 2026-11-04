@@ -6898,6 +6898,9 @@ function buildGuidePage(guide, lang, idx) {
             if (name === 'layout') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="10" rx="2"/><line x1="12" y1="3" x2="12" y2="13"/></svg>';
             }
+            if (name === 'format') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="10" rx="2"/><circle cx="12" cy="10" r="2.5"/></svg>';
+            }
             if (name === 'wave' || name === 'sineWave') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M1 8 C 4 2, 7 2, 10 8 S 16 14, 19 8 S 22 2, 23 8"/></svg>';
             }
@@ -6943,7 +6946,8 @@ function buildGuidePage(guide, lang, idx) {
             if (name === 'piano') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><rect x="2" y="6" width="20" height="8" rx="1"/><line x1="5" y1="6" x2="5" y2="14"/><line x1="10" y1="6" x2="10" y2="14"/><line x1="15" y1="6" x2="15" y2="14"/><line x1="20" y1="6" x2="20" y2="14"/><rect x="6.5" y="3" width="2" height="5" rx="0.5"/><rect x="11.5" y="3" width="2" height="5" rx="0.5"/><rect x="16.5" y="3" width="2" height="5" rx="0.5"/></svg>';
             }
-            return icon(name, 'fa-solid');
+            // Sin icono por defecto para evitar fallback rojo/no definido
+            return '';
           }
           const _cardBase = 'background:#22252c;border-radius:8px;padding:4px 6px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:2px;overflow:hidden;';
           quickFactsHtml = '<div class="guide-section-quickfacts">' +
@@ -6952,16 +6956,17 @@ function buildGuidePage(guide, lang, idx) {
               '<div class="qf-value">' + _bf + '</div>' +
             '</div>' +
             firstProduct.facts.filter(function (f) {
-              const en = f.label && f.label.en;
-              const es = f.label && f.label.es;
-              return !(en === 'Ideal for' || es === 'Ideal para');
+              const en = (f.label && f.label.en || '').trim().toLowerCase();
+              const es = (f.label && f.label.es || '').trim().toLowerCase();
+              return !(en === 'ideal for' || es === 'ideal para');
             }).map(function (f) {
               const lbl = isEs ? (f.label && f.label.es) : (f.label && f.label.en);
+              const val = (typeof f.value === 'object' && f.value) ? (isEs ? (f.value.es || f.value.en) : (f.value.en || f.value.es)) : (f.value || '');
               const col = '#4ade80';
               return '<div class="qf-card qf-fact">' +
                 '<span class="qf-icon" style="color:' + col + '">' + _qfIcon(f.icon, col) + '</span>' +
                 '<div class="qf-text">' +
-                  '<div class="qf-value">' + (f.value || '') + '</div>' +
+                  '<div class="qf-value">' + val + '</div>' +
                   '<div class="qf-label">' + (lbl || '') + '</div>' +
                 '</div>' +
               '</div>';

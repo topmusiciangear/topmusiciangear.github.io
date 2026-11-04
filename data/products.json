@@ -3388,7 +3388,10 @@
     "facts": [
       {
         "icon": "star",
-        "value": "Indestructible stage tuning",
+        "value": {
+          "en": "Indestructible stage tuning",
+          "es": "Afinación de escenario indestructible"
+        },
         "label": {
           "en": "Ideal for",
           "es": "Ideal para"
@@ -3397,7 +3400,10 @@
       },
       {
         "icon": "layout",
-        "value": "Floor pedal",
+        "value": {
+          "en": "Floor pedal",
+          "es": "Pedal de suelo"
+        },
         "label": {
           "en": "Format",
           "es": "Formato"
@@ -3406,7 +3412,10 @@
       },
       {
         "icon": "battery",
-        "value": "9V adapter / 9V battery",
+        "value": {
+          "en": "9V adapter / 9V battery",
+          "es": "Adaptador 9V / pila 9V"
+        },
         "label": {
           "en": "Power",
           "es": "Alimentación"
@@ -3415,7 +3424,10 @@
       },
       {
         "icon": "gauge",
-        "value": "±1 cent (Classic chromatic)",
+        "value": {
+          "en": "±1 cent (Classic chromatic)",
+          "es": "±1 cent (cromático clásico)"
+        },
         "label": {
           "en": "Accuracy",
           "es": "Precisión"
@@ -3443,11 +3455,18 @@
       "andertons": "https://www.andertons.co.uk/tc-electronic-polytune-clip",
       "zzounds": "https://www.zzounds.com/item--POLYTUNE-CLIP"
     },
+    "bestFor": {
+      "en": "Acoustic and quick portability",
+      "es": "Acústica y portabilidad rápida"
+    },
     "oos": [],
     "facts": [
       {
         "icon": "star",
-        "value": "Acoustic and quick portability",
+        "value": {
+          "en": "Acoustic and quick portability",
+          "es": "Acústica y portabilidad rápida"
+        },
         "label": {
           "en": "Ideal for",
           "es": "Ideal para"
@@ -3455,8 +3474,11 @@
         "tone": "good"
       },
       {
-        "icon": "layout",
-        "value": "Headstock clip",
+        "icon": "format",
+        "value": {
+          "en": "Headstock clip",
+          "es": "Pinza para cabezal"
+        },
         "label": {
           "en": "Format",
           "es": "Formato"
@@ -3465,7 +3487,10 @@
       },
       {
         "icon": "battery",
-        "value": "CR2032 button cell",
+        "value": {
+          "en": "CR2032 button cell",
+          "es": "Pila botón CR2032"
+        },
         "label": {
           "en": "Power",
           "es": "Alimentación"
@@ -3474,7 +3499,10 @@
       },
       {
         "icon": "gauge",
-        "value": "±0.02 cents (Strobe mode)",
+        "value": {
+          "en": "±0.02 cents (Strobe mode)",
+          "es": "±0.02 cents (modo estroboscópico)"
+        },
         "label": {
           "en": "Accuracy",
           "es": "Precisión"
@@ -3544,11 +3572,18 @@
       "andertons": "https://www.andertons.co.uk/peterson-stroboclip-hd",
       "zzounds": "https://www.zzounds.com/item--PETROSTROBOHD"
     },
+    "bestFor": {
+      "en": "Bench precision and multiple instruments",
+      "es": "Precisión de banco y múltiples instrumentos"
+    },
     "oos": [],
     "facts": [
       {
         "icon": "star",
-        "value": "Bench precision and multiple instruments",
+        "value": {
+          "en": "Bench precision and multiple instruments",
+          "es": "Precisión de banco y múltiples instrumentos"
+        },
         "label": {
           "en": "Ideal for",
           "es": "Ideal para"
@@ -3556,8 +3591,11 @@
         "tone": "good"
       },
       {
-        "icon": "layout",
-        "value": "Headstock clip",
+        "icon": "format",
+        "value": {
+          "en": "Headstock clip",
+          "es": "Pinza para cabezal"
+        },
         "label": {
           "en": "Format",
           "es": "Formato"
@@ -3566,7 +3604,10 @@
       },
       {
         "icon": "battery",
-        "value": "CR2032 button cell",
+        "value": {
+          "en": "CR2032 button cell",
+          "es": "Pila botón CR2032"
+        },
         "label": {
           "en": "Power",
           "es": "Alimentación"
@@ -3575,7 +3616,10 @@
       },
       {
         "icon": "gauge",
-        "value": "±0.1 cents (True strobe)",
+        "value": {
+          "en": "±0.1 cents (True strobe)",
+          "es": "±0.1 cents (estroboscópico real)"
+        },
         "label": {
           "en": "Accuracy",
           "es": "Precisión"
@@ -35370,7 +35414,10 @@
     "facts": [
       {
         "icon": "star",
-        "value": "Studio, intonation and live",
+        "value": {
+          "en": "Studio, intonation and live",
+          "es": "Estudio, entonación y en vivo"
+        },
         "label": {
           "en": "Ideal for",
           "es": "Ideal para"
@@ -35379,7 +35426,10 @@
       },
       {
         "icon": "layout",
-        "value": "Floor pedal",
+        "value": {
+          "en": "Floor pedal",
+          "es": "Pedal de suelo"
+        },
         "label": {
           "en": "Format",
           "es": "Formato"
@@ -35388,7 +35438,10 @@
       },
       {
         "icon": "battery",
-        "value": "9V adapter / 9V battery",
+        "value": {
+          "en": "9V adapter / 9V battery",
+          "es": "Adaptador 9V / pila 9V"
+        },
         "label": {
           "en": "Power",
           "es": "Alimentación"
@@ -35397,7 +35450,10 @@
       },
       {
         "icon": "gauge",
-        "value": "±0.1 cents (True strobe)",
+        "value": {
+          "en": "±0.1 cents (True strobe)",
+          "es": "±0.1 cents (estroboscópico real)"
+        },
         "label": {
           "en": "Accuracy",
           "es": "Precisión"
@@ -35433,7 +35489,10 @@
     "facts": [
       {
         "icon": "star",
-        "value": "Fast stage and polyphonic",
+        "value": {
+          "en": "Fast stage and polyphonic",
+          "es": "Directo rápido y polifónico"
+        },
         "label": {
           "en": "Ideal for",
           "es": "Ideal para"
@@ -35442,7 +35501,10 @@
       },
       {
         "icon": "layout",
-        "value": "Floor pedal",
+        "value": {
+          "en": "Floor pedal",
+          "es": "Pedal de suelo"
+        },
         "label": {
           "en": "Format",
           "es": "Formato"
@@ -35451,7 +35513,10 @@
       },
       {
         "icon": "battery",
-        "value": "9V adapter / 9V battery",
+        "value": {
+          "en": "9V adapter / 9V battery",
+          "es": "Adaptador 9V / pila 9V"
+        },
         "label": {
           "en": "Power",
           "es": "Alimentación"
@@ -35460,7 +35525,10 @@
       },
       {
         "icon": "gauge",
-        "value": "±0.02 cents (Strobe mode)",
+        "value": {
+          "en": "±0.02 cents (Strobe mode)",
+          "es": "±0.02 cents (modo estroboscópico)"
+        },
         "label": {
           "en": "Accuracy",
           "es": "Precisión"
@@ -35496,7 +35564,10 @@
     "facts": [
       {
         "icon": "star",
-        "value": "Rugged use and high visibility",
+        "value": {
+          "en": "Rugged use and high visibility",
+          "es": "Uso robusto y alta visibilidad"
+        },
         "label": {
           "en": "Ideal for",
           "es": "Ideal para"
@@ -35505,7 +35576,10 @@
       },
       {
         "icon": "layout",
-        "value": "Floor pedal",
+        "value": {
+          "en": "Floor pedal",
+          "es": "Pedal de suelo"
+        },
         "label": {
           "en": "Format",
           "es": "Formato"
@@ -35514,7 +35588,10 @@
       },
       {
         "icon": "battery",
-        "value": "9V adapter / 9V battery",
+        "value": {
+          "en": "9V adapter / 9V battery",
+          "es": "Adaptador 9V / pila 9V"
+        },
         "label": {
           "en": "Power",
           "es": "Alimentación"
@@ -35523,7 +35600,10 @@
       },
       {
         "icon": "gauge",
-        "value": "±0.1 cents (Strobe mode)",
+        "value": {
+          "en": "±0.1 cents (Strobe mode)",
+          "es": "±0.1 cents (modo estroboscópico)"
+        },
         "label": {
           "en": "Accuracy",
           "es": "Precisión"
@@ -35559,7 +35639,10 @@
     "facts": [
       {
         "icon": "star",
-        "value": "Boutique and custom pedalboards",
+        "value": {
+          "en": "Boutique and custom pedalboards",
+          "es": "Pedaleras boutique y personalizadas"
+        },
         "label": {
           "en": "Ideal for",
           "es": "Ideal para"
@@ -35568,7 +35651,10 @@
       },
       {
         "icon": "layout",
-        "value": "Floor pedal",
+        "value": {
+          "en": "Floor pedal",
+          "es": "Pedal de suelo"
+        },
         "label": {
           "en": "Format",
           "es": "Formato"
@@ -35577,7 +35663,10 @@
       },
       {
         "icon": "battery",
-        "value": "Standard 9V adapter",
+        "value": {
+          "en": "Standard 9V adapter",
+          "es": "Adaptador estándar 9V"
+        },
         "label": {
           "en": "Power",
           "es": "Alimentación"
@@ -35586,7 +35675,10 @@
       },
       {
         "icon": "gauge",
-        "value": "±0.1 cents (Strobe mode)",
+        "value": {
+          "en": "±0.1 cents (Strobe mode)",
+          "es": "±0.1 cents (modo estroboscópico)"
+        },
         "label": {
           "en": "Accuracy",
           "es": "Precisión"
@@ -35622,7 +35714,10 @@
     "facts": [
       {
         "icon": "star",
-        "value": "4, 5 and 6-string basses",
+        "value": {
+          "en": "4, 5 and 6-string basses",
+          "es": "Bajos de 4, 5 y 6 cuerdas"
+        },
         "label": {
           "en": "Ideal for",
           "es": "Ideal para"
@@ -35631,7 +35726,10 @@
       },
       {
         "icon": "layout",
-        "value": "Headstock clip (bass specialist)",
+        "value": {
+          "en": "Headstock clip (bass specialist)",
+          "es": "Pinza para cabezal (especialista en bajo)"
+        },
         "label": {
           "en": "Format",
           "es": "Formato"
@@ -35640,7 +35738,10 @@
       },
       {
         "icon": "battery",
-        "value": "1 AAA battery (100 hours)",
+        "value": {
+          "en": "1 AAA battery (100 hours)",
+          "es": "1 pila AAA (100 horas)"
+        },
         "label": {
           "en": "Power",
           "es": "Alimentación"
@@ -35649,7 +35750,10 @@
       },
       {
         "icon": "gauge",
-        "value": "±0.1 cents (High-def chromatic)",
+        "value": {
+          "en": "±0.1 cents (High-def chromatic)",
+          "es": "±0.1 cents (cromático alta definición)"
+        },
         "label": {
           "en": "Accuracy",
           "es": "Precisión"
@@ -35685,7 +35789,10 @@
     "facts": [
       {
         "icon": "star",
-        "value": "Noise-free daily use",
+        "value": {
+          "en": "Noise-free daily use",
+          "es": "Uso diario sin ruido"
+        },
         "label": {
           "en": "Ideal for",
           "es": "Ideal para"
@@ -35693,8 +35800,11 @@
         "tone": "good"
       },
       {
-        "icon": "layout",
-        "value": "Headstock clip",
+        "icon": "format",
+        "value": {
+          "en": "Headstock clip",
+          "es": "Pinza para cabezal"
+        },
         "label": {
           "en": "Format",
           "es": "Formato"
@@ -35703,7 +35813,10 @@
       },
       {
         "icon": "battery",
-        "value": "USB rechargeable battery",
+        "value": {
+          "en": "USB rechargeable battery",
+          "es": "Batería recargable USB"
+        },
         "label": {
           "en": "Power",
           "es": "Alimentación"
@@ -35712,7 +35825,10 @@
       },
       {
         "icon": "gauge",
-        "value": "±0.1 cents (Enhanced processing)",
+        "value": {
+          "en": "±0.1 cents (Enhanced processing)",
+          "es": "±0.1 cents (procesamiento mejorado)"
+        },
         "label": {
           "en": "Accuracy",
           "es": "Precisión"
