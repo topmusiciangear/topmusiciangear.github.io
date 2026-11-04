@@ -6892,6 +6892,12 @@ function buildGuidePage(guide, lang, idx) {
           const _bf = (isEs ? firstProduct.bestFor.es : firstProduct.bestFor.en) || '';
           const _bfl = isEs ? 'Ideal para' : 'Best for';
           function _qfIcon(name, color) {
+            if (name === 'star') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><polygon points="12,3 14.5,9.5 21,9.5 15.75,13.5 17.5,20.5 12,16 6.5,20.5 8.25,13.5 3,9.5 9.5,9.5"/></svg>';
+            }
+            if (name === 'layout') {
+              return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="10" rx="2"/><line x1="12" y1="3" x2="12" y2="13"/></svg>';
+            }
             if (name === 'wave' || name === 'sineWave') {
               return '<svg viewBox="0 0 24 16" width="20" height="20" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round"><path d="M1 8 C 4 2, 7 2, 10 8 S 16 14, 19 8 S 22 2, 23 8"/></svg>';
             }
@@ -6945,7 +6951,11 @@ function buildGuidePage(guide, lang, idx) {
               '<div class="qf-label">' + _bfl + '</div>' +
               '<div class="qf-value">' + _bf + '</div>' +
             '</div>' +
-            firstProduct.facts.map(function (f) {
+            firstProduct.facts.filter(function (f) {
+              const en = f.label && f.label.en;
+              const es = f.label && f.label.es;
+              return !(en === 'Ideal for' || es === 'Ideal para');
+            }).map(function (f) {
               const lbl = isEs ? (f.label && f.label.es) : (f.label && f.label.en);
               const col = '#4ade80';
               return '<div class="qf-card qf-fact">' +
