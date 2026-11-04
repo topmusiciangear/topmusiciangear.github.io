@@ -3387,29 +3387,38 @@
     },
     "facts": [
       {
-        "icon": "wave",
-        "value": "Chromatic tuner",
+        "icon": "star",
+        "value": "Indestructible stage tuning",
         "label": {
-          "en": "Type",
-          "es": "Tipo"
+          "en": "Ideal for",
+          "es": "Ideal para"
         },
         "tone": "good"
       },
       {
-        "icon": "signal",
-        "value": "Buffered",
+        "icon": "layout",
+        "value": "Floor pedal",
         "label": {
-          "en": "Bypass",
-          "es": "Bypass"
+          "en": "Format",
+          "es": "Formato"
         },
         "tone": "good"
       },
       {
         "icon": "battery",
-        "value": "40 mA",
+        "value": "9V adapter / 9V battery",
         "label": {
-          "en": "Current draw",
-          "es": "Consumo"
+          "en": "Power",
+          "es": "Alimentación"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "±1 cent (Classic chromatic)",
+        "label": {
+          "en": "Accuracy",
+          "es": "Precisión"
         },
         "tone": "good"
       }
@@ -3434,7 +3443,45 @@
       "andertons": "https://www.andertons.co.uk/tc-electronic-polytune-clip",
       "zzounds": "https://www.zzounds.com/item--POLYTUNE-CLIP"
     },
-    "oos": []
+    "oos": [],
+    "facts": [
+      {
+        "icon": "star",
+        "value": "Acoustic and quick portability",
+        "label": {
+          "en": "Ideal for",
+          "es": "Ideal para"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layout",
+        "value": "Headstock clip",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "CR2032 button cell",
+        "label": {
+          "en": "Power",
+          "es": "Alimentación"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "±0.02 cents (Strobe mode)",
+        "label": {
+          "en": "Accuracy",
+          "es": "Precisión"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 9002,
@@ -3497,7 +3544,45 @@
       "andertons": "https://www.andertons.co.uk/peterson-stroboclip-hd",
       "zzounds": "https://www.zzounds.com/item--PETROSTROBOHD"
     },
-    "oos": []
+    "oos": [],
+    "facts": [
+      {
+        "icon": "star",
+        "value": "Bench precision and multiple instruments",
+        "label": {
+          "en": "Ideal for",
+          "es": "Ideal para"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layout",
+        "value": "Headstock clip",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "CR2032 button cell",
+        "label": {
+          "en": "Power",
+          "es": "Alimentación"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "±0.1 cents (True strobe)",
+        "label": {
+          "en": "Accuracy",
+          "es": "Precisión"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 104,
@@ -35281,7 +35366,45 @@
     "bestFor": {
       "en": "Studio-grade pedal tuning",
       "es": "Afinación de pedal de estudio"
-    }
+    },
+    "facts": [
+      {
+        "icon": "star",
+        "value": "Studio, intonation and live",
+        "label": {
+          "en": "Ideal for",
+          "es": "Ideal para"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layout",
+        "value": "Floor pedal",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "9V adapter / 9V battery",
+        "label": {
+          "en": "Power",
+          "es": "Alimentación"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "±0.1 cents (True strobe)",
+        "label": {
+          "en": "Accuracy",
+          "es": "Precisión"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 9004,
@@ -35306,7 +35429,45 @@
     "bestFor": {
       "en": "Fast stage tuning",
       "es": "Afinación rápida en escenario"
-    }
+    },
+    "facts": [
+      {
+        "icon": "star",
+        "value": "Fast stage and polyphonic",
+        "label": {
+          "en": "Ideal for",
+          "es": "Ideal para"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layout",
+        "value": "Floor pedal",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "9V adapter / 9V battery",
+        "label": {
+          "en": "Power",
+          "es": "Alimentación"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "±0.02 cents (Strobe mode)",
+        "label": {
+          "en": "Accuracy",
+          "es": "Precisión"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 9005,
@@ -35331,7 +35492,45 @@
     "bestFor": {
       "en": "Compact pedal tuning",
       "es": "Afinación compacta de pedal"
-    }
+    },
+    "facts": [
+      {
+        "icon": "star",
+        "value": "Rugged use and high visibility",
+        "label": {
+          "en": "Ideal for",
+          "es": "Ideal para"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layout",
+        "value": "Floor pedal",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "9V adapter / 9V battery",
+        "label": {
+          "en": "Power",
+          "es": "Alimentación"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "±0.1 cents (Strobe mode)",
+        "label": {
+          "en": "Accuracy",
+          "es": "Precisión"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 9006,
@@ -35356,7 +35555,45 @@
     "bestFor": {
       "en": "Tone-pure tuning",
       "es": "Afinación sin coloración"
-    }
+    },
+    "facts": [
+      {
+        "icon": "star",
+        "value": "Boutique and custom pedalboards",
+        "label": {
+          "en": "Ideal for",
+          "es": "Ideal para"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layout",
+        "value": "Floor pedal",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "Standard 9V adapter",
+        "label": {
+          "en": "Power",
+          "es": "Alimentación"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "±0.1 cents (Strobe mode)",
+        "label": {
+          "en": "Accuracy",
+          "es": "Precisión"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 9007,
@@ -35381,7 +35618,45 @@
     "bestFor": {
       "en": "Bass clip tuning",
       "es": "Afinación clip para bajo"
-    }
+    },
+    "facts": [
+      {
+        "icon": "star",
+        "value": "4, 5 and 6-string basses",
+        "label": {
+          "en": "Ideal for",
+          "es": "Ideal para"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layout",
+        "value": "Headstock clip (bass specialist)",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "1 AAA battery (100 hours)",
+        "label": {
+          "en": "Power",
+          "es": "Alimentación"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "±0.1 cents (High-def chromatic)",
+        "label": {
+          "en": "Accuracy",
+          "es": "Precisión"
+        },
+        "tone": "good"
+      }
+    ]
   },
   {
     "id": 9008,
@@ -35406,6 +35681,44 @@
     "bestFor": {
       "en": "Budget clip tuning",
       "es": "Afinación clip económica"
-    }
+    },
+    "facts": [
+      {
+        "icon": "star",
+        "value": "Noise-free daily use",
+        "label": {
+          "en": "Ideal for",
+          "es": "Ideal para"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "layout",
+        "value": "Headstock clip",
+        "label": {
+          "en": "Format",
+          "es": "Formato"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "battery",
+        "value": "USB rechargeable battery",
+        "label": {
+          "en": "Power",
+          "es": "Alimentación"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "gauge",
+        "value": "±0.1 cents (Enhanced processing)",
+        "label": {
+          "en": "Accuracy",
+          "es": "Precisión"
+        },
+        "tone": "good"
+      }
+    ]
   }
 ]

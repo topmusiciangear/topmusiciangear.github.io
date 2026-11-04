@@ -5655,7 +5655,7 @@ const TEST_SHOP_BTN = {
 
 1039: {prices:{pluginboutique:"€271.04",gear4music:"£215.00"},pbCur:{us:"$249.00",uk:"£238.80"}},
 
-  9003: { prices: {}, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Peterson-StroboStomp-HD-Compact-Strobe-Pedal-Tuner/2VSD", musicstore: "https://www.musicstore.com/en_OE/EUR/Peterson-StroboStomp-HD/art-GIT0048384-000", andertons: "https://www.andertons.co.uk/peterson-strobostomp-hd-compact-strobe-pedal-tuner/?search_query=Peterson%20StroboStomp%20HD", zzounds: "https://www.zzounds.com/item--PET403884?siid=353716", amazon: "https://www.amazon.com/Peterson-StroboStomp-Guitar-Tuner-403884/dp/B07PW9KBBJ" } },
+  9003: { prices: {}, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Peterson-StroboStomp-HD-Compact-Strobe-Pedal-Tuner/2VSD", musicstore: "https://www.musicstore.com/en_OE/EUR/Peterson-StroboStomp-HD/art-GIT0048384-000", andertons: "https://www.andertons.co.uk/peterson-strobostomp-hd-compact-strobe-pedal-tuner/", zzounds: "https://www.zzounds.com/item--PET403884?siid=353716", amazon: "https://www.amazon.com/Peterson-StroboStomp-Guitar-Tuner-403884/dp/B07PW9KBBJ" }, oos: ["gear4music"] },
   };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
