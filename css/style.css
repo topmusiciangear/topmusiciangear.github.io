@@ -2028,15 +2028,15 @@ footer ul li a:hover { color: var(--accent); }
 }
 
 /* Scale wrapper with badge together for review section images */
-.guide-section-imgs > div {
+.guide-section-imgs > div:first-child {
   display: inline-block; /* ensure transform works */
   transition: transform .2s ease;
   transform-origin: center;
 }
-.guide-section-imgs > div:hover {
+.guide-section-imgs > div:first-child:hover {
   transform: scale(1.08);
 }
-.guide-section-imgs > div:hover .guide-section-img {
+.guide-section-imgs > div:first-child:hover .guide-section-img {
   transform: none; /* prevent double scale */
 }
 
