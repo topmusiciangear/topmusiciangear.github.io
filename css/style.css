@@ -2027,6 +2027,19 @@ footer ul li a:hover { color: var(--accent); }
   transform: scale(1.08);
 }
 
+/* Scale wrapper with badge together for review section images */
+.guide-section-imgs > div {
+  display: inline-block; /* ensure transform works */
+  transition: transform .2s ease;
+  transform-origin: center;
+}
+.guide-section-imgs > div:hover {
+  transform: scale(1.08);
+}
+.guide-section-imgs > div:hover .guide-section-img {
+  transform: none; /* prevent double scale */
+}
+
 .guide-video-thumb {
   position: relative;
   width: 120px;
@@ -2093,7 +2106,7 @@ footer ul li a:hover { color: var(--accent); }
 
 /* Guide Product Cards */
 :root {
-  --badge-size: 42px;
+  --badge-size: 38px;
 }
 .guide-product-card {
   contain: layout style;
