@@ -6089,7 +6089,7 @@ const TEST_SHOP_BTN = {
 
 1039: {prices:{pluginboutique:"€271.04",gear4music:"£215.00"},pbCur:{us:"$249.00",uk:"£238.80"}},
 
-  9001: { prices: { andertons: "£40.00", gear4music: "£40.00", musicstore: "€49.00", zzounds: "$49.00" }, urls: { andertons: "https://www.andertons.co.uk/tc-electronic-polytune-clip-black/", gear4music: "https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-Polytune-Clip-Black/1QOV", musicstore: "https://www.musicstore.com/en_OE/EUR/TC-Electronic-PolyTune-Clip/art-GIT0035089-000", amazon: "https://www.amazon.com/dp/B00ZU4G0ZK?tag=topmusicg-20" } },
+  9001: { prices: { andertons: "£40.00", gear4music: "£40.00", musicstore: "€49.00", zzounds: "$49.00" }, urls: { andertons: "https://www.andertons.co.uk/tc-electronic-polytune-clip-black/", gear4music: "https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-Polytune-Clip-Black/1QOV", musicstore: "https://www.musicstore.com/en_OE/EUR/TC-Electronic-PolyTune-Clip/art-GIT0035089-000", amazon: "https://www.amazon.com/dp/B00ZU4G0ZK?tag=topmusicg-20", zzounds: "https://www.zzounds.com/item--TCEPOLYTUNECLIP" }, oos: ["zzounds"] },
 
   61: { prices: { andertons: "£60.00", zzounds: "$60.00", gear4music: "£59.00", musicstore: "€89.00", amazon: "$59.99" }, urls: { andertons: "https://www.andertons.co.uk/peterson-stroboclip-hd-tuner/", zzounds: "https://www.zzounds.com/item--PET403868?siid=353715", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Peterson-StroboClip-HD-Clip-On-Strobe-Tuner/200W", musicstore: "https://www.musicstore.com/en_OE/EUR/Peterson-StroboClip-HDC/art-ACC0011868-000", amazon: "https://www.amazon.com/dp/B06ZZX99G8?tag=topmusicg-20" } },
 
