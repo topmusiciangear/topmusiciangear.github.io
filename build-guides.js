@@ -6091,6 +6091,8 @@ const TEST_SHOP_BTN = {
 
   9001: { prices: { andertons: "£40.00", gear4music: "£40.00", musicstore: "€49.00" }, urls: { andertons: "https://www.andertons.co.uk/tc-electronic-polytune-clip-black/", gear4music: "https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-Polytune-Clip-Black/1QOV", musicstore: "https://www.musicstore.com/en_OE/EUR/TC-Electronic-PolyTune-Clip/art-GIT0035089-000", amazon: "https://www.amazon.com/TC-Electronic-Polytune-Guitar-Black/dp/B01M1OPRJZ?ref_=ast_sto_dp&th=1" } },
 
+  9004: { prices: { andertons: "£59.00", gear4music: "£55.00", musicstore: "€94.00" }, urls: { andertons: "https://www.andertons.co.uk/tc-electronic-polytune-3-tuner-pedal-bonafide-buffer/", gear4music: "https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-PolyTune-3-Tuner-Pedal/1YEL", musicstore: "https://www.musicstore.com/en_OE/EUR/TC-Electronic-PolyTune-3/art-GIT0042309-000", amazon: "https://www.amazon.com/TC-Electronic-PolyTune-Polyphonic-Guitar/dp/B06Y4G7NQD", zzounds: "https://www.zzounds.com/item--TCEPOLYTUNE3" } },
+
   9003: { prices: { zzounds: "$149.00", musicstore: "€149.00", andertons: "£149.00", gear4music: "£128.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Peterson-StroboStomp-HD-Compact-Strobe-Pedal-Tuner/2VSD", musicstore: "https://www.musicstore.com/en_OE/EUR/Peterson-StroboStomp-HD/art-GIT0048384-000", andertons: "https://www.andertons.co.uk/peterson-strobostomp-hd-compact-strobe-pedal-tuner/", zzounds: "https://www.zzounds.com/item--PET403884?siid=353716", amazon: "https://www.amazon.com/Peterson-StroboStomp-Guitar-Tuner-403884/dp/B07PW9KBBJ" } },
   };function hollyDefaultRegion() {
   var isUsa = false;
