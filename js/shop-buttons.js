@@ -5663,6 +5663,8 @@ const TEST_SHOP_BTN = {
 
   9003: { prices: { zzounds: "$149.00", musicstore: "€149.00", andertons: "£149.00", gear4music: "£128.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Peterson-StroboStomp-HD-Compact-Strobe-Pedal-Tuner/2VSD", musicstore: "https://www.musicstore.com/en_OE/EUR/Peterson-StroboStomp-HD/art-GIT0048384-000", andertons: "https://www.andertons.co.uk/peterson-strobostomp-hd-compact-strobe-pedal-tuner/", zzounds: "https://www.zzounds.com/item--PET403884?siid=353716", amazon: "https://www.amazon.com/Peterson-StroboStomp-Guitar-Tuner-403884/dp/B07PW9KBBJ" } },
 
+  9006: { prices: { andertons: "£145.00", zzounds: "$149.00", musicstore: "€152.00" }, urls: { andertons: "https://www.andertons.co.uk/walrus-audio-canvas-tuner-pedal/", zzounds: "https://www.zzounds.com/item--WLRCANVASTUNER?siid=340870", amazon: "https://www.amazon.com/Walrus-Audio-Canvas-Tuner-900-1083/dp/B0CF66FMZ3", musicstore: "https://www.musicstore.com/en_OE/EUR/Walrus-Audio-Canvas-Tuner/art-GIT0063151-000" } },
+
   9008: { prices: { zzounds: "$20.00" }, urls: { zzounds: "https://www.zzounds.com/item--SNAST8T", amazon: "https://www.amazon.com/dp/B0CJRXHK6H?plpRedirect=mhFallback&ref=clp_hp_h_pc", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Snark-ST-8-Super-Tight-Rechargable-Tuner-Titanium/6NCL" } },
   };function hollyDefaultRegion() {
   var isUsa = false;
