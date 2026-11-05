@@ -6103,7 +6103,7 @@ const TEST_SHOP_BTN = {
 
   9007: { prices: { musicstore: "€25.00", gear4music: "£24.00", amazon: "$29.99" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Korg-AW-LT100B-Clip-on-Bass-Tuner/1YYP", amazon: "https://www.amazon.com/dp/B071X4VP15?plpRedirect=mhFallback&ref=clp_hp_h_pc&th=1&tag=topmusicg-20", musicstore: "https://www.musicstore.com/en_OE/EUR/Korg-AW-LT100B/art-ACC0007551-000" } },
 
-  9008: { prices: { zzounds: "$20.00", gear4music: "£18.00", amazon: "$24.99" }, urls: { zzounds: "https://www.zzounds.com/item--SNAST8T", amazon: "https://www.amazon.com/dp/B0CJRXHK6H?tag=topmusicg-20", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Snark-ST-8-Super-Tight-Rechargable-Tuner-Titanium/6NCL" } },
+  9008: { prices: { zzounds: "$20.00", gear4music: "£18.00", amazon: "$24.99" }, urls: { zzounds: "https://www.zzounds.com/item--SNAST8T", amazon: "https://www.amazon.com/dp/B0CJRXHK6H?tag=topmusicg-20", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Snark-ST-8-Super-Tight-Rechargable-Tuner-Titanium/6NCL" }, oos: ["gear4music"] },
   };function hollyDefaultRegion() {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
