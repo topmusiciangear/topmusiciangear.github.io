@@ -2106,7 +2106,10 @@ footer ul li a:hover { color: var(--accent); }
 
 /* Guide Product Cards */
 :root {
-  --badge-size: 38px;
+  --badge-size: 42px;
+}
+.guide-products-cards {
+  --badge-size: 46px;
 }
 .guide-product-card {
   contain: layout style;
