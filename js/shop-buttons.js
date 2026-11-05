@@ -5824,7 +5824,9 @@ function shopButtonsTest(p, lang) {
       return {html, isCheck: true};
     }
     if (oosList.indexOf(k) > -1) {
-      const oosUrl = storeSearch[k] ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
+      // If a product URL is provided, always open it even if out of stock
+      const hasCfgUrl = cfg.urls && cfg.urls[k];
+      const oosUrl = hasCfgUrl ? rowUrl(k) : (storeSearch[k] ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k));
       const html = '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8;white-space:nowrap">' + t('Revisar stock', 'Check Stock') + '</span>' + '</a>';
       return {html, isCheck: true};
     }
@@ -6467,7 +6469,9 @@ function shopButtonsTest(p, lang) {
       return {html, isCheck: true};
     }
     if (oosList.indexOf(k) > -1) {
-      const oosUrl = storeSearch[k] ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k);
+      // If a product URL is provided, always open it even if out of stock
+      const hasCfgUrl = cfg.urls && cfg.urls[k];
+      const oosUrl = hasCfgUrl ? rowUrl(k) : (storeSearch[k] ? wrapAffiliate(k, storeSearch[k]()) : rowUrl(k));
       const html = '<a' + ds + ' href="' + oosUrl + '" target="_blank" rel="noopener noreferrer sponsored" style="width:100%;box-sizing:border-box;flex:none;min-height:40px;display:flex;align-items:center;gap:8px;padding:8px 16px;min-height:40px;height:auto;flex-wrap:wrap;row-gap:2px;border-radius:12px;background:#262626;color:#ffffff;font-size:15px;font-weight:800;text-decoration:none"><span style="white-space:nowrap;flex-shrink:0;' + st + '" class="shop-wm">' + (SHOP_FLAG[k] ? SHOP_FLAG[k]() : '') + nm + '</span>' + storeNote + '<span style="margin-left:auto;font-weight:700;color:#a8a8a8;white-space:nowrap">' + t('Revisar stock', 'Check Stock') + '</span>' + '</a>';
       return {html, isCheck: true};
     }
