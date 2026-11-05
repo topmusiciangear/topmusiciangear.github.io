@@ -2112,7 +2112,7 @@ footer ul li a:hover { color: var(--accent); }
   --badge-size: 46px;
 }
 .guide-products-cards .guide-product-card-img > div[role="img"] {
-  left: 14px !important;
+  left: 16px !important;
 }
 .guide-product-card {
   contain: layout style;
