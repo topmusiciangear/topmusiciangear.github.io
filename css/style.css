@@ -2111,6 +2111,9 @@ footer ul li a:hover { color: var(--accent); }
 .guide-products-cards {
   --badge-size: 46px;
 }
+.guide-products-cards .guide-product-card-img > div[role="img"] {
+  left: 14px !important;
+}
 .guide-product-card {
   contain: layout style;
   background: var(--bg-card);
