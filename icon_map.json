@@ -1,0 +1,9560 @@
+{
+  "microphone": [
+    {
+      "id": 1,
+      "title": "Shure SM7B",
+      "label": "Type"
+    },
+    {
+      "id": 2,
+      "title": "Neumann U 87 Ai",
+      "label": "Type"
+    },
+    {
+      "id": 3,
+      "title": "Rode NT1 5th Generation",
+      "label": "Type"
+    },
+    {
+      "id": 4,
+      "title": "AKG C414 XLII",
+      "label": "Type"
+    },
+    {
+      "id": 5,
+      "title": "Shure SM57",
+      "label": "Type"
+    },
+    {
+      "id": 15,
+      "title": "Focusrite Scarlett 2i2 4th Gen",
+      "label": "Preamps"
+    },
+    {
+      "id": 16,
+      "title": "Universal Audio Apollo Twin X Gen 2",
+      "label": "Preamps"
+    },
+    {
+      "id": 17,
+      "title": "RME Babyface Pro FS",
+      "label": "Preamps"
+    },
+    {
+      "id": 18,
+      "title": "SSL 2+ MKII",
+      "label": "Preamps"
+    },
+    {
+      "id": 50,
+      "title": "Shure SM58",
+      "label": "Type"
+    },
+    {
+      "id": 51,
+      "title": "Sennheiser MD 421 Kompakt",
+      "label": "Type"
+    },
+    {
+      "id": 52,
+      "title": "Electro-Voice RE20",
+      "label": "Type"
+    },
+    {
+      "id": 53,
+      "title": "Audient iD14 MkII",
+      "label": "Preamps"
+    },
+    {
+      "id": 54,
+      "title": "MOTU M2",
+      "label": "Preamps"
+    },
+    {
+      "id": 55,
+      "title": "Universal Audio Volt 2",
+      "label": "Preamps"
+    },
+    {
+      "id": 91,
+      "title": "Shure BLX288/PG58",
+      "label": "Type"
+    },
+    {
+      "id": 92,
+      "title": "Sennheiser EW 100 G4-935",
+      "label": "Type"
+    },
+    {
+      "id": 93,
+      "title": "Sennheiser EW-D Dual Wireless System",
+      "label": "Type"
+    },
+    {
+      "id": 95,
+      "title": "Sennheiser EW-D 835-S",
+      "label": "Type"
+    },
+    {
+      "id": 137,
+      "title": "Yamaha MG10XU",
+      "label": "Preamps"
+    },
+    {
+      "id": 138,
+      "title": "Behringer X32 Compact",
+      "label": "Preamps"
+    },
+    {
+      "id": 139,
+      "title": "Allen & Heath SQ-5",
+      "label": "Preamps"
+    },
+    {
+      "id": 145,
+      "title": "Behringer X Air XR18",
+      "label": "Preamps"
+    },
+    {
+      "id": 146,
+      "title": "Mackie ProFX12v3",
+      "label": "Preamps"
+    },
+    {
+      "id": 147,
+      "title": "Allen & Heath CQ-18T",
+      "label": "Preamps"
+    },
+    {
+      "id": 148,
+      "title": "Midas M32R LIVE",
+      "label": "Preamps"
+    },
+    {
+      "id": 149,
+      "title": "Yamaha MG16XU",
+      "label": "Preamps"
+    },
+    {
+      "id": 150,
+      "title": "Behringer Xenyx X1222USB",
+      "label": "Preamps"
+    },
+    {
+      "id": 183,
+      "title": "RME Fireface UFX III",
+      "label": "Preamps"
+    },
+    {
+      "id": 187,
+      "title": "Lewitt LCT1040 Ultimate Microphone System",
+      "label": "Type"
+    },
+    {
+      "id": 194,
+      "title": "Shure MV7+",
+      "label": "Type"
+    },
+    {
+      "id": 195,
+      "title": "Elgato Wave:3",
+      "label": "Type"
+    },
+    {
+      "id": 196,
+      "title": "Audio-Technica AT2020 Studio Condenser Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 197,
+      "title": "Rode PodMic",
+      "label": "Type"
+    },
+    {
+      "id": 206,
+      "title": "Royer R-121",
+      "label": "Type"
+    },
+    {
+      "id": 207,
+      "title": "Coles 4038",
+      "label": "Type"
+    },
+    {
+      "id": 208,
+      "title": "Neumann KM 184",
+      "label": "Type"
+    },
+    {
+      "id": 209,
+      "title": "Austrian Audio OC818",
+      "label": "Type"
+    },
+    {
+      "id": 210,
+      "title": "Sennheiser e 906",
+      "label": "Type"
+    },
+    {
+      "id": 211,
+      "title": "Beyerdynamic M 201 TG",
+      "label": "Type"
+    },
+    {
+      "id": 212,
+      "title": "Shure Beta 52A",
+      "label": "Type"
+    },
+    {
+      "id": 213,
+      "title": "Audix D6",
+      "label": "Type"
+    },
+    {
+      "id": 214,
+      "title": "Sennheiser e 604",
+      "label": "Type"
+    },
+    {
+      "id": 215,
+      "title": "DPA 4099 CORE",
+      "label": "Type"
+    },
+    {
+      "id": 226,
+      "title": "Shure Beta 58A",
+      "label": "Type"
+    },
+    {
+      "id": 227,
+      "title": "Sennheiser e935",
+      "label": "Type"
+    },
+    {
+      "id": 228,
+      "title": "Sennheiser e945",
+      "label": "Type"
+    },
+    {
+      "id": 229,
+      "title": "Telefunken M80",
+      "label": "Type"
+    },
+    {
+      "id": 230,
+      "title": "AKG D5",
+      "label": "Type"
+    },
+    {
+      "id": 231,
+      "title": "Audix OM7",
+      "label": "Type"
+    },
+    {
+      "id": 232,
+      "title": "Electro-Voice ND86",
+      "label": "Type"
+    },
+    {
+      "id": 239,
+      "title": "Rodecaster Duo",
+      "label": "Mic Inputs"
+    },
+    {
+      "id": 240,
+      "title": "Roland Bridge Cast X",
+      "label": "Mic Inputs"
+    },
+    {
+      "id": 249,
+      "title": "DJI Mic 3 (2TX + 1RX + Charging Case)",
+      "label": "Type"
+    },
+    {
+      "id": 250,
+      "title": "Rode Wireless PRO",
+      "label": "Type"
+    },
+    {
+      "id": 251,
+      "title": "Hollyland Lark M2",
+      "label": "Type"
+    },
+    {
+      "id": 252,
+      "title": "Rode PodMic USB",
+      "label": "Type"
+    },
+    {
+      "id": 253,
+      "title": "HyperX QuadCast 2",
+      "label": "Type"
+    },
+    {
+      "id": 254,
+      "title": "DJI Mic Mini 2 (2TX + 1RX + Charging Case)",
+      "label": "Type"
+    },
+    {
+      "id": 262,
+      "title": "Audient EVO 4",
+      "label": "Preamps"
+    },
+    {
+      "id": 263,
+      "title": "Universal Audio Volt 276",
+      "label": "Preamps"
+    },
+    {
+      "id": 276,
+      "title": "Samson Q2U USB/XLR Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 277,
+      "title": "Maono PD200X Dynamic Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 278,
+      "title": "FIFINE AmpliTank K688 Dynamic USB/XLR Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 279,
+      "title": "FIFINE AmpliGame AM8 Dynamic USB Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 280,
+      "title": "Razer Seiren V3 Mini",
+      "label": "Type"
+    },
+    {
+      "id": 281,
+      "title": "HyperX SoloCast 2",
+      "label": "Type"
+    },
+    {
+      "id": 284,
+      "title": "Maono PM461 USB Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 286,
+      "title": "Audio-Technica AT2040USB",
+      "label": "Type"
+    },
+    {
+      "id": 287,
+      "title": "TONOR TC-777 USB Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 289,
+      "title": "FIFINE AmpliGame A6V USB Gaming Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 290,
+      "title": "Rode XCM-50 Compact USB Condenser Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 291,
+      "title": "Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 292,
+      "title": "Rode NT-USB Mini Studio Condenser Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 297,
+      "title": "Rode NT1 Signature Series",
+      "label": "Type"
+    },
+    {
+      "id": 298,
+      "title": "Audio-Technica AT2035",
+      "label": "Type"
+    },
+    {
+      "id": 299,
+      "title": "Sennheiser Profile Streaming Set",
+      "label": "Type"
+    },
+    {
+      "id": 321,
+      "title": "Shure SM7dB",
+      "label": "Type"
+    },
+    {
+      "id": 328,
+      "title": "Arturia MiniFuse 2 OTG",
+      "label": "Preamps"
+    },
+    {
+      "id": 329,
+      "title": "Rode Procaster",
+      "label": "Type"
+    },
+    {
+      "id": 330,
+      "title": "Behringer XM8500 Ultravoice Dynamic Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 332,
+      "title": "Tascam Model 12",
+      "label": "Preamps"
+    },
+    {
+      "id": 333,
+      "title": "Allen & Heath ZEDi-10FX",
+      "label": "Preamps"
+    },
+    {
+      "id": 334,
+      "title": "SSL BiG SiX",
+      "label": "Preamps"
+    },
+    {
+      "id": 335,
+      "title": "Korg SoundLink MW-1608",
+      "label": "Preamps"
+    },
+    {
+      "id": 339,
+      "title": "Sennheiser MKH 416 Shotgun Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 340,
+      "title": "Rode NTG5 Shotgun Microphone Kit",
+      "label": "Type"
+    },
+    {
+      "id": 341,
+      "title": "Rode NTG3 Shotgun Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 342,
+      "title": "Sennheiser MKE 600 Shotgun Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 343,
+      "title": "Audio-Technica AT897 Shotgun Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 344,
+      "title": "Deity S-Mic 3 Shotgun Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 345,
+      "title": "Rode VideoMic NTG On-Camera Shotgun",
+      "label": "Type"
+    },
+    {
+      "id": 346,
+      "title": "Sennheiser MKE 400 Compact Shotgun",
+      "label": "Type"
+    },
+    {
+      "id": 358,
+      "title": "Audio-Technica AT875R Short Shotgun Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 359,
+      "title": "Rode VideoMic GO II Helix On-Camera Shotgun",
+      "label": "Type"
+    },
+    {
+      "id": 360,
+      "title": "Sennheiser MKH 50-P48 Supercardioid Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 364,
+      "title": "Beyerdynamic M 160",
+      "label": "Type"
+    },
+    {
+      "id": 365,
+      "title": "sE Electronics Voodoo VR2",
+      "label": "Type"
+    },
+    {
+      "id": 366,
+      "title": "MXL R144",
+      "label": "Type"
+    },
+    {
+      "id": 410,
+      "title": "Soundcraft Ui24R",
+      "label": "Preamps"
+    },
+    {
+      "id": 411,
+      "title": "Yamaha DM3S",
+      "label": "Preamps"
+    },
+    {
+      "id": 413,
+      "title": "PreSonus StudioLive 32SC",
+      "label": "Preamps"
+    },
+    {
+      "id": 429,
+      "title": "Blue Yeti Nano USB Condenser Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 430,
+      "title": "FIFINE T669 USB Microphone Kit",
+      "label": "Type"
+    },
+    {
+      "id": 431,
+      "title": "sE Electronics V7 Dynamic Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 432,
+      "title": "Elgato Wave DX Dynamic XLR Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 433,
+      "title": "Samson Q9U XLR/USB Dynamic Broadcast Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 434,
+      "title": "AKG P120 Medium-Diaphragm Condenser Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 435,
+      "title": "Behringer B 906 Dynamic Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 436,
+      "title": "MAONO PD100 Gen2 USB/XLR Dynamic Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 437,
+      "title": "FIFINE K669D XLR Dynamic Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 438,
+      "title": "Samson C01 Studio Condenser Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 439,
+      "title": "HyperX SoloCast",
+      "label": "Type"
+    },
+    {
+      "id": 482,
+      "title": "Behringer WING Compact",
+      "label": "Preamps"
+    },
+    {
+      "id": 486,
+      "title": "Soundcraft Ui16",
+      "label": "Preamps"
+    },
+    {
+      "id": 487,
+      "title": "Soundcraft Signature 12 MTK",
+      "label": "Preamps"
+    },
+    {
+      "id": 504,
+      "title": "Hollyland Lark Max",
+      "label": "Type"
+    },
+    {
+      "id": 505,
+      "title": "Hollyland LARK A2",
+      "label": "Type"
+    },
+    {
+      "id": 506,
+      "title": "Hollyland LARK MAX 2 Combo (2-Person)",
+      "label": "Type"
+    },
+    {
+      "id": 508,
+      "title": "Hollyland MELO P1",
+      "label": "Type"
+    },
+    {
+      "id": 509,
+      "title": "Hollyland SOLIDCOM C1",
+      "label": "Type"
+    },
+    {
+      "id": 510,
+      "title": "Hollyland SOLIDCOM C1 Pro",
+      "label": "Type"
+    },
+    {
+      "id": 511,
+      "title": "Hollyland SOLIDCOM SE PRO",
+      "label": "Type"
+    },
+    {
+      "id": 512,
+      "title": "Neumann MT 48 (U) Premium Audio Interface",
+      "label": "Preamps"
+    },
+    {
+      "id": 513,
+      "title": "Universal Audio Apollo x8p Gen 2",
+      "label": "Preamps"
+    },
+    {
+      "id": 515,
+      "title": "Audient ORIA Immersive Audio Interface",
+      "label": "Preamps"
+    },
+    {
+      "id": 518,
+      "title": "Blue Yeti USB Microphone",
+      "label": "Type"
+    },
+    {
+      "id": 550,
+      "title": "Behringer U-Phoria UMC1820",
+      "label": "Preamps"
+    },
+    {
+      "id": 551,
+      "title": "Arturia MiniFuse 2",
+      "label": "Preamps"
+    },
+    {
+      "id": 635,
+      "title": "Audix i5",
+      "label": "Type"
+    },
+    {
+      "id": 636,
+      "title": "Shure Beta 57A",
+      "label": "Type"
+    },
+    {
+      "id": 652,
+      "title": "Lewitt LCT 440 PURE",
+      "label": "Type"
+    },
+    {
+      "id": 654,
+      "title": "Neumann TLM 103",
+      "label": "Type"
+    },
+    {
+      "id": 655,
+      "title": "Warm Audio WA-8000",
+      "label": "Type"
+    },
+    {
+      "id": 656,
+      "title": "Universal Audio Sphere DLX",
+      "label": "Type"
+    },
+    {
+      "id": 657,
+      "title": "sE Electronics sE2200",
+      "label": "Type"
+    },
+    {
+      "id": 658,
+      "title": "Bose T8S ToneMatch",
+      "label": "Preamps"
+    },
+    {
+      "id": 664,
+      "title": "Zoom PodTrak P4next",
+      "label": "Mic Inputs"
+    },
+    {
+      "id": 666,
+      "title": "Rode NT-USB+",
+      "label": "Type"
+    },
+    {
+      "id": 670,
+      "title": "sE Electronics NEOM USB",
+      "label": "Type"
+    },
+    {
+      "id": 672,
+      "title": "Lewitt LCT 240 PRO",
+      "label": "Type"
+    },
+    {
+      "id": 673,
+      "title": "Aston Microphones Origin",
+      "label": "Type"
+    },
+    {
+      "id": 674,
+      "title": "Neumann TLM 102",
+      "label": "Type"
+    },
+    {
+      "id": 675,
+      "title": "sE Electronics X1 R",
+      "label": "Type"
+    },
+    {
+      "id": 676,
+      "title": "Audient Horizon 8P",
+      "label": "Preamps"
+    },
+    {
+      "id": 677,
+      "title": "Antelope Orion Studio Synergy Core",
+      "label": "Preamps"
+    },
+    {
+      "id": 678,
+      "title": "Yamaha URX44V",
+      "label": "Mic Inputs"
+    },
+    {
+      "id": 679,
+      "title": "IK Multimedia AXE I/O",
+      "label": "Preamps"
+    },
+    {
+      "id": 1055,
+      "title": "sE Electronics X1 S",
+      "label": "Type"
+    },
+    {
+      "id": 1056,
+      "title": "sE Electronics sE7",
+      "label": "Type"
+    }
+  ],
+  "wave": [
+    {
+      "id": 1,
+      "title": "Shure SM7B",
+      "label": "Pattern"
+    },
+    {
+      "id": 2,
+      "title": "Neumann U 87 Ai",
+      "label": "Pattern"
+    },
+    {
+      "id": 3,
+      "title": "Rode NT1 5th Generation",
+      "label": "Pattern"
+    },
+    {
+      "id": 4,
+      "title": "AKG C414 XLII",
+      "label": "Pattern"
+    },
+    {
+      "id": 5,
+      "title": "Shure SM57",
+      "label": "Pattern"
+    },
+    {
+      "id": 11,
+      "title": "Nord Stage 4 88",
+      "label": "Sound engines"
+    },
+    {
+      "id": 33,
+      "title": "Roland TR-8S",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 50,
+      "title": "Shure SM58",
+      "label": "Pattern"
+    },
+    {
+      "id": 51,
+      "title": "Sennheiser MD 421 Kompakt",
+      "label": "Pattern"
+    },
+    {
+      "id": 52,
+      "title": "Electro-Voice RE20",
+      "label": "Pattern"
+    },
+    {
+      "id": 91,
+      "title": "Shure BLX288/PG58",
+      "label": "Pattern"
+    },
+    {
+      "id": 92,
+      "title": "Sennheiser EW 100 G4-935",
+      "label": "Pattern"
+    },
+    {
+      "id": 93,
+      "title": "Sennheiser EW-D Dual Wireless System",
+      "label": "Pattern"
+    },
+    {
+      "id": 95,
+      "title": "Sennheiser EW-D 835-S",
+      "label": "Pattern"
+    },
+    {
+      "id": 96,
+      "title": "Ibanez TS9 Tube Screamer",
+      "label": "Type"
+    },
+    {
+      "id": 97,
+      "title": "Boss DD-8 Digital Delay",
+      "label": "Type"
+    },
+    {
+      "id": 127,
+      "title": "Elektron Digitakt II",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 128,
+      "title": "Roland TR-6S",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 129,
+      "title": "Novation Circuit Tracks",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 133,
+      "title": "Boss BD-2 Blues Driver",
+      "label": "Type"
+    },
+    {
+      "id": 134,
+      "title": "ProCo RAT 2",
+      "label": "Type"
+    },
+    {
+      "id": 135,
+      "title": "Strymon BigSky MX",
+      "label": "Type"
+    },
+    {
+      "id": 136,
+      "title": "MXR Phase 95",
+      "label": "Type"
+    },
+    {
+      "id": 144,
+      "title": "Elektron Model:Cycles",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 187,
+      "title": "Lewitt LCT1040 Ultimate Microphone System",
+      "label": "Pattern"
+    },
+    {
+      "id": 194,
+      "title": "Shure MV7+",
+      "label": "Pattern"
+    },
+    {
+      "id": 195,
+      "title": "Elgato Wave:3",
+      "label": "Pattern"
+    },
+    {
+      "id": 196,
+      "title": "Audio-Technica AT2020 Studio Condenser Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 197,
+      "title": "Rode PodMic",
+      "label": "Pattern"
+    },
+    {
+      "id": 200,
+      "title": "Boss RC-5 Loop Station",
+      "label": "Type"
+    },
+    {
+      "id": 201,
+      "title": "TC Electronic Ditto Looper",
+      "label": "Type"
+    },
+    {
+      "id": 202,
+      "title": "Line 6 Helix HX Stomp",
+      "label": "Type"
+    },
+    {
+      "id": 203,
+      "title": "Boss GX-1",
+      "label": "Type"
+    },
+    {
+      "id": 204,
+      "title": "Boss ME-90",
+      "label": "Type"
+    },
+    {
+      "id": 205,
+      "title": "HeadRush Flex Prime",
+      "label": "Type"
+    },
+    {
+      "id": 206,
+      "title": "Royer R-121",
+      "label": "Pattern"
+    },
+    {
+      "id": 207,
+      "title": "Coles 4038",
+      "label": "Pattern"
+    },
+    {
+      "id": 208,
+      "title": "Neumann KM 184",
+      "label": "Pattern"
+    },
+    {
+      "id": 209,
+      "title": "Austrian Audio OC818",
+      "label": "Pattern"
+    },
+    {
+      "id": 210,
+      "title": "Sennheiser e 906",
+      "label": "Pattern"
+    },
+    {
+      "id": 211,
+      "title": "Beyerdynamic M 201 TG",
+      "label": "Pattern"
+    },
+    {
+      "id": 212,
+      "title": "Shure Beta 52A",
+      "label": "Pattern"
+    },
+    {
+      "id": 213,
+      "title": "Audix D6",
+      "label": "Pattern"
+    },
+    {
+      "id": 214,
+      "title": "Sennheiser e 604",
+      "label": "Pattern"
+    },
+    {
+      "id": 215,
+      "title": "DPA 4099 CORE",
+      "label": "Pattern"
+    },
+    {
+      "id": 226,
+      "title": "Shure Beta 58A",
+      "label": "Pattern"
+    },
+    {
+      "id": 227,
+      "title": "Sennheiser e935",
+      "label": "Pattern"
+    },
+    {
+      "id": 228,
+      "title": "Sennheiser e945",
+      "label": "Pattern"
+    },
+    {
+      "id": 229,
+      "title": "Telefunken M80",
+      "label": "Pattern"
+    },
+    {
+      "id": 230,
+      "title": "AKG D5",
+      "label": "Pattern"
+    },
+    {
+      "id": 231,
+      "title": "Audix OM7",
+      "label": "Pattern"
+    },
+    {
+      "id": 232,
+      "title": "Electro-Voice ND86",
+      "label": "Pattern"
+    },
+    {
+      "id": 249,
+      "title": "DJI Mic 3 (2TX + 1RX + Charging Case)",
+      "label": "Pattern"
+    },
+    {
+      "id": 250,
+      "title": "Rode Wireless PRO",
+      "label": "Pattern"
+    },
+    {
+      "id": 251,
+      "title": "Hollyland Lark M2",
+      "label": "Pattern"
+    },
+    {
+      "id": 252,
+      "title": "Rode PodMic USB",
+      "label": "Pattern"
+    },
+    {
+      "id": 253,
+      "title": "HyperX QuadCast 2",
+      "label": "Pattern"
+    },
+    {
+      "id": 254,
+      "title": "DJI Mic Mini 2 (2TX + 1RX + Charging Case)",
+      "label": "Pattern"
+    },
+    {
+      "id": 256,
+      "title": "Akai MPC One G2",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 258,
+      "title": "IK Multimedia TONEX ONE+",
+      "label": "Type"
+    },
+    {
+      "id": 259,
+      "title": "Line 6 POD Go",
+      "label": "Type"
+    },
+    {
+      "id": 276,
+      "title": "Samson Q2U USB/XLR Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 277,
+      "title": "Maono PD200X Dynamic Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 278,
+      "title": "FIFINE AmpliTank K688 Dynamic USB/XLR Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 279,
+      "title": "FIFINE AmpliGame AM8 Dynamic USB Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 280,
+      "title": "Razer Seiren V3 Mini",
+      "label": "Pattern"
+    },
+    {
+      "id": 281,
+      "title": "HyperX SoloCast 2",
+      "label": "Pattern"
+    },
+    {
+      "id": 284,
+      "title": "Maono PM461 USB Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 286,
+      "title": "Audio-Technica AT2040USB",
+      "label": "Pattern"
+    },
+    {
+      "id": 287,
+      "title": "TONOR TC-777 USB Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 289,
+      "title": "FIFINE AmpliGame A6V USB Gaming Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 290,
+      "title": "Rode XCM-50 Compact USB Condenser Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 291,
+      "title": "Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 292,
+      "title": "Rode NT-USB Mini Studio Condenser Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 297,
+      "title": "Rode NT1 Signature Series",
+      "label": "Pattern"
+    },
+    {
+      "id": 298,
+      "title": "Audio-Technica AT2035",
+      "label": "Pattern"
+    },
+    {
+      "id": 299,
+      "title": "Sennheiser Profile Streaming Set",
+      "label": "Pattern"
+    },
+    {
+      "id": 321,
+      "title": "Shure SM7dB",
+      "label": "Pattern"
+    },
+    {
+      "id": 329,
+      "title": "Rode Procaster",
+      "label": "Pattern"
+    },
+    {
+      "id": 330,
+      "title": "Behringer XM8500 Ultravoice Dynamic Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 339,
+      "title": "Sennheiser MKH 416 Shotgun Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 340,
+      "title": "Rode NTG5 Shotgun Microphone Kit",
+      "label": "Pattern"
+    },
+    {
+      "id": 341,
+      "title": "Rode NTG3 Shotgun Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 342,
+      "title": "Sennheiser MKE 600 Shotgun Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 343,
+      "title": "Audio-Technica AT897 Shotgun Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 344,
+      "title": "Deity S-Mic 3 Shotgun Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 345,
+      "title": "Rode VideoMic NTG On-Camera Shotgun",
+      "label": "Pattern"
+    },
+    {
+      "id": 346,
+      "title": "Sennheiser MKE 400 Compact Shotgun",
+      "label": "Pattern"
+    },
+    {
+      "id": 358,
+      "title": "Audio-Technica AT875R Short Shotgun Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 359,
+      "title": "Rode VideoMic GO II Helix On-Camera Shotgun",
+      "label": "Pattern"
+    },
+    {
+      "id": 360,
+      "title": "Sennheiser MKH 50-P48 Supercardioid Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 364,
+      "title": "Beyerdynamic M 160",
+      "label": "Pattern"
+    },
+    {
+      "id": 365,
+      "title": "sE Electronics Voodoo VR2",
+      "label": "Pattern"
+    },
+    {
+      "id": 366,
+      "title": "MXL R144",
+      "label": "Pattern"
+    },
+    {
+      "id": 402,
+      "title": "Behringer X32",
+      "label": "Multitrack"
+    },
+    {
+      "id": 403,
+      "title": "Midas M32 LIVE",
+      "label": "Multitrack"
+    },
+    {
+      "id": 406,
+      "title": "PreSonus StudioLive SE 32R",
+      "label": "Multitrack"
+    },
+    {
+      "id": 408,
+      "title": "Mackie DL32SE",
+      "label": "Multitrack"
+    },
+    {
+      "id": 412,
+      "title": "PreSonus StudioLive 32S",
+      "label": "Multitrack"
+    },
+    {
+      "id": 414,
+      "title": "Allen & Heath SQ-6+",
+      "label": "Multitrack"
+    },
+    {
+      "id": 418,
+      "title": "Yamaha TF3",
+      "label": "Multitrack"
+    },
+    {
+      "id": 429,
+      "title": "Blue Yeti Nano USB Condenser Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 430,
+      "title": "FIFINE T669 USB Microphone Kit",
+      "label": "Pattern"
+    },
+    {
+      "id": 431,
+      "title": "sE Electronics V7 Dynamic Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 432,
+      "title": "Elgato Wave DX Dynamic XLR Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 433,
+      "title": "Samson Q9U XLR/USB Dynamic Broadcast Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 434,
+      "title": "AKG P120 Medium-Diaphragm Condenser Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 435,
+      "title": "Behringer B 906 Dynamic Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 436,
+      "title": "MAONO PD100 Gen2 USB/XLR Dynamic Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 437,
+      "title": "FIFINE K669D XLR Dynamic Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 438,
+      "title": "Samson C01 Studio Condenser Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 439,
+      "title": "HyperX SoloCast",
+      "label": "Pattern"
+    },
+    {
+      "id": 443,
+      "title": "Electro-Harmonix Nano Small Stone",
+      "label": "Type"
+    },
+    {
+      "id": 504,
+      "title": "Hollyland Lark Max",
+      "label": "Pattern"
+    },
+    {
+      "id": 505,
+      "title": "Hollyland LARK A2",
+      "label": "Pattern"
+    },
+    {
+      "id": 506,
+      "title": "Hollyland LARK MAX 2 Combo (2-Person)",
+      "label": "Pattern"
+    },
+    {
+      "id": 508,
+      "title": "Hollyland MELO P1",
+      "label": "Pattern"
+    },
+    {
+      "id": 509,
+      "title": "Hollyland SOLIDCOM C1",
+      "label": "Pattern"
+    },
+    {
+      "id": 510,
+      "title": "Hollyland SOLIDCOM C1 Pro",
+      "label": "Pattern"
+    },
+    {
+      "id": 511,
+      "title": "Hollyland SOLIDCOM SE PRO",
+      "label": "Pattern"
+    },
+    {
+      "id": 518,
+      "title": "Blue Yeti USB Microphone",
+      "label": "Pattern"
+    },
+    {
+      "id": 558,
+      "title": "Behringer WING Rack",
+      "label": "USB Recording"
+    },
+    {
+      "id": 559,
+      "title": "Behringer X32 Rack",
+      "label": "USB Recording"
+    },
+    {
+      "id": 560,
+      "title": "Midas M32C",
+      "label": "USB Recording"
+    },
+    {
+      "id": 561,
+      "title": "Allen & Heath CQ-20B",
+      "label": "USB Recording"
+    },
+    {
+      "id": 563,
+      "title": "Allen & Heath SQ-Rack Digital Mixer",
+      "label": "USB Recording"
+    },
+    {
+      "id": 564,
+      "title": "PreSonus StudioLive SE 24R",
+      "label": "USB Recording"
+    },
+    {
+      "id": 577,
+      "title": "Zoom G11",
+      "label": "Type"
+    },
+    {
+      "id": 578,
+      "title": "Boss GT-1000CORE",
+      "label": "Type"
+    },
+    {
+      "id": 579,
+      "title": "Neural DSP Quad Cortex",
+      "label": "Type"
+    },
+    {
+      "id": 580,
+      "title": "Mooer GE300",
+      "label": "Type"
+    },
+    {
+      "id": 581,
+      "title": "Fulltone OCD v2",
+      "label": "Type"
+    },
+    {
+      "id": 582,
+      "title": "Wampler Tumnus Deluxe",
+      "label": "Type"
+    },
+    {
+      "id": 583,
+      "title": "JHS Morning Glory V4",
+      "label": "Type"
+    },
+    {
+      "id": 584,
+      "title": "MXR M104 Distortion+",
+      "label": "Type"
+    },
+    {
+      "id": 585,
+      "title": "Boss BD-2W Blues Driver Waza Craft",
+      "label": "Type"
+    },
+    {
+      "id": 586,
+      "title": "Boss RC-500 Loop Station",
+      "label": "Type"
+    },
+    {
+      "id": 587,
+      "title": "TC Electronic Ditto X4 Looper",
+      "label": "Type"
+    },
+    {
+      "id": 588,
+      "title": "Electro-Harmonix 720 Stereo Looper",
+      "label": "Type"
+    },
+    {
+      "id": 590,
+      "title": "MXR M303 Clone Looper",
+      "label": "Type"
+    },
+    {
+      "id": 591,
+      "title": "Strymon TimeLine",
+      "label": "Type"
+    },
+    {
+      "id": 592,
+      "title": "Meris LVX",
+      "label": "Type"
+    },
+    {
+      "id": 593,
+      "title": "Eventide TimeFactor",
+      "label": "Type"
+    },
+    {
+      "id": 594,
+      "title": "Source Audio Nemesis",
+      "label": "Type"
+    },
+    {
+      "id": 595,
+      "title": "Keeley Caverns V2",
+      "label": "Type"
+    },
+    {
+      "id": 596,
+      "title": "Universal Audio Del-Verb",
+      "label": "Type"
+    },
+    {
+      "id": 597,
+      "title": "MXR M169 Carbon Copy",
+      "label": "Type"
+    },
+    {
+      "id": 598,
+      "title": "Universal Audio Golden Reverberator",
+      "label": "Type"
+    },
+    {
+      "id": 599,
+      "title": "Boss RV-200",
+      "label": "Type"
+    },
+    {
+      "id": 600,
+      "title": "Electro-Harmonix 1440 Stereo Looper",
+      "label": "Type"
+    },
+    {
+      "id": 601,
+      "title": "Boss RC-600 Loop Station",
+      "label": "Type"
+    },
+    {
+      "id": 610,
+      "title": "Roland AIRA Compact T-8",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 612,
+      "title": "Elektron Syntakt",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 613,
+      "title": "Erica Synths Perkons HD-01",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 614,
+      "title": "Arturia DrumBrute Impact",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 621,
+      "title": "Yamaha SEQTRAK",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 622,
+      "title": "Elektron Model:Samples",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 623,
+      "title": "Sonicware Liven Lofi-12",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 624,
+      "title": "Korg Volca Sample 2",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 625,
+      "title": "Polyend Tracker Mini",
+      "label": "Sound Engine"
+    },
+    {
+      "id": 635,
+      "title": "Audix i5",
+      "label": "Pattern"
+    },
+    {
+      "id": 636,
+      "title": "Shure Beta 57A",
+      "label": "Pattern"
+    },
+    {
+      "id": 637,
+      "title": "Roland RD-2000 EX",
+      "label": "Sound engines"
+    },
+    {
+      "id": 638,
+      "title": "Yamaha YC88",
+      "label": "Sound engines"
+    },
+    {
+      "id": 639,
+      "title": "Yamaha Montage M8x",
+      "label": "Sound engines"
+    },
+    {
+      "id": 640,
+      "title": "Roland Fantom 8 EX",
+      "label": "Sound engines"
+    },
+    {
+      "id": 641,
+      "title": "Nord Electro 7 61",
+      "label": "Sound engines"
+    },
+    {
+      "id": 642,
+      "title": "Korg Grandstage X",
+      "label": "Sound engines"
+    },
+    {
+      "id": 643,
+      "title": "Arturia AstroLab 61",
+      "label": "Sound engines"
+    },
+    {
+      "id": 644,
+      "title": "Yamaha CK88",
+      "label": "Sound engines"
+    },
+    {
+      "id": 648,
+      "title": "MiniDSP UMIK-1",
+      "label": "Pattern"
+    },
+    {
+      "id": 652,
+      "title": "Lewitt LCT 440 PURE",
+      "label": "Pattern"
+    },
+    {
+      "id": 654,
+      "title": "Neumann TLM 103",
+      "label": "Pattern"
+    },
+    {
+      "id": 655,
+      "title": "Warm Audio WA-8000",
+      "label": "Pattern"
+    },
+    {
+      "id": 656,
+      "title": "Universal Audio Sphere DLX",
+      "label": "Pattern"
+    },
+    {
+      "id": 657,
+      "title": "sE Electronics sE2200",
+      "label": "Pattern"
+    },
+    {
+      "id": 666,
+      "title": "Rode NT-USB+",
+      "label": "Pattern"
+    },
+    {
+      "id": 670,
+      "title": "sE Electronics NEOM USB",
+      "label": "Pattern"
+    },
+    {
+      "id": 672,
+      "title": "Lewitt LCT 240 PRO",
+      "label": "Pattern"
+    },
+    {
+      "id": 673,
+      "title": "Aston Microphones Origin",
+      "label": "Pattern"
+    },
+    {
+      "id": 674,
+      "title": "Neumann TLM 102",
+      "label": "Pattern"
+    },
+    {
+      "id": 675,
+      "title": "sE Electronics X1 R",
+      "label": "Pattern"
+    },
+    {
+      "id": 1055,
+      "title": "sE Electronics X1 S",
+      "label": "Pattern"
+    },
+    {
+      "id": 1056,
+      "title": "sE Electronics sE7",
+      "label": "Pattern"
+    }
+  ],
+  "freq": [
+    {
+      "id": 1,
+      "title": "Shure SM7B",
+      "label": "Frequency range"
+    },
+    {
+      "id": 5,
+      "title": "Shure SM57",
+      "label": "Frequency range"
+    },
+    {
+      "id": 19,
+      "title": "Yamaha HS8",
+      "label": "Frequency response"
+    },
+    {
+      "id": 20,
+      "title": "KRK Rokit 7 G5",
+      "label": "Frequency response"
+    },
+    {
+      "id": 21,
+      "title": "Adam Audio A7V",
+      "label": "Frequency response"
+    },
+    {
+      "id": 22,
+      "title": "Genelec 8040B",
+      "label": "Frequency response"
+    },
+    {
+      "id": 50,
+      "title": "Shure SM58",
+      "label": "Frequency range"
+    },
+    {
+      "id": 51,
+      "title": "Sennheiser MD 421 Kompakt",
+      "label": "Frequency range"
+    },
+    {
+      "id": 52,
+      "title": "Electro-Voice RE20",
+      "label": "Frequency range"
+    },
+    {
+      "id": 107,
+      "title": "Shure BLX24R/SM58 Wireless",
+      "label": "Frequency response"
+    },
+    {
+      "id": 116,
+      "title": "JBL 305P MkII",
+      "label": "Frequency response"
+    },
+    {
+      "id": 117,
+      "title": "Kali Audio LP-6 V2",
+      "label": "Frequency response"
+    },
+    {
+      "id": 180,
+      "title": "ADAM Audio S3H",
+      "label": "Frequency response"
+    },
+    {
+      "id": 181,
+      "title": "Focal Trio11 Be",
+      "label": "Frequency response"
+    },
+    {
+      "id": 192,
+      "title": "Yamaha HS8S",
+      "label": "Frequency response"
+    },
+    {
+      "id": 197,
+      "title": "Rode PodMic",
+      "label": "Frequency range"
+    },
+    {
+      "id": 199,
+      "title": "Kali Audio IN-8 V2",
+      "label": "Frequency response"
+    },
+    {
+      "id": 210,
+      "title": "Sennheiser e 906",
+      "label": "Frequency range"
+    },
+    {
+      "id": 211,
+      "title": "Beyerdynamic M 201 TG",
+      "label": "Frequency range"
+    },
+    {
+      "id": 222,
+      "title": "ATC SCM25A Pro Mk2",
+      "label": "Frequency response"
+    },
+    {
+      "id": 226,
+      "title": "Shure Beta 58A",
+      "label": "Frequency range"
+    },
+    {
+      "id": 227,
+      "title": "Sennheiser e935",
+      "label": "Frequency range"
+    },
+    {
+      "id": 228,
+      "title": "Sennheiser e945",
+      "label": "Frequency range"
+    },
+    {
+      "id": 253,
+      "title": "HyperX QuadCast 2",
+      "label": "Frequency range"
+    },
+    {
+      "id": 268,
+      "title": "Sennheiser IE 900",
+      "label": "Frequency response"
+    },
+    {
+      "id": 269,
+      "title": "Shure SE846 Gen 2",
+      "label": "Frequency response"
+    },
+    {
+      "id": 279,
+      "title": "FIFINE AmpliGame AM8 Dynamic USB Microphone",
+      "label": "Frequency range"
+    },
+    {
+      "id": 280,
+      "title": "Razer Seiren V3 Mini",
+      "label": "Frequency range"
+    },
+    {
+      "id": 284,
+      "title": "Maono PM461 USB Microphone",
+      "label": "Frequency range"
+    },
+    {
+      "id": 287,
+      "title": "TONOR TC-777 USB Microphone",
+      "label": "Frequency range"
+    },
+    {
+      "id": 289,
+      "title": "FIFINE AmpliGame A6V USB Gaming Microphone",
+      "label": "Frequency range"
+    },
+    {
+      "id": 292,
+      "title": "Rode NT-USB Mini Studio Condenser Microphone",
+      "label": "Frequency range"
+    },
+    {
+      "id": 302,
+      "title": "IK Multimedia iLoud Micro Monitor Pro",
+      "label": "Frequency response"
+    },
+    {
+      "id": 303,
+      "title": "Genelec 8010A",
+      "label": "Frequency response"
+    },
+    {
+      "id": 304,
+      "title": "Kali Audio IN-UNF",
+      "label": "Frequency response"
+    },
+    {
+      "id": 305,
+      "title": "Neumann KH 80 DSP",
+      "label": "Frequency response"
+    },
+    {
+      "id": 306,
+      "title": "ADAM Audio D3V",
+      "label": "Frequency response"
+    },
+    {
+      "id": 307,
+      "title": "Kali Audio LP-UNF",
+      "label": "Frequency response"
+    },
+    {
+      "id": 308,
+      "title": "IK Multimedia iLoud MTM MKII",
+      "label": "Frequency response"
+    },
+    {
+      "id": 321,
+      "title": "Shure SM7dB",
+      "label": "Frequency range"
+    },
+    {
+      "id": 330,
+      "title": "Behringer XM8500 Ultravoice Dynamic Microphone",
+      "label": "Frequency range"
+    },
+    {
+      "id": 331,
+      "title": "Genelec 8351B SAM 3-Way Coaxial Studio Monitor",
+      "label": "Frequency response"
+    },
+    {
+      "id": 371,
+      "title": "ADAM Audio T5V",
+      "label": "Frequency response"
+    },
+    {
+      "id": 372,
+      "title": "Genelec 8030C",
+      "label": "Frequency response"
+    },
+    {
+      "id": 429,
+      "title": "Blue Yeti Nano USB Condenser Microphone",
+      "label": "Frequency range"
+    },
+    {
+      "id": 430,
+      "title": "FIFINE T669 USB Microphone Kit",
+      "label": "Frequency range"
+    },
+    {
+      "id": 431,
+      "title": "sE Electronics V7 Dynamic Microphone",
+      "label": "Frequency range"
+    },
+    {
+      "id": 432,
+      "title": "Elgato Wave DX Dynamic XLR Microphone",
+      "label": "Frequency range"
+    },
+    {
+      "id": 435,
+      "title": "Behringer B 906 Dynamic Microphone",
+      "label": "Frequency range"
+    },
+    {
+      "id": 437,
+      "title": "FIFINE K669D XLR Dynamic Microphone",
+      "label": "Frequency range"
+    },
+    {
+      "id": 481,
+      "title": "Barefoot Sound MicroSub45 Dual-Force 8\" Active Studio Subwoofer (Pair)",
+      "label": "Frequency response"
+    },
+    {
+      "id": 632,
+      "title": "Yamaha HS5",
+      "label": "Frequency response"
+    },
+    {
+      "id": 633,
+      "title": "KRK Rokit 5 G5",
+      "label": "Frequency response"
+    },
+    {
+      "id": 636,
+      "title": "Shure Beta 57A",
+      "label": "Frequency range"
+    },
+    {
+      "id": 645,
+      "title": "Focal Alpha 65 Evo",
+      "label": "Frequency response"
+    },
+    {
+      "id": 684,
+      "title": "PreSonus Eris Studio 5",
+      "label": "Frequency response"
+    },
+    {
+      "id": 1042,
+      "title": "PreSonus Eris 3.5 2nd Gen",
+      "label": "Frequency response"
+    },
+    {
+      "id": 1043,
+      "title": "M-Audio BX4",
+      "label": "Frequency response"
+    },
+    {
+      "id": 1046,
+      "title": "Mackie CR3.5",
+      "label": "Frequency response"
+    },
+    {
+      "id": 1048,
+      "title": "Mackie CR4.5",
+      "label": "Frequency response"
+    },
+    {
+      "id": 1049,
+      "title": "Behringer Truth 3.5 BT",
+      "label": "Frequency response"
+    },
+    {
+      "id": 1052,
+      "title": "Alesis ELEVATE 4",
+      "label": "Frequency response"
+    },
+    {
+      "id": 1054,
+      "title": "Focal Shape 65",
+      "label": "Frequency response"
+    },
+    {
+      "id": 1055,
+      "title": "sE Electronics X1 S",
+      "label": "Frequency response"
+    },
+    {
+      "id": 1072,
+      "title": "Focal Twin6 ST6",
+      "label": "Frequency Response"
+    }
+  ],
+  "volumeHigh": [
+    {
+      "id": 2,
+      "title": "Neumann U 87 Ai",
+      "label": "Self-noise"
+    },
+    {
+      "id": 3,
+      "title": "Rode NT1 5th Generation",
+      "label": "Self-noise"
+    },
+    {
+      "id": 4,
+      "title": "AKG C414 XLII",
+      "label": "Self-noise"
+    },
+    {
+      "id": 91,
+      "title": "Shure BLX288/PG58",
+      "label": "System"
+    },
+    {
+      "id": 92,
+      "title": "Sennheiser EW 100 G4-935",
+      "label": "System"
+    },
+    {
+      "id": 93,
+      "title": "Sennheiser EW-D Dual Wireless System",
+      "label": "System"
+    },
+    {
+      "id": 95,
+      "title": "Sennheiser EW-D 835-S",
+      "label": "System"
+    },
+    {
+      "id": 105,
+      "title": "EV ZLX-12P-G2 Active PA Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 106,
+      "title": "QSC K12.2 Active PA Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 108,
+      "title": "Yamaha DXR12mkII Active PA Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 109,
+      "title": "JBL PRX ONE Active PA Column",
+      "label": "Max SPL"
+    },
+    {
+      "id": 151,
+      "title": "Mackie Thump215XT",
+      "label": "Max SPL"
+    },
+    {
+      "id": 152,
+      "title": "Yamaha Stagepas 1K MKII Active PA Mixer",
+      "label": "Max SPL"
+    },
+    {
+      "id": 153,
+      "title": "Alto Professional TS412 Active PA Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 154,
+      "title": "Yamaha DBR12 Active PA Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 187,
+      "title": "Lewitt LCT1040 Ultimate Microphone System",
+      "label": "Self-noise"
+    },
+    {
+      "id": 191,
+      "title": "KRK S10.4",
+      "label": "Max SPL"
+    },
+    {
+      "id": 193,
+      "title": "Adam T10S",
+      "label": "Max SPL"
+    },
+    {
+      "id": 194,
+      "title": "Shure MV7+",
+      "label": "Output"
+    },
+    {
+      "id": 195,
+      "title": "Elgato Wave:3",
+      "label": "Max SPL"
+    },
+    {
+      "id": 196,
+      "title": "Audio-Technica AT2020 Studio Condenser Microphone",
+      "label": "Self-noise"
+    },
+    {
+      "id": 206,
+      "title": "Royer R-121",
+      "label": "Max SPL"
+    },
+    {
+      "id": 207,
+      "title": "Coles 4038",
+      "label": "Max SPL"
+    },
+    {
+      "id": 208,
+      "title": "Neumann KM 184",
+      "label": "Self-noise"
+    },
+    {
+      "id": 209,
+      "title": "Austrian Audio OC818",
+      "label": "Self-noise"
+    },
+    {
+      "id": 212,
+      "title": "Shure Beta 52A",
+      "label": "Max SPL"
+    },
+    {
+      "id": 213,
+      "title": "Audix D6",
+      "label": "Max SPL"
+    },
+    {
+      "id": 214,
+      "title": "Sennheiser e 604",
+      "label": "Max SPL"
+    },
+    {
+      "id": 215,
+      "title": "DPA 4099 CORE",
+      "label": "Self-noise"
+    },
+    {
+      "id": 216,
+      "title": "RCF NX 912-SMA",
+      "label": "Max SPL"
+    },
+    {
+      "id": 217,
+      "title": "Electro-Voice PXM-12MP",
+      "label": "Max SPL"
+    },
+    {
+      "id": 218,
+      "title": "LD Systems MON 12 A G3",
+      "label": "Max SPL"
+    },
+    {
+      "id": 219,
+      "title": "Yamaha DHR12M",
+      "label": "Max SPL"
+    },
+    {
+      "id": 229,
+      "title": "Telefunken M80",
+      "label": "Max SPL"
+    },
+    {
+      "id": 230,
+      "title": "AKG D5",
+      "label": "Max SPL"
+    },
+    {
+      "id": 231,
+      "title": "Audix OM7",
+      "label": "Max SPL"
+    },
+    {
+      "id": 232,
+      "title": "Electro-Voice ND86",
+      "label": "Max SPL"
+    },
+    {
+      "id": 233,
+      "title": "QSC KS118 Powered Subwoofer",
+      "label": "Max SPL"
+    },
+    {
+      "id": 234,
+      "title": "RCF SUB 8004-AS",
+      "label": "Max SPL"
+    },
+    {
+      "id": 235,
+      "title": "Electro-Voice ELX200-18SP",
+      "label": "Max SPL"
+    },
+    {
+      "id": 236,
+      "title": "JBL PRX918XLF",
+      "label": "Max SPL"
+    },
+    {
+      "id": 237,
+      "title": "Yamaha DXS18XLF",
+      "label": "Max SPL"
+    },
+    {
+      "id": 249,
+      "title": "DJI Mic 3 (2TX + 1RX + Charging Case)",
+      "label": "Band"
+    },
+    {
+      "id": 250,
+      "title": "Rode Wireless PRO",
+      "label": "Band"
+    },
+    {
+      "id": 251,
+      "title": "Hollyland Lark M2",
+      "label": "Band"
+    },
+    {
+      "id": 252,
+      "title": "Rode PodMic USB",
+      "label": "Output"
+    },
+    {
+      "id": 254,
+      "title": "DJI Mic Mini 2 (2TX + 1RX + Charging Case)",
+      "label": "Band"
+    },
+    {
+      "id": 276,
+      "title": "Samson Q2U USB/XLR Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 277,
+      "title": "Maono PD200X Dynamic Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 278,
+      "title": "FIFINE AmpliTank K688 Dynamic USB/XLR Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 281,
+      "title": "HyperX SoloCast 2",
+      "label": "Output"
+    },
+    {
+      "id": 286,
+      "title": "Audio-Technica AT2040USB",
+      "label": "Output"
+    },
+    {
+      "id": 290,
+      "title": "Rode XCM-50 Compact USB Condenser Microphone",
+      "label": "Output"
+    },
+    {
+      "id": 291,
+      "title": "Audio-Technica AT2020USB-X Cardioid Condenser USB Microphone",
+      "label": "Output"
+    },
+    {
+      "id": 297,
+      "title": "Rode NT1 Signature Series",
+      "label": "Self-noise"
+    },
+    {
+      "id": 298,
+      "title": "Audio-Technica AT2035",
+      "label": "Self-noise"
+    },
+    {
+      "id": 299,
+      "title": "Sennheiser Profile Streaming Set",
+      "label": "Output"
+    },
+    {
+      "id": 300,
+      "title": "Kali Audio WS-6.2",
+      "label": "Max SPL"
+    },
+    {
+      "id": 301,
+      "title": "IK Multimedia iLoud Sub",
+      "label": "Max SPL"
+    },
+    {
+      "id": 329,
+      "title": "Rode Procaster",
+      "label": "Output"
+    },
+    {
+      "id": 337,
+      "title": "Neumann KH 750 DSP 10\" Powered Studio Subwoofer",
+      "label": "Max SPL"
+    },
+    {
+      "id": 338,
+      "title": "Genelec 7050C Studio Subwoofer",
+      "label": "Max SPL"
+    },
+    {
+      "id": 339,
+      "title": "Sennheiser MKH 416 Shotgun Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 340,
+      "title": "Rode NTG5 Shotgun Microphone Kit",
+      "label": "Max SPL"
+    },
+    {
+      "id": 341,
+      "title": "Rode NTG3 Shotgun Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 342,
+      "title": "Sennheiser MKE 600 Shotgun Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 343,
+      "title": "Audio-Technica AT897 Shotgun Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 344,
+      "title": "Deity S-Mic 3 Shotgun Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 345,
+      "title": "Rode VideoMic NTG On-Camera Shotgun",
+      "label": "Max SPL"
+    },
+    {
+      "id": 346,
+      "title": "Sennheiser MKE 400 Compact Shotgun",
+      "label": "Max SPL"
+    },
+    {
+      "id": 358,
+      "title": "Audio-Technica AT875R Short Shotgun Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 359,
+      "title": "Rode VideoMic GO II Helix On-Camera Shotgun",
+      "label": "Max SPL"
+    },
+    {
+      "id": 360,
+      "title": "Sennheiser MKH 50-P48 Supercardioid Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 364,
+      "title": "Beyerdynamic M 160",
+      "label": "Max SPL"
+    },
+    {
+      "id": 365,
+      "title": "sE Electronics Voodoo VR2",
+      "label": "Max SPL"
+    },
+    {
+      "id": 366,
+      "title": "MXL R144",
+      "label": "Max SPL"
+    },
+    {
+      "id": 433,
+      "title": "Samson Q9U XLR/USB Dynamic Broadcast Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 434,
+      "title": "AKG P120 Medium-Diaphragm Condenser Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 436,
+      "title": "MAONO PD100 Gen2 USB/XLR Dynamic Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 438,
+      "title": "Samson C01 Studio Condenser Microphone",
+      "label": "Max SPL"
+    },
+    {
+      "id": 439,
+      "title": "HyperX SoloCast",
+      "label": "Output"
+    },
+    {
+      "id": 468,
+      "title": "Neumann KH 810 II 10\" Powered Studio Subwoofer",
+      "label": "Max SPL"
+    },
+    {
+      "id": 470,
+      "title": "ATC SCS120 Pro Active Studio Subwoofer",
+      "label": "Max SPL"
+    },
+    {
+      "id": 479,
+      "title": "Focal Sub12 13\" Professional Studio Subwoofer",
+      "label": "Max SPL"
+    },
+    {
+      "id": 480,
+      "title": "Genelec 7370A SAM 12\" Smart Active Studio Subwoofer",
+      "label": "Max SPL"
+    },
+    {
+      "id": 493,
+      "title": "JBL EON712 Active PA Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 494,
+      "title": "LD Systems ICOA 12 A BT Active PA Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 495,
+      "title": "EV ELX200-15P Active PA Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 496,
+      "title": "JBL PRX915 Powered Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 497,
+      "title": "JBL JRX215 Passive Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 499,
+      "title": "Yamaha CBR12 Passive Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 500,
+      "title": "EV ELX200-12 Passive Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 501,
+      "title": "Turbosound Flashline TFX122M-AN Stage Monitor",
+      "label": "Max SPL"
+    },
+    {
+      "id": 502,
+      "title": "Mackie SRT215 Active PA Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 504,
+      "title": "Hollyland Lark Max",
+      "label": "Band"
+    },
+    {
+      "id": 505,
+      "title": "Hollyland LARK A2",
+      "label": "Band"
+    },
+    {
+      "id": 506,
+      "title": "Hollyland LARK MAX 2 Combo (2-Person)",
+      "label": "Band"
+    },
+    {
+      "id": 508,
+      "title": "Hollyland MELO P1",
+      "label": "Transmission"
+    },
+    {
+      "id": 509,
+      "title": "Hollyland SOLIDCOM C1",
+      "label": "Band"
+    },
+    {
+      "id": 510,
+      "title": "Hollyland SOLIDCOM C1 Pro",
+      "label": "Band"
+    },
+    {
+      "id": 511,
+      "title": "Hollyland SOLIDCOM SE PRO",
+      "label": "Band"
+    },
+    {
+      "id": 518,
+      "title": "Blue Yeti USB Microphone",
+      "label": "Output"
+    },
+    {
+      "id": 626,
+      "title": "Electro-Voice EVERSE 12 Active PA Speaker",
+      "label": "Max SPL"
+    },
+    {
+      "id": 630,
+      "title": "Alto Professional TS18S",
+      "label": "Max SPL"
+    },
+    {
+      "id": 631,
+      "title": "JBL EON718S",
+      "label": "Max SPL"
+    },
+    {
+      "id": 635,
+      "title": "Audix i5",
+      "label": "Max SPL"
+    },
+    {
+      "id": 652,
+      "title": "Lewitt LCT 440 PURE",
+      "label": "Self-noise"
+    },
+    {
+      "id": 654,
+      "title": "Neumann TLM 103",
+      "label": "Self-noise"
+    },
+    {
+      "id": 655,
+      "title": "Warm Audio WA-8000",
+      "label": "Self-noise"
+    },
+    {
+      "id": 656,
+      "title": "Universal Audio Sphere DLX",
+      "label": "Max SPL"
+    },
+    {
+      "id": 657,
+      "title": "sE Electronics sE2200",
+      "label": "Self-noise"
+    },
+    {
+      "id": 666,
+      "title": "Rode NT-USB+",
+      "label": "Output"
+    },
+    {
+      "id": 670,
+      "title": "sE Electronics NEOM USB",
+      "label": "Output"
+    },
+    {
+      "id": 672,
+      "title": "Lewitt LCT 240 PRO",
+      "label": "Self-noise"
+    },
+    {
+      "id": 673,
+      "title": "Aston Microphones Origin",
+      "label": "Self-noise"
+    },
+    {
+      "id": 674,
+      "title": "Neumann TLM 102",
+      "label": "Self-noise"
+    },
+    {
+      "id": 675,
+      "title": "sE Electronics X1 R",
+      "label": "Self-noise"
+    },
+    {
+      "id": 1055,
+      "title": "sE Electronics X1 S",
+      "label": "Max SPL"
+    },
+    {
+      "id": 1056,
+      "title": "sE Electronics sE7",
+      "label": "Self-noise"
+    }
+  ],
+  "sineWave": [
+    {
+      "id": 6,
+      "title": "Fender American Professional II Stratocaster",
+      "label": "Pickups"
+    },
+    {
+      "id": 7,
+      "title": "Gibson Les Paul Standard '60s",
+      "label": "Pickups"
+    },
+    {
+      "id": 65,
+      "title": "Fender Player II Jazzmaster",
+      "label": "Pickups"
+    },
+    {
+      "id": 124,
+      "title": "Fender Player II Stratocaster HSS",
+      "label": "Pickups"
+    },
+    {
+      "id": 126,
+      "title": "Fender American Professional II Telecaster",
+      "label": "Pickups"
+    },
+    {
+      "id": 155,
+      "title": "Fender American Professional II Precision Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 156,
+      "title": "Fender American Professional II Jazz Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 157,
+      "title": "Squier Classic Vibe '60s Jazz Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 158,
+      "title": "Squier Affinity Series Precision Bass PJ",
+      "label": "Pickups"
+    },
+    {
+      "id": 159,
+      "title": "Yamaha TRBX304",
+      "label": "Pickups"
+    },
+    {
+      "id": 160,
+      "title": "Ibanez SR300E",
+      "label": "Pickups"
+    },
+    {
+      "id": 161,
+      "title": "Sterling by Music Man StingRay Ray4",
+      "label": "Pickups"
+    },
+    {
+      "id": 162,
+      "title": "Epiphone Thunderbird '64 Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 163,
+      "title": "Sire Marcus Miller V5 4-String Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 164,
+      "title": "Schecter Stiletto Stealth 4 Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 165,
+      "title": "ESP LTD B-204SM Bass Guitar",
+      "label": "Pickups"
+    },
+    {
+      "id": 166,
+      "title": "Hofner Ignition Violin Bass (Beatle Bass)",
+      "label": "Pickups"
+    },
+    {
+      "id": 185,
+      "title": "Fender American Ultra II Precision Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 186,
+      "title": "Music Man StingRay Special",
+      "label": "Pickups"
+    },
+    {
+      "id": 295,
+      "title": "Enya Nova Go Sonic Smart Electric Guitar",
+      "label": "Pickups"
+    },
+    {
+      "id": 309,
+      "title": "Squier Debut Series Stratocaster",
+      "label": "Pickups"
+    },
+    {
+      "id": 310,
+      "title": "Squier Affinity Series Stratocaster",
+      "label": "Pickups"
+    },
+    {
+      "id": 311,
+      "title": "Squier Classic Vibe '50s Stratocaster",
+      "label": "Pickups"
+    },
+    {
+      "id": 312,
+      "title": "PRS SE Custom 24",
+      "label": "Pickups"
+    },
+    {
+      "id": 313,
+      "title": "Squier Sonic Mustang",
+      "label": "Pickups"
+    },
+    {
+      "id": 317,
+      "title": "Strandberg Boden Essential 6",
+      "label": "Pickups"
+    },
+    {
+      "id": 318,
+      "title": "Ibanez AZ2402 Prestige",
+      "label": "Pickups"
+    },
+    {
+      "id": 319,
+      "title": "ESP E-II Eclipse DB",
+      "label": "Pickups"
+    },
+    {
+      "id": 326,
+      "title": "Sire Marcus Miller V5R",
+      "label": "Pickups"
+    },
+    {
+      "id": 440,
+      "title": "Fender American Ultra II Stratocaster",
+      "label": "Pickups"
+    },
+    {
+      "id": 441,
+      "title": "Fender Player II Precision Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 442,
+      "title": "Fender Player II Jazz Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 444,
+      "title": "Fender Player II Telecaster",
+      "label": "Pickups"
+    },
+    {
+      "id": 458,
+      "title": "Epiphone Les Paul Special-I",
+      "label": "Pickups"
+    },
+    {
+      "id": 462,
+      "title": "Squier Sonic Stratocaster HT",
+      "label": "Pickups"
+    },
+    {
+      "id": 463,
+      "title": "Ibanez Gio GRG121DX",
+      "label": "Pickups"
+    },
+    {
+      "id": 464,
+      "title": "Yamaha Revstar Element RSE20",
+      "label": "Pickups"
+    },
+    {
+      "id": 465,
+      "title": "Epiphone Les Paul Special-II E1",
+      "label": "Pickups"
+    },
+    {
+      "id": 466,
+      "title": "Jet Guitars JS-300",
+      "label": "Pickups"
+    },
+    {
+      "id": 467,
+      "title": "Yamaha BB434",
+      "label": "Pickups"
+    },
+    {
+      "id": 528,
+      "title": "Ibanez EHB1000 Headless Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 529,
+      "title": "Sire Marcus Miller M6 Headless Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 530,
+      "title": "Traveler Guitar Ultra-Light Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 531,
+      "title": "Steinberger Spirit XT-2 Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 532,
+      "title": "Kala U-Bass Solid Body",
+      "label": "Pickups"
+    },
+    {
+      "id": 533,
+      "title": "Fender Player II Mustang Bass PJ",
+      "label": "Pickups"
+    },
+    {
+      "id": 534,
+      "title": "Gretsch G2220 Junior Jet Bass II",
+      "label": "Pickups"
+    },
+    {
+      "id": 535,
+      "title": "Jackson JS1X Concert Bass Minion",
+      "label": "Pickups"
+    },
+    {
+      "id": 536,
+      "title": "Squier Sonic Bronco Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 537,
+      "title": "Ibanez GSRM20 Mikro Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 538,
+      "title": "Ibanez GSR205B Gio Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 539,
+      "title": "Sterling by Music Man SUB Ray5",
+      "label": "Pickups"
+    },
+    {
+      "id": 540,
+      "title": "Yamaha TRBX305 Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 541,
+      "title": "Squier Affinity Jazz Bass V",
+      "label": "Pickups"
+    },
+    {
+      "id": 542,
+      "title": "Schecter Stiletto Stealth-5 Bass Guitar",
+      "label": "Pickups"
+    },
+    {
+      "id": 543,
+      "title": "Yamaha BB435 Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 544,
+      "title": "Ibanez SR505A Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 545,
+      "title": "Squier Classic Vibe '70s Jazz Bass V",
+      "label": "Pickups"
+    },
+    {
+      "id": 546,
+      "title": "Fender American Professional II Jazz Bass V",
+      "label": "Pickups"
+    },
+    {
+      "id": 547,
+      "title": "Fender American Ultra II Jazz Bass V",
+      "label": "Pickups"
+    },
+    {
+      "id": 548,
+      "title": "Ibanez EHB1005MS Headless Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 549,
+      "title": "Dingwall Combustion 5-String Bass",
+      "label": "Pickups"
+    },
+    {
+      "id": 681,
+      "title": "Yamaha BB234",
+      "label": "Pickups"
+    },
+    {
+      "id": 682,
+      "title": "Ibanez TMB30 Talman",
+      "label": "Pickups"
+    },
+    {
+      "id": 683,
+      "title": "G&L Tribute L-2000",
+      "label": "Pickups"
+    },
+    {
+      "id": 1051,
+      "title": "Ibanez GSR200 GIO",
+      "label": "Pickups"
+    }
+  ],
+  "ruler": [
+    {
+      "id": 6,
+      "title": "Fender American Professional II Stratocaster",
+      "label": "Scale"
+    },
+    {
+      "id": 7,
+      "title": "Gibson Les Paul Standard '60s",
+      "label": "Scale"
+    },
+    {
+      "id": 8,
+      "title": "Taylor 314ce Next Generation",
+      "label": "Scale"
+    },
+    {
+      "id": 58,
+      "title": "K&M 210/2 Mic Stand",
+      "label": "Height"
+    },
+    {
+      "id": 59,
+      "title": "K&M 26722 Monitor Stands (Each)",
+      "label": "Height"
+    },
+    {
+      "id": 65,
+      "title": "Fender Player II Jazzmaster",
+      "label": "Scale"
+    },
+    {
+      "id": 68,
+      "title": "Fender CD-60S Acoustic",
+      "label": "Scale"
+    },
+    {
+      "id": 104,
+      "title": "Martin D-28 Dreadnought",
+      "label": "Scale"
+    },
+    {
+      "id": 124,
+      "title": "Fender Player II Stratocaster HSS",
+      "label": "Scale"
+    },
+    {
+      "id": 126,
+      "title": "Fender American Professional II Telecaster",
+      "label": "Scale"
+    },
+    {
+      "id": 173,
+      "title": "AcouFoam 6 Monitor Isolation Pads, Pair",
+      "label": "Size"
+    },
+    {
+      "id": 270,
+      "title": "Donner HUSH-I EVO2",
+      "label": "Scale"
+    },
+    {
+      "id": 271,
+      "title": "Taylor GS Mini",
+      "label": "Scale"
+    },
+    {
+      "id": 272,
+      "title": "Yamaha SLG200S",
+      "label": "Scale"
+    },
+    {
+      "id": 273,
+      "title": "Yamaha SLG200N",
+      "label": "Scale"
+    },
+    {
+      "id": 274,
+      "title": "Traveler Guitar Ultra-Light Steel",
+      "label": "Scale"
+    },
+    {
+      "id": 275,
+      "title": "Traveler Guitar Ultra-Light Nylon",
+      "label": "Scale"
+    },
+    {
+      "id": 295,
+      "title": "Enya Nova Go Sonic Smart Electric Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 296,
+      "title": "Lava Music Lava ME 4 Smart Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 309,
+      "title": "Squier Debut Series Stratocaster",
+      "label": "Scale"
+    },
+    {
+      "id": 310,
+      "title": "Squier Affinity Series Stratocaster",
+      "label": "Scale"
+    },
+    {
+      "id": 311,
+      "title": "Squier Classic Vibe '50s Stratocaster",
+      "label": "Scale"
+    },
+    {
+      "id": 312,
+      "title": "PRS SE Custom 24",
+      "label": "Scale"
+    },
+    {
+      "id": 313,
+      "title": "Squier Sonic Mustang",
+      "label": "Scale"
+    },
+    {
+      "id": 314,
+      "title": "Yamaha FGX800C",
+      "label": "Scale"
+    },
+    {
+      "id": 315,
+      "title": "Yamaha FS800",
+      "label": "Scale"
+    },
+    {
+      "id": 316,
+      "title": "Martin LX1 Little Martin",
+      "label": "Scale"
+    },
+    {
+      "id": 317,
+      "title": "Strandberg Boden Essential 6",
+      "label": "Scale"
+    },
+    {
+      "id": 318,
+      "title": "Ibanez AZ2402 Prestige",
+      "label": "Scale"
+    },
+    {
+      "id": 319,
+      "title": "ESP E-II Eclipse DB",
+      "label": "Scale"
+    },
+    {
+      "id": 352,
+      "title": "Gretsch G9500 Jim Dandy Flat Top",
+      "label": "Scale"
+    },
+    {
+      "id": 353,
+      "title": "Yamaha CSF1M Parlor Acoustic-Electric",
+      "label": "Scale"
+    },
+    {
+      "id": 354,
+      "title": "PRS SE P20e Tonare Parlor",
+      "label": "Scale"
+    },
+    {
+      "id": 355,
+      "title": "Epiphone L-00 Studio Parlor Acoustic-Electric",
+      "label": "Scale"
+    },
+    {
+      "id": 356,
+      "title": "Fender CP-60S Parlor Acoustic",
+      "label": "Scale"
+    },
+    {
+      "id": 357,
+      "title": "Gretsch G5021E Rancher Penguin Parlor",
+      "label": "Scale"
+    },
+    {
+      "id": 361,
+      "title": "Fender Highway Series Parlor All-Mahogany Acoustic-Electric",
+      "label": "Scale"
+    },
+    {
+      "id": 401,
+      "title": "Taylor GS Mini-e Koa",
+      "label": "Scale"
+    },
+    {
+      "id": 440,
+      "title": "Fender American Ultra II Stratocaster",
+      "label": "Scale"
+    },
+    {
+      "id": 444,
+      "title": "Fender Player II Telecaster",
+      "label": "Scale"
+    },
+    {
+      "id": 452,
+      "title": "Martin D-28 Modern Deluxe",
+      "label": "Scale"
+    },
+    {
+      "id": 453,
+      "title": "Martin OM-42",
+      "label": "Scale"
+    },
+    {
+      "id": 454,
+      "title": "Taylor 914ce Builder's Edition",
+      "label": "Scale"
+    },
+    {
+      "id": 455,
+      "title": "Taylor PS14ce Presentation Series",
+      "label": "Scale"
+    },
+    {
+      "id": 456,
+      "title": "Gibson Custom Shop 1942 Banner J-45",
+      "label": "Scale"
+    },
+    {
+      "id": 457,
+      "title": "Gibson SJ-200",
+      "label": "Scale"
+    },
+    {
+      "id": 458,
+      "title": "Epiphone Les Paul Special-I",
+      "label": "Scale"
+    },
+    {
+      "id": 459,
+      "title": "Yamaha C40II Classical (Nylon) Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 460,
+      "title": "Ibanez AW54 Artwood Acoustic Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 461,
+      "title": "Epiphone DR-100 Acoustic Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 462,
+      "title": "Squier Sonic Stratocaster HT",
+      "label": "Scale"
+    },
+    {
+      "id": 463,
+      "title": "Ibanez Gio GRG121DX",
+      "label": "Scale"
+    },
+    {
+      "id": 464,
+      "title": "Yamaha Revstar Element RSE20",
+      "label": "Scale"
+    },
+    {
+      "id": 465,
+      "title": "Epiphone Les Paul Special-II E1",
+      "label": "Scale"
+    },
+    {
+      "id": 466,
+      "title": "Jet Guitars JS-300",
+      "label": "Scale"
+    },
+    {
+      "id": 528,
+      "title": "Ibanez EHB1000 Headless Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 529,
+      "title": "Sire Marcus Miller M6 Headless Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 530,
+      "title": "Traveler Guitar Ultra-Light Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 531,
+      "title": "Steinberger Spirit XT-2 Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 532,
+      "title": "Kala U-Bass Solid Body",
+      "label": "Scale Length"
+    },
+    {
+      "id": 533,
+      "title": "Fender Player II Mustang Bass PJ",
+      "label": "Scale Length"
+    },
+    {
+      "id": 534,
+      "title": "Gretsch G2220 Junior Jet Bass II",
+      "label": "Scale Length"
+    },
+    {
+      "id": 535,
+      "title": "Jackson JS1X Concert Bass Minion",
+      "label": "Scale Length"
+    },
+    {
+      "id": 536,
+      "title": "Squier Sonic Bronco Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 537,
+      "title": "Ibanez GSRM20 Mikro Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 538,
+      "title": "Ibanez GSR205B Gio Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 539,
+      "title": "Sterling by Music Man SUB Ray5",
+      "label": "Scale Length"
+    },
+    {
+      "id": 540,
+      "title": "Yamaha TRBX305 Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 541,
+      "title": "Squier Affinity Jazz Bass V",
+      "label": "Scale Length"
+    },
+    {
+      "id": 542,
+      "title": "Schecter Stiletto Stealth-5 Bass Guitar",
+      "label": "Scale Length"
+    },
+    {
+      "id": 543,
+      "title": "Yamaha BB435 Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 544,
+      "title": "Ibanez SR505A Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 545,
+      "title": "Squier Classic Vibe '70s Jazz Bass V",
+      "label": "Scale Length"
+    },
+    {
+      "id": 546,
+      "title": "Fender American Professional II Jazz Bass V",
+      "label": "Scale Length"
+    },
+    {
+      "id": 547,
+      "title": "Fender American Ultra II Jazz Bass V",
+      "label": "Scale Length"
+    },
+    {
+      "id": 548,
+      "title": "Ibanez EHB1005MS Headless Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 549,
+      "title": "Dingwall Combustion 5-String Bass",
+      "label": "Scale Length"
+    },
+    {
+      "id": 553,
+      "title": "Fender CN-60S (Nylon)",
+      "label": "Scale"
+    },
+    {
+      "id": 554,
+      "title": "Takamine GC1 (Nylon)",
+      "label": "Scale"
+    },
+    {
+      "id": 650,
+      "title": "Auralex MoPAD-XL Monitor Speaker Isolation Pad",
+      "label": "Size"
+    },
+    {
+      "id": 651,
+      "title": "Ultimate Support MS-100 Studio Monitor Stands (Pair)",
+      "label": "Height"
+    },
+    {
+      "id": 1051,
+      "title": "Ibanez GSR200 GIO",
+      "label": "Scale Length"
+    },
+    {
+      "id": 1057,
+      "title": "Alvarez Artist AD30 Dreadnought Acoustic Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 1058,
+      "title": "Cordoba C5 Classical Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 1059,
+      "title": "Ortega R121 Family Series Classical Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 1060,
+      "title": "Taylor Academy 12e-N Grand Concert Classical Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 1061,
+      "title": "Yamaha CG122MSH Classical Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 1062,
+      "title": "Ibanez GA35TCE Classical Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 1063,
+      "title": "Cordoba Protege C1 3/4 Classical Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 1064,
+      "title": "Admira Alba 4/4 Classical Guitar",
+      "label": "Scale"
+    },
+    {
+      "id": 1065,
+      "title": "Takamine GC1CE Electro Classical Guitar",
+      "label": "Scale"
+    }
+  ],
+  "guitar": [
+    {
+      "id": 6,
+      "title": "Fender American Professional II Stratocaster",
+      "label": "Body"
+    },
+    {
+      "id": 7,
+      "title": "Gibson Les Paul Standard '60s",
+      "label": "Body"
+    },
+    {
+      "id": 8,
+      "title": "Taylor 314ce Next Generation",
+      "label": "Body shape"
+    },
+    {
+      "id": 65,
+      "title": "Fender Player II Jazzmaster",
+      "label": "Body"
+    },
+    {
+      "id": 68,
+      "title": "Fender CD-60S Acoustic",
+      "label": "Body shape"
+    },
+    {
+      "id": 104,
+      "title": "Martin D-28 Dreadnought",
+      "label": "Body shape"
+    },
+    {
+      "id": 124,
+      "title": "Fender Player II Stratocaster HSS",
+      "label": "Body"
+    },
+    {
+      "id": 126,
+      "title": "Fender American Professional II Telecaster",
+      "label": "Body"
+    },
+    {
+      "id": 155,
+      "title": "Fender American Professional II Precision Bass",
+      "label": "Body"
+    },
+    {
+      "id": 156,
+      "title": "Fender American Professional II Jazz Bass",
+      "label": "Body"
+    },
+    {
+      "id": 157,
+      "title": "Squier Classic Vibe '60s Jazz Bass",
+      "label": "Body"
+    },
+    {
+      "id": 158,
+      "title": "Squier Affinity Series Precision Bass PJ",
+      "label": "Body"
+    },
+    {
+      "id": 159,
+      "title": "Yamaha TRBX304",
+      "label": "Body"
+    },
+    {
+      "id": 160,
+      "title": "Ibanez SR300E",
+      "label": "Body"
+    },
+    {
+      "id": 161,
+      "title": "Sterling by Music Man StingRay Ray4",
+      "label": "Body"
+    },
+    {
+      "id": 162,
+      "title": "Epiphone Thunderbird '64 Bass",
+      "label": "Body"
+    },
+    {
+      "id": 163,
+      "title": "Sire Marcus Miller V5 4-String Bass",
+      "label": "Body"
+    },
+    {
+      "id": 164,
+      "title": "Schecter Stiletto Stealth 4 Bass",
+      "label": "Body"
+    },
+    {
+      "id": 165,
+      "title": "ESP LTD B-204SM Bass Guitar",
+      "label": "Body"
+    },
+    {
+      "id": 166,
+      "title": "Hofner Ignition Violin Bass (Beatle Bass)",
+      "label": "Body"
+    },
+    {
+      "id": 185,
+      "title": "Fender American Ultra II Precision Bass",
+      "label": "Body"
+    },
+    {
+      "id": 186,
+      "title": "Music Man StingRay Special",
+      "label": "Body"
+    },
+    {
+      "id": 295,
+      "title": "Enya Nova Go Sonic Smart Electric Guitar",
+      "label": "Body"
+    },
+    {
+      "id": 309,
+      "title": "Squier Debut Series Stratocaster",
+      "label": "Body"
+    },
+    {
+      "id": 310,
+      "title": "Squier Affinity Series Stratocaster",
+      "label": "Body"
+    },
+    {
+      "id": 311,
+      "title": "Squier Classic Vibe '50s Stratocaster",
+      "label": "Body"
+    },
+    {
+      "id": 312,
+      "title": "PRS SE Custom 24",
+      "label": "Body"
+    },
+    {
+      "id": 313,
+      "title": "Squier Sonic Mustang",
+      "label": "Body"
+    },
+    {
+      "id": 314,
+      "title": "Yamaha FGX800C",
+      "label": "Body shape"
+    },
+    {
+      "id": 315,
+      "title": "Yamaha FS800",
+      "label": "Body shape"
+    },
+    {
+      "id": 316,
+      "title": "Martin LX1 Little Martin",
+      "label": "Body shape"
+    },
+    {
+      "id": 317,
+      "title": "Strandberg Boden Essential 6",
+      "label": "Body"
+    },
+    {
+      "id": 318,
+      "title": "Ibanez AZ2402 Prestige",
+      "label": "Body"
+    },
+    {
+      "id": 319,
+      "title": "ESP E-II Eclipse DB",
+      "label": "Body"
+    },
+    {
+      "id": 326,
+      "title": "Sire Marcus Miller V5R",
+      "label": "Body"
+    },
+    {
+      "id": 440,
+      "title": "Fender American Ultra II Stratocaster",
+      "label": "Body"
+    },
+    {
+      "id": 441,
+      "title": "Fender Player II Precision Bass",
+      "label": "Body"
+    },
+    {
+      "id": 442,
+      "title": "Fender Player II Jazz Bass",
+      "label": "Body"
+    },
+    {
+      "id": 444,
+      "title": "Fender Player II Telecaster",
+      "label": "Body"
+    },
+    {
+      "id": 452,
+      "title": "Martin D-28 Modern Deluxe",
+      "label": "Body shape"
+    },
+    {
+      "id": 453,
+      "title": "Martin OM-42",
+      "label": "Body shape"
+    },
+    {
+      "id": 454,
+      "title": "Taylor 914ce Builder's Edition",
+      "label": "Body shape"
+    },
+    {
+      "id": 455,
+      "title": "Taylor PS14ce Presentation Series",
+      "label": "Body shape"
+    },
+    {
+      "id": 456,
+      "title": "Gibson Custom Shop 1942 Banner J-45",
+      "label": "Body shape"
+    },
+    {
+      "id": 457,
+      "title": "Gibson SJ-200",
+      "label": "Body shape"
+    },
+    {
+      "id": 458,
+      "title": "Epiphone Les Paul Special-I",
+      "label": "Body"
+    },
+    {
+      "id": 460,
+      "title": "Ibanez AW54 Artwood Acoustic Guitar",
+      "label": "Body shape"
+    },
+    {
+      "id": 461,
+      "title": "Epiphone DR-100 Acoustic Guitar",
+      "label": "Body shape"
+    },
+    {
+      "id": 462,
+      "title": "Squier Sonic Stratocaster HT",
+      "label": "Body"
+    },
+    {
+      "id": 463,
+      "title": "Ibanez Gio GRG121DX",
+      "label": "Body"
+    },
+    {
+      "id": 464,
+      "title": "Yamaha Revstar Element RSE20",
+      "label": "Body"
+    },
+    {
+      "id": 465,
+      "title": "Epiphone Les Paul Special-II E1",
+      "label": "Body"
+    },
+    {
+      "id": 466,
+      "title": "Jet Guitars JS-300",
+      "label": "Body"
+    },
+    {
+      "id": 467,
+      "title": "Yamaha BB434",
+      "label": "Body"
+    },
+    {
+      "id": 538,
+      "title": "Ibanez GSR205B Gio Bass",
+      "label": "Body"
+    },
+    {
+      "id": 539,
+      "title": "Sterling by Music Man SUB Ray5",
+      "label": "Body"
+    },
+    {
+      "id": 540,
+      "title": "Yamaha TRBX305 Bass",
+      "label": "Body"
+    },
+    {
+      "id": 541,
+      "title": "Squier Affinity Jazz Bass V",
+      "label": "Body"
+    },
+    {
+      "id": 542,
+      "title": "Schecter Stiletto Stealth-5 Bass Guitar",
+      "label": "Body"
+    },
+    {
+      "id": 543,
+      "title": "Yamaha BB435 Bass",
+      "label": "Body"
+    },
+    {
+      "id": 544,
+      "title": "Ibanez SR505A Bass",
+      "label": "Body"
+    },
+    {
+      "id": 545,
+      "title": "Squier Classic Vibe '70s Jazz Bass V",
+      "label": "Body"
+    },
+    {
+      "id": 546,
+      "title": "Fender American Professional II Jazz Bass V",
+      "label": "Body"
+    },
+    {
+      "id": 547,
+      "title": "Fender American Ultra II Jazz Bass V",
+      "label": "Body"
+    },
+    {
+      "id": 548,
+      "title": "Ibanez EHB1005MS Headless Bass",
+      "label": "Body"
+    },
+    {
+      "id": 549,
+      "title": "Dingwall Combustion 5-String Bass",
+      "label": "Body"
+    },
+    {
+      "id": 681,
+      "title": "Yamaha BB234",
+      "label": "Body"
+    },
+    {
+      "id": 682,
+      "title": "Ibanez TMB30 Talman",
+      "label": "Body"
+    },
+    {
+      "id": 683,
+      "title": "G&L Tribute L-2000",
+      "label": "Body"
+    },
+    {
+      "id": 1057,
+      "title": "Alvarez Artist AD30 Dreadnought Acoustic Guitar",
+      "label": "Body shape"
+    }
+  ],
+  "wood": [
+    {
+      "id": 8,
+      "title": "Taylor 314ce Next Generation",
+      "label": "Top"
+    },
+    {
+      "id": 68,
+      "title": "Fender CD-60S Acoustic",
+      "label": "Top"
+    },
+    {
+      "id": 104,
+      "title": "Martin D-28 Dreadnought",
+      "label": "Top"
+    },
+    {
+      "id": 271,
+      "title": "Taylor GS Mini",
+      "label": "Top"
+    },
+    {
+      "id": 314,
+      "title": "Yamaha FGX800C",
+      "label": "Top"
+    },
+    {
+      "id": 315,
+      "title": "Yamaha FS800",
+      "label": "Top"
+    },
+    {
+      "id": 316,
+      "title": "Martin LX1 Little Martin",
+      "label": "Top"
+    },
+    {
+      "id": 352,
+      "title": "Gretsch G9500 Jim Dandy Flat Top",
+      "label": "Top"
+    },
+    {
+      "id": 353,
+      "title": "Yamaha CSF1M Parlor Acoustic-Electric",
+      "label": "Top"
+    },
+    {
+      "id": 354,
+      "title": "PRS SE P20e Tonare Parlor",
+      "label": "Top"
+    },
+    {
+      "id": 355,
+      "title": "Epiphone L-00 Studio Parlor Acoustic-Electric",
+      "label": "Top"
+    },
+    {
+      "id": 356,
+      "title": "Fender CP-60S Parlor Acoustic",
+      "label": "Top"
+    },
+    {
+      "id": 357,
+      "title": "Gretsch G5021E Rancher Penguin Parlor",
+      "label": "Top"
+    },
+    {
+      "id": 361,
+      "title": "Fender Highway Series Parlor All-Mahogany Acoustic-Electric",
+      "label": "Top"
+    },
+    {
+      "id": 452,
+      "title": "Martin D-28 Modern Deluxe",
+      "label": "Top"
+    },
+    {
+      "id": 453,
+      "title": "Martin OM-42",
+      "label": "Top"
+    },
+    {
+      "id": 454,
+      "title": "Taylor 914ce Builder's Edition",
+      "label": "Top"
+    },
+    {
+      "id": 455,
+      "title": "Taylor PS14ce Presentation Series",
+      "label": "Top"
+    },
+    {
+      "id": 456,
+      "title": "Gibson Custom Shop 1942 Banner J-45",
+      "label": "Top"
+    },
+    {
+      "id": 457,
+      "title": "Gibson SJ-200",
+      "label": "Top"
+    },
+    {
+      "id": 459,
+      "title": "Yamaha C40II Classical (Nylon) Guitar",
+      "label": "Top"
+    },
+    {
+      "id": 460,
+      "title": "Ibanez AW54 Artwood Acoustic Guitar",
+      "label": "Top"
+    },
+    {
+      "id": 461,
+      "title": "Epiphone DR-100 Acoustic Guitar",
+      "label": "Top"
+    },
+    {
+      "id": 553,
+      "title": "Fender CN-60S (Nylon)",
+      "label": "Top"
+    },
+    {
+      "id": 554,
+      "title": "Takamine GC1 (Nylon)",
+      "label": "Top"
+    },
+    {
+      "id": 1057,
+      "title": "Alvarez Artist AD30 Dreadnought Acoustic Guitar",
+      "label": "Top"
+    },
+    {
+      "id": 1058,
+      "title": "Cordoba C5 Classical Guitar",
+      "label": "Top"
+    },
+    {
+      "id": 1059,
+      "title": "Ortega R121 Family Series Classical Guitar",
+      "label": "Top"
+    },
+    {
+      "id": 1060,
+      "title": "Taylor Academy 12e-N Grand Concert Classical Guitar",
+      "label": "Top"
+    },
+    {
+      "id": 1061,
+      "title": "Yamaha CG122MSH Classical Guitar",
+      "label": "Top"
+    },
+    {
+      "id": 1062,
+      "title": "Ibanez GA35TCE Classical Guitar",
+      "label": "Top"
+    },
+    {
+      "id": 1063,
+      "title": "Cordoba Protege C1 3/4 Classical Guitar",
+      "label": "Top"
+    },
+    {
+      "id": 1064,
+      "title": "Admira Alba 4/4 Classical Guitar",
+      "label": "Top"
+    },
+    {
+      "id": 1065,
+      "title": "Takamine GC1CE Electro Classical Guitar",
+      "label": "Top"
+    }
+  ],
+  "keyboard": [
+    {
+      "id": 11,
+      "title": "Nord Stage 4 88",
+      "label": "Keys & action"
+    },
+    {
+      "id": 637,
+      "title": "Roland RD-2000 EX",
+      "label": "Keys & action"
+    },
+    {
+      "id": 638,
+      "title": "Yamaha YC88",
+      "label": "Keys & action"
+    },
+    {
+      "id": 639,
+      "title": "Yamaha Montage M8x",
+      "label": "Keys & action"
+    },
+    {
+      "id": 640,
+      "title": "Roland Fantom 8 EX",
+      "label": "Keys & action"
+    },
+    {
+      "id": 641,
+      "title": "Nord Electro 7 61",
+      "label": "Keys & action"
+    },
+    {
+      "id": 642,
+      "title": "Korg Grandstage X",
+      "label": "Keys & action"
+    },
+    {
+      "id": 643,
+      "title": "Arturia AstroLab 61",
+      "label": "Keys & action"
+    },
+    {
+      "id": 644,
+      "title": "Yamaha CK88",
+      "label": "Keys & action"
+    }
+  ],
+  "weight": [
+    {
+      "id": 11,
+      "title": "Nord Stage 4 88",
+      "label": "Weight"
+    },
+    {
+      "id": 13,
+      "title": "Arturia KeyLab Essential 61 MkIII",
+      "label": "Weight"
+    },
+    {
+      "id": 14,
+      "title": "Native Instruments Kontrol S61 MK3",
+      "label": "Weight"
+    },
+    {
+      "id": 59,
+      "title": "K&M 26722 Monitor Stands (Each)",
+      "label": "Capacity"
+    },
+    {
+      "id": 140,
+      "title": "Yamaha P-225",
+      "label": "Weight"
+    },
+    {
+      "id": 141,
+      "title": "Roland FP-30X",
+      "label": "Weight"
+    },
+    {
+      "id": 270,
+      "title": "Donner HUSH-I EVO2",
+      "label": "Weight"
+    },
+    {
+      "id": 272,
+      "title": "Yamaha SLG200S",
+      "label": "Weight"
+    },
+    {
+      "id": 273,
+      "title": "Yamaha SLG200N",
+      "label": "Weight"
+    },
+    {
+      "id": 274,
+      "title": "Traveler Guitar Ultra-Light Steel",
+      "label": "Weight"
+    },
+    {
+      "id": 275,
+      "title": "Traveler Guitar Ultra-Light Nylon",
+      "label": "Weight"
+    },
+    {
+      "id": 296,
+      "title": "Lava Music Lava ME 4 Smart Guitar",
+      "label": "Weight"
+    },
+    {
+      "id": 323,
+      "title": "Akai MPK Mini MK4",
+      "label": "Weight"
+    },
+    {
+      "id": 324,
+      "title": "Novation Launchkey Mini 25 MK4",
+      "label": "Weight"
+    },
+    {
+      "id": 325,
+      "title": "M-Audio Hammer 88",
+      "label": "Weight"
+    },
+    {
+      "id": 363,
+      "title": "Novation Launchkey 49 MK4",
+      "label": "Weight"
+    },
+    {
+      "id": 370,
+      "title": "Roland GO:KEYS 3",
+      "label": "Weight"
+    },
+    {
+      "id": 401,
+      "title": "Taylor GS Mini-e Koa",
+      "label": "Weight"
+    },
+    {
+      "id": 445,
+      "title": "Radial J48 MK2 Active Direct Box",
+      "label": "Weight"
+    },
+    {
+      "id": 446,
+      "title": "Rupert Neve Designs RNDI Active Direct Interface",
+      "label": "Weight"
+    },
+    {
+      "id": 447,
+      "title": "Tech 21 SansAmp Bass Driver DI v2",
+      "label": "Weight"
+    },
+    {
+      "id": 448,
+      "title": "Radial ProD2 Stereo Passive Direct Box",
+      "label": "Weight"
+    },
+    {
+      "id": 449,
+      "title": "Walrus Audio Canvas Mono Line Isolator / DI",
+      "label": "Weight"
+    },
+    {
+      "id": 450,
+      "title": "Whirlwind IMP 2 Passive Direct Box",
+      "label": "Weight"
+    },
+    {
+      "id": 451,
+      "title": "LR Baggs Para Acoustic DI",
+      "label": "Weight"
+    },
+    {
+      "id": 536,
+      "title": "Squier Sonic Bronco Bass",
+      "label": "Weight"
+    },
+    {
+      "id": 565,
+      "title": "Roland RP107 Digital Piano",
+      "label": "Weight"
+    },
+    {
+      "id": 567,
+      "title": "Yamaha Arius YDP-166",
+      "label": "Weight"
+    },
+    {
+      "id": 570,
+      "title": "Yamaha Clavinova CLP-835",
+      "label": "Weight"
+    },
+    {
+      "id": 571,
+      "title": "Casio Privia PX-S1100 Digital Piano",
+      "label": "Weight"
+    },
+    {
+      "id": 572,
+      "title": "Roland FP-10 Digital Piano",
+      "label": "Weight"
+    },
+    {
+      "id": 573,
+      "title": "Yamaha Arius YDP-146 Digital Piano",
+      "label": "Weight"
+    },
+    {
+      "id": 606,
+      "title": "Sennheiser HD 300 Pro",
+      "label": "Weight"
+    },
+    {
+      "id": 637,
+      "title": "Roland RD-2000 EX",
+      "label": "Weight"
+    },
+    {
+      "id": 638,
+      "title": "Yamaha YC88",
+      "label": "Weight"
+    },
+    {
+      "id": 639,
+      "title": "Yamaha Montage M8x",
+      "label": "Weight"
+    },
+    {
+      "id": 640,
+      "title": "Roland Fantom 8 EX",
+      "label": "Weight"
+    },
+    {
+      "id": 641,
+      "title": "Nord Electro 7 61",
+      "label": "Weight"
+    },
+    {
+      "id": 642,
+      "title": "Korg Grandstage X",
+      "label": "Weight"
+    },
+    {
+      "id": 643,
+      "title": "Arturia AstroLab 61",
+      "label": "Weight"
+    },
+    {
+      "id": 644,
+      "title": "Yamaha CK88",
+      "label": "Weight"
+    },
+    {
+      "id": 646,
+      "title": "IsoAcoustics ISO-200 Studio Monitor Stands (Pair)",
+      "label": "Capacity"
+    },
+    {
+      "id": 650,
+      "title": "Auralex MoPAD-XL Monitor Speaker Isolation Pad",
+      "label": "Max load"
+    },
+    {
+      "id": 651,
+      "title": "Ultimate Support MS-100 Studio Monitor Stands (Pair)",
+      "label": "Capacity"
+    },
+    {
+      "id": 1051,
+      "title": "Ibanez GSR200 GIO",
+      "label": "Weight"
+    }
+  ],
+  "piano": [
+    {
+      "id": 13,
+      "title": "Arturia KeyLab Essential 61 MkIII",
+      "label": "Keys"
+    },
+    {
+      "id": 14,
+      "title": "Native Instruments Kontrol S61 MK3",
+      "label": "Keys"
+    },
+    {
+      "id": 140,
+      "title": "Yamaha P-225",
+      "label": "Keyboard action"
+    },
+    {
+      "id": 141,
+      "title": "Roland FP-30X",
+      "label": "Keyboard action"
+    },
+    {
+      "id": 142,
+      "title": "Korg Minilogue XD",
+      "label": "Keys"
+    },
+    {
+      "id": 143,
+      "title": "Moog Subsequent 37",
+      "label": "Keys"
+    },
+    {
+      "id": 174,
+      "title": "Sequential OB-6 Keyboard",
+      "label": "Keys"
+    },
+    {
+      "id": 175,
+      "title": "Sequential Prophet-10",
+      "label": "Keys"
+    },
+    {
+      "id": 176,
+      "title": "Moog Muse",
+      "label": "Keys"
+    },
+    {
+      "id": 323,
+      "title": "Akai MPK Mini MK4",
+      "label": "Keys"
+    },
+    {
+      "id": 324,
+      "title": "Novation Launchkey Mini 25 MK4",
+      "label": "Keys"
+    },
+    {
+      "id": 325,
+      "title": "M-Audio Hammer 88",
+      "label": "Keys"
+    },
+    {
+      "id": 363,
+      "title": "Novation Launchkey 49 MK4",
+      "label": "Keys"
+    },
+    {
+      "id": 370,
+      "title": "Roland GO:KEYS 3",
+      "label": "Keys"
+    },
+    {
+      "id": 475,
+      "title": "Arturia MicroFreak",
+      "label": "Keys"
+    },
+    {
+      "id": 476,
+      "title": "Behringer DeepMind 12",
+      "label": "Keys"
+    },
+    {
+      "id": 477,
+      "title": "ASM Hydrasynth",
+      "label": "Keys"
+    },
+    {
+      "id": 478,
+      "title": "Sequential Take 5",
+      "label": "Keys"
+    },
+    {
+      "id": 565,
+      "title": "Roland RP107 Digital Piano",
+      "label": "Keyboard action"
+    },
+    {
+      "id": 567,
+      "title": "Yamaha Arius YDP-166",
+      "label": "Keyboard action"
+    },
+    {
+      "id": 570,
+      "title": "Yamaha Clavinova CLP-835",
+      "label": "Keyboard action"
+    },
+    {
+      "id": 571,
+      "title": "Casio Privia PX-S1100 Digital Piano",
+      "label": "Keyboard action"
+    },
+    {
+      "id": 572,
+      "title": "Roland FP-10 Digital Piano",
+      "label": "Keyboard action"
+    },
+    {
+      "id": 573,
+      "title": "Yamaha Arius YDP-146 Digital Piano",
+      "label": "Keyboard action"
+    }
+  ],
+  "signal": [
+    {
+      "id": 13,
+      "title": "Arturia KeyLab Essential 61 MkIII",
+      "label": "Connectivity"
+    },
+    {
+      "id": 14,
+      "title": "Native Instruments Kontrol S61 MK3",
+      "label": "Connectivity"
+    },
+    {
+      "id": 15,
+      "title": "Focusrite Scarlett 2i2 4th Gen",
+      "label": "Connectivity"
+    },
+    {
+      "id": 16,
+      "title": "Universal Audio Apollo Twin X Gen 2",
+      "label": "Connectivity"
+    },
+    {
+      "id": 17,
+      "title": "RME Babyface Pro FS",
+      "label": "Connectivity"
+    },
+    {
+      "id": 18,
+      "title": "SSL 2+ MKII",
+      "label": "Connectivity"
+    },
+    {
+      "id": 42,
+      "title": "SSL UF8 DAW Controller",
+      "label": "Connectivity"
+    },
+    {
+      "id": 53,
+      "title": "Audient iD14 MkII",
+      "label": "Connectivity"
+    },
+    {
+      "id": 54,
+      "title": "MOTU M2",
+      "label": "Connectivity"
+    },
+    {
+      "id": 55,
+      "title": "Universal Audio Volt 2",
+      "label": "Connectivity"
+    },
+    {
+      "id": 96,
+      "title": "Ibanez TS9 Tube Screamer",
+      "label": "Bypass"
+    },
+    {
+      "id": 97,
+      "title": "Boss DD-8 Digital Delay",
+      "label": "Bypass"
+    },
+    {
+      "id": 133,
+      "title": "Boss BD-2 Blues Driver",
+      "label": "Bypass"
+    },
+    {
+      "id": 134,
+      "title": "ProCo RAT 2",
+      "label": "Bypass"
+    },
+    {
+      "id": 135,
+      "title": "Strymon BigSky MX",
+      "label": "Bypass"
+    },
+    {
+      "id": 136,
+      "title": "MXR Phase 95",
+      "label": "Bypass"
+    },
+    {
+      "id": 137,
+      "title": "Yamaha MG10XU",
+      "label": "Connectivity"
+    },
+    {
+      "id": 138,
+      "title": "Behringer X32 Compact",
+      "label": "Connectivity"
+    },
+    {
+      "id": 139,
+      "title": "Allen & Heath SQ-5",
+      "label": "Connectivity"
+    },
+    {
+      "id": 145,
+      "title": "Behringer X Air XR18",
+      "label": "Connectivity"
+    },
+    {
+      "id": 146,
+      "title": "Mackie ProFX12v3",
+      "label": "Connectivity"
+    },
+    {
+      "id": 147,
+      "title": "Allen & Heath CQ-18T",
+      "label": "Connectivity"
+    },
+    {
+      "id": 148,
+      "title": "Midas M32R LIVE",
+      "label": "Connectivity"
+    },
+    {
+      "id": 149,
+      "title": "Yamaha MG16XU",
+      "label": "Connectivity"
+    },
+    {
+      "id": 150,
+      "title": "Behringer Xenyx X1222USB",
+      "label": "Connectivity"
+    },
+    {
+      "id": 167,
+      "title": "Mogami Gold Studio XLR Cable",
+      "label": "Connectors"
+    },
+    {
+      "id": 170,
+      "title": "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)",
+      "label": "Range"
+    },
+    {
+      "id": 182,
+      "title": "Universal Audio Apollo x16 Gen 2",
+      "label": "Connectivity"
+    },
+    {
+      "id": 183,
+      "title": "RME Fireface UFX III",
+      "label": "Connectivity"
+    },
+    {
+      "id": 188,
+      "title": "Akai MPC Live III",
+      "label": "Connectivity"
+    },
+    {
+      "id": 200,
+      "title": "Boss RC-5 Loop Station",
+      "label": "Bypass"
+    },
+    {
+      "id": 201,
+      "title": "TC Electronic Ditto Looper",
+      "label": "Bypass"
+    },
+    {
+      "id": 204,
+      "title": "Boss ME-90",
+      "label": "Bypass"
+    },
+    {
+      "id": 239,
+      "title": "Rodecaster Duo",
+      "label": "Loopback"
+    },
+    {
+      "id": 240,
+      "title": "Roland Bridge Cast X",
+      "label": "Loopback"
+    },
+    {
+      "id": 243,
+      "title": "Elgato Stream Deck+",
+      "label": "Connectivity"
+    },
+    {
+      "id": 244,
+      "title": "Rode Streamer X",
+      "label": "Connectivity"
+    },
+    {
+      "id": 246,
+      "title": "Elgato Wave XLR MK.2",
+      "label": "Connectivity"
+    },
+    {
+      "id": 247,
+      "title": "Mackie DLZ Creator",
+      "label": "Connectivity"
+    },
+    {
+      "id": 248,
+      "title": "RØDE RØDECaster Pro II",
+      "label": "Connectivity"
+    },
+    {
+      "id": 255,
+      "title": "Roland SP-404MKII",
+      "label": "Connectivity"
+    },
+    {
+      "id": 257,
+      "title": "Akai MPC Sample",
+      "label": "Connectivity"
+    },
+    {
+      "id": 262,
+      "title": "Audient EVO 4",
+      "label": "Connectivity"
+    },
+    {
+      "id": 263,
+      "title": "Universal Audio Volt 276",
+      "label": "Connectivity"
+    },
+    {
+      "id": 264,
+      "title": "Elgato Stream Deck + XL",
+      "label": "Connectivity"
+    },
+    {
+      "id": 265,
+      "title": "Razer Stream Controller",
+      "label": "Connectivity"
+    },
+    {
+      "id": 266,
+      "title": "Sennheiser ew IEM G4-TWIN-E",
+      "label": "Range"
+    },
+    {
+      "id": 267,
+      "title": "Shure PSM300",
+      "label": "Range"
+    },
+    {
+      "id": 323,
+      "title": "Akai MPK Mini MK4",
+      "label": "Connectivity"
+    },
+    {
+      "id": 324,
+      "title": "Novation Launchkey Mini 25 MK4",
+      "label": "Connectivity"
+    },
+    {
+      "id": 325,
+      "title": "M-Audio Hammer 88",
+      "label": "Connectivity"
+    },
+    {
+      "id": 328,
+      "title": "Arturia MiniFuse 2 OTG",
+      "label": "Connectivity"
+    },
+    {
+      "id": 332,
+      "title": "Tascam Model 12",
+      "label": "Connectivity"
+    },
+    {
+      "id": 333,
+      "title": "Allen & Heath ZEDi-10FX",
+      "label": "Connectivity"
+    },
+    {
+      "id": 334,
+      "title": "SSL BiG SiX",
+      "label": "Connectivity"
+    },
+    {
+      "id": 335,
+      "title": "Korg SoundLink MW-1608",
+      "label": "Connectivity"
+    },
+    {
+      "id": 347,
+      "title": "Xvive U4 Wireless In-Ear Monitor System",
+      "label": "Range"
+    },
+    {
+      "id": 348,
+      "title": "Xvive U4R4 Wireless IEM System (4 Receivers)",
+      "label": "Range"
+    },
+    {
+      "id": 349,
+      "title": "Sennheiser EW IEM G4 Stereo Wireless System",
+      "label": "Range"
+    },
+    {
+      "id": 350,
+      "title": "Phenyx Pro PTM-10 UHF Stereo IEM System",
+      "label": "Range"
+    },
+    {
+      "id": 362,
+      "title": "Sennheiser XSW IEM Wireless System",
+      "label": "Range"
+    },
+    {
+      "id": 363,
+      "title": "Novation Launchkey 49 MK4",
+      "label": "Connectivity"
+    },
+    {
+      "id": 370,
+      "title": "Roland GO:KEYS 3",
+      "label": "Connectivity"
+    },
+    {
+      "id": 379,
+      "title": "Universal Audio UAD SSL 4000 E Channel Strip",
+      "label": "Platforms"
+    },
+    {
+      "id": 395,
+      "title": "PreSonus FaderPort 8",
+      "label": "Connectivity"
+    },
+    {
+      "id": 396,
+      "title": "Behringer X-Touch",
+      "label": "Connectivity"
+    },
+    {
+      "id": 397,
+      "title": "SSL UF1",
+      "label": "Connectivity"
+    },
+    {
+      "id": 398,
+      "title": "Avid S1",
+      "label": "Connectivity"
+    },
+    {
+      "id": 399,
+      "title": "Icon Platform M+",
+      "label": "Connectivity"
+    },
+    {
+      "id": 400,
+      "title": "Mackie MCU Pro",
+      "label": "Connectivity"
+    },
+    {
+      "id": 410,
+      "title": "Soundcraft Ui24R",
+      "label": "Connectivity"
+    },
+    {
+      "id": 411,
+      "title": "Yamaha DM3S",
+      "label": "Connectivity"
+    },
+    {
+      "id": 413,
+      "title": "PreSonus StudioLive 32SC",
+      "label": "Connectivity"
+    },
+    {
+      "id": 443,
+      "title": "Electro-Harmonix Nano Small Stone",
+      "label": "Bypass"
+    },
+    {
+      "id": 445,
+      "title": "Radial J48 MK2 Active Direct Box",
+      "label": "Connectivity"
+    },
+    {
+      "id": 446,
+      "title": "Rupert Neve Designs RNDI Active Direct Interface",
+      "label": "Connectivity"
+    },
+    {
+      "id": 447,
+      "title": "Tech 21 SansAmp Bass Driver DI v2",
+      "label": "Connectivity"
+    },
+    {
+      "id": 448,
+      "title": "Radial ProD2 Stereo Passive Direct Box",
+      "label": "Connectivity"
+    },
+    {
+      "id": 449,
+      "title": "Walrus Audio Canvas Mono Line Isolator / DI",
+      "label": "Connectivity"
+    },
+    {
+      "id": 450,
+      "title": "Whirlwind IMP 2 Passive Direct Box",
+      "label": "Connectivity"
+    },
+    {
+      "id": 451,
+      "title": "LR Baggs Para Acoustic DI",
+      "label": "Connectivity"
+    },
+    {
+      "id": 482,
+      "title": "Behringer WING Compact",
+      "label": "Connectivity"
+    },
+    {
+      "id": 486,
+      "title": "Soundcraft Ui16",
+      "label": "Connectivity"
+    },
+    {
+      "id": 487,
+      "title": "Soundcraft Signature 12 MTK",
+      "label": "Connectivity"
+    },
+    {
+      "id": 512,
+      "title": "Neumann MT 48 (U) Premium Audio Interface",
+      "label": "Connectivity"
+    },
+    {
+      "id": 513,
+      "title": "Universal Audio Apollo x8p Gen 2",
+      "label": "Connectivity"
+    },
+    {
+      "id": 515,
+      "title": "Audient ORIA Immersive Audio Interface",
+      "label": "Connectivity"
+    },
+    {
+      "id": 550,
+      "title": "Behringer U-Phoria UMC1820",
+      "label": "Connectivity"
+    },
+    {
+      "id": 551,
+      "title": "Arturia MiniFuse 2",
+      "label": "Connectivity"
+    },
+    {
+      "id": 577,
+      "title": "Zoom G11",
+      "label": "Bypass"
+    },
+    {
+      "id": 578,
+      "title": "Boss GT-1000CORE",
+      "label": "Bypass"
+    },
+    {
+      "id": 579,
+      "title": "Neural DSP Quad Cortex",
+      "label": "Bypass"
+    },
+    {
+      "id": 580,
+      "title": "Mooer GE300",
+      "label": "Bypass"
+    },
+    {
+      "id": 581,
+      "title": "Fulltone OCD v2",
+      "label": "Bypass"
+    },
+    {
+      "id": 582,
+      "title": "Wampler Tumnus Deluxe",
+      "label": "Bypass"
+    },
+    {
+      "id": 583,
+      "title": "JHS Morning Glory V4",
+      "label": "Bypass"
+    },
+    {
+      "id": 584,
+      "title": "MXR M104 Distortion+",
+      "label": "Bypass"
+    },
+    {
+      "id": 585,
+      "title": "Boss BD-2W Blues Driver Waza Craft",
+      "label": "Bypass"
+    },
+    {
+      "id": 586,
+      "title": "Boss RC-500 Loop Station",
+      "label": "Bypass"
+    },
+    {
+      "id": 587,
+      "title": "TC Electronic Ditto X4 Looper",
+      "label": "Bypass"
+    },
+    {
+      "id": 588,
+      "title": "Electro-Harmonix 720 Stereo Looper",
+      "label": "Bypass"
+    },
+    {
+      "id": 590,
+      "title": "MXR M303 Clone Looper",
+      "label": "Bypass"
+    },
+    {
+      "id": 591,
+      "title": "Strymon TimeLine",
+      "label": "Bypass"
+    },
+    {
+      "id": 592,
+      "title": "Meris LVX",
+      "label": "Bypass"
+    },
+    {
+      "id": 593,
+      "title": "Eventide TimeFactor",
+      "label": "Bypass"
+    },
+    {
+      "id": 594,
+      "title": "Source Audio Nemesis",
+      "label": "Bypass"
+    },
+    {
+      "id": 595,
+      "title": "Keeley Caverns V2",
+      "label": "Bypass"
+    },
+    {
+      "id": 596,
+      "title": "Universal Audio Del-Verb",
+      "label": "Bypass"
+    },
+    {
+      "id": 597,
+      "title": "MXR M169 Carbon Copy",
+      "label": "Bypass"
+    },
+    {
+      "id": 598,
+      "title": "Universal Audio Golden Reverberator",
+      "label": "Bypass"
+    },
+    {
+      "id": 599,
+      "title": "Boss RV-200",
+      "label": "Bypass"
+    },
+    {
+      "id": 600,
+      "title": "Electro-Harmonix 1440 Stereo Looper",
+      "label": "Bypass"
+    },
+    {
+      "id": 601,
+      "title": "Boss RC-600 Loop Station",
+      "label": "Bypass"
+    },
+    {
+      "id": 615,
+      "title": "Teenage Engineering EP-133 K.O. II",
+      "label": "Connectivity"
+    },
+    {
+      "id": 616,
+      "title": "Akai Professional MPC Key 37 Gen 2",
+      "label": "Connectivity"
+    },
+    {
+      "id": 617,
+      "title": "Roland Aira Compact P-6",
+      "label": "Connectivity"
+    },
+    {
+      "id": 618,
+      "title": "Novation Circuit Rhythm",
+      "label": "Connectivity"
+    },
+    {
+      "id": 619,
+      "title": "Akai Professional MPC XL",
+      "label": "Connectivity"
+    },
+    {
+      "id": 620,
+      "title": "Native Instruments Maschine+",
+      "label": "Connectivity"
+    },
+    {
+      "id": 658,
+      "title": "Bose T8S ToneMatch",
+      "label": "Connectivity"
+    },
+    {
+      "id": 659,
+      "title": "TC Helicon GoXLR Mini",
+      "label": "Connectivity"
+    },
+    {
+      "id": 661,
+      "title": "Mackie MainStream",
+      "label": "Connectivity"
+    },
+    {
+      "id": 662,
+      "title": "Yamaha AG08",
+      "label": "Connectivity"
+    },
+    {
+      "id": 663,
+      "title": "Tascam Mixcast 4",
+      "label": "Connectivity"
+    },
+    {
+      "id": 664,
+      "title": "Zoom PodTrak P4next",
+      "label": "Loopback"
+    },
+    {
+      "id": 671,
+      "title": "Behringer FLOW 8",
+      "label": "Connectivity"
+    },
+    {
+      "id": 676,
+      "title": "Audient Horizon 8P",
+      "label": "Connectivity"
+    },
+    {
+      "id": 677,
+      "title": "Antelope Orion Studio Synergy Core",
+      "label": "Connectivity"
+    },
+    {
+      "id": 678,
+      "title": "Yamaha URX44V",
+      "label": "Loopback"
+    },
+    {
+      "id": 679,
+      "title": "IK Multimedia AXE I/O",
+      "label": "Connectivity"
+    },
+    {
+      "id": 1066,
+      "title": "Solid State Logic SSL Native Channel Strip 2",
+      "label": "Platforms"
+    },
+    {
+      "id": 1068,
+      "title": "Universal Audio UAD API Vision Channel Strip",
+      "label": "Platforms"
+    },
+    {
+      "id": 1069,
+      "title": "Waves Scheps Omni Channel 2",
+      "label": "Platforms"
+    },
+    {
+      "id": 1070,
+      "title": "Waves Magma Tube Channel Strip",
+      "label": "Platforms"
+    },
+    {
+      "id": 1071,
+      "title": "Waves Scheps 73",
+      "label": "Platforms"
+    }
+  ],
+  "layers": [
+    {
+      "id": 15,
+      "title": "Focusrite Scarlett 2i2 4th Gen",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 16,
+      "title": "Universal Audio Apollo Twin X Gen 2",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 17,
+      "title": "RME Babyface Pro FS",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 18,
+      "title": "SSL 2+ MKII",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 33,
+      "title": "Roland TR-8S",
+      "label": "Tracks"
+    },
+    {
+      "id": 39,
+      "title": "Aston Microphones Shield GN Pop Filter",
+      "label": "Material"
+    },
+    {
+      "id": 53,
+      "title": "Audient iD14 MkII",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 54,
+      "title": "MOTU M2",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 55,
+      "title": "Universal Audio Volt 2",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 127,
+      "title": "Elektron Digitakt II",
+      "label": "Tracks"
+    },
+    {
+      "id": 129,
+      "title": "Novation Circuit Tracks",
+      "label": "Tracks"
+    },
+    {
+      "id": 140,
+      "title": "Yamaha P-225",
+      "label": "Polyphony"
+    },
+    {
+      "id": 141,
+      "title": "Roland FP-30X",
+      "label": "Polyphony"
+    },
+    {
+      "id": 142,
+      "title": "Korg Minilogue XD",
+      "label": "Polyphony"
+    },
+    {
+      "id": 143,
+      "title": "Moog Subsequent 37",
+      "label": "Polyphony"
+    },
+    {
+      "id": 167,
+      "title": "Mogami Gold Studio XLR Cable",
+      "label": "Shielding"
+    },
+    {
+      "id": 170,
+      "title": "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)",
+      "label": "Contents"
+    },
+    {
+      "id": 174,
+      "title": "Sequential OB-6 Keyboard",
+      "label": "Polyphony"
+    },
+    {
+      "id": 175,
+      "title": "Sequential Prophet-10",
+      "label": "Polyphony"
+    },
+    {
+      "id": 176,
+      "title": "Moog Muse",
+      "label": "Polyphony"
+    },
+    {
+      "id": 182,
+      "title": "Universal Audio Apollo x16 Gen 2",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 202,
+      "title": "Line 6 Helix HX Stomp",
+      "label": "Models"
+    },
+    {
+      "id": 203,
+      "title": "Boss GX-1",
+      "label": "Models"
+    },
+    {
+      "id": 205,
+      "title": "HeadRush Flex Prime",
+      "label": "Models"
+    },
+    {
+      "id": 256,
+      "title": "Akai MPC One G2",
+      "label": "Tracks"
+    },
+    {
+      "id": 258,
+      "title": "IK Multimedia TONEX ONE+",
+      "label": "Models"
+    },
+    {
+      "id": 259,
+      "title": "Line 6 POD Go",
+      "label": "Models"
+    },
+    {
+      "id": 262,
+      "title": "Audient EVO 4",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 263,
+      "title": "Universal Audio Volt 276",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 271,
+      "title": "Taylor GS Mini",
+      "label": "Back & sides"
+    },
+    {
+      "id": 328,
+      "title": "Arturia MiniFuse 2 OTG",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 352,
+      "title": "Gretsch G9500 Jim Dandy Flat Top",
+      "label": "Back & sides"
+    },
+    {
+      "id": 353,
+      "title": "Yamaha CSF1M Parlor Acoustic-Electric",
+      "label": "Back & sides"
+    },
+    {
+      "id": 354,
+      "title": "PRS SE P20e Tonare Parlor",
+      "label": "Back & sides"
+    },
+    {
+      "id": 355,
+      "title": "Epiphone L-00 Studio Parlor Acoustic-Electric",
+      "label": "Back & sides"
+    },
+    {
+      "id": 356,
+      "title": "Fender CP-60S Parlor Acoustic",
+      "label": "Back & sides"
+    },
+    {
+      "id": 357,
+      "title": "Gretsch G5021E Rancher Penguin Parlor",
+      "label": "Back & sides"
+    },
+    {
+      "id": 361,
+      "title": "Fender Highway Series Parlor All-Mahogany Acoustic-Electric",
+      "label": "Back & sides"
+    },
+    {
+      "id": 402,
+      "title": "Behringer X32",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 403,
+      "title": "Midas M32 LIVE",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 406,
+      "title": "PreSonus StudioLive SE 32R",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 408,
+      "title": "Mackie DL32SE",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 412,
+      "title": "PreSonus StudioLive 32S",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 414,
+      "title": "Allen & Heath SQ-6+",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 418,
+      "title": "Yamaha TF3",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 459,
+      "title": "Yamaha C40II Classical (Nylon) Guitar",
+      "label": "Back & sides"
+    },
+    {
+      "id": 475,
+      "title": "Arturia MicroFreak",
+      "label": "Polyphony"
+    },
+    {
+      "id": 476,
+      "title": "Behringer DeepMind 12",
+      "label": "Polyphony"
+    },
+    {
+      "id": 477,
+      "title": "ASM Hydrasynth",
+      "label": "Polyphony"
+    },
+    {
+      "id": 478,
+      "title": "Sequential Take 5",
+      "label": "Polyphony"
+    },
+    {
+      "id": 550,
+      "title": "Behringer U-Phoria UMC1820",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 551,
+      "title": "Arturia MiniFuse 2",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 553,
+      "title": "Fender CN-60S (Nylon)",
+      "label": "Back & sides"
+    },
+    {
+      "id": 554,
+      "title": "Takamine GC1 (Nylon)",
+      "label": "Back & sides"
+    },
+    {
+      "id": 558,
+      "title": "Behringer WING Rack",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 559,
+      "title": "Behringer X32 Rack",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 560,
+      "title": "Midas M32C",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 561,
+      "title": "Allen & Heath CQ-20B",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 563,
+      "title": "Allen & Heath SQ-Rack Digital Mixer",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 564,
+      "title": "PreSonus StudioLive SE 24R",
+      "label": "Mix Buses"
+    },
+    {
+      "id": 565,
+      "title": "Roland RP107 Digital Piano",
+      "label": "Polyphony"
+    },
+    {
+      "id": 567,
+      "title": "Yamaha Arius YDP-166",
+      "label": "Polyphony"
+    },
+    {
+      "id": 570,
+      "title": "Yamaha Clavinova CLP-835",
+      "label": "Polyphony"
+    },
+    {
+      "id": 571,
+      "title": "Casio Privia PX-S1100 Digital Piano",
+      "label": "Polyphony"
+    },
+    {
+      "id": 572,
+      "title": "Roland FP-10 Digital Piano",
+      "label": "Polyphony"
+    },
+    {
+      "id": 573,
+      "title": "Yamaha Arius YDP-146 Digital Piano",
+      "label": "Polyphony"
+    },
+    {
+      "id": 610,
+      "title": "Roland AIRA Compact T-8",
+      "label": "Tracks"
+    },
+    {
+      "id": 612,
+      "title": "Elektron Syntakt",
+      "label": "Tracks"
+    },
+    {
+      "id": 613,
+      "title": "Erica Synths Perkons HD-01",
+      "label": "Tracks"
+    },
+    {
+      "id": 614,
+      "title": "Arturia DrumBrute Impact",
+      "label": "Tracks"
+    },
+    {
+      "id": 679,
+      "title": "IK Multimedia AXE I/O",
+      "label": "Inputs / Outputs"
+    },
+    {
+      "id": 1058,
+      "title": "Cordoba C5 Classical Guitar",
+      "label": "Back & sides"
+    },
+    {
+      "id": 1059,
+      "title": "Ortega R121 Family Series Classical Guitar",
+      "label": "Back & sides"
+    },
+    {
+      "id": 1060,
+      "title": "Taylor Academy 12e-N Grand Concert Classical Guitar",
+      "label": "Back & sides"
+    },
+    {
+      "id": 1061,
+      "title": "Yamaha CG122MSH Classical Guitar",
+      "label": "Back & sides"
+    },
+    {
+      "id": 1062,
+      "title": "Ibanez GA35TCE Classical Guitar",
+      "label": "Back & sides"
+    },
+    {
+      "id": 1063,
+      "title": "Cordoba Protege C1 3/4 Classical Guitar",
+      "label": "Back & sides"
+    },
+    {
+      "id": 1064,
+      "title": "Admira Alba 4/4 Classical Guitar",
+      "label": "Back & sides"
+    },
+    {
+      "id": 1065,
+      "title": "Takamine GC1CE Electro Classical Guitar",
+      "label": "Back & sides"
+    }
+  ],
+  "speaker": [
+    {
+      "id": 19,
+      "title": "Yamaha HS8",
+      "label": "Woofer"
+    },
+    {
+      "id": 20,
+      "title": "KRK Rokit 7 G5",
+      "label": "Woofer"
+    },
+    {
+      "id": 21,
+      "title": "Adam Audio A7V",
+      "label": "Woofer"
+    },
+    {
+      "id": 22,
+      "title": "Genelec 8040B",
+      "label": "Woofer"
+    },
+    {
+      "id": 71,
+      "title": "Fender Blues Junior IV",
+      "label": "Speaker"
+    },
+    {
+      "id": 72,
+      "title": "Boss Katana 50 Gen 3",
+      "label": "Speaker"
+    },
+    {
+      "id": 73,
+      "title": "Vox AC30",
+      "label": "Speaker"
+    },
+    {
+      "id": 74,
+      "title": "Marshall DSL40CR",
+      "label": "Speaker"
+    },
+    {
+      "id": 75,
+      "title": "Ampeg Rocket Bass RB-210",
+      "label": "Speaker"
+    },
+    {
+      "id": 76,
+      "title": "Fender Rumble 500 V3",
+      "label": "Speaker"
+    },
+    {
+      "id": 116,
+      "title": "JBL 305P MkII",
+      "label": "Woofer"
+    },
+    {
+      "id": 117,
+      "title": "Kali Audio LP-6 V2",
+      "label": "Woofer"
+    },
+    {
+      "id": 130,
+      "title": "Fender Champion II 25",
+      "label": "Speaker"
+    },
+    {
+      "id": 131,
+      "title": "Orange Crush 35RT",
+      "label": "Speaker"
+    },
+    {
+      "id": 132,
+      "title": "Markbass Mini CMD 121P V",
+      "label": "Speaker"
+    },
+    {
+      "id": 180,
+      "title": "ADAM Audio S3H",
+      "label": "Woofer"
+    },
+    {
+      "id": 181,
+      "title": "Focal Trio11 Be",
+      "label": "Woofer"
+    },
+    {
+      "id": 191,
+      "title": "KRK S10.4",
+      "label": "Woofer"
+    },
+    {
+      "id": 192,
+      "title": "Yamaha HS8S",
+      "label": "Woofer"
+    },
+    {
+      "id": 193,
+      "title": "Adam T10S",
+      "label": "Woofer"
+    },
+    {
+      "id": 199,
+      "title": "Kali Audio IN-8 V2",
+      "label": "Woofer"
+    },
+    {
+      "id": 222,
+      "title": "ATC SCM25A Pro Mk2",
+      "label": "Woofer"
+    },
+    {
+      "id": 233,
+      "title": "QSC KS118 Powered Subwoofer",
+      "label": "Woofer"
+    },
+    {
+      "id": 234,
+      "title": "RCF SUB 8004-AS",
+      "label": "Woofer"
+    },
+    {
+      "id": 235,
+      "title": "Electro-Voice ELX200-18SP",
+      "label": "Woofer"
+    },
+    {
+      "id": 236,
+      "title": "JBL PRX918XLF",
+      "label": "Woofer"
+    },
+    {
+      "id": 237,
+      "title": "Yamaha DXS18XLF",
+      "label": "Woofer"
+    },
+    {
+      "id": 293,
+      "title": "Yamaha THR10II Desktop Modeling Amp",
+      "label": "Speaker"
+    },
+    {
+      "id": 294,
+      "title": "Positive Grid Spark 2",
+      "label": "Speaker"
+    },
+    {
+      "id": 300,
+      "title": "Kali Audio WS-6.2",
+      "label": "Woofer"
+    },
+    {
+      "id": 301,
+      "title": "IK Multimedia iLoud Sub",
+      "label": "Woofer"
+    },
+    {
+      "id": 302,
+      "title": "IK Multimedia iLoud Micro Monitor Pro",
+      "label": "Woofer"
+    },
+    {
+      "id": 303,
+      "title": "Genelec 8010A",
+      "label": "Woofer"
+    },
+    {
+      "id": 304,
+      "title": "Kali Audio IN-UNF",
+      "label": "Woofer"
+    },
+    {
+      "id": 305,
+      "title": "Neumann KH 80 DSP",
+      "label": "Woofer"
+    },
+    {
+      "id": 306,
+      "title": "ADAM Audio D3V",
+      "label": "Woofer"
+    },
+    {
+      "id": 307,
+      "title": "Kali Audio LP-UNF",
+      "label": "Woofer"
+    },
+    {
+      "id": 308,
+      "title": "IK Multimedia iLoud MTM MKII",
+      "label": "Woofer"
+    },
+    {
+      "id": 331,
+      "title": "Genelec 8351B SAM 3-Way Coaxial Studio Monitor",
+      "label": "Woofer"
+    },
+    {
+      "id": 337,
+      "title": "Neumann KH 750 DSP 10\" Powered Studio Subwoofer",
+      "label": "Woofer"
+    },
+    {
+      "id": 338,
+      "title": "Genelec 7050C Studio Subwoofer",
+      "label": "Woofer"
+    },
+    {
+      "id": 371,
+      "title": "ADAM Audio T5V",
+      "label": "Woofer"
+    },
+    {
+      "id": 372,
+      "title": "Genelec 8030C",
+      "label": "Woofer"
+    },
+    {
+      "id": 468,
+      "title": "Neumann KH 810 II 10\" Powered Studio Subwoofer",
+      "label": "Woofer"
+    },
+    {
+      "id": 470,
+      "title": "ATC SCS120 Pro Active Studio Subwoofer",
+      "label": "Woofer"
+    },
+    {
+      "id": 479,
+      "title": "Focal Sub12 13\" Professional Studio Subwoofer",
+      "label": "Woofer"
+    },
+    {
+      "id": 480,
+      "title": "Genelec 7370A SAM 12\" Smart Active Studio Subwoofer",
+      "label": "Woofer"
+    },
+    {
+      "id": 481,
+      "title": "Barefoot Sound MicroSub45 Dual-Force 8\" Active Studio Subwoofer (Pair)",
+      "label": "Woofer"
+    },
+    {
+      "id": 484,
+      "title": "Orange Crush Bass 50 1x12 Bass Combo",
+      "label": "Speaker"
+    },
+    {
+      "id": 485,
+      "title": "Darkglass DG210A Microtubes 500 2x10 Bass Combo",
+      "label": "Speaker"
+    },
+    {
+      "id": 488,
+      "title": "Boss Waza-Air",
+      "label": "Speaker"
+    },
+    {
+      "id": 489,
+      "title": "Positive Grid Spark MINI",
+      "label": "Speaker"
+    },
+    {
+      "id": 490,
+      "title": "Fender Rumble 40 V3",
+      "label": "Speaker"
+    },
+    {
+      "id": 491,
+      "title": "Orange Crush Bass 25",
+      "label": "Speaker"
+    },
+    {
+      "id": 492,
+      "title": "Boss WAZA-AIR Bass",
+      "label": "Speaker"
+    },
+    {
+      "id": 503,
+      "title": "Yamaha THR30II Wireless Desktop Amp",
+      "label": "Speaker"
+    },
+    {
+      "id": 552,
+      "title": "Boss Katana-110 Bass",
+      "label": "Speaker"
+    },
+    {
+      "id": 556,
+      "title": "Ampeg Rocket Bass RB-115",
+      "label": "Speaker"
+    },
+    {
+      "id": 557,
+      "title": "Boss Katana-50 EX Gen 3",
+      "label": "Speaker"
+    },
+    {
+      "id": 627,
+      "title": "Fender Mustang GTX100",
+      "label": "Speaker"
+    },
+    {
+      "id": 628,
+      "title": "Markbass CMD 102 P V",
+      "label": "Speaker"
+    },
+    {
+      "id": 629,
+      "title": "Fender Tone Master Deluxe Reverb",
+      "label": "Speaker"
+    },
+    {
+      "id": 630,
+      "title": "Alto Professional TS18S",
+      "label": "Woofer"
+    },
+    {
+      "id": 631,
+      "title": "JBL EON718S",
+      "label": "Woofer"
+    },
+    {
+      "id": 632,
+      "title": "Yamaha HS5",
+      "label": "Woofer"
+    },
+    {
+      "id": 633,
+      "title": "KRK Rokit 5 G5",
+      "label": "Woofer"
+    },
+    {
+      "id": 645,
+      "title": "Focal Alpha 65 Evo",
+      "label": "Woofer"
+    },
+    {
+      "id": 684,
+      "title": "PreSonus Eris Studio 5",
+      "label": "Woofer"
+    },
+    {
+      "id": 1042,
+      "title": "PreSonus Eris 3.5 2nd Gen",
+      "label": "Woofer"
+    },
+    {
+      "id": 1043,
+      "title": "M-Audio BX4",
+      "label": "Woofer"
+    },
+    {
+      "id": 1046,
+      "title": "Mackie CR3.5",
+      "label": "Woofer"
+    },
+    {
+      "id": 1048,
+      "title": "Mackie CR4.5",
+      "label": "Woofer"
+    },
+    {
+      "id": 1049,
+      "title": "Behringer Truth 3.5 BT",
+      "label": "Woofer"
+    },
+    {
+      "id": 1052,
+      "title": "Alesis ELEVATE 4",
+      "label": "Woofer"
+    },
+    {
+      "id": 1054,
+      "title": "Focal Shape 65",
+      "label": "Woofer"
+    },
+    {
+      "id": 1072,
+      "title": "Focal Twin6 ST6",
+      "label": "Woofer"
+    }
+  ],
+  "gauge": [
+    {
+      "id": 19,
+      "title": "Yamaha HS8",
+      "label": "Power"
+    },
+    {
+      "id": 20,
+      "title": "KRK Rokit 7 G5",
+      "label": "Power"
+    },
+    {
+      "id": 21,
+      "title": "Adam Audio A7V",
+      "label": "Power"
+    },
+    {
+      "id": 22,
+      "title": "Genelec 8040B",
+      "label": "Power"
+    },
+    {
+      "id": 23,
+      "title": "Beyerdynamic DT 770 Pro",
+      "label": "Impedance"
+    },
+    {
+      "id": 24,
+      "title": "Sennheiser HD 490 Pro",
+      "label": "Impedance"
+    },
+    {
+      "id": 25,
+      "title": "Audio-Technica ATH-M50x",
+      "label": "Impedance"
+    },
+    {
+      "id": 26,
+      "title": "Sony MDR-7506",
+      "label": "Impedance"
+    },
+    {
+      "id": 39,
+      "title": "Aston Microphones Shield GN Pop Filter",
+      "label": "Mesh"
+    },
+    {
+      "id": 56,
+      "title": "Beyerdynamic DT 990 Pro",
+      "label": "Impedance"
+    },
+    {
+      "id": 57,
+      "title": "AKG K371",
+      "label": "Impedance"
+    },
+    {
+      "id": 58,
+      "title": "K&M 210/2 Mic Stand",
+      "label": "Boom"
+    },
+    {
+      "id": 71,
+      "title": "Fender Blues Junior IV",
+      "label": "Power"
+    },
+    {
+      "id": 72,
+      "title": "Boss Katana 50 Gen 3",
+      "label": "Power"
+    },
+    {
+      "id": 73,
+      "title": "Vox AC30",
+      "label": "Power"
+    },
+    {
+      "id": 74,
+      "title": "Marshall DSL40CR",
+      "label": "Power"
+    },
+    {
+      "id": 75,
+      "title": "Ampeg Rocket Bass RB-210",
+      "label": "Power"
+    },
+    {
+      "id": 76,
+      "title": "Fender Rumble 500 V3",
+      "label": "Power"
+    },
+    {
+      "id": 98,
+      "title": "Boss TU-3 Chromatic Tuner",
+      "label": "Accuracy"
+    },
+    {
+      "id": 9001,
+      "title": "TC Electronic Polytune Clip",
+      "label": "Accuracy"
+    },
+    {
+      "id": 61,
+      "title": "Peterson StroboClip HD Clip-On Tuner",
+      "label": "Accuracy"
+    },
+    {
+      "id": 105,
+      "title": "EV ZLX-12P-G2 Active PA Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 106,
+      "title": "QSC K12.2 Active PA Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 108,
+      "title": "Yamaha DXR12mkII Active PA Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 109,
+      "title": "JBL PRX ONE Active PA Column",
+      "label": "Power"
+    },
+    {
+      "id": 116,
+      "title": "JBL 305P MkII",
+      "label": "Power"
+    },
+    {
+      "id": 117,
+      "title": "Kali Audio LP-6 V2",
+      "label": "Power"
+    },
+    {
+      "id": 130,
+      "title": "Fender Champion II 25",
+      "label": "Power"
+    },
+    {
+      "id": 131,
+      "title": "Orange Crush 35RT",
+      "label": "Power"
+    },
+    {
+      "id": 132,
+      "title": "Markbass Mini CMD 121P V",
+      "label": "Power"
+    },
+    {
+      "id": 151,
+      "title": "Mackie Thump215XT",
+      "label": "Power"
+    },
+    {
+      "id": 152,
+      "title": "Yamaha Stagepas 1K MKII Active PA Mixer",
+      "label": "Power"
+    },
+    {
+      "id": 153,
+      "title": "Alto Professional TS412 Active PA Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 154,
+      "title": "Yamaha DBR12 Active PA Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 173,
+      "title": "AcouFoam 6 Monitor Isolation Pads, Pair",
+      "label": "Angles"
+    },
+    {
+      "id": 177,
+      "title": "Audeze LCD-MX4",
+      "label": "Impedance"
+    },
+    {
+      "id": 178,
+      "title": "Audeze LCD-X",
+      "label": "Impedance"
+    },
+    {
+      "id": 180,
+      "title": "ADAM Audio S3H",
+      "label": "Power"
+    },
+    {
+      "id": 181,
+      "title": "Focal Trio11 Be",
+      "label": "Power"
+    },
+    {
+      "id": 182,
+      "title": "Universal Audio Apollo x16 Gen 2",
+      "label": "Conversion"
+    },
+    {
+      "id": 183,
+      "title": "RME Fireface UFX III",
+      "label": "Conversion"
+    },
+    {
+      "id": 191,
+      "title": "KRK S10.4",
+      "label": "Power"
+    },
+    {
+      "id": 192,
+      "title": "Yamaha HS8S",
+      "label": "Power"
+    },
+    {
+      "id": 193,
+      "title": "Adam T10S",
+      "label": "Power"
+    },
+    {
+      "id": 198,
+      "title": "Audio-Technica ATH-M40x",
+      "label": "Impedance"
+    },
+    {
+      "id": 199,
+      "title": "Kali Audio IN-8 V2",
+      "label": "Power"
+    },
+    {
+      "id": 216,
+      "title": "RCF NX 912-SMA",
+      "label": "Power"
+    },
+    {
+      "id": 217,
+      "title": "Electro-Voice PXM-12MP",
+      "label": "Power"
+    },
+    {
+      "id": 218,
+      "title": "LD Systems MON 12 A G3",
+      "label": "Power"
+    },
+    {
+      "id": 219,
+      "title": "Yamaha DHR12M",
+      "label": "Power"
+    },
+    {
+      "id": 222,
+      "title": "ATC SCM25A Pro Mk2",
+      "label": "Power"
+    },
+    {
+      "id": 233,
+      "title": "QSC KS118 Powered Subwoofer",
+      "label": "Power"
+    },
+    {
+      "id": 234,
+      "title": "RCF SUB 8004-AS",
+      "label": "Power"
+    },
+    {
+      "id": 235,
+      "title": "Electro-Voice ELX200-18SP",
+      "label": "Power"
+    },
+    {
+      "id": 236,
+      "title": "JBL PRX918XLF",
+      "label": "Power"
+    },
+    {
+      "id": 237,
+      "title": "Yamaha DXS18XLF",
+      "label": "Power"
+    },
+    {
+      "id": 293,
+      "title": "Yamaha THR10II Desktop Modeling Amp",
+      "label": "Power"
+    },
+    {
+      "id": 294,
+      "title": "Positive Grid Spark 2",
+      "label": "Power"
+    },
+    {
+      "id": 300,
+      "title": "Kali Audio WS-6.2",
+      "label": "Power"
+    },
+    {
+      "id": 301,
+      "title": "IK Multimedia iLoud Sub",
+      "label": "Power"
+    },
+    {
+      "id": 302,
+      "title": "IK Multimedia iLoud Micro Monitor Pro",
+      "label": "Power"
+    },
+    {
+      "id": 303,
+      "title": "Genelec 8010A",
+      "label": "Power"
+    },
+    {
+      "id": 304,
+      "title": "Kali Audio IN-UNF",
+      "label": "Power"
+    },
+    {
+      "id": 305,
+      "title": "Neumann KH 80 DSP",
+      "label": "Power"
+    },
+    {
+      "id": 306,
+      "title": "ADAM Audio D3V",
+      "label": "Power"
+    },
+    {
+      "id": 307,
+      "title": "Kali Audio LP-UNF",
+      "label": "Power"
+    },
+    {
+      "id": 308,
+      "title": "IK Multimedia iLoud MTM MKII",
+      "label": "Power"
+    },
+    {
+      "id": 331,
+      "title": "Genelec 8351B SAM 3-Way Coaxial Studio Monitor",
+      "label": "Power"
+    },
+    {
+      "id": 337,
+      "title": "Neumann KH 750 DSP 10\" Powered Studio Subwoofer",
+      "label": "Power"
+    },
+    {
+      "id": 338,
+      "title": "Genelec 7050C Studio Subwoofer",
+      "label": "Power"
+    },
+    {
+      "id": 371,
+      "title": "ADAM Audio T5V",
+      "label": "Power"
+    },
+    {
+      "id": 372,
+      "title": "Genelec 8030C",
+      "label": "Power"
+    },
+    {
+      "id": 419,
+      "title": "Sennheiser HD 280 PRO II",
+      "label": "Impedance"
+    },
+    {
+      "id": 420,
+      "title": "Shure SRH440A",
+      "label": "Impedance"
+    },
+    {
+      "id": 421,
+      "title": "Focal Listen Professional",
+      "label": "Impedance"
+    },
+    {
+      "id": 422,
+      "title": "Sennheiser HD 600",
+      "label": "Impedance"
+    },
+    {
+      "id": 423,
+      "title": "Audio-Technica ATH-R70xa",
+      "label": "Impedance"
+    },
+    {
+      "id": 424,
+      "title": "Neumann NDH 30",
+      "label": "Impedance"
+    },
+    {
+      "id": 426,
+      "title": "Sennheiser HD 560S",
+      "label": "Impedance"
+    },
+    {
+      "id": 427,
+      "title": "Audio-Technica ATH-R30x",
+      "label": "Impedance"
+    },
+    {
+      "id": 428,
+      "title": "Samson SR850",
+      "label": "Impedance"
+    },
+    {
+      "id": 468,
+      "title": "Neumann KH 810 II 10\" Powered Studio Subwoofer",
+      "label": "Power"
+    },
+    {
+      "id": 470,
+      "title": "ATC SCS120 Pro Active Studio Subwoofer",
+      "label": "Power"
+    },
+    {
+      "id": 479,
+      "title": "Focal Sub12 13\" Professional Studio Subwoofer",
+      "label": "Power"
+    },
+    {
+      "id": 480,
+      "title": "Genelec 7370A SAM 12\" Smart Active Studio Subwoofer",
+      "label": "Power"
+    },
+    {
+      "id": 481,
+      "title": "Barefoot Sound MicroSub45 Dual-Force 8\" Active Studio Subwoofer (Pair)",
+      "label": "Power"
+    },
+    {
+      "id": 484,
+      "title": "Orange Crush Bass 50 1x12 Bass Combo",
+      "label": "Power"
+    },
+    {
+      "id": 485,
+      "title": "Darkglass DG210A Microtubes 500 2x10 Bass Combo",
+      "label": "Power"
+    },
+    {
+      "id": 488,
+      "title": "Boss Waza-Air",
+      "label": "Power"
+    },
+    {
+      "id": 489,
+      "title": "Positive Grid Spark MINI",
+      "label": "Power"
+    },
+    {
+      "id": 490,
+      "title": "Fender Rumble 40 V3",
+      "label": "Power"
+    },
+    {
+      "id": 491,
+      "title": "Orange Crush Bass 25",
+      "label": "Power"
+    },
+    {
+      "id": 492,
+      "title": "Boss WAZA-AIR Bass",
+      "label": "Power"
+    },
+    {
+      "id": 493,
+      "title": "JBL EON712 Active PA Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 494,
+      "title": "LD Systems ICOA 12 A BT Active PA Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 495,
+      "title": "EV ELX200-15P Active PA Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 496,
+      "title": "JBL PRX915 Powered Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 497,
+      "title": "JBL JRX215 Passive Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 499,
+      "title": "Yamaha CBR12 Passive Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 500,
+      "title": "EV ELX200-12 Passive Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 501,
+      "title": "Turbosound Flashline TFX122M-AN Stage Monitor",
+      "label": "Power"
+    },
+    {
+      "id": 502,
+      "title": "Mackie SRT215 Active PA Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 503,
+      "title": "Yamaha THR30II Wireless Desktop Amp",
+      "label": "Power"
+    },
+    {
+      "id": 512,
+      "title": "Neumann MT 48 (U) Premium Audio Interface",
+      "label": "Conversion"
+    },
+    {
+      "id": 513,
+      "title": "Universal Audio Apollo x8p Gen 2",
+      "label": "Conversion"
+    },
+    {
+      "id": 515,
+      "title": "Audient ORIA Immersive Audio Interface",
+      "label": "Conversion"
+    },
+    {
+      "id": 552,
+      "title": "Boss Katana-110 Bass",
+      "label": "Power"
+    },
+    {
+      "id": 556,
+      "title": "Ampeg Rocket Bass RB-115",
+      "label": "Power"
+    },
+    {
+      "id": 557,
+      "title": "Boss Katana-50 EX Gen 3",
+      "label": "Power"
+    },
+    {
+      "id": 602,
+      "title": "Beyerdynamic DT 900 Pro X",
+      "label": "Impedance"
+    },
+    {
+      "id": 603,
+      "title": "Beyerdynamic DT 1990 Pro MKII",
+      "label": "Impedance"
+    },
+    {
+      "id": 604,
+      "title": "AKG K240 Studio",
+      "label": "Impedance"
+    },
+    {
+      "id": 605,
+      "title": "Neumann NDH 20",
+      "label": "Impedance"
+    },
+    {
+      "id": 606,
+      "title": "Sennheiser HD 300 Pro",
+      "label": "Impedance"
+    },
+    {
+      "id": 608,
+      "title": "Audio-Technica ATH-M70x",
+      "label": "Impedance"
+    },
+    {
+      "id": 609,
+      "title": "Audio-Technica ATH-M20x",
+      "label": "Impedance"
+    },
+    {
+      "id": 626,
+      "title": "Electro-Voice EVERSE 12 Active PA Speaker",
+      "label": "Power"
+    },
+    {
+      "id": 627,
+      "title": "Fender Mustang GTX100",
+      "label": "Power"
+    },
+    {
+      "id": 628,
+      "title": "Markbass CMD 102 P V",
+      "label": "Power"
+    },
+    {
+      "id": 629,
+      "title": "Fender Tone Master Deluxe Reverb",
+      "label": "Power"
+    },
+    {
+      "id": 630,
+      "title": "Alto Professional TS18S",
+      "label": "Power"
+    },
+    {
+      "id": 631,
+      "title": "JBL EON718S",
+      "label": "Power"
+    },
+    {
+      "id": 632,
+      "title": "Yamaha HS5",
+      "label": "Power"
+    },
+    {
+      "id": 633,
+      "title": "KRK Rokit 5 G5",
+      "label": "Power"
+    },
+    {
+      "id": 645,
+      "title": "Focal Alpha 65 Evo",
+      "label": "Power"
+    },
+    {
+      "id": 646,
+      "title": "IsoAcoustics ISO-200 Studio Monitor Stands (Pair)",
+      "label": "Tilt"
+    },
+    {
+      "id": 647,
+      "title": "Sonarworks SoundID Reference",
+      "label": "Accuracy"
+    },
+    {
+      "id": 676,
+      "title": "Audient Horizon 8P",
+      "label": "Conversion"
+    },
+    {
+      "id": 677,
+      "title": "Antelope Orion Studio Synergy Core",
+      "label": "Conversion"
+    },
+    {
+      "id": 684,
+      "title": "PreSonus Eris Studio 5",
+      "label": "Power"
+    },
+    {
+      "id": 1042,
+      "title": "PreSonus Eris 3.5 2nd Gen",
+      "label": "Power"
+    },
+    {
+      "id": 1043,
+      "title": "M-Audio BX4",
+      "label": "Power"
+    },
+    {
+      "id": 1046,
+      "title": "Mackie CR3.5",
+      "label": "Power"
+    },
+    {
+      "id": 1048,
+      "title": "Mackie CR4.5",
+      "label": "Power"
+    },
+    {
+      "id": 1049,
+      "title": "Behringer Truth 3.5 BT",
+      "label": "Power"
+    },
+    {
+      "id": 1050,
+      "title": "Audeze MM-500",
+      "label": "Impedance"
+    },
+    {
+      "id": 1052,
+      "title": "Alesis ELEVATE 4",
+      "label": "Power"
+    },
+    {
+      "id": 1053,
+      "title": "Sennheiser HD 490 Pro Plus",
+      "label": "Impedance"
+    },
+    {
+      "id": 1054,
+      "title": "Focal Shape 65",
+      "label": "Power"
+    },
+    {
+      "id": 1072,
+      "title": "Focal Twin6 ST6",
+      "label": "Power"
+    },
+    {
+      "id": 9003,
+      "title": "Peterson StroboStomp HD",
+      "label": "Accuracy"
+    },
+    {
+      "id": 9004,
+      "title": "TC Electronic PolyTune 3",
+      "label": "Accuracy"
+    },
+    {
+      "id": 9005,
+      "title": "Korg Pitchblack X",
+      "label": "Accuracy"
+    },
+    {
+      "id": 9006,
+      "title": "Walrus Audio Canvas Tuner",
+      "label": "Accuracy"
+    },
+    {
+      "id": 9007,
+      "title": "Korg AW-LT100B Clip-On Bass Tuner",
+      "label": "Accuracy"
+    },
+    {
+      "id": 9008,
+      "title": "Snark ST-8 Super Tight Rechargable Tuner, Titanium",
+      "label": "Accuracy"
+    }
+  ],
+  "headphones": [
+    {
+      "id": 23,
+      "title": "Beyerdynamic DT 770 Pro",
+      "label": "Type"
+    },
+    {
+      "id": 24,
+      "title": "Sennheiser HD 490 Pro",
+      "label": "Type"
+    },
+    {
+      "id": 25,
+      "title": "Audio-Technica ATH-M50x",
+      "label": "Type"
+    },
+    {
+      "id": 26,
+      "title": "Sony MDR-7506",
+      "label": "Type"
+    },
+    {
+      "id": 56,
+      "title": "Beyerdynamic DT 990 Pro",
+      "label": "Type"
+    },
+    {
+      "id": 57,
+      "title": "AKG K371",
+      "label": "Type"
+    },
+    {
+      "id": 177,
+      "title": "Audeze LCD-MX4",
+      "label": "Type"
+    },
+    {
+      "id": 178,
+      "title": "Audeze LCD-X",
+      "label": "Type"
+    },
+    {
+      "id": 198,
+      "title": "Audio-Technica ATH-M40x",
+      "label": "Type"
+    },
+    {
+      "id": 268,
+      "title": "Sennheiser IE 900",
+      "label": "Type"
+    },
+    {
+      "id": 269,
+      "title": "Shure SE846 Gen 2",
+      "label": "Type"
+    },
+    {
+      "id": 419,
+      "title": "Sennheiser HD 280 PRO II",
+      "label": "Type"
+    },
+    {
+      "id": 420,
+      "title": "Shure SRH440A",
+      "label": "Type"
+    },
+    {
+      "id": 421,
+      "title": "Focal Listen Professional",
+      "label": "Type"
+    },
+    {
+      "id": 422,
+      "title": "Sennheiser HD 600",
+      "label": "Type"
+    },
+    {
+      "id": 423,
+      "title": "Audio-Technica ATH-R70xa",
+      "label": "Type"
+    },
+    {
+      "id": 424,
+      "title": "Neumann NDH 30",
+      "label": "Type"
+    },
+    {
+      "id": 426,
+      "title": "Sennheiser HD 560S",
+      "label": "Type"
+    },
+    {
+      "id": 427,
+      "title": "Audio-Technica ATH-R30x",
+      "label": "Type"
+    },
+    {
+      "id": 428,
+      "title": "Samson SR850",
+      "label": "Type"
+    },
+    {
+      "id": 602,
+      "title": "Beyerdynamic DT 900 Pro X",
+      "label": "Type"
+    },
+    {
+      "id": 603,
+      "title": "Beyerdynamic DT 1990 Pro MKII",
+      "label": "Type"
+    },
+    {
+      "id": 604,
+      "title": "AKG K240 Studio",
+      "label": "Type"
+    },
+    {
+      "id": 605,
+      "title": "Neumann NDH 20",
+      "label": "Type"
+    },
+    {
+      "id": 606,
+      "title": "Sennheiser HD 300 Pro",
+      "label": "Type"
+    },
+    {
+      "id": 608,
+      "title": "Audio-Technica ATH-M70x",
+      "label": "Type"
+    },
+    {
+      "id": 609,
+      "title": "Audio-Technica ATH-M20x",
+      "label": "Type"
+    },
+    {
+      "id": 647,
+      "title": "Sonarworks SoundID Reference",
+      "label": "Profiles"
+    },
+    {
+      "id": 1050,
+      "title": "Audeze MM-500",
+      "label": "Type"
+    },
+    {
+      "id": 1053,
+      "title": "Sennheiser HD 490 Pro Plus",
+      "label": "Type"
+    }
+  ],
+  "cone": [
+    {
+      "id": 23,
+      "title": "Beyerdynamic DT 770 Pro",
+      "label": "Driver size"
+    },
+    {
+      "id": 24,
+      "title": "Sennheiser HD 490 Pro",
+      "label": "Driver size"
+    },
+    {
+      "id": 25,
+      "title": "Audio-Technica ATH-M50x",
+      "label": "Driver size"
+    },
+    {
+      "id": 26,
+      "title": "Sony MDR-7506",
+      "label": "Driver size"
+    },
+    {
+      "id": 56,
+      "title": "Beyerdynamic DT 990 Pro",
+      "label": "Driver size"
+    },
+    {
+      "id": 57,
+      "title": "AKG K371",
+      "label": "Driver size"
+    },
+    {
+      "id": 105,
+      "title": "EV ZLX-12P-G2 Active PA Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 106,
+      "title": "QSC K12.2 Active PA Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 108,
+      "title": "Yamaha DXR12mkII Active PA Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 109,
+      "title": "JBL PRX ONE Active PA Column",
+      "label": "Coverage"
+    },
+    {
+      "id": 151,
+      "title": "Mackie Thump215XT",
+      "label": "Coverage"
+    },
+    {
+      "id": 152,
+      "title": "Yamaha Stagepas 1K MKII Active PA Mixer",
+      "label": "Coverage"
+    },
+    {
+      "id": 153,
+      "title": "Alto Professional TS412 Active PA Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 154,
+      "title": "Yamaha DBR12 Active PA Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 177,
+      "title": "Audeze LCD-MX4",
+      "label": "Driver size"
+    },
+    {
+      "id": 178,
+      "title": "Audeze LCD-X",
+      "label": "Driver size"
+    },
+    {
+      "id": 198,
+      "title": "Audio-Technica ATH-M40x",
+      "label": "Driver size"
+    },
+    {
+      "id": 216,
+      "title": "RCF NX 912-SMA",
+      "label": "Coverage"
+    },
+    {
+      "id": 217,
+      "title": "Electro-Voice PXM-12MP",
+      "label": "Coverage"
+    },
+    {
+      "id": 218,
+      "title": "LD Systems MON 12 A G3",
+      "label": "Coverage"
+    },
+    {
+      "id": 219,
+      "title": "Yamaha DHR12M",
+      "label": "Coverage"
+    },
+    {
+      "id": 268,
+      "title": "Sennheiser IE 900",
+      "label": "Driver size"
+    },
+    {
+      "id": 269,
+      "title": "Shure SE846 Gen 2",
+      "label": "Driver size"
+    },
+    {
+      "id": 419,
+      "title": "Sennheiser HD 280 PRO II",
+      "label": "Driver size"
+    },
+    {
+      "id": 420,
+      "title": "Shure SRH440A",
+      "label": "Driver size"
+    },
+    {
+      "id": 421,
+      "title": "Focal Listen Professional",
+      "label": "Driver size"
+    },
+    {
+      "id": 422,
+      "title": "Sennheiser HD 600",
+      "label": "Driver size"
+    },
+    {
+      "id": 423,
+      "title": "Audio-Technica ATH-R70xa",
+      "label": "Driver size"
+    },
+    {
+      "id": 424,
+      "title": "Neumann NDH 30",
+      "label": "Driver size"
+    },
+    {
+      "id": 426,
+      "title": "Sennheiser HD 560S",
+      "label": "Driver size"
+    },
+    {
+      "id": 427,
+      "title": "Audio-Technica ATH-R30x",
+      "label": "Driver size"
+    },
+    {
+      "id": 428,
+      "title": "Samson SR850",
+      "label": "Driver size"
+    },
+    {
+      "id": 493,
+      "title": "JBL EON712 Active PA Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 494,
+      "title": "LD Systems ICOA 12 A BT Active PA Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 495,
+      "title": "EV ELX200-15P Active PA Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 496,
+      "title": "JBL PRX915 Powered Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 497,
+      "title": "JBL JRX215 Passive Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 499,
+      "title": "Yamaha CBR12 Passive Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 500,
+      "title": "EV ELX200-12 Passive Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 501,
+      "title": "Turbosound Flashline TFX122M-AN Stage Monitor",
+      "label": "Coverage"
+    },
+    {
+      "id": 502,
+      "title": "Mackie SRT215 Active PA Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 602,
+      "title": "Beyerdynamic DT 900 Pro X",
+      "label": "Driver size"
+    },
+    {
+      "id": 603,
+      "title": "Beyerdynamic DT 1990 Pro MKII",
+      "label": "Driver size"
+    },
+    {
+      "id": 604,
+      "title": "AKG K240 Studio",
+      "label": "Driver size"
+    },
+    {
+      "id": 605,
+      "title": "Neumann NDH 20",
+      "label": "Driver size"
+    },
+    {
+      "id": 608,
+      "title": "Audio-Technica ATH-M70x",
+      "label": "Driver size"
+    },
+    {
+      "id": 609,
+      "title": "Audio-Technica ATH-M20x",
+      "label": "Driver size"
+    },
+    {
+      "id": 626,
+      "title": "Electro-Voice EVERSE 12 Active PA Speaker",
+      "label": "Coverage"
+    },
+    {
+      "id": 1050,
+      "title": "Audeze MM-500",
+      "label": "Driver size"
+    },
+    {
+      "id": 1053,
+      "title": "Sennheiser HD 490 Pro Plus",
+      "label": "Driver size"
+    }
+  ],
+  "sliders": [
+    {
+      "id": 29,
+      "title": "FabFilter Total Bundle",
+      "label": "Type"
+    },
+    {
+      "id": 30,
+      "title": "iZotope Ozone 12 Advanced",
+      "label": "Type"
+    },
+    {
+      "id": 32,
+      "title": "Soundtoys 5.5 Bundle",
+      "label": "Type"
+    },
+    {
+      "id": 42,
+      "title": "SSL UF8 DAW Controller",
+      "label": "Faders"
+    },
+    {
+      "id": 60,
+      "title": "Universal Audio 1176 Classic Limiter Collection",
+      "label": "Type"
+    },
+    {
+      "id": 9009,
+      "title": "Tokyo Dawn Labs TDR Kotelnikov GE",
+      "label": "Type"
+    },
+    {
+      "id": 62,
+      "title": "FabFilter Pro-Q 4",
+      "label": "Type"
+    },
+    {
+      "id": 63,
+      "title": "FabFilter Pro-C 3",
+      "label": "Type"
+    },
+    {
+      "id": 107,
+      "title": "Shure BLX24R/SM58 Wireless",
+      "label": "Type"
+    },
+    {
+      "id": 119,
+      "title": "Waves SSL G-Master Buss Compressor",
+      "label": "Type"
+    },
+    {
+      "id": 120,
+      "title": "Celemony Melodyne 5",
+      "label": "Type"
+    },
+    {
+      "id": 121,
+      "title": "Universal Audio UAD Ultimate 14",
+      "label": "Type"
+    },
+    {
+      "id": 122,
+      "title": "iZotope RX 12 Advanced",
+      "label": "Type"
+    },
+    {
+      "id": 123,
+      "title": "Native Instruments Komplete 26 Ultimate",
+      "label": "Type"
+    },
+    {
+      "id": 137,
+      "title": "Yamaha MG10XU",
+      "label": "Channels"
+    },
+    {
+      "id": 138,
+      "title": "Behringer X32 Compact",
+      "label": "Channels"
+    },
+    {
+      "id": 139,
+      "title": "Allen & Heath SQ-5",
+      "label": "Channels"
+    },
+    {
+      "id": 145,
+      "title": "Behringer X Air XR18",
+      "label": "Channels"
+    },
+    {
+      "id": 146,
+      "title": "Mackie ProFX12v3",
+      "label": "Channels"
+    },
+    {
+      "id": 147,
+      "title": "Allen & Heath CQ-18T",
+      "label": "Channels"
+    },
+    {
+      "id": 148,
+      "title": "Midas M32R LIVE",
+      "label": "Channels"
+    },
+    {
+      "id": 149,
+      "title": "Yamaha MG16XU",
+      "label": "Channels"
+    },
+    {
+      "id": 150,
+      "title": "Behringer Xenyx X1222USB",
+      "label": "Channels"
+    },
+    {
+      "id": 188,
+      "title": "Akai MPC Live III",
+      "label": "Effects"
+    },
+    {
+      "id": 238,
+      "title": "Eventide Blackhole",
+      "label": "Type"
+    },
+    {
+      "id": 243,
+      "title": "Elgato Stream Deck+",
+      "label": "Controls"
+    },
+    {
+      "id": 244,
+      "title": "Rode Streamer X",
+      "label": "Controls"
+    },
+    {
+      "id": 246,
+      "title": "Elgato Wave XLR MK.2",
+      "label": "Controls"
+    },
+    {
+      "id": 247,
+      "title": "Mackie DLZ Creator",
+      "label": "Controls"
+    },
+    {
+      "id": 248,
+      "title": "RØDE RØDECaster Pro II",
+      "label": "Controls"
+    },
+    {
+      "id": 255,
+      "title": "Roland SP-404MKII",
+      "label": "Effects"
+    },
+    {
+      "id": 257,
+      "title": "Akai MPC Sample",
+      "label": "Effects"
+    },
+    {
+      "id": 264,
+      "title": "Elgato Stream Deck + XL",
+      "label": "Controls"
+    },
+    {
+      "id": 265,
+      "title": "Razer Stream Controller",
+      "label": "Controls"
+    },
+    {
+      "id": 332,
+      "title": "Tascam Model 12",
+      "label": "Channels"
+    },
+    {
+      "id": 333,
+      "title": "Allen & Heath ZEDi-10FX",
+      "label": "Channels"
+    },
+    {
+      "id": 334,
+      "title": "SSL BiG SiX",
+      "label": "Channels"
+    },
+    {
+      "id": 335,
+      "title": "Korg SoundLink MW-1608",
+      "label": "Channels"
+    },
+    {
+      "id": 374,
+      "title": "Cableguys ShaperBox 3",
+      "label": "Type"
+    },
+    {
+      "id": 375,
+      "title": "XLN Audio RC-20 Retro Color",
+      "label": "Type"
+    },
+    {
+      "id": 376,
+      "title": "Cableguys HalfTime",
+      "label": "Type"
+    },
+    {
+      "id": 377,
+      "title": "Baby Audio Transit 2",
+      "label": "Type"
+    },
+    {
+      "id": 378,
+      "title": "Sonnox VoxDoubler",
+      "label": "Type"
+    },
+    {
+      "id": 379,
+      "title": "Universal Audio UAD SSL 4000 E Channel Strip",
+      "label": "Type"
+    },
+    {
+      "id": 380,
+      "title": "Devious Machines Infiltrator 2",
+      "label": "Type"
+    },
+    {
+      "id": 381,
+      "title": "iZotope Neutron 5",
+      "label": "Type"
+    },
+    {
+      "id": 382,
+      "title": "Plugin Boutique Scaler 3",
+      "label": "Type"
+    },
+    {
+      "id": 383,
+      "title": "Sonible smart:EQ 4",
+      "label": "Type"
+    },
+    {
+      "id": 384,
+      "title": "Sonible smart:limit",
+      "label": "Type"
+    },
+    {
+      "id": 385,
+      "title": "Mastering The Mix MIXVAULT",
+      "label": "Type"
+    },
+    {
+      "id": 386,
+      "title": "iZotope Trash",
+      "label": "Type"
+    },
+    {
+      "id": 387,
+      "title": "Excite Audio Lifeline Expanse",
+      "label": "Type"
+    },
+    {
+      "id": 389,
+      "title": "Eventide H3000 Band Delays MK II",
+      "label": "Type"
+    },
+    {
+      "id": 390,
+      "title": "Arturia Chorus JUN-6",
+      "label": "Type"
+    },
+    {
+      "id": 392,
+      "title": "D16 Group Repeater Delay",
+      "label": "Type"
+    },
+    {
+      "id": 394,
+      "title": "Excite Audio Motion: Harmonic",
+      "label": "Type"
+    },
+    {
+      "id": 395,
+      "title": "PreSonus FaderPort 8",
+      "label": "Faders"
+    },
+    {
+      "id": 396,
+      "title": "Behringer X-Touch",
+      "label": "Faders"
+    },
+    {
+      "id": 397,
+      "title": "SSL UF1",
+      "label": "Faders"
+    },
+    {
+      "id": 398,
+      "title": "Avid S1",
+      "label": "Faders"
+    },
+    {
+      "id": 399,
+      "title": "Icon Platform M+",
+      "label": "Faders"
+    },
+    {
+      "id": 400,
+      "title": "Mackie MCU Pro",
+      "label": "Faders"
+    },
+    {
+      "id": 402,
+      "title": "Behringer X32",
+      "label": "Channels"
+    },
+    {
+      "id": 403,
+      "title": "Midas M32 LIVE",
+      "label": "Channels"
+    },
+    {
+      "id": 406,
+      "title": "PreSonus StudioLive SE 32R",
+      "label": "Channels"
+    },
+    {
+      "id": 408,
+      "title": "Mackie DL32SE",
+      "label": "Channels"
+    },
+    {
+      "id": 410,
+      "title": "Soundcraft Ui24R",
+      "label": "Channels"
+    },
+    {
+      "id": 411,
+      "title": "Yamaha DM3S",
+      "label": "Channels"
+    },
+    {
+      "id": 412,
+      "title": "PreSonus StudioLive 32S",
+      "label": "Channels"
+    },
+    {
+      "id": 413,
+      "title": "PreSonus StudioLive 32SC",
+      "label": "Channels"
+    },
+    {
+      "id": 414,
+      "title": "Allen & Heath SQ-6+",
+      "label": "Channels"
+    },
+    {
+      "id": 418,
+      "title": "Yamaha TF3",
+      "label": "Channels"
+    },
+    {
+      "id": 472,
+      "title": "Baby Audio Smooth Operator Pro",
+      "label": "Type"
+    },
+    {
+      "id": 473,
+      "title": "Brainworx bx_clipper",
+      "label": "Type"
+    },
+    {
+      "id": 474,
+      "title": "Mastering The Mix REFERENCE 3",
+      "label": "Type"
+    },
+    {
+      "id": 482,
+      "title": "Behringer WING Compact",
+      "label": "Channels"
+    },
+    {
+      "id": 486,
+      "title": "Soundcraft Ui16",
+      "label": "Channels"
+    },
+    {
+      "id": 487,
+      "title": "Soundcraft Signature 12 MTK",
+      "label": "Channels"
+    },
+    {
+      "id": 527,
+      "title": "Baby Audio Spaced Out",
+      "label": "Type"
+    },
+    {
+      "id": 615,
+      "title": "Teenage Engineering EP-133 K.O. II",
+      "label": "Effects"
+    },
+    {
+      "id": 616,
+      "title": "Akai Professional MPC Key 37 Gen 2",
+      "label": "Effects"
+    },
+    {
+      "id": 617,
+      "title": "Roland Aira Compact P-6",
+      "label": "Effects"
+    },
+    {
+      "id": 618,
+      "title": "Novation Circuit Rhythm",
+      "label": "Effects"
+    },
+    {
+      "id": 619,
+      "title": "Akai Professional MPC XL",
+      "label": "Effects"
+    },
+    {
+      "id": 620,
+      "title": "Native Instruments Maschine+",
+      "label": "Effects"
+    },
+    {
+      "id": 649,
+      "title": "Genelec GLM Kit",
+      "label": "Filters"
+    },
+    {
+      "id": 658,
+      "title": "Bose T8S ToneMatch",
+      "label": "Channels"
+    },
+    {
+      "id": 659,
+      "title": "TC Helicon GoXLR Mini",
+      "label": "Controls"
+    },
+    {
+      "id": 661,
+      "title": "Mackie MainStream",
+      "label": "Controls"
+    },
+    {
+      "id": 662,
+      "title": "Yamaha AG08",
+      "label": "Controls"
+    },
+    {
+      "id": 663,
+      "title": "Tascam Mixcast 4",
+      "label": "Controls"
+    },
+    {
+      "id": 671,
+      "title": "Behringer FLOW 8",
+      "label": "Controls"
+    },
+    {
+      "id": 1001,
+      "title": "Arturia Pigments 7",
+      "label": "Type"
+    },
+    {
+      "id": 1002,
+      "title": "u-he Diva",
+      "label": "Type"
+    },
+    {
+      "id": 1003,
+      "title": "Kilohearts Phase Plant",
+      "label": "Type"
+    },
+    {
+      "id": 1004,
+      "title": "Vengeance Sound VPS Avenger 2",
+      "label": "Type"
+    },
+    {
+      "id": 1005,
+      "title": "Reveal Sound Spire",
+      "label": "Type"
+    },
+    {
+      "id": 1006,
+      "title": "Native Instruments Massive X",
+      "label": "Type"
+    },
+    {
+      "id": 1007,
+      "title": "Scaler 3",
+      "label": "Type"
+    },
+    {
+      "id": 1008,
+      "title": "SongWish reMIDI 4",
+      "label": "Type"
+    },
+    {
+      "id": 1009,
+      "title": "W.A. Production Loop Engine 3",
+      "label": "Type"
+    },
+    {
+      "id": 1010,
+      "title": "Audiomodern Playbeat 4",
+      "label": "Type"
+    },
+    {
+      "id": 1011,
+      "title": "Audiomodern Riffer 4",
+      "label": "Type"
+    },
+    {
+      "id": 1012,
+      "title": "Zynaptiq PitchMap",
+      "label": "Type"
+    },
+    {
+      "id": 1013,
+      "title": "MeldaProduction MeldwayGrand",
+      "label": "Type"
+    },
+    {
+      "id": 1014,
+      "title": "Native Instruments Kontakt 8",
+      "label": "Type"
+    },
+    {
+      "id": 1015,
+      "title": "Arturia V Collection 11 Pro",
+      "label": "Type"
+    },
+    {
+      "id": 1016,
+      "title": "XLN Audio Addictive Keys",
+      "label": "Type"
+    },
+    {
+      "id": 1017,
+      "title": "Native Instruments Noire",
+      "label": "Type"
+    },
+    {
+      "id": 1018,
+      "title": "Arturia Augmented GRAND PIANO",
+      "label": "Type"
+    },
+    {
+      "id": 1019,
+      "title": "IK Multimedia AmpliTube 5",
+      "label": "Type"
+    },
+    {
+      "id": 1020,
+      "title": "Two Notes Audio Engineering GENOME",
+      "label": "Type"
+    },
+    {
+      "id": 1021,
+      "title": "Universal Audio UAD Sound City Studios",
+      "label": "Type"
+    },
+    {
+      "id": 1022,
+      "title": "Kiive Audio Lunchbox Amp Sim",
+      "label": "Type"
+    },
+    {
+      "id": 1023,
+      "title": "Softube Amp Room Marshall Suite",
+      "label": "Type"
+    },
+    {
+      "id": 1025,
+      "title": "iZotope RX 12 Standard",
+      "label": "Type"
+    },
+    {
+      "id": 1027,
+      "title": "Sonible smart:deess",
+      "label": "Type"
+    },
+    {
+      "id": 1028,
+      "title": "Acon Restoration Suite 2",
+      "label": "Type"
+    },
+    {
+      "id": 1030,
+      "title": "Zynaptiq Unveil",
+      "label": "Type"
+    },
+    {
+      "id": 1032,
+      "title": "Celemony Melodyne 5 Essential",
+      "label": "Type"
+    },
+    {
+      "id": 1034,
+      "title": "FabFilter Mastering Bundle",
+      "label": "Type"
+    },
+    {
+      "id": 1035,
+      "title": "Synchro Arts VocAlign 7 Pro",
+      "label": "Type"
+    },
+    {
+      "id": 1036,
+      "title": "Synchro Arts Revoice Pro 5",
+      "label": "Type"
+    },
+    {
+      "id": 1038,
+      "title": "NUGEN Audio ISL 2st",
+      "label": "Type"
+    },
+    {
+      "id": 1039,
+      "title": "Synchro Arts RePitch 2 Standard + VocAlign 7 Pro Bundle",
+      "label": "Type"
+    },
+    {
+      "id": 1040,
+      "title": "Synchro Arts RePitch 2 Standard",
+      "label": "Type"
+    },
+    {
+      "id": 1041,
+      "title": "iZotope Nectar 4 Advanced",
+      "label": "Type"
+    },
+    {
+      "id": 1066,
+      "title": "Solid State Logic SSL Native Channel Strip 2",
+      "label": "Type"
+    },
+    {
+      "id": 1068,
+      "title": "Universal Audio UAD API Vision Channel Strip",
+      "label": "Type"
+    },
+    {
+      "id": 1069,
+      "title": "Waves Scheps Omni Channel 2",
+      "label": "Type"
+    },
+    {
+      "id": 1070,
+      "title": "Waves Magma Tube Channel Strip",
+      "label": "Type"
+    },
+    {
+      "id": 1071,
+      "title": "Waves Scheps 73",
+      "label": "Type"
+    }
+  ],
+  "compactDisc": [
+    {
+      "id": 29,
+      "title": "FabFilter Total Bundle",
+      "label": "Format"
+    },
+    {
+      "id": 30,
+      "title": "iZotope Ozone 12 Advanced",
+      "label": "Format"
+    },
+    {
+      "id": 32,
+      "title": "Soundtoys 5.5 Bundle",
+      "label": "Format"
+    },
+    {
+      "id": 60,
+      "title": "Universal Audio 1176 Classic Limiter Collection",
+      "label": "Format"
+    },
+    {
+      "id": 9009,
+      "title": "Tokyo Dawn Labs TDR Kotelnikov GE",
+      "label": "Format"
+    },
+    {
+      "id": 62,
+      "title": "FabFilter Pro-Q 4",
+      "label": "Format"
+    },
+    {
+      "id": 63,
+      "title": "FabFilter Pro-C 3",
+      "label": "Format"
+    },
+    {
+      "id": 119,
+      "title": "Waves SSL G-Master Buss Compressor",
+      "label": "Format"
+    },
+    {
+      "id": 120,
+      "title": "Celemony Melodyne 5",
+      "label": "Format"
+    },
+    {
+      "id": 121,
+      "title": "Universal Audio UAD Ultimate 14",
+      "label": "Format"
+    },
+    {
+      "id": 122,
+      "title": "iZotope RX 12 Advanced",
+      "label": "Format"
+    },
+    {
+      "id": 123,
+      "title": "Native Instruments Komplete 26 Ultimate",
+      "label": "Format"
+    },
+    {
+      "id": 238,
+      "title": "Eventide Blackhole",
+      "label": "Format"
+    },
+    {
+      "id": 374,
+      "title": "Cableguys ShaperBox 3",
+      "label": "Format"
+    },
+    {
+      "id": 375,
+      "title": "XLN Audio RC-20 Retro Color",
+      "label": "Format"
+    },
+    {
+      "id": 376,
+      "title": "Cableguys HalfTime",
+      "label": "Format"
+    },
+    {
+      "id": 377,
+      "title": "Baby Audio Transit 2",
+      "label": "Format"
+    },
+    {
+      "id": 378,
+      "title": "Sonnox VoxDoubler",
+      "label": "Format"
+    },
+    {
+      "id": 379,
+      "title": "Universal Audio UAD SSL 4000 E Channel Strip",
+      "label": "Format"
+    },
+    {
+      "id": 380,
+      "title": "Devious Machines Infiltrator 2",
+      "label": "Format"
+    },
+    {
+      "id": 381,
+      "title": "iZotope Neutron 5",
+      "label": "Format"
+    },
+    {
+      "id": 382,
+      "title": "Plugin Boutique Scaler 3",
+      "label": "Format"
+    },
+    {
+      "id": 383,
+      "title": "Sonible smart:EQ 4",
+      "label": "Format"
+    },
+    {
+      "id": 384,
+      "title": "Sonible smart:limit",
+      "label": "Format"
+    },
+    {
+      "id": 385,
+      "title": "Mastering The Mix MIXVAULT",
+      "label": "Format"
+    },
+    {
+      "id": 386,
+      "title": "iZotope Trash",
+      "label": "Format"
+    },
+    {
+      "id": 387,
+      "title": "Excite Audio Lifeline Expanse",
+      "label": "Format"
+    },
+    {
+      "id": 389,
+      "title": "Eventide H3000 Band Delays MK II",
+      "label": "Format"
+    },
+    {
+      "id": 390,
+      "title": "Arturia Chorus JUN-6",
+      "label": "Format"
+    },
+    {
+      "id": 392,
+      "title": "D16 Group Repeater Delay",
+      "label": "Format"
+    },
+    {
+      "id": 394,
+      "title": "Excite Audio Motion: Harmonic",
+      "label": "Format"
+    },
+    {
+      "id": 472,
+      "title": "Baby Audio Smooth Operator Pro",
+      "label": "Format"
+    },
+    {
+      "id": 473,
+      "title": "Brainworx bx_clipper",
+      "label": "Format"
+    },
+    {
+      "id": 474,
+      "title": "Mastering The Mix REFERENCE 3",
+      "label": "Format"
+    },
+    {
+      "id": 527,
+      "title": "Baby Audio Spaced Out",
+      "label": "Format"
+    },
+    {
+      "id": 1001,
+      "title": "Arturia Pigments 7",
+      "label": "Format"
+    },
+    {
+      "id": 1002,
+      "title": "u-he Diva",
+      "label": "Format"
+    },
+    {
+      "id": 1003,
+      "title": "Kilohearts Phase Plant",
+      "label": "Format"
+    },
+    {
+      "id": 1004,
+      "title": "Vengeance Sound VPS Avenger 2",
+      "label": "Format"
+    },
+    {
+      "id": 1005,
+      "title": "Reveal Sound Spire",
+      "label": "Format"
+    },
+    {
+      "id": 1006,
+      "title": "Native Instruments Massive X",
+      "label": "Format"
+    },
+    {
+      "id": 1007,
+      "title": "Scaler 3",
+      "label": "Format"
+    },
+    {
+      "id": 1008,
+      "title": "SongWish reMIDI 4",
+      "label": "Format"
+    },
+    {
+      "id": 1009,
+      "title": "W.A. Production Loop Engine 3",
+      "label": "Format"
+    },
+    {
+      "id": 1010,
+      "title": "Audiomodern Playbeat 4",
+      "label": "Format"
+    },
+    {
+      "id": 1011,
+      "title": "Audiomodern Riffer 4",
+      "label": "Format"
+    },
+    {
+      "id": 1012,
+      "title": "Zynaptiq PitchMap",
+      "label": "Format"
+    },
+    {
+      "id": 1013,
+      "title": "MeldaProduction MeldwayGrand",
+      "label": "Format"
+    },
+    {
+      "id": 1014,
+      "title": "Native Instruments Kontakt 8",
+      "label": "Format"
+    },
+    {
+      "id": 1015,
+      "title": "Arturia V Collection 11 Pro",
+      "label": "Format"
+    },
+    {
+      "id": 1016,
+      "title": "XLN Audio Addictive Keys",
+      "label": "Format"
+    },
+    {
+      "id": 1017,
+      "title": "Native Instruments Noire",
+      "label": "Format"
+    },
+    {
+      "id": 1018,
+      "title": "Arturia Augmented GRAND PIANO",
+      "label": "Format"
+    },
+    {
+      "id": 1019,
+      "title": "IK Multimedia AmpliTube 5",
+      "label": "Format"
+    },
+    {
+      "id": 1020,
+      "title": "Two Notes Audio Engineering GENOME",
+      "label": "Format"
+    },
+    {
+      "id": 1021,
+      "title": "Universal Audio UAD Sound City Studios",
+      "label": "Format"
+    },
+    {
+      "id": 1022,
+      "title": "Kiive Audio Lunchbox Amp Sim",
+      "label": "Format"
+    },
+    {
+      "id": 1023,
+      "title": "Softube Amp Room Marshall Suite",
+      "label": "Format"
+    },
+    {
+      "id": 1025,
+      "title": "iZotope RX 12 Standard",
+      "label": "Format"
+    },
+    {
+      "id": 1027,
+      "title": "Sonible smart:deess",
+      "label": "Format"
+    },
+    {
+      "id": 1028,
+      "title": "Acon Restoration Suite 2",
+      "label": "Format"
+    },
+    {
+      "id": 1030,
+      "title": "Zynaptiq Unveil",
+      "label": "Format"
+    },
+    {
+      "id": 1032,
+      "title": "Celemony Melodyne 5 Essential",
+      "label": "Format"
+    },
+    {
+      "id": 1034,
+      "title": "FabFilter Mastering Bundle",
+      "label": "Format"
+    },
+    {
+      "id": 1035,
+      "title": "Synchro Arts VocAlign 7 Pro",
+      "label": "Format"
+    },
+    {
+      "id": 1036,
+      "title": "Synchro Arts Revoice Pro 5",
+      "label": "Format"
+    },
+    {
+      "id": 1038,
+      "title": "NUGEN Audio ISL 2st",
+      "label": "Format"
+    },
+    {
+      "id": 1039,
+      "title": "Synchro Arts RePitch 2 Standard + VocAlign 7 Pro Bundle",
+      "label": "Format"
+    },
+    {
+      "id": 1040,
+      "title": "Synchro Arts RePitch 2 Standard",
+      "label": "Format"
+    },
+    {
+      "id": 1041,
+      "title": "iZotope Nectar 4 Advanced",
+      "label": "Format"
+    },
+    {
+      "id": 1066,
+      "title": "Solid State Logic SSL Native Channel Strip 2",
+      "label": "Format"
+    },
+    {
+      "id": 1068,
+      "title": "Universal Audio UAD API Vision Channel Strip",
+      "label": "Format"
+    },
+    {
+      "id": 1069,
+      "title": "Waves Scheps Omni Channel 2",
+      "label": "Format"
+    },
+    {
+      "id": 1070,
+      "title": "Waves Magma Tube Channel Strip",
+      "label": "Format"
+    },
+    {
+      "id": 1071,
+      "title": "Waves Scheps 73",
+      "label": "Format"
+    }
+  ],
+  "lock": [
+    {
+      "id": 29,
+      "title": "FabFilter Total Bundle",
+      "label": "Copy protection"
+    },
+    {
+      "id": 30,
+      "title": "iZotope Ozone 12 Advanced",
+      "label": "Copy protection"
+    },
+    {
+      "id": 32,
+      "title": "Soundtoys 5.5 Bundle",
+      "label": "Copy protection"
+    },
+    {
+      "id": 60,
+      "title": "Universal Audio 1176 Classic Limiter Collection",
+      "label": "Copy protection"
+    },
+    {
+      "id": 9009,
+      "title": "Tokyo Dawn Labs TDR Kotelnikov GE",
+      "label": "Copy protection"
+    },
+    {
+      "id": 62,
+      "title": "FabFilter Pro-Q 4",
+      "label": "Copy protection"
+    },
+    {
+      "id": 63,
+      "title": "FabFilter Pro-C 3",
+      "label": "Copy protection"
+    },
+    {
+      "id": 119,
+      "title": "Waves SSL G-Master Buss Compressor",
+      "label": "Copy protection"
+    },
+    {
+      "id": 120,
+      "title": "Celemony Melodyne 5",
+      "label": "Copy protection"
+    },
+    {
+      "id": 121,
+      "title": "Universal Audio UAD Ultimate 14",
+      "label": "Copy protection"
+    },
+    {
+      "id": 123,
+      "title": "Native Instruments Komplete 26 Ultimate",
+      "label": "Copy protection"
+    },
+    {
+      "id": 378,
+      "title": "Sonnox VoxDoubler",
+      "label": "Copy protection"
+    },
+    {
+      "id": 383,
+      "title": "Sonible smart:EQ 4",
+      "label": "Copy protection"
+    },
+    {
+      "id": 384,
+      "title": "Sonible smart:limit",
+      "label": "Copy protection"
+    },
+    {
+      "id": 389,
+      "title": "Eventide H3000 Band Delays MK II",
+      "label": "Copy protection"
+    },
+    {
+      "id": 472,
+      "title": "Baby Audio Smooth Operator Pro",
+      "label": "Copy protection"
+    },
+    {
+      "id": 473,
+      "title": "Brainworx bx_clipper",
+      "label": "Copy protection"
+    },
+    {
+      "id": 474,
+      "title": "Mastering The Mix REFERENCE 3",
+      "label": "Copy protection"
+    },
+    {
+      "id": 649,
+      "title": "Genelec GLM Kit",
+      "label": "Works with"
+    },
+    {
+      "id": 1038,
+      "title": "NUGEN Audio ISL 2st",
+      "label": "Copy protection"
+    },
+    {
+      "id": 1039,
+      "title": "Synchro Arts RePitch 2 Standard + VocAlign 7 Pro Bundle",
+      "label": "Copy protection"
+    },
+    {
+      "id": 1041,
+      "title": "iZotope Nectar 4 Advanced",
+      "label": "Copy protection"
+    }
+  ],
+  "chip": [
+    {
+      "id": 33,
+      "title": "Roland TR-8S",
+      "label": "Type"
+    },
+    {
+      "id": 42,
+      "title": "SSL UF8 DAW Controller",
+      "label": "Protocol"
+    },
+    {
+      "id": 71,
+      "title": "Fender Blues Junior IV",
+      "label": "Type"
+    },
+    {
+      "id": 72,
+      "title": "Boss Katana 50 Gen 3",
+      "label": "Type"
+    },
+    {
+      "id": 73,
+      "title": "Vox AC30",
+      "label": "Type"
+    },
+    {
+      "id": 74,
+      "title": "Marshall DSL40CR",
+      "label": "Type"
+    },
+    {
+      "id": 75,
+      "title": "Ampeg Rocket Bass RB-210",
+      "label": "Type"
+    },
+    {
+      "id": 76,
+      "title": "Fender Rumble 500 V3",
+      "label": "Type"
+    },
+    {
+      "id": 127,
+      "title": "Elektron Digitakt II",
+      "label": "Type"
+    },
+    {
+      "id": 128,
+      "title": "Roland TR-6S",
+      "label": "Type"
+    },
+    {
+      "id": 129,
+      "title": "Novation Circuit Tracks",
+      "label": "Type"
+    },
+    {
+      "id": 130,
+      "title": "Fender Champion II 25",
+      "label": "Type"
+    },
+    {
+      "id": 131,
+      "title": "Orange Crush 35RT",
+      "label": "Type"
+    },
+    {
+      "id": 132,
+      "title": "Markbass Mini CMD 121P V",
+      "label": "Type"
+    },
+    {
+      "id": 142,
+      "title": "Korg Minilogue XD",
+      "label": "Type"
+    },
+    {
+      "id": 143,
+      "title": "Moog Subsequent 37",
+      "label": "Type"
+    },
+    {
+      "id": 144,
+      "title": "Elektron Model:Cycles",
+      "label": "Type"
+    },
+    {
+      "id": 174,
+      "title": "Sequential OB-6 Keyboard",
+      "label": "Type"
+    },
+    {
+      "id": 175,
+      "title": "Sequential Prophet-10",
+      "label": "Type"
+    },
+    {
+      "id": 176,
+      "title": "Moog Muse",
+      "label": "Type"
+    },
+    {
+      "id": 188,
+      "title": "Akai MPC Live III",
+      "label": "Storage"
+    },
+    {
+      "id": 238,
+      "title": "Eventide Blackhole",
+      "label": "CPU load"
+    },
+    {
+      "id": 239,
+      "title": "Rodecaster Duo",
+      "label": "Type"
+    },
+    {
+      "id": 240,
+      "title": "Roland Bridge Cast X",
+      "label": "Type"
+    },
+    {
+      "id": 243,
+      "title": "Elgato Stream Deck+",
+      "label": "Type"
+    },
+    {
+      "id": 244,
+      "title": "Rode Streamer X",
+      "label": "Type"
+    },
+    {
+      "id": 246,
+      "title": "Elgato Wave XLR MK.2",
+      "label": "Type"
+    },
+    {
+      "id": 247,
+      "title": "Mackie DLZ Creator",
+      "label": "Type"
+    },
+    {
+      "id": 248,
+      "title": "RØDE RØDECaster Pro II",
+      "label": "Type"
+    },
+    {
+      "id": 255,
+      "title": "Roland SP-404MKII",
+      "label": "Storage"
+    },
+    {
+      "id": 256,
+      "title": "Akai MPC One G2",
+      "label": "Type"
+    },
+    {
+      "id": 257,
+      "title": "Akai MPC Sample",
+      "label": "Storage"
+    },
+    {
+      "id": 264,
+      "title": "Elgato Stream Deck + XL",
+      "label": "Type"
+    },
+    {
+      "id": 265,
+      "title": "Razer Stream Controller",
+      "label": "Type"
+    },
+    {
+      "id": 293,
+      "title": "Yamaha THR10II Desktop Modeling Amp",
+      "label": "Type"
+    },
+    {
+      "id": 294,
+      "title": "Positive Grid Spark 2",
+      "label": "Type"
+    },
+    {
+      "id": 374,
+      "title": "Cableguys ShaperBox 3",
+      "label": "CPU load"
+    },
+    {
+      "id": 375,
+      "title": "XLN Audio RC-20 Retro Color",
+      "label": "CPU load"
+    },
+    {
+      "id": 376,
+      "title": "Cableguys HalfTime",
+      "label": "CPU load"
+    },
+    {
+      "id": 377,
+      "title": "Baby Audio Transit 2",
+      "label": "CPU load"
+    },
+    {
+      "id": 380,
+      "title": "Devious Machines Infiltrator 2",
+      "label": "CPU load"
+    },
+    {
+      "id": 386,
+      "title": "iZotope Trash",
+      "label": "CPU load"
+    },
+    {
+      "id": 387,
+      "title": "Excite Audio Lifeline Expanse",
+      "label": "CPU load"
+    },
+    {
+      "id": 390,
+      "title": "Arturia Chorus JUN-6",
+      "label": "CPU load"
+    },
+    {
+      "id": 392,
+      "title": "D16 Group Repeater Delay",
+      "label": "CPU load"
+    },
+    {
+      "id": 394,
+      "title": "Excite Audio Motion: Harmonic",
+      "label": "CPU load"
+    },
+    {
+      "id": 395,
+      "title": "PreSonus FaderPort 8",
+      "label": "Protocol"
+    },
+    {
+      "id": 396,
+      "title": "Behringer X-Touch",
+      "label": "Protocol"
+    },
+    {
+      "id": 397,
+      "title": "SSL UF1",
+      "label": "Protocol"
+    },
+    {
+      "id": 398,
+      "title": "Avid S1",
+      "label": "Protocol"
+    },
+    {
+      "id": 399,
+      "title": "Icon Platform M+",
+      "label": "Protocol"
+    },
+    {
+      "id": 400,
+      "title": "Mackie MCU Pro",
+      "label": "Protocol"
+    },
+    {
+      "id": 475,
+      "title": "Arturia MicroFreak",
+      "label": "Type"
+    },
+    {
+      "id": 476,
+      "title": "Behringer DeepMind 12",
+      "label": "Type"
+    },
+    {
+      "id": 477,
+      "title": "ASM Hydrasynth",
+      "label": "Type"
+    },
+    {
+      "id": 478,
+      "title": "Sequential Take 5",
+      "label": "Type"
+    },
+    {
+      "id": 484,
+      "title": "Orange Crush Bass 50 1x12 Bass Combo",
+      "label": "Type"
+    },
+    {
+      "id": 485,
+      "title": "Darkglass DG210A Microtubes 500 2x10 Bass Combo",
+      "label": "Type"
+    },
+    {
+      "id": 488,
+      "title": "Boss Waza-Air",
+      "label": "Type"
+    },
+    {
+      "id": 489,
+      "title": "Positive Grid Spark MINI",
+      "label": "Type"
+    },
+    {
+      "id": 490,
+      "title": "Fender Rumble 40 V3",
+      "label": "Type"
+    },
+    {
+      "id": 491,
+      "title": "Orange Crush Bass 25",
+      "label": "Type"
+    },
+    {
+      "id": 492,
+      "title": "Boss WAZA-AIR Bass",
+      "label": "Type"
+    },
+    {
+      "id": 503,
+      "title": "Yamaha THR30II Wireless Desktop Amp",
+      "label": "Type"
+    },
+    {
+      "id": 527,
+      "title": "Baby Audio Spaced Out",
+      "label": "CPU load"
+    },
+    {
+      "id": 528,
+      "title": "Ibanez EHB1000 Headless Bass",
+      "label": "Type"
+    },
+    {
+      "id": 529,
+      "title": "Sire Marcus Miller M6 Headless Bass",
+      "label": "Type"
+    },
+    {
+      "id": 530,
+      "title": "Traveler Guitar Ultra-Light Bass",
+      "label": "Type"
+    },
+    {
+      "id": 531,
+      "title": "Steinberger Spirit XT-2 Bass",
+      "label": "Type"
+    },
+    {
+      "id": 532,
+      "title": "Kala U-Bass Solid Body",
+      "label": "Type"
+    },
+    {
+      "id": 533,
+      "title": "Fender Player II Mustang Bass PJ",
+      "label": "Type"
+    },
+    {
+      "id": 534,
+      "title": "Gretsch G2220 Junior Jet Bass II",
+      "label": "Type"
+    },
+    {
+      "id": 535,
+      "title": "Jackson JS1X Concert Bass Minion",
+      "label": "Type"
+    },
+    {
+      "id": 537,
+      "title": "Ibanez GSRM20 Mikro Bass",
+      "label": "Type"
+    },
+    {
+      "id": 552,
+      "title": "Boss Katana-110 Bass",
+      "label": "Type"
+    },
+    {
+      "id": 556,
+      "title": "Ampeg Rocket Bass RB-115",
+      "label": "Type"
+    },
+    {
+      "id": 557,
+      "title": "Boss Katana-50 EX Gen 3",
+      "label": "Type"
+    },
+    {
+      "id": 558,
+      "title": "Behringer WING Rack",
+      "label": "Type"
+    },
+    {
+      "id": 559,
+      "title": "Behringer X32 Rack",
+      "label": "Type"
+    },
+    {
+      "id": 560,
+      "title": "Midas M32C",
+      "label": "Type"
+    },
+    {
+      "id": 561,
+      "title": "Allen & Heath CQ-20B",
+      "label": "Type"
+    },
+    {
+      "id": 563,
+      "title": "Allen & Heath SQ-Rack Digital Mixer",
+      "label": "Type"
+    },
+    {
+      "id": 564,
+      "title": "PreSonus StudioLive SE 24R",
+      "label": "Type"
+    },
+    {
+      "id": 610,
+      "title": "Roland AIRA Compact T-8",
+      "label": "Type"
+    },
+    {
+      "id": 612,
+      "title": "Elektron Syntakt",
+      "label": "Type"
+    },
+    {
+      "id": 613,
+      "title": "Erica Synths Perkons HD-01",
+      "label": "Type"
+    },
+    {
+      "id": 614,
+      "title": "Arturia DrumBrute Impact",
+      "label": "Type"
+    },
+    {
+      "id": 615,
+      "title": "Teenage Engineering EP-133 K.O. II",
+      "label": "Storage"
+    },
+    {
+      "id": 616,
+      "title": "Akai Professional MPC Key 37 Gen 2",
+      "label": "Storage"
+    },
+    {
+      "id": 617,
+      "title": "Roland Aira Compact P-6",
+      "label": "Storage"
+    },
+    {
+      "id": 618,
+      "title": "Novation Circuit Rhythm",
+      "label": "Storage"
+    },
+    {
+      "id": 619,
+      "title": "Akai Professional MPC XL",
+      "label": "Storage"
+    },
+    {
+      "id": 620,
+      "title": "Native Instruments Maschine+",
+      "label": "Storage"
+    },
+    {
+      "id": 621,
+      "title": "Yamaha SEQTRAK",
+      "label": "Type"
+    },
+    {
+      "id": 622,
+      "title": "Elektron Model:Samples",
+      "label": "Type"
+    },
+    {
+      "id": 623,
+      "title": "Sonicware Liven Lofi-12",
+      "label": "Type"
+    },
+    {
+      "id": 624,
+      "title": "Korg Volca Sample 2",
+      "label": "Type"
+    },
+    {
+      "id": 625,
+      "title": "Polyend Tracker Mini",
+      "label": "Type"
+    },
+    {
+      "id": 627,
+      "title": "Fender Mustang GTX100",
+      "label": "Type"
+    },
+    {
+      "id": 628,
+      "title": "Markbass CMD 102 P V",
+      "label": "Type"
+    },
+    {
+      "id": 629,
+      "title": "Fender Tone Master Deluxe Reverb",
+      "label": "Type"
+    },
+    {
+      "id": 648,
+      "title": "MiniDSP UMIK-1",
+      "label": "Resolution"
+    },
+    {
+      "id": 659,
+      "title": "TC Helicon GoXLR Mini",
+      "label": "Type"
+    },
+    {
+      "id": 661,
+      "title": "Mackie MainStream",
+      "label": "Type"
+    },
+    {
+      "id": 662,
+      "title": "Yamaha AG08",
+      "label": "Type"
+    },
+    {
+      "id": 663,
+      "title": "Tascam Mixcast 4",
+      "label": "Type"
+    },
+    {
+      "id": 664,
+      "title": "Zoom PodTrak P4next",
+      "label": "Type"
+    },
+    {
+      "id": 671,
+      "title": "Behringer FLOW 8",
+      "label": "Type"
+    },
+    {
+      "id": 678,
+      "title": "Yamaha URX44V",
+      "label": "Type"
+    }
+  ],
+  "wrench": [
+    {
+      "id": 39,
+      "title": "Aston Microphones Shield GN Pop Filter",
+      "label": "Type"
+    },
+    {
+      "id": 58,
+      "title": "K&M 210/2 Mic Stand",
+      "label": "Type"
+    },
+    {
+      "id": 59,
+      "title": "K&M 26722 Monitor Stands (Each)",
+      "label": "Type"
+    },
+    {
+      "id": 167,
+      "title": "Mogami Gold Studio XLR Cable",
+      "label": "Type"
+    },
+    {
+      "id": 170,
+      "title": "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)",
+      "label": "Type"
+    },
+    {
+      "id": 173,
+      "title": "AcouFoam 6 Monitor Isolation Pads, Pair",
+      "label": "Type"
+    },
+    {
+      "id": 445,
+      "title": "Radial J48 MK2 Active Direct Box",
+      "label": "Type"
+    },
+    {
+      "id": 446,
+      "title": "Rupert Neve Designs RNDI Active Direct Interface",
+      "label": "Type"
+    },
+    {
+      "id": 447,
+      "title": "Tech 21 SansAmp Bass Driver DI v2",
+      "label": "Type"
+    },
+    {
+      "id": 448,
+      "title": "Radial ProD2 Stereo Passive Direct Box",
+      "label": "Type"
+    },
+    {
+      "id": 449,
+      "title": "Walrus Audio Canvas Mono Line Isolator / DI",
+      "label": "Type"
+    },
+    {
+      "id": 450,
+      "title": "Whirlwind IMP 2 Passive Direct Box",
+      "label": "Type"
+    },
+    {
+      "id": 451,
+      "title": "LR Baggs Para Acoustic DI",
+      "label": "Type"
+    },
+    {
+      "id": 646,
+      "title": "IsoAcoustics ISO-200 Studio Monitor Stands (Pair)",
+      "label": "Type"
+    },
+    {
+      "id": 647,
+      "title": "Sonarworks SoundID Reference",
+      "label": "Type"
+    },
+    {
+      "id": 648,
+      "title": "MiniDSP UMIK-1",
+      "label": "Type"
+    },
+    {
+      "id": 649,
+      "title": "Genelec GLM Kit",
+      "label": "Type"
+    },
+    {
+      "id": 650,
+      "title": "Auralex MoPAD-XL Monitor Speaker Isolation Pad",
+      "label": "Type"
+    },
+    {
+      "id": 651,
+      "title": "Ultimate Support MS-100 Studio Monitor Stands (Pair)",
+      "label": "Type"
+    }
+  ],
+  "battery": [
+    {
+      "id": 96,
+      "title": "Ibanez TS9 Tube Screamer",
+      "label": "Current draw"
+    },
+    {
+      "id": 97,
+      "title": "Boss DD-8 Digital Delay",
+      "label": "Current draw"
+    },
+    {
+      "id": 98,
+      "title": "Boss TU-3 Chromatic Tuner",
+      "label": "Power"
+    },
+    {
+      "id": 9001,
+      "title": "TC Electronic Polytune Clip",
+      "label": "Power"
+    },
+    {
+      "id": 61,
+      "title": "Peterson StroboClip HD Clip-On Tuner",
+      "label": "Power"
+    },
+    {
+      "id": 107,
+      "title": "Shure BLX24R/SM58 Wireless",
+      "label": "Battery"
+    },
+    {
+      "id": 128,
+      "title": "Roland TR-6S",
+      "label": "Battery"
+    },
+    {
+      "id": 133,
+      "title": "Boss BD-2 Blues Driver",
+      "label": "Current draw"
+    },
+    {
+      "id": 134,
+      "title": "ProCo RAT 2",
+      "label": "Current draw"
+    },
+    {
+      "id": 135,
+      "title": "Strymon BigSky MX",
+      "label": "Current draw"
+    },
+    {
+      "id": 136,
+      "title": "MXR Phase 95",
+      "label": "Current draw"
+    },
+    {
+      "id": 144,
+      "title": "Elektron Model:Cycles",
+      "label": "Battery"
+    },
+    {
+      "id": 155,
+      "title": "Fender American Professional II Precision Bass",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 156,
+      "title": "Fender American Professional II Jazz Bass",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 157,
+      "title": "Squier Classic Vibe '60s Jazz Bass",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 158,
+      "title": "Squier Affinity Series Precision Bass PJ",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 159,
+      "title": "Yamaha TRBX304",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 160,
+      "title": "Ibanez SR300E",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 161,
+      "title": "Sterling by Music Man StingRay Ray4",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 162,
+      "title": "Epiphone Thunderbird '64 Bass",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 163,
+      "title": "Sire Marcus Miller V5 4-String Bass",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 164,
+      "title": "Schecter Stiletto Stealth 4 Bass",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 165,
+      "title": "ESP LTD B-204SM Bass Guitar",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 166,
+      "title": "Hofner Ignition Violin Bass (Beatle Bass)",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 185,
+      "title": "Fender American Ultra II Precision Bass",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 186,
+      "title": "Music Man StingRay Special",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 200,
+      "title": "Boss RC-5 Loop Station",
+      "label": "Current draw"
+    },
+    {
+      "id": 201,
+      "title": "TC Electronic Ditto Looper",
+      "label": "Current draw"
+    },
+    {
+      "id": 202,
+      "title": "Line 6 Helix HX Stomp",
+      "label": "Battery"
+    },
+    {
+      "id": 203,
+      "title": "Boss GX-1",
+      "label": "Battery"
+    },
+    {
+      "id": 204,
+      "title": "Boss ME-90",
+      "label": "Current draw"
+    },
+    {
+      "id": 205,
+      "title": "HeadRush Flex Prime",
+      "label": "Battery"
+    },
+    {
+      "id": 258,
+      "title": "IK Multimedia TONEX ONE+",
+      "label": "Battery"
+    },
+    {
+      "id": 259,
+      "title": "Line 6 POD Go",
+      "label": "Battery"
+    },
+    {
+      "id": 266,
+      "title": "Sennheiser ew IEM G4-TWIN-E",
+      "label": "Battery"
+    },
+    {
+      "id": 267,
+      "title": "Shure PSM300",
+      "label": "Battery"
+    },
+    {
+      "id": 326,
+      "title": "Sire Marcus Miller V5R",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 347,
+      "title": "Xvive U4 Wireless In-Ear Monitor System",
+      "label": "Battery"
+    },
+    {
+      "id": 348,
+      "title": "Xvive U4R4 Wireless IEM System (4 Receivers)",
+      "label": "Battery"
+    },
+    {
+      "id": 349,
+      "title": "Sennheiser EW IEM G4 Stereo Wireless System",
+      "label": "Battery"
+    },
+    {
+      "id": 350,
+      "title": "Phenyx Pro PTM-10 UHF Stereo IEM System",
+      "label": "Battery"
+    },
+    {
+      "id": 362,
+      "title": "Sennheiser XSW IEM Wireless System",
+      "label": "Battery"
+    },
+    {
+      "id": 441,
+      "title": "Fender Player II Precision Bass",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 442,
+      "title": "Fender Player II Jazz Bass",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 443,
+      "title": "Electro-Harmonix Nano Small Stone",
+      "label": "Current draw"
+    },
+    {
+      "id": 467,
+      "title": "Yamaha BB434",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 577,
+      "title": "Zoom G11",
+      "label": "Current draw"
+    },
+    {
+      "id": 578,
+      "title": "Boss GT-1000CORE",
+      "label": "Current draw"
+    },
+    {
+      "id": 579,
+      "title": "Neural DSP Quad Cortex",
+      "label": "Current draw"
+    },
+    {
+      "id": 580,
+      "title": "Mooer GE300",
+      "label": "Current draw"
+    },
+    {
+      "id": 581,
+      "title": "Fulltone OCD v2",
+      "label": "Current draw"
+    },
+    {
+      "id": 582,
+      "title": "Wampler Tumnus Deluxe",
+      "label": "Current draw"
+    },
+    {
+      "id": 583,
+      "title": "JHS Morning Glory V4",
+      "label": "Current draw"
+    },
+    {
+      "id": 584,
+      "title": "MXR M104 Distortion+",
+      "label": "Current draw"
+    },
+    {
+      "id": 585,
+      "title": "Boss BD-2W Blues Driver Waza Craft",
+      "label": "Current draw"
+    },
+    {
+      "id": 586,
+      "title": "Boss RC-500 Loop Station",
+      "label": "Current draw"
+    },
+    {
+      "id": 587,
+      "title": "TC Electronic Ditto X4 Looper",
+      "label": "Current draw"
+    },
+    {
+      "id": 588,
+      "title": "Electro-Harmonix 720 Stereo Looper",
+      "label": "Current draw"
+    },
+    {
+      "id": 590,
+      "title": "MXR M303 Clone Looper",
+      "label": "Current draw"
+    },
+    {
+      "id": 591,
+      "title": "Strymon TimeLine",
+      "label": "Current draw"
+    },
+    {
+      "id": 592,
+      "title": "Meris LVX",
+      "label": "Current draw"
+    },
+    {
+      "id": 593,
+      "title": "Eventide TimeFactor",
+      "label": "Current draw"
+    },
+    {
+      "id": 594,
+      "title": "Source Audio Nemesis",
+      "label": "Current draw"
+    },
+    {
+      "id": 595,
+      "title": "Keeley Caverns V2",
+      "label": "Current draw"
+    },
+    {
+      "id": 596,
+      "title": "Universal Audio Del-Verb",
+      "label": "Current draw"
+    },
+    {
+      "id": 597,
+      "title": "MXR M169 Carbon Copy",
+      "label": "Current draw"
+    },
+    {
+      "id": 598,
+      "title": "Universal Audio Golden Reverberator",
+      "label": "Current draw"
+    },
+    {
+      "id": 599,
+      "title": "Boss RV-200",
+      "label": "Current draw"
+    },
+    {
+      "id": 600,
+      "title": "Electro-Harmonix 1440 Stereo Looper",
+      "label": "Current draw"
+    },
+    {
+      "id": 601,
+      "title": "Boss RC-600 Loop Station",
+      "label": "Current draw"
+    },
+    {
+      "id": 621,
+      "title": "Yamaha SEQTRAK",
+      "label": "Battery"
+    },
+    {
+      "id": 622,
+      "title": "Elektron Model:Samples",
+      "label": "Battery"
+    },
+    {
+      "id": 623,
+      "title": "Sonicware Liven Lofi-12",
+      "label": "Battery"
+    },
+    {
+      "id": 624,
+      "title": "Korg Volca Sample 2",
+      "label": "Battery"
+    },
+    {
+      "id": 625,
+      "title": "Polyend Tracker Mini",
+      "label": "Battery"
+    },
+    {
+      "id": 681,
+      "title": "Yamaha BB234",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 682,
+      "title": "Ibanez TMB30 Talman",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 683,
+      "title": "G&L Tribute L-2000",
+      "label": "Active / Passive"
+    },
+    {
+      "id": 9003,
+      "title": "Peterson StroboStomp HD",
+      "label": "Power"
+    },
+    {
+      "id": 9004,
+      "title": "TC Electronic PolyTune 3",
+      "label": "Power"
+    },
+    {
+      "id": 9005,
+      "title": "Korg Pitchblack X",
+      "label": "Power"
+    },
+    {
+      "id": 9006,
+      "title": "Walrus Audio Canvas Tuner",
+      "label": "Power"
+    },
+    {
+      "id": 9007,
+      "title": "Korg AW-LT100B Clip-On Bass Tuner",
+      "label": "Power"
+    },
+    {
+      "id": 9008,
+      "title": "Snark ST-8 Super Tight Rechargable Tuner, Titanium",
+      "label": "Power"
+    }
+  ],
+  "star": [
+    {
+      "id": 98,
+      "title": "Boss TU-3 Chromatic Tuner",
+      "label": "Ideal for"
+    },
+    {
+      "id": 9001,
+      "title": "TC Electronic Polytune Clip",
+      "label": "Ideal for"
+    },
+    {
+      "id": 61,
+      "title": "Peterson StroboClip HD Clip-On Tuner",
+      "label": "Ideal for"
+    },
+    {
+      "id": 110,
+      "title": "Ableton Live 12 Suite",
+      "label": "Standout Feature"
+    },
+    {
+      "id": 111,
+      "title": "Logic Pro",
+      "label": "Standout Feature"
+    },
+    {
+      "id": 112,
+      "title": "FL Studio Producer Edition",
+      "label": "Standout Feature"
+    },
+    {
+      "id": 113,
+      "title": "Avid Pro Tools Studio",
+      "label": "Standout Feature"
+    },
+    {
+      "id": 114,
+      "title": "Steinberg Cubase Pro 15",
+      "label": "Standout Feature"
+    },
+    {
+      "id": 115,
+      "title": "Reason Studios Reason 14",
+      "label": "Standout Feature"
+    },
+    {
+      "id": 9003,
+      "title": "Peterson StroboStomp HD",
+      "label": "Ideal for"
+    },
+    {
+      "id": 9004,
+      "title": "TC Electronic PolyTune 3",
+      "label": "Ideal for"
+    },
+    {
+      "id": 9005,
+      "title": "Korg Pitchblack X",
+      "label": "Ideal for"
+    },
+    {
+      "id": 9006,
+      "title": "Walrus Audio Canvas Tuner",
+      "label": "Ideal for"
+    },
+    {
+      "id": 9007,
+      "title": "Korg AW-LT100B Clip-On Bass Tuner",
+      "label": "Ideal for"
+    },
+    {
+      "id": 9008,
+      "title": "Snark ST-8 Super Tight Rechargable Tuner, Titanium",
+      "label": "Ideal for"
+    }
+  ],
+  "layout": [
+    {
+      "id": 98,
+      "title": "Boss TU-3 Chromatic Tuner",
+      "label": "Format"
+    },
+    {
+      "id": 9003,
+      "title": "Peterson StroboStomp HD",
+      "label": "Format"
+    },
+    {
+      "id": 9004,
+      "title": "TC Electronic PolyTune 3",
+      "label": "Format"
+    },
+    {
+      "id": 9005,
+      "title": "Korg Pitchblack X",
+      "label": "Format"
+    },
+    {
+      "id": 9006,
+      "title": "Walrus Audio Canvas Tuner",
+      "label": "Format"
+    },
+    {
+      "id": 9007,
+      "title": "Korg AW-LT100B Clip-On Bass Tuner",
+      "label": "Format"
+    }
+  ],
+  "format": [
+    {
+      "id": 9001,
+      "title": "TC Electronic Polytune Clip",
+      "label": "Format"
+    },
+    {
+      "id": 61,
+      "title": "Peterson StroboClip HD Clip-On Tuner",
+      "label": "Format"
+    },
+    {
+      "id": 9008,
+      "title": "Snark ST-8 Super Tight Rechargable Tuner, Titanium",
+      "label": "Format"
+    }
+  ],
+  "globe": [
+    {
+      "id": 110,
+      "title": "Ableton Live 12 Suite",
+      "label": "Platforms"
+    },
+    {
+      "id": 111,
+      "title": "Logic Pro",
+      "label": "Platforms"
+    },
+    {
+      "id": 112,
+      "title": "FL Studio Producer Edition",
+      "label": "Platforms"
+    },
+    {
+      "id": 113,
+      "title": "Avid Pro Tools Studio",
+      "label": "Platforms"
+    },
+    {
+      "id": 114,
+      "title": "Steinberg Cubase Pro 15",
+      "label": "Platforms"
+    },
+    {
+      "id": 115,
+      "title": "Reason Studios Reason 14",
+      "label": "Platforms"
+    },
+    {
+      "id": 122,
+      "title": "iZotope RX 12 Advanced",
+      "label": "Platforms"
+    },
+    {
+      "id": 381,
+      "title": "iZotope Neutron 5",
+      "label": "Platforms"
+    },
+    {
+      "id": 382,
+      "title": "Plugin Boutique Scaler 3",
+      "label": "Platforms"
+    },
+    {
+      "id": 385,
+      "title": "Mastering The Mix MIXVAULT",
+      "label": "Platforms"
+    },
+    {
+      "id": 1001,
+      "title": "Arturia Pigments 7",
+      "label": "Platforms"
+    },
+    {
+      "id": 1002,
+      "title": "u-he Diva",
+      "label": "Platforms"
+    },
+    {
+      "id": 1003,
+      "title": "Kilohearts Phase Plant",
+      "label": "Platforms"
+    },
+    {
+      "id": 1004,
+      "title": "Vengeance Sound VPS Avenger 2",
+      "label": "Platforms"
+    },
+    {
+      "id": 1005,
+      "title": "Reveal Sound Spire",
+      "label": "Platforms"
+    },
+    {
+      "id": 1006,
+      "title": "Native Instruments Massive X",
+      "label": "Platforms"
+    },
+    {
+      "id": 1007,
+      "title": "Scaler 3",
+      "label": "Platforms"
+    },
+    {
+      "id": 1008,
+      "title": "SongWish reMIDI 4",
+      "label": "Platforms"
+    },
+    {
+      "id": 1009,
+      "title": "W.A. Production Loop Engine 3",
+      "label": "Platforms"
+    },
+    {
+      "id": 1010,
+      "title": "Audiomodern Playbeat 4",
+      "label": "Platforms"
+    },
+    {
+      "id": 1011,
+      "title": "Audiomodern Riffer 4",
+      "label": "Platforms"
+    },
+    {
+      "id": 1012,
+      "title": "Zynaptiq PitchMap",
+      "label": "Platforms"
+    },
+    {
+      "id": 1013,
+      "title": "MeldaProduction MeldwayGrand",
+      "label": "Platforms"
+    },
+    {
+      "id": 1014,
+      "title": "Native Instruments Kontakt 8",
+      "label": "Platforms"
+    },
+    {
+      "id": 1015,
+      "title": "Arturia V Collection 11 Pro",
+      "label": "Platforms"
+    },
+    {
+      "id": 1016,
+      "title": "XLN Audio Addictive Keys",
+      "label": "Platforms"
+    },
+    {
+      "id": 1017,
+      "title": "Native Instruments Noire",
+      "label": "Platforms"
+    },
+    {
+      "id": 1018,
+      "title": "Arturia Augmented GRAND PIANO",
+      "label": "Platforms"
+    },
+    {
+      "id": 1019,
+      "title": "IK Multimedia AmpliTube 5",
+      "label": "Platforms"
+    },
+    {
+      "id": 1020,
+      "title": "Two Notes Audio Engineering GENOME",
+      "label": "Platforms"
+    },
+    {
+      "id": 1021,
+      "title": "Universal Audio UAD Sound City Studios",
+      "label": "Platforms"
+    },
+    {
+      "id": 1022,
+      "title": "Kiive Audio Lunchbox Amp Sim",
+      "label": "Platforms"
+    },
+    {
+      "id": 1023,
+      "title": "Softube Amp Room Marshall Suite",
+      "label": "Platforms"
+    },
+    {
+      "id": 1025,
+      "title": "iZotope RX 12 Standard",
+      "label": "Platforms"
+    },
+    {
+      "id": 1027,
+      "title": "Sonible smart:deess",
+      "label": "Platforms"
+    },
+    {
+      "id": 1028,
+      "title": "Acon Restoration Suite 2",
+      "label": "Platforms"
+    },
+    {
+      "id": 1030,
+      "title": "Zynaptiq Unveil",
+      "label": "Platforms"
+    },
+    {
+      "id": 1032,
+      "title": "Celemony Melodyne 5 Essential",
+      "label": "Platforms"
+    },
+    {
+      "id": 1034,
+      "title": "FabFilter Mastering Bundle",
+      "label": "Platforms"
+    },
+    {
+      "id": 1035,
+      "title": "Synchro Arts VocAlign 7 Pro",
+      "label": "Platforms"
+    },
+    {
+      "id": 1036,
+      "title": "Synchro Arts Revoice Pro 5",
+      "label": "Platforms"
+    },
+    {
+      "id": 1040,
+      "title": "Synchro Arts RePitch 2 Standard",
+      "label": "Platforms"
+    }
+  ],
+  "clock": [
+    {
+      "id": 110,
+      "title": "Ableton Live 12 Suite",
+      "label": "Free Trial"
+    },
+    {
+      "id": 111,
+      "title": "Logic Pro",
+      "label": "Free Trial"
+    },
+    {
+      "id": 112,
+      "title": "FL Studio Producer Edition",
+      "label": "Free Trial"
+    },
+    {
+      "id": 113,
+      "title": "Avid Pro Tools Studio",
+      "label": "Free Trial"
+    },
+    {
+      "id": 114,
+      "title": "Steinberg Cubase Pro 15",
+      "label": "Free Trial"
+    },
+    {
+      "id": 115,
+      "title": "Reason Studios Reason 14",
+      "label": "Free Trial"
+    },
+    {
+      "id": 266,
+      "title": "Sennheiser ew IEM G4-TWIN-E",
+      "label": "Latency"
+    },
+    {
+      "id": 267,
+      "title": "Shure PSM300",
+      "label": "Latency"
+    },
+    {
+      "id": 347,
+      "title": "Xvive U4 Wireless In-Ear Monitor System",
+      "label": "Latency"
+    },
+    {
+      "id": 348,
+      "title": "Xvive U4R4 Wireless IEM System (4 Receivers)",
+      "label": "Latency"
+    },
+    {
+      "id": 349,
+      "title": "Sennheiser EW IEM G4 Stereo Wireless System",
+      "label": "Latency"
+    },
+    {
+      "id": 350,
+      "title": "Phenyx Pro PTM-10 UHF Stereo IEM System",
+      "label": "Latency"
+    },
+    {
+      "id": 362,
+      "title": "Sennheiser XSW IEM Wireless System",
+      "label": "Latency"
+    }
+  ],
+  "strings": [
+    {
+      "id": 270,
+      "title": "Donner HUSH-I EVO2",
+      "label": "Strings"
+    },
+    {
+      "id": 272,
+      "title": "Yamaha SLG200S",
+      "label": "Strings"
+    },
+    {
+      "id": 273,
+      "title": "Yamaha SLG200N",
+      "label": "Strings"
+    },
+    {
+      "id": 274,
+      "title": "Traveler Guitar Ultra-Light Steel",
+      "label": "Strings"
+    },
+    {
+      "id": 275,
+      "title": "Traveler Guitar Ultra-Light Nylon",
+      "label": "Strings"
+    },
+    {
+      "id": 296,
+      "title": "Lava Music Lava ME 4 Smart Guitar",
+      "label": "Strings"
+    },
+    {
+      "id": 401,
+      "title": "Taylor GS Mini-e Koa",
+      "label": "Strings"
+    }
+  ]
+}
