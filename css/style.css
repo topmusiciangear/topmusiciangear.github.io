@@ -3032,6 +3032,13 @@ main:has(.mobile-social) + footer {
 
 .guide-products-cards .guide-product-card-img {
   aspect-ratio: 3/2;
+  transition: transform .2s ease;
+}
+.guide-products-cards .guide-product-card-img:hover {
+  transform: scale(1.08);
+}
+.guide-products-cards .guide-product-card-img:hover img {
+  transform: none;
 }
 
 
