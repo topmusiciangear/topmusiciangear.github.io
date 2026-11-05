@@ -5667,7 +5667,7 @@ const TEST_SHOP_BTN = {
 
   9006: { prices: { andertons: "£145.00", zzounds: "$149.00", musicstore: "€152.00", amazon: "$149.00" }, urls: { andertons: "https://www.andertons.co.uk/walrus-audio-canvas-tuner-pedal/", zzounds: "https://www.zzounds.com/item--WLRCANVASTUNER?siid=340870", amazon: "https://www.amazon.com/dp/B0CF66FMZ3?tag=topmusicg-20", musicstore: "https://www.musicstore.com/en_OE/EUR/Walrus-Audio-Canvas-Tuner/art-GIT0063151-000" } },
 
-  9007: { prices: { musicstore: "€25.00", gear4music: "£24.00", amazon: "$29.99" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Korg-AW-LT100B-Clip-on-Bass-Tuner/1YYP", amazon: "https://www.amazon.com/dp/B071X4VP15?plpRedirect=mhFallback&ref=clp_hp_h_pc&th=1&tag=topmusicg-20", musicstore: "https://www.musicstore.com/en_OE/EUR/Korg-AW-LT100B/art-ACC0007551-000" } },
+  9007: { prices: { musicstore: "€25.00", gear4music: "£24.00", amazon: "$29.99" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Korg-AW-LT100B-Clip-on-Bass-Tuner/1YYP", amazon: "https://www.amazon.com/dp/B071X4VP15?plpRedirect=mhFallback&ref=clp_hp_h_pc&th=1&tag=topmusicg-20", musicstore: "https://www.musicstore.com/en_OE/EUR/Korg-AW-LT100B/art-ACC0007551-000" }, oos: ["gear4music"] },
 
   9008: { prices: { zzounds: "$20.00", gear4music: "£18.00", amazon: "$24.99" }, urls: { zzounds: "https://www.zzounds.com/item--SNAST8T", amazon: "https://www.amazon.com/dp/B0CJRXHK6H?tag=topmusicg-20", gear4music: "https://www.gear4music.com/Guitar-and-Bass/Snark-ST-8-Super-Tight-Rechargable-Tuner-Titanium/6NCL" }, oos: ["gear4music"] },
   };function hollyDefaultRegion() {
