@@ -4072,7 +4072,10 @@
     "facts": [
       {
         "icon": "globe",
-        "value": {"en":"macOS only","es":"solo macOS"},
+        "value": {
+          "en": "macOS only",
+          "es": "solo macOS"
+        },
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -4081,7 +4084,10 @@
       },
       {
         "icon": "clock",
-        "value": {"en":"90-day trial","es":"90 días"},
+        "value": {
+          "en": "90-day trial",
+          "es": "90 días"
+        },
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -4090,7 +4096,10 @@
       },
       {
         "icon": "star",
-        "value": {"en":"Included instruments, Flex Time","es":"Instrumentos incluidos, Flex Time"},
+        "value": {
+          "en": "Included instruments, Flex Time",
+          "es": "Instrumentos incluidos, Flex Time"
+        },
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
@@ -4133,7 +4142,10 @@
     "facts": [
       {
         "icon": "globe",
-        "value": {"en":"macOS & Windows","es":"macOS y Windows"},
+        "value": {
+          "en": "macOS & Windows",
+          "es": "macOS y Windows"
+        },
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -4142,7 +4154,10 @@
       },
       {
         "icon": "clock",
-        "value": {"en":"Free forever (limited)","es":"Gratis para siempre (limitado)"},
+        "value": {
+          "en": "Free forever (limited)",
+          "es": "Gratis para siempre (limitado)"
+        },
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -4151,7 +4166,10 @@
       },
       {
         "icon": "star",
-        "value": {"en":"Step sequencer, free updates","es":"Secuenciador por pasos, actualizaciones gratuitas"},
+        "value": {
+          "en": "Step sequencer, free updates",
+          "es": "Secuenciador por pasos, actualizaciones gratuitas"
+        },
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
@@ -4315,7 +4333,10 @@
     "facts": [
       {
         "icon": "globe",
-        "value": {"en":"macOS & Windows","es":"macOS y Windows"},
+        "value": {
+          "en": "macOS & Windows",
+          "es": "macOS y Windows"
+        },
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -4324,7 +4345,10 @@
       },
       {
         "icon": "clock",
-        "value": {"en":"30 days","es":"30 días"},
+        "value": {
+          "en": "30 days",
+          "es": "30 días"
+        },
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -4333,7 +4357,10 @@
       },
       {
         "icon": "star",
-        "value": {"en":"Rack plugin, CV patching","es":"Plugin Rack, patch CV"},
+        "value": {
+          "en": "Rack plugin, CV patching",
+          "es": "Plugin Rack, parcheo CV"
+        },
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
@@ -35903,7 +35930,10 @@
     "facts": [
       {
         "icon": "globe",
-        "value": {"en":"macOS & Windows","es":"macOS y Windows"},
+        "value": {
+          "en": "macOS & Windows",
+          "es": "macOS y Windows"
+        },
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -35912,7 +35942,10 @@
       },
       {
         "icon": "clock",
-        "value": {"en":"30 days","es":"30 días"},
+        "value": {
+          "en": "30 days",
+          "es": "30 días"
+        },
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -35921,7 +35954,10 @@
       },
       {
         "icon": "star",
-        "value": {"en":"Drag-and-drop workflow, Smart Templates","es":"Flujo arrastrar y soltar, Plantillas inteligentes"},
+        "value": {
+          "en": "Drag-and-drop workflow, Smart Templates",
+          "es": "Flujo arrastrar y soltar, Plantillas inteligentes"
+        },
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
@@ -35954,7 +35990,10 @@
     "facts": [
       {
         "icon": "globe",
-        "value": {"en":"macOS & Windows","es":"macOS y Windows"},
+        "value": {
+          "en": "macOS & Windows",
+          "es": "macOS y Windows"
+        },
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -35963,7 +36002,10 @@
       },
       {
         "icon": "clock",
-        "value": {"en":"90 days","es":"90 días"},
+        "value": {
+          "en": "90 days",
+          "es": "90 días"
+        },
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -35972,7 +36014,10 @@
       },
       {
         "icon": "star",
-        "value": {"en":"Session View, Max for Live","es":"Vista Session, Max for Live"},
+        "value": {
+          "en": "Session View, Max for Live",
+          "es": "Vista Session, Max for Live"
+        },
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
@@ -36005,7 +36050,10 @@
     "facts": [
       {
         "icon": "globe",
-        "value": {"en":"macOS & Windows","es":"macOS y Windows"},
+        "value": {
+          "en": "macOS & Windows",
+          "es": "macOS y Windows"
+        },
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -36014,7 +36062,10 @@
       },
       {
         "icon": "clock",
-        "value": {"en":"60 days","es":"60 días"},
+        "value": {
+          "en": "60 days",
+          "es": "60 días"
+        },
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -36023,7 +36074,10 @@
       },
       {
         "icon": "star",
-        "value": {"en":"MIDI Strum, scoring tools","es":"MIDI Strum, herramientas de partitura"},
+        "value": {
+          "en": "MIDI Strum, scoring tools",
+          "es": "MIDI Strum, herramientas de partitura"
+        },
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
