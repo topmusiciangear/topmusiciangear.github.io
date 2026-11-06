@@ -20083,7 +20083,7 @@
     "titleTag": "Best DAW for Beginners: What to Buy",
     "titleTag_es": "El mejor DAW para principiantes",
     "category": "daw",
-    "image": "img/products/0edf883220.webp",
+    "image": "img/products/22602da168.webp",
     "badge": "topQuality",
     "intro": "Choosing your first DAW (digital Audio Workstation) is overwhelming — there are many options, each with passionate advocates.",
     "intro_es": "Elegir tu primer DAW (estación de trabajo de audio digital) es abrumador — hay muchas opciones, cada una con defensores apasionados.",
@@ -20451,8 +20451,8 @@
               "value_es": "30 días"
             },
             {
-              "value": "Free with new Macs",
-              "value_es": "Gratis con Mac nuevos"
+              "value": "90 days",
+              "value_es": "90 días"
             },
             {
               "value": "90 days",
@@ -20485,8 +20485,8 @@
               "value_es": "Optimizado para Apple Silicon"
             },
             {
-              "value": "4 GB RAM, multi-core",
-              "value_es": "4 GB RAM, multi-núcleo"
+              "value": "8 GB RAM",
+              "value_es": "8 GB RAM"
             },
             {
               "value": "8 GB RAM recommended",
@@ -20503,28 +20503,28 @@
           "label_es": "Característica destacada",
           "values": [
             {
-              "value": "Session View, Max for Live",
-              "value_es": "Session View, Max for Live"
-            },
-            {
               "value": "Step sequencer, lifetime free updates",
               "value_es": "Secuenciador por pasos, actualizaciones gratuitas de por vida"
             },
             {
-              "value": "Elastic audio, 512 tracks, cloud collab",
-              "value_es": "Elastic audio, 512 pistas, colaboración en la nube"
-            },
-            {
-              "value": "Studio to pro features, notation",
-              "value_es": "De estudio a profesional, notación"
-            },
-            {
-              "value": "Virtual rack, CV patching, RE support",
-              "value_es": "Rack virtual, patch CV, soporte RE"
+              "value": "Drag-and-drop workflow, Smart Templates",
+              "value_es": "Flujo de trabajo arrastrar y soltar, plantillas inteligentes"
             },
             {
               "value": "Included instruments, Flex Time",
               "value_es": "Instrumentos incluidos, Flex Time"
+            },
+            {
+              "value": "Session View, Max for Live",
+              "value_es": "Session View, Max for Live"
+            },
+            {
+              "value": "MIDI Strum, scoring tools",
+              "value_es": "MIDI Strum, herramientas de partitura"
+            },
+            {
+              "value": "Virtual rack, CV patching, RE support",
+              "value_es": "Rack virtual, patch CV, soporte RE"
             }
           ]
         }

@@ -4309,8 +4309,8 @@
     ],
     "score": 8.9,
     "bestFor": {
-      "en": "Analog synth lovers, visual sound design and experimental producers.",
-      "es": "Amantes de los sintetizadores analógicos, diseño sonoro visual y productores experimentales."
+      "en": "Analog synths, visual sound design",
+      "es": "Sintetizadores analógicos y diseño visual"
     },
     "facts": [
       {
@@ -35900,6 +35900,35 @@
       "en": "Songwriters, live instrument recording & fluid mixing",
       "es": "Cantautores, grabación de instrumentos reales y mezcla fluida"
     },
+    "facts": [
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "30 days",
+        "label": {
+          "en": "Free Trial",
+          "es": "Prueba gratuita"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "star",
+        "value": "Drag-and-drop workflow, Smart Templates",
+        "label": {
+          "en": "Standout Feature",
+          "es": "Función destacada"
+        },
+        "tone": "good"
+      }
+    ],
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Fender-Studio-Pro-8/7SI3"
     }
@@ -35922,6 +35951,35 @@
       "en": "Electronic music, live performance & sound design",
       "es": "Música electrónica, actuación en vivo y diseño sonoro"
     },
+    "facts": [
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "90 days",
+        "label": {
+          "en": "Free Trial",
+          "es": "Prueba gratuita"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "star",
+        "value": "Session View, Max for Live",
+        "label": {
+          "en": "Standout Feature",
+          "es": "Función destacada"
+        },
+        "tone": "good"
+      }
+    ],
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Ableton-Live-12-Intro/6A9I"
     }
@@ -35944,6 +36002,35 @@
       "en": "Traditional composition & MIDI workflows",
       "es": "Composición tradicional y flujos de trabajo MIDI"
     },
+    "facts": [
+      {
+        "icon": "globe",
+        "value": "macOS & Windows",
+        "label": {
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "clock",
+        "value": "60 days",
+        "label": {
+          "en": "Free Trial",
+          "es": "Prueba gratuita"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "star",
+        "value": "MIDI Strum, scoring tools",
+        "label": {
+          "en": "Standout Feature",
+          "es": "Función destacada"
+        },
+        "tone": "good"
+      }
+    ],
     "stores": {
       "gear4music": "https://www.gear4music.com/Recording-and-Computers/Cubase-Elements-16-Upgrade-from-AI/8MF3"
     }
