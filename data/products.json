@@ -4072,7 +4072,7 @@
     "facts": [
       {
         "icon": "globe",
-        "value": "macOS only",
+        "value": {"en":"macOS only","es":"solo macOS"},
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -4081,7 +4081,7 @@
       },
       {
         "icon": "clock",
-        "value": "90-day trial",
+        "value": {"en":"90-day trial","es":"90 días"},
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -4090,7 +4090,7 @@
       },
       {
         "icon": "star",
-        "value": "Included instruments, Flex Time",
+        "value": {"en":"Included instruments, Flex Time","es":"Instrumentos incluidos, Flex Time"},
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
@@ -4133,7 +4133,7 @@
     "facts": [
       {
         "icon": "globe",
-        "value": "macOS & Windows",
+        "value": {"en":"macOS & Windows","es":"macOS y Windows"},
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -4142,7 +4142,7 @@
       },
       {
         "icon": "clock",
-        "value": "Free forever (limited)",
+        "value": {"en":"Free forever (limited)","es":"Gratis para siempre (limitado)"},
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -4151,7 +4151,7 @@
       },
       {
         "icon": "star",
-        "value": "Step sequencer, free updates",
+        "value": {"en":"Step sequencer, free updates","es":"Secuenciador por pasos, actualizaciones gratuitas"},
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
@@ -4315,7 +4315,7 @@
     "facts": [
       {
         "icon": "globe",
-        "value": "macOS & Windows",
+        "value": {"en":"macOS & Windows","es":"macOS y Windows"},
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -4324,7 +4324,7 @@
       },
       {
         "icon": "clock",
-        "value": "30 days",
+        "value": {"en":"30 days","es":"30 días"},
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -4333,7 +4333,7 @@
       },
       {
         "icon": "star",
-        "value": "Rack plugin, CV patching",
+        "value": {"en":"Rack plugin, CV patching","es":"Plugin Rack, patch CV"},
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
@@ -35903,7 +35903,7 @@
     "facts": [
       {
         "icon": "globe",
-        "value": "macOS & Windows",
+        "value": {"en":"macOS & Windows","es":"macOS y Windows"},
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -35912,7 +35912,7 @@
       },
       {
         "icon": "clock",
-        "value": "30 days",
+        "value": {"en":"30 days","es":"30 días"},
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -35921,7 +35921,7 @@
       },
       {
         "icon": "star",
-        "value": "Drag-and-drop workflow, Smart Templates",
+        "value": {"en":"Drag-and-drop workflow, Smart Templates","es":"Flujo arrastrar y soltar, Plantillas inteligentes"},
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
@@ -35954,7 +35954,7 @@
     "facts": [
       {
         "icon": "globe",
-        "value": "macOS & Windows",
+        "value": {"en":"macOS & Windows","es":"macOS y Windows"},
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -35963,7 +35963,7 @@
       },
       {
         "icon": "clock",
-        "value": "90 days",
+        "value": {"en":"90 days","es":"90 días"},
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -35972,7 +35972,7 @@
       },
       {
         "icon": "star",
-        "value": "Session View, Max for Live",
+        "value": {"en":"Session View, Max for Live","es":"Vista Session, Max for Live"},
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
@@ -36005,7 +36005,7 @@
     "facts": [
       {
         "icon": "globe",
-        "value": "macOS & Windows",
+        "value": {"en":"macOS & Windows","es":"macOS y Windows"},
         "label": {
           "en": "Platforms",
           "es": "Plataformas"
@@ -36014,7 +36014,7 @@
       },
       {
         "icon": "clock",
-        "value": "60 days",
+        "value": {"en":"60 days","es":"60 días"},
         "label": {
           "en": "Free Trial",
           "es": "Prueba gratuita"
@@ -36023,7 +36023,7 @@
       },
       {
         "icon": "star",
-        "value": "MIDI Strum, scoring tools",
+        "value": {"en":"MIDI Strum, scoring tools","es":"MIDI Strum, herramientas de partitura"},
         "label": {
           "en": "Standout Feature",
           "es": "Función destacada"
