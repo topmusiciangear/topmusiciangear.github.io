@@ -13292,9 +13292,7 @@
       {
         "heading": "Baby Audio Smooth Operator Pro: Resonance Control With a Single Knob",
         "heading_es": "Baby Audio Smooth Operator Pro: control de resonancias con una sola perilla",
-        "products": [
-          472
-        ],
+        "products": [],
         "content": "<p><strong>Smooth Operator Pro finds harsh resonances and tames them with a single threshold control.</strong> Its spectral engine listens across the frequency range, spots what sticks out, and smooths only those spots in real time. Vocals lose their harsh edge, guitars lose their boxiness, and masters lose their digital glare, all without the pumping of a traditional compressor.</p><p>For mix engineers who want fast, musical resonance control without studying a manual, this is the modern shortcut. It will not replace a surgical tool like RX for rescue missions, but for everyday harshness it is the fastest fix available.</p>",
         "content_es": "<p><strong>Smooth Operator Pro encuentra resonancias duras y las doma con un solo control de umbral.</strong> Su motor espectral escucha en todo el rango de frecuencia, detecta lo que sobresale y suaviza solo esos puntos en tiempo real. Las voces pierden su filo duro, las guitarras su encajonamiento y los masters su brillo digital, todo sin el bombeo de un compresor tradicional.</p><p>Para ingenieros de mezcla que quieren control de resonancias rápido y musical sin estudiar un manual, este es el atajo moderno. No reemplazará una herramienta quirúrgica como RX para misiones de rescate, pero para dureza cotidiana es el arreglo más veloz disponible.</p>",
         "pros": [
@@ -13608,7 +13606,6 @@
       1025,
       1028,
       1027,
-      472,
       1030
     ],
     "productTable": {
@@ -45427,9 +45424,7 @@
         "heading_es": "MXR Phase 95: cuatro fases donde antes cabía un pedal",
         "content": "<strong>Drive boards often need movement rather than more gain.</strong> The Phase 95 squeezes four classic phaser voices — 90, 45, Block and Script — into a mini enclosure channeling MXR sounds from the seventies onward, with true bypass switching, LED indicator and studio-quality build.\nPlaced after drive, slow sweeps widen riffs without muddying attack. The honest drawback is subtlety control; the compact format favors quick dialing over deep tweakability, so seekers of highly sculpted modulation may want broader parameter sets elsewhere.",
         "content_es": "<strong>A una pedalera de drive a veces le falta movimiento, no más gain.</strong> El Phase 95 condensa cuatro voces clásicas —90, 45, Block y Script— en caja mini con el linaje MXR desde los setenta, conmutación true bypass, led indicador y construcción de nivel estudio.\nTras la distorsión, los barridos lentos abren los riffs sin embarrar el ataque. ¿La pega honesta? El control de sutileza: el formato compacto premia el ajuste rápido frente al retoque profundo, así que quien busque modulación muy esculpida mirará opciones con más parámetros.",
-        "products": [
-          136
-        ],
+        "products": [],
         "verdict": "",
         "verdict_es": "",
         "pros": [],
@@ -45530,7 +45525,6 @@
       581,
       582,
       583,
-      136,
       584,
       585
     ],
@@ -45655,10 +45649,6 @@
         {
           "title": "Boss BD-2W Blues Driver Waza Craft",
           "title_es": "Boss BD-2W Blues Driver Waza Craft"
-        },
-        {
-          "title": "MXR Phase 95",
-          "title_es": "MXR Phase 95"
         }
       ],
       "rows": [
@@ -46223,34 +46213,6 @@
           "Modo Custom menos carácter \"Blues Driver\"",
           "Todavía sin control medios",
           "Consume más pila que el BD-2 estándar"
-        ]
-      },
-      {
-        "name": "MXR Phase 95",
-        "name_es": "MXR Phase 95",
-        "pros": [
-          "Script + Block circuits in one mini box",
-          "Adds movement before or after drive",
-          "Simple one-knob operation",
-          "Tiny footprint, battery or adapter"
-        ],
-        "cons": [
-          "One knob only, no depth control",
-          "Subtle at slow speeds on some rigs",
-          "Gets buried before heavy distortion for some players",
-          "No tap tempo or presets"
-        ],
-        "pros_es": [
-          "Circuitos Script + Block en caja mini",
-          "Añade movimiento antes o después del drive",
-          "Operación simple de un mando",
-          "Huella mínima, pila o adaptador"
-        ],
-        "cons_es": [
-          "Un solo mando, sin control de depth",
-          "Sutil a velocidades lentas en algunos equipos",
-          "Se pierde antes de distorsión fuerte para algunos",
-          "Sin tap tempo ni presets"
         ]
       }
     ],
@@ -48332,8 +48294,7 @@
         "content": "<strong>Opening a large mix often means reaching for the same three tools on repeat.</strong> The Total Bundle gathers those essentials into one licensed collection covering EQ, compression, reverb, saturation and limiting, with Pro-Q 4, Pro-C 3, Pro-MB and Pro-R leading the set. Formats span VST2, VST3, AU and AAX on macOS and Windows, and operation stays ultra-low latency throughout.\n\nThe collection suits mix engineers juggling varied sessions where consistent character across tracks matters, plus mastering tasks that demand flexible dynamics and tone shaping. The trade-off is scope: newcomers face a dense feature set and a long learning curve before the workflow turns fluid and fast.\n<p><strong>Pro-Q 4 and Pro-C 3 can be purchased individually.</strong></p>",
         "content_es": "<strong>Abrir una mezcla grande suele obligar a recurrir siempre a los mismos recursos.</strong> Este paquete reúne en una sola licencia herramientas de ecualización, compresión, reverberación, saturación y limitación, con Pro-Q 4, Pro-C 3, Pro-MB y Pro-R como piezas centrales. Funciona en VST2, VST3, AU y AAX dentro de macOS y Windows, con una latencia mínima que permite encadenar procesos sin cortes.\n\nResulta útil para técnicos que alternan sesiones distintas y buscan coherencia tímbrica entre temas, además de trabajos de masterización que piden dinámica flexible. La contrapartida está en la amplitud: al principio la cantidad de módulos abruma y exige tiempo hasta dominar el flujo con soltura.\n<p><strong>Pro-Q 4 y Pro-C 3 también se pueden comprar por separado.</strong></p>",
         "products": [
-          29,
-          61
+          29
         ],
         "verdict": "",
         "verdict_es": "",
@@ -48433,7 +48394,6 @@
     "verdict_es": "<p><strong>La referencia de la categoría es <span class=\"product-name\">FabFilter Paquete Total</span>.</strong> El kit definitivo de mezcla y masterización. Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3 y más. Pro-Q 4 y Pro-C 3 se pueden comprar por separado.</p><p><strong><span class=\"product-name\">Tokyo Dawn Labs TDR Kotelnikov GE</span></strong> — Compresión transparente de bus y master con M/S, EQ de sidechain, lookahead y oversampling.</p><p><strong><span class=\"product-name\">Soundtoys 5.5 Bundle</span></strong> — 23 efectos icónicos incluyendo Decapitator, EchoBoy, Little AlterBoy, SuperPlate, SpaceBlender y Effect Rack.</p><p><strong><span class=\"product-name\">Universal Audio UAD Ultimate 14</span></strong> — La colección completa de plugins UAD con más de 100 emulaciones.</p><p><strong><span class=\"product-name\">Celemony Melodyne 5</span></strong> — Estándar de la industria para corrección de tono y afinación vocal.</p><p><strong><span class=\"product-name\">iZotope Ozone 12 Advanced</span></strong> — Suite de masterización con IA de nueva generación.</p><p><strong><span class=\"product-name\">Native Instruments Komplete 26 Definitivo</span></strong> — La colección definitiva de Native Instruments.</p>",
     "featuredProducts": [
       29,
-      61,
       32,
       121,
       120,
@@ -49761,9 +49721,7 @@
         "heading_es": "Extra para loopear: RC-5 Loop Station",
         "content": "<strong>The Boss RC-5 Loop Station is the most powerful compact looper for practice and live use.</strong> It records up to 13 hours of stereo audio with 99 phrase memories, and its 57 rhythm patterns with 7 drum kits turn any pedal into a full backing band. TRS MIDI I/O syncs it with any rig. Pair it with the DD-8 or Hall of Fame 2 for a complete time-based setup.",
         "content_es": "<strong>El Boss RC-5 Loop Station es el looper compacto más potente para practicar y tocar en directo.</strong> Graba hasta 13 horas de audio estéreo con 99 memorias, y sus 57 ritmos con 7 kits de batería convierten cualquier pedal en una banda de acompañamiento, con MIDI TRS para sincronizar con cualquier sistema.",
-        "products": [
-          200
-        ],
+        "products": [],
         "verdict": "",
         "verdict_es": "",
         "pros": [],
@@ -49972,7 +49930,6 @@
     "featuredProducts": [
       135,
       97,
-      200,
       100,
       591,
       592,
@@ -50094,10 +50051,6 @@
         {
           "title": "Meris LVX",
           "title_es": "Meris LVX"
-        },
-        {
-          "title": "Boss RC-5 Loop Station",
-          "title_es": "Boss RC-5 Loop Station"
         },
         {
           "title": "Eventide TimeFactor",
@@ -50792,34 +50745,6 @@
           "Sin perillas dedicadas por param",
           "Caro",
           "Su alto consumo impide alimentarlo en cadena"
-        ]
-      },
-      {
-        "name": "Boss RC-5 Loop Station",
-        "name_es": "Boss RC-5 Loop Station",
-        "pros": [
-          "13 hours of stereo recording at 32-bit float — longer than most rack loopers",
-          "99 phrase memories that also store the rhythm and kit, so a song reloads ready to play",
-          "57 preset rhythms across 7 drum-kit styles with A/B variations",
-          "Full MIDI in and out on mini TRS jacks, plus USB WAV import for backing tracks"
-        ],
-        "cons": [
-          "170 mA current draw cuts alkaline battery life to about two hours",
-          "Around $205–$220 puts it above the plain RC-500-style loopers",
-          "Single-track looper — no two-track overdub workflow like the RC-500 or RC-600",
-          "Reverse and deep editing need the menu dial, so it is not purely hands-down"
-        ],
-        "pros_es": [
-          "13 horas de grabación estéreo en coma flotante de 32 bits, más que la mayoría de loopers de rack",
-          "99 memorias de frase que guardan también el ritmo y el kit, así que una canción vuelve lista para tocar",
-          "57 ritmos predefinidos en 7 estilos de kit con variaciones A/B",
-          "MIDI completo de entrada y salida en jacks mini TRS, más importación WAV por USB para bases"
-        ],
-        "cons_es": [
-          "Un consumo de 170 mA deja la pila alcalina en unas dos horas",
-          "Entre $205 y $220 lo sitúa por encima de los loopers sencillos tipo RC-500",
-          "Looper de una sola pista, sin el overdub de dos pistas del RC-500 o el RC-600",
-          "El reverse y la edición profunda piden el dial de menús, así que no es solo pedal"
         ]
       },
       {
@@ -70096,7 +70021,6 @@
     "badge": "topQuality",
     "featuredProducts": [
       440,
-      7,
       68,
       6,
       126,
@@ -70146,8 +70070,7 @@
         "products": [
           444,
           126,
-          6,
-          7
+          6
         ],
         "verdict": "",
         "verdict_es": "",
@@ -70194,9 +70117,7 @@
         "heading_es": "Gibson Les Paul Standard '60s: la alternativa al bolt-on",
         "content": "<strong>A Fender-heavy lineup tells only half the single-cut story when classic rock enters the room.</strong> The Les Paul Standard 60s brings mahogany topped with maple, a mahogany SlimTaper neck at 24.75 inches, 22 rosewood frets and 60s Burstbucker humbuckers through Grover Rotomatic tuners. The shorter scale softens string tension for bends and thick rhythm work, while the carved top and set neck sustain notes with violin-like bloom.\n\nThe guitar speaks to players craving classic rock authority beside bolt-on sparkle, especially riff-driven sets and warm lead passages. The counterweight is heft and access: thicker bodies tire shoulders on long nights and upper-fret reaches ask for adjusted hand positions compared with contoured double-cuts nearby.",
         "content_es": "<strong>Una alineación cargada de Fender cuenta solo media historia de la pala simple cuando entra el rock clásico.</strong> La Les Paul Standard 60s aporta caoba con tapa de arce, mástil de caoba SlimTaper de 24,75 pulgadas, 22 trastes de palisandro y humbuckers Burstbucker 60s con clavijas Grover Rotomatic. La escala corta ablanda la tensión para bends y rítmicas densas, mientras la tapa tallada y el mástil encolado sostienen las notas con floración de violín.\n\nLa guitarra habla a instrumentistas que buscan autoridad de rock clásico junto al brillo atornillado, sobre todo en sets de riffs y solos cálidos. La contrapartida es peso y acceso: el cuerpo grueso cansa hombros en noches largas y los trastes altos piden recolocar la mano frente a las dobles cutaway con contornos vecinos.",
-        "products": [
-          7
-        ],
+        "products": [],
         "verdict": "",
         "verdict_es": "",
         "pros": [],
@@ -70410,10 +70331,6 @@
         {
           "title": "Fender American Professional II Stratocaster",
           "title_es": "Fender American Professional II Stratocaster"
-        },
-        {
-          "title": "Gibson Les Paul Standard '60s",
-          "title_es": "Gibson Les Paul Standard '60s"
         }
       ],
       "rows": [
@@ -70930,34 +70847,6 @@
           "Las singles zumban bajo focos",
           "El acabado brillante divide a amantes del satinado",
           "El estuche añade peso al transportar"
-        ]
-      },
-      {
-        "name": "Gibson Les Paul Standard '60s",
-        "name_es": "Gibson Les Paul Standard '60s",
-        "pros": [
-          "Non-weight-relieved mahogany plus AA maple cap sustain",
-          "60s Burstbuckers with Orange Drop hand-wired controls",
-          "SlimTaper neck with 12-inch radius for fast lead work",
-          "ABR-1 bridge with aluminum stop bar resonance"
-        ],
-        "cons": [
-          "Heaviest guitar here by a wide margin",
-          "No weight relief — back and shoulder feel it",
-          "Premium price over Fender counterparts",
-          "Nitro finish needs more care than poly"
-        ],
-        "pros_es": [
-          "Caoba maciza más tapa de arce AA que sostienen el sustain",
-          "Burstbuckers 60s con controles Orange Drop cableados a mano",
-          "Mástil SlimTaper con radio de 12 pulgadas para solos rápidos",
-          "Puente ABR-1 con cordal de aluminio resonante"
-        ],
-        "cons_es": [
-          "La guitarra más pesada aquí por diferencia",
-          "Sin aligerado — espalda y hombro lo notan",
-          "Precio premium sobre contrapartes Fender",
-          "El nitro necesita más cuidado que el poli"
         ]
       }
     ],
