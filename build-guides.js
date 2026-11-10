@@ -6779,7 +6779,14 @@ function highlightProductNames(text, productNames) {
   var variations = [];
   productNames.forEach(function(name) {
     generateNameVariations(name).forEach(function(v) {
-      if (v && v.length > 2 && variations.indexOf(v) === -1) variations.push(v);
+      if (!v || v.length <= 2 || variations.indexOf(v) !== -1) return;
+      // Skip single generic words that would cause false positives in text
+      // e.g., "Player" inside "Player Series"
+      var parts = v.trim().split(/\s+/);
+      var isSingleWord = parts.length === 1;
+      var hasDigitOrHyphen = /[0-9-]/.test(v);
+      if (isSingleWord && !hasDigitOrHyphen) return;
+      variations.push(v);
     });
   });
   variations.sort(function(a, b) { return b.length - a.length; });
@@ -6787,7 +6794,7 @@ function highlightProductNames(text, productNames) {
   // Una sola pasada con las variantes ordenadas de más larga a más corta:
   // evita que "D-28" se marque dentro de "Martin D-28 Dreadnought".
   var pattern = new RegExp(variations.map(function(v) {
-    return v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return '\\b' + v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b';
   }).join('|'), 'g');
   work = work.replace(pattern, '<span class="product-name">$&</span>');
   return work.replace(/\u0000(\d+)\u0000/g, function(_, i) { return saved[+i]; });
