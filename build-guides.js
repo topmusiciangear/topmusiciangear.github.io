@@ -6171,7 +6171,7 @@ function shopButtonsTest(p, lang) {
   const _amazonUrl = (cfg.urls && cfg.urls.amazon) || stores.amazon || '';
   const amazonReal = /\/dp\/[A-Z0-9]{10}/i.test(_amazonUrl);
   const _allStores = ['amazon', 'reverb', 'zzounds', 'gear4music', 'andertons', 'musicstore'];
-  const order = isLogic ? [] : (dawHasAmazon ? _allStores : isDaw ? ['zzounds', 'reverb', 'andertons', 'musicstore'] : (p.category === 'plugins' && !amazonReal ? _allStores.filter(k => k !== 'amazon') : _allStores));
+  const order = isLogic ? [] : (dawHasAmazon ? _allStores : isDaw ? ['zzounds', 'reverb', 'gear4music', 'andertons', 'musicstore'] : (p.category === 'plugins' && !amazonReal ? _allStores.filter(k => k !== 'amazon') : _allStores));
   const naList = cfg.na || [];
   const oosList = cfg.oos || [];
   const avail = order.filter(k => naList.indexOf(k) === -1 && ((cfg.urls && cfg.urls[k]) || k === 'reverb' || stores[k]));
@@ -6197,7 +6197,7 @@ function shopButtonsTest(p, lang) {
   var isUsa = false;
   try { var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; isUsa = tz.indexOf('America/') === 0 && (tz.indexOf('New_York') > -1 || tz.indexOf('Chicago') > -1 || tz.indexOf('Denver') > -1 || tz.indexOf('Los_Angeles') > -1 || tz.indexOf('Anchorage') > -1 || tz.indexOf('Honolulu') > -1 || tz.indexOf('Phoenix') > -1 || tz.indexOf('Detroit') > -1 || tz.indexOf('Indiana') > -1); } catch(e) {}
   const hasAmazon = !isLogic && !isPlugins && !isHolly;
-  const primaryStoreKey = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : isUsa ? 'zzounds' : 'amazon';
+  const primaryStoreKey = isHolly ? 'hollyland' : isLogic ? 'official' : isPlugins ? 'pluginboutique' : isDaw ? 'gear4music' : isUsa ? 'zzounds' : 'amazon';
   // Precio del boton primario. Amazon no tiene precio propio en casi ningun
   // producto (Amazon solo aporta el enlace con tag), asi que antes se
   // sustituia por "Check price" y se descartaba el precio que si existe en
@@ -6223,7 +6223,7 @@ function shopButtonsTest(p, lang) {
   const pPrice = hidePrimaryLabel ? '' : pPriceRaw;
   const zzoundsSearchUrl = 'https://www.zzounds.com/prodsearch?form=search&q=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+');
   const amazonSearchUrl = 'https://www.amazon.com/s?k=' + encodeURIComponent(searchTerm(p.title || p.name)).replace(/%20/g, '+') + '&tag=topmusicg-20';
-  var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(searchTerm(p.title)) + '&a_aid=6a01e859cbe1a') : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
+  var pUrlRaw = isLogic ? stores.official : isHolly ? (hollyPick ? hollyPick.u || '' : stores.hollyland || '') : isPlugins ? (stores.pluginboutique || stores.amazon || 'https://www.pluginboutique.com/search?q=' + encodeURIComponent(searchTerm(p.title)) + '&a_aid=6a01e859cbe1a') : isDaw ? (stores.gear4music || 'https://www.gear4music.com/search?q=' + encodeURIComponent(searchTerm(p.title))) : isUsa ? (stores.zzounds || zzoundsSearchUrl) : (stores.amazon || amazonSearchUrl);
   var pUrl = wrapAffiliate(primaryStoreKey, pUrlRaw);
   if (!pUrl) return '';
   var hollyAttrs = '';
