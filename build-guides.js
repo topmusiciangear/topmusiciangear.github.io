@@ -1088,18 +1088,6 @@ const TEST_SHOP_BTN = {
       "zzounds"
     ]
   },
-  103: {
-    prices: {
-      amazon: "$329.99",
-      zzounds: "$379.99",
-      gear4music: "£288.00",
-      andertons: "£269.00",
-      musicstore: "€329.00"
-    },
-    urls: {
-      gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-Pacifica-112V-Natural-Satin/3SL4"
-    }
-  },
   104: {
     prices: {
       amazon: "$3,499.99",
