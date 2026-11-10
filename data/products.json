@@ -36095,5 +36095,63 @@
       "musicstore": "https://www.musicstore.com/en_OE/EUR/Steinberg-Cubase-Elements-16/art-PCM0019136-000",
       "zzounds": "https://www.zzounds.com/item--STECUBASEELM16"
     }
+  },
+  {
+    "id": 103,
+    "title": "Yamaha Pacifica 112V",
+    "title_es": "Yamaha Pacifica 112V",
+    "brand": "Yamaha",
+    "category": "guitars",
+    "price": 349,
+    "rating": 4.5,
+    "reviews": 18900,
+    "badge": "bestSeller",
+    "desc": "The best beginner electric guitar. HSS pickup configuration for versatility. Solid alder body, maple neck. Plays and sounds like guitars twice the price. The standard for budget electrics.",
+    "desc_es": "La mejor guitarra eléctrica para principiantes. Configuración HSS para versatilidad. Cuerpo sólido de aliso, mástil de arce. Toca y suena como guitarras del doble de precio.",
+    "img": "https://r2.gear4music.com/media/40/408499/1200/preview.jpg",
+    "stores": {
+      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FGuitar-and-Bass%2FYamaha-Pacifica-112V-Natural-Satin%2F3SL4",
+      "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-Pacifica-112V-RL-Black%2Fart-GIT0056349-000",
+      "amazon": "https://www.amazon.com/dp/B0010X7LF8",
+      "andertons": "https://www.andertons.co.uk/yamaha-pacifica-112v-mx-in-yellow-natural-satin-with-remote-lesson/",
+      "zzounds": "https://www.zzounds.com/a--925521/item--YAMPAC112V"
+    },
+    "oos": [
+      "zzounds"
+    ],
+    "score": 9.7,
+    "bestFor": {
+      "en": "Versatile beginner",
+      "es": "Principiante versátil"
+    },
+    "facts": [
+      {
+        "icon": "sineWave",
+        "value": "HSS",
+        "label": {
+          "en": "Pickups",
+          "es": "Pastillas"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "ruler",
+        "value": "25.5 in",
+        "label": {
+          "en": "Scale",
+          "es": "Escala"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "guitar",
+        "value": "Alder",
+        "label": {
+          "en": "Body",
+          "es": "Cuerpo"
+        },
+        "tone": "good"
+      }
+    ]
   }
 ]
