@@ -3045,7 +3045,7 @@ main:has(.mobile-social) + footer {
 .guide-products-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  gap: 14px;
   align-items: start;
 }
 
