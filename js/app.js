@@ -783,12 +783,45 @@ function findProductGuides(productId) {
   function normName(s) {
     return (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
   }
+  // Build name -> id map for product lookup
+  const nameToId = {};
+  (products || []).forEach(function(p) {
+    const names = [];
+    if (p.title) names.push(p.title);
+    if (p.title_es) names.push(p.title_es);
+    names.forEach(function(n) {
+      const k = normName(n);
+      if (k && !nameToId[k]) nameToId[k] = p.id;
+    });
+  });
   (guides || []).forEach(function(g) {
-    var ids = [];
-    if (g.featuredProducts) ids = ids.concat(g.featuredProducts);
-    if (g.products) ids = ids.concat(g.products);
-    if (g.sections) g.sections.forEach(function(s) { if (s.products) ids = ids.concat(s.products); });
-    if (ids.indexOf(productId) !== -1) { pushGuide(g); return; }
+    const ids = new Set();
+    if (g.featuredProducts) g.featuredProducts.forEach(function(id){ ids.add(id); });
+    if (g.products) g.products.forEach(function(id){ ids.add(id); });
+    if (g.sections) g.sections.forEach(function(s) { if (s.products) s.products.forEach(function(id){ ids.add(id); }); });
+    // verdictProsCons names
+    if (g.verdictProsCons) {
+      g.verdictProsCons.forEach(function(v) {
+        const name = isEs && v.name_es ? v.name_es : v.name;
+        if (name) {
+          const pid = nameToId[normName(name)];
+          if (pid) ids.add(pid);
+        }
+      });
+    }
+    // productTable columns
+    if (g.productTable && g.productTable.columns) {
+      g.productTable.columns.forEach(function(col) {
+        const name = isEs && col.title_es ? col.title_es : col.title;
+        if (name) {
+          const pid = nameToId[normName(name)];
+          if (pid) ids.add(pid);
+        }
+      });
+    }
+    if (ids.has(productId)) {
+      pushGuide(g);
+    }
   });
   return out;
 }
