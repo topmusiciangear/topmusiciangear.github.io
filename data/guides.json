@@ -13366,6 +13366,10 @@
           "title_es": "iZotope RX 12 Standard"
         },
         {
+          "title": "Waves Clarity Vx Pro",
+          "title_es": "Waves Clarity Vx Pro"
+        },
+        {
           "title": "Sonible smart:deess",
           "title_es": "Sonible smart:deess"
         },
@@ -13376,10 +13380,6 @@
         {
           "title": "Zynaptiq Unveil",
           "title_es": "Zynaptiq Unveil"
-        },
-        {
-          "title": "Waves Clarity Vx Pro",
-          "title_es": "Waves Clarity Vx Pro"
         }
       ],
       "rows": [
@@ -13392,8 +13392,8 @@
               "value_es": "Reparación espectral de cualquier problema de audio"
             },
             {
-              "value": "Taming resonances with one knob",
-              "value_es": "Domar resonancias con una perilla"
+              "value": "Real-time dialogue isolation",
+              "value_es": "Aislamiento de diálogos en tiempo real"
             },
             {
               "value": "Natural AI de-essing for vocals",
@@ -13404,8 +13404,8 @@
               "value_es": "Limpieza diaria con presupuesto"
             },
             {
-              "value": "Real-time dialogue isolation",
-              "value_es": "Aislamiento de diálogos en tiempo real"
+              "value": "Removing room acoustics from bad spaces",
+              "value_es": "Eliminar acústica de salas problemáticas"
             }
           ]
         },
@@ -13418,8 +13418,8 @@
               "value_es": "Suite de reparación de audio"
             },
             {
-              "value": "Spectral resonance suppressor",
-              "value_es": "Supresor espectral de resonancias"
+              "value": "AI voice isolation processor",
+              "value_es": "Procesador de aislamiento de voz por IA"
             },
             {
               "value": "AI de-esser",
@@ -13430,8 +13430,8 @@
               "value_es": "Suite de 4 herramientas"
             },
             {
-              "value": "AI voice isolation processor",
-              "value_es": "Procesador de aislamiento de voz por IA"
+              "value": "De-reverb processor",
+              "value_es": "Procesador de-reverb"
             }
           ]
         },
@@ -13444,8 +13444,8 @@
               "value_es": "VST3/AU/AAX"
             },
             {
-              "value": "VST2/VST3/AU/AAX",
-              "value_es": "VST2/VST3/AU/AAX"
+              "value": "VST3/AU/AAX",
+              "value_es": "VST3/AU/AAX"
             },
             {
               "value": "VST2/VST3/AU/AAX",
@@ -13456,8 +13456,8 @@
               "value_es": "VST/VST3/AU/AAX"
             },
             {
-              "value": "VST3/AU/AAX",
-              "value_es": "VST3/AU/AAX"
+              "value": "VST/VST3/AU/AAX",
+              "value_es": "VST/VST3/AU/AAX"
             }
           ]
         },
@@ -13496,8 +13496,8 @@
               "value_es": "Editor espectral visual con herramientas de diálogo"
             },
             {
-              "value": "Single-control spectral processing",
-              "value_es": "Procesamiento espectral de un solo control"
+              "value": "Real-time neural noise removal",
+              "value_es": "Eliminación de ruido por red neuronal en tiempo real"
             },
             {
               "value": "Neural network finds exact sibilant events",
@@ -13508,8 +13508,8 @@
               "value_es": "DeNoise, DeHum, DeClick y DeReverb en uno"
             },
             {
-              "value": "Real-time neural noise removal",
-              "value_es": "Eliminación de ruido por red neuronal en tiempo real"
+              "value": "Phase-cancellation room reflection removal",
+              "value_es": "Eliminación de reflexiones de sala por cancelación de fase"
             }
           ]
         }
