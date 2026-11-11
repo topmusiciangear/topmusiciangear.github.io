@@ -36140,8 +36140,8 @@
     "rating": 4.8,
     "reviews": 0,
     "badge": "",
-    "desc": "The absolute industry disrupter for real-time noise restoration. Powered by advanced neural networks, it instantly isolates dialogue from heavy background noise—like traffic, wind, air conditioning, or construction—with a single control knob while keeping the vocal performance perfectly natural.",
-    "desc_es": "El disruptor absoluto de la industria para la restauración de ruido en tiempo real. Impulsado por redes neuronales avanzadas, aísla los diálogos de ruidos de fondo pesados—como tráfico, viento, aire acondicionado o construcción—con una sola perilla mientras mantiene la actuación vocal perfectamente natural.",
+    "desc": "The absolute industry disrupter for real-time noise restoration. Powered by neural networks, it instantly isolates dialogue from heavy background noise—like traffic, wind, or construction—with a single control knob while keeping the vocal performance perfectly natural.",
+    "desc_es": "El disruptor absoluto de la industria para la restauración de ruido en tiempo real. Impulsado por redes neuronales, aísla los diálogos de ruidos de fondo pesados—como tráfico, viento o construcción—con una sola perilla mientras mantiene la actuación vocal perfectamente natural.",
     "img": "https://banners.pluginboutique.com/wbgbxuhoe151qk90xwraw60414kz",
     "stores": {
       "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/13821-Clarity-Vx-Pro"
@@ -36157,19 +36157,30 @@
     "facts": [
       {
         "icon": "sliders",
+        "value": "AI voice isolation processor",
+        "label": {
+          "en": "Type",
+          "es": "Tipo"
+        },
+        "tone": "good"
+      },
+      {
+        "icon": "compactDisc",
         "value": "VST3/AU/AAX",
         "label": {
           "en": "Format",
           "es": "Formato"
-        }
+        },
+        "tone": "good"
       },
       {
-        "icon": "cpu",
-        "value": "High",
+        "icon": "globe",
+        "value": "macOS & Windows",
         "label": {
-          "en": "CPU",
-          "es": "CPU"
-        }
+          "en": "Platforms",
+          "es": "Plataformas"
+        },
+        "tone": "good"
       }
     ]
   }
