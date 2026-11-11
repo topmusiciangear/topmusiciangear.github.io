@@ -13036,6 +13036,42 @@
         "specs": {}
       },
       {
+        "heading": "Baby Audio Smooth Operator Pro: One-Knob Resonance Control",
+        "heading_es": "Baby Audio Smooth Operator Pro: Control de Resonancias con un Solo Nodo",
+        "content": "<p><strong>Baby Audio Smooth Operator Pro is a smart spectral processor for taming harsh resonances with a single node.</strong> Instead of hunting frequencies with a static EQ, it analyses the full spectrum in real time and attenuates unwanted peaks on vocals, guitars, cymbals and the mix bus while preserving dynamics. The interactive node-based interface makes resonance control visual and fast.</p>",
+        "content_es": "<p><strong>Baby Audio Smooth Operator Pro es un procesador dinámico espectral inteligente de última generación.</strong> Diseñado específicamente para rescatar y limpiar pistas de audio, combina el análisis espectral en tiempo real con algoritmos de atenuación automática para eliminar la aspereza sin destruir la dinámica original. En lugar de obligarte a buscar frecuencias hirientes de forma estática con un ecualizador tradicional, el plugin analiza de forma continua el espectro completo. Su motor resalta de inmediato los picos de volumen no deseados y te permite atenuar sibilancias hirientes en las voces, eliminar el molesto sonido \\\"encajonado\\\" o barro en los medios-graves de las guitarras acústicas, o suavizar platillos de batería estridentes. Todo esto se controla desde una interfaz altamente visual basada en un sistema de curvas y nodos interactivos que elimina la fatiga visual y auditiva en el estudio.</p>",
+        "pros": [
+          "Intelligent spectral suppression detects and tames harsh peaks in seconds",
+          "Practically zero learning curve thanks to the interactive node interface",
+          "Preserves original dynamics without compressor pumping",
+          "Excellent value for a professional spectral suppressor"
+        ],
+        "pros_es": [
+          "El algoritmo espectral inteligente detecta y atenúa picos de frecuencia hirientes en tiempo real en cuestión de segundos",
+          "Ofrece una curva de aprendizaje prácticamente nula gracias a su panel minimalista basado en nodos gráficos interactivos",
+          "Conserva la intención y dinámica original de la interpretación sin inducir los molestos efectos de bombeo de los compresores clásicos",
+          "Excelente relación calidad-precio en el catálogo de Plugin Boutique para productores que buscan un supresor espectral profesional a una fracción del costo de la competencia"
+        ],
+        "cons": [
+          "No deep band-by-band surgical control for mastering engineers",
+          "Can over-smooth and dull highs if pushed too hard",
+          "No multi-track analysis or unmasking like smart:EQ 4",
+          "Noticeable CPU usage with many simultaneous instances"
+        ],
+        "cons_es": [
+          "Carece de controles analíticos profundos o edición quirúrgica banda por banda para ingenieros de masterización exigentes",
+          "Si se empuja el umbral o el nodo de control en exceso, puede sobre-suavizar la pista y restar brillo o presencia natural en los agudos",
+          "A diferencia de herramientas avanzadas de mezcla como smart:EQ 4, no ofrece funciones de análisis o desenmascaramiento multi-pista",
+          "Presenta un consumo de recursos de procesador (CPU) perceptible en proyectos masivos si se abren múltiples instancias de forma simultánea"
+        ],
+        "products": [
+          472
+        ],
+        "verdict": "",
+        "verdict_es": "",
+        "specs": {}
+      },
+      {
         "heading": "Sonible smart:deess: The AI De-Esser That Listens Before It Acts",
         "heading_es": "Sonible smart:deess: el de-esser con IA que escucha antes de actuar",
         "content": "<p><strong>Sonible smart:deess uses a neural network to analyze incoming audio and identify sibilance, plosives, and other harsh phonemes.</strong> It then applies targeted reduction only where needed, preserving the natural character of the voice. The AI processing adjusts settings automatically based on the source material.</p><p>The difference from a traditional de-esser is precision. Traditional de-essers reduce a fixed frequency range, which can dull the voice. Sonible smart:deess identifies the exact start and end points of each sibilant event and processes only those moments. For dialogue, vocals, and podcast production, it delivers natural results with minimal effort.</p>",
