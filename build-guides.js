@@ -6769,35 +6769,39 @@ function generateNameVariations(name) {
 // Helper: wrap product names in text with blue span
 function highlightProductNames(text, productNames) {
   if (!text || !productNames || !productNames.length) return text;
-  // Los nombres que ya vienen marcados (veredicto/conclusión) se protegen para
-  // que las variaciones cortas no creen spans anidados dentro de ellos.
-  var saved = [];
-  var work = text.replace(/<span class="product-name">[\s\S]*?<\/span>/g, function(m) {
+
+  // Protect existing product-name spans so we don't double-wrap
+  const saved = [];
+  let work = text.replace(/<span class="product-name">[\s\S]*?<\/span>/gi, function(m) {
     saved.push(m);
     return '\u0000' + (saved.length - 1) + '\u0000';
   });
-  var variations = [];
-  productNames.forEach(function(name) {
-    generateNameVariations(name).forEach(function(v) {
-      if (!v || v.length <= 2 || variations.indexOf(v) !== -1) return;
-      // Skip single generic words that would cause false positives in text
-      // e.g., "Player" inside "Player Series"
-      var parts = v.trim().split(/\s+/);
-      var isSingleWord = parts.length === 1;
-      var hasDigitOrHyphen = /[0-9-]/.test(v);
-      if (isSingleWord && !hasDigitOrHyphen) return;
-      variations.push(v);
-    });
-  });
-  variations.sort(function(a, b) { return b.length - a.length; });
-  if (!variations.length) return text;
-  // Una sola pasada con las variantes ordenadas de más larga a más corta:
-  // evita que "D-28" se marque dentro de "Martin D-28 Dreadnought".
-  var pattern = new RegExp(variations.map(function(v) {
-    return '\\b' + v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b';
-  }).join('|'), 'g');
-  work = work.replace(pattern, '<span class="product-name">$&</span>');
-  return work.replace(/\u0000(\d+)\u0000/g, function(_, i) { return saved[+i]; });
+
+  // Use only full product names, no generic variations
+  const names = productNames.filter(n => n && n.trim().length > 2);
+  if (!names.length) {
+    return work.replace(/\u0000(\d+)\u0000/g, (_, i) => saved[+i]);
+  }
+
+  // Longest first to avoid partial matches
+  const uniq = [...new Set(names)];
+  uniq.sort((a, b) => b.length - a.length);
+
+  // Build a regex with word boundaries for each full name
+  const pattern = uniq.map(v => {
+    const esc = v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return '\\b' + esc + '\\b';
+  }).join('|');
+
+  if (!pattern) {
+    return work.replace(/\u0000(\d+)\u0000/g, (_, i) => saved[+i]);
+  }
+
+  const re = new RegExp(pattern, 'gi');
+  work = work.replace(re, '<span class="product-name">$&</span>');
+
+  // Restore protected spans
+  return work.replace(/\u0000(\d+)\u0000/g, (_, i) => saved[+i]);
 }
 
 function buildGuidePage(guide, lang, idx) {

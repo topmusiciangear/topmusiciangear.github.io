@@ -1,0 +1,42 @@
+[
+  {
+    "guideId": "fender-bass-guide",
+    "guideTitle": "best fender basses for every genre",
+    "guideCat": "basses",
+    "productId": 157,
+    "productTitle": "Squier Classic Vibe '60s Jazz Bass",
+    "productCat": "bass",
+    "brand": "squier",
+    "reason": "brand not fender"
+  },
+  {
+    "guideId": "fender-bass-guide",
+    "guideTitle": "best fender basses for every genre",
+    "guideCat": "basses",
+    "productId": 158,
+    "productTitle": "Squier Affinity Series Precision Bass PJ",
+    "productCat": "bass",
+    "brand": "squier",
+    "reason": "brand not fender"
+  },
+  {
+    "guideId": "mixing-plugins",
+    "guideTitle": "best mixing & mastering plugins",
+    "guideCat": "plugins",
+    "productId": 60,
+    "productTitle": "DAddario NS Micro Headstock Tuner",
+    "productCat": "accessories",
+    "brand": "daddario",
+    "reason": "cat accessories != plugins"
+  },
+  {
+    "guideId": "stage-wireless",
+    "guideTitle": "best wireless microphone systems for stage",
+    "guideCat": "microphones",
+    "productId": 107,
+    "productTitle": "Shure BLX24R/SM58 Wireless",
+    "productCat": "live_sound",
+    "brand": "shure",
+    "reason": "cat live_sound != microphones"
+  }
+]
