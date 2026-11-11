@@ -13108,6 +13108,42 @@
         "specs": {}
       },
       {
+        "heading": "Waves Clarity Vx Pro: Real-Time AI Noise Isolation for Dialogue",
+        "heading_es": "Waves Clarity Vx Pro: Aislamiento de Ruido por IA en Tiempo Real para Diálogos",
+        "content": "<p><strong>Waves Clarity Vx Pro is the absolute industry disrupter for noise restoration.</strong> Powered by Waves' advanced Neural Networks, it isolates dialogue from complex background noise — traffic, wind, air conditioning, or even construction — in real time with a single knob. The Pro version offers multi-band processing, allowing post-production engineers to surgically clean specific frequency ranges without introducing the metallic artifacts common in older spectral tools.</p>",
+        "content_es": "<p><strong>Waves Clarity Vx Pro es el disruptor absoluto de la industria para la restauración de ruido.</strong> Impulsado por las redes neuronales avanzadas de Waves, aísla los diálogos de ruidos de fondo complejos — tráfico, viento, aire acondicionado o incluso construcción — en tiempo real con una sola perilla. La versión Pro ofrece procesamiento multibanda, lo que permite a los ingenieros de postproducción limpiar quirúrgicamente rangos de frecuencia específicos sin introducir los artefactos metálicos comunes en las herramientas espectrales más antiguas.</p>",
+        "pros": [
+          "Real-time noise isolation with a single knob",
+          "Multi-band processing for surgical cleaning",
+          "Ambient gate reduces residual noise",
+          "Ambience extraction mode"
+        ],
+        "pros_es": [
+          "Aislamiento en tiempo real con una sola perilla",
+          "Procesamiento multibanda para limpieza quirúrgica",
+          "Compuerta de ambiente reduce ruido residual",
+          "Modo de extracción de ambiente"
+        ],
+        "cons": [
+          "Heavy CPU usage",
+          "Artifacts with extreme settings",
+          "Shares basic engine with standard version",
+          "Does not repair digital artifacts"
+        ],
+        "cons_es": [
+          "Consumo masivo de CPU",
+          "Artefactos con configuraciones extremas",
+          "Comparte motor básico con la versión estándar",
+          "No repara artefactos digitales"
+        ],
+        "products": [
+          9010
+        ],
+        "verdict": "",
+        "verdict_es": "",
+        "specs": {}
+      },
+      {
         "heading": "Zynaptiq Unveil: The De-Reverb Processor That Rescues Live Recordings",
         "heading_es": "Zynaptiq Unveil: el procesador de de-reverb que rescata grabaciones en vivo",
         "content": "<p><strong>Zynaptiq Unveil is a de-mixing-based de-reverb processor.</strong> Instead of filtering frequencies, it separates the direct sound from the room reflections using phase cancellation. The result is a dramatic reduction of reverb that preserves the clarity and presence of the original performance.</p><p>It is particularly effective on live recordings, podcast interviews, and dialogue captured in reflective rooms. The processing is surgical: you can adjust the amount of reverb removal and the recovery of direct sound. For engineers who rescue recordings made in bad rooms, Zynaptiq Unveil is a specialized but powerful tool.</p>",
@@ -13256,6 +13292,34 @@
         ],
         "name": "Zynaptiq Unveil",
         "name_es": "Zynaptiq Unveil"
+      },
+      {
+        "pros": [
+          "Real-time noise isolation with a single knob",
+          "Multi-band processing for surgical cleaning",
+          "Ambient gate reduces residual noise",
+          "Ambience extraction mode"
+        ],
+        "pros_es": [
+          "Aislamiento en tiempo real con una sola perilla",
+          "Procesamiento multibanda para limpieza quirúrgica",
+          "Compuerta de ambiente reduce ruido residual",
+          "Modo de extracción de ambiente"
+        ],
+        "cons": [
+          "Heavy CPU usage",
+          "Artifacts with extreme settings",
+          "Shares basic engine with standard version",
+          "Does not repair digital artifacts"
+        ],
+        "cons_es": [
+          "Consumo masivo de CPU",
+          "Artefactos con configuraciones extremas",
+          "Comparte motor básico con la versión estándar",
+          "No repara artefactos digitales"
+        ],
+        "name": "Waves Clarity Vx Pro",
+        "name_es": "Waves Clarity Vx Pro"
       }
     ],
     "faq": [
@@ -13272,6 +13336,12 @@
         "a_es": "RX 12 merece la pena si arreglas audio regularmente. El editor espectral te permite ver y eliminar ruido, clics y reverbs que son imposibles de arreglar con herramientas tradicionales. Los módulos de diálogo de-noise y de-reverb resuelven problemas que de otro modo requerirían regrabación. Para podcasters, ingenieros de post-producción y profesionales de estudio, RX 12 se paga rápidamente."
       },
       {
+        "q": "How does Waves Clarity Vx Pro compare to iZotope RX for noise reduction?",
+        "q_es": "¿Cómo se compara Waves Clarity Vx Pro con iZotope RX para reducción de ruido?",
+        "a": "Waves Clarity Vx Pro excels at real-time dialogue isolation with a single knob, while iZotope RX 12 offers deeper spectral editing and repair tools. Use Clarity Vx Pro for fast, on-the-fly cleanup; use RX 12 for surgical repair of clicks, hums, and complex restoration.",
+        "a_es": "Waves Clarity Vx Pro sobresale en el aislamiento de diálogos en tiempo real con una sola perilla, mientras que iZotope RX 12 ofrece herramientas de edición espectral y reparación más profundas. Usa Clarity Vx Pro para limpieza rápida sobre la marcha; usa RX 12 para reparación quirúrgica de clics, zumbidos y restauración compleja."
+      },
+      {
         "q": "Can Zynaptiq Unveil remove reverb from a finished mix?",
         "q_es": "¿Puede Zynaptiq Unveil eliminar el reverb de una mezcla terminada?",
         "a": "No. Zynaptiq Unveil works on individual tracks or stems, not finished mixes. It separates direct sound from room reflections using de-mixing, which rescues live recordings, podcast interviews and dialogue tracked in reflective rooms. For reducing reverb before mixing, process each track individually, then balance with automation and EQ.",
@@ -13284,7 +13354,8 @@
       1025,
       1028,
       1027,
-      1030
+      1030,
+      9010
     ],
     "productTable": {
       "title": "Audio Repair Plugins Compared",
@@ -13305,6 +13376,10 @@
         {
           "title": "Zynaptiq Unveil",
           "title_es": "Zynaptiq Unveil"
+        },
+        {
+          "title": "Waves Clarity Vx Pro",
+          "title_es": "Waves Clarity Vx Pro"
         }
       ],
       "rows": [
@@ -13327,6 +13402,10 @@
             {
               "value": "Everyday cleanup on a budget",
               "value_es": "Limpieza diaria con presupuesto"
+            },
+            {
+              "value": "Real-time dialogue isolation",
+              "value_es": "Aislamiento de diálogos en tiempo real"
             }
           ]
         },
@@ -13349,6 +13428,10 @@
             {
               "value": "4-tool restoration suite",
               "value_es": "Suite de 4 herramientas"
+            },
+            {
+              "value": "AI voice isolation processor",
+              "value_es": "Procesador de aislamiento de voz por IA"
             }
           ]
         },
@@ -13371,6 +13454,10 @@
             {
               "value": "VST/VST3/AU/AAX",
               "value_es": "VST/VST3/AU/AAX"
+            },
+            {
+              "value": "VST3/AU/AAX",
+              "value_es": "VST3/AU/AAX"
             }
           ]
         },
@@ -13378,6 +13465,10 @@
           "label": "Platforms",
           "label_es": "Plataformas",
           "values": [
+            {
+              "value": "macOS & Windows",
+              "value_es": "macOS y Windows"
+            },
             {
               "value": "macOS & Windows",
               "value_es": "macOS y Windows"
@@ -13415,12 +13506,16 @@
             {
               "value": "DeNoise, DeHum, DeClick and DeReverb in one",
               "value_es": "DeNoise, DeHum, DeClick y DeReverb en uno"
+            },
+            {
+              "value": "Real-time neural noise removal",
+              "value_es": "Eliminación de ruido por red neuronal en tiempo real"
             }
           ]
         }
       ]
     },
-    "verdict": "<p><strong><span class=\"product-name\">iZotope RX 12 Standard</span> is a step ahead of the rest.</strong> The industry standard for audio repair. Spectral editing, dialogue de-noise, de-reverb, de-ess, and music rebalance.</p><p><strong><span class=\"product-name\">Sonible smart:deess</span></strong> — AI-powered de-esser that identifies sibilance and plosives in real time and adjusts processing automatically for natural results.</p><p><strong><span class=\"product-name\">Acon Restoration Suite 2</span></strong> — Four specialized tools: DeNoise 2, DeHum 2, DeClick 2, and DeReverb 2. Effective and affordable noise reduction suite.</p><p><strong><span class=\"product-name\">Zynaptiq Unveil</span></strong> — De-mixing-based de-reverb processor. Surgical removal of room acoustics from recordings made in problematic spaces.</p>",
+    "verdict": "<p><strong><span class=\"product-name\">iZotope RX 12 Standard</span> is a step ahead of the rest.</strong> The industry standard for audio repair. Spectral editing, dialogue de-noise, de-reverb, de-ess, and music rebalance.</p><p><strong><span class=\"product-name\">Sonible smart:deess</span></strong> — AI-powered de-esser that identifies sibilance and plosives in real time and adjusts processing automatically for natural results.</p><p><strong><span class=\"product-name\">Acon Restoration Suite 2</span></strong> — Four specialized tools: DeNoise 2, DeHum 2, DeClick 2, and DeReverb 2. Effective and affordable noise reduction suite.</p><p><strong><span class=\"product-name\">Zynaptiq Unveil</span></strong> — De-mixing-based de-reverb processor. Surgical removal of room acoustics from recordings made in problematic spaces.</p><p><strong><span class=\"product-name\">Waves Clarity Vx Pro</span></strong> — Real-time AI noise isolation for dialogue. Multi-band spectral cleaning without metallic artifacts.</p>",
     "verdict_es": "<p><strong><span class=\"product-name\">iZotope RX 12 Standard</span> está un paso por delante del resto.</strong> El estándar del sector en reparación de audio. Edición espectral, reducción de ruido en diálogos, eliminación de reverb, de-esser y reequilibrio de la música.</p><p><strong><span class=\"product-name\">Sonible smart:deess</span></strong> — De-esser con IA que detecta la sibilancia y las consonantes explosivas en tiempo real y ajusta el proceso automáticamente para que suene natural.</p><p><strong><span class=\"product-name\">Acon Restoration Suite 2</span></strong> — Cuatro herramientas especializadas: DeNoise 2, DeHum 2, DeClick 2 y DeReverb 2. Una suite de reducción de ruido eficaz y asequible.</p><p><strong><span class=\"product-name\">Zynaptiq Unveil</span></strong> — Procesador de eliminación de reverb basado en demix. Quita de forma quirúrgica la acústica de la sala en grabaciones hechas en espacios problemáticos.</p>",
     "image": "img/products/dd7701603e.webp",
     "description": "We tested top Audio Repair & Noise Restoration Plugins with hands-on reviews, specs and real prices to help you pick the right option for your setupÔÇª",

@@ -36130,4 +36130,30 @@
       }
     ]
   }
+,
+  {
+    "id": 9010,
+    "title": "Waves Clarity Vx Pro",
+    "title_es": "Waves Clarity Vx Pro",
+    "brand": "Waves",
+    "category": "plugins",
+    "price": 299,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "",
+    "desc": "AI-powered noise restoration for dialogue.",
+    "desc_es": "Restauracion de ruido por IA para dialogos.",
+    "img": "img/products/placeholder.webp",
+    "stores": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/13821-Clarity-Vx-Pro"
+    },
+    "affiliate": {
+      "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/13821-Clarity-Vx-Pro"
+    },
+    "score": 9.6,
+    "bestFor": {
+      "en": "Real-time dialogue isolation",
+      "es": "Aislamiento de dialogos en tiempo real"
+    }
+  }
 ]
