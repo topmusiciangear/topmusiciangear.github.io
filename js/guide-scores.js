@@ -1484,7 +1484,7 @@ var GUIDE_SCORES = {
  },
  "best-studio-monitors-under-150": {
   "Mackie CR4.5": 9.8,
-  "Alesis ELEVATE 4": 9.6,
+  "Alesis ELEVATE 4": 9.2,
   "M-Audio BX4": 9.5,
   "Behringer Truth 3.5 BT": 9.5,
   "PreSonus Eris 3.5 2nd Gen": 9.4,
