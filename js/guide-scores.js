@@ -1483,7 +1483,7 @@ var GUIDE_SCORES = {
   "QSC K12.2 Active PA Speaker": 9.8
  },
  "best-studio-monitors-under-150": {
-  "Mackie CR4.5": 9.8,
+  "Mackie CR4.5": 9.7,
   "Alesis ELEVATE 4": 9.2,
   "M-Audio BX4": 9.5,
   "Behringer Truth 3.5 BT": 9.5,
