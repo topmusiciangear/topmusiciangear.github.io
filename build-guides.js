@@ -1383,7 +1383,7 @@ function globeIcon() {
 }
 const SHOP_FLAG = { zzounds: usaFlag, reverb: globeIcon, gear4music: ukFlag, musicstore: euFlag, andertons: ukFlag, amazon: globeIcon };
 const TEST_SHOP_BTN = {
-  103: { prices: { gear4music: "£289.00", musicstore: "€349.00", zzounds: "$379.99", amazon: "$349.00", andertons: "£289.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-Pacifica-112V-Natural-Satin/3SL4", musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-Pacifica-112V-RL-Black/art-GIT0056349-000", amazon: "https://www.amazon.com/dp/B0010X7LF8", andertons: "https://www.andertons.co.uk/yamaha-pacifica-112v-mx-in-yellow-natural-satin-with-remote-lesson/", zzounds: "https://www.zzounds.com/a--925521/item--YAMPAC112V" } },
+  103: { prices: { gear4music: "£289.00", musicstore: "€349.00", zzounds: "$379,519.99", amazon: "$349.00", andertons: "£289.00" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-Pacifica-112V-Natural-Satin/3SL4", musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-Pacifica-112V-RL-Black/art-GIT0056349-000", amazon: "https://www.amazon.com/dp/B0010X7LF8", andertons: "https://www.andertons.co.uk/yamaha-pacifica-112v-mx-in-yellow-natural-satin-with-remote-lesson/", zzounds: "https://www.zzounds.com/a--925521/item--YAMPAC112V" } },
   459: { prices: { gear4music: "£129.00", andertons: "£129.00", musicstore: "€129.00", zzounds: "$239.99", amazon: "$149.99" }, urls: { gear4music: "https://www.gear4music.com/Guitar-and-Bass/Yamaha-C40-III-Classical-Guitar/A20", andertons: "https://www.andertons.co.uk/yamaha-c40ii-nylon-classical-guitar/", musicstore: "https://www.musicstore.com/en_OE/EUR/Yamaha-C40-Classical-Guitar-/art-GIT0000636-000", zzounds: "https://www.zzounds.com/item--YAMC40PK" } },
   3001: { prices: { gear4music: "£145.00", musicstore: "€179.00", zzounds: "$199.99", andertons: "£139.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Fender-Studio-Pro-8/7SI3", musicstore: "https://www.musicstore.com/en_OE/EUR/Fender-Studio-Pro-8-License-Code/art-PCM0018746-000", zzounds: "https://www.zzounds.com/item--FENSTUDIOPRO", andertons: "https://www.andertons.co.uk/fender-studio-pro-8-daw" } },
   3002: { prices: { gear4music: "£69.00", musicstore: "€79.00", andertons: "£69.00" }, urls: { gear4music: "https://www.gear4music.com/Recording-and-Computers/Ableton-Live-12-Intro/6A9I", musicstore: "https://www.musicstore.com/en_OE/EUR/Ableton-Live-12-Intro-License-Code/art-PCM0018005-000", andertons: "https://www.andertons.co.uk/ableton-live-12-intro-esd" }, oos: ["zzounds"] },
@@ -5524,7 +5524,7 @@ const TEST_SHOP_BTN = {
       gear4music: "£999.00",
       andertons: "£1,099.00",
       amazon: "$1,099.99",
-      musicstore: "€1083.00"
+      musicstore: "€1,083.00"
     }
   },
   486: {
@@ -6128,14 +6128,14 @@ const TEST_SHOP_BTN = {
   },
   548: {
     prices: {
-      gear4music: "£1044.00",
+      gear4music: "£1,044.00",
       zzounds: "$1,400.00",
       andertons: "£1,149.00"
     }
   },
   549: {
     prices: {
-      andertons: "£2049.00",
+      andertons: "£2,049.00",
       musicstore: "€2,440.00"
     }
   },
