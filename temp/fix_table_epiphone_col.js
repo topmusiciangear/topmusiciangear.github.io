@@ -3,18 +3,24 @@ const B = 'C:/Users/Daniel/projects/topmusiciangear/';
 const p = B + 'data/guides.json';
 const g = JSON.parse(fs.readFileSync(p, 'utf8'));
 const guide = g.find(x => x.id === 'best-beginner-electric-guitar');
+const pt = guide.productTable;
 
-// Add Epiphone column at position 3 (between Squier Sonic Stratocaster HT and Jet Guitars JS-300)
-const epiphoneColumn = {
-  title: 'Epiphone Les Paul Special-II E1',
-  title_es: 'Epiphone Les Paul Special-II E1'
-};
+const epiphoneValues = [
+  { value: 'Best all-rounder for most beginners', value_es: 'Todo-terreno para la mayoría de principiantes' },
+  { value: 'Poplar', value_es: 'Álamo' },
+  { value: 'Slim GRG maple', value_es: 'Mástil GRG delgado de arce' },
+  { value: '2 IBZ-6 humbuckers', value_es: '2 humbuckers IBZ-6' },
+  { value: '25.5 in (648 mm)', value_es: '25,5" (648 mm)' },
+  { value: 'Fixed F106 bridge', value_es: 'Puente fijo F106' },
+  { value: 'Die-cast', value_es: 'Fundición' },
+  { value: '~7.7 lb (3.5 kg)', value_es: '~7,7 lb (3,5 kg)' }
+];
 
-guide.productTable.columns.splice(3, 0, epiphoneColumn);
-
-// Verify
-console.log('Columns after insert:', guide.productTable.columns.length);
-guide.productTable.columns.forEach((c, i) => console.log('  Col ' + i + ': ' + c.title));
+pt.rows.forEach((row, ri) => {
+  if (row.values) {
+    row.values[3] = epiphoneValues[ri];
+  }
+});
 
 fs.writeFileSync(p, JSON.stringify(g, null, 2), 'utf8');
-console.log('data/guides.json actualizado');
+console.log('data/guides.json actualizado con columna Epiphone corregida');
