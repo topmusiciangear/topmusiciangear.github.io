@@ -1,0 +1,14 @@
+const fs = require('fs');
+const html = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/budget-mics_es.html', 'utf8');
+console.log('cardioid (EN supercardioid):', html.includes('cardioid'));
+console.log('Supercardioide (old):', html.includes('Supercardioide'));
+console.log('large-diaphragm:', html.includes('large-diaphragm'));
+console.log('Includes mount:', html.includes('Includes mount'));
+console.log('Incluye soporte:', html.includes('Incluye soporte'));
+console.log('No built-in pad:', html.includes('No built-in pad'));
+console.log('Sin pad ni filtro:', html.includes('Sin pad ni filtro'));
+console.log('por menos de $200:', html.includes('por menos de $200'));
+console.log('Small-diaphragm cardioid condenser:', html.includes('Small-diaphragm cardioid condenser'));
+console.log('Condensador cardioide de pequeno diafragma:', html.includes('Condensador cardioide de pequeno diafragma'));
+console.log('SM58 score 9.4:', html.includes('9.4'));
+console.log('SM58 score 8.9:', html.includes('8.9'));
