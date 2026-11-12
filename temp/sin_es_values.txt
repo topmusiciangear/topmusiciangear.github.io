@@ -1,0 +1,315 @@
+### ableton-vs-fl-studio (name1: "Ableton Live 12 Suite" / "FL Studio Producer Edition")
+  specs[2] label=""
+    val1: "70+ (Wavetable, Operator, Sampler, Analog, etc.)"
+  specs[2] label=""
+    val2: "30+ (Sytrus, Harmless, Sakura, etc.)"
+
+### ableton-vs-logic (name1: "Ableton Live 12 Suite" / "Logic Pro")
+  specs[3] label=""
+    val1: "Electronic, live performance"
+  specs[3] label=""
+    val2: "Recording, mixing, production"
+  specs[4] label=""
+    val1: "Wavetable, Operator, Analog, Collision + Max for Live"
+  specs[4] label=""
+    val2: "Alchemy, Retro Synth, Sculpture, Studio Piano/Bass + Session Players"
+
+### active-vs-passive-pa (name1: "EV ZLX-12P-G2" / "QSC K12.2")
+  specs[2] label="Woofer"
+    val2: "12\" with 1.75\" Compression Driver"
+  specs[2] label="Woofer"
+    val3: "12\" with 1.4\" Compression Driver"
+  specs[5] label="DSP"
+    val1: "Presets (Music/Speech/Monitor)"
+
+### at2020-vs-p120 (name1: "Audio-Technica AT2020" / "AKG P120")
+  specs[0] label=""
+    val2: "Condenser, 2/3\" back electret"
+
+### blues-junior-vs-ac30 (name1: "Fender Blues Junior IV" / "Vox AC30")
+  specs[1] label=""
+    val2: "2 x 12\" Celestion Greenback"
+  specs[4] label=""
+    val1: "Spring reverb, effects loop"
+
+### bridge-cast-x-vs-rodecaster-pro2 (name1: "Roland Bridge Cast X" / "RØDECaster Pro II")
+  specs[0] label=""
+    val1: "Dual-bus streaming mixer + video capture"
+  specs[0] label=""
+    val2: "All-in-one broadcast console"
+  specs[1] label=""
+    val1: "Solo gaming with consoles and cameras"
+  specs[1] label=""
+    val2: "Voice-first shows, interviews and guests"
+  specs[2] label=""
+    val1: "1x XLR with 48V phantom + headset mic jack"
+  specs[2] label=""
+    val2: "4x Neutrik combo (mic/line/instrument)"
+  specs[3] label=""
+    val2: "76dB Revolution, -131.5dBV EIN"
+  specs[4] label=""
+    val1: "2x HDMI in + thru up to 4K60; USB out up to 1080p60"
+  specs[5] label=""
+    val1: "2 buses (STREAM + PERSONAL), knob control"
+  specs[5] label=""
+    val2: "9 channels, 6 physical + 3 virtual faders"
+  specs[6] label=""
+    val1: "6 assignable pads, up to 30 shortcuts"
+  specs[6] label=""
+    val2: "8 SMART pads, 64 actions across banks"
+  specs[7] label=""
+    val1: "VT voice changer + 5 Game EQ presets"
+  specs[7] label=""
+    val2: "APHEX suite + EQ, gate, de-esser"
+  specs[8] label=""
+    val1: "2x USB-C, 2x HDMI in, HDMI thru, aux in"
+  specs[8] label=""
+    val2: "Dual USB-C, Bluetooth, Wi-Fi, Ethernet"
+  specs[9] label=""
+    val2: "Multitrack/stereo to microSD, USB or computer"
+
+### c414-vs-u87 (name1: "AKG C414 XLII" / "Neumann U 87 Ai")
+  specs[1] label=""
+    val2: "Omni / Cardioid / Figure-8"
+
+### digitakt-ii-vs-tr8s (name1: "Elektron Digitakt II" / "Roland TR-8S")
+  specs[1] label=""
+    val2: "ACB Modeling + Sample Layering"
+  specs[2] label=""
+    val2: "16-step, Real-time Recording"
+
+### dxr-vs-prx (name1: "Yamaha DXR12mkII Active PA Speaker" / "JBL PRX ONE Active PA Column")
+  specs[1] label=""
+    val1: "1,100W (950W LF + 150W HF)"
+
+### ew-iem-g4-twin-vs-psm300 (name1: "Sennheiser ew IEM G4-TWIN-E" / "Shure PSM300")
+  specs[0] label=""
+    val1: "Stereo twin wireless IEM set"
+  specs[0] label=""
+    val2: "Single-channel wireless IEM system"
+  specs[8] label=""
+    val2: "Audio Reference Companding"
+
+### fabfilter-vs-ozone (name1: "FabFilter Total Bundle" / "iZotope Ozone 12 Advanced")
+  specs[0] label=""
+    val1: "10 (Pro-Q 4, Pro-C 3, Pro-L 2, Pro-R 2, Saturn 2, Timeless 3, Volcano 3, Twin 3, etc.)"
+  specs[0] label=""
+    val2: "20+ modules (Stem EQ, Clarity, Stabilizer, Maximizer, Tonal Balance, etc.)"
+  specs[2] label=""
+    val1: "Yes (Plugin Delay Compensation)"
+  specs[2] label=""
+    val2: "Yes (Plugin Delay Compensation)"
+
+### ie900-vs-se846 (name1: "Sennheiser IE 900" / "Shure SE846 Gen 2")
+  specs[0] label=""
+    val1: "Single 7mm dynamic driver (XWB)"
+  specs[0] label=""
+    val2: "4 balanced-armature drivers, 3-way crossover"
+  specs[3] label=""
+    val1: "123 dB SPL (1 kHz, 1 Vrms)"
+  specs[6] label=""
+    val2: "4 swappable (extended, balanced, warm, bright)"
+  specs[7] label=""
+    val1: "MMCX (3.5mm, 2.5mm, 4.4mm cables)"
+  specs[7] label=""
+    val2: "MMCX (detachable, True Wireless compatible)"
+
+### j48-vs-rndi (name1: "Radial J48 MK2" / "Rupert Neve RNDI")
+  specs[2] label=""
+    val2: "+20.5 dBu (instrument), +41 dBu (speaker)"
+  specs[3] label=""
+    val2: "Rupert Neve Designs (custom)"
+
+### katana-vs-dsl (name1: "Boss Katana 50 Gen 3" / "Marshall DSL40CR")
+  specs[0] label=""
+    val2: "40W (power reduction to 20W)"
+  specs[3] label=""
+    val1: "5 (Acoustic, Clean, Crunch, Lead, Brown)"
+  specs[3] label=""
+    val2: "2 (Classic Gain, Ultra Gain) each w/2 modes"
+  specs[4] label=""
+    val1: "Booster, Mod, FX, Delay, Reverb"
+  specs[4] label=""
+    val2: "digital reverb, series effects loop"
+
+### nx912-vs-pxm12mp (name1: "EV PXM-12MP" / "RCF NX 912-SMA")
+  specs[2] label=""
+    val2: "12\" + 1.75\" compression driver"
+
+### player-strat-vs-pacifica (name1: "Fender Player Stratocaster" / "Yamaha Pacifica 112V")
+  specs[2] label=""
+    val1: "3 x Player Alnico V Single-Coil"
+  specs[2] label=""
+    val2: "HSS (1 humbucker + 2 single-coil)"
+
+### pro-daw (name1: "Ableton Live 12 Suite" / "Avid Pro Tools Studio")
+  specs[0] label=""
+    val1: "Creative production & performance"
+  specs[0] label=""
+    val2: "Recording, mixing & post-production"
+  specs[7] label=""
+    val2: "Pro Tools tier with timeline editing and collaboration for studio recording and mixing"
+
+### pro-drum-machines (name1: "Elektron Digitakt II" / "Akai MPC Live III")
+  specs[1] label=""
+    val2: "MPC pattern/grid sequencer"
+  specs[3] label=""
+    val1: "12 velocity-sensitive pads"
+  specs[4] label=""
+    val2: "128 GB internal + expandable"
+
+### pro-headphones (name1: "Audeze LCD-MX4" / "Audeze LCD-X")
+  specs[0] label=""
+    val1: "106mm Planar Magnetic Double Fluxor"
+
+### pro-mixers (name1: "Allen & Heath CQ-18T" / "Midas M32R LIVE")
+  specs[6] label=""
+    val1: "Yes (AMM, Gain Assistant, Feedback)"
+
+### pro-plugins (name1: "FabFilter Total Bundle" / "NI Komplete 26 Ultimate")
+  specs[0] label=""
+    val1: "Mixing & mastering processing"
+  specs[2] label=""
+    val1: "Pro-Q 4 EQ, Pro-L 2 Limiter"
+  specs[2] label=""
+    val2: "Native Instruments Kontakt 8, Native Instruments Massive X"
+  specs[3] label=""
+    val1: "Minimal (focus on processing)"
+  specs[4] label=""
+    val1: "Free updates (same version)"
+  specs[4] label=""
+    val2: "Upgrade pricing for new versions"
+
+### pro-tools-vs-cubase (name1: "Avid Pro Tools Studio" / "Steinberg Cubase Pro 15")
+  specs[2] label=""
+    val1: "Celemony Melodyne 5, SoundFlow"
+  specs[2] label=""
+    val2: "60+ (HALion, Groove Agent, Padshop, etc.)"
+  specs[3] label=""
+    val2: "90+ (includes track FX, Channel Strip, etc.)"
+
+### rme-vs-motu (name1: "RME Babyface Pro FS" / "MOTU M2")
+  specs[3] label=""
+    val1: "USB 2.0 (USB-C compatible)"
+
+### rode-wireless-pro-vs-dji-mic-2 (name1: "Rode Wireless PRO" / "DJI Mic 3")
+  specs[0] label=""
+    val1: "Dual-channel wireless lavalier system"
+  specs[0] label=""
+    val2: "Dual-channel wireless lavalier system"
+  specs[2] label=""
+    val2: "Dual-file: 24-bit + 32-bit float"
+  specs[3] label=""
+    val2: "Up to 400m (dual-band 2.4/5GHz)"
+  specs[4] label=""
+    val2: "8h per TX (10h RX, ~28h with case)"
+  specs[5] label=""
+    val2: "Yes (within one frame over 24h)"
+
+### rodecaster-pro2-vs-dlz-creator (name1: "RØDECaster Pro II" / "Mackie DLZ Creator")
+  specs[0] label=""
+    val1: "All-in-one production console"
+  specs[1] label=""
+    val1: "Reliability-first streaming and dual-PC"
+  specs[1] label=""
+    val2: "Guided setup, guests and NDI"
+  specs[2] label=""
+    val1: "4x Neutrik combo (mic/line/instrument)"
+  specs[2] label=""
+    val2: "4x XLR/TRS combo + stereo line ins"
+  specs[3] label=""
+    val1: "76dB Revolution, -131.5dBV EIN"
+  specs[4] label=""
+    val1: "6 physical + 3 virtual channels"
+  specs[4] label=""
+    val2: "9x 100mm professional faders"
+  specs[5] label=""
+    val1: "5.5\" touchscreen + rotary encoder"
+  specs[6] label=""
+    val1: "8 SMART pads (64 actions with banks)"
+  specs[7] label=""
+    val1: "Dual USB-C, Bluetooth, Wi-Fi, Ethernet"
+  specs[7] label=""
+    val2: "USB-C, Bluetooth 5.0, NDI over Ethernet"
+  specs[8] label=""
+    val1: "16-track multitrack to microSD/USB/computer"
+  specs[8] label=""
+    val2: "12 channels + main mix to SD/USB"
+
+### scarlett-vs-ssl (name1: "Focusrite Scarlett 2i2 4th Gen" / "SSL 2+ MKII")
+  specs[6] label=""
+    val1: "116 dB (mic) / 120 dB (output)"
+
+### scarlett-vs-volt (name1: "Focusrite Scarlett 2i2 4th Gen" / "Universal Audio Volt 2")
+  specs[1] label=""
+    val1: "116 dB (mic) / 120 dB (output)"
+
+### stream-deck-plus-xl-vs-razer (name1: "Elgato Stream Deck + XL" / "Razer Stream Controller")
+  specs[0] label=""
+    val1: "Streamers in the Elgato/OBS ecosystem"
+  specs[0] label=""
+    val2: "Creators who stream and edit Adobe"
+  specs[1] label=""
+    val1: "36 physical LCD keys (8x4)"
+  specs[1] label=""
+    val2: "12 haptic Switchblade touch keys"
+  specs[2] label=""
+    val1: "6 tactile encoders with push"
+  specs[2] label=""
+    val2: "6 tactile analog dials with push"
+  specs[3] label=""
+    val1: "Touch strip + adjustable magnetic stand"
+  specs[3] label=""
+    val2: "8 programmable buttons + 2 side LCD panels"
+  specs[4] label=""
+    val2: "Loupedeck with Adobe Suite support"
+  specs[5] label=""
+    val2: "Dynamic Mode auto-swaps per app"
+  specs[7] label=""
+    val2: "Windows 10+ / macOS 10.14+"
+
+### studio-subwoofers-setup (name1: "Neumann KH 810 II" / "ATC SCS120 Pro")
+  specs[3] label=""
+    val2: "113 dB cont. / 119 dB peak"
+  specs[4] label=""
+    val2: "Analogue gain, LP, phase, polarity"
+
+### xr18-vs-cq18t (name1: "Behringer XR18" / "Allen & Heath CQ-18T")
+  specs[4] label=""
+    val2: "Gain Assistant + Feedback Assistant"
+
+### PRODUCT 61
+  title: "Peterson StroboClip HD Clip-On Tuner"
+  title_es: "(MISSING)"
+  desc: "The definitive clip-on tuner for high mechanical precision. High-definition strobe screen provides flawless tracking on low guitar and bass frequencies. Protective pads care for the neck. Its compact design and millimeter accuracy deliver professional results without cables."
+  desc_es: "El afinador de pinza definitivo para alta precisión mecánica. Pantalla estroboscópica de alta definición que brinda un rastreo impecable en frecuencias bajas de guitarra y bajo. Sus almohadillas protectoras cuidan el mástil. Su diseño compacto y exactitud milimétrica ofrecen resultados profesionales sin necesidad de usar cables."
+
+### PRODUCT 402
+  title: "Behringer X32"
+  title_es: "Behringer X32"
+  desc: "40-channel (32 mic + 8 aux) digital mixing console with 32 MIDAS-designed preamps, 25 motorized faders, 32-channel USB audio interface, and iPad/iPhone remote control. AES50 ports add up to 48 extra digital inputs and outputs for stage boxes and expanded channel counts."
+  desc_es: "Consola de mezcla digital de 40 canales (32 mic + 8 aux) con 32 preamplificadores diseñados por MIDAS, 25 faders motorizados, interfaz de audio USB de 32 canales y control remoto iPad/iPhone. Los puertos AES50 suman hasta 48 entradas y salidas digitales extra."
+
+### PRODUCT 403
+  title: "Midas M32 LIVE"
+  title_es: "Midas M32 LIVE"
+  desc: "40-channel digital console with 32 award-winning Midas PRO microphone preamps, 25 motorized faders, dual SD multitrack recording, and AES50 networking. Carbon fibre, aluminium and steel construction keeps weight down while surviving tours, and dual SD slots record 32 channels of uncompressed WAV without a computer."
+  desc_es: "Consola digital de 40 canales con 32 preamplificadores Midas PRO, 25 faders motorizados, grabación multitrack dual SD y red AES50. La fibra de carbono, el aluminio y el acero aligeran la consola sin restar resistencia, y las ranuras SD graban 32 canales WAV sin ordenador."
+
+### PRODUCT 414
+  title: "Allen & Heath SQ-6+"
+  title_es: "Allen & Heath SQ-6+"
+  desc: "2026 successor to the best-selling SQ-6: 25 motorized faders, 24 local XLR preamps with the latest converters, 9-inch dark-GUI touchscreen, 16 SoftKeys + 4 SoftRotaries. Same 48-channel 96 kHz XCVI core at 0.7 ms with 8 RackExtra + 4 RackUltra FX engines, 44-bus architecture, 32x32 USB and SQ-Drive multitrack. 15.15 kg."
+  desc_es: "Sucesora 2026 de la superventas SQ-6: 25 faders motorizados, 24 previos XLR locales con los últimos conversores, pantalla táctil oscura de 9 pulgadas, 16 SoftKeys + 4 SoftRotaries. Mismo núcleo XCVI 96 kHz de 48 canales a 0,7 ms con 8 motores RackExtra + 4 RackUltra FX, arquitectura de 44 buses, USB 32x32 y multitrack SQ-Drive. 15,15 kg."
+
+### PRODUCT 9001
+  title: "TC Electronic Polytune Clip"
+  title_es: "(MISSING)"
+  desc: "The definitive premium clip tuner in miniature format. Offers the same speed and polyphonic algorithms of its bigger brothers in an elegant stainless steel clip. Its screen rotates automatically according to position. Its ultrasensitive sensor detects low string vibration instantly."
+  desc_es: "El afinador de clip premium definitivo en formato miniatura. Ofrece la misma velocidad y algoritmos polifónicos de sus hermanos mayores en una elegante pinza de acero inoxidable. Su pantalla gira de manera automática según la posición. Su sensor ultrasensible detecta la vibración de cuerdas graves de forma instantánea."
+
+### PRODUCT 9002
+  title: "Snark ST-8 Super Tight Clip-On Tuner"
+  title_es: "(MISSING)"
+  desc: "Clip-on chromatic tuner for all instruments"
+  desc_es: "Afinador clip-on cromático para todos los instrumentos"

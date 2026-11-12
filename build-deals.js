@@ -200,7 +200,7 @@ function wrapAndertons(url) {
         <div class="deal-price-row"><span class="deal-price">${price}</span>${badge ? ` <span class="deal-badge">${badge}</span>` : ''}</div>
         <div class="deal-save-row">${old}${pctLabel}</div>
         <a href="${dealUrl(d)}" target="_blank" rel="noopener noreferrer sponsored" class="deals-store-btn">★ ${t('View Deal', 'Ver Oferta')}</a>
-        ${d.product_id != null ? (() => { const gl = guidesFor(d.product_id); return gl.length ? `<div class="deal-guides"><span class="deal-guides-label">${t('Find in guide:', 'Ver guía:')}</span> ` + gl.map(g => `<a class="deal-guide-link" href="/guides/${g.id}${isEs ? '_es' : ''}.html">${g.id}</a>`).join(' ') + `</div>` : ''; })() : ''}
+        ${d.product_id != null ? (() => { const gl = guidesFor(d.product_id); return gl.length ? `<div class="deal-guides"><span class="deal-guides-label">${t('Find in guide:', 'Ver guía:')}</span> ` + gl.map(g => `<a class="deal-guide-link" href="/guides/${g.id}${isEs ? '_es' : ''}.html">${isEs && g.title_es ? g.title_es : g.id}</a>`).join(' ') + `</div>` : ''; })() : ''}
       </div>
     </div>
   </div>`;
