@@ -1052,6 +1052,7 @@ const dir = __dirname;
 
 // Load guide/product data from JSON, store meta from constants
 const guides = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'guides.json'), 'utf8').replace(/^\ufeff/, ''));
+console.log("DEBUG: guides loaded, DrumBrute has dolar:", guides.find(g=>g.id==="best-drum-machine").sections[2].content_es.includes("dólar"));
 const products = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'products.json'), 'utf8'));
 const reviews = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'reviews.json'), 'utf8').replace(/^\ufeff/, ''));
 eval(fs.readFileSync(path.join(dir, 'js', 'constants.js'), 'utf8').replace(/^\ufeff/, '').replace(/^const /gm, 'var '));
@@ -7904,7 +7905,8 @@ function buildGuidePage(guide, lang, idx) {
     return p ? productCard(p, lang) : '';
   }).join('');
 
-  const tocHtml = '';
+  
+const tocHtml = '';
 
   const authorBoxHtml = `<div class="guide-author-box">
     <div class="guide-author-box-body">
@@ -7974,6 +7976,7 @@ function buildGuidePage(guide, lang, idx) {
         pc = guide.verdictProsCons.find(function(v) { return (isEs && v.name_es ? v.name_es : v.name) === title; });
       }
       var pn = pc ? (isEs && pc.pros_es ? pc.pros_es : pc.pros) : undefined;
+      if (pc && pc.name === "Arturia DrumBrute Impact" && isEs) console.log("DEBUG pn:", pn ? pn[3] : "none");
       var cn = pc ? (isEs && pc.cons_es ? pc.cons_es : pc.cons) : undefined;
       var agg = (function(){ var st = reviewStats(p.id); return st ? { "@type": "AggregateRating", "ratingValue": st.ratingValue, "reviewCount": st.reviewCount, "bestRating": 5, "worstRating": 1 } : null; })();
       var reviewEnts = reviews.filter(function(r) { return r.productId === p.id; }).map(function(r) {
@@ -8528,6 +8531,8 @@ guides.forEach((guide, idx) => {
     const filename = lang === 'es' ? `${guide.id}_es.html` : `${guide.id}.html`;
     fs.writeFileSync(path.join(outDir, filename), html, 'utf8');
     console.log(`Generated: guides/${filename}`);
+    if (guide.id === "best-drum-machine" && lang === "es") { console.log("DEBUG WRITE:", html.includes("dólar") ? "DOLAR" : "EURO"); }
+    if (guide.id === "best-drum-machine" && lang === "es") console.log("DEBUG HTML DrumBrute ES:", html.includes("dólar") ? "DOLAR" : (html.includes("euro") ? "EURO" : "NEITHER"));
   });
 });
 
