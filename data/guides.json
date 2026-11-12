@@ -31108,7 +31108,7 @@
         "products": [
           208
         ],
-        "content": "<p><strong>A small-diaphragm condenser with almost no self-noise is a different tool from a large-diaphragm one, and the KM 184 is why.</strong> The detail is there when you need it and stays out of the way when you do not, which is why it became the default acoustic guitar, piano and drum overhead in studios that can justify it. Cardioid, compact, and voiced for transparency rather than a signature colour.</p><p><strong>The honest trade.</strong> Small-diaphragm condensers have very little headroom before overload, so a loud guitar or a snare will hit an interface preamp hard where a dynamic would shrug. At $849 it is also priced against large-diaphragm condensers with a more flattering presence, and it will not give you the low-end weight of a ribbon overhead. The reward is a recording that sits in the mix without asking for a single corrective EQ move.</p>",
+        "content": "<p><strong>A large-diaphragm condenser with almost no self-noise is a different tool from a large-diaphragm one, and the KM 184 is why.</strong> The detail is there when you need it and stays out of the way when you do not, which is why it became the default acoustic guitar, piano and drum overhead in studios that can justify it. Cardioid, compact, and voiced for transparency rather than a signature colour.</p><p><strong>The honest trade.</strong> Small-diaphragm condensers have very little headroom before overload, so a loud guitar or a snare will hit an interface preamp hard where a dynamic would shrug. At $849 it is also priced against large-diaphragm condensers with a more flattering presence, and it will not give you the low-end weight of a ribbon overhead. The reward is a recording that sits in the mix without asking for a single corrective EQ move.</p>",
         "content_es": "<p><strong>Un condensador de diafragma pequeño con casi nada de ruido propio es una herramienta distinta de uno de gran diafragma, y el KM 184 es la razón.</strong> El detalle está ahí cuando lo necesitas y no molesta cuando no, y por eso se convirtió en el predeterminado para guitarra acústica, piano y overheads en estudios que pueden permitírselo. Cardioide, compacto y afinado para la transparencia en vez de para un color firma.</p><p><strong>La contrapartida.</strong> Los condensadores de diafragma pequeño tienen muy poco margen antes de saturar, así que una guitarra potente o una caja golpeará fuerte el preamplificador de una interfaz donde un dinámico ni se inmutaría. Con 849 $ además compite con condensadores de gran diafragma de presencia más halagadora, y no te dará el peso de graves de una cinta en overhead. La recompensa es una grabación que se sitúa en la mezcla sin pedirte ni una sola corrección de EC.</p>",
         "verdict": "",
         "verdict_es": "",
@@ -31560,8 +31560,8 @@
               "value_es": "Figura-8"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
               "value": "Hypercardioid",
@@ -31592,8 +31592,8 @@
               "value_es": "Figura-8"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
               "value": "Supercardioid (modified)",
@@ -31604,8 +31604,8 @@
               "value_es": "Cardioide"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             }
           ]
         },
@@ -37788,16 +37788,16 @@
               "value_es": "Cardioide"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
               "value_es": "Cardioide"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
               "value": "Hypercardioid",
@@ -60477,9 +60477,9 @@
       "faq_a7_en": "The Shure SM57 at around $99 is the best value under $100 for instruments and live vocals. For home studio vocals, the Audio-Technica AT2020 around $99 is the classic entry condenser. Both offer professional results without exceeding the budget.",
       "faq_q7_es": "¿Qué micrófono XLR ofrece la mejor relación calidad-precio por menos de $100?",
       "faq_a7_es": "El Shure SM57 por unos $99 es la mejor relación calidad-precio para instrumentos y voces en vivo. Para voces en estudio casero, el Audio-Technica AT2020 por unos $99 es el condensador de entrada clásico. Ambos ofrecen resultados profesionales sin superar el presupuesto.",
-      "faq_q8_en": "What is the best budget XLR microphone under $100?",
+      "faq_q8_en": "What is the best budget XLR microphone under $200?",
       "faq_a8_en": "For that range, pick based on how you record. The Rode NT1 Signature is the quietest large-diaphragm condenser at any price — 4 dBA of self-noise — and the best choice for clean studio vocals and acoustic instruments. The Audio-Technica AT2035 adds a -10 dB pad and an 80 Hz high-pass filter, so it handles loud guitar amps and drums that would overload the AT2020. Both need an XLR interface with 48V phantom power.",
-      "faq_q8_es": "¿Cuál es el mejor micrófono XLR económico por menos de $100?",
+      "faq_q8_es": "¿Cuál es el mejor micrófono XLR económico por menos de $200?",
       "faq_a8_es": "Para ese rango, elige según cómo grabes. La Rode NT1 Signature es el condensador de diafragma grande más silencioso a cualquier precio — 4 dBA de ruido propio — y la mejor opción para voces de estudio limpias e instrumentos acústicos. El Audio-Technica AT2035 añade un pad de -10 dB y un filtro de paso alto de 80 Hz, así que maneja amplificadores de guitarra y baterías fuertes que sobrecargarían al AT2020. Ambos necesitan una interfaz XLR con alimentación phantom de 48V.",
       "faq_q9_en": "Is the Lewitt LCT 240 PRO a good budget microphone?",
       "faq_a9_en": "Yes, it is a strong budget choice for home studio vocals and acoustic instruments. Low self-noise, switchable pad and high-pass filter, and a detailed cardioid capsule make it versatile. It needs phantom power and a treated room to shine, but offers quality above its price.",
@@ -60726,8 +60726,8 @@
               "value_es": "Cardioide"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
@@ -61055,7 +61055,7 @@
         "name": "Sennheiser e935",
         "name_es": "Sennheiser e935",
         "pros": [
-          "High-output supercardioid engineered to cut through dense mixes",
+          "High-output cardioid engineered to cut through dense mixes",
           "All-metal German construction built for professional touring",
           "Shock-mounted capsule reduces handling noise and stage vibration",
           "Hum-compensating coil eliminates electromagnetic interference"
@@ -61064,10 +61064,10 @@
           "Premium price point for a dynamic vocal microphone",
           "XLR only — no USB convenience for home setups",
           "Less versatile than multi-purpose dynamics like the SM58",
-          "Supercardioid pattern — not as wide as cardioid alternatives"
+          "Fixed cardioid pattern — less rear isolation than supercardioid models like the e945"
         ],
         "pros_es": [
-          "Supercardioide de alta salida diseñado para cortar mezclas densas",
+          "Cardioide de alta salida diseñado para cortar mezclas densas",
           "Construcción metálica alemana para tours profesionales",
           "Cápsula con suspensión reduce ruido de manejo y vibración de escenario",
           "Bobina compensadora de zumbido elimina interferencia electromagnética"
@@ -61076,7 +61076,7 @@
           "Precio premium para un micrófono dinámico vocal",
           "Solo XLR — sin comodidad USB para setups caseros",
           "Menos versátil que dinámicos multi-propósito como el SM58",
-          "Patrón supercardioide — no tan amplio como alternativas cardioides"
+          "Patrón cardioide fijo — menos aislamiento trasero que modelos supercardioides como el e945"
         ]
       },
       {
@@ -61112,26 +61112,26 @@
         "name_es": "Lewitt LCT 240 PRO",
         "pros": [
           "Low self-noise 19 dBA for clean recordings in quiet rooms",
-          "Switchable 80Hz high-pass filter and -10 dB pad",
+          "Includes mount, windscreen, and protective bag out of the box",
           "Cardioid pattern focuses source and rejects room noise",
           "Solid metal construction with good shockmount compatibility"
         ],
         "cons": [
           "Requires 48V phantom power",
           "More sensitive to room acoustics than dynamics",
-          "No included accessories",
+          "No built-in pad or low-cut switches on the mic body",
           "Price near top of budget range"
         ],
         "pros_es": [
           "Ruido propio bajo 19 dBA para grabaciones limpias en salas silenciosas",
-          "Filtro high-pass 80Hz conmutable y pad -10 dB",
+          "Incluye soporte, paravientos y bolsa protectora de serie",
           "Patrón cardioide enfoca la fuente y rechaza ruido de sala",
           "Construcción metálica sólida con buena compatibilidad de shockmount"
         ],
         "cons_es": [
           "Requiere alimentación phantom 48V",
           "Más sensible a la acústica de la sala que un dinámico",
-          "Sin accesorios incluidos",
+          "Sin pad ni filtro low-cut integrados en el cuerpo del micrófono",
           "Precio cerca del tope del rango presupuestario"
         ]
       },
@@ -63148,8 +63148,8 @@
               "value_es": "Cardioide"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
@@ -79511,8 +79511,8 @@
               "value_es": "Cardioide/Omni/Bi/Estéreo"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
@@ -96377,32 +96377,32 @@
               "value_es": "Cardioide"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",
               "value_es": "Cardioide"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
               "value": "Hypercardioid",
               "value_es": "Hipercardioide"
             },
             {
-              "value": "Supercardioid",
-              "value_es": "Supercardioide"
+              "value": "Cardioid",
+              "value_es": "Cardioide"
             },
             {
               "value": "Cardioid",

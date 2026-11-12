@@ -796,7 +796,7 @@ var GUIDE_SCORES = {
    "Micrófono de condensador de estudio Audio-Technica AT2020": 9.2,
    "sE Electronics sE7": 9.1,
    "Sennheiser e935": 9.0,
-   "Shure SM58": 8.9,
+   "Shure SM58": 9.4,
    "AKG P120 Medium-Diaphragm Condenser Microphone": 8.8,
    "Micrófono de condensador de diafragma mediano AKG P120": 8.8
   }
