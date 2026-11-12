@@ -1,0 +1,21 @@
+const fs = require('fs');
+let g = fs.readFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/best-beginner-electric-guitar_es.html', 'utf8');
+
+// Reemplazar el tbody existente por el código de 10 columnas en español
+const nuevoTbody = '<tbody>\n  <tr>\n    <td>Ideal para</td>\n    <td>Best all-rounder for most beginners</td>\n    <td>First rock riffs for beginners</td>\n    <td>Simple start for beginners</td>\n    <td>Heavy riffs for beginners</td>\n    <td>Comfortable learning for beginners</td>\n    <td>Rock, punk & metal beginners</td>\n    <td>Kids & smaller hands</td>\n    <td>Play anywhere, no amp needed</td>\n    <td>Serious start for committed beginners</td>\n    <td>Tightest budget Strat start</td>\n  </tr>\n  <tr>\n    <td>Madera del cuerpo</td>\n    <td>Alder</td>\n    <td>Poplar</td>\n    <td>Poplar</td>\n    <td>Mahogany</td>\n    <td>Roasted poplar</td>\n    <td>Poplar</td>\n    <td>Poplar (offset)</td>\n    <td>Carbon fiber</td>\n    <td>Chambered mahogany</td>\n    <td>Poplar</td>\n  </tr>\n  <tr>\n    <td>Mástil</td>\n    <td>C-shape maple</td>\n    <td>C-shape maple, satin</td>\n    <td>Slim C-shape maple</td>\n    <td>Bolt-on mahogany, SlimTaper D</td>\n    <td>Canadian roasted maple, Modern C</td>\n    <td>Slim GRG maple</td>\n    <td>Slim C-shape maple</td>\n    <td>C-shape composite</td>\n    <td>3-piece mahogany, set-in</td>\n    <td>Slim C-shape maple, satin</td>\n  </tr>\n  <tr>\n    <td>Maste y diapasón</td>\n    <td>22 medium, rosewood</td>\n    <td>21 medium jumbo, maple/laurel</td>\n    <td>21 medium, maple</td>\n    <td>22, rosewood</td>\n    <td>22, roasted maple</td>\n    <td>24, purpleheart / bound</td>\n    <td>22 medium jumbo, maple/laurel</td>\n    <td>22, composite</td>\n    <td>22 jumbo, rosewood, 12" radius</td>\n    <td>21 medium jumbo, laurel</td>\n  </tr>\n  <tr>\n    <td>Pastillas</td>\n    <td>HSS — humbucker + 2 singles</td>\n    <td>3 ceramic single coils</td>\n    <td>3 ceramic single coils</td>\n    <td>2 open-coil humbuckers (700T/650R)</td>\n    <td>3 ceramic single coils</td>\n    <td>2 IBZ-6 humbuckers</td>\n    <td>2 ceramic single coils</td>\n    <td>2 humbuckers (Alnico II/V)</td>\n    <td>2 Alnico V humbuckers (VH3n/VH3b)</td>\n    <td>3 ceramic single coils</td>\n  </tr>\n  <tr>\n    <td>Longitud de escala</td>\n    <td>25.5 in (648 mm)</td>\n    <td>25.5 in (648 mm)</td>\n    <td>25.5 in (648 mm)</td>\n    <td>24.75 in (628 mm)</td>\n    <td>25.5 in (648 mm)</td>\n    <td>25.5 in (648 mm)</td>\n    <td>24 in (610 mm)</td>\n    <td>24.75 in (629 mm)</td>\n    <td>24.75 in (628 mm)</td>\n    <td>25.5 in (648 mm)</td>\n  </tr>\n  <tr>\n    <td>Puente</td>\n    <td>Vintage-style tremolo</td>\n    <td>2-point sync tremolo</td>\n    <td>Fixed (hardtail)</td>\n    <td>Tune-o-matic + stopbar</td>\n    <td>Synchronized tremolo</td>\n    <td>Fixed F106 bridge</td>\n    <td>Fixed 6-saddle hardtail</td>\n    <td>Tune-o-matic</td>\n    <td>Tune-o-matic + stopbar</td>\n    <td>6-saddle vintage tremolo</td>\n  </tr>\n  <tr>\n    <td>Mecanicos</td>\n    <td>Sealed die-cast</td>\n    <td>Sealed die-cast</td>\n    <td>Sealed</td>\n    <td>Covered, 14:1 ratio</td>\n    <td>Chrome die-cast</td>\n    <td>Die-cast</td>\n    <td>Sealed die-cast</td>\n    <td>Sealed</td>\n    <td>Die-cast</td>\n    <td>Sealed-gear die-cast</td>\n  </tr>\n  <tr>\n    <td>Peso</td>\n    <td>~7.5 lb (3.4 kg)</td>\n    <td>~7.5 lb (3.4 kg)</td>\n    <td>~7.0 lb (3.2 kg)</td>\n    <td>~7.5 lb (3.4 kg)</td>\n    <td>~7.5 lb (3.4 kg)</td>\n    <td>~7.7 lb (3.5 kg)</td>\n    <td>~6.0 lb (2.7 kg)</td>\n    <td>~6.0 lb (2.7 kg)</td>\n    <td>~7.7 lb (3.5 kg)</td>\n    <td>~6.8 lb (3.1 kg)</td>\n  </tr>\n</tbody>';
+
+const idx = g.indexOf('<tbody>');
+if (idx === -1) {
+  console.error('No se encontró <tbody>');
+  process.exit(1);
+}
+
+let endIdx = g.indexOf('</tbody>', idx);
+if (endIdx === -1) {
+  console.error('No se encontró </tbody>');
+  process.exit(1);
+}
+
+const nuevo = g.slice(0, idx) + nuevoTbody + g.slice(endIdx + '</tbody>'.length);
+fs.writeFileSync('C:/Users/Daniel/projects/topmusiciangear/guides/best-beginner-electric-guitar_es.html', nuevo, 'utf8');
+console.log('HTML ES actualizado exitosamente');
