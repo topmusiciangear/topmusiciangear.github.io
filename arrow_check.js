@@ -1,0 +1,10 @@
+const fs = require('fs');
+var r = fs.readFileSync('guides/best-monitors-for-small-rooms.html','utf8');
+var leftPos = r.indexOf('guide-comp-arrow-left');
+var rightPos = r.indexOf('guide-comp-arrow-right');
+console.log('Left arrow at:', leftPos);
+console.log('Right arrow at:', rightPos);
+console.log('Left 150 chars:', r.substring(leftPos-20, leftPos+150).replace(/\n/g, ' '));
+console.log('Right 150 chars:', r.substring(rightPos-20, rightPos+150).replace(/\n/g, ' '));
+var btnSearch = r.match(/<button[^>]*style=[^>]*>/g);
+console.log('Buttons with inline style:', btnSearch ? btnSearch.length : 0);

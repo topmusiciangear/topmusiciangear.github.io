@@ -1,0 +1,11 @@
+const fs = require('fs');
+var r1 = fs.readFileSync('guides/best-monitors-for-small-rooms.html','utf8');
+var r2 = fs.readFileSync('guides/best-monitors.html','utf8');
+var i1 = r1.indexOf('.guide-comp-controls{');
+var i2 = r2.indexOf('.guide-comp-controls{');
+console.log('small-rooms .guide-comp-controls:', r1.substring(i1, i1+100).replace(/\n/g, ' '));
+console.log('best-monitors .guide-comp-controls:', r2.substring(i2, i2+100).replace(/\n/g, ' '));
+var i3 = r1.indexOf('.guide-comp-controls-top{');
+var i4 = r2.indexOf('.guide-comp-controls-top{');
+console.log('small-rooms .guide-comp-controls-top:', r1.substring(i3, i3+80).replace(/\n/g, ' '));
+console.log('best-monitors .guide-comp-controls-top:', r2.substring(i4, i4+80).replace(/\n/g, ' '));
