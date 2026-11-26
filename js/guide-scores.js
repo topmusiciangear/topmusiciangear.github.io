@@ -76,7 +76,7 @@ var GUIDE_SCORES = {
   "Akai MPC Sample": 9,
   "Roland TR-8S": 9.2,
   "Arturia KeyLab Essential 61 MkIII": 9.3,
-  "Focusrite Scarlett 2i2 4th Gen": 9.4,
+  "Focusrite Scarlett 2i2 4th Gen": 9.2,
   "Beyerdynamic DT 770 Pro": 9.5,
   "Shure SM7B": 9.6,
   "Ableton Live 12 Suite": 9.7
