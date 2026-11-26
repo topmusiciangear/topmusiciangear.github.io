@@ -429,7 +429,7 @@ var GUIDE_SCORES = {
   "RME Babyface Pro FS": 9.8,
   "Audient iD14 MkII": 9.5,
   "MOTU M2": 9.3,
-  "Universal Audio Volt 2 Gen 2": 9.3,
+  "Universal Audio Volt 2": 9.3,
   "Universal Audio Volt 276": 9.1,
   "IK Multimedia AXE I/O": 9
  },
