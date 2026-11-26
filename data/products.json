@@ -299,8 +299,8 @@
     "rating": 4.8,
     "reviews": 7890,
     "badge": "bestSeller",
-    "desc": "The iconic Stratocaster, refined. V-Mod III pickups, Deep C neck profile, and a sleek satin finish. From blues to pop, it's the sound of modern music. The sculpted heel opens upper-fret access, the push/push tone control adds neck-pickup combos, and the upgraded two-point tremolo with cold-rolled steel block returns to pitch reliably.",
-    "desc_es": "La icónica Stratocaster, refinada. Pastillas V-Mod III, perfil de mástil Deep C y un elegante acabado satinado. Del blues al pop, es el sonido de la música moderna. El talón esculpido mejora el acceso agudo, el control de tono push/push añade combinaciones con la pastilla del mástil y el trémolo de dos puntos mejorado vuelve a la afinación.",
+    "desc": "The iconic Stratocaster, refined. V-Mod II pickups, Deep C neck profile, and a sleek satin finish. From blues to pop, it's the sound of modern music. The sculpted heel opens upper-fret access, the push/push tone control adds neck-pickup combos, and the upgraded two-point tremolo with cold-rolled steel block returns to pitch reliably.",
+    "desc_es": "La icónica Stratocaster, refinada. Pastillas V-Mod II, perfil de mástil Deep C y un elegante acabado satinado. Del blues al pop, es el sonido de la música moderna. El talón esculpido mejora el acceso agudo, el control de tono push/push añade combinaciones con la pastilla del mástil y el trémolo de dos puntos mejorado vuelve a la afinación.",
     "img": "img/products/3ca548941a.webp",
     "stores": {
       "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-Stratocaster-MN-Black/860O",
@@ -343,7 +343,8 @@
         },
         "tone": "good"
       }
-    ]
+    ],
+    "desc_en": "The iconic Stratocaster, refined. V-Mod II pickups, Deep C neck profile, and a sleek satin finish. From blues to pop, it’s the sound of modern music. The sculpted heel improves upper-fret access, the push/push tone control adds neck-pickup combinations, and the upgraded 2-point tremolo returns to tune."
   },
   {
     "id": 7,
@@ -12094,8 +12095,8 @@
     "rating": 4.6,
     "reviews": 2100,
     "badge": "premium",
-    "desc": "The Sennheiser IE 900 is a single-dynamic-driver audiophile earphone built around a 7mm TrueResponse transducer in a one-piece precision-milled aluminum housing. Its X3R triple-resonator system removes masking resonances for extended, refined treble, and the driver covers 5 Hz-48 kHz with 123 dB SPL, 18 ohm impedance and <0.05% THD. Three para-aramid reinforced MMCX cables (3.5mm unbalanced, 2.5mm and 4.4mm balanced) plus silicone and memory foam tips ship in the box.",
-    "desc_es": "El Sennheiser IE 900 es un auricular audiófilo de un solo driver dinámico construido alrededor de un transductor TrueResponse de 7mm en una carcasa de aluminio de una pieza fresada con precisión. Su sistema X3R de triple resonador elimina resonancias de enmascaramiento para unos agudos extendidos y refinados, y el driver cubre 5 Hz-48 kHz con 123 dB de SPL, impedancia de 18 ohmios y <0.05% de THD. Incluye tres cables MMCX reforzados con para-aramida (3.5mm no balanceado, 2.5mm y 4.4mm balanceados) más puntas de silicona y espuma.",
+    "desc": "The Sennheiser IE 900 is a single-dynamic-driver audiophile earphone built around a 7mm TrueResponse transducer in a one-piece precision-milled aluminum housing. Its X3R triple-resonator system removes masking resonances for extended, refined treble, and the driver covers 5 Hz-48 kHz with 123 dB SPL, 16 ohm impedance and <0.05% THD. Three para-aramid reinforced MMCX cables (3.5mm unbalanced, 2.5mm and 4.4mm balanced) plus silicone and memory foam tips ship in the box.",
+    "desc_es": "El Sennheiser IE 900 es un auricular audiófilo de un solo driver dinámico construido alrededor de un transductor TrueResponse de 7mm en una carcasa de aluminio de una pieza fresada con precisión. Su sistema X3R de triple resonador elimina resonancias de enmascaramiento para unos agudos extendidos y refinados, y el driver cubre 5 Hz-48 kHz con 123 dB de SPL, impedancia de 16 ohmios y <0.05% de THD. Incluye tres cables MMCX reforzados con para-aramida (3.5mm no balanceado, 2.5mm y 4.4mm balanceados) más puntas de silicona y espuma.",
     "img": "img/products/c3fa51c823.webp",
     "stores": {
       "amazon": "https://www.amazon.com/dp/B094DP3177",
