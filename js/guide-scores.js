@@ -785,7 +785,7 @@ var GUIDE_SCORES = {
   "Arturia MiniFuse 2": 8.7
  },
    "budget-mics": {
-   "Rode NT1 Signature Series": 9.9,
+   "Rode NT1 Signature Series": 9.8,
    "Audio-Technica AT2035": 9.6,
    "sE Electronics X1 S": 9.5,
    "Shure SM57": 9.5,
