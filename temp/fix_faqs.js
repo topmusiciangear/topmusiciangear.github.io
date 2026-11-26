@@ -1,28 +1,15 @@
-const fs = require('fs');
-const f = 'C:/Users/Daniel/projects/topmusiciangear/temp/add_faqs.js';
-let s = fs.readFileSync(f, 'utf8');
-const fixes = [
-  ['una及的 de masa', 'una elevaci\u00f3n de masa'],
-  ['con un ligero downward', 'con una ligera inclinaci\u00f3n hacia abajo'],
-  ['\u201c v\u00eda', ''],
-  ['un margen de acoplamiento. Por \u00faltimo', 'un margen de acoplamiento. Por \u00faltimo'],
-  ['el computers', 'el ordenador'],
-  ['computer in the room', 'ordenador en la sala'],
-  ['a flow', 'un flujo'],
-  ['quetaking', 'quetaking'],
-  ['the right way to align', ''],
-  ['el 7050C va por el otro lado', 'el 7050C va por el otro lado'],
-  ['La posici\u00f3n lo es todo', 'La colocaci\u00f3n lo es todo'],
-  ['La ruta pr\u00e1ctica', 'La ruta pr\u00e1ctica'],
-  ['a la coupe', ''],
-  ['FL con un \u2014', '']
-];
-let n = 0;
-fixes.forEach(([a, b]) => { if (a !== b && s.includes(a)) { s = s.split(a).join(b); n++; } });
-fs.writeFileSync(f, s, 'utf8');
-const cjk = s.match(/[\u4e00-\u9fff]/g);
-console.log('fixes: ' + n + ' | CJK: ' + (cjk ? JSON.stringify([...new Set(cjk)]) : 'ninguno'));
-['的', '及', '轻', 'a flow', 'quetaking', '\u201d v', 'coupe'].forEach(w => {
-  const c = s.split(w).length - 1;
-  if (c) { const i = s.indexOf(w); console.log('!! "' + w + '" x' + c + ' :: ' + JSON.stringify(s.slice(Math.max(0, i - 60), i + 40))); }
-});
+const fs=require('fs');
+let s=fs.readFileSync('data/guides.json','utf8');
+const oldA3=`"faq_a3_en": "The Stratocaster is generally easier to keep in tune. Its 2-point tremolo and lighter string tension are stable with normal use, and string changes and intonation checks are straightforward for regular gigging use. The Les Paul has a hard-tail tune-o-matic bridge that holds tune well too, but the bigger strings and shorter scale mean you may need G-string compensation and regular setup attention. For stage reliability with heavy playing, the Strat is the lower-maintenance choice."`;
+const newA3=`"faq_a3_en": "The Stratocaster is generally easier to keep in tune. Its straight string pull at the headstock, ClassicGear Precision tuners, and well-setup 2-point tremolo stay remarkably stable, and intonation adjustments are quick for regular gigging. The Les Paul's fixed ABR-1 bridge holds pitch solidly too, though the angled 3+3 headstock puts extra friction on the D and G strings at the nut, requiring careful lubrication and setup. For stage reliability with minimal fuss, the Strat is the lower-maintenance choice."`;
+const oldA4=`"faq_a4_en": "It depends on the sound and feel you want, not the quality — both are superb. The American Pro Stratocaster has V-Mod III pickups, a comfortable deep C neck and a versatile 5-way switching that covers everything from glassy cleans to rock. The Les Paul Standard 60s delivers the thick mahogany-and-maple sustain and Burstbucker PAF tone that is the rock reference. Choose the Strat for versatility and comfort, the Les Paul for heavy, singing sustain."`;
+const newA4=`"faq_a4_en": "For most working players, yes — especially considering the Fender typically costs around $900–$1,000 less than the Gibson. You get pro-level American build quality, V-Mod III pickups with push-push neck-blend wiring, and effortless upper-fret access for significantly less money. Unless you specifically need the thick, compressed sustain and dual-humbucker roar of a solid mahogany Les Paul, the American Pro Stratocaster delivers greater tonal range and better value per dollar."`;
+const oldA3es=`"faq_a3_es": "La Stratocaster es generalmente más fácil de mantener afinada. Su trémolo de 2 puntos y menor tensión de cuerdas son estables con uso normal, y el ajuste es sencillo. La Les Paul tiene puente tune-o-matic fijo que también aguanta bien la afinación, pero las cuerdas más gruesas y la escala más corta significan que quizá necesites compensación en la cuerda G y ajustes regulares. Para fiabilidad en escenario con ejecución intensa, la Strat es la de menor mantenimiento."`;
+const newA3es=`"faq_a3_es": "La Stratocaster suele ser más fácil de mantener afinada. El tiro recto de cuerdas en el clavijero, las clavijas ClassicGear Precision y un trémolo de 2 puntos bien ajustado se mantienen notablemente estables, y los ajustes de entonación son rápidos para el uso en directo. El puente ABR-1 fijo de la Les Paul también aguanta bien la afinación, aunque el clavijero inclinado 3+3 genera fricción extra en las cuerdas Re y Sol en la cejilla, lo que exige una buena lubricación y un ajuste cuidadoso. Para fiabilidad en escenario con el mínimo mantenimiento, la Strat es la opción más sencilla."`;
+const oldA4es=`"faq_a4_es": "Depende del sonido y tacto que quieras, no de la calidad — ambas son magníficas. La American Pro Stratocaster tiene pastillas V-Mod III, mástil C profundo y cómodo y un selector de 5 posiciones versátil que cubre desde limpios cristalinos hasta rock. La Les Paul Standard 60s entrega el sustain grueso de caoba y arce y el tono PAF Burstbucker que es la referencia del rock. Elige la Strat por versatilidad y comodidad, la Les Paul por sustain pesado y cantarín."`;
+const newA4es=`"faq_a4_es": "Para la mayoría de músicos que tocan en activo, sí, sobre todo teniendo en cuenta que la Fender suele costar entre 900 y 1.000 dólares menos que la Gibson. Obtienes construcción americana de nivel profesional, pastillas V-Mod III con cableado push-push para mezclar el mástil y acceso cómodo a los trastes altos por bastante menos dinero. A menos que necesites específicamente el sustain grueso y comprimido y el rugido de doble humbucker de una Les Paul de caoba maciza, la American Pro Stratocaster ofrece más rango tonal y mejor relación calidad-precio."`;
+for (const [o,n,k] of [[oldA3,newA3,'a3en'],[oldA4,newA4,'a4en'],[oldA3es,newA3es,'a3es'],[oldA4es,newA4es,'a4es']]) {
+  if(!s.includes(o)){ console.error('MISS',k); process.exit(1); }
+  s=s.replace(o,n); console.log('OK',k);
+}
+fs.writeFileSync('data/guides.json',s);
