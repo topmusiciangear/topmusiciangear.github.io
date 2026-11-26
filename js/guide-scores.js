@@ -64,7 +64,7 @@ var GUIDE_SCORES = {
  },
  "audient-vs-motu": {
   "Audient iD14 MkII": 9.8,
-  "MOTU M2": 9.4
+  "MOTU M2": 9.3
  },
  "repitch-vs-melodyne": {
   "Synchro Arts RePitch 2 Standard": 9.6,
@@ -776,7 +776,7 @@ var GUIDE_SCORES = {
   "Sennheiser HD 280 PRO II": 9.2
  },
  "budget-interfaces": {
-  "Focusrite Scarlett 2i2 4th Gen": 9.7,
+  "Focusrite Scarlett 2i2 4th Gen": 9.2,
   "MOTU M2": 9.4,
   "Universal Audio Volt 2": 9.1,
   "SSL 2+ MKII": 9.6,
