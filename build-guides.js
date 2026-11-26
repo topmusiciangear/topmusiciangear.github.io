@@ -7697,23 +7697,53 @@ function buildGuidePage(guide, lang, idx) {
   const alternateEn = `https://topmusiciangear.com/guides/${guide.id}.html`;
   const alternateEs = `https://topmusiciangear.com/guides/${guide.id}_es.html`;
 
-  const allProductIds = [...new Set(guide.sections.flatMap(s => s.products))];
-  allProductIds.sort((a, b) => {
-    const pa = products.find(pr => pr.id === a);
-    const pb = products.find(pr => pr.id === b);
-    const sa = pa ? (guideScore(pa, guide.id) || 0) : 0;
-    const sb = pb ? (guideScore(pb, guide.id) || 0) : 0;
-    return sb - sa;
+  const _productScore = function(pid) {
+    var p = products.find(function(pr) { return pr.id === pid; });
+    var s = p ? parseFloat(p.score) : NaN;
+    return isNaN(s) ? -1 : s;
+  };
+  const _sectionScore = function(s) {
+    var pids = (s && s.products) ? s.products : [];
+    var best = -1;
+    for (var i = 0; i < pids.length; i++) {
+      var sc = _productScore(pids[i]);
+      if (sc > best) best = sc;
+    }
+    return best;
+  };
+  // Keep intro/no-product/skipMedia/buying-guide sections in place; sort product-review sections by score desc.
+  const orderedSections = (function() {
+    var src = guide.sections || [];
+    var out = new Array(src.length);
+    var reviewIdx = [];
+    var isIntroLike = function(s) {
+      var h = String((s.heading || '') + ' ' + (s.heading_es || '')).toLowerCase();
+      return /what to look for|how to choose|before you buy|buying guide|what to consider|things to consider|qu[eé] buscar|c[oó]mo elegir|antes de comprar|gu[ií]a de compra|qu[eé] considerar|aspectos a considerar/.test(h);
+    };
+    src.forEach(function(s, i) {
+      var hasProducts = s && s.products && s.products.length > 0;
+      var isReview = hasProducts && !s.skipMedia && !isIntroLike(s);
+      if (isReview) reviewIdx.push(i); else out[i] = s;
+    });
+    var sortedReviews = reviewIdx.map(function(i) { return { i: i, s: src[i], score: _sectionScore(src[i]) }; })
+      .sort(function(a, b) { return (b.score - a.score) || (a.i - b.i); })
+      .map(function(x) { return x.s; });
+    reviewIdx.forEach(function(i, k) { out[i] = sortedReviews[k]; });
+    return out.filter(Boolean);
+  })();
+  const allProductIdsOrdered = [...new Set(orderedSections.flatMap(function(s) { return s.products || []; }))];
+  const allProductIds = allProductIdsOrdered.slice().sort(function(a, b) {
+    return (_productScore(b) - _productScore(a)) || (allProductIdsOrdered.indexOf(a) - allProductIdsOrdered.indexOf(b));
   });
 
   const renderedProducts = new Set();
-  // Photo ownership: each product's photo belongs to its dedicated section —
+  // Photo ownership: each product's photo belongs to its dedicated section -
   // the single-product section whose heading names it (first wins on ties).
   // Generic overviews never steal the photo from the dedicated one.
   const photoOwner = {};
   (function() {
     var byPid = {};
-    guide.sections.forEach(function(s, si) {
+    orderedSections.forEach(function(s, si) {
       if (s.skipMedia) return;
       var prods = s.products || [];
       if (prods.length !== 1) return;
@@ -7733,7 +7763,7 @@ function buildGuidePage(guide, lang, idx) {
       photoOwner[pid] = c[0].si;
     });
   })();
-  const sectionsHtml = guide.sections.map((s, si) => {
+  const sectionsHtml = orderedSections.map((s, si) => {
     const h = isEs && (s.heading_es || s.h_es || '') ? (s.heading_es || s.h_es || '') : (s.heading || s.h || '');
     const c = esText(isEs && s.content_es, s.content);
     const boldedC = boldFirstSentence(c);
@@ -8165,7 +8195,7 @@ header{position:sticky!important;top:0!important;transform:none!important}
       ${guide.verdict ? `<div class="guide-verdict">
         <div class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</div>
         <div class="verdict-text">${verdictHighlighted}</div>
-        ${guide.verdictProsCons ? (function(){ return '<div class="guide-verdict-grid">' + guide.verdictProsCons.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div>'+(guide.verdictSideBySide ? '<div class="verdict-pros-cons">' : '')+'<div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div>'+(guide.verdictSideBySide ? '</div>' : '')+'</div>' }).join('') + '</div>'; })() : ''}
+        ${guide.verdictProsCons ? (function(){ var _normN=function(s){return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();}; var _vpcScore=function(vp){ var sa=_productScore((vp.productId||vp.id)); if(sa>=0) return sa; var vn=_normN(vp.name), ve=_normN(vp.name_es); var best=null; for(var i=0;i<products.length;i++){ var pr=products[i]; var pt=_normN(pr.title), pe=_normN(pr.title_es); var m=(vn&& (pt===vn||pe===vn||pt.indexOf(vn)===0||vn.indexOf(pt)===0)) || (ve&& (pt===ve||pe===ve||pt.indexOf(ve)===0||ve.indexOf(pt)===0)); if(m){ var sc=parseFloat(pr.score); if(!isNaN(sc) && (!best||sc>best)) best=sc; } } return best!=null?best:-1; }; var vpc=guide.verdictProsCons.slice().map(function(p,idx){return {p:p,idx:idx,sc:_vpcScore(p)};}).sort(function(a,b){ return (b.sc-a.sc)||(a.idx-b.idx); }).map(function(x){return x.p;}); return '<div class="guide-verdict-grid">' + vpc.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div>'+(guide.verdictSideBySide ? '<div class="verdict-pros-cons">' : '')+'<div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div>'+(guide.verdictSideBySide ? '</div>' : '')+'</div>' }).join('') + '</div>'; })() : ''}
       </div>` : ''}
       ${guide.comparison ? (function(){ var comp = guide.comparison; var oldSchema = Array.isArray(comp.headers); var headers = oldSchema ? comp.headers : []; var valKeys = oldSchema ? ['val','val2','val3','val4','val5'] : ['val1','val2','val3','val4','val5']; if(!oldSchema){ var fs = guide.featuredSnippet || {}; if(fs.name1_en && fs.name2_en){ headers = [isEs ? (fs.name1_es || fs.name1_en) : fs.name1_en, isEs ? (fs.name2_es || fs.name2_en) : fs.name2_en]; } else if((guide.verdictProsCons||[]).length === 2){ headers = guide.verdictProsCons.map(function(p){ return isEs && p.name_es ? p.name_es : p.name; }); } } if(headers && headers.length > 0){ valKeys = valKeys.slice(0, headers.length); } var colMin = 0; headers.forEach(function(h){ if(String(h).length>colMin) colMin=String(h).length; }); colMin += 2; var thHtml = headers.map(function(h,i){ var hn = h; if(oldSchema && isEs && comp['header'+(i+1)+'_es']) hn = comp['header'+(i+1)+'_es']; return '<th>'+hn+'</th>'; }).join(''); var trs = comp.rows.filter(function(r){ var l=(r.label||'').trim().toLowerCase(); if(l==='rating') return false; return true; }).map(function(r){ var tds = '<td class="label">'+(isEs?r.label_es:r.label)+'</td>'; valKeys.forEach(function(k){ var esK = k+'_es'; var v = isEs && r[esK] ? r[esK] : r[k]; tds += '<td class="val">'+(v||'')+'</td>'; }); return '<tr>'+tds+'</tr>'; }).join(''); return '<div class="guide-comp-wrap"><h2 class="guide-comp-title">'+(isEs?'¿Cómo se Comparan?':'How Do They Compare?')+'</h2>'+guideCompControls(isEs,'guide-comp-controls-top')+'<div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll"><table class="guide-comp-table" style="--guide-col-min:'+colMin+'ch"><thead><tr><th></th>'+thHtml+'</tr></thead><tbody>'+trs+'</tbody></table></div>'+guideCompControls(isEs)+'</div></div>'; })() : ''}
       ${guide.productTable && guide.productTable.columns && guide.productTable.columns.length > 0 && guide.productTable.rows && guide.productTable.rows.length > 0 ? (function(){
