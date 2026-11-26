@@ -33539,7 +33539,7 @@
         "name": "Focusrite Scarlett 2i2 4th Gen",
         "name_es": "Focusrite Scarlett 2i2 4ª Gen",
         "pros": [
-          "Clean, low-noise preamps with 56dB of gain and 120dB dynamic range",
+          "Clean, low-noise preamps with 69dB of gain and 120dB dynamic range",
           "Air mode adds an ISA-inspired presence lift for vocals",
           "Stable, well-documented drivers on Windows, macOS and iOS",
           "Solid software bundle including Ableton Live Lite"
@@ -33551,7 +33551,7 @@
           "No onboard DSP for direct monitoring effects"
         ],
         "pros_es": [
-          "preamplificadores limpios y de bajo ruido con 56dB de ganancia y 120dB de rango dinámico",
+          "preamplificadores limpios y de bajo ruido con 69dB de ganancia y 120dB de rango dinámico",
           "El modo Air añade un realce de presencia inspirado en ISA para voces",
           "Drivers estables y bien documentados en Windows, macOS e iOS",
           "Un sólido paquete de software que incluye Ableton Live Lite"
@@ -33661,7 +33661,7 @@
           "At $349 it costs more than the Scarlett 2i2",
           "2-in/4-out analog frame means expansion depends on buying an external preamp later",
           "USB 2.0 speed (not USB 3.0 or Thunderbolt)",
-          "No onboard compressor like the Volt 276"
+          "No MIDI I/O for hardware synths"
         ],
         "pros_es": [
           "Dos previos de micrófono Audient Console con 75 dB de ganancia, el mismo circuito discreto que la ASP8024-HE",
@@ -33674,7 +33674,7 @@
           "A $349 cuesta más que el Scarlett 2i2",
           "El formato analógico de 2 entradas/4 salidas significa que la expansión depende de comprar un previo externo después",
           "Velocidad USB 2.0 (no USB 3.0 ni Thunderbolt)",
-          "Sin compresor integrado como el Volt 276"
+          "Sin MIDI I/O para sintetizadores hardware"
         ]
       },
       {
@@ -33716,7 +33716,7 @@
           "Auto-Gain with Clip Protection and UAD Console app integration"
         ],
         "cons": [
-          "No MIDI I/O (removed from the original Volt 2 Gen 2)",
+          "No MIDI I/O (removed from the original Volt 2)",
           "Only 2 analog inputs, no ADAT expansion",
           "No onboard compressor (Volt 276 has the 76 circuit)",
           "Shared headphone output volume (no independent headphone level)"
@@ -33729,7 +33729,7 @@
           "Auto-Gain con protección contra recorte e integración con la app UAD Console"
         ],
         "cons_es": [
-          "Sin MIDI I/O (eliminado del Volt 2 Gen 2 original)",
+          "Sin MIDI I/O (eliminado del Volt 2 original)",
           "Solo 2 entradas analógicas, sin expansión ADAT",
           "Sin compresor integrado (el Volt 276 tiene el circuito 76)",
           "Volumen de salida de auriculares compartido (sin nivel independiente)"
@@ -33748,7 +33748,7 @@
           "Only 2 analog inputs, no room to grow into multi-mic recording",
           "No ADAT expansion for growing input count",
           "Compressor has a fixed character, less flexible than a plugin",
-          "Costs about $100 more than the Volt 2 Gen 2, essentially for the compressor"
+          "Costs about $70–$80 more than the Volt 2 Gen 2, essentially for the compressor"
         ],
         "pros_es": [
           "Compresor analógico 76 integrado inspirado en el Universal Audio 1176, sin plugins",
@@ -33760,7 +33760,7 @@
           "Solo 2 entradas analógicas, sin margen para crecer a multi-mic",
           "Sin expansión ADAT para ampliar entradas",
           "El compresor tiene un carácter fijo, menos flexible que un plugin",
-          "Cuesta unos $100 más que el Volt 2 Gen 2 básicamente por el compresor"
+          "Cuesta unos $70–$80 más que el Volt 2 Gen 2, básicamente por el compresor"
         ]
       },
       {
