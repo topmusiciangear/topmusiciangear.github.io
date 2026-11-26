@@ -33225,8 +33225,8 @@
               "value_es": "Medición clara para grabar empezando"
             },
             {
-              "value": "Vintage tone for home recording",
-              "value_es": "Tono vintage para grabar en casa"
+              "value": "Tone-shaping & easy workflow",
+              "value_es": "Moldeado tonal y flujo de trabajo fácil"
             },
             {
               "value": "Analog compression on the way in",
@@ -33301,8 +33301,8 @@
               "value_es": "4 entradas / 4 salidas (12 en total)"
             },
             {
-              "value": "2-in / 4-out (+ ADAT)",
-              "value_es": "2 entradas / 4 salidas (+ ADAT)"
+              "value": "10-in / 6-out (2-in / 4-out analog + ADAT)",
+              "value_es": "10-in / 6-out (2-in / 4-out analógico + ADAT)"
             },
             {
               "value": "2-in / 2-out",
@@ -33343,16 +33343,16 @@
               "value_es": "2, +65 dB"
             },
             {
-              "value": "2, 58 dB gain",
-              "value_es": "2, 58 dB de ganancia"
+              "value": "2, 75 dB gain",
+              "value_es": "2, 75 dB de ganancia"
             },
             {
               "value": "2, 60 dB gain",
               "value_es": "2, 60 dB de ganancia"
             },
             {
-              "value": "2, 55 dB gain",
-              "value_es": "2, 55 dB de ganancia"
+              "value": "2, 60 dB gain",
+              "value_es": "2, 60 dB de ganancia"
             },
             {
               "value": "2, 55 dB gain",
@@ -33373,10 +33373,6 @@
               "value_es": "192 kHz"
             },
             {
-              "value": "192 kHz / 32-bit",
-              "value_es": "192 kHz / 32 bits"
-            },
-            {
               "value": "192 kHz",
               "value_es": "192 kHz"
             },
@@ -33385,8 +33381,12 @@
               "value_es": "192 kHz"
             },
             {
-              "value": "96 kHz",
-              "value_es": "96 kHz"
+              "value": "192 kHz",
+              "value_es": "192 kHz"
+            },
+            {
+              "value": "192 kHz",
+              "value_es": "192 kHz"
             },
             {
               "value": "192 kHz",
@@ -33415,8 +33415,8 @@
               "value_es": "24 bits"
             },
             {
-              "value": "32-bit float",
-              "value_es": "32 bits flotante"
+              "value": "32-bit",
+              "value_es": "32-bit"
             },
             {
               "value": "24-bit",
@@ -33427,16 +33427,16 @@
               "value_es": "24 bits"
             },
             {
-              "value": "24-bit",
-              "value_es": "24 bits"
+              "value": "32-bit",
+              "value_es": "32-bit"
             },
             {
               "value": "24-bit",
               "value_es": "24 bits"
             },
             {
-              "value": "24-bit",
-              "value_es": "24 bits"
+              "value": "32-bit",
+              "value_es": "32-bit"
             },
             {
               "value": "24-bit",
@@ -33511,16 +33511,16 @@
               "value_es": "TotalMix FX, SteadyClock FS, MIDI, ADAT"
             },
             {
-              "value": "ScrollControl, JFET DI, ADAT expandable",
-              "value_es": "ScrollControl, DI JFET, ADAT ampliable"
+              "value": "Smartgain, RoomTune, DSP FX, JFET DI, ADAT",
+              "value_es": "Smartgain, RoomTune, DSP FX, JFET DI, ADAT"
             },
             {
               "value": "Full-color LCD, ESS Sabre32 DAC, loopback, MIDI",
               "value_es": "LCD a color, DAC ESS Sabre32, loopback, MIDI"
             },
             {
-              "value": "Vintage Preamp mode, MIDI I/O, direct monitoring",
-              "value_es": "Modo Vintage Preamp, MIDI I/O, monitoreo directo"
+              "value": "Tone Shaping (3 modes), Smart Display, Auto-Gain, loopback",
+              "value_es": "Moldeado tonal (3 modos), Smart Display, Auto-Gain, loopback"
             },
             {
               "value": "76 compressor, Vintage mode, MIDI",
