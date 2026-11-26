@@ -1913,11 +1913,14 @@
     "desc_es": "Preamplificadores con calidad de consola con expansión ADAT. Dos previos de micrófono Audient Console con 75 dB de ganancia limpia, conversión de 32 bits/192 kHz con 128 dB de rango dinámico y DSP integrado (EQ, compresión, reverb). Corrección de monitores RoomTune, Analogue Tone Suite (ORBIT, HMX, LIFT, GLOW) y control de monitores para dos pares de altavoces. Alimentación USB-C.",
     "img": "img/products/9ebbc7b8b3.webp",
     "stores": {
-      "gear4music": "https://www.awin1.com/cread.php?awinmid=1117&awinaffid=2891111&ued=https%3A%2F%2Fwww.gear4music.com%2FRecording-and-Computers%2FAudient-iD2-10in-6out-USB-Audio-Interface%2F4ABC",
-      "amazon": "https://www.amazon.com/dp/B0DXXXXXXX",
-      "andertons": "https://www.andertons.co.uk/audient-id2-10-in-6-out-usb-audio-interface/"
+      "andertons": "https://www.andertons.co.uk/audient-id2-10in6out-high-performance-usb-audio-interface/?search_query=Audient%20iD2",
+      "gear4music": "https://www.gear4music.com/Recording-and-Computers/Audient-iD2-MK3-10-in-6-out-USB-Audio-Interface/8LHA",
+      "zzounds": "https://www.zzounds.com/item--ADIID2?siid=399388",
+      "musicstore": "https://www.musicstore.com/en_OE/EUR/Audient-iD2/art-PCM0019062-000"
     },
-    "oos": [],
+    "oos": [
+      "zzounds"
+    ],
     "score": 9.6,
     "bestFor": {
       "en": "Console preamps with room to grow",
