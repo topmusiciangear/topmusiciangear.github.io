@@ -3490,9 +3490,9 @@
           "label": "Neck",
           "label_es": "Mástil",
           "val1": "Maple, Deep C",
-          "val2": "Mahogany, 50s Vintage",
-          "val1_es": "Maple, Deep C",
-          "val2_es": "Mahogany, 50s Vintage"
+          "val2": "Mahogany, SlimTaper",
+          "val1_es": "Arce, Deep C",
+          "val2_es": "Caoba, SlimTaper"
         },
         {
           "label": "Fretboard",
@@ -3522,9 +3522,9 @@
           "label": "Pickups",
           "label_es": "Pastillas",
           "val1": "3x V-Mod III single-coil",
-          "val2": "Burstbucker 1 + Burstbucker 2 (Alnico II)",
+          "val2": "Burstbucker 61R + 61T (Alnico V)",
           "val1_es": "3x V-Mod III single-coil",
-          "val2_es": "Burstbucker 1 + Burstbucker 2 (Alnico II)"
+          "val2_es": "Burstbucker 61R + 61T (Alnico V)"
         },
         {
           "label": "Bridge",
@@ -3538,9 +3538,9 @@
           "label": "Scale Length",
           "label_es": "Longitud de escala",
           "val1": "25.5\"",
-          "val2": "22.8\"",
+          "val2": "24.75\"",
           "val1_es": "25.5\"",
-          "val2_es": "22.8\""
+          "val2_es": "24.75\""
         }
       ]
     },
