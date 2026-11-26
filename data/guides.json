@@ -19606,7 +19606,7 @@
           "Durable build"
         ],
         "cons": [
-          "Self-noise could be better (12 dBA)",
+          "Self-noise is higher at 20 dB SPL, so treat your room carefully",
           "No shockmount included (only rigid adapter)",
           "Rolled-off bass response",
           "Thin low-mids need EQ for full vocals"
@@ -19618,7 +19618,7 @@
           "Construcción duradera"
         ],
         "cons_es": [
-          "Ruido propio mejorable (12 dBA)",
+          "El ruido propio es más alto (20 dB SPL), así que conviene tratar la sala",
           "No incluye araña antichoque (solo adaptador rígido)",
           "Respuesta de graves recortada",
           "Medios-graves finos que piden EQ para voces plenas"
@@ -29865,7 +29865,7 @@
             },
             {
               "value": "120 Ω",
-              "value_es": "100 Ω"
+              "value_es": "120 Ω"
             },
             {
               "value": "300 Ω",
@@ -29903,7 +29903,7 @@
             },
             {
               "value": "104 dB",
-              "value_es": "114 dB"
+              "value_es": "104 dB"
             },
             {
               "value": "97 dB",
@@ -29941,7 +29941,7 @@
             },
             {
               "value": "12 Hz – 34 kHz",
-              "value_es": "5 Hz – 30 kHz"
+              "value_es": "12 Hz – 34 kHz"
             },
             {
               "value": "12 Hz – 40.5 kHz",
@@ -87872,8 +87872,8 @@
         "heading": "The Contenders",
         "heading_es": "Los contendientes",
         "skipMedia": true,
-        "content": "<strong>Two approaches to beatmaking — deep sequencing vs standalone production.</strong> The Elektron Digitakt II is a powerful drum computer and sampler built around the well-regarded Elektron sequencer. 8 audio tracks with sampling, 8 MIDI tracks, Overbridge integration, and a compact form factor designed for hands-on sound design and performance. The Akai MPC Live III is a complete standalone music production system with an 8-core processor, 8GB RAM, 128GB storage, MPC3 OS, new MPCe 3D-sensing pads, built-in mic and speakers, and rechargeable battery. It's a full studio that fits in a backpack.",
-        "content_es": "<strong>Dos enfoques para hacer beats — secuenciación avanzada vs producción autónoma.</strong> El Elektron Digitakt II es una potente máquina de ritmos y sampler construida alrededor del legendario secuenciador Elektron. 8 pistas de audio con sampling, 8 pistas MIDI, integración Overbridge y un formato compacto pensado para el diseño sonoro práctico y performance. El Akai MPC Live III es un sistema de producción musical autónomo completo con procesador de 8 núcleos, 8 GB de RAM, 128 GB de almacenamiento, MPC3 OS, nuevos pads MPCe con detección 3D, micrófono y altavoces integrados y batería recargable. Es un estudio completo que cabe en una mochila.",
+        "content": "<strong>Two approaches to beatmaking — deep sequencing vs standalone production.</strong> The Elektron Digitakt II is a powerful drum computer and sampler built around the well-regarded Elektron sequencer. 16 tracks configurable as audio or MIDI, Overbridge integration, and a compact form factor designed for hands-on sound design and performance. The Akai MPC Live III is a complete standalone music production system with an 8-core processor, 8GB RAM, 128GB storage, MPC3 OS, new MPCe 3D-sensing pads, built-in mic and speakers, and rechargeable battery. It's a full studio that fits in a backpack.",
+        "content_es": "<strong>Dos enfoques para hacer beats — secuenciación avanzada vs producción autónoma.</strong> El Elektron Digitakt II es una potente máquina de ritmos y sampler construida alrededor del legendario secuenciador Elektron. 16 pistas configurables como audio o MIDI, integración Overbridge y un formato compacto pensado para el diseño sonoro práctico y performance. El Akai MPC Live III es un sistema de producción musical autónomo completo con procesador de 8 núcleos, 8 GB de RAM, 128 GB de almacenamiento, MPC3 OS, nuevos pads MPCe con detección 3D, micrófono y altavoces integrados y batería recargable. Es un estudio completo que cabe en una mochila.",
         "products": [
           127,
           188
@@ -87982,7 +87982,7 @@
         {
           "label_en": "Storage",
           "label_es": "Almacenamiento",
-          "val1": "1 GB (via CFast)",
+          "val1": "20 GB +Drive",
           "val2": "128 GB internal + expandable"
         },
         {
@@ -88046,18 +88046,18 @@
           "Capacidades profundas de diseño sonoro con efectos y enrutamiento por pista"
         ],
         "cons": [
-          "Only 8 audio tracks — limited for complex productions",
+          "16-track ceiling can feel tight for very large productions",
           "No battery or built-in speakers — you need external power and headphones or monitors to play anywhere",
           "No built-in microphone for field recording",
           "Small screen can be cramped for editing",
-          "CFast storage adds cost — you must buy a separate card to store samples and projects"
+          "20 GB internal +Drive storage is generous, but there is no removable card slot for quick expansion"
         ],
         "cons_es": [
-          "Solo 8 pistas de audio — limitado para producciones complejas",
+          "El límite de 16 pistas puede quedarse corto en producciones muy grandes",
           "Sin batería ni altavoces integrados — necesitas alimentación externa y auriculares o monitores para tocar en cualquier lugar",
           "Sin micrófono integrado para grabación de campo",
           "La pantalla pequeña puede ser limitada para editar",
-          "El almacenamiento CFast añade coste — necesitas comprar una tarjeta aparte para guardar samples y proyectos"
+          "Los 20 GB de almacenamiento interno +Drive son generosos, pero no hay ranura de tarjeta extraíble para ampliar rápido"
         ]
       },
       {
@@ -88114,17 +88114,17 @@
         {
           "label": "Audio Tracks",
           "label_es": "Pistas de audio",
-          "val1": "8",
+          "val1": "16 (audio or MIDI)",
           "val2": "Up to 128",
-          "val1_es": "8",
+          "val1_es": "16 (audio o MIDI)",
           "val2_es": "Hasta 128"
         },
         {
           "label": "MIDI Tracks",
           "label_es": "Pistas MIDI",
-          "val1": "8",
+          "val1": "16 (shared with audio tracks)",
           "val2": "Up to 32 devices",
-          "val1_es": "8",
+          "val1_es": "16 (compartidas con pistas de audio)",
           "val2_es": "Hasta 32 dispositivos"
         },
         {
@@ -88154,9 +88154,9 @@
         {
           "label": "Internal Storage",
           "label_es": "Almacenamiento Interno",
-          "val1": "None (CFast card)",
+          "val1": "20 GB +Drive (400 MB RAM/project)",
           "val2": "128 GB + expandable",
-          "val1_es": "Ninguno (tarjeta CFast)",
+          "val1_es": "20 GB +Drive (400 MB RAM/proyecto)",
           "val2_es": "128 GB + expandible"
         },
         {
@@ -88425,9 +88425,9 @@
           "label": "Scale Length",
           "label_es": "Longitud de Escala",
           "val1": "25.5\"",
-          "val2": "22.8\"",
+          "val2": "24.75\"",
           "val1_es": "25.5\"",
-          "val2_es": "22.8\""
+          "val2_es": "24.75\""
         },
         {
           "label": "Frets",
@@ -89777,17 +89777,17 @@
         {
           "label": "Self-Noise",
           "label_es": "Ruido Propio",
-          "val1": "14dBA",
+          "val1": "12dBA",
           "val2": "10dBA (FET), 13dBA (Tube)",
           "val2_es": "10dBA (FET), 13dBA (Tubo)",
-          "val1_es": "14dBA"
+          "val1_es": "12dBA"
         },
         {
           "label": "Max SPL",
           "label_es": "SPL máximo",
-          "val1": "140dB (with pad)",
+          "val1": "127dB (with pad)",
           "val2": "137dB (FET, 0dB atten)",
-          "val1_es": "140dB (con pad)",
+          "val1_es": "127dB (con pad)",
           "val2_es": "137dB (FET, atten 0dB)"
         },
         {
