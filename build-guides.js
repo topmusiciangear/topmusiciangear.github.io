@@ -7699,7 +7699,8 @@ function buildGuidePage(guide, lang, idx) {
 
   const _productScore = function(pid) {
     var p = products.find(function(pr) { return pr.id === pid; });
-    var s = p ? parseFloat(p.score) : NaN;
+    var s = p ? parseFloat(guideScore(p, CURRENT_GUIDE_ID)) : NaN;
+    if (isNaN(s)) s = p ? parseFloat(p.score) : NaN;
     return isNaN(s) ? -1 : s;
   };
   const _sectionScore = function(s) {
@@ -8195,21 +8196,42 @@ header{position:sticky!important;top:0!important;transform:none!important}
       ${guide.verdict ? `<div class="guide-verdict">
         <div class="verdict-label">${isEs ? 'Veredicto' : 'Verdict'}</div>
         <div class="verdict-text">${verdictHighlighted}</div>
-        ${guide.verdictProsCons ? (function(){ var _normN=function(s){return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();}; var _vpcScore=function(vp){ var sa=_productScore((vp.productId||vp.id)); if(sa>=0) return sa; var vn=_normN(vp.name), ve=_normN(vp.name_es); var best=null; for(var i=0;i<products.length;i++){ var pr=products[i]; var pt=_normN(pr.title), pe=_normN(pr.title_es); var m=(vn&& (pt===vn||pe===vn||pt.indexOf(vn)===0||vn.indexOf(pt)===0)) || (ve&& (pt===ve||pe===ve||pt.indexOf(ve)===0||ve.indexOf(pt)===0)); if(m){ var sc=parseFloat(pr.score); if(!isNaN(sc) && (!best||sc>best)) best=sc; } } return best!=null?best:-1; }; var vpc=guide.verdictProsCons.slice().map(function(p,idx){return {p:p,idx:idx,sc:_vpcScore(p)};}).sort(function(a,b){ return (b.sc-a.sc)||(a.idx-b.idx); }).map(function(x){return x.p;}); return '<div class="guide-verdict-grid">' + vpc.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div>'+(guide.verdictSideBySide ? '<div class="verdict-pros-cons">' : '')+'<div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div>'+(guide.verdictSideBySide ? '</div>' : '')+'</div>' }).join('') + '</div>'; })() : ''}
+        ${guide.verdictProsCons ? (function(){ var _normN=function(s){return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();}; var _vpcScore=function(vp){ var sa=_productScore((vp.productId||vp.id)); if(sa>=0) return sa; var vn=_normN(vp.name), ve=_normN(vp.name_es); var best=null; for(var i=0;i<products.length;i++){ var pr=products[i]; var pt=_normN(pr.title), pe=_normN(pr.title_es); var m=(vn&& (pt===vn||pe===vn||pt.indexOf(vn)===0||vn.indexOf(pt)===0||vn.indexOf(pt)>=0||pt.indexOf(vn)>=0)) || (ve&& (pt===ve||pe===ve||pt.indexOf(ve)===0||ve.indexOf(pt)===0||ve.indexOf(pt)>=0||pt.indexOf(ve)>=0)); if(m){ var sc=parseFloat(guideScore(pr, CURRENT_GUIDE_ID)); if(isNaN(sc)) sc=parseFloat(pr.score); if(!isNaN(sc) && (best==null||sc>best)) best=sc; } } return best!=null?best:-1; }; var vpc=guide.verdictProsCons.slice().map(function(p,idx){return {p:p,idx:idx,sc:_vpcScore(p)};}).sort(function(a,b){ return (b.sc-a.sc)||(a.idx-b.idx); }).map(function(x){return x.p;}); return '<div class="guide-verdict-grid">' + vpc.map(function(p){ var n=isEs&&p.name_es?p.name_es:p.name; var ps=isEs&&p.pros_es?p.pros_es:p.pros; var cs=isEs&&p.cons_es?p.cons_es:p.cons; return '<div class="verdict-col"><div class="verdict-product-name">'+n+'</div>'+(guide.verdictSideBySide ? '<div class="verdict-pros-cons">' : '')+'<div class="verdict-list-group"><span class="verdict-list-label pros">Pros</span><ul class="verdict-pros-list">'+ps.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div><div class="verdict-list-group"><span class="verdict-list-label cons">'+(isEs?'Contras':'Cons')+'</span><ul class="verdict-cons-list">'+cs.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ul></div>'+(guide.verdictSideBySide ? '</div>' : '')+'</div>' }).join('') + '</div>'; })() : ''}
       </div>` : ''}
       ${guide.comparison ? (function(){ var comp = guide.comparison; var oldSchema = Array.isArray(comp.headers); var headers = oldSchema ? comp.headers : []; var valKeys = oldSchema ? ['val','val2','val3','val4','val5'] : ['val1','val2','val3','val4','val5']; if(!oldSchema){ var fs = guide.featuredSnippet || {}; if(fs.name1_en && fs.name2_en){ headers = [isEs ? (fs.name1_es || fs.name1_en) : fs.name1_en, isEs ? (fs.name2_es || fs.name2_en) : fs.name2_en]; } else if((guide.verdictProsCons||[]).length === 2){ headers = guide.verdictProsCons.map(function(p){ return isEs && p.name_es ? p.name_es : p.name; }); } } if(headers && headers.length > 0){ valKeys = valKeys.slice(0, headers.length); } var colMin = 0; headers.forEach(function(h){ if(String(h).length>colMin) colMin=String(h).length; }); colMin += 2; var thHtml = headers.map(function(h,i){ var hn = h; if(oldSchema && isEs && comp['header'+(i+1)+'_es']) hn = comp['header'+(i+1)+'_es']; return '<th>'+hn+'</th>'; }).join(''); var trs = comp.rows.filter(function(r){ var l=(r.label||'').trim().toLowerCase(); if(l==='rating') return false; return true; }).map(function(r){ var tds = '<td class="label">'+(isEs?r.label_es:r.label)+'</td>'; valKeys.forEach(function(k){ var esK = k+'_es'; var v = isEs && r[esK] ? r[esK] : r[k]; tds += '<td class="val">'+(v||'')+'</td>'; }); return '<tr>'+tds+'</tr>'; }).join(''); return '<div class="guide-comp-wrap"><h2 class="guide-comp-title">'+(isEs?'¿Cómo se Comparan?':'How Do They Compare?')+'</h2>'+guideCompControls(isEs,'guide-comp-controls-top')+'<div class="guide-comp-scroll-wrap"><div class="guide-comp-scroll"><table class="guide-comp-table" style="--guide-col-min:'+colMin+'ch"><thead><tr><th></th>'+thHtml+'</tr></thead><tbody>'+trs+'</tbody></table></div>'+guideCompControls(isEs)+'</div></div>'; })() : ''}
       ${guide.productTable && guide.productTable.columns && guide.productTable.columns.length > 0 && guide.productTable.rows && guide.productTable.rows.length > 0 ? (function(){
         var rows = guide.productTable.rows || [];
         if (!rows.length) return '';
+        var _normC=function(s){return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();};
+        var _colScore=function(col){
+          var cn=_normC(isEs&&col.title_es?col.title_es:col.title), ce=_normC(col.title_es), en=_normC(col.title);
+          var best=null;
+          for(var i=0;i<products.length;i++){
+            var pr=products[i], pt=_normC(pr.title), pe=_normC(pr.title_es);
+            var names=[cn,ce,en].filter(Boolean);
+            var match=false;
+            for(var n=0;n<names.length;n++){
+              var nm=names[n];
+              if(nm && (pt===nm||pe===nm||pt.indexOf(nm)>=0||nm.indexOf(pt)>=0||(pe&&(pe.indexOf(nm)>=0||nm.indexOf(pe)>=0)))) { match=true; break; }
+            }
+            if(match){ var sc=parseFloat(guideScore(pr, CURRENT_GUIDE_ID)); if(isNaN(sc)) sc=parseFloat(pr.score); if(!isNaN(sc) && (best==null||sc>best)) best=sc; }
+          }
+          return best;
+        };
+        var colInfo=guide.productTable.columns.map(function(col,idx){ return {col:col, idx:idx, sc:_colScore(col)}; });
+        var canSort=colInfo.length>0 && colInfo.every(function(c){ return c.sc!=null; });
+        if(canSort) colInfo.sort(function(a,b){ return (b.sc-a.sc)||(a.idx-b.idx); });
         var colMin = 0;
-        var headers = guide.productTable.columns.map(function(col){
-          var t = isEs && col.title_es ? col.title_es : col.title;
-          if (t && t.length > colMin) colMin = t.length;
-          return '<th>' + t + '</th>';
+        var headers = colInfo.map(function(ci){
+          var col=ci.col;
+          var ttxt = isEs && col.title_es ? col.title_es : col.title;
+          if (ttxt && ttxt.length > colMin) colMin = ttxt.length;
+          return '<th>' + ttxt + '</th>';
         }).join('');
         colMin += 2;
         var body = rows.map(function(r){
-          return '<tr><td class="label">' + (isEs && r.label_es ? r.label_es : r.label) + '</td>' + r.values.map(function(v){
+          return '<tr><td class="label">' + (isEs && r.label_es ? r.label_es : r.label) + '</td>' + colInfo.map(function(ci){
+            var v = (r.values||[])[ci.idx] || {};
             return '<td class="val">' + (isEs && v.value_es ? v.value_es : v.value) + '</td>';
           }).join('') + '</tr>';
         }).join('');
